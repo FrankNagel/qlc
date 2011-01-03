@@ -77,7 +77,7 @@ diphthong_pattern = vowels+"(-)?"+vowels
 
 print "# pattern to match:", diphthong_pattern.encode("utf-8")
 print
-header = "head_word"+"\t"+"match"+"\t"+"diphthong?"+"\t"+"V1"+"\t"+"V2"+"\t"+"preV1"+"\t"+"preV2"
+header = "head_word"+"\t"+"match"+"\t"+"diphthong?"+"\t"+"V1"+"\t"+"V2"+"\t"+"preV1"+"\t"+"postV2"
 print header
 
 vowel_sequences_across_syllables = {}
