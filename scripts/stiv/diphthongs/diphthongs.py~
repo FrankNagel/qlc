@@ -1,12 +1,11 @@
 #!/usr/bin/python
 
-import sys
 import codecs
 import regex
 import unicodedata
 
 # file = codecs.open("heads_minor1987_1_126.txt", "r", "utf-8")
-file = codecs.open(sys.argv[1], "r", "utf-8")
+file = codecs.open("syllable_forms-minor1987-1-126", "r", "utf-8")
 
 # create list of head words
 def getHeads(file):
@@ -26,18 +25,29 @@ def getNextGrapheme(n, s):
 i.e. base character followed by any combining diacritics, given a position 
 index in the string.
 
-"""
-    # skip the "-"
-    if s[n] == "-":
-        n = n+1
+param:
+n
+int
+index in the string at which the function should start
 
-    result = s[n]
-    for i in range(n+1, len(s)):
-        if i == len(s): 
-            return result
-        if not unicodedata.combining(s[i]):
-            return result
-        if unicodedata.combining(s[i]):
+s
+str
+word to search through
+
+return str (grapheme)
+
+"""
+    result = ""
+    for i in range(n, len(s)):
+        # test if next char is syllable marker (they can also take diacritics, so just return it!)
+        if s[i] == "-":
+            return "-"
+        # get first character
+        if i == n:
+            result += s[i]
+            continue
+        c = s[i]
+        if unicodedata.combining(c):
             result += s[i]
     return result
 
@@ -46,8 +56,7 @@ def getPreviousGrapheme(n, s):
     for i in range(n-1, -1, -1):
         # test if next char is syllable marker (they can also take diacritics, so just return it!)
         if s[i] == "-":
-            continue
-#            return "-"
+            return "-"
         c = s[i]
         if unicodedata.combining(c):
             result += s[i]
@@ -66,8 +75,9 @@ vowels = f.readline()
 grapheme_pattern = regex.compile("\X", regex.UNICODE)
 diphthong_pattern = vowels+"(-)?"+vowels
 
-# print "# pattern to match:", diphthong_pattern.encode("utf-8")
-header = "head_word"+"\t"+"match"+"\t"+"diphthong?"+"\t"+"V1"+"\t"+"V2"+"\t"+"preV1"+"\t"+"postV2"
+print "# pattern to match:", diphthong_pattern.encode("utf-8")
+print
+header = "head_word"+"\t"+"match"+"\t"+"diphthong?"+"\t"+"V1"+"\t"+"V2"+"\t"+"preV1"+"\t"+"preV2"
 print header
 
 vowel_sequences_across_syllables = {}
@@ -78,7 +88,6 @@ for line in words:
 
     # loop through iterator of dipthong matches
     for i in matches:
-
         diphthong_flag = True # teat match as diphthong until proven not
         diphthong = i.group()
 
@@ -100,7 +109,6 @@ for line in words:
             result += "yes"+"\t"
         else:
             result += "no"+"\t"
-
             if not vowel_sequences_across_syllables.has_key(str(graphemes)):
                  vowel_sequences_across_syllables[str(graphemes)] = 1
             else:
@@ -110,12 +118,13 @@ for line in words:
         result += graphemes[-1]+"\t" # get v2 in diphthong
 
 
-        # deal with surrounding grapmehe environments
+        # deal with surrounding environments and get environments
         diphthong_span = i.span()
 
         if diphthong_span[0] == 0:
             result += "#"+"\t"
         else:
+
             result += getPreviousGrapheme(diphthong_span[0], line)+"\t"
 
         if len(line) == diphthong_span[1]:
@@ -125,7 +134,7 @@ for line in words:
 
         print result.encode("utf-8")
 
-
+#        print graphemes, type(graphemes), "len:", len(graphemes)
 #print header
 #print 
 #print "all vowel sequences across syllable boundaries"

@@ -1,0 +1,14 @@
+#!/usr/bin/perl -w
+
+# From a csv of vowel sequences and counts, output each vowel sequence
+# with its probability of being a diphthong (as opposed to a syllable
+# boundary). Format of the csv is:
+#
+# vowel_sequence is_diphthong count
+
+local probs = {};
+
+while (<>) {
+    $row = split;
+    
+}
