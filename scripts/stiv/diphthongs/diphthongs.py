@@ -5,7 +5,7 @@ import codecs
 import regex
 import unicodedata
 
-# file = codecs.open("heads_minor1987_1_126.txt", "r", "utf-8")
+# no-dups-heads_minor1987_1_126.txt
 file = codecs.open(sys.argv[1], "r", "utf-8")
 
 # create list of head words
@@ -126,10 +126,13 @@ for line in words:
         print result.encode("utf-8")
 
 
-#print header
-#print 
-#print "all vowel sequences across syllable boundaries"
+
 #print vowel_sequences_across_syllables
+#print "all vowel sequences across syllable boundaries"
+#for k, v in vowel_sequences_across_syllables.iteritems():
+#    print k, "\t", v
+
+
 
 """
 # an attempt with an list comp
