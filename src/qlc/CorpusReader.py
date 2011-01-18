@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Corpus Reader for data of the project Quantitative L C.
+Corpus Reader for data of the project Quantitative Language Comparison.
 """
 
 import os.path
@@ -173,7 +173,7 @@ class CorpusReaderDict(object):
                     else:
                         head_annotations[entry_id] = [annotation_data[5]]
                         
-                if annotation_data[4] == 'translation':
+                elif annotation_data[4] == 'translation':
                     if annotation_data[0] in translation_annotations:
                         translation_annotations[entry_id].append(annotation_data[5])
                     else:
@@ -197,4 +197,4 @@ class CorpusReaderDict(object):
         Convinience method to return heads and translations for all dictionary parts
         of all books. See headsWithTranslationsForDictdataId() for a description
         """
-        return headsWithTranslationsForDictdataId()
+        return self.headsWithTranslationsForDictdataId()
