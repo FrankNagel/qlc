@@ -18,7 +18,7 @@ def main(argv):
     for dictdata_id in cr.dictdataStringIds():
         heads_with_translations = cr.headsWithTranslationsForDictdataId(dictdata_id)
         dictdata_string = cr.dictdataStringIdForDictataId(dictdata_id)
-        output = codecs.open("heads_with_translations_%s" % dictdata_string, "w", "utf-8")
+        output = codecs.open("heads_with_translations_%s.txt" % dictdata_string, "w", "utf-8")
         
         for entry_id in heads_with_translations:
             for head in heads_with_translations[entry_id]['heads']:

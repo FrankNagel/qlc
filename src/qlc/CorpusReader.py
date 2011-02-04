@@ -135,6 +135,24 @@ class CorpusReaderDict(object):
         return self.dictdata_string_ids[dictdata_id]
 
 
+    def dictdataIdsForBibtexKey(self, param_bibtex_key):
+        """Return an array of dicionary parts IDs for a given book. The book
+        is identified by the so-called bibtex key, which is the string for
+        the book from the URL. For example: "thiesen1998".
+        
+        Args:
+            - param_bibtex_key (obligatory): a string with the bibtex key.
+        Returns:
+            - An array containing all the dictdata IDs for the book.
+        """
+        ret = []
+        for dictdata_id in self.dictdata:
+            book_id = self.dictdata[dictdata_id][7]
+            if self.books[book_id][3] == param_bibtex_key:
+                ret.append(dictdata_id)
+        return ret
+        
+        
     def headsWithTranslationsForDictdataId(self, param_dictdata_id = None):
         """
         Returns a dictionary of all heads and translations for a given dictionary
@@ -198,3 +216,46 @@ class CorpusReaderDict(object):
         of all books. See headsWithTranslationsForDictdataId() for a description
         """
         return self.headsWithTranslationsForDictdataId()
+
+
+    def phonologyForDictdataId(self, param_dictdata_id = None):
+        """Returns a python dict for all phonology annotations of the given
+        dictionary part of a book. The returned dict structure is equivalent to
+        the structure of the method headsWithTranslationsForDictdataId():
+        [ '12435': [
+            "phonology": [ "hund", "hunde" ],
+            "startpage": "120",
+            "pos_on_page": "12"
+            ]
+        ]
+        
+        Args:
+            - param_dictdata_id: the numerical ID of the dictionary part of a book.
+                If not given: returns phonology of all dictionary parts
+                of all books.
+        Returns:
+            - A dicionary containing phonology for each entry, as
+                described above.
+        """
+        phonology_annotations = {}
+        for annotation_id, annotation_data in self.annotations.items():
+            entry_id = annotation_data[0]
+            dictdata_id = self.entries[entry_id][4]
+
+            if (param_dictdata_id == None) or (dictdata_id == param_dictdata_id):
+                if annotation_data[4] == 'phonology':
+                    if annotation_data[0] in phonology_annotations:
+                        phonology_annotations[entry_id].append(annotation_data[5])
+                    else:
+                        phonology_annotations[entry_id] = [annotation_data[5]]
+        
+        ret = {}
+        for entry_id in phonology_annotations:
+            ret[entry_id] = {}
+            ret[entry_id]['phonology'] = phonology_annotations[entry_id]
+            #ret[entry_id]['dictdata_id'] = self.entries[entry_id][4]
+            ret[entry_id]['startpage'] = self.entries[entry_id][5]
+            ret[entry_id]['pos_on_page'] = self.entries[entry_id][9]
+            #ret[entry_id]['dictdata_string_id'] = self.dictdata_string_ids[ self.entries[entry_id][4] ]
+        
+        return ret
