@@ -1,0 +1,390 @@
+NUMERALS DATA
+-------------
+
+2965 total files
+
+Michael's FORMATTING suggestions:
+
+abstract ID: just use a number!
+
+then, in the Language-table, add all this information: name of html file, name of language as used in the file, probably ISO 639 match, person who supplied the data, etc. (if there is more...)
+
+
+CONVERSION FROM HTM TO HTML FILES:
+
+"textutil -stdout -convert html data_lgs/"+filename+" | grep '"+'"p2"'+"' > output_data_lgs/"+filename+"l"
+
+It didn't convert the data correctly in all cases:
+
+Chontal-Lowland-Oaxaca.htm -- loses metadata section: ("Linguists providing data...")
+
+Or compare Ashaninka.html (below) and Ashaninka.htm
+
+<p class="p2">Language name and locationː Asháninka, Peru [Refer to<a href="http://www.ethnologue.com/show_language.asp?code=cni"><span class="s1"> </span><span class="s2">Ethnologue</span></a>]</p>
+<p class="p2">语言名称和分布地区: 阿山宁卡语,  秘鲁</p>
+<p class="p2">1. aparo    </p>
+<p class="p2">2. apito</p>
+<p class="p2">3. mava</p>
+<p class="p2">Linguist providing data and dateː <span class="s3">Mr. Robert A. Croese</span>, 22 December, 1990.</p>
+<p class="p2">Summer Institute of linguistics, Peru</p>
+<p class="p2">提供资料的语言学家<span class="s4">: </span><span class="s3">Mr. Robert A. Croese</span>, 1990 年 12 月 22 日.</p>
+<p class="p2">Other comments: The Asháninka has a basic 'one-two-three... many' counting system</p>
+<p class="p2">and, therefore, did not concern themselves very much with counting things ( not</p>
+<p class="p2">even being able to give an accurate numbers of offspring). Nowadays, they have</p>
+<p class="p2">learned and adopted the Spanish counting system ( not mixed with their own</p>
+<p class="p2">vernacular numbers), which they have learned through the bilingual school system.</p>
+<p class="p2">Note that the words for 'four' and 'five' were not universally, or always accurately employed. But the fist three were fairly solid.</p>
+
+-It appears that certain numeral data in the Word-HTML files do not consistently have <p class="p2"> tags (Ashaninka.htm):
+
+	<tr>
+		<td style="border-style: none solid solid; border-color: rgb(0, 128, 128); border-width: medium 1pt 1pt; padding: 0cm 5.4pt;" valign="top" bgcolor="#ccffff">
+		<span style="font-family: &quot;Charis SIL&quot;;" lang="EN-US">
+		<font size="3">4. otsipasati </font></span></td>
+	</tr>
+
+
+
+
+
+
+If "ethnologue" string occurrences:
+
+0: 111 
+1: 2635
+2: 209
+3: 10
+
+
+ETHNOLOGUE STRING MATCHES UNRELIABLE:
+
+-gives language code, but why? he says it's not mentioned there! (can't just extract codes then)
+
+        <p class="p2">Language name and locationː Akuntsú, Brazil  [Not mentioned on<a href="http://www.ethnologue.com/show_language.asp?code=tpr"><span class="s1"> </span><span class="s2">Ethnologue</span></a>]</p>
+
+Three occurrences of this "not mentioned" data:
+
+Akuntsú, Brazil [Not mentioned on<a href="http://www.ethnologue.com/show_language.asp?code=tpr"> Ethnologue</a>]</p>
+
+Ao Biao, China [Not mentioned in <a href="http://www.ethnologue.com/show_language.asp?code=mji">Ethnologue</a>]</p>
+
+Moxi, China [Not mentioned in <a href="http://www.ethnologue.com/show_language.asp?code=bje">Ethnologue</a>]</p>
+
+In output I put (NM == Not Mentioned):
+
+['Akuntsu.html', 'Akuntsú', 'Brazil', 'NM-tpr']
+['Ao-Biao.html', 'Ao Biao', 'China', 'NM-mji']
+['Moxi.html', 'Moxi', 'China', 'NM-bje']
+
+
+The other codes are considered to be valid for the languages given. Note: these codes are not long valid in the current ISO 639-3:
+
+Language name styles:
+
+['Zapotec-Amatlan.html', 'Amatlán Zapotec', 'Mexico', 'zpo']
+['Zargari.html', 'Zargari (Romano)', 'Iran', 'rmn']
+
+Spoken in more than one country:
+
+['Zulu.html', 'Zulu', 'South Africa,Lesotho', 'zul']
+
+When no country is given:
+
+['Zazaki.html', 'Zazaki', '', 'diq']
+
+
+In some cases, the data was just so irregular it was easiest to add structure to the existing HTML documents, instead of coding for each case.
+
+
+# python3 parseNumerals.py 
+
+So start with (files that have Ethnologue codes whether right or not):
+
+1: 2635
+
+41 don't fit pattern: 
+    lang_name_pattern2 = re.compile("(Language name and location)(.*)(\[)")
+
+11 match the <i>
+
+30 left:
+
+
+
+I MADE THESE CHANGES TO THE FILES --- FILE CHANGES:
+
+Noone.html ncr"><span class="s2"> </span></a><a  href="http://www.ethnologue.com/show_language.asp?code=nhu 95
+
+Noone.html ncr"><span class="s2"> </span></a><a href="http://www.ethnologue.com/show_language.asp?code=nhu 95
+
+
+
+SPECIAL CASES IN NUMERAL DATA:
+
+1. Sometimes NO NUMERAL DATA:
+
+Zizilivakan.html        <p class="p2">22.  </p>
+
+
+2. phonetic brackets []
+
+2a. simple
+
+Albanian.html        <p class="p2">1. një [ɲə]</p>
+
+2b. list
+
+<p class="p2">1. en [ɛn], ett [ɛt]</p>
+
+2c. and / or in brackets
+
+<p class="p2">9. nio [ˈni<span class="s1">ː</span>ʊ] / [ˈni<span class="s1">ː</span>ə]</p>
+
+2d. and / or within brackets
+
+<p class="p2">30.  trettio [ˈtrɛtiʊ /ˈtrɛtɪ]</p>
+       
+
+3. parentheses
+
+3a. with numbers: ( 4 x 20 )
+
+80 	 d-ʕɛ(v).uz.tʼqʼ(ɑ) ( 4 x 20 )
+
+3b. with words
+
+Aari.html 8 	 qastːaː́ntámːers ( two less than ten ) ## 
+Nen.html  ambás pus  (litː '1 x 6', one <i>pus</i> )
+
+3c. with words and "from" metadata
+
+Zuni.html 1000 	 tapnimte miːɬ  ( 'miːɬ'&lt; Spanish ) 
+1000 	 sàkè bàlè  ( 'sàkè' &lt; French 'sac ' )
+
+
+3d. However note cases like this: 
+
+6. 	 (e)nsĩã́   -- part of the form is in ()'s
+
+Zigula.html 21 	 milonɡo miidi na imwe (nɡa) -- looks like some notes in ()'s 
+
+
+
+4. superscripts
+
+4a. Tone marked in HTML tags:
+
+<p class="p2">1. deu<span class="s5"><sup>1</sup></span></p>
+<p class="p2">21.  ȵəi<span class="s5"><sup>6 </sup></span>zəp<span class="s5"><sup>8 </sup></span>it<span class="s5"><sup>7</sup></span></p>
+
+
+<p class="p2">1. ʔat<span class="s4"><sup>55</sup></span></p>
+<p class="p2">21.  ŋi<span class="s4"><sup>31 </sup></span>θip<span class="s4"><sup>55 </sup></span>ʔat<span class="s4"><sup>55</sup></span></p>
+
+
+5. other additional info == "&lt;" in 1224 cases
+
+5a. within the form:
+
+bats.html 1000 	 ɑ.tɑs  &lt; Georgian ## 
+
+5b. outside of the form:
+
+1000 	 sàkè bàlè  ( 'sàkè' &lt; French 'sac ' )
+
+
+
+6. other additional info == "*" (not sure what this denotes)
+
+6a. *
+
+1042 cases contain a "*", within those:
+
+6b. ** and ***
+
+Banda-South-Central.html 26 	 tɜ̀ àkrɜ̀ɡ͡bè là mìndúù mànɜ̄ bàlè   **
+Adyghe.html pʃʼɨ     ***
+Awngi.html ɨ́mpɨ́l / láɢú  ***
+Banda-South-Central.html tɜ̀ àkrɜ̀ɡ͡bè là mìndúù mànɜ̄ bàlè   **
+Brokskad.html ʂä      ***
+Chin-Daai.html ʔkɔ˦          ***
+Choctaw.html taːˈɬɪːpəsɪˈpoːknɪ **
+Garo.html sot-bri / kol-chaŋ-gin-i ( 20 x 2 ) **
+Ibani.html dʒèé / sɔ́nɔ́ fà sí ( '' 5 less 20 '') **
+Japanese.html juuichi / too amari hitotsu  ***
+Kenyang.html tándrámɔ̂t ( 6 + 1) ?  **
+Koorete.html kuma /  ʃiʔɛ  ***
+Nayi.html kädú   ***
+Ngaing.html eik kai abaiŋ iri ? ***
+Ngaing.html eik iri   ? ***
+Ngaing.html eik iri abaiŋ adi iri mut ? ***
+Ngaing.html eik atbusak ? ***
+Ngaing.html eik atbusak abaiŋ adi iri mut  ? ***
+Ngaing.html eik iri abaiŋ iri ? ***
+Ngaing.html eik iri abaiŋ iri abaiŋ adi iri mut ? ***
+Ngaing.html eik adi kai mut ? ***
+Ngaing.html eik adi iri mut ? ***
+Nkoroo.html sɔ́nɔ́ fà sí  * / (ójí sɔ́nɔ́ ) **
+Oneida.html sknutóˑtslat **
+Piraha.html baáɡiso  ***
+Piya.html cíkʰ  ***
+Wichita.html iskhiriʔawáːːs wic hakicareːsʔih **
+Wichita.html ʔass hakiːcksiʔih  ***
+Yukaghir-Northern.html tisiača, maarqan tisiača **
+
+
+7. Slash in the data "/" (~5602 lines): 
+
+7a. Plain slash
+
+<p class="p2">1. dik  / dik *</p>
+Aari.html <p class="p2">21.bondéke wólːaq/ʔéwólːáqbab ʔits wólːaq</p>
+
+7b. more than one slash
+
+<p class="p2">12. ʒʷɑ.jʷɑ / ʒʷɑ/.ɥɑ</p>
+
+7c. Slash with "<" (&lt;)
+
+46169:  match: tkə́m ɡǎɗe ká χkan / tìsín &lt; Ch. Ar.
+
+7d. Slash with no form to the left:
+
+Yuchi.html / ʔyuštʼæ̜ʔæ̜nǫwæ̜
+
+
+For the time being, I just split this off at the "/" and put in the notes field the whole form. In cases like 7d, I take the second form for the form field.
+
+8. Mixture of everything
+
+Adi-Bogaer.html 1000 lɯŋjɯŋ (100 x 10)/toŋra &lt; Tibetan
+
+
+9. IPA data in the numeral forms (at least 100 occurrences):
+
+Abenaki-Western.html 1 	 macro = long vowel = IPA [vː] ## 
+Abenaki-Western.html 2 	 š = IPA [ʃ] ## 
+Abenaki-Western.html 3 	 Mark [v́] indicate stress syllables. ## 
+
+10. Cases of no data:
+
+Paumari.html
+
+        <p class="p2">6.    &lt; Portuguese</p>
+        <p class="p2">7.    &lt; Portuguese</p>
+        <p class="p2">8.    &lt; Portuguese</p>
+        <p class="p2">9.    &lt; Portuguese</p>
+
+
+
+OVERALL COMMENTS:
+
+Arop-Lokep.html
+
+In "Other comments" ... "The number for thousand is a recent loan from Tok Pisin `tausen'." This is an interesting case because it's not marked on the actual numeral, as it is in other languages/files.
+
+
+
+GRAMMATICAL ERRORS:
+
+# comma at end
+Language name and locationË Ecun Buyang, China,
+
+
+
+Doesn't mention code:
+
+        <p class="p2">Language name and locationː Central-Eastern Niger Fulfulde,  Niger, <span class="s1"><b> </b></span></p>
+        
+
+
+Some files have two language writing systems:
+
+Adhola.html
+
+
+
+
+
+FILES WITH NOTHING AFTER THE CONVERSION:
+
+Yalunka.html
+Paici.html
+Khang.html
+Jibbali.html
+
+
+QUESTIONS:
+
+1. superscripts <z>?
+
+Korandje.html 	 Korandje(Kwarand<sup>z</sup>yəy), Algeria
+
+2. <b> tags where there doesn't appear to be any data: 
+
+<p class="p2">50.<b>  </b>ha<span class="s4"><sup>3 </sup></span>ɬip<span class="s4"><sup>7</sup></span></p>
+
+There are at least 408 lines like this. Some actually contain data:
+
+3016:  Angamii-Naga.html match-split: <b>  </b>hiɛ̂-pyəŋṹ
+3043:  Angas.html 6 	 pìm<b>í  </b> ## ( 5 + 1 )
+4032:  Arop-Lokep.html 6 	 'li.<b>mi 'bɛ </b>'ɑ.tu   ## ( 5 + 1 )
+
+
+
+
+
+OF THE 2635 FILES, THESE CODES NO LONGER EXIST IN ETHNOLOGUE 16:
+
+aiz
+auv
+bnh
+muw
+bii
+bnc
+cti
+cnm
+dlc
+blu
+est
+gsc
+mdo
+hva
+sgl
+fiz
+jmk
+jap
+kxg
+lnc
+lav
+lms
+luy
+mst
+muw
+nky
+kln
+nob
+agp
+ptw
+poj
+prv
+rjb
+Rmy
+stc
+xst
+szk
+scy
+suh
+sum
+ccy
+tot
+tzb
+tzb
+fri
+yym
+ccy
+
+
+
+
+
