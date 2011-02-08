@@ -1,0 +1,19 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader()}
+
+<p><a href="${h.url_for(controller='book', action='page', bibtexkey=c.bibtexkey, pagenr=c.pagenr)}"><small>Display without layout</small></a></p>
+
+<table class="entrylist-layout">
+    <tr>
+        % for column in range(c.book.columns):
+        <td style="vertical-align:top;padding:10px;border:none;">
+        % for e in c.entries:
+            ${component.entry_with_layout(e,int(c.pagenr),(column+1))}
+        % endfor
+        </td>
+        % endfor
+    </tr>
+</table>

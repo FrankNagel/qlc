@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "${c.entry.fullentry}",
+    "startpage" : ${c.entry.startpage},
+    "pos_on_page" : ${c.entry.pos_on_page},
+    "annotations" : [
+            % for a in c.entry.annotations_sorted_by_type_and_start():
+            {
+                "type" : "${a.annotationtype.type}",
+                "value" : "${a.value}",
+                "string" : "${a.string}",
+                "start" : ${a.start},
+                "end" : ${a.end}
+            },
+            % endfor
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "+ mayát-ka, m. (para: rut-ka,rutma-k,r-uk) = respirar (= varios respiros), alentar.",
+    "startpage" : 272,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mayátka",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m. (para: rut-ka,rutma-k,r-uk)",
+                "start" : 13,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "respirar (= varios respiros)",
+                "start" : 46,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alentar",
+                "start" : 76,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(para: rut-ka,rutma-k,r-uk)",
+                "start" : 16,
+                "end" : 43
+            },
+    ]
+})

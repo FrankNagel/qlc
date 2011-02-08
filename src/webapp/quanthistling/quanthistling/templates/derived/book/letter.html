@@ -1,0 +1,26 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader()}
+
+<p>Displaying <b>letter ${c.startletter}</b>.</p>
+
+% if len(c.paginator):
+
+<p>${ c.paginator.pager('$link_first $link_previous Entry $first_item to $last_item of $item_count $link_next $link_last') }</p>
+
+<table class="entrylist">
+    <tr><th>ID</th><th>Entry</th><th>Page</th></tr>
+    % for e in c.paginator:
+        ${component.entry(e)}
+    % endfor
+</table>
+
+<p>${ c.paginator.pager('$link_first $link_previous Entry $first_item to $last_item of $item_count $link_next $link_last') }</p>
+
+% else:
+
+<p>No entries found for this start letter.</p>
+
+% endif

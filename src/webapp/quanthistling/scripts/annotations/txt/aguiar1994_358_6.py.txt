@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "txaka n massa d mandioca tʃaka",
+    "startpage" : 358,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "txaka ",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "massa de mandioca",
+                "start" : 8,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "tʃaka",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+    ]
+})

@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "muúha/[muha] pron.pers. nosotros (excl.) —Se emplea muha para indicar el sujeto y el verbo lleva el prefijo me-. Muha mémajchóhi. Estamos comiendo. (ver meé)",
+    "startpage" : 189,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúha",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muha",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.pers.",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nosotros (excl.)",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muha mémajchóhi.",
+                "start" : 114,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estamos comiendo.",
+                "start" : 133,
+                "end" : 150
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "meé",
+                "start" : 156,
+                "end" : 160
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . h a #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . h a #",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúha/[muha]",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.pers.",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muha",
+                "start" : 53,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-. Muha mémaj",
+                "start" : 109,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "chóhi.",
+                "start" : 125,
+                "end" : 132
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meé",
+                "start" : 156,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+    ]
+})

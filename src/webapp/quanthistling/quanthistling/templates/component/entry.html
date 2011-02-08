@@ -1,0 +1,127 @@
+<!-- with layout -->
+
+<%def name="entry_with_layout_helper(entry,page,column)">
+    % if (entry.startpage != page) and (entry.endpage == page):
+        % if (entry.endcolumn == column):
+            ${entry.fullentry_with_formatting(type='html_with_layout',page=page,column=column)}
+        % endif
+    % elif (entry.endpage != page) and (entry.startpage == page):
+        % if (entry.startcolumn == column):
+            ${entry.fullentry_with_formatting(type='html_with_layout',page=page,column=column)}
+        % endif
+    % else:
+        % if ((entry.startpage == page) or (entry.endpage == page)) and ((entry.startcolumn == column) or (entry.endcolumn == column)):
+            ${entry.fullentry_with_formatting(type='html_with_layout',page=page,column=column)}
+        % endif
+    % endif
+</%def>
+
+<%def name="entry_with_layout(entry,page,column)">
+    <p class="entry-with-layout">
+        ${entry_with_layout_helper(entry,page,column)}
+    </p>
+    % for se in entry.subentries():
+        <p class="entry-with-layout">
+            ${entry_with_layout_helper(se,page,column)}
+        </p>
+    % endfor
+</%def>
+
+
+<!-- without layout -->
+
+<%def name="entry(entry)">
+    <%def name="rowclass()">
+<%
+if entry.is_subentry:
+    return ' issubentry'
+else:
+    return ''
+%>
+    </%def>
+    <tr class="entry${rowclass()}">
+        <td class="entry-id">
+            <p><nobr>Page ${entry.startpage}, ID ${entry.pos_on_page}</nobr></p>
+            <p class="entry-link"><a href="${h.url_for(controller='book', action='entryid', bibtexkey=entry.dictdata.book.bibtex_key, pagenr=entry.startpage, pos_on_page=entry.pos_on_page, format='html')}"><nobr>Link by ID</nobr></a></p>
+        </td>
+        <td class="entry-content">
+            <p class="entry">${entry.fullentry_with_formatting()}</p>
+            % if len(entry.subentries()) > 0:
+                % for se in entry.subentries():
+                <p class="subentry">${se.fullentry_with_formatting()}</p>
+                % endfor
+            % endif
+        </td>
+        <td class="entry-source">
+            % if entry.startpage != entry.endpage:
+                <p><nobr>
+                Page: ${entry.startpage} / ${entry.endpage},
+                % if entry.startcolumn != entry.endcolumn:
+                    Column ${entry.startcolumn} / ${entry.endcolumn}
+                % else:
+                    Column ${entry.startcolumn}
+                % endif
+                </nobr></p>
+                <p class="entry-link">
+                    <a href="${h.url_for(controller='book', action='page', bibtexkey=entry.dictdata.book.bibtex_key, pagenr=entry.startpage)}">View page ${entry.startpage}</a> /
+                    <a href="${h.url_for(controller='book', action='page', bibtexkey=entry.dictdata.book.bibtex_key, pagenr=entry.endpage)}">View page ${entry.endpage}</a>
+                </p>
+            % else:    
+                <p><nobr>Page: ${entry.startpage},
+                % if entry.startcolumn != entry.endcolumn:
+                    Column ${entry.startcolumn} / ${entry.endcolumn}
+                % else:
+                    Column ${entry.startcolumn}
+                % endif
+                </nobr></p>
+                <p class="entry-link"><a href="${h.url_for(controller='book', action='page', bibtexkey=entry.dictdata.book.bibtex_key, pagenr=entry.startpage)}">View page</a></p>
+            % endif
+        </td>
+    </tr>
+    
+</%def>
+
+<%def name="entry_wordlist(entry)">
+    <tr class="entry">
+        <td class="entry-id">
+            <p>Language ${entry.wordlistdata.language_bookname}, concept ${entry.concept.concept}</p>
+            <p class="entry-link"><a href="${h.url_for(controller='book', action='entryid_wordlist', bibtexkey=c.bibtexkey, language_bookname=entry.wordlistdata.language_bookname, concept=entry.concept.concept, format='html')}"><nobr>Link by ID</nobr></a></p>
+            <p class="entry-link"><a href="${h.url_for(controller='book', action='concept_wordlist', bibtexkey=c.bibtexkey, concept=entry.concept.concept, format='html')}"><nobr>Link to Concept</nobr></a></p>
+            <p class="entry-link"><a href="${h.url_for(controller='book', action='language_wordlist', bibtexkey=c.bibtexkey, language_bookname=entry.wordlistdata.language_bookname, format='html')}"><nobr>Link to Language</nobr></a></p>
+        </td>
+        <td class="entry-content">
+            <p class="entry">${entry.fullentry_with_formatting('html_with_layout')}</p>
+        </td>
+        <td class="entry-content">
+            % if entry.wordlistdata.language != None:
+                <p class="entry">${entry.wordlistdata.language.langcode}</p>
+            % endif
+        </td>
+        <td class="entry-source">
+            % if entry.startpage != entry.endpage:
+                <p><nobr>
+                Page: ${entry.startpage} / ${entry.endpage},
+                % if entry.startcolumn != entry.endcolumn:
+                    Column ${entry.startcolumn} / ${entry.endcolumn}
+                % else:
+                    Column ${entry.startcolumn}
+                % endif
+                </nobr></p>
+                <p class="entry-link">
+                    <a href="${h.url_for(controller='book', action='page', bibtexkey=c.bibtexkey, pagenr=entry.startpage)}">View page ${entry.startpage}</a> /
+                    <a href="${h.url_for(controller='book', action='page', bibtexkey=c.bibtexkey, pagenr=entry.endpage)}">View page ${entry.endpage}</a>
+                </p>
+            % else:    
+                <p><nobr>Page: ${entry.startpage},
+                % if entry.startcolumn != entry.endcolumn:
+                    Column ${entry.startcolumn} / ${entry.endcolumn}
+                % else:
+                    Column ${entry.startcolumn}
+                % endif
+                </nobr></p>
+                <p class="entry-link"><a href="${h.url_for(controller='book', action='page', bibtexkey=c.bibtexkey, pagenr=entry.startpage)}">View page</a></p>
+            % endif
+        </td>        
+    </tr>
+    
+</%def>

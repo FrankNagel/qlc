@@ -1,0 +1,309 @@
+
+manual_entries.append({
+    "fullentry" : "[mí̵amúnáaave] vi. 1. llegar a formar parte de una cultura. 2. volverse civilizado, volverse respetable, volverse decente. 3. convertirse en persona. Iyáábeva múúne mí̵ámúnáaavé. Dice que un animal puede convertirse en persona. 4. llegar a comprender. Tsúúca ó mí̵ámúnáaavé panévavúre. Ya comprendo las cosas. 5. (fig.) sanarse de una enfermedad.",
+    "startpage" : 185,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mí̵amúnáaave",
+                "start" : 1,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 18,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llegar a formar parte de una cultura",
+                "start" : 24,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse civilizado",
+                "start" : 65,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse respetable",
+                "start" : 87,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse decente",
+                "start" : 108,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "convertirse en persona",
+                "start" : 128,
+                "end" : 151
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Iyáábeva múúne mí̵ámúnáaavé.",
+                "start" : 153,
+                "end" : 190
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Dice que un animal puede convertirse en persona. ",
+                "start" : 190,
+                "end" : 240
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llegar a comprender",
+                "start" : 242,
+                "end" : 262
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsúúca ó mí̵ámúnáaavé panévavúre.",
+                "start" : 264,
+                "end" : 307
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Ya comprendo las cosas. ",
+                "start" : 307,
+                "end" : 332
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(fig.) sanarse de una enfermedad",
+                "start" : 334,
+                "end" : 367
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m í̵ . a . m ú . n á . aa . v e #",
+                "start" : 1,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[mí̵amúnáaave]",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 18,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Iyáábeva múúne m",
+                "start" : 153,
+                "end" : 173
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ámúnáaavé.",
+                "start" : 176,
+                "end" : 190
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tsúúca ó mí̵ámúnáaavé panévavúre.",
+                "start" : 264,
+                "end" : 307
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 147,
+                "end" : 147
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 147,
+                "end" : 147
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 147,
+                "end" : 147
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 190,
+                "end" : 190
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 191,
+                "end" : 191
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 227,
+                "end" : 227
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 228,
+                "end" : 228
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 263,
+                "end" : 263
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 264,
+                "end" : 264
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 307,
+                "end" : 307
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 308,
+                "end" : 308
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 344,
+                "end" : 344
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 344,
+                "end" : 344
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 344,
+                "end" : 344
+            },
+    ]
+})

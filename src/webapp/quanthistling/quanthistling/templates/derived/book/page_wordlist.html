@@ -1,0 +1,12 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader_wordlist()}
+
+<table class="entrylist">
+    <tr><th>Entry ID</th><th>Entry</th><th>ISO approx.</th><th>Page</th></tr>
+    % for e in c.entries:
+        ${component.entry_wordlist(e)}
+    % endfor
+</table>

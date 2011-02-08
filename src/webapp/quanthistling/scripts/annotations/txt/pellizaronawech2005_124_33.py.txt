@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "* aká-a, u. = encender.",
+    "startpage" : 124,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "akáa",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "encender",
+                "start" : 15,
+                "end" : 23
+            },
+    ]
+})

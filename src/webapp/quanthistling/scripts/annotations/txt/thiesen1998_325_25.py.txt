@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "[wámooháyo, wámóóhañu] vt. 1. hacer desfilar, poner en fila. Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi. El puso a sus hijos en fila en el camino. 2. estirar.",
+    "startpage" : 325,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wámooháyo",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wámóóhañu",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 29,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer desfilar",
+                "start" : 35,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner en fila",
+                "start" : 52,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi.",
+                "start" : 69,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El puso a sus hijos en fila en el camino. ",
+                "start" : 109,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estirar",
+                "start" : 154,
+                "end" : 162
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á m oo h á y o",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á m óó h a n ̃ u",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[wámooháyo, wámóóhañu]",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 29,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi.",
+                "start" : 69,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+    ]
+})

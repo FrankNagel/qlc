@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "[tuhnúmúva̱te] vi. agusanarse, ponerse agusanado con tuhnúmu. Páállaho tuhnúmúvatéhi. La masa de almidón se ha agusanada.",
+    "startpage" : 268,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuhnúmúva̱te",
+                "start" : 1,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agusanarse",
+                "start" : 20,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ponerse agusanado con tuhnúmu",
+                "start" : 33,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Páállaho tuhnúmúvatéhi.",
+                "start" : 65,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " La masa de almidón se ha agusanada.",
+                "start" : 93,
+                "end" : 130
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# t u h . n ú . m ú . v a̱ . t e #",
+                "start" : 1,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[tuhnúmúva̱te]",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tuhnúmu. Páá",
+                "start" : 55,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "llaho tuhnúmúvatéhi.",
+                "start" : 70,
+                "end" : 93
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+    ]
+})

@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "[wápɨjco] vt. 1. abonar. Paíjyuváré tabájtsó ó wápí̵cohíjcyáhi. Siempre abono mis plantas. 2. embarrar. Íñahbévajte wápɨjcó ííñuri; áábeke tsɨɨju tsojtsóhi. Sus amigos lo embarraron y su mamá lo tuvo que bañar.",
+    "startpage" : 329,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wápɨjco",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abonar",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Paíjyuváré tabájtsó ó wápí̵cohíjcyáhi.",
+                "start" : 26,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Siempre abono mis plantas. ",
+                "start" : 74,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "embarrar",
+                "start" : 105,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Íñahbévajte wápɨjcó ííñuri; áábeke tsɨɨju tsojtsóhi.",
+                "start" : 115,
+                "end" : 178
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Sus amigos lo embarraron y su mamá lo tuvo que bañar.",
+                "start" : 178,
+                "end" : 234
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# w á . p ɨ j . c o #",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[wápɨjco]",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Paíjyuváré",
+                "start" : 26,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tabájtsó ó wápí̵cohíjcyáhi.",
+                "start" : 40,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ñah",
+                "start" : 117,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bévajte wápɨjcó ííñuri; áábeke tsɨɨju",
+                "start" : 121,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tsojtsóhi.",
+                "start" : 167,
+                "end" : 178
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 167,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 205,
+                "end" : 205
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 206,
+                "end" : 206
+            },
+    ]
+})

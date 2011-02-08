@@ -1,0 +1,46 @@
+<%def name="ces_header()">
+<cesHeader version="2.0" type="text" status="update" date.updated="${c.corpusversion.updated.strftime("%Y-%m-%dT%H:%M:%S")}" date.created="2010-07-13T15:02:34">
+    <fileDesc>
+         <titleStmt>
+             <h.title>${c.heading}</h.title>
+         </titleStmt>
+         <editionStmt version="${c.corpusversion.version}.${c.corpusversion.revision}" />
+         <publicationStmt>
+             <distributor>Research Unit "Quantitative Language Comparison"</distributor>
+             <pubAddress>http://www.en.esp.phonetik.uni-muenchen.de/personen/professoren/cysouw/index.html</pubAddress>
+             <availability status="free" region="world">http://creativecommons.org/licenses/by/3.0/</availability>
+             <pubDate>${c.corpusversion.updated.strftime("%Y-%m-%dT%H:%M:%S")}</pubDate>
+         </publicationStmt>    
+         <sourceDesc>
+             <biblStruct>
+                  <monogr>
+                       <h.title>${c.book.title}</h.title>
+                       <h.author>${c.book.author}</h.author>
+                       <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher></publisher>
+                            <pubDate>${c.book.year}</pubDate>
+                       </imprint>
+                  </monogr>
+             </biblStruct>
+         </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <langUsage>
+            <language indict="src" id="${c.dictdata.src_language.langcode}" iso639="${c.dictdata.src_language.langcode}">${c.dictdata.src_language.name}</language>
+            <language indict="tgt" id="${c.dictdata.tgt_language.langcode}" iso639="${c.dictdata.tgt_language.langcode}">${c.dictdata.tgt_language.name}</language>
+        </langUsage>
+        <wsdUsage>
+          <writingSystem id="utf-8">UTF-8</writingSystem>
+        </wsdUsage>
+    </profileDesc>
+    <revisionDesc>
+        % for v in c.corpushistory:
+        <change>
+            <changeDate value="${v.updated.strftime("%Y-%m-%dT%H:%M:%S")}" />
+            <changeVersion>${v.version}.${v.revision}</changeVersion>
+        </change>
+        % endfor
+    </revisionDesc>
+</cesHeader>
+</%def>

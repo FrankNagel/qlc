@@ -1,0 +1,40 @@
+
+/* body {
+    width:700px;
+}
+
+h1 {
+    font-size:1.1em;
+}
+*/
+
+#annotation-buttons {
+    border-bottom: 1px dashed grey;
+}
+
+#annotation-fulltext {
+    border-bottom: 1px dashed grey;
+}
+
+#annotation-values {
+    border-bottom: 1px dashed grey;
+}
+
+#annotation-fulltext pre {
+    overflow: auto;
+    border:1px solid #444;
+    background-color:#eee;
+    padding:5px;
+}
+
+#pagebuttons {
+    padding: 10px;
+}
+
+button {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 0.85em;
+}

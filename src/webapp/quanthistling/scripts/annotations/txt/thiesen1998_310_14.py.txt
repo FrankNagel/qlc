@@ -1,0 +1,351 @@
+
+manual_entries.append({
+    "fullentry" : "[wábúniáco, wábúnijcyo] vt. 1. abatir, derribar una cosa que está encima de otra. Úméneba ó wábúniácó téhajcú ní̵jcáutu. Empujé un tronco que estaba sobre la quiruma. 2. (fig. Solamente con wábuníjcyo.) impedir el uso de malas palabras, oponerse al uso de malas palabras, no permitir que otro hable malas palabras. Táñaalle néhní íhjyúváiyóné ó wábúnijcyó. No le permití a mi hermana hablar malas palabras.",
+    "startpage" : 310,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wábúniáco",
+                "start" : 1,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wábúnijcyo",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 29,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abatir",
+                "start" : 35,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derribar una cosa que está encima de otra",
+                "start" : 44,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Úméneba ó wábúniácó téhajcú ní̵jcáutu.",
+                "start" : 88,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Empujé un tronco que estaba sobre la quiruma. ",
+                "start" : 137,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(fig. Solamente con wábuníjcyo.) impedir el uso de malas palabras",
+                "start" : 188,
+                "end" : 255
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oponerse al uso de malas palabras",
+                "start" : 257,
+                "end" : 290
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no permitir que otro hable malas palabras",
+                "start" : 292,
+                "end" : 333
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táñaalle néhní íhjyúváiyóné ó wábúnijcyó.",
+                "start" : 335,
+                "end" : 389
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " No le permití a mi hermana hablar malas palabras.",
+                "start" : 389,
+                "end" : 440
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# w á . b ú . n i . á . c o #",
+                "start" : 1,
+                "end" : 13
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# w á . b ú . n i j . cy o #",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[wábúniáco, wábúnijcyo]",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 29,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Úméneba ó wábúniá",
+                "start" : 88,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "có téhajcú ní̵jcáutu.",
+                "start" : 111,
+                "end" : 137
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wábuníjcyo.",
+                "start" : 208,
+                "end" : 221
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táñaa",
+                "start" : 335,
+                "end" : 342
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "lle néhní íhjyúváiyóné ó wábúnijcyó.",
+                "start" : 342,
+                "end" : 389
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 184,
+                "end" : 184
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 185,
+                "end" : 185
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 227,
+                "end" : 227
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 227,
+                "end" : 227
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 227,
+                "end" : 227
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 265,
+                "end" : 265
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 266,
+                "end" : 266
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 303,
+                "end" : 303
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 304,
+                "end" : 304
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 342,
+                "end" : 342
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 342,
+                "end" : 342
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 342,
+                "end" : 342
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 389,
+                "end" : 389
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 390,
+                "end" : 390
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 424,
+                "end" : 424
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 425,
+                "end" : 425
+            },
+    ]
+})

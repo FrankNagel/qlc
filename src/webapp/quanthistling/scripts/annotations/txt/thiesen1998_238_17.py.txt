@@ -1,0 +1,169 @@
+
+manual_entries.append({
+    "fullentry" : "[pɨcábaanu] vt. dar la bebida pí̵í̵caba a los invitados a la fiesta a cambio de lo que han traído. Ó pɨcábaanú níívúwake. Estoy dando pí̵í̵caba a cambio de venado.",
+    "startpage" : 238,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pɨcábaanu",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar la bebida pí̵í̵caba a los invitados a la fiesta a cambio de lo que han traído",
+                "start" : 17,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ó pɨcábaanú níívúwake.",
+                "start" : 103,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estoy dando pí̵í̵caba a cambio de venado.",
+                "start" : 132,
+                "end" : 175
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p ɨ . c á . b aa . n u #",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[pɨcábaanu]",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pí̵í̵caba",
+                "start" : 31,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ó pɨcá",
+                "start" : 103,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "baanú níívúwake.",
+                "start" : 111,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pí̵í̵caba",
+                "start" : 144,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+    ]
+})

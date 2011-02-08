@@ -1,0 +1,197 @@
+
+manual_entries.append({
+    "fullentry" : "múha/[mu-] pron.interr. quién; quien. ¿Múha wajtsí̵? ¿Quìén ha llegado? Tsá o wáájácutú múha wákímyeíñe. No sé quién está trabajando. —Se usa mu- con los sufijos de caso y algunos enclíticos:",
+    "startpage" : 188,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "múha",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mu-",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.",
+                "start" : 12,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quien",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Múha wajtsí̵?",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quìén ha llegado? ",
+                "start" : 56,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsá o wáájácutú múha wákímyeíñe.",
+                "start" : 78,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "No sé quién está trabajando.",
+                "start" : 121,
+                "end" : 152
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m ú . h a #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u #",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "múha/[mu-]",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.",
+                "start" : 12,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Múha wajtsí̵?",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tsá o wáájácutú múha wákímyeíñe.",
+                "start" : 78,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mu-",
+                "start" : 161,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+    ]
+})

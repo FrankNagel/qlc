@@ -1,0 +1,41 @@
+<%def name="entry(entry)">
+    <%def name="rowclass()">
+<%
+if entry.is_subentry:
+    return ' issubentry'
+else:
+    return ''
+%>
+    </%def>
+    <tr class="entry_p${rowclass()}">
+        <td class="entry_id">
+            <p>${entry.id}</p>
+            <p class="entry_link"><a href="${h.url_for(controller='book', action='entry', bibtexkey=entry.book.bibtex_key, entrykey=entry.head)}">Link</p>
+        </td>
+        <td class="entry_head">${entry.head}</td>
+        <td class="entry_content">
+            <p class="entry">${entry.fullentry_with_formatting()}</p>
+            % if entry.is_subentry:
+                <a class="entry_ext" href="" id="a_entry_ext_${entry.id}" onclick="if ($('entry_ext_${entry.id}').getStyle('display') == 'none') { Effect.BlindDown('entry_ext_${entry.id}'); } else { Effect.BlindUp('entry_ext_${entry.id}'); } return false;">View/Hide full entry</a>
+                <div id="entry_ext_${entry.id}" style="display:none;">
+                <p class="entry">${entry.mainentry().fullentry_with_formatting()}</p>
+                % for se in entry.mainentry().subentries():
+                    <p class="subentry">${se.fullentry_with_formatting()}</p>
+                % endfor
+                </div>
+            % elif len(entry.subentries()) > 0:
+                <a class="entry_ext" href="" id="a_entry_ext_${entry.id}" onclick="if ($('entry_ext_${entry.id}').getStyle('display') == 'none') { Effect.BlindDown('entry_ext_${entry.id}'); } else { Effect.BlindUp('entry_ext_${entry.id}'); } return false;">View/Hide subentries</a>
+                <div id="entry_ext_${entry.id}" style="display:none;">
+                % for se in entry.subentries():
+                <p class="subentry">${se.fullentry_with_formatting()}</p>
+                % endfor
+                </div>
+            % endif
+        </td>
+        <td class="entry_source">
+            <p><nobr>Page: ${entry.page}, Column ${entry.column}</nobr></p>
+            <p><a href="${h.url_for(controller='book', action='page', id=entry.book_id, pagenr=entry.page)}">View page</a></p>
+        </td>
+    </tr>
+    
+</%def>

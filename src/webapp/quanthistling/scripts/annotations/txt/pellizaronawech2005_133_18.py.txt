@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ nampe-k, m. = emborracharse.",
+    "startpage" : 133,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nampek",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emborracharse",
+                "start" : 16,
+                "end" : 29
+            },
+    ]
+})

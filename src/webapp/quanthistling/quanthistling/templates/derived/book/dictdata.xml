@@ -1,0 +1,10 @@
+<%inherit file="/base/ces_doc.xml"/>
+<%namespace name="component" file="/component/entry.xml" />
+
+<text>
+    <body>
+        % for e in c.entries:
+            ${component.entry(e)}
+        % endfor
+    </body>
+</text>

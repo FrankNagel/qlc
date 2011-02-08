@@ -1,0 +1,36 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/book_header.html" />
+
+${component.standardheader_wordlist()}
+
+${component.bookinfo()}
+
+<h2>Languages</h2>
+% for wordlistdata in c.book.wordlistdata:
+    <ul>
+    <li>
+        <a href="${h.url_for(controller='book', action='language_wordlist', bibtexkey=c.bibtexkey, language_bookname=wordlistdata.language_bookname, format='html')}">
+        ${wordlistdata.language_bookname}
+        </a>
+        % if wordlistdata.language != None:
+            ; Approximate ISO 639-3 identification: <a target="_blank" href="${wordlistdata.language.url}">${wordlistdata.language.langcode}</a>
+        % endif
+    </li>
+    </ul>
+% endfor
+
+% for nondictdata in c.book.nondictdata:
+    <ul>
+    <li>
+    <a href="${h.url_for(controller='book', action='nondictdata', bibtexkey=c.book.bibtex_key, title=nondictdata.title_url(), startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
+        ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage})
+    </a>
+    </li>
+    </ul>
+% endfor
+
+
+<h2>Content from trac wiki</h2>
+<p>
+    ${h.get_trac_wiki_book_article(c.book.bibtex_key)}
+</p>

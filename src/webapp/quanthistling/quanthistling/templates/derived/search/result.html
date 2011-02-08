@@ -1,0 +1,22 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+
+${c.form}
+
+<p>Displaying <b>${c.matches}</b> matches.</p>
+
+% for dictdata, entries in c.result_by_dictdata.items():
+    <a href="#dictdata-${dictdata.id}">${dictdata.book.title} (${dictdata.src_language.name}-${dictdata.tgt_language.name}) (${len(entries)})</a>
+    &nbsp;&nbsp;&nbsp;
+% endfor
+
+% for dictdata, entries in c.result_by_dictdata.items():
+    <a name="dictdata-${dictdata.id}"/>
+    <h2>${dictdata.book.author}. ${dictdata.book.year}. ${dictdata.book.title} (${dictdata.src_language.name}-${dictdata.tgt_language.name})</h2>
+    <table class="entrylist">
+        <tr><th>ID</th><th class="result-fullentry">Entry</th><th>Source</th></tr>
+        % for e in entries:
+            ${component.entry(e)}
+        % endfor
+    </table>
+% endfor

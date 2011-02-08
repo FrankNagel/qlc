@@ -1,0 +1,500 @@
+# -*- coding: utf8 -*-
+
+languages = {
+    'AC' : u'achagua',
+    'AW' : u'awa',
+    'BA' : u'epena basurudó',
+    'BI' : u'barí',
+    'BN' : u'baniva',
+    'BO' : u'bora',
+    'BR' : u'bará',
+    'BS' : u'barasana',
+    'CA' : u'cabiyarí',
+    'CH' : u'cha\'palaachi',
+    'CI' : u'cuiba',
+    'CJ' : u'carijona',
+    'CL' : u'chimila',
+    'CM' : u'embera chamí',
+    'CP' : u'carapana',
+    'CR' : u'curripaco',
+    'CT' : u'catío',
+    'CU' : u'cubeo',
+    'DE' : u'desano',
+    'DM' : u'dí̵mɨna',
+    'DR' : u'embera Darién',
+    'EP' : u'epena Saija',
+    'GH' : u'guahibo',
+    'GU' : u'guambiano',
+    'GY' : u'guayabero',
+    'IK' : u'ika',
+    'IN' : u'inga',
+    'JU' : u'jupda',
+    'JT' : u'jitnu',
+    'KG' : u'koreguaje',
+    'KK' : u'kakua',
+    'KO' : u'kogui',
+    'KS' : u'kamsá',
+    'MA' : u'macuna',
+    'NK' : u'nukak',
+    'MN' : u'witoto mɨnɨca',
+    u'MÑ' : u'miraña',
+    'MR' : u'witoto murui',
+    'MU' : u'muinane',
+    'NP' : u'witoto nɨpode',
+    'OC' : u'ocaina',
+    'OR' : u'orejón',
+    'PA' : u'páez',
+    'PL' : u'playero',
+    'PP' : u'piapoco',
+    'PU' : u'puinave',
+    'PY' : u'piratapuyo',
+    'RE' : u'resígaro',
+    'SE' : u'secoya',
+    'SI' : u'siona',
+    'SL' : u'sáliba',
+    'SR' : u'siriano',
+    'TA' : u'tatuyo',
+    'TC' : u'tucano',
+    'TD' : u'embera Tadó',
+    'TM' : u'tanimuca',
+    'TN' : u'tunebo central',
+    'TO' : u'tariano',
+    'TP' : u'tsafiqui pila',
+    'TR' : u'totoró',
+    'TY' : u'tuyuca',
+    'WA' : u'waimaja',
+    'WM' : u'wounaan',
+    'WN' : u'wanano',
+    'WY' : u'wayuu',
+    'YC' : u'yucuna',
+    'YK' : u'yukpa',
+    'YR' : u'yurutí',
+    'English' : 'English',
+    'INGLES' : 'English',
+    u'Español' : u'Español',
+    u'ESPAÑOL' : u'Español'
+}
+
+families = {
+    'CHOCO' : {
+        'DR' : u'embera Darién',
+        'CT' : u'catío',
+        'CM' : u'embera chamí',
+        'TD' : u'embera Tadó',
+        'EP' : u'epena Saija',
+        'BA' : u'epena basurudó',
+        'WM' : u'wounaan',        
+    },
+    'TUCANO' : {
+        'TC' : u'tucano',
+        'WN' : u'wanano',
+        'PY' : u'piratapuyo',
+        'WA' : u'waimaja',
+        'BR' : u'bará',
+        'TY' : u'tuyuca',
+        'YR' : u'yurutí',
+        'DE' : u'desano',
+        'SR' : u'siriano',
+        'TA' : u'tatuyo',
+        'CP' : u'carapana',
+        'MA' : u'macuna',
+        'BS' : u'barasana',
+        'TM' : u'tanimuca',
+        'CU' : u'cubeo',
+        'KG' : u'koreguaje',
+        'SE' : u'secoya',
+        'SI' : u'siona',
+        'OR' : u'orejón',        
+    },
+    'ARAWAK' : {
+        'WY' : u'wayuu',
+        'AC' : u'achagua',
+        'CR' : u'curripaco',
+        'PP' : u'piapoco',
+        'YC' : u'yucuna',
+        'TO' : u'tariano',
+        'CA' : u'cabiyarí',
+        'BN' : u'baniva',
+        'RE' : u'resígaro',        
+    },
+    'GUAHIBO' : {
+        'PL' : u'playero',
+        'GH' : u'guahibo',
+        'CI' : u'cuiba',
+        'JT' : u'jitnu',
+        'GY' : u'guayabero',        
+    },
+    'WITOTO' : {
+        'MR' : u'witoto murui',
+        'MN' : u'witoto mɨnɨca',
+        'NP' : u'witoto nɨpode',
+        'OC' : u'ocaina',
+        'MU' : u'muinane',
+        'BO' : u'bora',
+        u'MÑ' : u'miraña',        
+    }
+}
+
+import sys, os, re
+sys.path.append(os.path.abspath('.'))
+
+import pylons.test
+
+from quanthistling.config.environment import load_environment
+from quanthistling.model.meta import Session, metadata
+from quanthistling import model
+
+import quanthistling.dictdata.wordlistbooks
+
+from paste.deploy import appconfig
+
+import importfunctions
+
+dictdata_path = 'quanthistling/dictdata'
+
+def remove_parts_head(str, s, e):
+    start = s
+    end = e
+    subsubstr = str
+    match_end = re.search(u"(?:† ?| Véase .*?| ?\(SP\??\) ?)$", subsubstr)
+    if match_end:
+        end = end - len(match_end.group(0))
+        subsubstr = subsubstr[:-len(match_end.group(0))]
+    match_start = re.match(r"^(?: ?[+=~] ?|\.\.\. ?)", subsubstr)
+    if match_start:
+        start = start + len(match_start.group(0))
+        subsubstr = subsubstr[len(match_start.group(0)):]
+    return [start, end]
+
+def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
+    for lang in iter(entry):
+        #entry_db = model.WordlistEntry()
+        entry_db = importfunctions.process_line(entry[lang]["fullentry"], "wordlist")
+        
+        language_bookname = languages[lang]
+        entry_db.wordlistdata = wordlistdata[language_bookname]
+        entry_db.language = wordlistdata[language_bookname].language
+        entry_db.fullentry = entry[lang]['fullentry']
+        entry_db.pos_on_page = entry[lang]['pos_on_page']
+        entry_db.startpage = page
+        entry_db.endpage = page
+        entry_db.startcolumn = 1
+        entry_db.endcolumn = 1
+        
+        concept_db =  model.meta.Session.query(model.WordlistConcept).filter_by(concept=concept_id).first()
+        if concept_db == None:
+            concept_db = model.WordlistConcept()
+            concept_db.concept = concept_id
+        
+        entry_db.concept = concept_db
+        
+        #print entry_db.id
+        #print entry_db.fullentry.encode("utf-8")
+        
+        if lang in annotation:
+            for a in annotation[lang]:
+                entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
+        
+        Session.add(entry_db)
+        Session.commit()
+
+def _callback(matches):
+    id = matches.group(1)
+    try:
+        return unichr(int(id, 16))
+    except:
+        return id
+
+def decode_unicode_references(data):
+    return re.sub("&amp;(\w+?);", _callback, data)
+
+def correct_line(l):
+    ret = l
+    ret = re.sub(u"<p><b>Bt</b>", u"<p><b>BI</b>", ret)
+    ret = re.sub(u"<p><b>St</b>", u"<p><b>SI</b>", ret)
+    ret = re.sub(u"<p><b>DM ʒ</b>", u"<p><b>DM</b> ʒ", ret)
+    ret = re.sub(u"<p><b>Mac</b><u><b>ú-Puinave</b></u></p>", u"<p><b>Macú-Puinave</b></p>", ret)
+    ret = re.sub(u"<p><b>Mac</b>ú-Puinave</p>", u"<p><b>Macú-Puinave</b></p>", ret)
+    ret = re.sub(u"<p><b>(\w\w) –</b>", r"<p><b>\1</b>" + u" –", ret)
+    ret = re.sub(u"<p><b>(\w\w) </b>", r"<p><b>\1</b> ", ret)
+    ret = re.sub(u"<p><b>mr</b>", u"<p><b>MR</b>", ret)
+    ret = re.sub(u"<p><b>M</b>Ñ", u"<p><b>MÑ</b>", ret)
+    ret = re.sub(u"<p><b>OM</b>", u"<p><b>DM</b>", ret)
+    ret = re.sub(u"<p><b>GII</b>", u"<p><b>GH</b>", ret)
+    ret = re.sub(u"<p><b>OE</b>", u"<p><b>DE</b>", ret)
+    ret = re.sub(u"<p><b>MH</b>", u"<p><b>WA</b>", ret)
+    ret = re.sub(u"<p><b>S</b>áliba-Piaroa</p>", u"<p><b>Sáliba-Piaroa</b></p>", ret)
+    ret = re.sub(u"<p><b>Choc</b>ó</p>", u"<p><b>Chocó</b></p>", ret)
+    ret = re.sub(u"<p><b>Choc</b>ó†</p>", u"<p><b>Chocó†</b></p>", ret)
+    ret = re.sub(u"<p><b>Kams</b>á</p>", u"<p><b>Kamsá</b></p>", ret)
+    ret = re.sub(u"<p><b>GUAIIIBO</b>", u"<p><b>GUAHIBO</b>", ret)
+    ret = re.sub(u"<p><b>CHOC,MU</b>", u"<p><b>CHOCO,MU</b>", ret)
+    ret = re.sub(u"<p><b>CT mogara oromá</b></p>", u"<p><b>CT</b> mogara oromá</p>", ret)
+    ret = re.sub(u"<p><b>253,CHOCO,WITOTO,WJ</b>", u"<p><b>253,CHOCO,WITOTO,WY</b>", ret)
+    ret = re.sub(u"<p><b>CIIOCO</b>", u"<p><b>CHOCO</b>", ret)
+    ret = re.sub(u"<p><b>CHOCO, GUAHIBO</b>", u"<p><b>CHOCO,GUAHIBO</b>", ret)
+    ret = re.sub(u"<p><b>BR,BS,CP,TC,TY,JR</b>", u"<p><b>BR,BS,CP,TC,TY,YR</b>", ret)
+    return ret
+
+
+def main(argv):
+    book_bibtex_key = u"huber1992"
+    
+    if len(argv) < 2:
+        print "call: importhuber1992.py ini_file"
+        exit(1)
+    
+    ini_file = argv[1]
+    conf = appconfig('config:' + ini_file, relative_to='.')
+    if not pylons.test.pylonsapp:
+        load_environment(conf.global_conf, conf.local_conf)
+    
+    # Create the tables if they don't already exist
+    metadata.create_all(bind=Session.bind)
+
+    wordlistbook = {}
+    for b in quanthistling.dictdata.wordlistbooks.list:
+        if b['bibtex_key'] == book_bibtex_key:
+            wordlistbookdata = b
+
+    importfunctions.delete_book_from_db(Session, book_bibtex_key)
+    
+    book = importfunctions.insert_book_to_db(Session, wordlistbookdata)
+
+    wordlistdata = {}
+    for data in wordlistbookdata['wordlistdata']:
+        d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
+        wordlistdata[data['language_bookname']] = d
+
+    wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
+    
+    page                        = 0
+    pos_on_page                 = 1
+    current_entry_text          = ''
+    line_in_page                = 0
+    concept_id                  = 0
+    in_footnote                 = False
+    annotation                  = {}
+    entry                       = {}
+
+    for line in wordlistfile:
+        line_in_page = line_in_page + 1
+        
+        l = line.strip()
+        #l = unescape(l)
+        l = l.decode('utf-8')
+        
+        l = decode_unicode_references(l)
+        l = re.sub(u"&amp;", u"&", l)
+        l = re.sub(u"<\w></\w>", u"", l)
+        l = re.sub(u"#001", u"ᴵ", l)
+        l = re.sub(u"#002", u"ˣ", l)
+        l = re.sub(u"#003", u"t", l)
+        l = re.sub(u"#004", u"t", l)
+        l = re.sub(u"<b>M</b>Ñ", u"<b>MÑ</b>", l)
+        
+        l = correct_line(l)
+        
+        if re.search(u'^<p>', l):
+            l = re.sub(u'</?p>', '', l)
+            #print l.encode("utf-8")
+            
+            # parse page and line number
+            if re.match(u'^\[\d+\]$', l):
+                if entry != {}:
+                    insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata)
+                number = re.sub(u'[\[\]]', '', l)
+                page = int(number)
+                line_in_page = 1
+                pos_on_page = 1
+                in_footnote = False
+                annotation = {}
+                entry = {}
+                print "Parsing page %i" % page
+            elif line_in_page == 3:
+                meaning_spanish = re.sub(u'(?:</?b>|†)', '', l)
+                print "  Spanish: %s" % meaning_spanish.encode("utf-8")
+                entry[u'Español'] = {}
+                entry[u'Español']['fullentry'] = meaning_spanish
+                entry[u'Español']['pos_on_page'] = pos_on_page
+                annotation[u'Español'] = []
+                
+                meaning_spanish = re.sub(u"!", "", meaning_spanish)
+                a = {}
+                a['start'] = 0
+                a['end'] = len(meaning_spanish)
+                a['value'] = 'counterpart'
+                a['type'] = 'dictinterpretation'
+                a['string'] = meaning_spanish
+                annotation[u'Español'].append(a)
+                pos_on_page = pos_on_page + 1
+            elif line_in_page == 4:
+                id = int(re.sub(u'(?:</?b>|†)', '', l))
+                print "  ID: %i" % id
+            elif line_in_page == 5:
+                meaning_english = re.sub(u'(?:</?b>|†)', '', l)
+                print "  English: %s" % meaning_english.encode("utf-8")
+                entry['English'] = {}
+                entry['English']['fullentry'] = meaning_english
+                entry['English']['pos_on_page'] = pos_on_page
+                annotation['English'] = []
+
+                meaning_english = re.sub(u"!", "", meaning_english)
+                a = {}
+                a['start'] = 0
+                a['end'] = len(meaning_english)
+                a['value'] = 'counterpart'
+                a['type'] = 'dictinterpretation'
+                a['string'] = meaning_english
+                annotation['English'].append(a)
+                pos_on_page = pos_on_page + 1
+                concept_id = "%s_%s" % (meaning_spanish.upper(), meaning_english.upper())
+            # parse data
+            elif re.search(u"\[Fu[ßβ]noten", l):
+                in_footnote = True
+            elif re.match(u'^<p/>$', l) or re.match(u'^<b>[^ ]{3,}(?: ?†)?</b>(?: ?†)?$', l):
+                pass
+            else:
+                if in_footnote:
+                    match = re.match(u"^(?:<i>)?<b>(.*?)</b>(?:</i>)? ?(.*)$", l)
+                    if match:
+                        language_string = match.group(1).strip()
+                        languages_entry = language_string.split(",");
+                        for language in languages_entry:
+                            if language.upper() in families:
+                                for l in families[language]:
+                                    a_newline = {
+                                        'start' : len(entry[l]['fullentry']),
+                                        'end' : len(entry[l]['fullentry']),
+                                        'value' : 'newline',
+                                        'type' : 'pagelayout',
+                                        'string' : ''
+                                    }
+                                    annotation[l].append(a_newline)
+                                    len_entry = len(entry[l]['fullentry'])
+                                    entry[l]['fullentry'] = entry[l]['fullentry'] + " " + match.group(2)
+                                    a = {
+                                        'start' : len_entry,
+                                        'end' : len(entry[l]['fullentry']),
+                                        'value' : 'footnote',
+                                        'type' : 'dictinterpretation',
+                                        'string' : match.group(2)
+                                    }
+                                    annotation[l].append(a)
+                            elif re.match(u"\d+$", language):
+                                for l in ( u'Español', 'English' ):
+                                    a_newline = {
+                                        'start' : len(entry[l]['fullentry']),
+                                        'end' : len(entry[l]['fullentry']),
+                                        'value' : 'newline',
+                                        'type' : 'pagelayout',
+                                        'string' : ''
+                                    }
+                                    annotation[l].append(a_newline)
+                                    len_entry = len(entry[l]['fullentry'])
+                                    entry[l]['fullentry'] = entry[l]['fullentry'] + " " + match.group(2)
+                                    a = {
+                                        'start' : len_entry,
+                                        'end' : len(entry[l]['fullentry']),
+                                        'value' : 'footnote',
+                                        'type' : 'dictinterpretation',
+                                        'string' : match.group(2)
+                                    }
+                                    annotation[l].append(a)                            
+                            elif language in languages:
+                                l = language
+                                if language == u"ESPAÑOL":
+                                    l = u'Español'
+                                elif language == "INGLES":
+                                    l = 'English'
+
+                                a_newline = { 'start' : len(entry[l]['fullentry']), 'end' : len(entry[l]['fullentry']), 'value' : 'newline', 'type' : 'pagelayout', 'string' : '' }
+                                annotation[l].append(a_newline)
+                                
+                                a = {}
+                                a['start'] = len(entry[l]['fullentry'])
+                                entry[l]['fullentry'] = entry[l]['fullentry'] + " " + match.group(2)
+                                a['end'] = len(entry[l]['fullentry'])
+                                a['value'] = 'footnote'
+                                a['type'] = 'dictinterpretation'
+                                a['string'] = match.group(2)
+                                annotation[l].append(a)
+                            else:
+                                print "Error: Language %s not defined." % language.encode("utf-8")
+                else:
+                    match = re.match(u"^(?:<i>)?<b>(.*?)</b>(?:</i>)? ?(.*)$", l)
+                    if match:
+                        if len(match.groups()) < 2:
+                            print "Error: Not two groups: %s" % l                                
+                        language_string = match.group(1).strip()
+                        languages_entry = language_string.split(",");
+                        for language in languages_entry:
+                            if not language in languages:
+                                print "Error: Language %s not defined." % language.encode("utf-8")
+                            else:
+                                annotation[language] = []
+                                entry[language] = {}
+                                entry[language]['fullentry'] = match.group(2)
+                                entry[language]['pos_on_page'] = pos_on_page
+                                pos_on_page = pos_on_page + 1
+                                strpos = remove_parts_head(match.group(2), 0, len(match.group(2)))
+                                
+                                match_spanishloan = re.search(u"\(SP\??\)", match.group(2))
+                                if match_spanishloan:
+                                    a = {}
+                                    a['start'] = match_spanishloan.start(0)
+                                    a['end'] = match_spanishloan.end(0)
+                                    a['value'] = 'stratum'
+                                    a['type'] = 'dictinterpretation'
+                                    a['string'] = "Spanish loanword"
+                                    annotation[language].append(a)
+                                
+                                head_string = match.group(2)[strpos[0]:strpos[1]]
+                                start = 0
+                                end = 0
+                                for match in re.finditer(u"(?:, |; | ~ |$)", head_string):
+                                    end = match.start(0)
+                                    head = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!)\)?", "", head_string[start:end])
+                                    if head != "":
+                                        match_bracket = re.search(u"\(([^)]+?)\) ?$", head)
+                                        if match_bracket:
+                                            head_base = head[:match_bracket.start(0)]
+                                            a = {}
+                                            a['start'] = strpos[0] + start
+                                            a['end'] = strpos[0] + end
+                                            a['value'] = 'counterpart'
+                                            a['type'] = 'dictinterpretation'
+                                            a['string'] = head_base
+                                            annotation[language].append(a)
+                                            head = head_base + match_bracket.group(1)
+                                            
+                                        match_bracket = re.search(u"^\(([^)]+?)\)", head)
+                                        if match_bracket:
+                                            head_base = head[match_bracket.end(0):]
+                                            a = {}
+                                            a['start'] = strpos[0] + start
+                                            a['end'] = strpos[0] + end
+                                            a['value'] = 'counterpart'
+                                            a['type'] = 'dictinterpretation'
+                                            a['string'] = head_base
+                                            annotation[language].append(a)
+                                            head = match_bracket.group(1) + head_base
+
+                                        a = {}
+                                        a['start'] = strpos[0] + start
+                                        a['end'] = strpos[0] + end
+                                        a['value'] = 'counterpart'
+                                        a['type'] = 'dictinterpretation'
+                                        a['string'] = head
+                                        annotation[language].append(a)
+                                    start = match.end(0)
+                    else:
+                        print "no match: %s" % l.encode("utf-8")
+                                
+
+    Session.commit()
+    Session.close()
+    wordlistfile.close()   
+
+if __name__ == "__main__":
+    main(sys.argv)

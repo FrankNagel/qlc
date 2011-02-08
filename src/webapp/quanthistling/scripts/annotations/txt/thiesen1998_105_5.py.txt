@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "[dáárɨ̱te] vi. 1. secarse. Tsúúca ó dáárɨté nííjyabáne oke múriúcúne. Ya se secó (mi ropa) mojada por la lluvia. 2. secarse (la garganta). Ɨ́hnáhó o áiúcunúneri tájkye dáárɨté. La garganta se me secó por la fiebre que tuve.",
+    "startpage" : 105,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dáárɨ̱te",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "secarse",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsúúca ó dáárɨté nííjyabáne oke múriúcúne.",
+                "start" : 29,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Ya se secó (mi ropa) mojada por la lluvia. ",
+                "start" : 83,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "secarse (la garganta)",
+                "start" : 132,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨ́hnáhó o áiúcunúneri tájkye dáárɨté.",
+                "start" : 156,
+                "end" : 200
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La garganta se me secó por la fiebre que tuve.",
+                "start" : 200,
+                "end" : 248
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "d áá r ɨ̱ t e",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[dáárɨ̱te]",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tsúúca ó",
+                "start" : 29,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dáárɨté nííjyabáne oke múriúcúne.",
+                "start" : 41,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hnáhó o áiú",
+                "start" : 156,
+                "end" : 171
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cunúneri tájkye dáárɨté.",
+                "start" : 171,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 212,
+                "end" : 212
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 213,
+                "end" : 213
+            },
+    ]
+})

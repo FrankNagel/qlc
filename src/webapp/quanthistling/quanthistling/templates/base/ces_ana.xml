@@ -1,0 +1,8 @@
+<%namespace name="component" file="/component/ces_header.xml" /><?xml version="1.0" encoding="utf-8"?>
+<cesAna version="1.5" type="tok" doc="${c.ces_doc_url}">
+    
+${component.ces_header()}
+        
+${next.body()}
+
+</cesAna>

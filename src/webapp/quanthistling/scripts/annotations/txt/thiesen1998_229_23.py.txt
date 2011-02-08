@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "pejcátsi abs. baile en el que las parejas dan saltos con los brazos entrelazados y que se baila en las fiestas báhjaá y llaaríwa. ║ acción de...",
+    "startpage" : 229,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pejcátsi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "baile en el que las parejas dan saltos con los brazos entrelazados y que se baila en las fiestas báhjaá y llaaríwa",
+                "start" : 15,
+                "end" : 132
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p e j . c á . ts i #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pejcátsi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "báhjaá",
+                "start" : 112,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "llaaríwa.",
+                "start" : 123,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "* jaké-a, u. = lavar con agua tibia.",
+    "startpage" : 220,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jakéa",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lavar con agua tibia",
+                "start" : 16,
+                "end" : 36
+            },
+    ]
+})

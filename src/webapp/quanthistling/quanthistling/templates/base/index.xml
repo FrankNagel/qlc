@@ -1,0 +1,9 @@
+<%namespace name="component" file="/component/ces_header.xml" />
+<?xml version="1.0" encoding="utf-8"?>
+<cesDoc version="3.9">
+    
+${component.ces_header()}
+        
+${next.body()}
+
+</cesDoc>

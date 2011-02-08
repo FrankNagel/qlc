@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "neríívyewááhyo s. escalera, escala. (sinón. niityéwááhyo) néétsaméi abs. acción de...",
+    "startpage" : 199,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "neríívyewááhyo",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 19,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "escalera",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "niityéwááhyo",
+                "start" : 49,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "néétsaméi",
+                "start" : 66,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : " abs.",
+                "start" : 78,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acción de...",
+                "start" : 84,
+                "end" : 97
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# n e . r íí . vy e . w áá h . y o #",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "neríívyewááhyo",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 19,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "niityéwááhyo",
+                "start" : 49,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "néétsaméi",
+                "start" : 66,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 79,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 65,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+    ]
+})

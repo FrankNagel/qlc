@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "eweká-s (aweká-s), u. (a: t-sa,tma-s,-) = ha-cer andar, hacer pasear.",
+    "startpage" : 170,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ewekás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awekás",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u. (a: t-sa,tma-s,-)",
+                "start" : 21,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ha-cer andar",
+                "start" : 44,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer pasear",
+                "start" : 58,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eweká-s",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(aweká-s)",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(aweká-s)",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-sa,tma-s,-)",
+                "start" : 21,
+                "end" : 41
+            },
+    ]
+})

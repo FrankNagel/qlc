@@ -1,0 +1,34 @@
+<%inherit file="/base/index.html"/>
+
+% for book in c.component.books():
+
+<h2>${book.bookinfo_with_status()}</h2>
+<p>
+    <ul>
+        % if book.type == 'dictionary':
+            % for dictdata in book.dictdata:
+                <li>
+                <a href="${h.url_for(controller='book', action='dictdata', bibtexkey=book.bibtex_key, startpage=dictdata.startpage, endpage=dictdata.endpage, format='html')}">
+                    Dictionary (pp. ${dictdata.startpage} - ${dictdata.endpage})
+                </a>
+                (Approximate ISO 639-3 identification: ${dictdata.src_language.langcode} - ${dictdata.tgt_language.langcode})
+                </li>
+            % endfor
+        % elif book.type == 'wordlist':
+            <li>
+            <a href="${h.url_for(controller='book', action='view', bibtexkey=book.bibtex_key, format='html')}">
+                Wordlist (pp. ${book.wordlistdata_startpage()} - ${book.wordlistdata_endpage()})
+            </a>
+            </li>
+        % endif
+        % for nondictdata in book.nondictdata:
+            <li>
+            <a href="${h.url_for(controller='book', action='nondictdata', bibtexkey=book.bibtex_key, title=nondictdata.title_url(), startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
+                ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage})
+            </a>
+            </li>
+        % endfor
+    </ul>
+</p>
+
+% endfor

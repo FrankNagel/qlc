@@ -1,0 +1,274 @@
+
+manual_entries.append({
+    "fullentry" : "igaì̵ (s1A) 1. telaraña, tejido de canastas y hamacas. Jebecɨñuaì̵dɨ danɨ nite imacɨ igaì̵aì̵na. Las arañas tejen sus telarañas. (Vea foìgaì̵.) 2. ie moìllɨ igaì̵ (s1A), moìlligaì̵ (s1B) calzón, trusa hecha de corteza de llanchama. (Vea muìgaì̵.) 3. soga, alambre.",
+    "startpage" : 109,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "igaì̵",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1A",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "telaraña",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tejido de canastas y hamacas",
+                "start" : 27,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jebecɨñuaì̵dɨ danɨ nite imacɨ igaì̵aì̵na.",
+                "start" : 57,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Las arañas tejen sus telarañas.",
+                "start" : 103,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "foìgaì̵",
+                "start" : 142,
+                "end" : 151
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ie moìllɨ igaì̵",
+                "start" : 158,
+                "end" : 174
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1A",
+                "start" : 176,
+                "end" : 180
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "moìlligaì̵",
+                "start" : 183,
+                "end" : 194
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1B",
+                "start" : 196,
+                "end" : 200
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calzón",
+                "start" : 202,
+                "end" : 208
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "trusa hecha de corteza de llanchama",
+                "start" : 211,
+                "end" : 245
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "muìgaì̵",
+                "start" : 252,
+                "end" : 261
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "soga",
+                "start" : 266,
+                "end" : 271
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alambre",
+                "start" : 273,
+                "end" : 280
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 141,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 175,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 200,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 225,
+                "end" : 225
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 246,
+                "end" : 246
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 247,
+                "end" : 247
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 272,
+                "end" : 272
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+    ]
+})

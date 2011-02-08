@@ -1,0 +1,169 @@
+
+manual_entries.append({
+    "fullentry" : "[cáwaavye, cáhwabya] vt. hacer trampa dahpénéého de hojas de palma para aves terrestres. Tahdíú cáwaavyé íúmɨhé úníutu. Mi abuelo hizo trampa para aves al lado de su chacra.",
+    "startpage" : 87,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cáwaavye",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cáhwabya",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer trampa dahpénéého de hojas de palma para aves terrestres",
+                "start" : 27,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tahdíú cáwaavyé íúmɨhé úníutu.",
+                "start" : 94,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi abuelo hizo trampa para aves al lado de su chacra.",
+                "start" : 133,
+                "end" : 187
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# c á . w aa . vy e #",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# c á h . w a . by a #",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[cáwaavye, cáhwabya]",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dahpénéého",
+                "start" : 40,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tahdíú cáwaavyé",
+                "start" : 94,
+                "end" : 113
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "íúmɨhé úníutu.",
+                "start" : 114,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 155,
+                "end" : 155
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+    ]
+})

@@ -1,0 +1,34 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/book_header.html" />
+
+${component.standardheader()}
+
+${component.bookinfo()}
+
+<ul>
+
+    % for dictdata in c.book.dictdata:
+    % if dictdata.id != c.dictdata.id:
+        <li>
+        <a href="${h.url_for(controller='book', action='view', bibtexkey=c.book.bibtex_key, startpage=dictdata.startpage, endpage=dictdata.endpage, format='html')}">
+            Dictionary (pp. ${dictdata.startpage} - ${dictdata.endpage})
+        </a>
+        (Approximate ISO 639-3 identification: ${dictdata.src_language.langcode} - ${dictdata.tgt_language.langcode})
+        </li>
+    % endif
+    % endfor
+
+    % for nondictdata in c.book.nondictdata:
+        <li>
+        <a href="${h.url_for(controller='book', action='nondictdata', bibtexkey=c.book.bibtex_key, title=nondictdata.title_url(), startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
+            ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage})
+        </a>
+        </li>
+    % endfor
+</ul>
+
+
+<h2>Content from trac wiki</h2>
+<p>
+    ${h.get_trac_wiki_book_article(c.book.bibtex_key)}
+</p>

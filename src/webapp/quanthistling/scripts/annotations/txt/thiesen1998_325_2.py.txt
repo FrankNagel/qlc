@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "wállúrí̵jɨjcáro, wállúrɨjí̵jco abs. acción de...",
+    "startpage" : 325,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wállúrí̵jɨjcáro",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wálĺrɨjí̵jco",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 39,
+                "end" : 42
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á ll ú r í̵ j ɨ j c á r o",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á l l ú r ɨ j í̵ j c o",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wállúrí̵jɨjcáro, wálĺrɨjí̵jco",
+                "start" : 0,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 39,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+    ]
+})

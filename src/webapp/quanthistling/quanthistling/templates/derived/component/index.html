@@ -1,0 +1,7 @@
+<%inherit file="/base/index.html"/>
+
+<ul>
+% for co in c.components:
+    <li><a href="${h.url_for(controller='component', action='view', name=co.name.lower())}">${co.name}</a></li>
+% endfor
+</ul>

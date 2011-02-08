@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "muúte/[muutá] pron.interr.m./f.pl. quiénes. —Se emplea muutá para indicar el sujeto: ¿Muutá tsááhií? ¿Quiénes vienen? ¿Muutáha?/¿Muutáhaja? ¿Quiénes quizás?",
+    "startpage" : 191,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúte",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muutá",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.m./f.pl.",
+                "start" : 16,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " quiénes",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muutá tsááhií?",
+                "start" : 90,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Quiénes vienen?",
+                "start" : 109,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muutáha?/¿Muutáhaja?",
+                "start" : 127,
+                "end" : 150
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Quiénes quizás?",
+                "start" : 151,
+                "end" : 169
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . t e #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . t á #",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúte/[muutá]",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.m./f.pl.",
+                "start" : 16,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muutá",
+                "start" : 58,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muutá tsááhií?",
+                "start" : 89,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muutáha?/¿Muutáhaja? ¿Quié",
+                "start" : 127,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+    ]
+})

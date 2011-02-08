@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "kawe v convidar p ir kawɨ",
+    "startpage" : 337,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kawe ",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "convidar para ir",
+                "start" : 7,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "kawɨ",
+                "start" : 21,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

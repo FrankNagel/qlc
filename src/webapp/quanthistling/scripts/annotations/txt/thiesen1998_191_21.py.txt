@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "muurá(h)/[muuré] adv. pues (indica afirmación o credibilidad de una cosa). Muurá tsá dibye pééityú. El no va, pues. —Se usa muuré cuando se añaden sufijos. Muurévá tsá dibye pééityú. Dicen que él no va, pues.",
+    "startpage" : 191,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muurá",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muuráh",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muuré",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pues (indica afirmación o credibilidad de una cosa)",
+                "start" : 23,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muurá tsá dibye pééityú.",
+                "start" : 78,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El no va, pues.",
+                "start" : 108,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muurévá tsá dibye pééityú.",
+                "start" : 166,
+                "end" : 198
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Dicen que él no va, pues.",
+                "start" : 198,
+                "end" : 225
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . r á #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . r á h #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . r é #",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muurá(h)/[muuré]",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muurá tsá dibye pééityú.",
+                "start" : 78,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muuré",
+                "start" : 132,
+                "end" : 138
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muurévá tsá dibye pééityú.",
+                "start" : 166,
+                "end" : 198
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+    ]
+})

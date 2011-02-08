@@ -1,0 +1,14 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader()}
+
+<p><a href="${h.url_for(controller='book', action='page_with_layout', bibtexkey=c.bibtexkey, pagenr=c.pagenr)}"><small>Display with layout</small></a></p>
+
+<table class="entrylist">
+    <tr><th>ID</th><th>Entry</th><th>Page</th></tr>
+    % for e in c.entries:
+        ${component.entry(e)}
+    % endfor
+</table>

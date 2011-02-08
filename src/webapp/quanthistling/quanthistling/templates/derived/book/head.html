@@ -1,0 +1,14 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader()}
+
+<p>Displaying <b>entry ${c.head}</b>.</p>
+
+<table class="entrylist">
+    <tr><th>ID</th><th>Entry</th><th>Page</th></tr>
+    % for e in c.entries:
+        ${component.entry(e)}
+    % endfor
+</table>

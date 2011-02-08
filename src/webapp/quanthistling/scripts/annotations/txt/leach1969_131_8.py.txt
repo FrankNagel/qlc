@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "ñovááhyo – camaleón",
+    "startpage" : 131,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ñovááhyo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "camaleón",
+                "start" : 16,
+                "end" : 24
+            },
+    ]
+})

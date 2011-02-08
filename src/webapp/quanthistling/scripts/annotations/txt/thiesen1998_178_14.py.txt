@@ -1,0 +1,274 @@
+
+manual_entries.append({
+    "fullentry" : "meé/[me/me-] pron.pers. nosotros; nos (incl.). –Se antepone me- al verbo de las oraciones indicativas e imperativas. Cuando un pronombre dual o plural de primera o segunda persona aparece como sujeto de una oración, también se antepone me- al verbo: Mépeé. Vamos. Muha mépéjucóó. Ya nos vamos. ¡Mépeé! ¡Vayan!",
+    "startpage" : 178,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "meé",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "me",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "me-",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.pers.",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nosotros",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nos (incl.)",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Mépeé.",
+                "start" : 253,
+                "end" : 261
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Vamos. ",
+                "start" : 261,
+                "end" : 269
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muha mépéjucóó.",
+                "start" : 269,
+                "end" : 288
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Ya nos vamos. ",
+                "start" : 288,
+                "end" : 303
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¡Mépeé!",
+                "start" : 303,
+                "end" : 312
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¡Vayan!",
+                "start" : 312,
+                "end" : 320
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m e . é #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m e #",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m e #",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meé/[me/me-]",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.pers.",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-",
+                "start" : 61,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-",
+                "start" : 239,
+                "end" : 242
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mépeé.",
+                "start" : 253,
+                "end" : 261
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muha mépéjucóó.",
+                "start" : 269,
+                "end" : 288
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¡Mépeé!",
+                "start" : 303,
+                "end" : 312
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 217,
+                "end" : 217
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 261,
+                "end" : 261
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 262,
+                "end" : 262
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+    ]
+})

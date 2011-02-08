@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "+ tak-ús, m. = tener, poseer",
+    "startpage" : 148,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "takús",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poseer",
+                "start" : 23,
+                "end" : 29
+            },
+    ]
+})

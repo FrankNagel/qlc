@@ -1,0 +1,89 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="component_annotation" file="/component/annotation.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader()}
+
+<p class="export-button">
+    <a class="export-button" href="${h.url_for(controller='book', action='entryid', bibtexkey=c.book.bibtex_key, pagenr=c.pagenr, pos_on_page=c.pos_on_page, format='xml')}">Entry XML</a><br/>
+    <a class="export-button" href="${h.url_for(controller='book', action='formatting_annotations_for_entryid', bibtexkey=c.book.bibtex_key, pagenr=c.pagenr, pos_on_page=c.pos_on_page, format='xml')}">Entry formatting XML</a><br/>
+    <a class="export-button" href="${h.url_for(controller='book', action='dictinterpretation_annotations_for_entryid', bibtexkey=c.book.bibtex_key, pagenr=c.pagenr, pos_on_page=c.pos_on_page, format='xml')}">Entry dictionary interpretation XML</a>
+</p>
+
+<p>Displaying <b>entry ${c.pos_on_page} on page ${c.pagenr}</b>.</p>
+
+<table class="entrylist">
+    <tr><th>ID</th><th>Entry</th><th>Page</th></tr>
+    ${component.entry(c.entry)}
+</table>
+
+<h2 style="margin-top:50px;">Annotations for main entry</h2>
+
+<p>
+Entry text:
+<pre>
+${c.entry.fullentry}
+</pre>
+</p>
+
+<p>
+% if 'user' in session:
+    <small><a href="${h.url_for(controller='book', action='edit_entryid', bibtexkey=c.entry.dictdata.book.bibtex_key, pagenr=c.entry.startpage, pos_on_page=c.entry.pos_on_page, format='html')}">edit</a></small> |
+% endif
+    <small>
+    <a href="${h.url_for(controller='book', action='entryid', bibtexkey=c.book.bibtex_key, pagenr=c.pagenr, pos_on_page=c.pos_on_page, format='py.txt')}">Python code</a>
+    </small>
+% if c.entry.has_manual_annotations:
+    <small>(edited manually)</small>
+% endif
+</p>
+
+</p>
+
+<table class="annotationlist">
+    <tr><th>Type</th><th>Value</th><th>Start</th><th>End</th><th>Substring</th></tr>
+    % for a in c.entry.annotations_sorted_by_type_and_start():
+        ${component_annotation.annotation(a)}
+    % endfor
+</table>
+
+<% subentries = c.entry.subentries() %>
+
+% if (len(subentries) > 0):
+
+<h2 style="margin-top:50px;">Annotations for Subentries</h2>
+% for e in subentries:
+
+<h3>Entry text (subentry ${e.pos_on_page} on page ${e.startpage})</h3>
+
+<p>
+<pre>
+${e.fullentry}
+</pre>
+</p>
+
+
+<p>
+% if 'user' in session:
+    <small><a href="${h.url_for(controller='book', action='edit_entryid', bibtexkey=e.dictdata.book.bibtex_key, pagenr=e.startpage, pos_on_page=e.pos_on_page, format='html')}">edit</a></small> |
+% endif
+    <small>
+    <a href="${h.url_for(controller='book', action='entryid', bibtexkey=c.book.bibtex_key, pagenr=e.startpage, pos_on_page=e.pos_on_page, format='py.txt')}">Python code</a>
+    </small>
+% if e.has_manual_annotations:
+    <small>(edited manually)</small>
+% endif
+</p>
+
+<table class="annotationlist">
+    <tr><th>Type</th><th>Value</th><th>Start</th><th>End</th><th>Substring</th></tr>
+    % for a in e.annotations_sorted_by_type_and_start():
+        ${component_annotation.annotation(a)}
+    % endfor
+</table>
+% endfor
+
+% endif
+
+<hr/>

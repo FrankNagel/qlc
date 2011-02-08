@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "muúlle/[muullá] pron.interr. quién (mujer o animal hembra). ¿Muúlle? ¿Quién? ¿Múúlleké ú tsivá? ¿A quién has traído? —Se emplea muullá para indicar el sujeto: ¿Muullá tsááhií? ¿Quién (mujer) viene?",
+    "startpage" : 190,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúlle",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muullá",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.",
+                "start" : 18,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién (mujer o animal hembra)",
+                "start" : 30,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muúlle?",
+                "start" : 63,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién? ",
+                "start" : 72,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Múúlleké ú tsivá?",
+                "start" : 82,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿A quién has traído?",
+                "start" : 106,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muullá tsááhií?",
+                "start" : 172,
+                "end" : 192
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién (mujer) viene?",
+                "start" : 192,
+                "end" : 215
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . ll e #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . ll á #",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúlle/[muullá]",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.",
+                "start" : 18,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muúlle?",
+                "start" : 63,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Múúlleké ú tsivá?",
+                "start" : 82,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muullá",
+                "start" : 140,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muullá tsááhií?",
+                "start" : 172,
+                "end" : 192
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+    ]
+})

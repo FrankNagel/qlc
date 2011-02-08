@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "chíhwaá/[chíhwa], chíhwámutsi, chíhwamu s. chicua (especie de pajarito agorero). —Cuando canta che-che-che-che predice algo bueno y cuando canta chíhwaachíhwaa predice algo malo.",
+    "startpage" : 101,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwaá",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwa",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwámutsi",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwamu",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 46,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chicua (especie de pajarito agorero)",
+                "start" : 49,
+                "end" : 85
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w a . á #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w a #",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w á . m u . ts i #",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w a . m u #",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chíhwaá/[chíhwa], chíhwámutsi, chíh",
+                "start" : 0,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wamu",
+                "start" : 41,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 46,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "che-che-che-che",
+                "start" : 101,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "chíhwaa",
+                "start" : 151,
+                "end" : 159
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "chíhwaa",
+                "start" : 159,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+    ]
+})

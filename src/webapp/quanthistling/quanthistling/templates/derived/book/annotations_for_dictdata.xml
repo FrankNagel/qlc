@@ -1,0 +1,8 @@
+<%inherit file="/base/ces_ana.xml"/>
+<%namespace name="component" file="/component/entry.xml" />
+
+<chunkList>
+    % for e in c.entries:
+        ${component.annotations(e)}
+    % endfor
+</chunkList>

@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "yunka-shena n bicho d goiaba yugaȿɨna",
+    "startpage" : 368,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkashena ",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bicho da goiaba",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "yugaȿɨna",
+                "start" : 29,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "dyavaara – llaga",
+    "startpage" : 87,
+    "pos_on_page" : 42,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyavaara",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llaga",
+                "start" : 11,
+                "end" : 16
+            },
+    ]
+})

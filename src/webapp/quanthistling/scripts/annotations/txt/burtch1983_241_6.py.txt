@@ -1,0 +1,827 @@
+
+manual_entries.append({
+    "fullentry" : "uaì (s1A) 1. idioma, palabra. Dɨnomona caì̵ uaì raìse joiñede. Caì̵ uaì raìse iñede. Daforie jɨaì̵macɨ uaìdo ñaì̵tɨcaì̵. Daforie jɨaì̵sie uaìdo ñaì̵tɨcaì̵. Jaìededɨ dɨfaì caì̵ comɨnɨ danomo illa. Daje uaìdo ñaì̵tɨcaì̵. Desde entonces nuestro idioma no ha sido correcto. Nuestro idioma no ha sido bueno. Algunos de nosotros hablábamos de otra manera. Algunos hablábamos idiomas de otros grupos. Pero antiguamente nuestros paisanos estaban juntos y hablábamos un solo idioma. (Vea nanoca uaì.) 2. voz. Jaì uaì dɨne janore fo jaìoìcaìde. Su voz se ha vuelto más débil (lit. está un poco más adentro). (Vea nanoca.) 3. autoridad. Bibɨrɨ nama jiibina uai. Dɨona uai caì̵ feitatɨcaì̵na, caì̵na faì̵te. Caì̵ fiodaìtɨcaì̵ raì̵re. Ie muìdona caì̵ jiibina uaìna caì̵ feitaiñedɨcaì̵. El dueño de este lugar (es) Coca (lit. la autoridad de Coca). Si nos olvidamos de la autoridad del Tabaco, él nos mataría. Pronto moriríamos. Por eso no olvidamos la autoridad de Coca. 4. (imp de uaìde 2.) ¡Jɨnuì uaì l ¡Anda, saca agua (y tráela)!",
+    "startpage" : 241,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uaì",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1A",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "idioma",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palabra",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Dɨnomona caì̵ uaì raìse joiñede.",
+                "start" : 31,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Caì̵ uaì raìse iñede.",
+                "start" : 68,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Daforie jɨaì̵sie uaìdo ñaì̵tɨcaì̵.",
+                "start" : 135,
+                "end" : 174
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jaìededɨ dɨfaì caì̵ comɨnɨ danomo illa.",
+                "start" : 175,
+                "end" : 217
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Desde entonces nuestro idioma no ha sido correcto.",
+                "start" : 245,
+                "end" : 295
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nuestro idioma no ha sido bueno.",
+                "start" : 296,
+                "end" : 328
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Algunos hablábamos idiomas de otros grupos.",
+                "start" : 377,
+                "end" : 421
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Pero antiguamente nuestros paisanos estaban juntos y hablábamos un solo idioma.",
+                "start" : 422,
+                "end" : 502
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "nanoca uaì",
+                "start" : 508,
+                "end" : 519
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz",
+                "start" : 524,
+                "end" : 528
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jaì uaì dɨne janore fo jaìoìcaìde.",
+                "start" : 530,
+                "end" : 569
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Su voz se ha vuelto más débil (lit. está un poco más adentro).",
+                "start" : 571,
+                "end" : 636
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "nanoca",
+                "start" : 642,
+                "end" : 648
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "autoridad",
+                "start" : 653,
+                "end" : 663
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Bibɨrɨ nama jiibina uai.",
+                "start" : 665,
+                "end" : 689
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Dɨona uai caì̵ feitatɨcaì̵na, caì̵na faì̵te.",
+                "start" : 690,
+                "end" : 738
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ie muìdona caì̵ jiibina uaìna caì̵ feitaiñedɨcaì̵.",
+                "start" : 769,
+                "end" : 825
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El dueño de este lugar (es) Coca (lit. la autoridad de Coca).",
+                "start" : 827,
+                "end" : 888
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Si nos olvidamos de la autoridad del Tabaco, él nos mataría.",
+                "start" : 889,
+                "end" : 951
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Pronto moriríamos.",
+                "start" : 952,
+                "end" : 971
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "imp de uaìde",
+                "start" : 1019,
+                "end" : 1036
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "¡jɨnuì uaì!",
+                "start" : 1038,
+                "end" : 1050
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "¡Anda, saca agua (y tráela)!",
+                "start" : 1052,
+                "end" : 1080
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 175,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 205,
+                "end" : 205
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 229,
+                "end" : 229
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 230,
+                "end" : 230
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 260,
+                "end" : 260
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 285,
+                "end" : 285
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 286,
+                "end" : 286
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 310,
+                "end" : 310
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 311,
+                "end" : 311
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 336,
+                "end" : 336
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 337,
+                "end" : 337
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 363,
+                "end" : 363
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 364,
+                "end" : 364
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 387,
+                "end" : 387
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 387,
+                "end" : 387
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 387,
+                "end" : 387
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 413,
+                "end" : 413
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 414,
+                "end" : 414
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 439,
+                "end" : 439
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 440,
+                "end" : 440
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 465,
+                "end" : 465
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 466,
+                "end" : 466
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 492,
+                "end" : 492
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 492,
+                "end" : 492
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 492,
+                "end" : 492
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 514,
+                "end" : 514
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 515,
+                "end" : 515
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 544,
+                "end" : 544
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 545,
+                "end" : 545
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 572,
+                "end" : 572
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 573,
+                "end" : 573
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 598,
+                "end" : 598
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 598,
+                "end" : 598
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 598,
+                "end" : 598
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 621,
+                "end" : 621
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 622,
+                "end" : 622
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 646,
+                "end" : 646
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 646,
+                "end" : 646
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 646,
+                "end" : 646
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 671,
+                "end" : 671
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 672,
+                "end" : 672
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 695,
+                "end" : 695
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 696,
+                "end" : 696
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 729,
+                "end" : 729
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 730,
+                "end" : 730
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 765,
+                "end" : 765
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 765,
+                "end" : 765
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 765,
+                "end" : 765
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 794,
+                "end" : 794
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 795,
+                "end" : 795
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 825,
+                "end" : 825
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 826,
+                "end" : 826
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 849,
+                "end" : 849
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 850,
+                "end" : 850
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 875,
+                "end" : 875
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 875,
+                "end" : 875
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 875,
+                "end" : 875
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 875,
+                "end" : 875
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 900,
+                "end" : 900
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 900,
+                "end" : 900
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 900,
+                "end" : 900
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 925,
+                "end" : 925
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 926,
+                "end" : 926
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 951,
+                "end" : 951
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 952,
+                "end" : 952
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 975,
+                "end" : 975
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 976,
+                "end" : 976
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 1000,
+                "end" : 1000
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1000,
+                "end" : 1000
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 1000,
+                "end" : 1000
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1025,
+                "end" : 1025
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 1026,
+                "end" : 1026
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 1055,
+                "end" : 1055
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1055,
+                "end" : 1055
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 1055,
+                "end" : 1055
+            },
+    ]
+})

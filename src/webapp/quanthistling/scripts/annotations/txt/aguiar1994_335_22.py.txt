@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "iwa-vusta-ti n tampa d calderao iwaβustate",
+    "startpage" : 335,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iwavustati ",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tampa de calderao",
+                "start" : 15,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "iwaβustate",
+                "start" : 32,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+    ]
+})

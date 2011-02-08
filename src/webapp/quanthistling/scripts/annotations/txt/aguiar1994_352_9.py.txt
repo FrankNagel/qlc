@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "ruru-tuntxi n rodo p farinha ɾoɾotoudʺi",
+    "startpage" : 352,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rurutuntxi ",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rodo para farinha",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "ɾoɾotoudʺi",
+                "start" : 29,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})

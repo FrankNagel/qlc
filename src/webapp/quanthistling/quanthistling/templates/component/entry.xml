@@ -1,0 +1,30 @@
+<%def name="entry(entry)">
+
+<div type="dictentry">
+    <p id="${entry.startpage}.${entry.pos_on_page}">${entry.fullentry}</p>
+% if len(entry.subentries()) > 0:
+    % for se in entry.subentries():
+    <p id="${se.startpage}.${se.pos_on_page}">${se.fullentry}</p>
+    % endfor
+% endif
+</div>
+
+</%def>
+
+<%def name="annotations(entry)">
+    <%
+        types = []
+        if hasattr(c, 'annotationtypes'):
+            types = c.annotationtypes
+        annotations = entry.annotations_sorted_by_type_and_start(types)
+    %>
+    % if len(annotations) > 0:
+        <chunk from="${entry.startpage}.${entry.pos_on_page}/0">
+        % for a in entry.annotations_sorted_by_type_and_start(types):
+            <tok type="${a.annotationtype.type}" value="${a.value}" from="${entry.startpage}.${entry.pos_on_page}/${a.start}" to="${entry.startpage}.${entry.pos_on_page}/${a.end}">
+                <orth>${a.string}</orth>
+            </tok>
+        % endfor
+        </chunk>
+    % endif
+</%def>

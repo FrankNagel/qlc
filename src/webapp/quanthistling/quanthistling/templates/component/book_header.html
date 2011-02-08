@@ -1,0 +1,88 @@
+<%def name="bookinfo()">
+<p>Author: ${c.book.author}<br/>
+Year: ${c.book.year}</p>
+</%def>
+
+<%def name="book_letter_navigation()">
+<p>
+% if c.dictdata.startletters:
+<label for="letter"><b>Letter</b></label>
+% for l in eval(c.dictdata.startletters):
+    % if hasattr(c, 'startletter') and l.upper() == c.startletter:
+        ${l.upper()}&nbsp;&nbsp;
+    % else:
+        <a href="${h.url_for(controller='book', action='letter', bibtexkey=c.bibtexkey, startpage=c.startpage, endpage=c.endpage, startletter=l.upper())}">${l.upper()}</a>&nbsp;&nbsp;
+    % endif
+% endfor
+% else:
+&nbsp;<br/>&nbsp;
+% endif
+</p>
+</%def>
+
+<%def name="book_page_navigation(from_page, to_page, current_page=None)">
+<%
+action = 'page'
+if hasattr(c, 'action') and c.action == 'page_with_layout':
+    action = 'page_with_layout'
+
+if current_page != None:
+    current_page = h.url_for(controller='book', action=action, bibtexkey=c.bibtexkey, pagenr=current_page)
+%>
+<p>
+<label for="page"><b>Page</b></label>
+    ${h.select('pageurl', current_page,[ [ h.url_for(controller='book', action='view', bibtexkey=c.bibtexkey), '' ] ] + [ [ h.url_for(controller='book', action=action, bibtexkey=c.bibtexkey, pagenr=pagenr), pagenr] for pagenr in range(from_page, to_page) ], id='page_select', onchange='javascript:window.location.href=$(\'page_select\').getValue();')}
+</p>
+</%def>
+
+
+<%def name="standardheader()">
+
+    <div id="booknavigation">
+    
+    <p class="export-button">
+        <a class="export-button" href="${h.url_for(controller='book', action='dictdata', bibtexkey=c.book.bibtex_key, startpage=c.startpage, endpage=c.endpage, format='xml')}">Dictionary XML</a><br/>
+        <a class="export-button" href="${h.url_for(controller='book', action='annotations_for_dictdata', bibtexkey=c.book.bibtex_key, startpage=c.startpage, endpage=c.endpage, annotationtype='formatting', format='xml')}">Dictionary formatting XML</a><br/>
+        <a class="export-button" href="${h.url_for(controller='book', action='annotations_for_dictdata', bibtexkey=c.book.bibtex_key, startpage=c.startpage, endpage=c.endpage, annotationtype='dictinterpretation', format='xml')}">Dictionary interpretation XML</a><br/>
+        <a class="export-button" href="${h.url_for('/downloads/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
+    </p>
+    
+    ${book_letter_navigation()}
+    
+    % if hasattr(c, 'pagenr'):
+        ${book_page_navigation(c.dictdata.startpage, c.dictdata.endpage, c.pagenr)}
+    % else:
+        ${book_page_navigation(c.dictdata.startpage, c.dictdata.endpage)}
+    % endif
+    
+    </div>
+
+</%def>
+
+
+<%def name="book_page_navigation_wordlist(from_page, to_page, current_page=None)">
+<%
+action = 'page'
+if hasattr(c, 'action') and c.action == 'page_with_layout':
+    action = 'page_with_layout'
+
+if current_page != None:
+    current_page = h.url_for(controller='book', action=action, bibtexkey=c.bibtexkey, pagenr=current_page)
+%>
+<p>
+<label for="page"><b>Page</b></label>
+    ${h.select('pageurl', current_page,[ [ h.url_for(controller='book', action='view', bibtexkey=c.bibtexkey), '' ] ] + [ [ h.url_for(controller='book', action=action, bibtexkey=c.bibtexkey, pagenr=pagenr), pagenr] for pagenr in range(from_page, to_page) ], id='page_select', onchange='javascript:window.location.href=$(\'page_select\').getValue();')}
+</p>
+</%def>
+
+<%def name="standardheader_wordlist()">
+    <div id="booknavigation">
+
+    % if hasattr(c, 'pagenr'):
+        ${book_page_navigation_wordlist(c.startpage, c.endpage, c.pagenr)}
+    % else:
+        ${book_page_navigation_wordlist(c.startpage, c.endpage)}
+    % endif
+
+    </div>
+</%def>

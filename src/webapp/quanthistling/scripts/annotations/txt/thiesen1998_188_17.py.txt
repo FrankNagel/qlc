@@ -1,0 +1,176 @@
+
+manual_entries.append({
+    "fullentry" : "muúbe/[muubá] pron.interr.m.sg. quién, de quién. —Se emplea muubá para indicar el sujeto: Muubá tsááhií. ¿Quién viene? ¿Muubáha?/¿Muubáhajaj? ¿Quién?",
+    "startpage" : 188,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúbe",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muubá",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.m.sg.",
+                "start" : 16,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de quién",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muubá tsááhií.",
+                "start" : 95,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién viene? ",
+                "start" : 113,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muubáha?/¿Muubáhajaj?",
+                "start" : 129,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién?",
+                "start" : 153,
+                "end" : 162
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . b e #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . b á #",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúbe/[muubá]",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.m.sg.",
+                "start" : 16,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muubá",
+                "start" : 64,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muubá tsááhií.",
+                "start" : 95,
+                "end" : 113
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muubáha?/¿Muubáhajaj?",
+                "start" : 129,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+    ]
+})

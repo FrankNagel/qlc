@@ -1,0 +1,8 @@
+<%inherit file="/base/ces_doc.xml"/>
+<%namespace name="component" file="/component/entry.xml" />
+
+<text>
+    <body>
+        ${component.entry(c.entry)}
+    </body>
+</text>

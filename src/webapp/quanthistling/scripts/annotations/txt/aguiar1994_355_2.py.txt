@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "taka-watu-kuki n cesta com cabo p pes takawatu kuki",
+    "startpage" : 355,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "takawatukuki ",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cesta com cabo para pes",
+                "start" : 17,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "takawatu kuki",
+                "start" : 38,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+    ]
+})

@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "kuke-na-shipa n cesto p carreg crian kukɨenaȿipa",
+    "startpage" : 339,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kukenashipa ",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cesto para carregar crianca",
+                "start" : 16,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "kukɨenaȿipa",
+                "start" : 37,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})

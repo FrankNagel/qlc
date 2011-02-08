@@ -1,0 +1,92 @@
+<%inherit file="/base/index.html"/>
+<!-- <html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Annotation Editor</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.2.0/build/cssreset/reset-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.2.0/build/cssfonts/fonts-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.2.0/build/cssbase/base-min.css" />
+    ${h.stylesheet_link(h.url_for('/stylesheets/editor.css'))}
+</head>
+
+<body>
+-->
+
+<div id="annotation-fulltext">
+    <h1>Fulltext</h1>
+    <p>
+    <pre id="fulltext"></pre>
+    </p>
+    <p>
+        <button type="button" name="edit-fulltext" value="edit-fulltext">Edit fulltext</button>
+    </p>
+    <p id="p-input-fulltext" style="display:none;">
+        <input type="text" id="input-fulltext" name="input-fulltext" value="${c.entry.fullentry}" style="width:600px;" /><br/>
+        <button type="button" id="apply-fulltext" name="apply-fulltext" value="apply-fulltext">Apply</button>
+        <button type="button" id="cancel-fulltext" name="cancel-fulltext" value="cancel-fulltext">Cancel</button>
+    </p>
+</div>
+
+<div id="annotation-buttons">
+    <h1>Add annotation</h1>
+    <p>
+        <small>Mark text above and click on "Set" button to set start and end values. Or enter values manually. Then click a button to add the annotation.</small>
+    <p>
+    <span>Start: <input type="text" id="annotation-start" name="annotation-start" value="0" maxlength="4" size="4" /></span>
+    <span>End: <input type="text" id="annotation-end" name="annotation-end" value="0" maxlength="4" size="4" /></span>
+    <button type="button" id="set-start-end" name="set-start-end" value="set-start-end">Set</button>
+    </p>
+    <p>
+    <span>String: <input type="text" id="annotation-string" name="annotation-string" value="" size="30" /></span>
+    </p>
+    <p id="buttons">
+    </p>
+    <!--<p>
+        <small><a id="edit-buttons" href="#">edit buttons</a></small>
+    </p>-->
+</div>
+
+<div id="annotation-values">
+    <h1>Annotation values</h1>
+
+    <table id="annotations">
+    </table>
+</div>
+
+<div id="pagebuttons">
+    <button type="button" name="save-page" value="save-page">Save</button>
+    <button style="margin-left:50px;" type="button" name="reset-page" value="reset-page">Reset</button>
+    <button type="button" name="cancel-page" value="cancel-page">Cancel</button>
+</div>
+
+<script src="http://yui.yahooapis.com/3.2.0/build/yui/yui-min.js"></script>
+${h.javascript_link(h.url_for('/javascripts/editor.js'))}
+<script type="text/javascript">
+
+    YUI().use("quanthistling-editor", function(Y) {
+        var editor = new Y.quanthistling.Editor({
+            fulltext: '${c.entry.fullentry}',
+            annotations: [
+                % for a in c.entry.annotations_sorted_by_type_and_start(['dictinterpretation', 'orthographicinterpretation', 'errata']):
+                {
+                    annotationtype: '${a.annotationtype.type}',
+                    value: '${a.value}',
+                    start: ${a.start},
+                    end: ${a.end},
+                    string: '${a.string}'
+                },
+                % endfor
+            ],
+            annotationvalues: [ 'dictinterpretation.head', 'dictinterpretation.pos', 'dictinterpretation.translation', 'dictinterpretation.example-src', 'dictinterpretation.example-tgt', 'dictinterpretation.crossreference', 'dictinterpretation.counterpart', 'dictinterpretation.footnote', 'dictinterpretation.phonology', 'orthographicinterpretation.headorth', 'errata.typo'],
+            saveurl: '${c.saveurl}'
+        });
+    });
+
+</script>
+
+<!--
+</body>
+
+</html>
+-->

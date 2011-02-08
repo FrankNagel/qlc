@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "* supí-k, m. = helarse, lancharse (los tubérculos).",
+    "startpage" : 492,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "supík",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "helarse",
+                "start" : 16,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lancharse (los tubérculos)",
+                "start" : 25,
+                "end" : 52
+            },
+    ]
+})

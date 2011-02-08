@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "kuchamrattsa, kuchameamu, kuchamat 1) ahuecar tronco para hacer canoa. 2) escarbar, cavar la tierra. 3) perjurar.",
+    "startpage" : 51,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuchamrattsa",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuchameamu",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuchamat",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ahuecar tronco para hacer canoa",
+                "start" : 38,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "escarbar, cavar la tierra",
+                "start" : 74,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "perjurar",
+                "start" : 104,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kuchamrattsa, kuchameamu, kuchamat",
+                "start" : 0,
+                "end" : 34
+            },
+    ]
+})

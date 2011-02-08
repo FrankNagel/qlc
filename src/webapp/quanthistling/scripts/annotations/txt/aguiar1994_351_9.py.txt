@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "risi-ivi n corda d amarar rede ɾesiβi",
+    "startpage" : 351,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "risiivi ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "corda de amarar rede",
+                "start" : 11,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "ɾesiβi",
+                "start" : 31,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+    ]
+})

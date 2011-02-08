@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "anám-ka, u. (r-uk,ram-ka,-) = emborrachar. Juánkan anamkáyi = emborrachó a Juank.",
+    "startpage" : 133,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anámka",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u. (r-uk,ram-ka,-)",
+                "start" : 10,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emborrachar",
+                "start" : 31,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan anamkáyi",
+                "start" : 44,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "emborrachó a juank",
+                "start" : 65,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "anám-ka,",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

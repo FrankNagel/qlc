@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "niska-vuis-kuin-usti qtf tres neskaβuiskuius*es",
+    "startpage" : 345,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "niskavuiskuinusti",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "qtf",
+                "start" : 19,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tres ",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "phonology",
+                "string" : "neskaβuiskuius*es",
+                "start" : 28,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})

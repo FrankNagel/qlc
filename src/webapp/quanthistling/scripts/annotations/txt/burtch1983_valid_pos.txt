@@ -1,0 +1,95 @@
+adj         
+adv        
+alt           
+comp.    
+dir           
+dl         
+Ejm.       
+esp.         
+excl        
+f               
+s2A. f
+fr             
+i              
+vi3
+imp          
+v. imp
+inc          
+v. inc
+ind.         
+c              
+vc
+int          
+interj      
+ins           
+loc          
+m            
+mod       
+n             
+nom       
+pas         
+per          
+pl            
+pl.col      
+pos        
+pro          
+r              
+rd            
+rs             
+s              
+sg            
+sf            
+t              
+v             
+voc         
+s1A	
+s1B
+pl.alt
+vt2
+adv3
+adv4
+vc
+suf. v. desinencial
+proB.pl	
+vt1	
+suf.v
+suf.v. derivacional
+s2A	
+adj2
+adv4
+pro dem neutro	
+adj dem-sg	
+dual o pl	
+pro.pos	
+adj pos-pl	
+pro. dem	
+pro. pos	
+adj pos-sg	
+dual o pl	
+suf.s. desinencial
+imp de bɨte
+s1C
+s1
+vd
+adj3
+vc2
+vi4
+s2C
+s2B
+adv2
+s3
+adv5
+p1
+vd5.neg
+vd5neg
+vd5. neg
+adj1
+adv6
+S1
+adv1
+vd5
+sB
+vt2neg
+vt
+vi
+vt 1

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "déju éhnéjcu detrás.",
+    "startpage" : 105,
+    "pos_on_page" : 38,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "déju éhnéjcu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "detrás",
+                "start" : 17,
+                "end" : 23	
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "déju éhnéjcu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

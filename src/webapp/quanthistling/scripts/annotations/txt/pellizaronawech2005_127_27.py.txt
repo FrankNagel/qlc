@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "+ aku-n-a, uku-n-a, u. = clavar en el suelo.",
+    "startpage" : 127,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "akuna",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ukuna",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 20,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "clavar en el suelo",
+                "start" : 25,
+                "end" : 43
+            },
+    ]
+})

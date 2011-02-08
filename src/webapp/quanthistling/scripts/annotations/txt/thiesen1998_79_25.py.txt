@@ -1,0 +1,189 @@
+
+manual_entries.append({
+    "fullentry" : "[cátí̵í̵tɨjí̵ro, cátí̵í̵tí̵jɨnu] vt. alinear; igualar, emparejar; poner iguales las puntas de algo. Ménɨjí̵ba cátí̵í̵tɨjí̵nú mepícyoíñuki. Iguala las puntas de las fibras de chambira para ponerlas.",
+    "startpage" : 79,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cátí̵í̵tɨjí̵ro",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cátí̵í̵tí̵jɨnu",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 42,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alinear",
+                "start" : 46,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "igualar",
+                "start" : 55,
+                "end" : 61
+            },{
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emparejar",
+                "start" : 64,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner iguales las puntas de algo",
+                "start" : 75,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ménɨjí̵ba cátí̵í̵tɨjí̵nú mepícyoíñuki.",
+                "start" : 108,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Iguala las puntas de las fibras de chambira para ponerlas.",
+                "start" : 156,
+                "end" : 215
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "c á t í̵ í̵ t ɨ j í̵ r o",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "c á t í̵ í̵ t í̵ j ɨ n u",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cátí̵í̵tɨjí̵ro",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cátí̵í̵tí̵jɨnu",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ménɨjí̵ba cátí̵í̵tɨjí̵nú",
+                "start" : 108,
+                "end" : 139
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mepícyoíñuki.",
+                "start" : 140,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 139,
+                "end" : 139
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 140,
+                "end" : 140
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+    ]
+})

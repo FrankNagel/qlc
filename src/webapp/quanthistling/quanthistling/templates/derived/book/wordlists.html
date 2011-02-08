@@ -1,0 +1,23 @@
+<%inherit file="/base/index.html"/>
+
+% for book in c.books:
+
+<h2>${book.bookinfo_with_status()}</h2>
+<p>
+    <ul>
+        <li>
+        <a href="${h.url_for(controller='book', action='view', bibtexkey=book.bibtex_key, format='html')}">
+            Wordlist (pp. ${book.wordlistdata_startpage()} - ${book.wordlistdata_endpage()})
+        </a>
+        </li>
+        % for nondictdata in book.nondictdata:
+            <li>
+            <a href="${h.url_for(controller='book', action='nondictdata', bibtexkey=book.bibtex_key, title=nondictdata.title_url(), startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
+                ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage})
+            </a>
+            </li>
+        % endfor
+    </ul>
+</p>
+
+% endfor

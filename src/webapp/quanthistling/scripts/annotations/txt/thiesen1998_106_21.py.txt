@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "diícya (imp.sg. de ijcya)",
+    "startpage" : 106,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "diícya",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(imp.sg. de ijcya)",
+                "start" : 9,
+                "end" : 26
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# d i . í . cy a #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "diícya",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ijcya",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ijcya",
+                "start" : 20,
+                "end" : 25
+            },
+    ]
+})

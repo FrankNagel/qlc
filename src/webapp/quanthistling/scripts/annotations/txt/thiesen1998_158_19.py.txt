@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "í̵veekí/[í̵vej] adv.interr. por qué. ¿Ɨ́veekí u péé cóómívuú? ¿Por qué te vas al pueblo? —Se emplea í̵vej como repuesta.",
+    "startpage" : 158,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "í̵veekí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "í̵vej",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.interr.",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por qué",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ɨ́veekí u péé cóómívuú?",
+                "start" : 41,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Por qué te vas al pueblo?",
+                "start" : 73,
+                "end" : 100
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# í̵ . v ee . k í #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# í̵ . v e j #",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "í̵veekí/[í̵vej]",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.interr.",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Ɨ́veekí",
+                "start" : 41,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u péé cóómívuú?",
+                "start" : 51,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "í̵vej",
+                "start" : 112,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 93,
+                "end" : 93
+            },
+    ]
+})

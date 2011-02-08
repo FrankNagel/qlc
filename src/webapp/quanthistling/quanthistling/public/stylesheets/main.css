@@ -1,0 +1,224 @@
+@font-face {
+  font-family: CharisSIL;
+  font-style: normal ;
+  font-weight: normal ;
+  src: url('http://www.cidles.eu/quanthistling/fonts/charissilr.ttf') ;
+}
+
+@font-face {
+  font-family: CharisSIL;
+  font-style: oblique ;
+  font-weight: normal ;
+  src: url('http://www.cidles.eu/quanthistling/fonts/charissili.ttf') ;
+}
+
+@font-face {
+  font-family: CharisSIL;
+  font-style: normal ;
+  font-weight: bold ;
+  src: url('http://www.cidles.eu/quanthistling/fonts/charissilb.ttf') ;
+}
+
+@font-face {
+  font-family: CharisSIL;
+  font-style: oblique ;
+  font-weight: bold ;
+  src: url('http://www.cidles.eu/quanthistling/fonts/charissilbi.ttf') ;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body {
+	height:100%;
+	background-color:#ccc;
+}
+
+body {
+	text-align:left;
+	font-family: "CharisSIL", "Times New Roman";
+	min-height:100%;
+	font-size:1em;
+}
+
+select, input {
+	font-family:serif;
+}
+
+h1 {
+	font-size:1.15em;
+	font-weight:bold;
+	font-family:Verdana,Arial;
+}
+
+p {
+	margin-bottom:.5em;
+}
+
+pre {
+	font-family: "CharisSIL", "Courier";
+	overflow: auto;
+	font-size: 1.2em;
+	border:1px solid #444;
+	background-color:#eee;
+	padding:10px;
+}
+
+div#body {
+	margin:auto;
+	width:1000px;
+	background-color:#fff;
+	border-left:1px solid #444;
+	border-right:1px solid #444;
+	min-height:100%;
+}
+
+div#title {
+	font-family:Verdana,Arial;
+	font-weight:bold;
+	font-size:1.8em;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:right;
+	color:#eee;
+	background-color:#68c;
+	border-bottom:2px dotted #444;
+}
+
+
+div#content {
+	padding:20px;
+}
+
+span.menuitem {
+	display:inline-block;
+	background-color:#444;
+	font-size:1.2em;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:center;
+	width:150px;
+	border-right:3px solid #68c;
+	border-left:3px solid #68c;
+	border-bottom:3px solid #68c;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:20px;
+}
+
+span.menuitem a {
+	color:#ccf;
+	text-decoration:none;
+	font-family:sans-serif;
+}
+
+div.submenuitem {
+    display:none;
+    z-index:10;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+span.submenuitem {
+    display:block;
+    background-color:#666;
+    font-size:1.0em;
+    font-weight:bold;
+    vertical-align:middle;
+    text-align:center;
+    width:150px;
+    border-right:3px solid #68c;
+    border-left:3px solid #68c;
+    border-bottom:3px solid #68c;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+span.submenuitem a {
+	color:#ccf;
+	text-decoration:none;
+	font-family:sans-serif;    
+}
+
+div#heading {
+	border-bottom:1px solid #444;
+	margin-bottom:20px;
+}
+
+div#booknavigation {
+	background-color:#eee;
+	border:1px dotted #444;
+	/*width:600px;*/
+	padding:10px;
+	margin-bottom:10px;
+}
+
+label {
+	display:block;
+}
+
+form span.formfield {
+	display:inline-block;
+	vertical-align:top;	
+}
+
+form span.errormessage {
+	color:red;
+	display:block;
+}
+
+p.subentry {
+	margin-left:20px;
+}
+
+table.entrylist, table.annotationlist {
+	border:1px solid #aaa;
+	border-collapse:collapse;
+	width:100%;
+}
+
+table.entrylist td, table.annotationlist td {
+	border:1px solid #aaa;
+	padding:5px;
+}
+
+table.entrylist th, table.annotationlist th {
+	border:1px solid #000;
+	padding:10px;
+	background-color:#eee;
+}
+
+th.result-fullentry {
+	width:100%;
+}
+
+a.entry-ext {
+        font-size:.8em;
+}
+
+a.export-button {
+	color:#000;
+	text-decoration:underline;
+	font-family:sans-serif;	
+	font-size:.8em;
+}
+
+p.export-button {
+	border:1px solid #444;
+	background-color:#eee;
+	padding:10px;
+	float:right;
+	margin-bottom:5px;
+}
+
+p.entry-link {
+	font-size:.8em;
+}
+
+p.entry-with-layout {
+	margin:0px;
+}

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "+ ipím-ki, u. = cansar, aburrir, atediar.",
+    "startpage" : 346,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ipímki",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cansar",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aburrir",
+                "start" : 25,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atediar",
+                "start" : 34,
+                "end" : 41
+            },
+    ]
+})

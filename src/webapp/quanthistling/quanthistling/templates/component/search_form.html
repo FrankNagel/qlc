@@ -1,0 +1,38 @@
+${h.form(h.url_for(controller='search', action='result'), method='get')}
+
+<p>
+<span style="display:inline-block;">
+    <label for="head">Head</label>
+    <span class="formfield">
+    ${h.text('head')}
+    </span>
+</span>
+
+<span style="display:inline-block;">
+    <label for="logic"></label>
+    <span class="formfield">
+    ${h.select('logic', 'AND', [ 'AND', 'OR' ])}
+    </span>
+</span>
+
+<span style="display:inline-block;">
+    <label for="fullentry">Full entry <small>(<a href="http://www.postgresql.org/docs/8.3/static/functions-matching.html#POSIX-SYNTAX-DETAILS">Regular Expressions Help</a>)</small></label>
+    <span class="formfield">
+    ${h.text('fullentry')}
+    </span>
+</span>
+</p>
+
+<p>
+    <label for="searchinbooks">Search in</label>
+    <span class="formfield">
+    ${h.select('searchinbooks', '', [ [dictdata.id, "[%s, %s] %s - %s" % (dictdata.component.name, dictdata.book.bibtex_key, dictdata.src_language.name, dictdata.tgt_language.name)] for dictdata in c.dictdata ], multiple=True)}
+    </span>
+</p>
+
+<p>
+    <label for="submit"></label>
+    ${h.submit('submit', 'Submit')}
+<p>
+    
+${h.end_form()}

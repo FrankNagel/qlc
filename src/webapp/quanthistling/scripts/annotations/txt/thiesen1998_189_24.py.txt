@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "muhpɨ pron.pers. nosotras dos. —Cuando es el sujeto, el verbo lleva el prefijo me-. Muhpɨ méújcuté baajúri. Nosotras dos vamos a traer yuca. (ver meé)",
+    "startpage" : 189,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muhpɨ",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.pers.",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nosotras dos",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muhpɨ méújcuté baajúri.",
+                "start" : 84,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nosotras dos vamos a traer yuca.",
+                "start" : 112,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : " meé",
+                "start" : 149,
+                "end" : 154
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u h . p ɨ #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muhpɨ",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.pers.",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-.",
+                "start" : 79,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muhpɨ méújcuté baajúri.",
+                "start" : 84,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meé",
+                "start" : 150,
+                "end" : 154
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+    ]
+})

@@ -1,0 +1,225 @@
+
+manual_entries.append({
+    "fullentry" : "[ávyejújkímye̱i] vr. superarse, engrandecerse, volverse importante. Ɨ́dátsóhrée néhíjcyaabe tsúúca ávyéjújkímyeí náhjí̵heho imyéénúneri. El que era considerado humilde se volvió importante por la bodega que tiene. (sinón. í̵hnahóóve, í̵htsutúúve)",
+    "startpage" : 45,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ávyejújkímye̱i",
+                "start" : 1,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vr.",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "superarse",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "engrandecerse",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse importante",
+                "start" : 50,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨ́dátsóhrée néhíjcyaabe tsúúca ávyéjújkímyeí náhjí̵heho imyéénúneri.",
+                "start" : 72,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El que era considerado humilde se volvió importante por la bodega que tiene. (sinón. í̵hnahóóve, í̵htsutúúve)",
+                "start" : 156,
+                "end" : 274
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "á vy e j ú j k í my e̱ i",
+                "start" : 1,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[ávyejújkímye̱i]",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vr.",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dátsóhrée néhíjcyaabe tsúúca ávyé",
+                "start" : 73,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jújkímyeí náhjí̵heho imyéénúneri.",
+                "start" : 115,
+                "end" : 156
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "í̵hnahóóve, í̵htsutúúve",
+                "start" : 244,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 194,
+                "end" : 194
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 194,
+                "end" : 194
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 194,
+                "end" : 194
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+    ]
+})

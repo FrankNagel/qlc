@@ -1,0 +1,102 @@
+## -*- coding: utf-8 -*-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+    <title>${self.title()}</title>
+    ${self.head()}
+</head>
+<body>
+    <div id="body">
+    ${self.header()}
+    ${self.tabs()}
+    ${self.menu()}
+    <div id="content">
+        ${self.heading()}
+        ${self.breadcrumbs()}
+        ${next.body()}
+        ${self.footer()}
+    </div>
+    </div>
+</body>
+</html>
+
+<%def name="title()">Phylogeny of native South American languages</%def>
+
+<%def name="head()">
+<!-- Source File -->
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssfonts/fonts-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssbase/base-min.css" />
+    ${h.stylesheet_link(h.url_for('/stylesheets/main.css'))}
+    ${h.stylesheet_link(h.url_for('/stylesheets/editor.css'))}
+    ${h.javascript_link(h.url_for('/javascripts/prototype.js'))}
+    <script>
+        function show_components_submenu() {
+            menu_pos = $('menu-components').cumulativeOffset();
+            menu_scrolloffset = $('menu-components').cumulativeScrollOffset();
+            
+            var new_top = menu_pos['top'] - menu_scrolloffset['top'] + $('menu-components').getHeight();
+            var new_left = menu_pos['left'] - menu_scrolloffset['left'];
+            $('submenu-components').setStyle({
+                display: 'block',
+                left: new_left.toString() + 'px',
+                top: new_top.toString() + 'px'
+            });
+        }
+        
+        function hide_components_submenu() {
+            $('submenu-components').setStyle({
+                display: 'none',
+            });
+        }
+    </script>
+</%def>
+
+<%def name="header()">
+    <a name="top"></a>
+    <div id="title">
+        ${self.title()}
+    </div>
+</%def>
+
+<%def name="tabs()">
+<div id="menu">
+<span class="menuitem">
+    <a href="${h.url_for(controller='search', action='index')}">Search</a>
+</span>
+<span class="menuitem">
+    <a href="${h.url_for(controller='book', action='index')}">Booklist</a>
+</span>
+<span class="menuitem">
+    <a href="${h.url_for(controller='book', action='wordlists')}">Wordlists</a>
+</span>
+<span class="menuitem" onmouseover="show_components_submenu()" onmouseout="hide_components_submenu()" id="menu-components">
+    <a href="${h.url_for(controller='component', action='index')}">Components▼</a>
+</span>
+</div>
+<div class="submenuitem" onmouseover="show_components_submenu()" onmouseout="hide_components_submenu()"  id="submenu-components">
+    % for c in h.get_components():
+    <span class="submenuitem">
+        <a href="${h.url_for(controller='component', action='view', name=c.name)}">
+        ${c.name}
+        </a>
+    </span>
+    % endfor
+</div>
+</%def>
+
+<%def name="menu()">
+</%def>
+
+<%def name="heading()">
+    <div id="heading">
+    <h1>${c.heading or 'No Title'}</h1>
+    </div>
+</%def>
+
+<%def name="breadcrumbs()">
+</%def>
+
+<%def name="footer()"><p><a href="#top">Top ^</a></p></%def>

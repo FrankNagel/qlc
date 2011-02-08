@@ -1,0 +1,393 @@
+
+manual_entries.append({
+    "fullentry" : "[áiivye, ááiba] vi. 1. quemarse, consumirse con fuego. Táwajcyóhá ímí áiivyéhi. Mi chacra se quemó bien. Jááhañe ááibá páneeréjuco tsaíjyúre. Todas las casas se quemaron al mismo tiempo. (sinón. ajtye) 2. quemarse superficialmente. Ájchíwu áiivyé cúújúwari. Mi hijo se quemó en la candela. 3. (fig.) tener fiebre. ájchíwu mítyane áiivyéhi. Mi hijo tiene mucha fiebre.",
+    "startpage" : 32,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "áiivye",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ááiba",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quemarse",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "consumirse con fuego",
+                "start" : 36,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táwajcyóhá ímí áiivyéhi.",
+                "start" : 58,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi chacra se quemó bien. ",
+                "start" : 89,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jááhañe ááibá páneeréjuco tsaíjyúre.",
+                "start" : 116,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Todas las casas se quemaron al mismo tiempo.",
+                "start" : 163,
+                "end" : 207
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ajtye",
+                "start" : 217,
+                "end" : 222
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quemarse superficialmente",
+                "start" : 226,
+                "end" : 252
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ájchíwu áiivyé cúújúwari.",
+                "start" : 254,
+                "end" : 286
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi hijo se quemó en la candela. ",
+                "start" : 286,
+                "end" : 320
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(fig.) tener fiebre",
+                "start" : 322,
+                "end" : 342
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ájchíwu mítyane áiivyéhi.",
+                "start" : 344,
+                "end" : 374
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi hijo tiene mucha fiebre.",
+                "start" : 374,
+                "end" : 402
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# á . ii . vy e #",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# áá . i . b a #",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[áiivye, ááiba]",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táwajcyóhá ímí",
+                "start" : 58,
+                "end" : 77
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "áiivyéhi.",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Jááhañe ááibá páneeréjuco tsaíjyúre.",
+                "start" : 116,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ajtye",
+                "start" : 217,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ájchíwu áiivyé cúú",
+                "start" : 254,
+                "end" : 278
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "júwari.",
+                "start" : 278,
+                "end" : 286
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ájchíwu mí",
+                "start" : 344,
+                "end" : 357
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tyane áiivyéhi.",
+                "start" : 357,
+                "end" : 374
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 162,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 235,
+                "end" : 235
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 236,
+                "end" : 236
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 394,
+                "end" : 394
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 395,
+                "end" : 395
+            },
+    ]
+})

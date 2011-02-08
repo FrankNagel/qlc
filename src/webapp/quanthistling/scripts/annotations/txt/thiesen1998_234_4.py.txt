@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "píj-píj-píj-píjyoo-píjyoo onom. imita la voz del paujil llamado niimúco cuando se enoja con la gente.",
+    "startpage" : 234,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "píj-píj-píj-píjyoo-píjyoo",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " imita la voz del paujil llamado niimúco cuando se enoja con la gente",
+                "start" : 36,
+                "end" : 106
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p í j # p í j # p í j # p í . jy oo # p í . jy oo #",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "píj-píj-píj-píjyoo-píjyoo",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "niimúco",
+                "start" : 69,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+    ]
+})

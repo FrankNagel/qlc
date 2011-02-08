@@ -1,0 +1,45 @@
+<%inherit file="/base/index.html"/>
+<%namespace name="component" file="/component/entry.html" />
+<%namespace name="component_annotation" file="/component/annotation.html" />
+<%namespace name="bookheader" file="/component/book_header.html" />
+
+${bookheader.standardheader_wordlist()}
+
+<p>Displaying <b>concept ${c.concept} in language ${c.language_bookname}</b>.</p>
+
+<table class="entrylist">
+    <tr><th>Entry ID</th><th>Entry</th><th>ISO approx.</th><th>Page</th></tr>
+    ${component.entry_wordlist(c.entry)}
+</table>
+
+<h2 style="margin-top:50px;">Annotations for entry</h2>
+
+<p>
+Entry text:
+<pre>
+${c.entry.fullentry}
+</pre>
+</p>
+
+<p>
+% if 'user' in session:
+    <small><a href="${h.url_for(controller='book', action='edit_entryid_wordlist', bibtexkey=c.entry.wordlistdata.book.bibtex_key, language_bookname=c.language_bookname, concept=c.concept, format='html')}">edit</a></small> |
+% endif
+    <small>
+    <a href="${h.url_for(controller='book', action='entryid', bibtexkey=c.book.bibtex_key, pagenr=c.entry.startpage, pos_on_page=c.entry.pos_on_page, format='py.txt')}">Python code</a>
+    </small>
+% if c.entry.has_manual_annotations:
+    <small>(edited manually)</small>
+% endif
+</p>
+
+</p>
+
+<table class="annotationlist">
+    <tr><th>Type</th><th>Value</th><th>Start</th><th>End</th><th>Substring</th></tr>
+    % for a in c.entry.annotations_sorted_by_type_and_start():
+        ${component_annotation.annotation(a)}
+    % endfor
+</table>
+
+<hr/>
