@@ -11,6 +11,11 @@ you may add a relative path, like this on Mac or Unix:
   
 $ export PYTHONPATH=$PYTHONPATH:./src
 
+You can also add this string to your .profile file on Mac (located it, e.g.: /Users/Ramon/, so that the PYTHONPATH will 
+be set when you open Terminal:
+
+export PYTHONPATH=${PYTHONPATH}:/Users/Ramon/path-to-your-qlc-folder/src/
+
 On Windows:
 
 > set PYTHONPATH=%PYTHONAPTH%:./src
