@@ -1,0 +1,61 @@
+# vowels
+a
+á 
+u
+ú 
+o
+ó 
+i
+í 
+e
+é
+
+# vowel combinations
+aa
+áá 
+uu
+úú 
+oo
+óó 
+ii
+íí 
+ee
+éé
+
+# consonants
+consonants
+p
+b
+t
+j
+h
+y
+s
+r
+c
+x
+g
+f
+v
+z
+d
+l
+k # (these occur only in loanwords from spanish, but should still be parsed)
+m
+m̈ 
+n
+n̈ 
+n
+ñ̈
+
+# consonant combinations
+ch
+ll
+dy
+ty
+ds
+ts
+sh
+qu
+
+# => note: all cases of double "ll" should be taken first. There are a few remaining single "l" which are all in spanish loanwords.

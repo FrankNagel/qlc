@@ -102,5 +102,5 @@ if __name__=="__main__":
     s = SpanishDictionary()
     s.lookUpForms(comparison_hash)
 
-#    s.printHash(s.normalized_hash)
+    s.printHash(s.normalized_hash)
 
