@@ -13,6 +13,7 @@ from sqlalchemy.engine import create_engine
 from creoleparser import text2html
 from webhelpers.html import literal
 
+from pylons import config
 
 def get_components():
     return model.meta.Session.query(model.Component).order_by(model.Component.name).all()
@@ -20,7 +21,8 @@ def get_components():
 
 def get_trac_wiki_book_article(bibtex_key):
     try:
-        engine = create_engine('postgresql://postgres:password@localhost/quanthistlingtrac')
+        postgres_string = config["sqlalchemy.url"] + "trac"
+        engine = create_engine(postgres_string)
         connection = engine.connect()
     except Exception:
         return "Could not connect to database. Does the database exist here?"
