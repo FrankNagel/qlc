@@ -380,7 +380,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Shuar',
                 'tgt_language_bookname' : u'Castellano',
-                're_letter_only': r'^<b>\w\w?</b>\s*$',
+                're_letter_only': r'^<b>\w(?:\w \w\w)?</b>\s*$',
                 'file' : 'jivaroan/pellizaronawech2005_dictdata_112_495.xml',
                 'component' : 'Jivaroan'
             },
@@ -397,7 +397,7 @@ list = [
                 'startpage' : 496,
                 'endpage' : 556,
                 'title': u'Apendices',
-                'file' : 'jivaroan/jakway2008_nondictdata_223_226.html',
+                'file' : 'jivaroan/pellizaronawech2005_nondictdata_496_556.html',
                 'component' : 'Jivaroan'
             },
         ]
