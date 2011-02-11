@@ -23,6 +23,17 @@ from paste.deploy import appconfig
 import functions
 #from manualannotations_for_aguiar1994 import manual_entries
 
+def annotate_crossrefs(entry):
+    # delete head annotations
+    crossreference_annotations = [ a for a in entry.annotations if a.value=='crossreference']
+    for a in crossreference_annotations:
+        Session.delete(a)
+    
+    crossreference_match = re.search(u"Vea ([^.]*)(?:\.|$)", entry.fullentry)
+    if crossreference_match:
+        entry.append_annotation(crossreference_match.start(1), crossreference_match.end(1), u'crossreference', u'dictinterpretation')
+
+
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value=='head']
@@ -66,6 +77,9 @@ def annotate_translations(entry):
     translations_start = functions.get_pos_or_head_end(entry) + 1
     translations_end = len(entry.fullentry)
     
+    if re.match(u"\.? ?Vea ", entry.fullentry[translations_start:]):
+        return
+    
     first_bold_after_pos = functions.get_first_bold_start_in_range(entry, translations_start, translations_end)
     if first_bold_after_pos != -1:
         translations_end = first_bold_after_pos
@@ -93,6 +107,11 @@ def annotate_examples(entry):
         Session.delete(a)
 
     after_head_or_pos = functions.get_pos_or_head_end(entry) + 1
+
+    if re.match(u"\.? ?Vea ", entry.fullentry[after_head_or_pos:]):
+        return
+
+
     first_bold_after_pos = functions.get_first_bold_start_in_range(entry, after_head_or_pos, len(entry.fullentry))
     if first_bold_after_pos == -1:
         return
@@ -145,7 +164,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=9,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=40,pos_on_page=9).all()
         #entries = []
         
         startletters = set()
@@ -158,7 +177,7 @@ def main(argv):
             annotate_pos(e)
             annotate_translations(e)
             annotate_examples(e)
-            #annotate_crossrefs(e)
+            annotate_crossrefs(e)
 
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
         
