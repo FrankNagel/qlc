@@ -21,7 +21,6 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-from manualannotations_for_pellizaronawech2005 import manual_entries
 
 def annotate_head(entry):
     # delete head annotations

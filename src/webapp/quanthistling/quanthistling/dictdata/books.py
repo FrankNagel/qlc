@@ -208,7 +208,40 @@ list = [
         'nondictdata' : [
         ]
     },
-    
+
+    {
+        'title' : u'Diccionario Uitoto-Español',
+        'author' : u'Preuss, Konrad Theodor',
+        'year' : 1994,
+        'bibtex_key' : u'preuss1994',
+        'pages' : 912,
+        'columns' : 1,
+        'is_ready' : True,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 797,
+                'endpage' : 912,
+                'src_language_name' : u'Huitoto Murui',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Uitoto',
+                'tgt_language_bookname' : u'Español',
+                're_letter_only': u'^(?:<i><b>)?(?:\w+|Ɨ|Ñ)(?:</b></i>)?$',
+                'file' : 'witotoan/preuss1994_dictdata_797_912.xml',
+                'component' : 'Witotoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 791,
+                'endpage' : 795,
+                'title': u'Presentación',
+                'file' : 'witotoan/preuss1994_nondictdata_791_795.html',
+		'component' : 'Witotoan'
+            },
+        ]
+    },
+        
 ##################################### Jivaroan
     {
         'title' : u'Diccionario Achuar-Shiwiar ~ Castellano',
@@ -380,7 +413,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Shuar',
                 'tgt_language_bookname' : u'Castellano',
-                're_letter_only': r'^<b>\w(?:\w \w\w)?</b>\s*$',
+                're_letter_only': r'^<b>\w\w?(?: \w\w)?</b>\s*$',
                 'file' : 'jivaroan/pellizaronawech2005_dictdata_112_495.xml',
                 'component' : 'Jivaroan'
             },

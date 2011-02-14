@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "${c.entry.fullentry}",
+    "fullentry" : "${h.pycode_escape_string(c.entry.fullentry)}",
     "startpage" : ${c.entry.startpage},
     "pos_on_page" : ${c.entry.pos_on_page},
     "annotations" : [
@@ -8,7 +8,7 @@ manual_entries.append({
             {
                 "type" : "${a.annotationtype.type}",
                 "value" : "${a.value}",
-                "string" : "${a.string}",
+                "string" : "${h.pycode_escape_string(a.string)}",
                 "start" : ${a.start},
                 "end" : ${a.end}
             },

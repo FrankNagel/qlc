@@ -21,7 +21,6 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-#from manualannotations_for_aguiar1994 import manual_entries
 
 def annotate_crossrefs(entry):
     # delete head annotations

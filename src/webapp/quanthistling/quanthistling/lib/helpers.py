@@ -4,6 +4,7 @@ Consists of functions to typically be used within templates, but also
 available to Controllers. This module is available to templates as 'h'.
 """
 # Import helpers as desired, or define your own, ie:
+import re
 from webhelpers.html.tags import *
 from routes import url_for
 
@@ -15,9 +16,14 @@ from webhelpers.html import literal
 
 from pylons import config
 
+def js_escape_string(string):
+    return literal(re.sub("'", "\\'", string))
+
+def pycode_escape_string(string):
+    return literal(re.sub("\"", "\\\"", string))
+
 def get_components():
     return model.meta.Session.query(model.Component).order_by(model.Component.name).all()
-
 
 def get_trac_wiki_book_article(bibtex_key):
     try:

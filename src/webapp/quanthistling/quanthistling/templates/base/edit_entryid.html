@@ -66,7 +66,7 @@ ${h.javascript_link(h.url_for('/javascripts/editor.js'))}
 
     YUI().use("quanthistling-editor", function(Y) {
         var editor = new Y.quanthistling.Editor({
-            fulltext: '${re.sub("'", "\\'", c.entry.fullentry)}',
+            fulltext: '${h.js_escape_string(c.entry.fullentry)}',
             annotations: [
                 % for a in c.entry.annotations_sorted_by_type_and_start(['dictinterpretation', 'orthographicinterpretation', 'errata']):
                 {
@@ -74,7 +74,7 @@ ${h.javascript_link(h.url_for('/javascripts/editor.js'))}
                     value: '${a.value}',
                     start: ${a.start},
                     end: ${a.end},
-                    string: '${re.sub("'", "\\'", a.string)}'
+                    string: '${h.js_escape_string(a.string)}'
                 },
                 % endfor
             ],
