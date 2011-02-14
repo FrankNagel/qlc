@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/quanthistling
+cd /var/www/quanthistling-new
 svn update
 
-sudo -u postgres psql quanthistling < /var/www/quanthistling/quanthistling/public/pgdump_quanthistling.sql
+sudo -u postgres psql quanthistling < /var/www/quanthistling-new/quanthistling/public/downloads/pgdump_quanthistling.sql
