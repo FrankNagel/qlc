@@ -78,6 +78,10 @@ if current_page != None:
 <%def name="standardheader_wordlist()">
     <div id="booknavigation">
 
+    <p class="export-button">
+        <a class="export-button" href="${h.url_for('/downloads/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
+    </p>
+
     % if hasattr(c, 'pagenr'):
         ${book_page_navigation_wordlist(c.startpage, c.endpage, c.pagenr)}
     % else:

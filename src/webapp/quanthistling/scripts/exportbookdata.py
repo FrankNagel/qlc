@@ -41,7 +41,8 @@ def main(argv):
     metadata.create_all(bind=Session.bind)
     
 
-    for b in quanthistling.dictdata.books.list:
+    for b in []:
+    #for b in quanthistling.dictdata.books.list:
         book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if book:
@@ -155,23 +156,23 @@ def main(argv):
             temppath = tempfile.mkdtemp()
             
             print "Exporting data for %s..." % b['bibtex_key']
+            file_counterparts = open(os.path.join(temppath, "counterparts_%s.txt" % ( b['bibtex_key'] ) ), "w")
 
             for wordlistdata in book.wordlistdata:
                 counterparts = model.meta.Session.query(model.WordlistAnnotation).join(
                         (model.WordlistEntry, model.WordlistAnnotation.entry_id==model.WordlistEntry.id),
-                        (model.Wordlistdata, model.WordlistEntry.dictdata_id==model.Wordlistdata.id)
-                    ).filter(model.Wordlistdata.id==dictdata.id).filter(model.WordlistAnnotation.value==u"counterpart").all()
+                        (model.Wordlistdata, model.WordlistEntry.wordlistdata_id==model.Wordlistdata.id)
+                    ).filter(model.Wordlistdata.id==wordlistdata.id).filter(model.WordlistAnnotation.value==u"counterpart").all()
                 
                 # write heads to file
                 if len(counterparts) > 0:
-                    file_counterparts = open(os.path.join(temppath, "counterparts_%s_%s_%s.txt" % ( b['bibtex_key'], wordlistdata.startpage, wordlistdata.endpage ) ), "w")
                     for i in range(0,len(counterparts)):
                         counterpart = counterparts[i].string
                         url = url_for(controller='book', action='entryid_wordlist', bibtexkey=b['bibtex_key'], concept=counterparts[i].entry.concept.concept, language_bookname=wordlistdata.language_bookname, format='html')
                         file_counterparts.write(counterpart.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
-                    file_counterparts.close()
 
             # create archive
+            file_counterparts.close()
             myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w')
             for file in glob.glob(os.path.join(temppath, "*.txt")):
                 myzip.write(file, os.path.basename(file))

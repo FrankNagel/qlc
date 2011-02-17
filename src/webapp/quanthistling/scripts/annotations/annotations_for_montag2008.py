@@ -54,7 +54,7 @@ def annotate_translations_and_examples(entry):
     for a in ex_annotations:
         Session.delete(a)
 
-    head_end = functions.get_head_end(entry)
+    head_end = functions.get_last_bold_pos_at_start(entry)
     if head_end == -1:
         functions.print_error_in_entry(entry, "could not find head")
         

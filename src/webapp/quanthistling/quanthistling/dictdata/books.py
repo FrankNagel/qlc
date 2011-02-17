@@ -710,6 +710,20 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 12,
+                'title': u'Start pages',
+                'file' : 'panoan/montag2008_nondictdata_1_12.html',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 549,
+                'endpage' : 621,
+                'title': u'Appendices',
+                'file' : 'panoan/montag2008_nondictdata_549_621.html',
+                'component' : 'Panoan'
+            },
         ]
     },
 

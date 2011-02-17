@@ -447,7 +447,7 @@ orm.mapper(Wordlistdata, wordlistdata_table, properties={
 })
 
 orm.mapper(WordlistEntry, wordlist_entry_table, properties={
-   'annotations':orm.relation(WordlistAnnotation, backref='entries')
+   'annotations':orm.relation(WordlistAnnotation, backref='entry')
 })
 
 orm.mapper(WordlistConcept, wordlist_concept_table, properties={
