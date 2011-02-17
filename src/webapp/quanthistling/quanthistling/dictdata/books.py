@@ -503,7 +503,7 @@ list = [
         'bibtex_key' : u'aguiar1994',
         'pages' : 45,
         'columns' : 1,
-        'is_ready' : False,
+        'is_ready' : True,
         'type' : 'dictionary',
         'dictdata' : [
             {
@@ -529,7 +529,7 @@ list = [
         'bibtex_key' : u'shell1987',
         'pages' : 105,
         'columns' : 2,
-        'is_ready' : False,
+        'is_ready' : True,
         'type' : 'dictionary',
         'dictdata' : [
             {
@@ -669,6 +669,43 @@ list = [
                 'tgt_language_bookname' : u'Spanish',
                 're_letter_only': u'^<b>\w+</b>\s*$',
                 'file' : 'panoan/kneeland1979_dictdata_205_245.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
+
+    {
+        'title' : u'Diccionario Capanahua',
+        'author' : u'Montag, Susan',
+        'year' : 2008,
+        'bibtex_key' : u'montag2008',
+        'pages' : 621,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 13,
+                'endpage' : 422,
+                'src_language_name' : u'Kashinawa',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Cashinahua',
+                'tgt_language_bookname' : u'Castellano',
+                're_letter_only': u'^<b>\w+</b>\s*$',
+                'file' : 'panoan/montag2008_dictdata_13_422.xml',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 425,
+                'endpage' : 548,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Kashinawa',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Cashinahua',
+                're_letter_only': u'^<b>\w+</b>\s*$',
+                'file' : 'panoan/montag2008_dictdata_425_548.xml',
                 'component' : 'Panoan'
             },
         ],

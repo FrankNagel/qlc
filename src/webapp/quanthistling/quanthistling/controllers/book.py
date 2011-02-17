@@ -291,12 +291,12 @@ class BookController(BaseController):
             #    c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
             #    response.headers['content-type'] = 'text/xml; charset=utf-8'
             #    return render('/derived/book/entryid.xml')
-            #elif format == 'py.txt':
-            #    response.headers['content-type'] = 'text/plain; charset=utf-8'
-            #    return render('/derived/book/entryid.py.txt')            
-            #else:
-            c.heading = c.book.bookinfo_with_status() + ", Concept " + concept + " in Language " + language_bookname
-            return render('/derived/book/entryid_wordlist.html')
+            if format == 'py.txt':
+                response.headers['content-type'] = 'text/plain; charset=utf-8'
+                return render('/derived/book/entryid_wordlist.py.txt')            
+            else:
+                c.heading = c.book.bookinfo_with_status() + ", Concept " + concept + " in Language " + language_bookname
+                return render('/derived/book/entryid_wordlist.html')
         else:
             abort(404)
         
@@ -368,7 +368,12 @@ class BookController(BaseController):
         c.pagenr = pagenr
         c.pos_on_page = pos_on_page
         if c.book:
-            c.entry = model.meta.Session.query(model.Entry).filter_by(startpage=int(pagenr), pos_on_page=int(pos_on_page), dictdata_id=c.dictdata.id).first()
+            # only for python code, we use the same method "entryid" for wordlists
+            # so that all .py files have similar filenames
+            if c.book.type == "wordlist":
+                c.entry = model.meta.Session.query(model.WordlistEntry).filter_by(startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
+            else:
+                c.entry = model.meta.Session.query(model.Entry).filter_by(startpage=int(pagenr), pos_on_page=int(pos_on_page), dictdata_id=c.dictdata.id).first()
 
             #c.annotations = sorted(c.entry.annotations, key=attrgetter('start'))
             if format == 'xml':
@@ -377,7 +382,10 @@ class BookController(BaseController):
                 return render('/derived/book/entryid.xml')
             elif format == 'py.txt':
                 response.headers['content-type'] = 'text/plain; charset=utf-8'
-                return render('/derived/book/entryid.py.txt')            
+                if c.book.type == "wordlist":
+                    return render('/derived/book/entryid_wordlist.py.txt')            
+                else:
+                    return render('/derived/book/entryid.py.txt')            
             else:
                 c.heading = c.book.bookinfo_with_status() + ", Entry " + pos_on_page + " on Page " + pagenr
                 return render('/derived/book/entryid.html')

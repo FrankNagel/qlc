@@ -19,6 +19,7 @@ from quanthistling import model
 from paste.deploy import appconfig
 
 import quanthistling.dictdata.books
+import quanthistling.dictdata.wordlistbooks
 
 from routes import url_for
 
@@ -65,7 +66,7 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=heads[i].entry.mainentry().startpage, pos_on_page=heads[i].entry.mainentry().pos_on_page, format='html')
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=heads[i].entry.startpage, pos_on_page=heads[i].entry.pos_on_page, format='html')
-                        file_heads.write(head.strip().encode('utf-8') + "\thttp://cidles.eu/quanthistling/" + url + "\n")
+                        file_heads.write(head.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
                     file_heads.close()
 
                 # database queries for examples
@@ -98,8 +99,8 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=examples_src[i].entry.startpage, pos_on_page=examples_src[i].entry.pos_on_page, format='html')
                         #print tgt.encode('utf-8')
                         if (len(src) > 0 and len(tgt) > 0):
-                            file_src.write(src.encode('utf-8') + "\thttp://cidles.eu/quanthistling" + url + "\n")
-                            file_tgt.write(tgt.encode('utf-8') + "\thttp://cidles.eu/quanthistling" + url + "\n")
+                            file_src.write(src.encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                            file_tgt.write(tgt.encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
                     file_src.close()
                     file_tgt.close()
 
@@ -118,7 +119,7 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=pos[i].entry.mainentry().startpage, pos_on_page=pos[i].entry.mainentry().pos_on_page, format='html')
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=pos[i].entry.startpage, pos_on_page=pos[i].entry.pos_on_page, format='html')
-                        file_heads.write(p.strip().encode('utf-8') + "\thttp://cidles.eu/quanthistling" + url + "\n")
+                        file_heads.write(p.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
                     file_heads.close()
 
                 # database queries for translations
@@ -136,7 +137,7 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=translations[i].entry.mainentry().startpage, pos_on_page=translations[i].entry.mainentry().pos_on_page, format='html')
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=translations[i].entry.startpage, pos_on_page=translations[i].entry.pos_on_page, format='html')
-                        file_translations.write(t.strip().encode('utf-8') + "\thttp://cidles.eu/quanthistling" + url + "\n")
+                        file_translations.write(t.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
                     file_translations.close()
 
             # create archive
@@ -145,7 +146,39 @@ def main(argv):
                 myzip.write(file, os.path.basename(file))
             myzip.close()
         
-    shutil.rmtree(temppath)
+            shutil.rmtree(temppath)
+
+    for b in quanthistling.dictdata.wordlistbooks.list:
+        book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
+        if book:
+            # create tmp-directory for files
+            temppath = tempfile.mkdtemp()
+            
+            print "Exporting data for %s..." % b['bibtex_key']
+
+            for wordlistdata in book.wordlistdata:
+                counterparts = model.meta.Session.query(model.WordlistAnnotation).join(
+                        (model.WordlistEntry, model.WordlistAnnotation.entry_id==model.WordlistEntry.id),
+                        (model.Wordlistdata, model.WordlistEntry.dictdata_id==model.Wordlistdata.id)
+                    ).filter(model.Wordlistdata.id==dictdata.id).filter(model.WordlistAnnotation.value==u"counterpart").all()
+                
+                # write heads to file
+                if len(counterparts) > 0:
+                    file_counterparts = open(os.path.join(temppath, "counterparts_%s_%s_%s.txt" % ( b['bibtex_key'], wordlistdata.startpage, wordlistdata.endpage ) ), "w")
+                    for i in range(0,len(counterparts)):
+                        counterpart = counterparts[i].string
+                        url = url_for(controller='book', action='entryid_wordlist', bibtexkey=b['bibtex_key'], concept=counterparts[i].entry.concept.concept, language_bookname=wordlistdata.language_bookname, format='html')
+                        file_counterparts.write(counterpart.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                    file_counterparts.close()
+
+            # create archive
+            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w')
+            for file in glob.glob(os.path.join(temppath, "*.txt")):
+                myzip.write(file, os.path.basename(file))
+            myzip.close()
+
+            shutil.rmtree(temppath)
+
 
 if __name__ == "__main__":
     main(sys.argv)

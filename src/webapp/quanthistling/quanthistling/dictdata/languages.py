@@ -560,4 +560,11 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mcf'
     },
 
+    {
+        'name' : u'Kashinawa',
+        'langcode': u'cbs',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=cbs'
+    },
+
 ]

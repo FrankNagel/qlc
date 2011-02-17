@@ -63,7 +63,7 @@ def annotate_head(entry):
 
     if end > 0:
         s = start
-        for match in re.finditer(u"(?:, ?| ?(?=\()|$)", entry.fullentry[start:end]):
+        for match in re.finditer(u"(?:[,;] ?| ?\(|\)? ?$)", entry.fullentry[start:end]):
             e = start + match.start(0)
             # remove brackets
             string = entry.fullentry[s:e]
@@ -83,9 +83,9 @@ def annotate_head(entry):
         
     return heads
 
-def annotate_pos(entry):
+def annotate_pos_and_crossrefs(entry):
     # delete pos annotations
-    pos_annotations = [ a for a in entry.annotations if a.value=='pos']
+    pos_annotations = [ a for a in entry.annotations if a.value=='pos' or a.value=="crossref"]
     for a in pos_annotations:
         Session.delete(a)
     
@@ -95,7 +95,21 @@ def annotate_pos(entry):
         head_end = functions.get_head_end(entry)
         if sorted_annotations[0].start <= head_end + 3:
             italic_annotation = sorted_annotations[0]
-            entry.append_annotation(italic_annotation.start, italic_annotation.end, u'pos', u'dictinterpretation')
+            match_crossref = re.match(u" ?is\. ", entry.fullentry[italic_annotation.start:italic_annotation.end])
+            if match_crossref:
+                start = italic_annotation.start + len(match_crossref.group(0))
+                for match in re.finditer(u"(?:[;,] ?|$)", entry.fullentry[start:italic_annotation.end]):
+                    end = italic_annotation.start + len(match_crossref.group(0)) + match.start(0)
+                    if entry.fullentry[end-1] == ".":
+                        end = end - 1
+                    entry.append_annotation(start, end, u'crossref', u'dictinterpretation')
+                    start = italic_annotation.start + len(match_crossref.group(0)) + match.end(0)                    
+            else:
+                end = italic_annotation.end
+                match_bracket = re.search(u"\([^)]*\) ?$", entry.fullentry[italic_annotation.start:end])
+                if match_bracket:
+                    end = end - len(match_bracket.group(0))
+                entry.append_annotation(italic_annotation.start, end, u'pos', u'dictinterpretation')
     else:
         return
 
@@ -172,7 +186,7 @@ def main(argv):
         print "Processing %s - %s dictdata..." %(dictdata.src_language.langcode, dictdata.tgt_language.langcode)
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=133,pos_on_page=16).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=117,pos_on_page=33).all()
         
         startletters = set()
         for e in entries:
@@ -181,7 +195,7 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            annotate_pos(e)
+            annotate_pos_and_crossrefs(e)
             #Session.commit()
             annotate_translations(e)
             #annotate_crossrefs(e)
