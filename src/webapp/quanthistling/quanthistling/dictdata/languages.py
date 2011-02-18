@@ -567,4 +567,11 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cbs'
     },
 
+
+    {
+        'name' : u'Amahuaca',
+        'langcode': u'amc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=amc'
+    },
 ]

@@ -41,8 +41,8 @@ def main(argv):
     metadata.create_all(bind=Session.bind)
     
 
-    for b in []:
-    #for b in quanthistling.dictdata.books.list:
+    #for b in []:
+    for b in quanthistling.dictdata.books.list:
         book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if book:

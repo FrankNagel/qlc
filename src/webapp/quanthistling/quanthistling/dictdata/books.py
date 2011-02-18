@@ -727,6 +727,56 @@ list = [
         ]
     },
 
+    {
+        'title' : u'Diccionario Amahuaca',
+        'author' : u'Hyde, Sylvia',
+        'year' : 2008,
+        'bibtex_key' : u'hyde2008',
+        'pages' : 154,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 17,
+                'endpage' : 108,
+                'src_language_name' : u'Amahuaca',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Amahuaca',
+                'tgt_language_bookname' : u'Castellano',
+                're_letter_only': u'^<b>\w+</b>\s*$',
+                'file' : 'panoan/hyde2008_dictdata_17_108.xml',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 113,
+                'endpage' : 135,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Amahuaca',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Amahuaca',
+                're_letter_only': u'^<b>\w+</b>\s*$',
+                'file' : 'panoan/hyde2008_dictdata_113_135.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 16,
+                'title': u'Start pages',
+                'file' : 'panoan/hyde2008_nondictdata_1_16.html',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 137,
+                'endpage' : 154,
+                'title': u'Appendices',
+                'file' : 'panoan/hyde2008_nondictdata_137_154.html',
+                'component' : 'Panoan'
+            },
+        ]
+    },
 ##################################### Zaparoan
     {
         'title' : u'La Lengua Zápara del Ecuador',
