@@ -53,7 +53,7 @@ def annotate_head(entry):
     start = head_start_pos
     for match in re.finditer(u"(?:, |$)", entry.fullentry[head_start_pos:head_end_pos]):
         end = head_start_pos + match.start(0)
-        inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos)
+        inserted_head = functions.insert_head(entry, start, end)
         heads.append(inserted_head)
         start = head_start_pos + match.end(0)
     
@@ -94,7 +94,7 @@ def annotate_translations_and_examples(entry):
     if entry.fullentry[head_end] == ")":
         head_end = head_end + 1
     
-    if entry.fullentry[head_end] == ":":
+    if head_end < len(entry.fullentry) and entry.fullentry[head_end] == ":":
         head_end = head_end + 1
         
     translation_starts = []

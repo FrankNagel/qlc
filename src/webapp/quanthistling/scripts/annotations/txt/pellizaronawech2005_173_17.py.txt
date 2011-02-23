@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "+ íimiaru, na. ni. = hombre de fe, visionario.",
+    "startpage" : 173,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "íimiaru",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ni.",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre de fe",
+                "start" : 22,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "visionario",
+                "start" : 36,
+                "end" : 46
+            },
+    ]
+})

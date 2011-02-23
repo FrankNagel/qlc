@@ -63,7 +63,7 @@ def annotate_head(entry):
 
     if end > 0:
         s = start
-        for match in re.finditer(u"(?:[,;] ?| ?\(|\)? ?$)", entry.fullentry[start:end]):
+        for match in re.finditer(u"(?:\)?[,;] ?| ?\(|\)? ?$)", entry.fullentry[start:end]):
             e = start + match.start(0)
             # remove brackets
             string = entry.fullentry[s:e]
@@ -143,9 +143,15 @@ def annotate_translations(entry):
                 
         if not mybreak:
             end = match.start(0) + trans_start
+            match_arrow = re.match(u" ??⇨ ?", entry.fullentry[start:end])
+            if match_arrow:
+                start = start + len(match_arrow.group(0))
             functions.insert_translation(entry, start, end)
             start = match.end(0) + trans_start
     end = trans_end           
+    match_arrow = re.match(u" ??⇨ ?", entry.fullentry[start:end])
+    if match_arrow:
+        start = start + len(match_arrow.group(0))
     functions.insert_translation(entry, start, end)
 
 def annotate_examples(entry): 
@@ -186,7 +192,7 @@ def main(argv):
         print "Processing %s - %s dictdata..." %(dictdata.src_language.langcode, dictdata.tgt_language.langcode)
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=117,pos_on_page=33).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=117,pos_on_page=25).all()
         
         startletters = set()
         for e in entries:

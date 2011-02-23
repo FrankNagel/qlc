@@ -4,10 +4,11 @@ import sys, os, glob
 sys.path.append(os.path.abspath('.'))
 
 import quanthistling.dictdata.books
+import quanthistling.dictdata.wordlistbooks
 
 def main(argv):
     
-    for book in quanthistling.dictdata.books.list:
+    for book in quanthistling.dictdata.books.list + quanthistling.dictdata.wordlistbooks.list:
         #print book["bibtex_key"]
         files = glob.glob("scripts/annotations/txt/%s_[0-9]*_[0-9]*.py.txt"%book["bibtex_key"])
         if len(files) > 0:

@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "+ umá-r (um-ur), m. (para: tr-ur,tram-ra,t-ra) = beber, tomar.",
+    "startpage" : 113,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umár",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umur",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m. (para: tr-ur,tram-ra,t-ra)",
+                "start" : 18,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "beber",
+                "start" : 50,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tomar",
+                "start" : 57,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(para: tr-ur,tram-ra,t-ra)",
+                "start" : 21,
+                "end" : 47
+            },
+    ]
+})

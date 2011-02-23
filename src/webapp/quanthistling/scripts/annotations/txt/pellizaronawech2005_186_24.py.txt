@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "* iníntr-us, u. = investigarlo.",
+    "startpage" : 186,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iníntrus",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "investigarlo",
+                "start" : 19,
+                "end" : 31
+            },
+    ]
+})

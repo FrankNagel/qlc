@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "+ jin-ia, m. (para: iutr-ua,iutram-a,iut-a;) = exterminarse, acabarse, extinguirse. Jiniútruatí = que se me exterminen",
+    "startpage" : 176,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jinia",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m. (para: iutr-ua,iutram-a,iut-a;)",
+                "start" : 10,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exterminarse",
+                "start" : 47,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acabarse",
+                "start" : 61,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "extinguirse",
+                "start" : 71,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jiniútruatí",
+                "start" : 84,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "que se me exterminen",
+                "start" : 100,
+                "end" : 120
+            },
+    ]
+})

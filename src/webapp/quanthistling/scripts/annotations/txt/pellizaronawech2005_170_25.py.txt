@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ wea-k, u. = enfilar.",
+    "startpage" : 170,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "weak",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "enfilar",
+                "start" : 14,
+                "end" : 21
+            },
+    ]
+})

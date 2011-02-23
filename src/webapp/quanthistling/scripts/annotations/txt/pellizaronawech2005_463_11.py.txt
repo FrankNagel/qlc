@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "upimiamu, ni.na. (r,ram,r= i) = hecho/a colada; colada. Sha upimiamu = maíz hecho colada. Shana upimiámuri = la colada de maíz.",
+    "startpage" : 463,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "upimiamu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hecho/a colada",
+                "start" : 32,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "colada",
+                "start" : 48,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "sha upimiamu",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "maíz hecho colada",
+                "start" : 71,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "shana upimiámuri",
+                "start" : 91,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la colada de maíz",
+                "start" : 111,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "upimiamu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,r= i)",
+                "start" : 10,
+                "end" : 29
+            },
+    ]
+})

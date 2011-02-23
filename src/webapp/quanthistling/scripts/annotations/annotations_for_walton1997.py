@@ -63,7 +63,11 @@ def annotate_head(entry):
 
     head_end_pos = functions.get_last_bold_pos_at_start(entry)
     head_start_pos = 0
-
+    
+    match_number = re.search("\d ?", entry.fullentry[head_start_pos:head_end_pos])
+    if match_number:
+        head_end_pos = head_end_pos - len(match_number.group(0))
+        
     inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos)
     heads.append(inserted_head)
     
@@ -76,6 +80,9 @@ def annotate_pos(entry):
         Session.delete(a)
     
     pos_start = functions.get_head_end(entry)
+    match_number = re.match(" ?\d ?", entry.fullentry[pos_start:])
+    if match_number:
+        pos_start = pos_start + len(match_number.group(0))
     match_dot = re.search(u"\.(?= )", entry.fullentry[pos_start:])
     if match_dot:
         pos_end = pos_start + match_dot.end(0)
@@ -123,9 +130,9 @@ def annotate_translations_and_examples(entry):
     translation_starts = []
     translation_ends = []
     if re.search(u"\d ", translation_substring):
-        for match in re.finditer(u"\d (.*?)(?=\d|$)", translation_substring):
-            translation_starts.append(translations_start + match.start(1))
-            translation_ends.append(translations_start + match.end(1))
+        for match in re.finditer(u"\d (?:\w{2,4}\.)?(.*?)(?=\d|$)", entry.fullentry):
+            translation_starts.append(match.start(1))
+            translation_ends.append(match.end(1))
     else:
         translation_starts.append(translations_start)
         translation_ends.append(translations_end)
@@ -207,7 +214,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=9,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=109,pos_on_page=4).all()
         #entries = []
         
         startletters = set()

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "* jaté-a, u. = tajar.",
+    "startpage" : 224,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jatéa",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tajar",
+                "start" : 16,
+                "end" : 21
+            },
+    ]
+})

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "▪ weá-k, cocinar al chuzo.",
+    "startpage" : 156,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "weák",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocinar al chuzo",
+                "start" : 10,
+                "end" : 26
+            },
+    ]
+})

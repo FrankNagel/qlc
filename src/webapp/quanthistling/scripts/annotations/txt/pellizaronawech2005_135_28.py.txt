@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ íkia-k, u. = añadir.",
+    "startpage" : 135,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "íkiak",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "añadir",
+                "start" : 16,
+                "end" : 23
+            },
+    ]
+})

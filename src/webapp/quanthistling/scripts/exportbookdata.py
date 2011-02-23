@@ -30,6 +30,10 @@ def main(argv):
         exit(1)
 
     ini_file = argv[1]
+    
+    bibtex_key_param = None
+    if len(argv) >= 3:
+        bibtex_key_param = argv[2]
 
     # load web application config
     conf = appconfig('config:' + ini_file, relative_to='.')
@@ -43,6 +47,8 @@ def main(argv):
 
     #for b in []:
     for b in quanthistling.dictdata.books.list:
+        if bibtex_key_param != None and bibtex_key_param != b['bibtex_key']:
+            continue
         book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if book:
@@ -150,6 +156,8 @@ def main(argv):
             shutil.rmtree(temppath)
 
     for b in quanthistling.dictdata.wordlistbooks.list:
+        if bibtex_key_param != None and bibtex_key_param != b['bibtex_key']:
+            continue
         book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         if book:
             # create tmp-directory for files

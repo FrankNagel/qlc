@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "+ ewekam-sa, um. = hacer andar, hacer pa-sear.",
+    "startpage" : 170,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ewekamsa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "um.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer andar",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer pasear",
+                "start" : 32,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "um.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "hacer pasear",
+                "start" : 32,
+                "end" : 45
+            },
+    ]
+})
