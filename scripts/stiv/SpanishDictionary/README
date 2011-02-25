@@ -1,4 +1,0 @@
-SpanishDictionary.py = file to create a hash of Spanish forms as a look up table
-README = readme
-__init__.py = file needed to make SpanishDictionary importable
-spa-eng = Freedict Spanish-English files
