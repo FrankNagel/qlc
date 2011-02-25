@@ -1,4 +1,0 @@
-  File "tree.py", line 68
-    if not node break
-                    ^
-SyntaxError: invalid syntax
