@@ -51,6 +51,10 @@ def main(argv):
                 print "could not find dictdata for entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])
             
             entry_db = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id, startpage=e["startpage"], pos_on_page=e["pos_on_page"]).first()
+            
+            if not entry_db:
+                print "could not find entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])                
+                
             ratio = difflib.SequenceMatcher(None, e["fullentry"].decode('utf-8'), entry_db.fullentry).ratio()
             if ratio > 0.80:
                 entry_db.fullentry = e["fullentry"].decode('utf-8')

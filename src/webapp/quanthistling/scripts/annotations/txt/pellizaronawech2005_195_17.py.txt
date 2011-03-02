@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "+ itíp-ia. u. = ponerle la falda.",
+    "startpage" : 195,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " itípia",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ponerle la falda",
+                "start" : 17,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+    ]
+})

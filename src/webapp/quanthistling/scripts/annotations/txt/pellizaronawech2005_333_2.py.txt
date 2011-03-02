@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "* kuar-patin, que brinca. Wawa kuárpatniuíti = las astillas (del palo de balsa) brincan.",
+    "startpage" : 333,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuarpatin",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que brinca",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wawa kuárpatniuíti",
+                "start" : 26,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "las astillas (del palo de balsa) brincan",
+                "start" : 49,
+                "end" : 89
+            },
+    ]
+})

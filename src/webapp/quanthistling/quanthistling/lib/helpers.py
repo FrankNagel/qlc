@@ -37,8 +37,8 @@ def get_trac_wiki_book_article(bibtex_key):
         result = connection.execute("select * from wiki where name = '%s' order by time desc" % bibtex_key)
         if result.rowcount > 0:
             row = result.fetchone()
-            row_text = row['text'].decode("utf-8")
-            wiki_text = text2html(row_text)
+            row_text = row['text']
+            wiki_text = text2html(row_text).decode("utf-8")
         else:
             wiki_text = "Could not find an entry for this book. Please check the trac wiki at <a href=\"http://trac.cidles.eu/wiki\">http://trac.cidles.eu/wiki</a>"
         connection.close()

@@ -155,6 +155,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "-kákut (kákit) awátmiayi = tac golpeó.",
+    "startpage" : 155,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kákut awátmiayi",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kákit awátmiayi",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tac golpeó",
+                "start" : 30,
+                "end" : 41
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "emetsá-i, u. = hacer desbordar. Nijiamchin emetsáiyi = hizo desbordar la chicha.",
     "startpage" : 162,
     "pos_on_page" : 5,
@@ -627,6 +656,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "-Pújut(wájut) awátmiayi = golpeó con el palo.",
+    "startpage" : 155,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Pújut awátmiayi",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wájut awátmiayi",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "golpeó con el palo",
+                "start" : 29,
+                "end" : 48
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ metsá-i, m. = desbordarse.",
     "startpage" : 162,
     "pos_on_page" : 6,
@@ -763,6 +821,79 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "▪ nanki-éepu. = hoja (no comestible).",
+    "startpage" : 158,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nankiéepu",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hoja (no comestible)",
+                "start" : 17,
+                "end" : 37
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "▪ shiniúmas-éepu. = hoja (no comestible).",
+    "startpage" : 158,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shiniúmaséepu",
+                "start" : 2,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hoja (no comestible)",
+                "start" : 22,
+                "end" : 42
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "▪ shuíkim-(túntush)-atash' = gallina (cuello peludo).",
+    "startpage" : 149,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shuíkimatash'",
+                "start" : 2,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shuíkimtúntushatash'",
+                "start" : 2,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gallina (cuello peludo)",
+                "start" : 31,
+                "end" : 54
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "eá (eaya)! = hola, oiga! Eaya winitiá = oiga, ven!",
     "startpage" : 157,
     "pos_on_page" : 3,
@@ -842,6 +973,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "yuwí, na. r,ram,ri) = nombre de mujer: ⇨zapallo. (comestible).",
+    "startpage" : 218,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yuwí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. (r,ram,ri)",
+                "start" : 7,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 23,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "zapallo (comestible)",
+                "start" : 41,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yuwí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. r,ram,ri)",
+                "start" : 7,
+                "end" : 20
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ weká-sa, m. = andar, pasear.",
     "startpage" : 170,
     "pos_on_page" : 36,
@@ -873,6 +1054,42 @@ manual_entries.append({
                 "string" : "pasear",
                 "start" : 24,
                 "end" : 30
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* anám-ka. u. = hacer emborrachar",
+    "startpage" : 134,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anám-ka",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer emborrachar",
+                "start" : 17,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
             },
     ]
 })
@@ -1010,6 +1227,70 @@ manual_entries.append({
                 "string" : "calentarse el agua",
                 "start" : 14,
                 "end" : 32
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "(e)tém-ra, y. uk. = apenas comenzar. Úchi chichátemráyi = el bebé apenas comenzó a hablar.",
+    "startpage" : 169,
+    "pos_on_page" : 39,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "etémra",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "témra",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "y. uk.",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "apenas comenzar",
+                "start" : 21,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "úchi chichátemráyi",
+                "start" : 38,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el bebé apenas comenzó a hablar",
+                "start" : 62,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(e)tém-ra,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "y. uk.",
+                "start" : 12,
+                "end" : 18
             },
     ]
 })
@@ -1267,6 +1548,42 @@ manual_entries.append({
                 "string" : "",
                 "start" : 59,
                 "end" : 59
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ nuntum-sa. m. = acercarse.",
+    "startpage" : 138,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuntumsa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acercarse",
+                "start" : 18,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m.",
+                "start" : 13,
+                "end" : 15
             },
     ]
 })
@@ -1717,6 +2034,49 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "aniám-ra, is. iniám-ra.",
+    "startpage" : 136,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aniámra",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "iniámra",
+                "start" : 15,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aniám-ra,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "is. iniám-ra.",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. iniám-ra.",
+                "start" : 11,
+                "end" : 25
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ íimiaru, na. ni. = hombre de fe, visionario.",
     "startpage" : 173,
     "pos_on_page" : 17,
@@ -1748,6 +2108,49 @@ manual_entries.append({
                 "string" : "visionario",
                 "start" : 36,
                 "end" : 46
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ junut junut, ávidamente (comen los hombre). Junut junut amukái = lo acabó tragándolo ávidamente.",
+    "startpage" : 358,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "junut junut",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ávidamente",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vidamente (comen los hombre)",
+                "start" : 17,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "unut junut amukái",
+                "start" : 48,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo acabó tragándolo ávidamente",
+                "start" : 69,
+                "end" : 102
             },
     ]
 })

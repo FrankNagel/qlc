@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "+ nemár-sa. u. (a: t-us,tam-sa,/) = seguirle.",
+    "startpage" : 314,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nemársa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "seguirle",
+                "start" : 37,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-us,tam-sa,/)",
+                "start" : 13,
+                "end" : 34
+            },
+    ]
+})

@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "Yampaku. na. (ur,rum,ri) = nombre de mujer; ⇨arbusto (hojas alargadas, frutitas en racimos). En la celebración del numpamrumkimiu (primera menstruación) la anciana lava con las hojas a la joven, purificándola. Su flor perfumada se coloca en la chicha chapuras. Is. numi.",
+    "startpage" : 203,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yampaku",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 27,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arbusto (hojas alargadas, frutitas en racimos)",
+                "start" : 45,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yampaku.",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (ur,rum,ri)",
+                "start" : 9,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. numi.",
+                "start" : 264,
+                "end" : 273
+            },
+    ]
+})
