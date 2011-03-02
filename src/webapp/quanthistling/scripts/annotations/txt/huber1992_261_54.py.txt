@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "pe-mátʔ-té-to?",
+    "startpage" : 261,
+    "pos_on_page" : 54,
+    "language_bookname" : "playero",
+    "concept" : "CUERNO_HORN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pemátʔtéto",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "pemátʔtéto",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "▪ shiniúmas-éepu. = hoja (no comestible).",
+    "startpage" : 158,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shiniúmaséepu",
+                "start" : 2,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hoja (no comestible)",
+                "start" : 22,
+                "end" : 42
+            },
+    ]
+})

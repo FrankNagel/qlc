@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "-Pújut(wájut) awátmiayi = golpeó con el palo.",
+    "startpage" : 155,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Pújut awátmiayi",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wájut awátmiayi",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "golpeó con el palo",
+                "start" : 29,
+                "end" : 48
+            },
+    ]
+})

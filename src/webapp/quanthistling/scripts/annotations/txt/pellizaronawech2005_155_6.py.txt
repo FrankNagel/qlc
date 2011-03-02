@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "-kákut (kákit) awátmiayi = tac golpeó.",
+    "startpage" : 155,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kákut awátmiayi",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kákit awátmiayi",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tac golpeó",
+                "start" : 30,
+                "end" : 41
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "be?k† ‘bacia abajo’ (‘downward’)",
+    "startpage" : 361,
+    "pos_on_page" : 58,
+    "language_bookname" : "guayabero",
+    "concept" : "ABAJO_DOWN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "beʔk",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘bacia abajo’ (‘downward’)",
+                "start" : 5,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "beʔk",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

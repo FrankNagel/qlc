@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "æp depũh?",
+    "startpage" : 183,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "CINCO_FIVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "æp depũh",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ˈMa-βaʔ-ɨ mase. sing.",
+    "startpage" : 215,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "PEQUEÑO_SMALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ˈMaβaʔɨ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "mase. sing.",
+                "start" : 9,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

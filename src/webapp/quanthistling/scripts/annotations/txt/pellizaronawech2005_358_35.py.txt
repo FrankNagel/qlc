@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "+ junut junut, ávidamente (comen los hombre). Junut junut amukái = lo acabó tragándolo ávidamente.",
+    "startpage" : 358,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "junut junut",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ávidamente",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vidamente (comen los hombre)",
+                "start" : 17,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "unut junut amukái",
+                "start" : 48,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo acabó tragándolo ávidamente",
+                "start" : 69,
+                "end" : 102
+            },
+    ]
+})

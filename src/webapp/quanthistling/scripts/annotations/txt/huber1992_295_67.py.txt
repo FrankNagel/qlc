@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "dzo?kã, dzoʔaa",
+    "startpage" : 295,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "CUANDO_WHEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzoʔkã",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzoʔaa",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dzoʔkã",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

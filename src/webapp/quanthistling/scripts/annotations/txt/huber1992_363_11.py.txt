@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "zég-lde",
+    "startpage" : 363,
+    "pos_on_page" : 11,
+    "language_bookname" : "kogui",
+    "concept" : "MADURO_RIPE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zéglde",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "wá-wan ‘our teeth’",
+    "startpage" : 4,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "DIENTE_TOOTH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wáwan",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘our teeth’",
+                "start" : 8,
+                "end" : 19
+            },
+    ]
+})

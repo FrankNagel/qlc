@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈ kĩ̵́hã-ja-tebũ-beto",
+    "startpage" : 213,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "SU ARCO - DE ELLOS_THEIR BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˈkĩ̵́hã-ja-tebũ-beto",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈkĩ̵́hã-ja-tebũ-beto",
+                "start" : 0,
+                "end" : 24
+            },
+    ]
+})

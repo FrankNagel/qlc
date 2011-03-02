@@ -21,7 +21,7 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-
+    
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value=='head']
@@ -95,7 +95,7 @@ def annotate_pos_and_crossrefs(entry):
         head_end = functions.get_head_end(entry)
         if sorted_annotations[0].start <= head_end + 3:
             italic_annotation = sorted_annotations[0]
-            match_crossref = re.match(u" ?is\. ", entry.fullentry[italic_annotation.start:italic_annotation.end])
+            match_crossref = re.match(u" ?[Ii]s\. ", entry.fullentry[italic_annotation.start:italic_annotation.end])
             if match_crossref:
                 start = italic_annotation.start + len(match_crossref.group(0))
                 for match in re.finditer(u"(?:[;,] ?|$)", entry.fullentry[start:italic_annotation.end]):
@@ -190,6 +190,21 @@ def main(argv):
     for dictdata in dictdatas:
 
         print "Processing %s - %s dictdata..." %(dictdata.src_language.langcode, dictdata.tgt_language.langcode)
+
+        # manual deletes
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=154).all()
+        for e in entries:
+            if e.pos_on_page >= 9 and e.pos_on_page <= 15:
+                for a in e.annotations:
+                    Session.delete(a)
+                Session.delete(e)
+        entry = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=218,pos_on_page=24).first()
+        if entry:
+            for a in entry.annotations:
+                Session.delete(a)
+            Session.delete(entry)
+        Session.commit()
+
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=117,pos_on_page=25).all()

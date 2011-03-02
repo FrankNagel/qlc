@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "nóp ?",
+    "startpage" : 301,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "NEBLINA_FOG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nóp",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

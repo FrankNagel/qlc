@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "▪ nanki-éepu. = hoja (no comestible).",
+    "startpage" : 158,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nankiéepu",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hoja (no comestible)",
+                "start" : 17,
+                "end" : 37
+            },
+    ]
+})

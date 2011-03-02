@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "daˈdá / jaˈpí ‘cosa llena, estómago lleno’ (‘full thing, full stomach’)",
+    "startpage" : 289,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "LLENO_FULL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "daˈdá",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jaˈpí",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘cosa llena, estómago lleno’ (‘full thing, full stomach’)",
+                "start" : 15,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

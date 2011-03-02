@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "yuwí, na. r,ram,ri) = nombre de mujer: ⇨zapallo. (comestible).",
+    "startpage" : 218,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yuwí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. (r,ram,ri)",
+                "start" : 7,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 23,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "zapallo (comestible)",
+                "start" : 41,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yuwí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. r,ram,ri)",
+                "start" : 7,
+                "end" : 20
+            },
+    ]
+})

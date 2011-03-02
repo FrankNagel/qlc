@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈbãrãkãʔˈ ã",
+    "startpage" : 294,
+    "pos_on_page" : 46,
+    "language_bookname" : "tanimuca",
+    "concept" : "COMO_HOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˈbãrãkãʔˈã",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈbãrãkãʔˈã",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

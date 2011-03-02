@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "nir?",
+    "startpage" : 277,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "ANDAR_WALK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nir",
+                "start" : 0,
+                "end" : 3
+            },
+    ]
+})

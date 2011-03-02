@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "tʰã",
+    "startpage" : 177,
+    "pos_on_page" : 3,
+    "language_bookname" : "embera Darién",
+    "concept" : "SAL_SALT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tʰã",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "kanúa/kánwa (SP)",
+    "startpage" : 90,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "CANOA_CANOE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kanúa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kánwa",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 14,
+                "end" : 18
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "hihiᴵ",
+    "startpage" : 217,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "CALIENTE_HOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hihiᴵ",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

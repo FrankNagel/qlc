@@ -193,7 +193,8 @@ def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
         
         if lang in annotation:
             for a in annotation[lang]:
-                entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
+                a_string = re.sub(u"ˈ", "", a['string'])
+                entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a_string)
         
         Session.add(entry_db)
         Session.commit()
@@ -234,6 +235,7 @@ def correct_line(l):
     ret = re.sub(u"<p><b>CIIOCO</b>", u"<p><b>CHOCO</b>", ret)
     ret = re.sub(u"<p><b>CHOCO, GUAHIBO</b>", u"<p><b>CHOCO,GUAHIBO</b>", ret)
     ret = re.sub(u"<p><b>BR,BS,CP,TC,TY,JR</b>", u"<p><b>BR,BS,CP,TC,TY,YR</b>", ret)
+    ret = re.sub(u"<p><b>CI ba-pó-n†</b>", u"<p><b>CI</b> ba-pó-n†", ret)
     return ret
 
 
@@ -294,6 +296,7 @@ def main(argv):
         l = re.sub(u"<b>M</b>Ñ", u"<b>MÑ</b>", l)
         
         l = correct_line(l)
+        l = re.sub(u"'", u"ˈ", l)
         
         if re.search(u'^<p>', l):
             l = re.sub(u'</?p>', '', l)

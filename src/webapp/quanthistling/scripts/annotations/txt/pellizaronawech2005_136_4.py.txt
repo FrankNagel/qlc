@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "aniám-ra, is. iniám-ra.",
+    "startpage" : 136,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aniámra",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "iniámra",
+                "start" : 15,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aniám-ra,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "is. iniám-ra.",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. iniám-ra.",
+                "start" : 11,
+                "end" : 25
+            },
+    ]
+})

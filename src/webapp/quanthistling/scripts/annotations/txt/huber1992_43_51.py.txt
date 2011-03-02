@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ʔdɨ̃́hõ̀",   
+    "startpage" : 43,
+    "pos_on_page" : 51,
+    "language_bookname" : "orejón",
+    "concept" : "ESPOSA_WIFE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔdɨ̃́hõ̀",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

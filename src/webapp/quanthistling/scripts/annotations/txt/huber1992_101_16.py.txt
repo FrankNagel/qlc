@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "alku (QU)",
+    "startpage" : 101,
+    "pos_on_page" : 16,
+    "language_bookname" : "páez",
+    "concept" : "PERRO_DOG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "alku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "(QU)",
+                "start" : 5,
+                "end" : 9
+            },
+    ]
+})

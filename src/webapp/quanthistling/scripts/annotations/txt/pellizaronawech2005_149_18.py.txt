@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "▪ shuíkim-(túntush)-atash' = gallina (cuello peludo).",
+    "startpage" : 149,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shuíkimatash'",
+                "start" : 2,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shuíkimtúntushatash'",
+                "start" : 2,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gallina (cuello peludo)",
+                "start" : 31,
+                "end" : 54
+            },
+    ]
+})

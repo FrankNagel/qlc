@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "páin ?",
+    "startpage" : 200,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "USTEDES_YOU (PLURAL)",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "páin",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

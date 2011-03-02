@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "dumáʃi ‘thread’",
+    "startpage" : 166,
+    "pos_on_page" : 25,
+    "language_bookname" : "achagua",
+    "concept" : "ALGODÓN_COTTON",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dumáʃi",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘thread’",
+                "start" : 8,
+                "end" : 16
+            },
+    ]
+})

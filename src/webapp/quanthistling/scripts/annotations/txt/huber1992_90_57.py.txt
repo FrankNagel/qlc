@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "kaná (Carib)",
+    "startpage" : 90,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "CANOA_CANOE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kaná ",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "(Carib)",
+                "start" : 6,
+                "end" : 13
+            },
+    ]
+})

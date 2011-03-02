@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "* anám-ka. u. = hacer emborrachar",
+    "startpage" : 134,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anám-ka",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer emborrachar",
+                "start" : 17,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+    ]
+})

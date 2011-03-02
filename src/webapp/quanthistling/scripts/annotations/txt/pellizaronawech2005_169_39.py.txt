@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "(e)tém-ra, y. uk. = apenas comenzar. Úchi chichátemráyi = el bebé apenas comenzó a hablar.",
+    "startpage" : 169,
+    "pos_on_page" : 39,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "etémra",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "témra",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "y. uk.",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "apenas comenzar",
+                "start" : 21,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "úchi chichátemráyi",
+                "start" : 38,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el bebé apenas comenzó a hablar",
+                "start" : 62,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(e)tém-ra,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "y. uk.",
+                "start" : 12,
+                "end" : 18
+            },
+    ]
+})

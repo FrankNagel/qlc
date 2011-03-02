@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "niát?",
+    "startpage" : 275,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "NADAR_SWIM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "niát",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

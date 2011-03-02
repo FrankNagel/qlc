@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "peh ʔalmín ?",
+    "startpage" : 310,
+    "pos_on_page" : 58,
+    "language_bookname" : "guayabero",
+    "concept" : "SALIVA_SALIVA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "peh ʔalmín",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

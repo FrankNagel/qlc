@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "tɕe",
+    "startpage" : 177,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "SAL_SALT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɕe",
+                "start" : 0,
+                "end" : 3
+            },
+    ]
+})

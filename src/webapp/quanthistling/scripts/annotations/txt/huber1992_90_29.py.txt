@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ʔita Giacone: iíta",
+    "startpage" : 90,
+    "pos_on_page" : 29,
+    "language_bookname" : "tariano",
+    "concept" : "CANOA_CANOE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔita",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Giacone: iíta",
+                "start" : 5,
+                "end" : 19
+            },
+    ]
+})

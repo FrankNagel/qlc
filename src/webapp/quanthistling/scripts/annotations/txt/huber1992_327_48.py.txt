@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈMa-tʰiri-pɨ",
+    "startpage" : 327,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "DELGADO_THIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˈMa-tʰiri-pɨ",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})
