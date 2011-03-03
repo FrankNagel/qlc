@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "kõˈã́-ri-ge,ɨˈséjo-eri",
+    "startpage" : 330,
+    "pos_on_page" : 39,
+    "language_bookname" : "yurutí",
+    "concept" : "EMBOTADO_DULL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kõˈã́-ri-ge",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɨˈséjo-eri",
+                "start" : 14,
+                "end" : 25
+            },
+    ]
+})

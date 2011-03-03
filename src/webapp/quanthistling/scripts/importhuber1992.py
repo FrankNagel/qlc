@@ -156,7 +156,7 @@ def remove_parts_head(str, s, e):
     start = s
     end = e
     subsubstr = str
-    match_end = re.search(u"(?:† ?| Véase .*?| ?\(SP\??\) ?)$", subsubstr)
+    match_end = re.search(u"(?:,?† ?| Véase .*?| ?\(SP\??\) ?)$", subsubstr)
     if match_end:
         end = end - len(match_end.group(0))
         subsubstr = subsubstr[:-len(match_end.group(0))]
@@ -193,8 +193,7 @@ def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
         
         if lang in annotation:
             for a in annotation[lang]:
-                a_string = re.sub(u"ˈ", "", a['string'])
-                entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a_string)
+                entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
         
         Session.add(entry_db)
         Session.commit()
@@ -323,13 +322,19 @@ def main(argv):
                 annotation[u'Español'] = []
                 
                 meaning_spanish = re.sub(u"!", "", meaning_spanish)
-                a = {}
-                a['start'] = 0
-                a['end'] = len(meaning_spanish)
-                a['value'] = 'counterpart'
-                a['type'] = 'dictinterpretation'
-                a['string'] = meaning_spanish
-                annotation[u'Español'].append(a)
+                start = 0
+                end = 0
+                for match in re.finditer(u"(?:, |; | ~ |$)", meaning_spanish):
+                    end = match.start(0)
+                    a = {}
+                    a['start'] = start
+                    a['end'] = end
+                    a['value'] = 'counterpart'
+                    a['type'] = 'dictinterpretation'
+                    a['string'] = meaning_spanish[start:end]
+                    annotation[u'Español'].append(a)
+                    start = match.end(0)
+                    
                 pos_on_page = pos_on_page + 1
             elif line_in_page == 4:
                 id = int(re.sub(u'(?:</?b>|†)', '', l))
@@ -343,13 +348,18 @@ def main(argv):
                 annotation['English'] = []
 
                 meaning_english = re.sub(u"!", "", meaning_english)
-                a = {}
-                a['start'] = 0
-                a['end'] = len(meaning_english)
-                a['value'] = 'counterpart'
-                a['type'] = 'dictinterpretation'
-                a['string'] = meaning_english
-                annotation['English'].append(a)
+                start = 0
+                end = 0
+                for match in re.finditer(u"(?:, |; | ~ |$)", meaning_english):
+                    end = match.start(0)
+                    a = {}
+                    a['start'] = start
+                    a['end'] = end
+                    a['value'] = 'counterpart'
+                    a['type'] = 'dictinterpretation'
+                    a['string'] = meaning_english[start:end]
+                    annotation['English'].append(a)
+                    start = match.end(0)
                 pos_on_page = pos_on_page + 1
                 concept_id = "%s_%s" % (meaning_spanish.upper(), meaning_english.upper())
             # parse data
@@ -455,9 +465,9 @@ def main(argv):
                                 head_string = match.group(2)[strpos[0]:strpos[1]]
                                 start = 0
                                 end = 0
-                                for match in re.finditer(u"(?:, |; | ~ |$)", head_string):
+                                for match in re.finditer(u"(?:, ?|; | ~ |$)", head_string):
                                     end = match.start(0)
-                                    head = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!)\)?", "", head_string[start:end])
+                                    head = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!|ˈ|\.)\)?", "", head_string[start:end])
                                     if head != "":
                                         match_bracket = re.search(u"\(([^)]+?)\) ?$", head)
                                         if match_bracket:

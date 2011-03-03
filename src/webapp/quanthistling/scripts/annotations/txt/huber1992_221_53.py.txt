@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "koró,wʧe",
+    "startpage" : 221,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "NEGRO_BLACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "korówʧe",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

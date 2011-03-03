@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ã́tpe, ã́,n,ope",
+    "startpage" : 352,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "PENSAR_THINK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ã́tpe",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ã́nope",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ã́-n-ope",
+                "start" : 8,
+                "end" : 17
+            },
+    ]
+})

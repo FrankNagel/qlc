@@ -4,6 +4,40 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "guhí ˈrioho-a-,je",
+    "startpage" : 228,
+    "pos_on_page" : 45,
+    "language_bookname" : "barasana",
+    "concept" : "DIENTES DELANTEROS INCISIVOS_FRONT TEETH, INEISORS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "guhí riohoaje",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kéʔs,iri",
+    "startpage" : 220,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "BLANCO_WHITE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kéʔsiri",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ˈMa-tʰiri-pɨ",
     "startpage" : 327,
     "pos_on_page" : 48,
@@ -172,6 +206,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ũ’pe-ri-ka, kãʔ’ka-ri-ka ‘chupar (mamando)’ (‘suck (nursing)’), ‘chupar fruta’ (‘suck on fruit’)",
+    "startpage" : 356,
+    "pos_on_page" : 46,
+    "language_bookname" : "tanimuca",
+    "concept" : "CHUPAR_SUCK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ũperika",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kãʔkarika",
+                "start" : 13,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘chupar (mamando)’ (‘suck (nursing)’), ‘chupar fruta’ (‘suck on fruit’)",
+                "start" : 26,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "kanúa/kánwa (SP)",
     "startpage" : 90,
     "pos_on_page" : 23,
@@ -273,6 +345,75 @@ manual_entries.append({
                 "string" : "‘thread’",
                 "start" : 8,
                 "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ã́tpe, ã́,n,ope",
+    "startpage" : 352,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "PENSAR_THINK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ã́tpe",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ã́nope",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ã́-n-ope",
+                "start" : 8,
+                "end" : 17
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "hupú-sɨ,hɨmí̵ʔɨ-sɨ† = ‘(huevo) podrido’ (‘rotten (egg)’), hunúhunu-lu ‘(fruta) podrida’ (‘rotten (fruit)’), íttɨ-sɨ ‘podrido, desgastado’ (‘rotten, worn out’)",
+    "startpage" : 333,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "PODRIDO_ROTTEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hupúsɨ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɨmí̵ʔɨsɨ",
+                "start" : 9,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘(huevo) podrido’ (‘rotten (egg)’), hunúhunu-lu ‘(fruta) podrida’ (‘rotten (fruit)’), íttɨ-sɨ ‘podrido, desgastado’ (‘rotten, worn out’)",
+                "start" : 21,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
             },
     ]
 })
@@ -393,7 +534,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "’túu pua",
+                "string" : "túu pua",
                 "start" : 0,
                 "end" : 9
             },
@@ -468,6 +609,102 @@ manual_entries.append({
                 "string" : "zéglde",
                 "start" : 0,
                 "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "koró,wʧe",
+    "startpage" : 221,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "NEGRO_BLACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "korówʧe",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "k,ɨ-táwo-tk + ku-tawo-tk",
+    "startpage" : 295,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "CUANDO_WHEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kɨtáwotk",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ku-tawo-tk",
+                "start" : 12,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "póʔta-me,póʔta-mo",
+    "startpage" : 12,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "BARBA_BEARD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "póʔta-me",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "póʔta-mo",
+                "start" : 10,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kõˈã́-ri-ge,ɨˈséjo-eri",
+    "startpage" : 330,
+    "pos_on_page" : 39,
+    "language_bookname" : "yurutí",
+    "concept" : "EMBOTADO_DULL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kõˈã́-ri-ge",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɨˈséjo-eri",
+                "start" : 14,
+                "end" : 25
             },
     ]
 })
@@ -549,6 +786,23 @@ manual_entries.append({
                 "value" : "footnote",
                 "string" : "(QU)",
                 "start" : 5,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "omáʃ,eru",
+    "startpage" : 263,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "UÑA, GARRA_FINGERNAIL, CLAW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "omáʃeru",
+                "start" : 0,
                 "end" : 9
             },
     ]

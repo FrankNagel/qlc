@@ -72,7 +72,7 @@ def main(argv):
 
     for book in quanthistling.dictdata.wordlistbooks.list:
         #print book["bibtex_key"]
-        
+                
         try:
             exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
             print "adding manual annotations for %s" % book["bibtex_key"]
@@ -81,6 +81,10 @@ def main(argv):
             print "no manual annotations for %s" % book["bibtex_key"]
             continue
 
+        min_similarity_ratio = 0.80
+        if book["bibtex_key"] == "huber1992":
+            min_similarity_ratio = 0.60
+            
         for e in manual_entries:
             wordlistdata = model.meta.Session.query(model.Wordlistdata).join(
                 (model.Book, model.Wordlistdata.book_id==model.Book.id)
@@ -94,7 +98,7 @@ def main(argv):
                 print "could not find  entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])
                 
             ratio = difflib.SequenceMatcher(None, e["fullentry"].decode('utf-8'), entry_db.fullentry).ratio()
-            if ratio > 0.80:
+            if ratio > min_similarity_ratio:
                 entry_db.fullentry = e["fullentry"].decode('utf-8')
                 # delete all annotations in db
                 for a in entry_db.annotations:

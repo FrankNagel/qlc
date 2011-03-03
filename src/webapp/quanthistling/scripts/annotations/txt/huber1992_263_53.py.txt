@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "omáʃ,eru",
+    "startpage" : 263,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "UÑA, GARRA_FINGERNAIL, CLAW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "omáʃeru",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

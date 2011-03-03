@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "k,ɨ-táwo-tk + ku-tawo-tk",
+    "startpage" : 295,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "CUANDO_WHEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kɨtáwotk",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ku-tawo-tk",
+                "start" : 12,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

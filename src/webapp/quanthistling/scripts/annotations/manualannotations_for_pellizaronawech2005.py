@@ -4,6 +4,63 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "* kesa-r, teka-r, u. = pelar (tubérculo, árbol, cáscaras pegadas), Wapái kesartá = pela la papaya.",
+    "startpage" : 415,
+    "pos_on_page" : 37,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kesar",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tekar",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 18,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pelar (tubérculo, árbol, cáscaras pegadas)",
+                "start" : 23,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wapái kesartá",
+                "start" : 70,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "pela la papaya",
+                "start" : 88,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 18,
+                "end" : 20
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* supí-k, m. = helarse, lancharse (los tubérculos).",
     "startpage" : 492,
     "pos_on_page" : 5,
@@ -263,6 +320,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "eá (eaya)! = hola, oiga! Eaya winitiá = oiga, ven!",
+    "startpage" : 157,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eá",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eaya",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hola, oiga!",
+                "start" : 14,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Eaya winitiá",
+                "start" : 26,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "oiga, ven!",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eá (eaya)! =",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ atánt-ki, u. (a: r-uk',ram-ki,-) = quitarle algo.",
     "startpage" : 149,
     "pos_on_page" : 5,
@@ -443,6 +550,42 @@ manual_entries.append({
                 "string" : "hacer andar",
                 "start" : 44,
                 "end" : 56
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ nemár-sa. u. (a: t-us,tam-sa,/) = seguirle.",
+    "startpage" : 314,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nemársa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "seguirle",
+                "start" : 37,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-us,tam-sa,/)",
+                "start" : 13,
+                "end" : 34
             },
     ]
 })
@@ -894,56 +1037,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "eá (eaya)! = hola, oiga! Eaya winitiá = oiga, ven!",
-    "startpage" : 157,
-    "pos_on_page" : 3,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "eá",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "eaya",
-                "start" : 5,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "hola, oiga!",
-                "start" : 14,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Eaya winitiá",
-                "start" : 26,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "oiga, ven!",
-                "start" : 42,
-                "end" : 52
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "eá (eaya)! =",
-                "start" : 0,
-                "end" : 13
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "* aniá-s, u. = llevar de compañero.",
     "startpage" : 136,
     "pos_on_page" : 16,
@@ -973,51 +1066,58 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "yuwí, na. r,ram,ri) = nombre de mujer: ⇨zapallo. (comestible).",
-    "startpage" : 218,
-    "pos_on_page" : 24,
+    "fullentry" : "Yampaku. na. (ur,rum,ri) = nombre de mujer; ⇨arbusto (hojas alargadas, frutitas en racimos). En la celebración del numpamrumkimiu (primera menstruación) la anciana lava con las hojas a la joven, purificándola. Su flor perfumada se coloca en la chicha chapuras. Is. numi.",
+    "startpage" : 203,
+    "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "yuwí",
+                "string" : "yampaku",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "na. (r,ram,ri)",
-                "start" : 7,
-                "end" : 20
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "nombre de mujer",
-                "start" : 23,
-                "end" : 38
+                "start" : 27,
+                "end" : 42
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "zapallo (comestible)",
-                "start" : 41,
-                "end" : 62
+                "string" : "arbusto (hojas alargadas, frutitas en racimos)",
+                "start" : 45,
+                "end" : 91
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "yuwí",
+                "string" : "Yampaku.",
                 "start" : 0,
-                "end" : 5
+                "end" : 8
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "na. r,ram,ri)",
-                "start" : 7,
-                "end" : 20
+                "string" : "na. (ur,rum,ri)",
+                "start" : 9,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. numi.",
+                "start" : 264,
+                "end" : 273
             },
     ]
 })
@@ -1227,6 +1327,56 @@ manual_entries.append({
                 "string" : "calentarse el agua",
                 "start" : 14,
                 "end" : 32
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Chaír, na. = nombre de varón (= mi oso).",
+    "startpage" : 383,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chaír",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 14,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mi oso",
+                "start" : 34,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Chaír",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 11
             },
     ]
 })
@@ -1661,6 +1811,42 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "+ itíp-ia. u. = ponerle la falda.",
+    "startpage" : 195,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " itípia",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ponerle la falda",
+                "start" : 17,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ tsetsem-', um. = tiritar, tener frío.",
     "startpage" : 169,
     "pos_on_page" : 8,
@@ -1721,6 +1907,42 @@ manual_entries.append({
                 "string" : "emborracharse",
                 "start" : 16,
                 "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* kuar-patin, que brinca. Wawa kuárpatniuíti = las astillas (del palo de balsa) brincan.",
+    "startpage" : 333,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuarpatin",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que brinca",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wawa kuárpatniuíti",
+                "start" : 26,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "las astillas (del palo de balsa) brincan",
+                "start" : 49,
+                "end" : 89
             },
     ]
 })
@@ -2126,16 +2348,9 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ávidamente",
-                "start" : 15,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "vidamente (comen los hombre)",
-                "start" : 17,
+                "string" : "ávidamente (comen los hombre)",
+                "start" : 15,
                 "end" : 45
             },
             {
@@ -2147,7 +2362,7 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
+                "value" : "example-tgt",
                 "string" : "lo acabó tragándolo ávidamente",
                 "start" : 69,
                 "end" : 102

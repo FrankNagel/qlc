@@ -49,6 +49,7 @@ def main(argv):
     for b in quanthistling.dictdata.books.list:
         if bibtex_key_param != None and bibtex_key_param != b['bibtex_key']:
             continue
+        
         book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if book:
@@ -70,7 +71,11 @@ def main(argv):
                     for i in range(0,len(heads)):
                         head = heads[i].string
                         if heads[i].entry.is_subentry:
-                            url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=heads[i].entry.mainentry().startpage, pos_on_page=heads[i].entry.mainentry().pos_on_page, format='html')
+                            mainentry = heads[i].entry.mainentry()
+                            if mainentry:
+                                url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=mainentry.startpage, pos_on_page=mainentry.pos_on_page, format='html')
+                            else:
+                                print "nio main entry found for sub entry on page %i pos on page %i." % (heads[i].entry.startpage, heads[i].entry.pos_on_page)
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=heads[i].entry.startpage, pos_on_page=heads[i].entry.pos_on_page, format='html')
                         file_heads.write(head.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
@@ -155,6 +160,7 @@ def main(argv):
         
             shutil.rmtree(temppath)
 
+    #for b in []:
     for b in quanthistling.dictdata.wordlistbooks.list:
         if bibtex_key_param != None and bibtex_key_param != b['bibtex_key']:
             continue

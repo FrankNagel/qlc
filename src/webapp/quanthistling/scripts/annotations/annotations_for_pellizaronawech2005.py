@@ -198,11 +198,17 @@ def main(argv):
                 for a in e.annotations:
                     Session.delete(a)
                 Session.delete(e)
-        entry = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=218,pos_on_page=24).first()
+        entry = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=218,pos_on_page=31).first()
         if entry:
             for a in entry.annotations:
                 Session.delete(a)
             Session.delete(entry)
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=301).all()
+        for e in entries:
+            if e.pos_on_page >= 10 and e.pos_on_page <= 15:
+                for a in e.annotations:
+                    Session.delete(a)
+                Session.delete(e)
         Session.commit()
 
 

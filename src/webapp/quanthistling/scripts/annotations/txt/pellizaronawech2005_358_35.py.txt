@@ -13,16 +13,9 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ávidamente",
-                "start" : 15,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "vidamente (comen los hombre)",
-                "start" : 17,
+                "string" : "ávidamente (comen los hombre)",
+                "start" : 15,
                 "end" : 45
             },
             {
@@ -34,7 +27,7 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
+                "value" : "example-tgt",
                 "string" : "lo acabó tragándolo ávidamente",
                 "start" : 69,
                 "end" : 102

@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "* kesa-r, teka-r, u. = pelar (tubérculo, árbol, cáscaras pegadas), Wapái kesartá = pela la papaya.",
+    "startpage" : 415,
+    "pos_on_page" : 37,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kesar",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tekar",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 18,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pelar (tubérculo, árbol, cáscaras pegadas)",
+                "start" : 23,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wapái kesartá",
+                "start" : 70,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "pela la papaya",
+                "start" : 88,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 18,
+                "end" : 20
+            },
+    ]
+})

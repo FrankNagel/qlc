@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "póʔta-me,póʔta-mo",
+    "startpage" : 12,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "BARBA_BEARD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "póʔta-me",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "póʔta-mo",
+                "start" : 10,
+                "end" : 19
+            },
+    ]
+})

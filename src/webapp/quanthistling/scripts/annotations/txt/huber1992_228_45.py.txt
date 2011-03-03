@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "guhí ˈrioho-a-,je",
+    "startpage" : 228,
+    "pos_on_page" : 45,
+    "language_bookname" : "barasana",
+    "concept" : "DIENTES DELANTEROS INCISIVOS_FRONT TEETH, INEISORS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "guhí riohoaje",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})

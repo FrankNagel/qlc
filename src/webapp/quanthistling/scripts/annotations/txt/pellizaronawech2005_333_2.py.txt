@@ -27,7 +27,7 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
+                "value" : "example-tgt",
                 "string" : "las astillas (del palo de balsa) brincan",
                 "start" : 49,
                 "end" : 89

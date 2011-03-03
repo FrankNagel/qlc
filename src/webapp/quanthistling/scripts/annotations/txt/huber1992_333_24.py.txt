@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hupú-sɨ,hɨmí̵ʔɨ-sɨ† = ‘(huevo) podrido’ (‘rotten (egg)’), hunúhunu-lu ‘(fruta) podrida’ (‘rotten (fruit)’), íttɨ-sɨ ‘podrido, desgastado’ (‘rotten, worn out’)",
+    "startpage" : 333,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "PODRIDO_ROTTEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hupúsɨ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɨmí̵ʔɨsɨ",
+                "start" : 9,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘(huevo) podrido’ (‘rotten (egg)’), hunúhunu-lu ‘(fruta) podrida’ (‘rotten (fruit)’), íttɨ-sɨ ‘podrido, desgastado’ (‘rotten, worn out’)",
+                "start" : 21,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "kéʔs,iri",
+    "startpage" : 220,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "BLANCO_WHITE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kéʔsiri",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
