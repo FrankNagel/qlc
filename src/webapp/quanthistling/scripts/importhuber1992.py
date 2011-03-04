@@ -467,7 +467,11 @@ def main(argv):
                                 end = 0
                                 for match in re.finditer(u"(?:, ?|; | ~ |$)", head_string):
                                     end = match.start(0)
-                                    head = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!|ˈ|\.)\)?", "", head_string[start:end])
+                                    if page == 294 and pos_on_page == 46:
+                                        print head.encode("utf-8")
+                                    head = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!|ˈ|\.|†)\)?", "", head_string[start:end])
+                                    if page == 294 and pos_on_page == 46:
+                                        print head.encode("utf-8")
                                     if head != "":
                                         match_bracket = re.search(u"\(([^)]+?)\) ?$", head)
                                         if match_bracket:

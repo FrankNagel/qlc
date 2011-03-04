@@ -118,27 +118,42 @@ def annotate_translations(entry):
     trans_annotations = [ a for a in entry.annotations if a.value=='translation']
     for a in trans_annotations:
         Session.delete(a)
+
+    match_first_equal  = None
+    for match in re.finditer(u"=", entry.fullentry):
+        inbracket = False
+        for m in re.finditer(r'\([^)]*\)', entry.fullentry):
+            if match.start(0) > m.start(0) and match.start(0) < m.end(0):
+                inbracket = True
+                break
+        if not inbracket:
+            match_first_equal = match
+            break
+
+    if not match_first_equal:
+        functions.print_error_in_entry(entry, "no equal sign, no translation")
+        return
         
-    match_trans = re.search(r' ?\= ?((?:[^.(]*\([^)]*\)[^.(]*)+|[^\.]*)\.', entry.fullentry)
+    re_trans = re.compile(r"\= ?((?:[^.(]*\([^)]*\)[^.(]*)+|[^\.]*)\.")
+    match_trans = re_trans.search(entry.fullentry, match_first_equal.start(0))
+
     if not match_trans:
-        match_trans = re.search(r' ?\= ?(.*?)$', entry.fullentry)
+        re_trans2 = re.compile(r'\= ?(.*?)$')
+        match_trans = re_trans2.search(entry.fullentry, match_first_equal.start(0))
     
     if not match_trans:
-        print "no translation found for entry: " + entry.fullentry.encode('utf-8')
-        print "page %i, pos %i" % (entry.startpage, entry.pos_on_page)
-        print
-        return
+        functions.print_error_in_entry(entry, "no translation found")
 
     trans_start = match_trans.start(1)
     trans_end = match_trans.end(1)
     substr = entry.fullentry[trans_start:trans_end]
 
     start = trans_start
-    for match in re.finditer(r'[,;] ?', substr):
+    for match in re.finditer(r'(?:[,;] ?|$)', substr):
         mybreak = False
         # are we in a bracket?
         for m in re.finditer(r'\(.*?\)', substr):
-            if match.start(0) >= m.start(0) and match.end(0) <= m.end(0):
+            if match.start(0) > m.start(0) and match.end(0) < m.end(0):
                 mybreak = True
                 
         if not mybreak:
@@ -146,13 +161,12 @@ def annotate_translations(entry):
             match_arrow = re.match(u" ??⇨ ?", entry.fullentry[start:end])
             if match_arrow:
                 start = start + len(match_arrow.group(0))
-            functions.insert_translation(entry, start, end)
+            translation = entry.fullentry[start:end]
+            match_nombre = re.match(u"nombre de [^(]+ \((?:= )?([^)]+)\)", translation)
+            if match_nombre:
+                translation = match_nombre.group(1)
+            functions.insert_translation(entry, start, end, translation)
             start = match.end(0) + trans_start
-    end = trans_end           
-    match_arrow = re.match(u" ??⇨ ?", entry.fullentry[start:end])
-    if match_arrow:
-        start = start + len(match_arrow.group(0))
-    functions.insert_translation(entry, start, end)
 
 def annotate_examples(entry): 
     # delete pos annotations
@@ -213,7 +227,7 @@ def main(argv):
 
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=117,pos_on_page=25).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=380,pos_on_page=4).all()
         
         startletters = set()
         for e in entries:
