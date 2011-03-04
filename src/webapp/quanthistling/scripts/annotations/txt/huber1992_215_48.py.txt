@@ -8,8 +8,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "ˈMaβaʔɨ",
+                "value" : "counterpart",
+                "string" : "maβaʔɨ",
                 "start" : 0,
                 "end" : 9
             },

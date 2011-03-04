@@ -1,15 +1,15 @@
 
 manual_entries.append({
-    "fullentry" : "ˈMa-tʰiri-pɨ",
-    "startpage" : 327,
+    "fullentry" : "ˈMa-ãʔka-pɨ",
+    "startpage" : 323,
     "pos_on_page" : 48,
     "language_bookname" : "koreguaje",
-    "concept" : "DELGADO_THIN",
+    "concept" : "ESTRECHO_NARROW",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "matʰiripɨ",
+                "string" : "maãʔkapɨ",
                 "start" : 0,
                 "end" : 12
             },

@@ -9,14 +9,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "uˈwí",
+                "string" : "uwí",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "uˈí",
+                "string" : "uí",
                 "start" : 10,
                 "end" : 16
             },

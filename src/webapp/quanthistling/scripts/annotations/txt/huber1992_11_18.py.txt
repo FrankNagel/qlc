@@ -9,7 +9,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "kum ˈpampa",
+                "string" : "kum pampa",
                 "start" : 0,
                 "end" : 11
             },

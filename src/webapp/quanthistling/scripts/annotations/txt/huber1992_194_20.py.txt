@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "la (m), tsike (f)",
+    "startpage" : 194,
+    "pos_on_page" : 20,
+    "language_bookname" : "tsafiqui pila",
+    "concept" : "YO_I",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "la ",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "masculino",
+                "start" : 3,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsike ",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "femenino",
+                "start" : 14,
+                "end" : 17
+            },
+    ]
+})

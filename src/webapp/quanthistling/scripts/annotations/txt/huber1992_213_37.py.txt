@@ -9,7 +9,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ˈkĩ̵́hã-ja-tebũ-beto",
+                "string" : "kĩ̵́hãjatebũbeto",
                 "start" : 0,
                 "end" : 24
             },
