@@ -84,18 +84,6 @@ def main(argv):
         print
 
 
-    # compare hashes headwords against orthography profile
-    print "graphemes in orthograhy profile and NOT in graphemes file (multigraphs not finished yet):"
-    c2 = 0
-    for k, v in orthography_hash.iteritems():
-        if not headword_hash.has_key(k):
-            print "ERROR:", k.encode("utf-8")
-            c2 += 1
-    if not c2 == 0:
-        print "total:", c2
-        print
-
-
     # check orthography profile contents against headwords
     print "check if orthography profile contents are not in the headwords:"
     missing_orthography_contents = []
