@@ -518,9 +518,13 @@ class CorpusReaderWordlist(object):
         #ret = {}
         for entry_id in counterpart_annotations:
             #string_id = "%s_%s_%s" % (self.wordlistdata_string_ids[ self.entries[entry_id][4] ], '', '')
-            wodlistdata_id = self.wordlistentries[entry_id][wordlistentryTableColumns['wordlistdata_id']]
+            wordlistdata_id = self.wordlistentries[entry_id][wordlistentryTableColumns['wordlistdata_id']]
             language_bookname = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_bookname']]
-            language_code = self.languages[self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_id']]][languageTableColumns['langcode']]
+            language_id = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_id']]
+            if language_id != '':
+                language_code = self.languages[language_id][languageTableColumns['langcode']]
+            else:
+                language_code = "n/a"
             concept = self.wordlistconcepts[self.wordlistentries[entry_id][wordlistentryTableColumns['concept_id']]][wordlistconceptTableColumns['concept']]
             ret = {}
             ret['counterpart'] = counterpart_annotations[entry_id]

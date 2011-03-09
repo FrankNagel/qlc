@@ -85,7 +85,7 @@ families = {
 def main(argv):
 
     if len(argv) < 2:
-        print "call: exportheads_with_translations.py data_path"
+        print "call: counterparts_huber1992.py data_path"
         exit(1)
 
     cr = CorpusReaderWordlist(argv[1])
