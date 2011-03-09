@@ -1,8 +1,8 @@
 
 manual_entries.append({
-    "fullentry" : "+ ewekam-sa, um. = hacer andar, hacer pa-sear.",
+    "fullentry" : "+ ewekam-sa, um. = hacer andar, hacer pasear.",
     "startpage" : 170,
-    "pos_on_page" : 35,
+    "pos_on_page" : 34,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -30,7 +30,7 @@ manual_entries.append({
                 "value" : "translation",
                 "string" : "hacer pasear",
                 "start" : 32,
-                "end" : 45
+                "end" : 44
             },
             {
                 "type" : "formatting",
@@ -38,13 +38,6 @@ manual_entries.append({
                 "string" : "um.",
                 "start" : 13,
                 "end" : 16
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "hacer pasear",
-                "start" : 32,
-                "end" : 45
             },
     ]
 })

@@ -6,6 +6,50 @@ Corpus Reader for data of the project Quantitative Language Comparison.
 import os.path
 import codecs
 
+bookTableColumns = {
+    'title': 0,
+    'author': 1,
+    'year': 2,
+    'bibtex_key': 3,
+    'columns': 4,
+    'pages': 5,
+    'origfilepath': 6,
+    'type': 7,
+    'is_ready': 8,
+}
+
+wordlistentryTableColumns = {
+    'fullentry': 0,
+    'startpage': 1,
+    'endpage': 2,
+    'startcolumn': 3,
+    'endcloumn': 4,
+    'pos_on_page': 5,
+    'concept_id': 6,
+    'wordlistdata_id': 7,
+    'has_manual_annotations': 8
+}
+
+wordlistdataTableColumns = {
+    'startpage': 0,
+    'endpage': 1,
+    'language_bookname': 2,
+    'language_id': 3,
+    'book_id': 4,
+    'component_id': 5
+}
+
+languageTableColumns = {
+    'name': 0,
+    'langcode': 1,
+    'description': 2,
+    'url': 3
+}
+
+wordlistconceptTableColumns = {
+    'concept': 0
+}
+
 class CorpusReaderDict(object):
     """
     The corpus reader class for dictionary data. API was designed to allow
@@ -28,6 +72,7 @@ class CorpusReaderDict(object):
         
         self.datapath = datapath
         self.books = {}
+        self.languages = {}
         self.dictdata = {}
         self.entries = {}
         self.annotations = {}
@@ -66,7 +111,7 @@ class CorpusReaderDict(object):
             data = line.split("\t")
             self.entries[data.pop(0)] = data
 
-        # read dictdata table
+        # read annotation table
         is_first_line = True
         file = codecs.open(os.path.join(datapath, "annotation.csv"), "r", "utf-8")
         for line in file:
@@ -77,6 +122,17 @@ class CorpusReaderDict(object):
             data = line.split("\t")
             self.annotations[data.pop(0)] = data
             
+        # read language table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "language.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.languages[data.pop(0)] = data
+
         self.initDictdataStringIds()
 
 
@@ -101,7 +157,6 @@ class CorpusReaderDict(object):
             bibtex_key = self.books[book_id][3]
             self.dictdata_string_ids[dictdata_id] = "%s_%s_%s" % (bibtex_key, self.dictdata[dictdata_id][0], self.dictdata[dictdata_id][2])
 
-
     def dictdataStringIds(self):
         """
         Returns the dict of the mappings from numerical IDs to strings IDs for the
@@ -118,7 +173,6 @@ class CorpusReaderDict(object):
         """
         return self.dictdata_string_ids
     
-
     def dictdataStringIdForDictataId(self, dictdata_id):
         """
         Return the string ID to a given numerical ID of a Dictdata entry.
@@ -133,7 +187,6 @@ class CorpusReaderDict(object):
             - String containing the string ID of the given Dictdata entry
         """
         return self.dictdata_string_ids[dictdata_id]
-
 
     def dictdataIdsForBibtexKey(self, param_bibtex_key):
         """Return an array of dicionary parts IDs for a given book. The book
@@ -151,7 +204,6 @@ class CorpusReaderDict(object):
             if self.books[book_id][3] == param_bibtex_key:
                 ret.append(dictdata_id)
         return ret
-        
         
     def headsWithTranslationsForDictdataId(self, param_dictdata_id = None):
         """
@@ -259,3 +311,221 @@ class CorpusReaderDict(object):
             #ret[entry_id]['dictdata_string_id'] = self.dictdata_string_ids[ self.entries[entry_id][4] ]
         
         return ret
+
+
+class CorpusReaderWordlist(object):
+    """
+    The corpus reader class for wordlist data. API was designed to allow
+    easy access to the data of the dictionaries, all methodes return data
+    in Python data structures. Think of it as DB-less queries that return
+    Key-Value-Stores.
+    """
+    
+    def __init__(self, datapath):
+        """
+        Constructor of CorpusReaderWordlist class.
+        
+        Args:
+            - datapath (obligatory): the path to the dictionary data files (*.csv) in the
+                file system.
+        
+        Returns:
+            - nothing
+        """
+        
+        self.datapath = datapath
+        self.books = {}
+        self.languages = {}
+        self.wordlistdata = {}
+        self.wordlistentries = {}
+        self.wordlistannotations = {}
+        self.wordlistconcepts = {}
+        self.wordlistdata_string_ids = {}
+
+        # read book table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "book.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.books[data.pop(0)] = data
+
+        # read worlistdata table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "wordlistdata.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.wordlistdata[data.pop(0)] = data
+
+        # read wordlist entry table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "wordlistentry.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.wordlistentries[data.pop(0)] = data
+
+        # read wordlist annotation table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "wordlistannotation.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.wordlistannotations[data.pop(0)] = data
+            
+        # read language table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "language.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.languages[data.pop(0)] = data
+
+        # read concept table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "wordlistconcept.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.wordlistconcepts[data.pop(0)] = data
+
+        self.initWordlistdataStringIds()
+
+    def initWordlistdataStringIds(self):
+        """
+        Initializer for Worlistdata identification strings. Wordlistdata are parts of books that
+        contain wordlist data (vs. Nondictdata and Dictdata). The string IDs are equal to the
+        ID within URLs of the QuantHistLing website, i.e. something like "huber1992_10_392".
+        The strings are saved into a private dict, mapping from the numerical ID to the
+        string ID, to allow an easy lookup. This method is called by the constructor of
+        the class and should not be called by the user.
+        
+        Args:
+            - nothing
+            
+        Returns:
+            - nothing
+        """
+        for wordlistdata_id in self.wordlistdata:
+            book_id = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['book_id']]
+            bibtex_key = self.books[book_id][bookTableColumns['bibtex_key']]
+            self.wordlistdata_string_ids[wordlistdata_id] = "%s_%s_%s" % (
+                bibtex_key,
+                self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['startpage']],
+                self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['endpage']]
+                )
+    
+    def wordlistdataStringIds(self):
+        """
+        Returns the dict of the mappings from numerical IDs to strings IDs for the
+        Wordlistdata entries. Wordlistdata are parts of books that contain wordlists
+        (vs. Dictdata and Nondictdata). The string IDs are equal to the ID within URLs of the
+        QuantHistLing website, i.e. something like "huber1992_10_244". The general
+        structure of the ID is "key_startpage_endpage".
+        
+        Args:
+            - nothing
+            
+        Returns:
+            - The dict of numerical IDs to string IDs
+        """
+        return self.wordlistdata_string_ids
+        
+    def wordlistIdsForBibtexKey(self, param_bibtex_key):
+        """Return an array of wordlist parts IDs for a given book. The book
+        is identified by the so-called bibtex key, which is the string for
+        the book from the URL. For example: "huber1992".
+        
+        Args:
+            - param_bibtex_key (obligatory): a string with the bibtex key.
+        Returns:
+            - An iterator over all the wordlistdata IDs for the book.
+        """
+        ret = []
+        for wordlistdata_id in self.wordlistdata:
+            book_id = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['book_id']]
+            if self.books[book_id][bookTableColumns['bibtex_key']] == param_bibtex_key:
+                yield wordlistdata_id
+
+    def getLanguageBooknameForWordlistDataId(self, wordlistdata_id):
+        """Returns the language string that is used in the book for a given
+        Wordlistdata ID.
+        
+        Args:
+            - wordlistdata_id (obligatory): ID of the wordlistdata part of a book
+        Returns:
+            - A string of the language string in the book
+        """
+        return self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_bookname']]
+        
+    def counterpartsForWordlistdataId(self, param_wordlistdata_id = None):
+        """Returns an iterator for all counterpart annotations of the given
+        wordlist part of a book. The entries over which you can iterate are
+        a python dict each, with additional information for the counterpart.
+        The dict looks like this:
+        {
+            "counterpart": [ "hund", "hunde" ],
+            "concept": "DOG",
+            "language_bookname": "Deutsch",
+            "language_code": "de",
+            "bibtex_key": "huber1949"
+        }
+        The values of the counterpart lists are all counterparts that exist
+        for an wordlist entry.
+        
+        Args:
+            - param_wordlistdata_id: the numerical ID of the wordlist part of a
+            book. If not given: returns counterparts of all wordlist parts
+                of all books.
+        Returns:
+            - An iterator over dicts containing counterparts for each entry, as
+                described above.
+        """
+        counterpart_annotations = {}
+        for annotation_id, annotation_data in self.wordlistannotations.items():
+            if len(annotation_data) < 6:
+                continue
+
+            entry_id = annotation_data[0]
+            wordlistdata_id = self.wordlistentries[entry_id][wordlistentryTableColumns['wordlistdata_id']]
+
+            if (param_wordlistdata_id == None) or (wordlistdata_id == param_wordlistdata_id):
+                if annotation_data[4] == 'counterpart':
+                    if annotation_data[0] in counterpart_annotations:
+                        counterpart_annotations[entry_id].append(annotation_data[5])
+                    else:
+                        counterpart_annotations[entry_id] = [annotation_data[5]]
+        
+        #ret = {}
+        for entry_id in counterpart_annotations:
+            #string_id = "%s_%s_%s" % (self.wordlistdata_string_ids[ self.entries[entry_id][4] ], '', '')
+            wodlistdata_id = self.wordlistentries[entry_id][wordlistentryTableColumns['wordlistdata_id']]
+            language_bookname = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_bookname']]
+            language_code = self.languages[self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_id']]][languageTableColumns['langcode']]
+            concept = self.wordlistconcepts[self.wordlistentries[entry_id][wordlistentryTableColumns['concept_id']]][wordlistconceptTableColumns['concept']]
+            ret = {}
+            ret['counterpart'] = counterpart_annotations[entry_id]
+            ret['language_code'] = language_code
+            ret['language_bookname'] = language_bookname
+            ret['concept'] = concept
+            ret['bibtex_key'] = self.books [self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['book_id']]] [bookTableColumns['bibtex_key']]
+            yield ret
