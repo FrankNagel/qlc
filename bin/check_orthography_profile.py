@@ -3,6 +3,9 @@
 import sys
 import codecs
 import regex 
+sys.path.append("../src/qlc/") # path to OrthographyProfile
+import OrthographyProfile
+
 
 # you need to install regex library for this script to work
 # usage: python unique_graphems.py /path/to/orthography_profile /path/to/heads_file
@@ -15,8 +18,8 @@ def main(argv):
 
     grapheme_pattern = regex.compile("\X", regex.UNICODE)
 
-    orthography_hash = {}
-    headword_hash = {}
+    orthography_hash = {} # hash of graphemes in orthography profile
+    headword_hash = {} # hash of Unicode graphemes from head words
 
     # load orthography hash
     orthography_profile = codecs.open(sys.argv[1], "r", "utf-8")
@@ -72,8 +75,8 @@ def main(argv):
     print
 
 
-    # compare hashes orthography profile against headwords
-    print "graphemes in head words and NOT in orthograhy profile file:"
+    # compare hashes of Unicode regex \X graphemes vs headwords
+    print "**Unicode** graphemes via regex '\X' match in head words and NOT in orthograhy profile file:"
     c1 = 0
     for k, v in headword_hash.iteritems():
         if not orthography_hash.has_key(k):
@@ -103,6 +106,36 @@ def main(argv):
         print "all orthography profile graphemes are present in the data"
 
     print
+
+
+    # check graphemes from orthography profile against headwords
+    heads_file = codecs.open(sys.argv[2], "r", "utf-8")
+    orthography_profile_location = sys.argv[1]
+    o = OrthographyProfile.OrthographyProfile(orthography_profile_location)
+    o_comparison_hash = {}
+
+    heads_file = codecs.open(sys.argv[2], "r", "utf-8")
+    for line in heads_file:
+        line = line.strip()
+        tokens = line.split("\t")
+        head = tokens[0]
+        graphemed_form = o.parse(head)
+        # print graphemed_form.encode("utf-8")
+        for k, v in orthography_hash.iteritems():
+            if graphemed_form.find(k) == None:
+#            if not graphemed_form.__contains__(k):
+                o_comparison_hash[k] = 1
+
+    print "check graphemes from orthography profile against headwords"
+    print len(o_comparison_hash)
+    print len(orthography_hash)
+    for k, v in orthography_hash.iteritems():
+        if not o_comparison_hash.has_key(k):
+            print k.encode("utf-8")
+
+    heads_file.close()
+
+
 
 if __name__=="__main__":
     main(sys.argv)
