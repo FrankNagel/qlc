@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈtɕɨɕɨp (?)",
+    "startpage" : 349,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "COSER_SEW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɕɨɕɨp",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

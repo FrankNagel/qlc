@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "+ iwiásh-ka, (a: t-uk,tam-ka,-) = negrear.",
+    "startpage" : 199,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iwiáshka",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "a",
+                "start" : 15,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "negrear",
+                "start" : 35,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(a: t-uk,tam-ka,-)",
+                "start" : 14,
+                "end" : 32
+            },
+    ]
+})

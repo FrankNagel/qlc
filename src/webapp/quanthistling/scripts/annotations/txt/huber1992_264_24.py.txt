@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "sɨléʔe (sɨ-(a)léʔe)† Véase (See) 16, 244",
+    "startpage" : 264,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "BARRIGA_BELLY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨléʔe",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨaléʔe",
+                "start" : 8,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 16, 244",
+                "start" : 22,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+    ]
+})

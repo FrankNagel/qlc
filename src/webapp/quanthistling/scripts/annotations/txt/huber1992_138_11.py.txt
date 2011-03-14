@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "pikkáu (SP), diʒú† = ‚wáxa",
+    "startpage" : 138,
+    "pos_on_page" : 11,
+    "language_bookname" : "kogui",
+    "concept" : "PESCADO_FISH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pikkáu ",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "diʒú",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‚wáxa",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "moʧokɨtan (?)",
+    "startpage" : 328,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "CORTO_SHORT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "moʧokɨtan",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

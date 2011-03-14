@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "káaʃa (SP)† ‘caja’ (‘box’)",
+    "startpage" : 188,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "TAMBOR_DRUM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "káaʃa ",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘caja’ (‘box’)",
+                "start" : 12,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "sorpeʔ(?)",
+    "startpage" : 356,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "CHUPAR_SUCK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sorpeʔ",
+                "start" : 0,
+                "end" : 6
+            },
+    ]
+})

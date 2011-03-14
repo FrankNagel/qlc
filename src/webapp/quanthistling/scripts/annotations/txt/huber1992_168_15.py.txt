@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ʃajnʃirə (?)",
+    "startpage" : 168,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "ÑAME_YAM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʃajnʃirə",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

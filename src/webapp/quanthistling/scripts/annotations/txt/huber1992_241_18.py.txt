@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "waˈɲiisik (?)",
+    "startpage" : 241,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "NUBES QUIETAS_CLOUDS AT REST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "waɲiisik",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

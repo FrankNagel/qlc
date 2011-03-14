@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "(tse) ˈtik (?)",
+    "startpage" : 216,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "FRÍO_COLD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsetik",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tik",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

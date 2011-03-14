@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "+ kaí (r,m,-i) = hermana (término usado entre mujeres).",
+    "startpage" : 208,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kaí",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "r,m,-i",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermana (término usado entre mujeres)",
+                "start" : 18,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "í",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(r,m,-i)",
+                "start" : 7,
+                "end" : 15
+            },
+    ]
+})

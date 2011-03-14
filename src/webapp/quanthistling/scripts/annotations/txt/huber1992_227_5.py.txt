@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "(boɾo) pʰã(ɾ)ĩ́sũ",
+    "startpage" : 227,
+    "pos_on_page" : 5,
+    "language_bookname" : "embera chamí",
+    "concept" : "CORONA_CROWN OF HEAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "boɾo pʰãɾĩ́sũ",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "boɾo pʰãĩ́sũ",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰãɾĩ́sũ",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰãĩ́sũ",
+                "start" : 0,
+                "end" : 20
+            },
+    ]
+})

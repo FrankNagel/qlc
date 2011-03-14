@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ju(w)ˈírikáro, ˈkṹbṹró = ‘asiento’ (‘seat’)",
+    "startpage" : 78,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "BANCO_SEAT, STOOL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "juwírikáro",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "juírikáro",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kṹbṹró",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘asiento’ (‘seat’)",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})

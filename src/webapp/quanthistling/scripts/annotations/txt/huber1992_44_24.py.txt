@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "waʃí (wa-(a)ʃí)",
+    "startpage" : 44,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "PADRE_FATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "waʃí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "waaʃí",
+                "start" : 6,
+                "end" : 17
+            },
+    ]
+})

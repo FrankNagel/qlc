@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "coráru (SP)† = geʔ guma",
+    "startpage" : 125,
+    "pos_on_page" : 12,
+    "language_bookname" : "dí̵mɨna",
+    "concept" : "CORAL_CORAL SNAKE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "coráru ",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= geʔ guma",
+                "start" : 13,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

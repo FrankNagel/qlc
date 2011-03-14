@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "daˈké-g(ɨ/o) (m/f)",
+    "startpage" : 319,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "NIÑO_CHILD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dakégɨ",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dakégo",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "(masculino/femenino)",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})

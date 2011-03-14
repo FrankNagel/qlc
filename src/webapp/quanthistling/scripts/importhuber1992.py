@@ -4,6 +4,7 @@ languages = {
     'AC' : u'achagua',
     'AW' : u'awa',
     'BA' : u'epena basurudó',
+    'giacone' : u'giacone',
     'BI' : u'barí',
     'BN' : u'baniva',
     'BO' : u'bora',
@@ -166,6 +167,17 @@ def remove_parts_head(str, s, e):
         subsubstr = subsubstr[len(match_start.group(0)):]
     return [start, end]
 
+def remove_parts_head_characters(str):
+    h = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!|ˈ|\.|†)\)?", "", str)
+    return h
+
+def remove_parts_head_brackets(str):
+    h = re.sub(u" ?\([^)]+\) ?", "", str)
+    h = re.sub(u" ?‘[^’]+’ ?", "", h)
+    h = re.sub(u" ?=.*$", "", h)
+    h = re.sub(" +", " ", h)
+    return h
+
 def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
     for lang in iter(entry):
         #entry_db = model.WordlistEntry()
@@ -197,6 +209,45 @@ def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
         
         Session.add(entry_db)
         Session.commit()
+
+def create_annotation(start, end, value, type, string):
+    string = re.sub("^ +", "", string)
+    string = re.sub(" +$", "", string)
+    
+    if len(string) == 0:
+        return []
+    
+    annotations = []
+
+    a = {
+        'start' : start,
+        'end' : end,
+        'value' : value,
+        'type' : type,
+        'string' : string
+    }
+    
+    annotations.append(a)
+    
+    if value == "footnote" and re.search("\+", string):
+        match_heads = re.search(u"\+ ?([^;]+)(?:;|$)", string)
+        start_head = match_heads.start(1)
+        for match_head in re.finditer(u"(?:, ?|$)", string[match_heads.start(1):match_heads.end(1)]):
+            end_head = match_heads.start(1) + match_head.start(0)
+            string_head = remove_parts_head_characters(string[start_head:end_head])
+            string_head = remove_parts_head_brackets(string_head)
+            a = {
+                'start' : start_head,
+                'end' : end_head,
+                'value' : "counterpart",
+                'type' : "dictinterpretation",
+                'string' : string_head
+            }
+            annotations.append(a)
+            string_start = match_heads.start(1) + match_head.end(0)
+    
+    #print annotations
+    return annotations
 
 def _callback(matches):
     id = matches.group(1)
@@ -235,6 +286,17 @@ def correct_line(l):
     ret = re.sub(u"<p><b>CHOCO, GUAHIBO</b>", u"<p><b>CHOCO,GUAHIBO</b>", ret)
     ret = re.sub(u"<p><b>BR,BS,CP,TC,TY,JR</b>", u"<p><b>BR,BS,CP,TC,TY,YR</b>", ret)
     ret = re.sub(u"<p><b>CI ba-pó-n†</b>", u"<p><b>CI</b> ba-pó-n†", ret)
+    ret = re.sub(u"<p><b>CI ba-pó-n†</b>", u"<p><b>CI</b> ba-pó-n†", ret)
+    ret = re.sub(u"</?i>", "", ret)
+    ret = re.sub(u"ι", u"ɩ", ret)
+    ret = re.sub(u"⍳", u"ɩ", ret)
+    ret = re.sub(u"ı", u"ɩ", ret)
+    ret = re.sub(u"ᴵ", u"¹", ret)
+    ret = re.sub(u"̅", u"̄", ret)
+    ret = re.sub(u"təηkuá", u"təŋkuá", ret)
+    ret = re.sub(u"tɨmɉ-kɨna", u"tɨmɨ-kɨna", ret)
+    ret = re.sub(u"áikkalawa~a", u"áikkalawa-a", ret)
+    ret = re.sub(u"ẽse~ʔh", u"ẽse-ʔh", ret)
     return ret
 
 
@@ -304,6 +366,13 @@ def main(argv):
             # parse page and line number
             if re.match(u'^\[\d+\]$', l):
                 if entry != {}:
+                    if "giacone" in annotation:
+                        entry["giacone"] = entry["TO"]
+                        entry["giacone"]["pos_on_page"] = pos_on_page
+                        for a in annotation["TO"]:
+                            if a['type'] == "pagelayout":
+                                annotation["giacone"].append(a)
+                        pos_on_page = pos_on_page + 1
                     insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata)
                 number = re.sub(u'[\[\]]', '', l)
                 page = int(number)
@@ -376,44 +445,38 @@ def main(argv):
                         for language in languages_entry:
                             if language.upper() in families:
                                 for l in families[language]:
-                                    a_newline = {
-                                        'start' : len(entry[l]['fullentry']),
-                                        'end' : len(entry[l]['fullentry']),
-                                        'value' : 'newline',
-                                        'type' : 'pagelayout',
-                                        'string' : ''
-                                    }
+
+                                    a_newline = { 'start' : len(entry[l]['fullentry']), 'end' : len(entry[l]['fullentry']), 'value' : 'newline', 'type' : 'pagelayout', 'string' : '' }
                                     annotation[l].append(a_newline)
+
                                     len_entry = len(entry[l]['fullentry'])
                                     entry[l]['fullentry'] = entry[l]['fullentry'] + " " + match.group(2)
-                                    a = {
-                                        'start' : len_entry,
-                                        'end' : len(entry[l]['fullentry']),
-                                        'value' : 'footnote',
-                                        'type' : 'dictinterpretation',
-                                        'string' : match.group(2)
-                                    }
-                                    annotation[l].append(a)
+                                    #a = {
+                                    #    'start' : len_entry,
+                                    #    'end' : len(entry[l]['fullentry']),
+                                    #    'value' : 'footnote',
+                                    #    'type' : 'dictinterpretation',
+                                    #    'string' : match.group(2)
+                                    #}
+                                    a_s = create_annotation(len_entry, len(entry[l]['fullentry']), "footnote", "dictinterpretation", match.group(2))
+                                    annotation[l].extend(a_s)
                             elif re.match(u"\d+$", language):
                                 for l in ( u'Español', 'English' ):
-                                    a_newline = {
-                                        'start' : len(entry[l]['fullentry']),
-                                        'end' : len(entry[l]['fullentry']),
-                                        'value' : 'newline',
-                                        'type' : 'pagelayout',
-                                        'string' : ''
-                                    }
+
+                                    a_newline = { 'start' : len(entry[l]['fullentry']), 'end' : len(entry[l]['fullentry']), 'value' : 'newline', 'type' : 'pagelayout', 'string' : '' }
                                     annotation[l].append(a_newline)
+
                                     len_entry = len(entry[l]['fullentry'])
                                     entry[l]['fullentry'] = entry[l]['fullentry'] + " " + match.group(2)
-                                    a = {
-                                        'start' : len_entry,
-                                        'end' : len(entry[l]['fullentry']),
-                                        'value' : 'footnote',
-                                        'type' : 'dictinterpretation',
-                                        'string' : match.group(2)
-                                    }
-                                    annotation[l].append(a)                            
+                                    #a = {
+                                    #    'start' : len_entry,
+                                    #    'end' : len(entry[l]['fullentry']),
+                                    #    'value' : 'footnote',
+                                    #    'type' : 'dictinterpretation',
+                                    #    'string' : match.group(2)
+                                    #}
+                                    a_s = create_annotation(len_entry + 1, len(entry[l]['fullentry']), "footnote", "dictinterpretation", match.group(2))
+                                    annotation[l].extend(a_s)
                             elif language in languages:
                                 l = language
                                 if language == u"ESPAÑOL":
@@ -424,14 +487,41 @@ def main(argv):
                                 a_newline = { 'start' : len(entry[l]['fullentry']), 'end' : len(entry[l]['fullentry']), 'value' : 'newline', 'type' : 'pagelayout', 'string' : '' }
                                 annotation[l].append(a_newline)
                                 
-                                a = {}
-                                a['start'] = len(entry[l]['fullentry'])
+                                len_entry = len(entry[l]['fullentry'])
                                 entry[l]['fullentry'] = entry[l]['fullentry'] + " " + match.group(2)
-                                a['end'] = len(entry[l]['fullentry'])
-                                a['value'] = 'footnote'
-                                a['type'] = 'dictinterpretation'
-                                a['string'] = match.group(2)
-                                annotation[l].append(a)
+                                #a = {}
+                                #a['start'] = len(entry[l]['fullentry'])
+                                #a['end'] = len(entry[l]['fullentry']
+                                #a['value'] = 'footnote'
+                                #a['type'] = 'dictinterpretation'
+                                #a['string'] = match.group(2)
+                                a_s = create_annotation(len_entry + 1, len(entry[l]['fullentry']), "footnote", "dictinterpretation", match.group(2))
+                                annotation[l].extend(a_s)
+                                
+                                if language == "TO":
+                                    if re.search("Giacone:", match.group(2)):
+                                        annotation["giacone"] = []
+                                        string = match.group(2)
+                                        match_heads = re.search(u"Giacone: ?(.+)$", string)
+                                        if match_heads:
+                                            start_head = match_heads.start(1)
+                                            for match_head in re.finditer(u"(?:[;,] ?|$)", string[match_heads.start(1):match_heads.end(1)]):
+                                                end_head = match_heads.start(1) + match_head.start(0)
+                                                #print string[start_head:end_head]
+                                                string_head = remove_parts_head_characters(string[start_head:end_head])
+                                                string_head = remove_parts_head_brackets(string_head)
+                                                #print string_head.encode("utf-8")
+                                                if not re.match(" +$", string_head):
+                                                    a = {
+                                                        'start' : start_head + len_entry + 1,
+                                                        'end' : end_head + len_entry + 1,
+                                                        'value' : "counterpart",
+                                                        'type' : "dictinterpretation",
+                                                        'string' : string_head
+                                                    }
+                                                    annotation["giacone"].append(a)
+                                                start_head = match_heads.start(1) + match_head.end(0)
+                                        
                             else:
                                 print "Error: Language %s not defined." % language.encode("utf-8")
                 else:
@@ -454,12 +544,13 @@ def main(argv):
                                 
                                 match_spanishloan = re.search(u"\(SP\??\)", match.group(2))
                                 if match_spanishloan:
-                                    a = {}
-                                    a['start'] = match_spanishloan.start(0)
-                                    a['end'] = match_spanishloan.end(0)
-                                    a['value'] = 'stratum'
-                                    a['type'] = 'dictinterpretation'
-                                    a['string'] = "Spanish loanword"
+                                    #a = {}
+                                    #a['start'] = match_spanishloan.start(0)
+                                    #a['end'] = match_spanishloan.end(0)
+                                    #a['value'] = 'stratum'
+                                    #a['type'] = 'dictinterpretation'
+                                    #a['string'] = "Spanish loanword"
+                                    a_s = create_annotation(match_spanishloan.start(0), match_spanishloan.end(0), "stratum", "dictinterpretation", "Spanish loanword")
                                     annotation[language].append(a)
                                 
                                 head_string = match.group(2)[strpos[0]:strpos[1]]
@@ -467,43 +558,42 @@ def main(argv):
                                 end = 0
                                 for match in re.finditer(u"(?:, ?|; | ~ |$)", head_string):
                                     end = match.start(0)
-                                    if page == 294 and pos_on_page == 46:
-                                        print head.encode("utf-8")
-                                    head = re.sub(u"\(?(?:\-|–|=|\.\.\.|\!|ˈ|\.|†)\)?", "", head_string[start:end])
-                                    if page == 294 and pos_on_page == 46:
-                                        print head.encode("utf-8")
+                                    head = remove_parts_head_characters(head_string[start:end])
                                     if head != "":
                                         match_bracket = re.search(u"\(([^)]+?)\) ?$", head)
                                         if match_bracket:
                                             head_base = head[:match_bracket.start(0)]
-                                            a = {}
-                                            a['start'] = strpos[0] + start
-                                            a['end'] = strpos[0] + end
-                                            a['value'] = 'counterpart'
-                                            a['type'] = 'dictinterpretation'
-                                            a['string'] = head_base
-                                            annotation[language].append(a)
+                                            #a = {}
+                                            #a['start'] = strpos[0] + start
+                                            #a['end'] = strpos[0] + end
+                                            #a['value'] = 'counterpart'
+                                            #a['type'] = 'dictinterpretation'
+                                            #a['string'] = head_base
+                                            a_s = create_annotation(strpos[0] + start, strpos[0] + end, "counterpart", "dictinterpretation", head_base)
+                                            annotation[language].extend(a_s)
                                             head = head_base + match_bracket.group(1)
                                             
                                         match_bracket = re.search(u"^\(([^)]+?)\)", head)
                                         if match_bracket:
                                             head_base = head[match_bracket.end(0):]
-                                            a = {}
-                                            a['start'] = strpos[0] + start
-                                            a['end'] = strpos[0] + end
-                                            a['value'] = 'counterpart'
-                                            a['type'] = 'dictinterpretation'
-                                            a['string'] = head_base
-                                            annotation[language].append(a)
+                                            #a = {}
+                                            #a['start'] = strpos[0] + start
+                                            #a['end'] = strpos[0] + end
+                                            #a['value'] = 'counterpart'
+                                            #a['type'] = 'dictinterpretation'
+                                            #a['string'] = head_base
+                                            a_s = create_annotation(strpos[0] + start, strpos[0] + end, "counterpart", "dictinterpretation", head_base)
+                                            annotation[language].extend(a_s)
                                             head = match_bracket.group(1) + head_base
 
-                                        a = {}
-                                        a['start'] = strpos[0] + start
-                                        a['end'] = strpos[0] + end
-                                        a['value'] = 'counterpart'
-                                        a['type'] = 'dictinterpretation'
-                                        a['string'] = head
-                                        annotation[language].append(a)
+                                        #a = {}
+                                        #a['start'] = strpos[0] + start
+                                        #a['end'] = strpos[0] + end
+                                        #a['value'] = 'counterpart'
+                                        #a['type'] = 'dictinterpretation'
+                                        #a['string'] = head
+                                        a_s = create_annotation(start, end, "counterpart", "dictinterpretation", head)
+                                        annotation[language].extend(a_s)
                                     start = match.end(0)
                     else:
                         print "no match: %s" % l.encode("utf-8")

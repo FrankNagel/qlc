@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "dáanta (SP)† + éema ‘caballo’ (‘horse’)",
+    "startpage" : 97,
+    "pos_on_page" : 25,
+    "language_bookname" : "achagua",
+    "concept" : "DANTA_TAPIR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dáanta ",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ éema ‘caballo’ (‘horse’)",
+                "start" : 13,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

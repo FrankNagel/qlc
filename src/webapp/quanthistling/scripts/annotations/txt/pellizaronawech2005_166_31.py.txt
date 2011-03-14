@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "▪ kuyampe = = hongo.",
+    "startpage" : 166,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuyampe",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hongo",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})

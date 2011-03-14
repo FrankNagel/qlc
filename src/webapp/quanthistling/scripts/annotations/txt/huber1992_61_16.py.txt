@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "sielu (SP), ẽẽ tsẽj† = ‘arriba azul’ (‘blue above’)",
+    "startpage" : 61,
+    "pos_on_page" : 16,
+    "language_bookname" : "páez",
+    "concept" : "CIELO_SKY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sielu ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ẽẽ tsẽj",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘arriba azul’ (‘blue above’)",
+                "start" : 23,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+    ]
+})

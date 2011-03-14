@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "páinkiamu, ni.na. (r,ram,ri) = cocinado/a (carne en agua); cocción (de la carne en agua. Is. aw-i). Namanke páinkiamu = carne cocinada (en agua). Namankén painkiámuri = la cocción de la carne (en agua).",
+    "startpage" : 331,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "páinkiamu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocinado",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocinada (carne en agua)",
+                "start" : 32,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocción (de la carne en agua)",
+                "start" : 60,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "aw-i",
+                "start" : 95,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namanke páinkiamu",
+                "start" : 102,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "carne cocinada (en agua)",
+                "start" : 123,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namankén painkiámuri",
+                "start" : 149,
+                "end" : 171
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la cocción de la carne (en agua)",
+                "start" : 174,
+                "end" : 207
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "páinkiamu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 12,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. aw-i).",
+                "start" : 91,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "po(ɾ)osã́i = ‘chucha, zorra’ (‘opossum’)",
+    "startpage" : 120,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "RATÓN_MOUSE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "poɾosã́i",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "poosã́i",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘chucha, zorra’ (‘opossum’)",
+                "start" : 11,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

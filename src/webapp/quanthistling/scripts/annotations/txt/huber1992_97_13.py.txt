@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "kahmbúɾu (SP)† ᵐburú ‘burro’",
+    "startpage" : 97,
+    "pos_on_page" : 13,
+    "language_bookname" : "chimila",
+    "concept" : "DANTA_TAPIR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kahmbúɾu ",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "ᵐburú ‘burro’",
+                "start" : 15,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

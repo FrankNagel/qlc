@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "Yunkuánkas, Yunkuapáis, na. (yunkua = sapán; s, nkas = entsa = agua de vertientes) = nombre de un río (= río del sapán). Ach. Yunganza.",
+    "startpage" : 214,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkuánkas",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkuapáis",
+                "start" : 13,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 26,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río del sapán",
+                "start" : 88,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yunkuánkas, Yunkuapáis",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (yunkua = sapán; s, nkas = entsa = agua de vertientes) =",
+                "start" : 26,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ach. Yunganza.",
+                "start" : 127,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})

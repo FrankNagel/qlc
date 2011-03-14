@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "sápu (SP), tilíli",
+    "startpage" : 126,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "SAPO_TOAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sápu ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tilíli",
+                "start" : 12,
+                "end" : 19
+            },
+    ]
+})

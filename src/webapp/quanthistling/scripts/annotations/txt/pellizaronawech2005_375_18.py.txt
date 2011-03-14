@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "Shakáim (Yumi), na.= nombre de varón (shaka = chaparrón; im' = yumi = lluvia). ⇨teofanía: manifestación de Arútam, Señor de la selva y del trabajo del hombre. Según la mitología, es Arútam Dios, que salió del río para crear la selva y dar al hombre la fuerza del trabajo. Sopló en las manos de los hombres y en las herramientas la fuerza del trabajo. Manifestándose como chaparrón, tiró desde el cielo las semillas de todos los árboles de la selva. Manifestándose como niño, con su palabra crea los platanales. Sus hipóstasis son los gusanos de la madera, los aguaceros y especialmente el hombre trabajador. Con la celebración del Nua-tsáanku (mujer tabaco), o Ichimiu (larva del camote), en preparación del matrimonio, el shuar recibe de él la fuerza para el trabajo y los ánent para el desmonte, la siembra, la construcción de la casa, de la canoa y para la cría de las gallinas, de los puercos y de los perros. En las celebraciones de la culebra y del ratón, él libera a los shuar de la picadura de los animales venenosos y de las alimañas de las huertas.",
+    "startpage" : 375,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shakáim",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yumi",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chaparrón",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lluvia",
+                "start" : 73,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Shakáim (Yumi)",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(shaka = chaparrón; im' = yumi = lluvia).",
+                "start" : 39,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nua-tsáanku",
+                "start" : 652,
+                "end" : 664
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Ichimiu",
+                "start" : 683,
+                "end" : 690
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ánent",
+                "start" : 798,
+                "end" : 804
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "culebra",
+                "start" : 968,
+                "end" : 975
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ratón,",
+                "start" : 982,
+                "end" : 989
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 306,
+                "end" : 306
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 307,
+                "end" : 307
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 627,
+                "end" : 627
+            },
+    ]
+})

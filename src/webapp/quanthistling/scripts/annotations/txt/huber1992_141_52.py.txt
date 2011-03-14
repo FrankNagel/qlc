@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈβereˈβere (?)",
+    "startpage" : 141,
+    "pos_on_page" : 52,
+    "language_bookname" : "carijona",
+    "concept" : "MOSCA_FLY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "βereβere",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

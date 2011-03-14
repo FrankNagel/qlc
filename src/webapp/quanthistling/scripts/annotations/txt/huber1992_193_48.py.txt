@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "kʰapithá (SP), ˈai",
+    "startpage" : 193,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "CACIQUE, CURACA, CAPITÁN_CHIEF",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰapithá ",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ai",
+                "start" : 16,
+                "end" : 19
+            },
+    ]
+})

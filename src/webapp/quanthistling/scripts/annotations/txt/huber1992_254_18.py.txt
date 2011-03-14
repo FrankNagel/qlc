@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈtsɨstɨ, tɕɨstɨ (?)",
+    "startpage" : 254,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "TODOS_ALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsɨstɨ",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɕɨstɨ",
+                "start" : 9,
+                "end" : 15
+            },
+    ]
+})

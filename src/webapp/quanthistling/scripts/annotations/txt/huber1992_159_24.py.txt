@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "sɨʔí̵ (sɨ-(a)ʔí̵)",
+    "startpage" : 159,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "SEMILLA_SEED",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨʔí̵",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨaʔí̵",
+                "start" : 7,
+                "end" : 19
+            },
+    ]
+})

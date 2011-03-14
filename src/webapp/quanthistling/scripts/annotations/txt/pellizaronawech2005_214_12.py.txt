@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "yunkíshr-uk, m.)para: utr-uk,utram-ka,ut-ka) = formarse el sarro, tener sarro. Nai yunkíshrukái = el diente tiene sarro.",
+    "startpage" : 214,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkíshruk",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "formarse el sarro",
+                "start" : 48,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener sarro",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nai yunkíshrukái",
+                "start" : 80,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el diente tiene sarro",
+                "start" : 101,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yunkíshr-uk",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m.)para: utr-uk,utram-ka,ut-ka)",
+                "start" : 14,
+                "end" : 45
+            },
+    ]
+})

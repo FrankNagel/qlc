@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "plad (SP), tlu",
+    "startpage" : 174,
+    "pos_on_page" : 16,
+    "language_bookname" : "páez",
+    "concept" : "PLÁTANO_PLANTAIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "plad ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tlu",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

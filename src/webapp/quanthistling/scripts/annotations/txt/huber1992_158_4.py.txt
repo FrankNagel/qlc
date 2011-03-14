@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "(ne-)kʰára",
+    "startpage" : 158,
+    "pos_on_page" : 4,
+    "language_bookname" : "catío",
+    "concept" : "RAÍZ_ROOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nekʰára",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰára",
+                "start" : 5,
+                "end" : 11
+            },
+    ]
+})

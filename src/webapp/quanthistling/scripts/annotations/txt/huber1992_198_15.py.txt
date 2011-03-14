@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ʔi (?)",
+    "startpage" : 198,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "ELLO_IT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔi",
+                "start" : 0,
+                "end" : 2
+            },
+    ]
+})

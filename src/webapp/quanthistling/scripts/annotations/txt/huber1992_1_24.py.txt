@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "wajée (wa-(a)jee)",
+    "startpage" : 1,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "LENGUA_TONGUE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wajée",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wajee",
+                "start" : 7,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "waajee",
+                "start" : 7,
+                "end" : 18
+            },
+    ]
+})

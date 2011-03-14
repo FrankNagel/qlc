@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ne(n) kwal",
+    "startpage" : 204,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "SU MANO_HIS HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ne kwal",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nen kwal",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

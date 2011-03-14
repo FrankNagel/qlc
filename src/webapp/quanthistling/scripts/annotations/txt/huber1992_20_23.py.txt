@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ɲúdu (SP), xwakími",
+    "startpage" : 20,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "BRAZO SUPERIOR_UPPER ARM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɲúdu ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xwakími",
+                "start" : 12,
+                "end" : 20
+            },
+    ]
+})

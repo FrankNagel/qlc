@@ -50,6 +50,13 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
+                'language_name' : u'',
+                'language_bookname' : u'giacone',
+		'component' : ''
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 367,
                 'language_name' : u'Barí',
                 'language_bookname' : u'barí',
 		'component' : ''

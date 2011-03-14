@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "jáame (SP), wáɨ† = ‘tubéreulo comestible’ (‘edible tuber’)",
+    "startpage" : 168,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "ÑAME_YAM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jáame ",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wáɨ",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘tubéreulo comestible’ (‘edible tuber’)",
+                "start" : 18,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+    ]
+})

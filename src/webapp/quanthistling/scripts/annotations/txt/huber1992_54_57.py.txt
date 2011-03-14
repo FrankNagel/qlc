@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ʧor (SP)† ‘ehorro’ (‘spout’)",
+    "startpage" : 54,
+    "pos_on_page" : 57,
+    "language_bookname" : "jitnu",
+    "concept" : "CAÍDA DE AGUA_WATERFALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧor ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘chorro’ (‘spout’)",
+                "start" : 10,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "‘chorro’ (‘spout’)",
+                "start" : 10,
+                "end" : 28
+            },
+    ]
+})

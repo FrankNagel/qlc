@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈbú(u)ro",
+    "startpage" : 151,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "CERRO, LOMA_HILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "búro",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "búuro",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

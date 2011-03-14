@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "baa pʰu(ɾ)ewá",
+    "startpage" : 70,
+    "pos_on_page" : 4,
+    "language_bookname" : "catío",
+    "concept" : "RELÁMPAGO_LIGHTNING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baa pʰuɾewá",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baa pʰuewá",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

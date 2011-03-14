@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "mucho(s)",
+    "startpage" : 255,
+    "pos_on_page" : 1,
+    "language_bookname" : "Español",
+    "concept" : "MUCHO(S)_MANY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mucho",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "muchos",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

@@ -126,9 +126,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "+ ewekam-sa, um. = hacer andar, hacer pa-sear.",
+    "fullentry" : "+ ewekam-sa, um. = hacer andar, hacer pasear.",
     "startpage" : 170,
-    "pos_on_page" : 35,
+    "pos_on_page" : 34,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -156,7 +156,7 @@ manual_entries.append({
                 "value" : "translation",
                 "string" : "hacer pasear",
                 "start" : 32,
-                "end" : 45
+                "end" : 44
             },
             {
                 "type" : "formatting",
@@ -164,13 +164,6 @@ manual_entries.append({
                 "string" : "um.",
                 "start" : 13,
                 "end" : 16
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "hacer pasear",
-                "start" : 32,
-                "end" : 45
             },
     ]
 })
@@ -477,6 +470,78 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "▪ kuyampe = = hongo.",
+    "startpage" : 166,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuyampe",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hongo",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Susán (Susanit), na. ach. = nombre de mujer (=.Susana).",
+    "startpage" : 373,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "susán",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "susanit",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ach.",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Susana",
+                "start" : 48,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Susán (Susanit)",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ach.",
+                "start" : 18,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "eweká-s (aweká-s), u. (a: t-sa,tma-s,-) = ha-cer andar, hacer pasear.",
     "startpage" : 170,
     "pos_on_page" : 34,
@@ -751,6 +816,49 @@ manual_entries.append({
                 "string" : "poseer",
                 "start" : 23,
                 "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ kaí (r,m,-i) = hermana (término usado entre mujeres).",
+    "startpage" : 208,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kaí",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "r,m,-i",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermana (término usado entre mujeres)",
+                "start" : 18,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "í",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(r,m,-i)",
+                "start" : 7,
+                "end" : 15
             },
     ]
 })
@@ -1037,6 +1145,77 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Yunkuánkas, Yunkuapáis, na. (yunkua = sapán; s, nkas = entsa = agua de vertientes) = nombre de un río (= río del sapán). Ach. Yunganza.",
+    "startpage" : 214,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkuánkas",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkuapáis",
+                "start" : 13,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 26,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río del sapán",
+                "start" : 88,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yunkuánkas, Yunkuapáis",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (yunkua = sapán; s, nkas = entsa = agua de vertientes) =",
+                "start" : 26,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ach. Yunganza.",
+                "start" : 127,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* aniá-s, u. = llevar de compañero.",
     "startpage" : 136,
     "pos_on_page" : 16,
@@ -1190,6 +1369,304 @@ manual_entries.append({
                 "string" : "u.",
                 "start" : 12,
                 "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "yunkíshr-uk, m.)para: utr-uk,utram-ka,ut-ka) = formarse el sarro, tener sarro. Nai yunkíshrukái = el diente tiene sarro.",
+    "startpage" : 214,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkíshruk",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "formarse el sarro",
+                "start" : 48,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener sarro",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nai yunkíshrukái",
+                "start" : 80,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el diente tiene sarro",
+                "start" : 101,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yunkíshr-uk",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m.)para: utr-uk,utram-ka,ut-ka)",
+                "start" : 14,
+                "end" : 45
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ umá (r,im,i) = hermano, hermana (término usado entre personas de diferente sexo).",
+    "startpage" : 208,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umá",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "r,im,i",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermano",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermana (término usado entre personas de diferente sexo)",
+                "start" : 27,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(r,im,i)",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* anám-ka, u. = emborrachar (nampe-k, m. = emborra- charse).",
+    "startpage" : 133,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anámka",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emborrachar",
+                "start" : 17,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nampek",
+                "start" : 30,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 39,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emborracharse",
+                "start" : 44,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m.",
+                "start" : 39,
+                "end" : 41
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "páinkiamu, ni.na. (r,ram,ri) = cocinado/a (carne en agua); cocción (de la carne en agua. Is. aw-i). Namanke páinkiamu = carne cocinada (en agua). Namankén painkiámuri = la cocción de la carne (en agua).",
+    "startpage" : 331,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "páinkiamu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocinado",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocinada (carne en agua)",
+                "start" : 32,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cocción (de la carne en agua)",
+                "start" : 60,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "aw-i",
+                "start" : 95,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namanke páinkiamu",
+                "start" : 102,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "carne cocinada (en agua)",
+                "start" : 123,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namankén painkiámuri",
+                "start" : 149,
+                "end" : 171
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la cocción de la carne (en agua)",
+                "start" : 174,
+                "end" : 207
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "páinkiamu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 12,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. aw-i).",
+                "start" : 91,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
             },
     ]
 })
@@ -1977,6 +2454,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "taku, na. /r,ram,ri) = bodoque (hecho con la esponja de una calabaza, para cargar la escopeta y para disparar con la pequeña bodoquera de aire comprimido takétak. ⇨ taco de dinamita; Taku ajúntkatárum = tirad al agua el taco de dinamita. ⇨ calabaza (amarilla, la parte interior esponjosa). Is shiyumi.",
+    "startpage" : 428,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bodoque",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "taco de dinamita",
+                "start" : 167,
+                "end" : 183
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Taku ajúntkatárum",
+                "start" : 185,
+                "end" : 204
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tirad al agua el taco de dinamita",
+                "start" : 207,
+                "end" : 240
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calabaza (amarilla, la parte interior esponjosa)",
+                "start" : 244,
+                "end" : 292
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "shiyumi",
+                "start" : 297,
+                "end" : 304
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "taku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. /r,ram,ri)",
+                "start" : 6,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is shiyumi.",
+                "start" : 294,
+                "end" : 305
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* etsám-ra, atsám-ra, u. = sembrar al voleo.",
     "startpage" : 167,
     "pos_on_page" : 17,
@@ -2109,6 +2671,126 @@ manual_entries.append({
                 "string" : "tajar",
                 "start" : 16,
                 "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Shakáim (Yumi), na.= nombre de varón (shaka = chaparrón; im' = yumi = lluvia). ⇨teofanía: manifestación de Arútam, Señor de la selva y del trabajo del hombre. Según la mitología, es Arútam Dios, que salió del río para crear la selva y dar al hombre la fuerza del trabajo. Sopló en las manos de los hombres y en las herramientas la fuerza del trabajo. Manifestándose como chaparrón, tiró desde el cielo las semillas de todos los árboles de la selva. Manifestándose como niño, con su palabra crea los platanales. Sus hipóstasis son los gusanos de la madera, los aguaceros y especialmente el hombre trabajador. Con la celebración del Nua-tsáanku (mujer tabaco), o Ichimiu (larva del camote), en preparación del matrimonio, el shuar recibe de él la fuerza para el trabajo y los ánent para el desmonte, la siembra, la construcción de la casa, de la canoa y para la cría de las gallinas, de los puercos y de los perros. En las celebraciones de la culebra y del ratón, él libera a los shuar de la picadura de los animales venenosos y de las alimañas de las huertas.",
+    "startpage" : 375,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shakáim",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yumi",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chaparrón",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lluvia",
+                "start" : 73,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Shakáim (Yumi)",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(shaka = chaparrón; im' = yumi = lluvia).",
+                "start" : 39,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nua-tsáanku",
+                "start" : 652,
+                "end" : 664
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Ichimiu",
+                "start" : 683,
+                "end" : 690
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ánent",
+                "start" : 798,
+                "end" : 804
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "culebra",
+                "start" : 968,
+                "end" : 975
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ratón,",
+                "start" : 982,
+                "end" : 989
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 306,
+                "end" : 306
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 307,
+                "end" : 307
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 627,
+                "end" : 627
             },
     ]
 })
@@ -2366,6 +3048,42 @@ manual_entries.append({
                 "string" : "lo acabó tragándolo ávidamente",
                 "start" : 69,
                 "end" : 102
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ iwiásh-ka, (a: t-uk,tam-ka,-) = negrear.",
+    "startpage" : 199,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iwiáshka",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "a",
+                "start" : 15,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "negrear",
+                "start" : 35,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(a: t-uk,tam-ka,-)",
+                "start" : 14,
+                "end" : 32
             },
     ]
 })

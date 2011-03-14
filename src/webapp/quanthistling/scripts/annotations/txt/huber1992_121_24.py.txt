@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "sɨsí (sɨ-(a)si)† = ‘su-cola’ (‘its-tail’)",
+    "startpage" : 121,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "COLA_TAIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨsí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨsi",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨasi",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘su-cola’ (‘its-tail’)",
+                "start" : 17,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+    ]
+})

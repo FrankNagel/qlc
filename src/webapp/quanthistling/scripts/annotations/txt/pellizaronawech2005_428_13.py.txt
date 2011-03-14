@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "taku, na. /r,ram,ri) = bodoque (hecho con la esponja de una calabaza, para cargar la escopeta y para disparar con la pequeña bodoquera de aire comprimido takétak. ⇨ taco de dinamita; Taku ajúntkatárum = tirad al agua el taco de dinamita. ⇨ calabaza (amarilla, la parte interior esponjosa). Is shiyumi.",
+    "startpage" : 428,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bodoque",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "taco de dinamita",
+                "start" : 167,
+                "end" : 183
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Taku ajúntkatárum",
+                "start" : 185,
+                "end" : 204
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tirad al agua el taco de dinamita",
+                "start" : 207,
+                "end" : 240
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calabaza (amarilla, la parte interior esponjosa)",
+                "start" : 244,
+                "end" : 292
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "shiyumi",
+                "start" : 297,
+                "end" : 304
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "taku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. /r,ram,ri)",
+                "start" : 6,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is shiyumi.",
+                "start" : 294,
+                "end" : 305
+            },
+    ]
+})

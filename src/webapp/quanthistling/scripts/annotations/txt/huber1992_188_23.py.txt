@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "búmba (SP),tambúr",
+    "startpage" : 188,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "TAMBOR_DRUM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "búmba ",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tambúr",
+                "start" : 12,
+                "end" : 19
+            },
+    ]
+})

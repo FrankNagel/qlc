@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ɕoˈkapesatan (?)",
+    "startpage" : 329,
+    "pos_on_page" : 18,
+    "language_bookname" : "totoró",
+    "concept" : "PESADO_HEAVY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɕokapesatan",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "náɯ.(ɯ)o",
+    "startpage" : 68,
+    "pos_on_page" : 65,
+    "language_bookname" : "witoto mɨnɨca",
+    "concept" : "NOCHE_NIGHT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "náɯɯo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "náɯo",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "rásu (SP)† Véase (See) 19",
+    "startpage" : 18,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "HOMBRO_SHOULDER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "rásu ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 19",
+                "start" : 11,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

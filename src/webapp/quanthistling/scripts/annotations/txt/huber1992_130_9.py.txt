@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "paliton (SP) –",
+    "startpage" : 130,
+    "pos_on_page" : 9,
+    "language_bookname" : "wounaan",
+    "concept" : "TUCÁN, PINSHA_TOUCAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "paliton ",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 8,
+                "end" : 12
+            },
+    ]
+})

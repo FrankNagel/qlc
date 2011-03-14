@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "óˈkó (h)ope",
+    "startpage" : 53,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "FUENTE, OJO DE AGUA_SPRING OF WATER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ókó hope",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "óˈkó ope",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

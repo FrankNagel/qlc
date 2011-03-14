@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "kurasún (SP)† + súngu, = ‘hígado’ (‘liver’)",
+    "startpage" : 34,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "CORAZÓN_HEART",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kurasún ",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ súngu, = ‘hígado’ (‘liver’)",
+                "start" : 14,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})
