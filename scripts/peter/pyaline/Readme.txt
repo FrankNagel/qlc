@@ -3,10 +3,11 @@ INTRODUCTION
 The PyAline script expects the data to be in a CSV table format. Each language
 has a row in this table. The first column is the language name, than several
 columns of unknown content, then the 100 strings for the concepts in this
-language. The comparison script supports two kinds of (phonetic) notations, one
-is ALINE notation format, the other is the ASJP format. The default is the
+language (if there are two strings for a concept they are separated by a pipe
+symbol "|"). The comparison script supports two kinds of (phonetic) notations,
+one is ALINE notation format, the other is the ASJP format. The default is the
 ALINE format, if you use ASJP you have to give a parameter "-a". The other
-paramter is the CSV file "-f filename.csv".
+paramter is the CSV file, i.e. "-f filename.csv".
 
 Right now there are three scripts to handle the data from the ASJP project:
 
@@ -21,7 +22,7 @@ EXTRACTING THE DATA
 To extract the data from the file "listss13.txt" there is a Perl script that
 writes a csv table, one row for each language. The first three columns are
 reserved for the language and family names (there are two kinds of family
-notation in the ASKP file). The phonetic strings start from column 4. To extract
+notation in the ASJP file). The phonetic strings start from column 4. To extract
 the data to a file "salish.csv", just call the script like this:
 
 $ perl generate_pyaline_format.pl listss13.txt > salish.csv
@@ -31,7 +32,7 @@ the script to geht other families or to extract all data.
 
 PYALINE AND DISTANCE MATRIX
 ---------------------------
-To write a distance matrix to the file "salish_matrix call the script
+To write a distance matrix to the file "salish_matrix.xt" call the script
 "compare_languages.py" like this:
 
 python compare_languages.py -a -f salish.csv > salish_matrix.txt

@@ -18,6 +18,9 @@ foreach $line(<>) {
     #print $line;
     if ($line =~ /^[A-Z]/) {
         if ($line =~ /(^[^{]+)\{([^|]+)\|([^}]+)\}/) {
+            $lang_new = $1;
+            $fam1_new = $2;
+            $fam2_new = $3;
             if ($fam1 =~ /Sal\./) {
                 #print STDERR $lang."\n";
                 print "$lang\t$fam1\t$fam2";
@@ -31,9 +34,9 @@ foreach $line(<>) {
                 #    $files{$fam1} = $text;
                 #}
             }
-            $lang = $1;
-            $fam1 = $2;
-            $fam2 = $3;
+            $lang = $lang_new;
+            $fam1 = $fam1_new;
+            $fam2 = $fam2_new;
             @concepts = (('') x 100);
         }
     }
