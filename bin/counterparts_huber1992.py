@@ -79,7 +79,7 @@ families = {
     u'inga': 'QUECHUA',
     u'English': 'GERMANIC',
     u'Español': 'ROMANIC',
-
+	u'giacone': 'ARAWAK'
 }
 
 def main(argv):
