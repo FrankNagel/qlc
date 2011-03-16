@@ -172,9 +172,11 @@ def remove_parts_head_characters(str):
     return h
 
 def remove_parts_head_brackets(str):
-    h = re.sub(u" ?\([^)]+\) ?", "", str)
-    h = re.sub(u" ?‘[^’]+’ ?", "", h)
+    h = str
+    while re.search(u" ?(?:\([^)]+\)|‘[^’]+’) ?$", h):
+        h = re.sub(u" ?(?:\([^)]+\)|‘[^’]+’) ?$", "", h)
     h = re.sub(u" ?=.*$", "", h)
+    h = re.sub("[()]", "", h)
     h = re.sub(" +", " ", h)
     return h
 
@@ -204,15 +206,25 @@ def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
         #print entry_db.fullentry.encode("utf-8")
         
         if lang in annotation:
+            inserted = []
             for a in annotation[lang]:
-                entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
+                if a['string'] not in inserted:
+                    entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
+                    inserted.append(a['string'])
+                
         
         Session.add(entry_db)
         Session.commit()
 
 def create_annotation(start, end, value, type, string):
-    string = re.sub("^ +", "", string)
-    string = re.sub(" +$", "", string)
+    match_spaces = re.match(" +", string)
+    if match_spaces:
+        start = start + len(match_spaces.group(0))
+        string = re.sub("^ +", "", string)
+    match_spaces = re.search(" +$", string)
+    if match_spaces:
+        end = end - len(match_spaces.group(0))
+        string = re.sub(" +$", "", string)
     
     if len(string) == 0:
         return []
@@ -236,15 +248,16 @@ def create_annotation(start, end, value, type, string):
             end_head = match_heads.start(1) + match_head.start(0)
             string_head = remove_parts_head_characters(string[start_head:end_head])
             string_head = remove_parts_head_brackets(string_head)
-            a = {
-                'start' : start_head,
-                'end' : end_head,
-                'value' : "counterpart",
-                'type' : "dictinterpretation",
-                'string' : string_head
-            }
-            annotations.append(a)
-            string_start = match_heads.start(1) + match_head.end(0)
+            if not re.match("Giacone:", string_head):
+                a = {
+                    'start' : start + start_head,
+                    'end' : start + end_head,
+                    'value' : "counterpart",
+                    'type' : "dictinterpretation",
+                    'string' : string_head
+                }
+                annotations.append(a)
+            start_head = match_heads.start(1) + match_head.end(0)
     
     #print annotations
     return annotations
@@ -287,13 +300,26 @@ def correct_line(l):
     ret = re.sub(u"<p><b>BR,BS,CP,TC,TY,JR</b>", u"<p><b>BR,BS,CP,TC,TY,YR</b>", ret)
     ret = re.sub(u"<p><b>CI ba-pó-n†</b>", u"<p><b>CI</b> ba-pó-n†", ret)
     ret = re.sub(u"<p><b>CI ba-pó-n†</b>", u"<p><b>CI</b> ba-pó-n†", ret)
+
+    ret = re.sub(u"<p><b>CH</b> lᴶunu</p>", u"<p><b>CH</b> lʲunu</p>", ret)
+    ret = re.sub(u"<p><b>CH</b> tᴶaiju</p>", u"<p><b>CH</b> tʲaiju</p>", ret)
+
+    ret = re.sub(u"<p><b>PU</b> bigᴶik</p>", u"<p><b>PU</b> bigɺik</p>", ret)
+    ret = re.sub(u"<p><b>PU</b> mo hĩ̵mka huᴶe</p>", u"<p><b>PU</b> mo hĩ̵mka huɺe</p>", ret)
+    ret = re.sub(u"<p><b>PU</b> ha moᴶuk tɨjot</p>", u"<p><b>PU</b> ha moɺuk tɨjot</p>", ret)
+
+    ret = re.sub(u"<p><b>WA</b> ˈtúu pua\(-\), há’dé\(-\)</p>", u"<p><b>WA</b> ˈtúu pua(-), háˈdé(-)</p>", ret)
+
     ret = re.sub(u"</?i>", "", ret)
     ret = re.sub(u"ι", u"ɩ", ret)
     ret = re.sub(u"⍳", u"ɩ", ret)
     ret = re.sub(u"ı", u"ɩ", ret)
     ret = re.sub(u"ᴵ", u"¹", ret)
     ret = re.sub(u"̅", u"̄", ret)
-    ret = re.sub(u"təηkuá", u"təŋkuá", ret)
+    ret = re.sub(u"ß", u"β", ret)
+    ret = re.sub(u"βɯ́́́́́́́ɯ́́́́́́́ríʔií", u"βɯ́ɯ́ríʔií", ret)
+    ret = re.sub(u"βɯ́́́́́́́ɯ́́́́́́́ríʔií", u"βɯ́ɯ́ríʔií", ret)
+    ret = re.sub(u"Giaeone", u"Giacone", ret)
     ret = re.sub(u"tɨmɉ-kɨna", u"tɨmɨ-kɨna", ret)
     ret = re.sub(u"áikkalawa~a", u"áikkalawa-a", ret)
     ret = re.sub(u"ẽse~ʔh", u"ẽse-ʔh", ret)
@@ -551,7 +577,7 @@ def main(argv):
                                     #a['type'] = 'dictinterpretation'
                                     #a['string'] = "Spanish loanword"
                                     a_s = create_annotation(match_spanishloan.start(0), match_spanishloan.end(0), "stratum", "dictinterpretation", "Spanish loanword")
-                                    annotation[language].append(a)
+                                    annotation[language].extend(a_s)
                                 
                                 head_string = match.group(2)[strpos[0]:strpos[1]]
                                 start = 0

@@ -128,7 +128,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "+ ewekam-sa, um. = hacer andar, hacer pasear.",
     "startpage" : 170,
-    "pos_on_page" : 34,
+    "pos_on_page" : 35,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

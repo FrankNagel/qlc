@@ -364,6 +364,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "iɾakˣáɾa",
+    "startpage" : 12,
+    "pos_on_page" : 5,
+    "language_bookname" : "embera chamí",
+    "concept" : "BARBA_BEARD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iɾakˣáɾa",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "dzo?kã, dzoʔaa",
     "startpage" : 295,
     "pos_on_page" : 67,
@@ -1313,30 +1330,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "&lt;i&gt;ᵐ&lt;/i&gt;bríi",
-    "startpage" : 254,
-    "pos_on_page" : 13,
-    "language_bookname" : "chimila",
-    "concept" : "TODOS_ALL",
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "counterpart",
-                "string" : "ᵐbríi",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ᵐ",
-                "start" : 0,
-                "end" : 1
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "ĩ̵bĩ̵ tĩ̵tɨ ‘high clilf’",
     "startpage" : 151,
     "pos_on_page" : 51,
@@ -1951,14 +1944,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "póʔta-me",
+                "string" : "póʔtame",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "póʔta-mo",
+                "string" : "póʔtamo",
                 "start" : 10,
                 "end" : 19
             },

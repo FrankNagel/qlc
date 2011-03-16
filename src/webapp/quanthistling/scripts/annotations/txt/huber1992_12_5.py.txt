@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "iɾakˣáɾa",
+    "startpage" : 12,
+    "pos_on_page" : 5,
+    "language_bookname" : "embera chamí",
+    "concept" : "BARBA_BEARD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iɾakˣáɾa",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

@@ -9,14 +9,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "póʔta-me",
+                "string" : "póʔtame",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "póʔta-mo",
+                "string" : "póʔtamo",
                 "start" : 10,
                 "end" : 19
             },
