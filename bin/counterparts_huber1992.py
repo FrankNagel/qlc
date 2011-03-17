@@ -40,6 +40,7 @@ families = {
     u'piapoco': 'ARAWAK',
     u'yucuna': 'ARAWAK',
     u'tariano': 'ARAWAK',
+    u'giacone': 'ARAWAK',
     u'cabiyarí': 'ARAWAK',
     u'baniva': 'ARAWAK',
     u'resígaro': 'ARAWAK',        
@@ -79,7 +80,7 @@ families = {
     u'inga': 'QUECHUA',
     u'English': 'GERMANIC',
     u'Español': 'ROMANIC',
-	u'giacone': 'ARAWAK'
+    u'giacone': 'ARAWAK'
 }
 
 def main(argv):
