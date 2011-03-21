@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ʔuníwah† Giacone: uúni han-núpoa, = ‘río grande’ (‘big river’)",
+    "startpage" : 49,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "RÍO_RIVER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uúni hannúpoa",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘río grande’ (‘big river’)",
+                "start" : 39,
+                "end" : 66
+            },
+    ]
+})

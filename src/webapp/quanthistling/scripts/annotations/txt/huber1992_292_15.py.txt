@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "buˈɾuninə",
+    "startpage" : 292,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "SECO_DRY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "buɾuninə",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ɾ",
+                "start" : 3,
+                "end" : 4
+            },
+    ]
+})

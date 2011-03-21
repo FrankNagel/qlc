@@ -43,8 +43,8 @@ def find_head_end(entry, valid_pos_arr):
 
 
 def find_pos(entry, valid_pos_arr):
-    start = -1
-    end = -1
+    starts = []
+    ends = []
     for match_bracket in re.finditer(u"\(([^)]*)\)", entry.fullentry):
         pos = match_bracket.group(0)
         #print pos.encode("utf-8")
@@ -56,8 +56,9 @@ def find_pos(entry, valid_pos_arr):
                 #print "match"
                 start = match_bracket.start(1)
                 end = match_bracket.end(1)
-                return (start, end)
-    return (start, end)
+                starts.append(start)
+                ends.append(end)
+    return (starts, ends)
 
 def annotate_crossrefs(entry):
     # delete crossref annotations
@@ -156,16 +157,20 @@ def annotate_pos(entry, valid_pos_arr):
     for a in pos_annotations:
         Session.delete(a)
 
-    (pos_start, pos_end) = find_pos(entry, valid_pos_arr)
-    if pos_start > -1:
-        substr = entry.fullentry[pos_start:pos_end]
-        start = pos_start
-        for match_comma in re.finditer(r', ?', substr):
-            end = match_comma.start(0) + pos_start
+    (pos_starts, pos_ends) = find_pos(entry, valid_pos_arr)
+    if len(pos_starts) > 0:
+        i = 0
+        for pos_start in pos_starts:
+            pos_end = pos_ends[i]
+            substr = entry.fullentry[pos_start:pos_end]
+            start = pos_start
+            for match_comma in re.finditer(r', ?', substr):
+                end = match_comma.start(0) + pos_start
+                entry.append_annotation(start, end, u'pos', u'dictinterpretation')
+                start = match_comma.end(0) + pos_start
+            end = pos_end
             entry.append_annotation(start, end, u'pos', u'dictinterpretation')
-            start = match_comma.end(0) + pos_start
-        end = pos_end
-        entry.append_annotation(start, end, u'pos', u'dictinterpretation')
+            i = i + 1
 
 def annotate_translations_and_examples(entry):
     # delete translation annotations

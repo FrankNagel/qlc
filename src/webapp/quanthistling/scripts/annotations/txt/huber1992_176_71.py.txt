@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: tsídoa (Véase (See) &lt;b&gt;PP&lt;/b&gt; wa-sìdùa-ka ‘chupamos’ (‘we-suck’))",
+    "startpage" : 176,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "CAÑA BRAVA_CANE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsídoa",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) PP wa-sìdùa-ka ‘chupamos’ (‘we-suck’)",
+                "start" : 20,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "PP",
+                "start" : 34,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: ua-uika ‘sobre-nosotros’ (‘over-us’); Véase (See) PP 370",
+    "startpage" : 362,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "ARRIBA_UP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uauika",
+                "start" : 12,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) PP 370",
+                "start" : 50,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

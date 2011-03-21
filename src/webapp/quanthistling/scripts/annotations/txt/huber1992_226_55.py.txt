@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "mahí-re† + mahitá-ruka-re: ‘duerme colgado (en hamaca)’ (‘sleep hanging (in a hammock)’)",
+    "startpage" : 226,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "DUERME_SLEEP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mahíre",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ mahitá-ruka-re: ‘duerme colgado (en hamaca)’ (‘sleep hanging (in a hammock)’)",
+                "start" : 10,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : " mahitárukare",
+                "start" : 11,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

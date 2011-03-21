@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "... maʧap’élipénha† = ‘(la fruta) está dañada’ (‘(the fruit) is rotten’); Giacone: kápakali",
+    "startpage" : 333,
+    "pos_on_page" : 71,
+    "language_bookname" : "tariano",
+    "concept" : "PODRIDO_ROTTEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maʧapélipénha",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘(la fruta) está dañada’ (‘(the fruit) is rotten’); Giacone: kápakali",
+                "start" : 22,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

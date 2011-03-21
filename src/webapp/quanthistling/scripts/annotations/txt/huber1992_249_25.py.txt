@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "lée† espec.: (masc.), + ʒúani (fem.), + li-áni",
+    "startpage" : 249,
+    "pos_on_page" : 25,
+    "language_bookname" : "achagua",
+    "concept" : "ESTE_THIS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lée",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: (masc.), + ʒúani (fem.), + li-áni",
+                "start" : 6,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʒúani",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "liáni",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+    ]
+})

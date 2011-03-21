@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "hoʔdi† anim., + hoʔde ‘cosa plana’ (‘flat thing’), hoʔʤe ‘casabe, plato, torta’ (‘round food’), hoʔte ‘trozo’ (‘piece’)",
+    "startpage" : 299,
+    "pos_on_page" : 59,
+    "language_bookname" : "sáliba",
+    "concept" : "OTRO_OTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hoʔdi",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "anim., + hoʔde ‘cosa plana’ (‘flat thing’), hoʔʤe ‘casabe, plato, torta’ (‘round food’), hoʔte ‘trozo’ (‘piece’)",
+                "start" : 7,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hoʔde",
+                "start" : 16,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hoʔʤe",
+                "start" : 51,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hoʔte",
+                "start" : 96,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "mísi-boto† cspec.: ‘chuapo’, + hipíri-boto, ‘chontaduro, pupuña’",
+    "startpage" : 175,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "CHONTA_CHONTA PALM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mísiboto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "cspec.: ‘chuapo’, + hipíri-boto, ‘chontaduro, pupuña’",
+                "start" : 12,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hipíriboto",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

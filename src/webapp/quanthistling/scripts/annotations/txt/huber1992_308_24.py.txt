@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "s-ói† + sɨmí̵lira ‘su pelo corporal’ (‘its-body hair, fur’), k-ói-sɨ ‘es peludo’ (‘it is furry’); Véase (See) 270",
+    "startpage" : 308,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "PIEL PELUDA_FUR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sói",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ sɨmí̵lira ‘su pelo corporal’ (‘its-body hair, fur’), k-ói-sɨ ‘es peludo’ (‘it is furry’); Véase (See) 270",
+                "start" : 7,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨmí̵lira",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kóisɨ",
+                "start" : 63,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

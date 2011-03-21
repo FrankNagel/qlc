@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "k-atí̵na-a† = ‘tener brazos’ (‘to have arms’); + aʃúunaha-a ‘bañarse o sumergirse en mucha agua’ (‘to bathe, dunk in large body of water’)",
+    "startpage" : 275,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "NADAR_SWIM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "katí̵naa",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘tener brazos’ (‘to have arms’); + aʃúunaha-a ‘bañarse o sumergirse en mucha agua’ (‘to bathe, dunk in large body of water’)",
+                "start" : 13,
+                "end" : 141
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aʃúunahaa",
+                "start" : 50,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

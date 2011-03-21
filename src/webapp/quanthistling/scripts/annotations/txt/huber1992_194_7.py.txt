@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
+    "startpage" : 194,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "YO_I",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɨ",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ‘yo, mi’ (‘I, me, my’)",
+                "start" : 2,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

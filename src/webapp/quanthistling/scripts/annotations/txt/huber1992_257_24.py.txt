@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "sitá (wunúʔu)† + stá (sɨ-(a)tá) ‘su-piel (árbol)’ (‘its-skin (tree)’)",
+    "startpage" : 257,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "CORTEZA_BARK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sitá",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sitá wunúʔu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ stá (sɨ-(a)tá) ‘su-piel (árbol)’ (‘its-skin (tree)’)",
+                "start" : 17,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "stá",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "stá sɨtá",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "stá sɨatá",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

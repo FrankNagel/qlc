@@ -79,26 +79,38 @@ def annotate_pos(entry):
     for a in pos_annotations:
         Session.delete(a)
     
-    pos_start = functions.get_head_end(entry)
-    match_number = re.match(" ?\d ?", entry.fullentry[pos_start:])
-    if match_number:
-        pos_start = pos_start + len(match_number.group(0))
-    match_dot = re.search(u"\.(?= )", entry.fullentry[pos_start:])
-    if match_dot:
-        pos_end = pos_start + match_dot.end(0)
+    head_end = functions.get_head_end(entry)
+    if re.match(" ?\d ?", entry.fullentry[head_end:]):
+        for match_number in re.finditer(" ?\d ?", entry.fullentry[head_end:]):
+            pos_start = head_end + match_number.end(0)
+            match_dot = re.search(u"\.(?= )", entry.fullentry[pos_start:])
+            if match_dot:
+                pos_end = pos_start + match_dot.end(0)
+        
+                match_spaces = re.match(u" +", entry.fullentry[pos_start:pos_end])
+                if match_spaces:
+                    pos_start = pos_start + len(match_spaces.group(0))
+                
+                match_spaces = re.search(u" +$", entry.fullentry[pos_start:pos_end])
+                if match_spaces:
+                    pos_end = pos_end - len(match_spaces.group(0))
+            
+                entry.append_annotation(pos_start, pos_end, u'pos', u'dictinterpretation')
     else:
-        print "no pos found in entry: " + entry.fullentry.encode("utf-8")
-        return
+        pos_start = head_end
+        match_dot = re.search(u"\.(?= )", entry.fullentry[pos_start:])
+        if match_dot:
+            pos_end = pos_start + match_dot.end(0)
     
-    match_spaces = re.match(u" +", entry.fullentry[pos_start:pos_end])
-    if match_spaces:
-        pos_start = pos_start + len(match_spaces.group(0))
-    
-    match_spaces = re.search(u" +$", entry.fullentry[pos_start:pos_end])
-    if match_spaces:
-        pos_end = pos_end - len(match_spaces.group(0))
-
-    entry.append_annotation(pos_start, pos_end, u'pos', u'dictinterpretation')
+            match_spaces = re.match(u" +", entry.fullentry[pos_start:pos_end])
+            if match_spaces:
+                pos_start = pos_start + len(match_spaces.group(0))
+            
+            match_spaces = re.search(u" +$", entry.fullentry[pos_start:pos_end])
+            if match_spaces:
+                pos_end = pos_end - len(match_spaces.group(0))
+        
+            entry.append_annotation(pos_start, pos_end, u'pos', u'dictinterpretation')
 
 
 def annotate_translations_and_examples(entry):
@@ -112,8 +124,13 @@ def annotate_translations_and_examples(entry):
     for a in ex_annotations:
         Session.delete(a)
         
-    translations_start = functions.get_pos_or_head_end(entry)
-    match_brackets = re.match(u" ?\[.*?\] ?", entry.fullentry[translations_start:])
+    match_number = re.search(u"\d ", entry.fullentry)
+    if match_number:
+        translations_start = match_number.start(0)
+    else:
+        translations_start = functions.get_pos_or_head_end(entry)
+
+    match_brackets = re.match(u"(?:\d )?\[.*?\] ?", entry.fullentry[translations_start:])
     if match_brackets:
         translations_start = translations_start + len(match_brackets.group(0))
     

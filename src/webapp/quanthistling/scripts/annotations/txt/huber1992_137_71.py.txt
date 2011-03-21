@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: karaka, Véase (See) TUCANO",
+    "startpage" : 137,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "GALLINA_HEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "karaka",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

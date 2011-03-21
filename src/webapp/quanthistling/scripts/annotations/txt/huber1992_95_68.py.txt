@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "tɨɨbú-ga† = ‘flecha-larga’ (‘arrow-long’); Véase (See) 94, 90, + ɸégaɨ, gaɲí̵í̵-ga ‘harpón’ (‘harpoon’), aamɨga ‘lanza’ (‘spear, lance’)",
+    "startpage" : 95,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "FLECHA_ARROW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɨɨbúga",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘flecha-larga’ (‘arrow-long’); Véase (See) 94, 90, + ɸégaɨ, gaɲí̵í̵-ga ‘harpón’ (‘harpoon’), aamɨga ‘lanza’ (‘spear, lance’)",
+                "start" : 11,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸégaɨ",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gaɲí̵í̵ga",
+                "start" : 75,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aamɨga",
+                "start" : 111,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ˈkʰoro-si-paʔpa-βa† verbo más clas. (verb and clas.); + ˈkʰoro-siʔ-c, verbo sustantivado (nominalized verb)",
+    "startpage" : 155,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "FLOR_FLOWER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰorosipaʔpaβa",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "verbo más clas. (verb and clas.); + ˈkʰoro-siʔ-c, verbo sustantivado (nominalized verb)",
+                "start" : 20,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰorosiʔc",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})

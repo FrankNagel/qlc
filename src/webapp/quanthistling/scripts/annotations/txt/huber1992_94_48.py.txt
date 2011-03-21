@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ˈsao-kʰupu-pɨ† + ˈsao-kupu-pɨ verbo más clas. (verb and clas.)",
+    "startpage" : 94,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "ARCO_BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saokʰupupɨ",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ˈsao-kupu-pɨ verbo más clas. (verb and clas.)",
+                "start" : 15,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saokupupɨ",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

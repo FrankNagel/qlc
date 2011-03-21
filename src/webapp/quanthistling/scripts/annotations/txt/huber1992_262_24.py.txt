@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "sɨtí̵na, stí̵na† (sɨ-(a)tí̵na), + sɨmí̵lira ‘su pelo’ (‘its-hair, down’); soi ‘su-vello’ (‘its-down’)",
+    "startpage" : 262,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "PLUMA_FEATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨtí̵na",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "stí̵na",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "(sɨ-(a)tí̵na), + sɨmí̵lira ‘su pelo’ (‘its-hair, down’); soi ‘su-vello’ (‘its-down’)",
+                "start" : 19,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨmí̵lira",
+                "start" : 37,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "soi",
+                "start" : 78,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+    ]
+})

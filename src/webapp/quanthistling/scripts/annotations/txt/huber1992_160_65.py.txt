@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ráda, radóθi† + aména, Véase (See) 152",
+    "startpage" : 160,
+    "pos_on_page" : 65,
+    "language_bookname" : "witoto mɨnɨca",
+    "concept" : "PALO_STICK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ráda",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "radóθi",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ aména, Véase (See) 152",
+                "start" : 16,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aména",
+                "start" : 18,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

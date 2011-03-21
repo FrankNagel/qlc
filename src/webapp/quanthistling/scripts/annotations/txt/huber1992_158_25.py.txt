@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "-íʒinaa† espec.: ‘bulbo, tubérculo’ (‘bulb, tuber’), + -híʧuu, ‘retoño’ (‘shoots, tap’)",
+    "startpage" : 158,
+    "pos_on_page" : 25,
+    "language_bookname" : "achagua",
+    "concept" : "RAÍZ_ROOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "íʒinaa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: ‘bulbo, tubérculo’ (‘bulb, tuber’), + -híʧuu, ‘retoño’ (‘shoots, tap’)",
+                "start" : 10,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "híʧuu",
+                "start" : 57,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

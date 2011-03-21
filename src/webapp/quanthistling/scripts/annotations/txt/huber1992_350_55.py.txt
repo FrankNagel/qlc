@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "hó:pa, othópa† plur., + bóka-hunua ‘caerse’ (‘fall down, suddenly be lying prone’)",
+    "startpage" : 350,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "CAER_FALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hó:pa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "othópa",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "plur., + bóka-hunua ‘caerse’ (‘fall down, suddenly be lying prone’)",
+                "start" : 17,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bókahunua",
+                "start" : 26,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

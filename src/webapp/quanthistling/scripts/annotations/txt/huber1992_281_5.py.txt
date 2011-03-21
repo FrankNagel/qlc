@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hiɾadí̵(-se)† imp. sing.",
+    "startpage" : 281,
+    "pos_on_page" : 5,
+    "language_bookname" : "embera chamí",
+    "concept" : "PONERSE EN PIE, DE PIE_STAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hiɾadí̵",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hiɾadí̵se",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "imp. sing.",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

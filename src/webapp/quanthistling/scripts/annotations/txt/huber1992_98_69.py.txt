@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ooʔíípʲe† + tʰɯ́ɯ́pʰáʔjoóɯ, Véase (See) 99",
+    "startpage" : 98,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "TIGRE_JAGUAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ooʔíípʲe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ tʰɯ́ɯ́pʰáʔjoóɯ, Véase (See) 99",
+                "start" : 12,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tʰɯ́ɯ́pʰáʔjoóɯ",
+                "start" : 14,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

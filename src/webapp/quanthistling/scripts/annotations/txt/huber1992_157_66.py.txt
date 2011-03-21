@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ihi† = ‘líquido’ (‘liquid’), + dahéme, 2 words: da heme = ‘su brea’ (‘it’s resin’)",
+    "startpage" : 157,
+    "pos_on_page" : 66,
+    "language_bookname" : "witoto nɨpode",
+    "concept" : "SAVIA_SAP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ihi",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘líquido’ (‘liquid’), + dahéme, 2 words: da heme = ‘su brea’ (‘it’s resin’)",
+                "start" : 5,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dahéme",
+                "start" : 32,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

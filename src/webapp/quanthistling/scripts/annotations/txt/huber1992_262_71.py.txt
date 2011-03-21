@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "púipip’áʧʰale† Véase (See) 127, 10 ‘pájaro-pelo’ (‘bird-hair’), Giacone: li-mapémani",
+    "startpage" : 262,
+    "pos_on_page" : 71,
+    "language_bookname" : "tariano",
+    "concept" : "PLUMA_FEATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "púipipáʧʰale",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 127, 10 ‘pájaro-pelo’ (‘bird-hair’), Giacone: li-mapémani",
+                "start" : 17,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

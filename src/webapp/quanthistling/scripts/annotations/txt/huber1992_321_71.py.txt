@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "nopísʰ’ánha† = ‘él cortó (la piel)’ (‘he cut (the skɨn)’) Giacone: pa-apisánipe",
+    "startpage" : 321,
+    "pos_on_page" : 71,
+    "language_bookname" : "tariano",
+    "concept" : "CORTAR_CUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nopísʰánha",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘él cortó (la piel)’ (‘he cut (the skɨn)’) Giacone: pa-apisánipe",
+                "start" : 15,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

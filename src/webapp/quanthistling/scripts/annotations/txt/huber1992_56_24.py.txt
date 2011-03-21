@@ -1,0 +1,73 @@
+
+manual_entries.append({
+    "fullentry" : "sikí, skí† + sʧúwala skí (si-(a)ʧúwala sikí), ‘su-llama fuego’ (‘its-flame fire’) wasima (wa-(a)sima) ‘nuestro fuego’ (‘our fire’)",
+    "startpage" : 56,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "CANDELA, FUEGO_FIRE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sikí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "skí",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ sʧúwala skí (si-(a)ʧúwala sikí), ‘su-llama fuego’ (‘its-flame fire’) wasima (wa-(a)sima) ‘nuestro fuego’ (‘our fire’)",
+                "start" : 13,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sʧúwala skí",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "siʧúwala sikí",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "siaʧúwala sikí",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wasima",
+                "start" : 88,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "waasima",
+                "start" : 95,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

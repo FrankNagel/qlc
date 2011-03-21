@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "sɨʧón (wunúʔu)† (si-(a)ʧon), + sʧón ‘su-hijo, cosa pequeña’ (‘its-child, little thing’)",
+    "startpage" : 156,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "FRUTA_FRUIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨʧón",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sɨʧón wunúʔu",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "(si-(a)ʧon), + sʧón ‘su-hijo, cosa pequeña’ (‘its-child, little thing’)",
+                "start" : 18,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "siʧon",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "siaʧon",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sʧón",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+    ]
+})

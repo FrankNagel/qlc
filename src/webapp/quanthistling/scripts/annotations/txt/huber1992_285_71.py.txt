@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: ijápa (ps montanha), japa (ps monte), ihiápa (ps serra) Véase (See) 73",
+    "startpage" : 285,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "MONTAÑA_MOUNTAIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ijápa",
+                "start" : 12,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "japa",
+                "start" : 34,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ihiápa",
+                "start" : 51,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 73",
+                "start" : 70,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

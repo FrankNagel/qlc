@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ˈtãĩ-hi† = ‘caerse’ (‘fall over’), + tõˈʔĩ-hi ‘caerse’ (‘fall down, drop’)",
+    "startpage" : 350,
+    "pos_on_page" : 49,
+    "language_bookname" : "siona",
+    "concept" : "CAER_FALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tãĩhi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘caerse’ (‘fall over’), + tõˈʔĩ-hi ‘caerse’ (‘fall down, drop’)",
+                "start" : 11,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tõʔĩhi",
+                "start" : 39,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "do-wi(-baɾi) = ‘canalete’ (‘paddle’)",
+    "startpage" : 91,
+    "pos_on_page" : 5,
+    "language_bookname" : "embera chamí",
+    "concept" : "REMO_PADDLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dowi",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dowibaɾi",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘canalete’ (‘paddle’)",
+                "start" : 12,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

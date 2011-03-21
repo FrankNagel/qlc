@@ -1,24 +1,24 @@
 
 manual_entries.append({
-    "fullentry" : "kaná (Carib)",
-    "startpage" : 90,
-    "pos_on_page" : 57,
-    "language_bookname" : "jitnu",
-    "concept" : "CANOA_CANOE",
+    "fullentry" : "búja (SP puja)",
+    "startpage" : 95,
+    "pos_on_page" : 58,
+    "language_bookname" : "guayabero",
+    "concept" : "FLECHA_ARROW",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "kaná",
+                "string" : "búja",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "stratum",
-                "string" : "Carib",
+                "string" : "Spanish loanword",
                 "start" : 6,
-                "end" : 13
+                "end" : 15
             },
     ]
 })

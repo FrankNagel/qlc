@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "pɨí̵βa† + tsʰóxkʰómɯxɨ, Véase (See) 150",
+    "startpage" : 161,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "HIERBA_GRASS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pɨí̵βa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ tsʰóxkʰómɯxɨ, Véase (See) 150",
+                "start" : 9,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsʰóxkʰómɯxɨ",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

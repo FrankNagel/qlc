@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "síítiʔ, sóógo, tóógo† + xaβi-, Véase (See) 46, 308, 327 Véase (See) 308",
+    "startpage" : 215,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "PEQUEÑO_SMALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "síítiʔ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sóógo",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tóógo",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ xaβi-, Véase (See) 46, 308, 327",
+                "start" : 28,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xaβi",
+                "start" : 30,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+    ]
+})

@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "bia, kónita† + kuánita, tsakíta, táubabia, matababa ‘para que entre, eomo una puntilla’ (‘eause to go in, as a nail’)",
+    "startpage" : 344,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "GOLPEAR_HIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bia",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kónita",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ kuánita, tsakíta, táubabia, matababa ‘para que entre, eomo una puntilla’ (‘eause to go in, as a nail’)",
+                "start" : 14,
+                "end" : 121
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuánita",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsakíta",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "táubabia",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "woman’s breasts",
+    "startpage" : 15,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "TETA, SENO, PECHO_WOMAN’S BREASTS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "womans breasts",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

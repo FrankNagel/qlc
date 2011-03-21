@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "tɨi²-kãd⁴-dĩ⁴† + jch² ‘dañar, hacer el mal’ (‘to damage, do bad’)",
+    "startpage" : 219,
+    "pos_on_page" : 62,
+    "language_bookname" : "kakua",
+    "concept" : "MALO_BAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɨi²kãd⁴dĩ⁴",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ jch² ‘dañar, hacer el mal’ (‘to damage, do bad’)",
+                "start" : 17,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jch²",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

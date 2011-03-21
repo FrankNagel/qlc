@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "gahi-ˈgɨ), gahi-ˈgó masc. sing., fem. sing.",
+    "startpage" : 299,
+    "pos_on_page" : 40,
+    "language_bookname" : "desano",
+    "concept" : "OTRO_OTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gahigɨ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gahigó",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "masc. sing., fem. sing.",
+                "start" : 20,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "gahi-ˈgɨ",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

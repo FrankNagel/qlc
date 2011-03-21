@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "káli† = ‘suelo, tierra’ (‘soil, earth’) + ibái ‘arcilla, barro’ (‘clay’)",
+    "startpage" : 72,
+    "pos_on_page" : 27,
+    "language_bookname" : "piapoco",
+    "concept" : "TIERRA_EARTH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "káli",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘suelo, tierra’ (‘soil, earth’)",
+                "start" : 7,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : " ibái",
+                "start" : 42,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "‘arcilla, barro’ (‘clay’)",
+                "start" : 49,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

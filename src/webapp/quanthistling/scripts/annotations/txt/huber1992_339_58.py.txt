@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "patíʔin† = ‘(hombre) viejo’ (‘old (man)’), + padúh-ax ‘(cosa) vieja’ (‘old (thing)’)",
+    "startpage" : 339,
+    "pos_on_page" : 58,
+    "language_bookname" : "guayabero",
+    "concept" : "VIEJO_OLD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "patíʔin",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘(hombre) viejo’ (‘old (man)’), + padúh-ax ‘(cosa) vieja’ (‘old (thing)’)",
+                "start" : 10,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "padúhax",
+                "start" : 46,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "Adam’s apple",
+    "startpage" : 232,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "NUEZ DE LA GARGANTA_ADAM’S APPLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "Adams apple",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

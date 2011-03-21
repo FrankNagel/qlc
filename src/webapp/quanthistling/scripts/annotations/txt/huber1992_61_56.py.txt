@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "pe-ita-bóko(-to)† + pitabóko",
+    "startpage" : 61,
+    "pos_on_page" : 56,
+    "language_bookname" : "cuiba",
+    "concept" : "CIELO_SKY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "peitabóko",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "peitabókoto",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ pitabóko",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pitabóko",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+    ]
+})

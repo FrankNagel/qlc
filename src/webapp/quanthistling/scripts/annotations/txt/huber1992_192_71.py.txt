@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: jaáwi (Véase (See) 98)",
+    "startpage" : 192,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "CURANDERO_SHAMAN, FOLK HEALER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jaáwi",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 98",
+                "start" : 19,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

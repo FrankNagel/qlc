@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "baˈto ˈti-† = ‘ser el último’ (‘to be last’), + soʔˈtoa ‘end, last’",
+    "startpage" : 186,
+    "pos_on_page" : 35,
+    "language_bookname" : "piratapuyo",
+    "concept" : "ÚLTIMO_LAST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bato ti",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘ser el último’ (‘to be last’), + soʔˈtoa ‘end, last’",
+                "start" : 12,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "soʔtoa",
+                "start" : 49,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

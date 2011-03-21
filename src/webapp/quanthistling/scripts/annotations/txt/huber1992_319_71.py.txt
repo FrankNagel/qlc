@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "ʔinápe† Véase (See) 40, Giacone: diri ‘niño’ (‘boy’), ni-itn ‘niña’ (‘girl’), di-inipe ‘niños’ (‘boys and girls’); (Véase (See) 46, PP i-énibe ‘hijos’ (‘offspring’)",
+    "startpage" : 319,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "NIÑO_CHILD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "diri",
+                "start" : 35,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "niitn",
+                "start" : 57,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "diinipe",
+                "start" : 82,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 46",
+                "start" : 121,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "i-énibe",
+                "start" : 141,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

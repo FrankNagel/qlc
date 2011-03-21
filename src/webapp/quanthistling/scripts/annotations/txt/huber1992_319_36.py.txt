@@ -20,12 +20,5 @@ manual_entries.append({
                 "start" : 0,
                 "end" : 13
             },
-            {
-                "type" : "dictinterpretation",
-                "value" : "footnote",
-                "string" : "(masculino/femenino)",
-                "start" : 14,
-                "end" : 19
-            },
     ]
 })

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "akʰa-bói(-se)† = ‘siéntase!’ (‘sit down!’)",
+    "startpage" : 280,
+    "pos_on_page" : 5,
+    "language_bookname" : "embera chamí",
+    "concept" : "SENTARSE, SENTADO_SIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "akʰabói",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "akʰabóise",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘siéntase!’ (‘sit down!’)",
+                "start" : 16,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

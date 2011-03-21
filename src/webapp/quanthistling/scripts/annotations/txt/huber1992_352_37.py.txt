@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "tĩ̵gẽjã / wãˈkũ",
+    "startpage" : 352,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "PENSAR_THINK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tĩ̵gẽjã",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wãkũ",
+                "start" : 13,
+                "end" : 20
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "iβhálipe† Giacone: li-diéve, karaka diéve, ‘huevo de gallina’ (‘hen’s egg’); i-íkuli li-diéve ‘huevo de tortuga’ (‘turtles-egg’)",
+    "startpage" : 260,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "HUEVO_EGG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lidiéve",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "karaka diéve",
+                "start" : 31,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iíkuli lidiéve",
+                "start" : 80,
+                "end" : 133
+            },
+    ]
+})

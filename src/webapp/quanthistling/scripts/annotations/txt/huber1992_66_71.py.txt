@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "kéri p’íki† Giacone: niitsunéma",
+    "startpage" : 66,
+    "pos_on_page" : 71,
+    "language_bookname" : "tariano",
+    "concept" : "ESTRELLA_STAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kéri píki",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Giacone: niitsunéma",
+                "start" : 14,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

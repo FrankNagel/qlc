@@ -9,7 +9,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "hihiᴵ",
+                "string" : "hihi¹",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "hihi¹",
                 "start" : 0,
                 "end" : 5
             },

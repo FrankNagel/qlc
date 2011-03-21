@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "nóho, nnóho† + nnóholuu ‘no ser, haber’ (‘to not be’)",
+    "startpage" : 253,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "NO_NOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nóho",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nnóho",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ nnóholuu ‘no ser, haber’ (‘to not be’)",
+                "start" : 15,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nnóholuu",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

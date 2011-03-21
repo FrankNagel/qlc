@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "tapáli† Giacone: li-ija; taapa, espec.: ‘cáscara’ (‘husk, seed skin’)",
+    "startpage" : 31,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "PIEL_SKIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "liija",
+                "start" : 18,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "taapa",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

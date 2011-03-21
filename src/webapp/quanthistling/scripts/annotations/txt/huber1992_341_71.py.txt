@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "... m’úukulianha† = ‘el niño está tirando (la cola del mico)’ (‘the child is pulling (the monkey’s tail)’); Giacone: pe-epitánipe",
+    "startpage" : 341,
+    "pos_on_page" : 71,
+    "language_bookname" : "tariano",
+    "concept" : "JALAR, HALAR_PULL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "múukulianha",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘el niño está tirando (la cola del mico)’ (‘the child is pulling (the monkey’s tail)’); Giacone: pe-epitánipe",
+                "start" : 19,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+    ]
+})

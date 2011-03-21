@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "i-† suj. (subj.), + -ni, comp. (obj.)",
+    "startpage" : 198,
+    "pos_on_page" : 27,
+    "language_bookname" : "piapoco",
+    "concept" : "ELLO_IT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "i",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "suj. (subj.), + -ni, comp. (obj.)",
+                "start" : 4,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ni",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

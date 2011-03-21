@@ -134,7 +134,7 @@ def annotate_translations(entry):
         functions.print_error_in_entry(entry, "no equal sign, no translation")
         return
         
-    re_trans = re.compile(r"\= ?((?:[^.(]*\([^)]*\)[^.(]*)+|[^\.]*)\.")
+    re_trans = re.compile(r"\= ?((?:[^.?!(]*\([^)]*\)[^.!?(]*)+|[^\.!?]*)[?!.]")
     match_trans = re_trans.search(entry.fullentry, match_first_equal.start(0))
 
     if not match_trans:
@@ -158,7 +158,7 @@ def annotate_translations(entry):
                 
         if not mybreak:
             end = match.start(0) + trans_start
-            match_arrow = re.match(u" ??⇨ ?", entry.fullentry[start:end])
+            match_arrow = re.match(u" ??[➱⇨] ?", entry.fullentry[start:end])
             if match_arrow:
                 start = start + len(match_arrow.group(0))
             translation = entry.fullentry[start:end]
@@ -175,7 +175,7 @@ def annotate_examples(entry):
         Session.delete(a)
 
     trans_end = functions.get_translation_end(entry)
-    re_ex = re.compile(r'\. ?(.*?) ?\= ?(.*?)(?=\.)')
+    re_ex = re.compile(r'[.!?] ?(.*?) ?\= ?(.*?)(?=[.?!])')
     
     for match in re_ex.finditer(entry.fullentry, trans_end):
         entry.append_annotation(match.start(1), match.end(1), u'example-src', u'dictinterpretation', entry.fullentry[match.start(1):match.end(1)].lower())

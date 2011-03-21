@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "jã-hedí-ro† + jã-hedí-rã, solamente un sib de BS (only one sib of BS) anim. plur.",
+    "startpage" : 254,
+    "pos_on_page" : 45,
+    "language_bookname" : "barasana",
+    "concept" : "TODOS_ALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jãhedíro",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jãhedírã",
+                "start" : 16,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "solamente un sib de BS (only one sib of BS) anim. plur.",
+                "start" : 31,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

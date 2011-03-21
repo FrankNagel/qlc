@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "palít-sɨ† + palít-ʧon ‘pocos (sólidos)’ (‘few (solids)’); jóot-ʧon ‘poca cantidad (líquidos)’ (‘little amount (liquids)’)",
+    "startpage" : 300,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "POCO_FEW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "palítsɨ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ palít-ʧon ‘pocos (sólidos)’ (‘few (solids)’); jóot-ʧon ‘poca cantidad (líquidos)’ (‘little amount (liquids)’)",
+                "start" : 11,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "palítʧon",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jóotʧon",
+                "start" : 61,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "mí̵tsiia-sɨ† + júui-sɨ ‘negro, oscuro’ (‘black, dark’)",
+    "startpage" : 221,
+    "pos_on_page" : 24,
+    "language_bookname" : "wayuu",
+    "concept" : "NEGRO_BLACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mí̵tsiiasɨ",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ júui-sɨ ‘negro, oscuro’ (‘black, dark’)",
+                "start" : 14,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "júuisɨ",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

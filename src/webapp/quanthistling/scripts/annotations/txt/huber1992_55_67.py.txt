@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "dʲahiiʔi† + gotáʔi, ‘pedregoso?’ (‘rocky?’), Véase (See) 73",
+    "startpage" : 55,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "CATARATA, RAUDAL_RAPIDS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dʲahiiʔi",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ gotáʔi, ‘pedregoso?’ (‘rocky?’), Véase (See) 73",
+                "start" : 10,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gotáʔi",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

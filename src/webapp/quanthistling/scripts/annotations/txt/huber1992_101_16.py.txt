@@ -15,8 +15,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "footnote",
-                "string" : "(QU)",
+                "value" : "stratum",
+                "string" : "Quechuan",
                 "start" : 5,
                 "end" : 9
             },

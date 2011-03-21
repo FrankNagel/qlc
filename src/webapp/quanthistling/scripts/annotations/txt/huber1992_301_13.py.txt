@@ -1,22 +1,22 @@
 
 manual_entries.append({
-    "fullentry" : "óˈkó (h)ope",
-    "startpage" : 53,
-    "pos_on_page" : 36,
-    "language_bookname" : "waimaja",
-    "concept" : "FUENTE, OJO DE AGUA_SPRING OF WATER",
+    "fullentry" : "móŋŋa(ndja)ʔ",
+    "startpage" : 301,
+    "pos_on_page" : 13,
+    "language_bookname" : "chimila",
+    "concept" : "NEBLINA_FOG",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ókó hope",
+                "string" : "móŋŋaʔ",
                 "start" : 0,
                 "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ókó ope",
+                "string" : "móŋŋandjaʔ",
                 "start" : 0,
                 "end" : 13
             },

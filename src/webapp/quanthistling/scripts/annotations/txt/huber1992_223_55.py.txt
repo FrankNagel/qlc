@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "naxáentsia† + naxánetsia, naxátsia, ‘rápido’ (‘qnickly’))",
+    "startpage" : 223,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "VEN_COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "naxáentsia",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ naxánetsia, naxátsia, ‘rápido’ (‘qnickly’))",
+                "start" : 13,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "naxánetsia",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "naxátsia",
+                "start" : 28,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

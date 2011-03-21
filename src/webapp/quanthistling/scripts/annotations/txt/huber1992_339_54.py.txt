@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "penakotí̵n-ɨ† = ‘(persona) vieja’ (‘old (person)’), + penakoté-wa ‘(cosa) vieja’ (‘old (thing)’)",
+    "startpage" : 339,
+    "pos_on_page" : 54,
+    "language_bookname" : "playero",
+    "concept" : "VIEJO_OLD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "penakotí̵nɨ",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘(persona) vieja’ (‘old (person)’), + penakoté-wa ‘(cosa) vieja’ (‘old (thing)’)",
+                "start" : 15,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "penakotéwa",
+                "start" : 55,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

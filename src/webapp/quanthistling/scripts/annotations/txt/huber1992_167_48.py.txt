@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ˈokʰo-pɨ† + ‘okʰo-reʔre-βa espec.: ‘calabazo poro’ (‘drinking gourd’)",
+    "startpage" : 167,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "CALABAZO PORO_GOURD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "okʰopɨ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "okʰoreʔreβa",
+                "start" : 12,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: ‘calabazo poro’ (‘drinking gourd’)",
+                "start" : 26,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

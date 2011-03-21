@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "ibo-tsú:-to† + pe-tsu:-to, Véase (See) 293. pe-jáɨ-to, ira-jáɨ-to, ‘tierra alta’ (‘high ground’)",
+    "startpage" : 151,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "CERRO, LOMA_HILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ibotsú:to",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ pe-tsu:-to, Véase (See) 293. pe-jáɨ-to, ira-jáɨ-to, ‘tierra alta’ (‘high ground’)",
+                "start" : 14,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "petsu:to",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pejáɨto",
+                "start" : 46,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "irajáɨto",
+                "start" : 58,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

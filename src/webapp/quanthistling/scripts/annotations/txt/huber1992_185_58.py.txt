@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "matxóel pát-on† = ‘él llegó adelante’ (‘he arrived first’), + ‘primero (en una secuencia)’ (‘first (in a sequence)’)",
+    "startpage" : 185,
+    "pos_on_page" : 58,
+    "language_bookname" : "guayabero",
+    "concept" : "PRIMERO_FIRST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "matxóel páton",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘él llegó adelante’ (‘he arrived first’), + ‘primero (en una secuencia)’ (‘first (in a sequence)’)",
+                "start" : 18,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+    ]
+})

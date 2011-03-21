@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "idemápulé† + ikáapisài ‘su arma, de él’ (‘his-weapon’)",
+    "startpage" : 210,
+    "pos_on_page" : 27,
+    "language_bookname" : "piapoco",
+    "concept" : "SU ARCO - DE ÉL_HIS BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "idemápulé",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ikáapisài ‘su arma, de él’ (‘his-weapon’)",
+                "start" : 13,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ikáapisài",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

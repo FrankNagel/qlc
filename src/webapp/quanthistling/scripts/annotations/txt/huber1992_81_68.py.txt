@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "kí̵ga-íixe† + kí̵ga-taxe, Véase (See) 79",
+    "startpage" : 81,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "CATRE, CAMA DE BARBACOA_BED",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kí̵gaíixe",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ kí̵ga-taxe, Véase (See) 79",
+                "start" : 14,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kí̵gataxe",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

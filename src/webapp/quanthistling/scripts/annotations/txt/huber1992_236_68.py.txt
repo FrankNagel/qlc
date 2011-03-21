@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "tákijɨ† = ‘tobillo’ (‘ankle’); + xúunuga, Véase (See) 28",
+    "startpage" : 236,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "LA PIERNA INFERIOR_LOWER LEG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tákijɨ",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘tobillo’ (‘ankle’); + xúunuga, Véase (See) 28",
+                "start" : 9,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xúunuga",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

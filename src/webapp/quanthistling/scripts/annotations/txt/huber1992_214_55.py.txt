@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ajái-hawa† + piníhi-hawa ‘cosa grande, mucho’ (’large thing, much’)",
+    "startpage" : 214,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "GRANDE_BIG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ajáihawa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ piníhi-hawa ‘cosa grande, mucho’ (’large thing, much’)",
+                "start" : 12,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "piníhihawa",
+                "start" : 14,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "xomɯɯxoʔjáʤi† + ɸaaʔxa ‘probar, medir’ (‘test, measure’)",
+    "startpage" : 352,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "PENSAR_THINK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xomɯɯxoʔjáʤi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ɸaaʔxa ‘probar, medir’ (‘test, measure’)",
+                "start" : 15,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸaaʔxa",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

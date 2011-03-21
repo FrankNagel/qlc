@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "sí̵kí̵xeʔɨ-no† + kóomo-bo ‘vejez’ (‘old age’), kiʤaʔu-to ‘vieja-gente-plur.’ (‘old-people-plur.’), amija-to ‘viejo-plur.&quot; (‘old-plur.’)",
+    "startpage" : 339,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "VIEJO_OLD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sí̵kí̵xeʔɨno",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ kóomo-bo ‘vejez’ (‘old age’), kiʤaʔu-to ‘vieja-gente-plur.’ (‘old-people-plur.’), amija-to ‘viejo-plur.&quot; (‘old-plur.’)",
+                "start" : 17,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kóomobo",
+                "start" : 19,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kiʤaʔuto",
+                "start" : 50,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "amijato",
+                "start" : 102,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

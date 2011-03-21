@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "iʔˈki† + iʔi = ‘él aquí, este’ (‘he here, this one’)",
+    "startpage" : 196,
+    "pos_on_page" : 46,
+    "language_bookname" : "tanimuca",
+    "concept" : "ÉL_HE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iʔki",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ iʔi = ‘él aquí, este’ (‘he here, this one’)",
+                "start" : 7,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iʔi",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

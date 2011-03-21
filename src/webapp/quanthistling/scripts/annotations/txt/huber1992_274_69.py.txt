@@ -1,0 +1,80 @@
+
+manual_entries.append({
+    "fullentry" : "tsí̵xɨ-βé-tsʰo† + 1ʃiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro Véase (See) 281",
+    "startpage" : 274,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "MATAR_KILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsí̵xɨβétsʰo",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ 1ʃiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro",
+                "start" : 18,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʃiiʔjánɯ",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ápʰaxʲɯ́nɯ",
+                "start" : 32,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʷápʰɯ́xɯʔxákʰo",
+                "start" : 45,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʷátsʰɯʔkʰáo",
+                "start" : 64,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tótsʰoʔkʰáo",
+                "start" : 80,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʷájɯɯʔáro",
+                "start" : 95,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "Véase (See) 281",
+                "start" : 107,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+    ]
+})
