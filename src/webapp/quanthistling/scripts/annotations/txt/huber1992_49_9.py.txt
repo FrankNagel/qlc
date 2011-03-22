@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "dʊsĩg (du, dʊ)",
+    "startpage" : 49,
+    "pos_on_page" : 9,
+    "language_bookname" : "wounaan",
+    "concept" : "RÍO_RIVER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dʊsĩg",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "du",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dʊ",
+                "start" : 12,
+                "end" : 14
+            },
+    ]
+})

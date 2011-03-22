@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "pʰiɾabái(-hi)† imp. sing.",
+    "startpage" : 281,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "PONERSE EN PIE, DE PIE_STAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰiɾabái",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰiɾabáihi",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "imp. sing.",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

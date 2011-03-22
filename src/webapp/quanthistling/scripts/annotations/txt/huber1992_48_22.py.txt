@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "bújeʃe, béxa-je",
+    "startpage" : 48,
+    "pos_on_page" : 22,
+    "language_bookname" : "kamsá",
+    "concept" : "AGUA_WATER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bújeʃe",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "béxaje",
+                "start" : 9,
+                "end" : 17
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "su-ʔakʰɨ-bée(-hi)† = ‘siéntase!’ (‘sit down!’)",
+    "startpage" : 280,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "SENTARSE, SENTADO_SIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "suʔakʰɨbée",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "suʔakʰɨbéehi",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘siéntase!’ (‘sit down!’)",
+                "start" : 20,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})

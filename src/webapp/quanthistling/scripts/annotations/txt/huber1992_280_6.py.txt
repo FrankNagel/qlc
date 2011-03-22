@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "su-ʔakʰuɓá(-si)† = ‘siéntase!’ (‘sit down!’)",
+    "startpage" : 280,
+    "pos_on_page" : 6,
+    "language_bookname" : "embera Tadó",
+    "concept" : "SENTARSE, SENTADO_SIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "suʔakʰuɓá",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "suʔakʰuɓási",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘siéntase!’ (‘sit down!’)",
+                "start" : 18,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+    ]
+})

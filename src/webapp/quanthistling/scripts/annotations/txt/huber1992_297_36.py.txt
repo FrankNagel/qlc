@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ãˈdṍ(-pí̵)",
+    "startpage" : 297,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "AQUÍ_HERE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ãdṍ",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ãdṍpí̵",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

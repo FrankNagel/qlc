@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "bĩ̵-ˈsã (ja) bɨˈe-ri dẽˈtẽ",
+    "startpage" : 212,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "SU ARCO DE USTEDES_YOUR (PLUR.) BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bĩ̵sã bɨeri dẽtẽ",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bĩ̵sã ja bɨeri dẽtẽ",
+                "start" : 0,
+                "end" : 30
+            },
+    ]
+})

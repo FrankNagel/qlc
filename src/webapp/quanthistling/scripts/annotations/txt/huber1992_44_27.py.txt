@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "núaniri (nu-ániri)",
+    "startpage" : 44,
+    "pos_on_page" : 27,
+    "language_bookname" : "piapoco",
+    "concept" : "PADRE_FATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "núaniri",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+              "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nuániri",
+                "start" : 10,
+                "end" : 20
+            },
+    ]
+})

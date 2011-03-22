@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈmɨsanɨkho(na) ˈhĩ̵ɲ̥a",
+    "startpage" : 206,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "VUESTRAS MANOS_YOUR (PLUR.) HANDS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɨsanɨkho hĩ̵ɲ̥a",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɨsanɨkhona hĩ̵ɲ̥a",
+                "start" : 0,
+                "end" : 23
+            },
+    ]
+})

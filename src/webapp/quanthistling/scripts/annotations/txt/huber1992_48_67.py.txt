@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ɲõõ(-hɯ̃)† = ‘agua-líquido’ (‘water-liquid’), Véase (See) 62, 157",
+    "startpage" : 48,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "AGUA_WATER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɲõõ",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɲõõhɯ̃",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘agua-líquido’ (‘water-liquid’), Véase (See) 62, 157",
+                "start" : 13,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+    ]
+})

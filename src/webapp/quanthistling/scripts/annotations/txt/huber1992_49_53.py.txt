@@ -1,15 +1,15 @@
 
 manual_entries.append({
-    "fullentry" : "buˈɾuninə",
-    "startpage" : 292,
-    "pos_on_page" : 15,
-    "language_bookname" : "barí",
-    "concept" : "SECO_DRY",
+    "fullentry" : "kúna",
+    "startpage" : 49,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "RÍO_RIVER",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "buɾuninə",
+                "string" : "kúna",
                 "start" : 0,
                 "end" : 5
             },

@@ -56,17 +56,17 @@ def main(argv):
                 print "could not find entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])                
                 
             ratio = difflib.SequenceMatcher(None, e["fullentry"].decode('utf-8'), entry_db.fullentry).ratio()
-            if ratio > 0.80:
-                entry_db.fullentry = e["fullentry"].decode('utf-8')
-                # delete all annotations in db
-                for a in entry_db.annotations:
-                    Session.delete(a)
-                # insert new annotations
-                for a in e["annotations"]:
-                    entry_db.append_annotation(a["start"], a["end"], a["value"].decode('utf-8'), a["type"].decode('utf-8'), a["string"].decode('utf-8'))
-                entry_db.has_manual_annotations = True
-            else:
-                print "We have a problem, manual entry on page %i pos %i seems not to be the same entry as in db, it was not inserted to db. Please correct the problem. (ratio: %f)" % (e["startpage"], e["pos_on_page"], ratio)
+            if ratio <= 0.80:
+                print "We have a problem, manual entry on page %i pos %i seems not to be the same entry as in db. It was inserted to the db, but please check the entry. (ratio: %f)" % (e["startpage"], e["pos_on_page"], ratio)
+
+            entry_db.fullentry = e["fullentry"].decode('utf-8')
+            # delete all annotations in db
+            for a in entry_db.annotations:
+                Session.delete(a)
+            # insert new annotations
+            for a in e["annotations"]:
+                entry_db.append_annotation(a["start"], a["end"], a["value"].decode('utf-8'), a["type"].decode('utf-8'), a["string"].decode('utf-8'))
+            entry_db.has_manual_annotations = True
 
         Session.commit()
 
@@ -98,17 +98,18 @@ def main(argv):
                 print "could not find  entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])
                 
             ratio = difflib.SequenceMatcher(None, e["fullentry"].decode('utf-8'), entry_db.fullentry).ratio()
-            if ratio > min_similarity_ratio:
-                entry_db.fullentry = e["fullentry"].decode('utf-8')
-                # delete all annotations in db
-                for a in entry_db.annotations:
-                    Session.delete(a)
-                # insert new annotations
-                for a in e["annotations"]:
-                    entry_db.append_annotation(a["start"], a["end"], a["value"].decode('utf-8'), a["type"].decode('utf-8'), a["string"].decode('utf-8'))
-                entry_db.has_manual_annotations = True
-            else:
-                print "We have a problem, manual entry on page %i pos %i seems not to be the same entry as in db, it was not inserted to db. Please correct the problem. (ratio: %f)" % (e["startpage"], e["pos_on_page"], ratio)
+            if ratio <= min_similarity_ratio:
+                print "We have a problem, manual entry on page %i pos %i seems not to be the same entry as in db. It was inserted to the db, but please check the entry. (ratio: %f)" % (e["startpage"], e["pos_on_page"], ratio)
+
+            entry_db.fullentry = e["fullentry"].decode('utf-8')
+            # delete all annotations in db
+            for a in entry_db.annotations:
+                Session.delete(a)
+            # insert new annotations
+            for a in e["annotations"]:
+                entry_db.append_annotation(a["start"], a["end"], a["value"].decode('utf-8'), a["type"].decode('utf-8'), a["string"].decode('utf-8'))
+            entry_db.has_manual_annotations = True
+
         Session.commit()
 
     # Wordlists

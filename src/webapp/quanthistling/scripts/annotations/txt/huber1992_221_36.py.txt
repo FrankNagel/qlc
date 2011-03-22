@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈjĩì(-ri-he)",
+    "startpage" : 221,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "NEGRO_BLACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jĩì",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jĩìrihe",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "hɯ.áɯ(.ɯe)",
+    "startpage" : 299,
+    "pos_on_page" : 66,
+    "language_bookname" : "witoto nɨpode",
+    "concept" : "OTRO_OTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɯáɯ",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɯáɯɯe",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hẽɾã-ɓé(-si heɗá) = ‘acostarse’ (‘lie down’)",
+    "startpage" : 279,
+    "pos_on_page" : 6,
+    "language_bookname" : "embera Tadó",
+    "concept" : "ACOSTARSE_LIE DOWN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hẽɾãɓé",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hẽɾãɓési heɗá",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘acostarse’ (‘lie down’)",
+                "start" : 21,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

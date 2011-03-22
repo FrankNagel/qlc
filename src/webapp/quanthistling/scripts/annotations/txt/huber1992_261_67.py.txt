@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "mókaatʲo espec.: de vaca (cow)",
+    "startpage" : 261,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "CUERNO_HORN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mókaatʲo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: de vaca (cow)",
+                "start" : 18,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "†",
+                "start" : 9,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ˈtóó-pí̵, ˈṍṍ(-pɨ)",
+    "startpage" : 298,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "ALLÍ_THERE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tóópí̵",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ṍṍ",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ṍṍpɨ",
+                "start" : 13,
+                "end" : 25
+            },
+    ]
+})

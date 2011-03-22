@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "dõõ (ˈbíiro), ˈjẽ́ẽ́",
+    "startpage" : 294,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "COMO_HOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dõõ",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dõõ bíiro",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jẽ́ẽ́",
+                "start" : 17,
+                "end" : 25
+            },
+    ]
+})

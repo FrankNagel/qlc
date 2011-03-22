@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈjóa- (ˈjóa-ro)",
+    "startpage" : 256,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "LARGO_LONG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jóa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jóaro",
+                "start" : 0,
+                "end" : 17
+            },
+    ]
+})

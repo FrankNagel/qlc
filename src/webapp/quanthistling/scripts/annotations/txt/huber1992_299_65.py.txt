@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "hɯ.áɯ(.e)",
+    "startpage" : 299,
+    "pos_on_page" : 65,
+    "language_bookname" : "witoto mɨnɨca",
+    "concept" : "OTRO_OTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɯáɯ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɯáɯe",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

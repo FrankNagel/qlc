@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "plumɨ-bxuá (SP)",
+    "startpage" : 262,
+    "pos_on_page" : 22,
+    "language_bookname" : "kamsá",
+    "concept" : "PLUMA_FEATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "plumɨbxuá",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "stratum",
+                "string" : "Spanish loanword",
+                "start" : 19,
+                "end" : 23
+            },
+    ]
+})

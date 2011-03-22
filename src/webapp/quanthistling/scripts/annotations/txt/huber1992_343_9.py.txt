@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "baɾ(-pɯi)-",
+    "startpage" : 343,
+    "pos_on_page" : 9,
+    "language_bookname" : "wounaan",
+    "concept" : "BOTAR, TIRAR_THROW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baɾ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baɾpɯi",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ími(-no)",
+    "startpage" : 218,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "BUENO_GOOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ími",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ímino",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

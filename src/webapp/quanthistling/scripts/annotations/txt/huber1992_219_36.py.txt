@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "jãìˈjãì-ri-he, jãìˈjãì(-ro)",
+    "startpage" : 219,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "MALO_BAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jãìjãìrihe",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jãìjãì",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jãìjãìro",
+                "start" : 19,
+                "end" : 35
+            },
+    ]
+})

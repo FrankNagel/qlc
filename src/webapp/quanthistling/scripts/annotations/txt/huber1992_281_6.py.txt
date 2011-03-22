@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "pʰiɾaɓaɾí(-si)† imp. sing.",
+    "startpage" : 281,
+    "pos_on_page" : 6,
+    "language_bookname" : "embera Tadó",
+    "concept" : "PONERSE EN PIE, DE PIE_STAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰiɾaɓaɾí",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰiɾaɓaɾísi",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "imp. sing.",
+                "start" : 17,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

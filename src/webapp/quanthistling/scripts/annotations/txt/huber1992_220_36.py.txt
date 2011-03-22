@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "boˈtí(-ri-he)",
+    "startpage" : 220,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "BLANCO_WHITE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "botí",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "botírihe",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "uˈpí(gɨ)-pĩĩ† + bɨériˈká-pĩĩ, bɨéríˈká-beto",
+    "startpage" : 92,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "PORRA, MACANA_CLUB",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "upípĩĩ",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "upígɨpĩĩ",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ bɨériˈká-pĩĩ, bɨéríˈká-beto",
+                "start" : 17,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bɨérikápĩĩ",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bɨéríkábeto",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

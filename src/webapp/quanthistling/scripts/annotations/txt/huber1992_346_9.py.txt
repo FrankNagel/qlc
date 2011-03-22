@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "su(-pɯi)-",
+    "startpage" : 346,
+    "pos_on_page" : 9,
+    "language_bookname" : "wounaan",
+    "concept" : "PUNZAR_PIERCE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "su",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "supɯi",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

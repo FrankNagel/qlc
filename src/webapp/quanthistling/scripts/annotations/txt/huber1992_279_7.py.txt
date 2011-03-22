@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hẽɾã-bée(-hi) = ‘acostarse’ (‘lie down’)",
+    "startpage" : 279,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "ACOSTARSE_LIE DOWN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hẽɾãbée",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hẽɾãbéehi",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘acostarse’ (‘lie down’)",
+                "start" : 16,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

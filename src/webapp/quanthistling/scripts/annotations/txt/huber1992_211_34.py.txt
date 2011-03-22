@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "sã (ja) bɨˈe-ri dẽˈtẽ exclusivo (exclusive)",
+    "startpage" : 211,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "NUESTRO ARCO_OUR BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sã ja bɨeri dẽtẽ",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sã bɨeri dẽtẽ",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "exclusivo (exclusive)",
+                "start" : 24,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+    ]
+})
