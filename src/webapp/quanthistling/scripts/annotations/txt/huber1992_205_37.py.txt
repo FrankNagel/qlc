@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ĩ̵ˈhã́-ja-ãbõ-rĩ† + bãˈdĩ́-ja-ãbõ-rĩ, exclusivo (exclusive) exclusivo (exclusive)",
+    "startpage" : 205,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "NUESTRAS MANOS_OUR HANDS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩ̵hã́jaãbõrĩ",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ bãˈdĩ́-ja-ãbõ-rĩ, exclusivo (exclusive)",
+                "start" : 23,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bãdĩ́jaãbõrĩ",
+                "start" : 25,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "exclusivo (exclusive)",
+                "start" : 69,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+    ]
+})

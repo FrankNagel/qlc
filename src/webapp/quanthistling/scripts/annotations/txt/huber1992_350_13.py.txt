@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "kútti-, lantí† persona, algo redondo pequeño (person, something small and round): + máʔndí-, ropa (clothing), ᵐbréʔndí-, lápiz (pencil), póʔnde-, vaso (glass)",
+    "startpage" : 350,
+    "pos_on_page" : 13,
+    "language_bookname" : "chimila",
+    "concept" : "CAER_FALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kútti",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lantí",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "persona, algo redondo pequeño (person, something small and round): + máʔndí-, ropa (clothing), ᵐbréʔndí-, lápiz (pencil), póʔnde-, vaso (glass)",
+                "start" : 17,
+                "end" : 167
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "máʔndí",
+                "start" : 87,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ᵐbréʔndí",
+                "start" : 115,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "póʔnde",
+                "start" : 145,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

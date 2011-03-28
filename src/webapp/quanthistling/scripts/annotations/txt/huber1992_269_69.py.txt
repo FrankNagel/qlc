@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "axthjɯ́mɨɨí̵tʰé-kʰɯnɯ† + tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
+    "startpage" : 269,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "VER_SEE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "axtʰjɯ́mɨɨí̵tʰé-kʰɯnɯ",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
+                "start" : 25,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɯ́xɯɯ́kʰɯnɯ",
+                "start" : 27,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯ́xe",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: ua-pananipeda, (Véase (See) PP wa-bàna-ka-lé ‘nuestras-cosechas’ (‘our-erops’)",
+    "startpage" : 243,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "SEMENTERA DE MAÍZ_CORN FIELD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uapananipeda",
+                "start" : 12,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

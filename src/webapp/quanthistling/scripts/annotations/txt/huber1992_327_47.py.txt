@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hiˈá-kɨ-be-kɨ† (masc.) + hiˈá-kɨ-be-ko (fem.)",
+    "startpage" : 327,
+    "pos_on_page" : 47,
+    "language_bookname" : "cubeo",
+    "concept" : "DELGADO_THIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hiákɨbekɨ",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "(masc.) + hiˈá-kɨ-be-ko (fem.)",
+                "start" : 16,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hiákɨbeko",
+                "start" : 26,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

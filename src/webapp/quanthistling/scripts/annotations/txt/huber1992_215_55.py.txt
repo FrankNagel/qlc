@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "tsikíri-jo:† + tsikiri-háwa-jo: ‘cosa pequeña, poco’ (‘small thing, little’)",
+    "startpage" : 215,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "PEQUEÑO_SMALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsikírijo:",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ tsikiri-háwa-jo: ‘cosa pequeña, poco’ (‘small thing, little’)",
+                "start" : 14,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsikiriháwajo",
+                "start" : 16,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "sájnu / saxínu",
+    "startpage" : 115,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "SAÍNO_COLLARED PECCARY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sájnu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saxínu",
+                "start" : 9,
+                "end" : 16
+            },
+    ]
+})

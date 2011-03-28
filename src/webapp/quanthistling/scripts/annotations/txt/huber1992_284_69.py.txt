@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "áiiβʲétsʰo† + kʰátsʰɯʔxákʰo, pʰeetʰétsʰo, áiɯìkʰɯ, kʰárɯʔxákʰo, etc.",
+    "startpage" : 284,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "ARDER_BURN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "áiiβʲétsʰo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ kʰátsʰɯʔxákʰo, pʰeetʰétsʰo, áiɯìkʰɯ, kʰárɯʔxákʰo, etc.",
+                "start" : 14,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰátsʰɯʔxákʰo",
+                "start" : 16,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰeetʰétsʰo",
+                "start" : 33,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "áiɯìkʰɯ",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰárɯʔxákʰo",
+                "start" : 58,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

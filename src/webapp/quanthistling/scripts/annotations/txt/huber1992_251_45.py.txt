@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "jĩb ĩ̵́, dĩ (di-ĩ)† = ‘qué-masc. sing.’ (‘what-masc. sing.’), + dõ-ã, plur.",
+    "startpage" : 251,
+    "pos_on_page" : 45,
+    "language_bookname" : "barasana",
+    "concept" : "QUIÉN_WHO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jĩb ĩ̵́",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dĩ",
+                "start" : 11,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dĩ diĩ",
+                "start" : 11,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘qué-masc. sing.’ (‘what-masc. sing.’), + dõ-ã, plur.",
+                "start" : 24,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dõã",
+                "start" : 69,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+    ]
+})

@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "–† Giacone: pedália ‘viejo’ (‘old’) (adj.masc.)",
+    "startpage" : 47,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "VIEJO_OLD MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pedália",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

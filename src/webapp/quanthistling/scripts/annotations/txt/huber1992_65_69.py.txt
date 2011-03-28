@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "nɯʔ-pa pʰéxkʰó-expʰi",
+    "startpage" : 65,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "LUNA_MOON",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nɯʔpa pʰéxkʰóexpʰi",
+                "start" : 0,
+                "end" : 22
+            },
+    ]
+})

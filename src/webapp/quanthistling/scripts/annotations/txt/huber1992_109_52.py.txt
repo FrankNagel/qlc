@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hɯrɯmu† especie grande (large species), + wariˈʧi, especie pequeña (small species)",
+    "startpage" : 109,
+    "pos_on_page" : 52,
+    "language_bookname" : "carijona",
+    "concept" : "OSO HORMIGUERO_ANTEATER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɯrɯmu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "especie grande (large species), + wariˈʧi, especie pequeña (small species)",
+                "start" : 8,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wariʧi",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+    ]
+})

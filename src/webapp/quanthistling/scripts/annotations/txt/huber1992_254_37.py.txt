@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "dĩˈĩ́-oeti-ra + dīpeˈtí-rã, posible pero raro (possible but uncommon) anim. plur.",
+    "startpage" : 254,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "TODOS_ALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dĩĩ́oetira",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ dīpeˈtí-rã, posible pero raro (possible but uncommon)",
+                "start" : 16,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dīpetírã",
+                "start" : 18,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

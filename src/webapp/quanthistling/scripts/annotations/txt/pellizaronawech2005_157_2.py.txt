@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hola, oiga!",
+                "string" : "hola",
                 "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oiga",
+                "start" : 20,
                 "end" : 25
             },
             {

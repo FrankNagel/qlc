@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "təηkuá",
+    "startpage" : 248,
+    "pos_on_page" : 11,
+    "language_bookname" : "kogui",
+    "concept" : "RANCHO_SHELTER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "təŋkuá",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

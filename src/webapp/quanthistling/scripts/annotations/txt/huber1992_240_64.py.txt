@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "u.aikɯ-ɲo† + u0uθairo, u.aɯkɯ0airo",
+    "startpage" : 240,
+    "pos_on_page" : 64,
+    "language_bookname" : "witoto murui",
+    "concept" : "VIEJITA_OLD WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uaikɯɲo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ u0uθairo, u.aɯkɯ0airo",
+                "start" : 11,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uθuθairo",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uaɯkɯθairo",
+                "start" : 23,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "uθuθairo",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "u.aɯkɯθairo",
+                "start" : 23,
+                "end" : 34
+            },
+    ]
+})

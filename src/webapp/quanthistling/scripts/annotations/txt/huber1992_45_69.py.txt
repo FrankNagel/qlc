@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "kʷaʔá-ro, kwaʔá-ɯ",
+    "startpage" : 45,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "MADRE_MOTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʷaʔáro",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʷaʔáɯ",
+                "start" : 11,
+                "end" : 19
+            },
+    ]
+})

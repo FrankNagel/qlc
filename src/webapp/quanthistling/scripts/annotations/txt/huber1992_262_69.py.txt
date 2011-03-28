@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "í̵ʔxí̵-xɨí̵̵, í̵ʔxɨ-xɨ† + í̵ʔxɨ-nc",
+    "startpage" : 262,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "PLUMA_FEATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "í̵ʔxí̵xɨí̵̵",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "í̵ʔxɨxɨ",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ í̵ʔxɨ-ne",
+                "start" : 28,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "í̵ʔxɨne",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "í̵ʔxɨne",
+                "start" : 30,
+                "end" : 39
+            },
+    ]
+})

@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "(mé)-ʔmí̵í̵ʔeé† + ijáápe mí̵í̵ʔc",
+    "startpage" : 31,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "PIEL_SKIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔmí̵í̵ʔeé",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "méʔmí̵í̵ʔeé",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ijáápe mí̵í̵ʔe",
+                "start" : 20,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ijáápe mí̵í̵ʔe",
+                "start" : 22,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ijáápe mí̵í̵ʔe",
+                "start" : 22,
+                "end" : 40
+            },
+    ]
+})

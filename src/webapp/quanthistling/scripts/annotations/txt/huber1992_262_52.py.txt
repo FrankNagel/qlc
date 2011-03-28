@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "iho¹tɯ",
+    "startpage" : 262,
+    "pos_on_page" : 52,
+    "language_bookname" : "carijona",
+    "concept" : "PLUMA_FEATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ihotɯ",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ihoˈtɯ",
+                "start" : 0,
+                "end" : 6
+            },
+    ]
+})

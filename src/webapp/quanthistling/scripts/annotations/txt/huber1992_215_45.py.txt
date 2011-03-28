@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "bõhṍ-gĩ̵(-ãkã)† + kĩhĩ́-ãkã mase. sing.",
+    "startpage" : 215,
+    "pos_on_page" : 45,
+    "language_bookname" : "barasana",
+    "concept" : "PEQUEÑO_SMALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bõhṍgĩ̵",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bõhṍgĩ̵ãkã",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ kĩhĩ́-ãkã",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩhĩ́ãkã",
+                "start" : 24,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "mase. sing.",
+                "start" : 37,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

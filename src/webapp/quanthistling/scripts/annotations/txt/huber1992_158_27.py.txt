@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "í̵iriná† espec.: ‘bulbo’ (‘bulb’), + ipìʧu, ‘retoño’ (‘shoot, tap’)",
+    "startpage" : 158,
+    "pos_on_page" : 27,
+    "language_bookname" : "piapoco",
+    "concept" : "RAÍZ_ROOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "í̵iriná",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: ‘bulbo’ (‘bulb’), + ipìʧu, ‘retoño’ (‘shoot, tap’)",
+                "start" : 11,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ipìʧu",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

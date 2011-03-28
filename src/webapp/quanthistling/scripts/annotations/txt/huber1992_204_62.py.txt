@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ʔãjʔ² tejʔja²† + ʔã tcjʔja2",
+    "startpage" : 204,
+    "pos_on_page" : 62,
+    "language_bookname" : "kakua",
+    "concept" : "SU MANO_HIS HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔãjʔ² tejʔja²",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ʔã tcjʔja2",
+                "start" : 16,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔã tejʔja²",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʔã tejʔja²",
+                "start" : 18,
+                "end" : 29
+            },
+    ]
+})

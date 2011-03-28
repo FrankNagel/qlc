@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "káɸátʲɨ́kɨ-ʔi† = ‘pũnzar’ (‘punch’)",
+    "startpage" : 346,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "PUNZAR_PIERCE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "káɸátʲí̵kɨʔi",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘pũnzar’ (‘punch’)",
+                "start" : 19,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+    ]
+})

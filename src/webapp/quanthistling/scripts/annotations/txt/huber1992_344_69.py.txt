@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "nʲoʔ-nʲo† + nʲoíʔ-kʰʲo ‘chupar (mamando)’ (‘suck (nursing)’), pʰí̵ʔxa ‘chupar (dulces)’ (‘suck (sweets)’), ɨí̵ʔa, tsʰɨí̵ʔi ‘jugo de adentro de algo’ (‘suck the juice from something’)",
-    "startpage" : 356,
+    "fullentry" : "íʧaájo† + kʷápʰaáxkʰo, kʷáiákʰo, kʷápʰɯ́xɯʔxákʰo, eʔnénɯ, kʰátʰʲétʰʲéʔxɯ́kʰo",
+    "startpage" : 344,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
-    "concept" : "CHUPAR_SUCK",
+    "concept" : "GOLPEAR_HIT",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nʲoʔnʲo",
+                "string" : "íʧaájo",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "footnote",
-                "string" : "+ nʲoíʔ-kʰʲo ‘chupar (mamando)’ (‘suck (nursing)’), pʰí̵ʔxa ‘chupar (dulces)’ (‘suck (sweets)’), ɨí̵ʔa, tsʰɨí̵ʔi ‘jugo de adentro de algo’ (‘suck the juice from something’)",
+                "string" : "+ kʷápʰaáxkʰo, kʷáiákʰo, kʷápʰɯ́xɯʔxákʰo, eʔnénɯ, kʰátʰʲétʰʲeʔxɯ́kʰo",
                 "start" : 10,
-                "end" : 186
+                "end" : 88
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nʲoíʔkʰʲo",
+                "string" : "kʷápʰaáxkʰo",
                 "start" : 12,
-                "end" : 23
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "pʰí̵ʔxa",
-                "start" : 63,
-                "end" : 71
+                "string" : "kʷáiákʰo",
+                "start" : 27,
+                "end" : 37
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ɨí̵ʔa",
-                "start" : 109,
-                "end" : 115
+                "string" : "kʷápʰɯ́xɯʔxákʰo",
+                "start" : 39,
+                "end" : 56
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "tsʰɨí̵ʔi",
-                "start" : 117,
-                "end" : 186
+                "string" : "eʔnénɯ",
+                "start" : 58,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰátʰʲé́tʰʲéʔxɯ́kʰo",
+                "start" : 67,
+                "end" : 88
             },
             {
                 "type" : "pagelayout",

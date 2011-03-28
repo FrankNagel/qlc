@@ -1,0 +1,73 @@
+
+manual_entries.append({
+    "fullentry" : "-naa† acción completada (completed action), + háikta (futuro), ɩʃakálitaʃia, en comp. (in obj. clause), háiwa, pasado (past), ɩʃakálita...híni",
+    "startpage" : 295,
+    "pos_on_page" : 25,
+    "language_bookname" : "achagua",
+    "concept" : "CUANDO_WHEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "naa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "acción completada (completed action), + háikta (futuro), ɩʃakálitaʃia, en comp. (in obj. clause), háiwa, pasado (past), ɩʃakálita...híni",
+                "start" : 6,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "háikta",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧakálitaʃia",
+                "start" : 65,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "háiwa",
+                "start" : 107,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧakálita",
+                "start" : 130,
+                "end" : 140
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʧakálitaʃia",
+                "start" : 65,
+                "end" : 78
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʧakálita",
+                "start" : 130,
+                "end" : 140
+            },
+    ]
+})

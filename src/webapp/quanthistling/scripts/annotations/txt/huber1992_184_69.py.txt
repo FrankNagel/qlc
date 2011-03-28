@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "pha-ʔóxtshí̵-khɯ́-neβa",
+    "startpage" : 184,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "DIEZ_TEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʰaʔóxtsʰí̵kʰɯ́neβa",
+                "start" : 0,
+                "end" : 24
+            },
+    ]
+})

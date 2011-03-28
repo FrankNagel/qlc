@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "baˈto ti-† = ‘ser el último’ (‘to be last’), + soʔˈtoa ‘end, last’",
+    "startpage" : 186,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "ÚLTIMO_LAST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bato ti",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘ser el último’ (‘to be last’), + soʔˈtoa ‘end, last’",
+                "start" : 11,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "soʔtoa",
+                "start" : 48,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

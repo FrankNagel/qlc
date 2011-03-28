@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "namoˡro",
+    "startpage" : 201,
+    "pos_on_page" : 52,
+    "language_bookname" : "carijona",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "namoro",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "namoˈro",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "boa-ˈjí̵† animal o pez (animal or fish), + boa-rĩ́ harí̵wa-jɨ, persona (person)",
+    "startpage" : 274,
+    "pos_on_page" : 47,
+    "language_bookname" : "cubeo",
+    "concept" : "MATAR_KILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "boají̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "animal o pez (animal or fish), + boa-rĩ́ harí̵wa-jɨ, persona (person)",
+                "start" : 11,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "boarĩ́ harí̵wajɨ",
+                "start" : 44,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

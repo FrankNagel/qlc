@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "bãˈbã́-rĩ̵bĩ̵-ká-kɨ† anim., masc. sing.; inanim.: bãˈbã́ + clas.",
+    "startpage" : 185,
+    "pos_on_page" : 47,
+    "language_bookname" : "cubeo",
+    "concept" : "PRIMERO_FIRST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bãbã́rĩ̵bĩ̵kákɨ",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "anim., masc. sing.; inanim.: bãˈbã́ + clas.",
+                "start" : 26,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+    ]
+})
