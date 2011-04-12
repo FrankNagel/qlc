@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ɩdəˈbajnə",
+    "startpage" : 249,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "ESTE_THIS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "idəbajnə",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "idəˈbajnə",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

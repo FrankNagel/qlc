@@ -323,7 +323,7 @@ def correct_line(l):
     ret = re.sub(u"tɨmɉ-kɨna", u"tɨmɨ-kɨna", ret)
     ret = re.sub(u"áikkalawa~a", u"áikkalawa-a", ret)
     ret = re.sub(u"ẽse~ʔh", u"ẽse-ʔh", ret)
-    ret = re.sub(u"(?<!MN)̃", u"̄", ret)
+    ret = re.sub(u"̄", u"̃", ret)
     return ret
 
 
@@ -485,7 +485,7 @@ def main(argv):
                                     #    'type' : 'dictinterpretation',
                                     #    'string' : match.group(2)
                                     #}
-                                    a_s = create_annotation(len_entry, len(entry[l]['fullentry']), "footnote", "dictinterpretation", match.group(2))
+                                    a_s = create_annotation(len_entry, len(entry[l]['fullentry']), "footnote", "pagelayout", match.group(2))
                                     annotation[l].extend(a_s)
                             elif re.match(u"\d+$", language):
                                 for l in ( u'Español', 'English' ):
@@ -502,7 +502,7 @@ def main(argv):
                                     #    'type' : 'dictinterpretation',
                                     #    'string' : match.group(2)
                                     #}
-                                    a_s = create_annotation(len_entry + 1, len(entry[l]['fullentry']), "footnote", "dictinterpretation", match.group(2))
+                                    a_s = create_annotation(len_entry + 1, len(entry[l]['fullentry']), "footnote", "pagelayout", match.group(2))
                                     annotation[l].extend(a_s)
                             elif language in languages:
                                 l = language
@@ -522,7 +522,7 @@ def main(argv):
                                 #a['value'] = 'footnote'
                                 #a['type'] = 'dictinterpretation'
                                 #a['string'] = match.group(2)
-                                a_s = create_annotation(len_entry + 1, len(entry[l]['fullentry']), "footnote", "dictinterpretation", match.group(2))
+                                a_s = create_annotation(len_entry + 1, len(entry[l]['fullentry']), "footnote", "pagelayout", match.group(2))
                                 annotation[l].extend(a_s)
                                 
                                 if language == "TO":

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈkĩ̵́hã",
+    "startpage" : 201,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩ̵́hã",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

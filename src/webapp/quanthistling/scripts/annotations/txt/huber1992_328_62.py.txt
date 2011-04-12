@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "baʔ⁴-dĩ⁴, baä¹-dĩ⁴† una cosa (one item), grupo de cosas (group of items); Véase (See) 220, 221, 263",
+    "startpage" : 328,
+    "pos_on_page" : 62,
+    "language_bookname" : "kakua",
+    "concept" : "CORTO_SHORT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baʔ⁴dĩ⁴",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baa¹dĩ⁴",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "una cosa (one item), grupo de cosas (group of items); Véase (See) 220, 221, 263",
+                "start" : 22,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

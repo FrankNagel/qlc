@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "paan²at¹ nii¹†",
+    "startpage" : 3,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "LABIO_LIP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "paan²at¹ nii¹",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

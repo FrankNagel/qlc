@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "teiʔ³paʔ¹",
+    "startpage" : 183,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "CINCO_FIVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "teiʔ³paʔ¹",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

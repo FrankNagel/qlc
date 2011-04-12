@@ -1,45 +1,45 @@
 
 manual_entries.append({
-    "fullentry" : "axthjɯ́mɨɨí̵tʰé-kʰɯnɯ† + tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
-    "startpage" : 269,
-    "pos_on_page" : 69,
-    "language_bookname" : "bora",
-    "concept" : "VER_SEE",
+    "fullentry" : "ba-ra-po-mónae† + ba-po-mónac y po-monae",
+    "startpage" : 201,
+    "pos_on_page" : 56,
+    "language_bookname" : "cuiba",
+    "concept" : "ELLOS_THEY",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "axthjɯ́mɨɨí̵tʰékʰɯnɯ",
+                "string" : "barapomónae",
                 "start" : 0,
-                "end" : 23
+                "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "footnote",
-                "string" : "+ tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
-                "start" : 25,
-                "end" : 47
+                "string" : "+ ba-po-mónac y po-monae",
+                "start" : 17,
+                "end" : 42
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "tɯ́xɯɯ́kʰɯnɯ",
-                "start" : 27,
-                "end" : 40
+                "string" : "bapomónac",
+                "start" : 19,
+                "end" : 31
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ɯɯ́xe",
-                "start" : 42,
-                "end" : 47
+                "string" : "pomonae",
+                "start" : 34,
+                "end" : 42
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 24,
-                "end" : 24
+                "start" : 16,
+                "end" : 16
             },
     ]
 })

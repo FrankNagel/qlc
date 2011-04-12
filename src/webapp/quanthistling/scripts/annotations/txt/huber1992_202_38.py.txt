@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈjáa-wãbõ",
+    "startpage" : 202,
+    "pos_on_page" : 38,
+    "language_bookname" : "tuyuca",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jáawãbõ",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

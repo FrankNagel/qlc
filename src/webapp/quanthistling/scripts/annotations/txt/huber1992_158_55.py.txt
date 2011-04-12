@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "pe-tábu-topa:† + pe-tabu-nepé-to, más pequeño (smaller roots)",
+    "startpage" : 158,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "RAÍZ_ROOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "petábutopa",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ pe-tabu-nepé-to, más pequeño (smaller roots)",
+                "start" : 16,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "petabunepéto",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

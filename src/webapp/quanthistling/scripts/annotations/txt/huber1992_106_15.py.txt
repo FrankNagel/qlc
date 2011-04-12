@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈkamɩnə",
+    "startpage" : 106,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "MONO AULLADOR_HOWLER MONKEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kaminə",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈkaminə",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

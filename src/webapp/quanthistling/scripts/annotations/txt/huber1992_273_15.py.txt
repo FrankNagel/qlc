@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ʃidɨrɩkbajkajnə",
+    "startpage" : 273,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "MORIR_DIE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʃidɨrikbajkajnə",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʃidɨrikbajkajnə",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

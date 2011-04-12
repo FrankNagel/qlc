@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈkʰãʔa-na, ˈhãʔa-na",
+    "startpage" : 201,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰãʔana",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hãʔana",
+                "start" : 12,
+                "end" : 21
+            },
+    ]
+})

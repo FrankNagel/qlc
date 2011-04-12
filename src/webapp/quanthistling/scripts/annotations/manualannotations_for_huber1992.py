@@ -676,6 +676,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈjɨhɨ õˈbõkã† + ja õˈbõkã",
+    "startpage" : 202,
+    "pos_on_page" : 35,
+    "language_bookname" : "piratapuyo",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jɨhɨ õbõkã",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ja õˈbõkã",
+                "start" : 17,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ja õbõkã",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ˈbãrãkãʔˈ ã",
     "startpage" : 294,
     "pos_on_page" : 46,
@@ -789,6 +827,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "jɨ wãˈbõ bãˈkã",
+    "startpage" : 202,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jɨ wãbõ bãkã",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ˈ kĩ̵́hã-ja-tebũ-beto",
     "startpage" : 213,
     "pos_on_page" : 37,
@@ -808,6 +863,61 @@ manual_entries.append({
                 "string" : "ˈkĩ̵́hã-ja-tebũ-beto",
                 "start" : 0,
                 "end" : 24
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈkĩ̵́hã",
+    "startpage" : 201,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩ̵́hã",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "baʔ⁴-dĩ⁴, baä¹-dĩ⁴† una cosa (one item), grupo de cosas (group of items); Véase (See) 220, 221, 263",
+    "startpage" : 328,
+    "pos_on_page" : 62,
+    "language_bookname" : "kakua",
+    "concept" : "CORTO_SHORT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baʔ⁴dĩ⁴",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "baa¹dĩ⁴",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "una cosa (one item), grupo de cosas (group of items); Véase (See) 220, 221, 263",
+                "start" : 22,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
             },
     ]
 })
@@ -1370,7 +1480,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "axtʰjɯ́mɨɨí̵tʰé-kʰɯnɯ",
+                "string" : "axthjɯ́mɨɨí̵tʰékʰɯnɯ",
                 "start" : 0,
                 "end" : 23
             },
@@ -1499,6 +1609,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "jí̵ ã́ˈbṍ",
+    "startpage" : 202,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jí̵ ã́ˈbṍ",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "kí̵ga-íixe† + kí̵ga-taxe, Véase (See) 79",
     "startpage" : 81,
     "pos_on_page" : 68,
@@ -1577,6 +1704,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 20,
                 "end" : 20
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ʧɛne¹ teiʔ¹",
+    "startpage" : 184,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "DIEZ_TEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧɛne¹ teiʔ¹",
+                "start" : 0,
+                "end" : 11
             },
     ]
 })
@@ -1670,6 +1814,44 @@ manual_entries.append({
                 "string" : "pemátʔtéto",
                 "start" : 0,
                 "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pɩ̵i- = ‘mandar’ (‘send’)",
+    "startpage" : 302,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "FLUIR_FLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pɨi",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘mandar’ (‘send’)",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "pɨi-",
+                "start" : 0,
+                "end" : 5
             },
     ]
 })
@@ -2039,6 +2221,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ẽˈrã́, ĩˈrã́",
+    "startpage" : 201,
+    "pos_on_page" : 40,
+    "language_bookname" : "desano",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ẽrã́",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩrã́",
+                "start" : 9,
+                "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "púipip’áʧʰale† Véase (See) 127, 10 ‘pájaro-pelo’ (‘bird-hair’), Giacone: li-mapémani",
     "startpage" : 262,
     "pos_on_page" : 71,
@@ -2134,6 +2340,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 2,
                 "end" : 2
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈjáa-wãbõ",
+    "startpage" : 202,
+    "pos_on_page" : 38,
+    "language_bookname" : "tuyuca",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jáawãbõ",
+                "start" : 0,
+                "end" : 12
             },
     ]
 })
@@ -2398,6 +2621,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tɨh⁴† + tɨh⁴ ʧãba² rojo y plano (flat red type)",
+    "startpage" : 114,
+    "pos_on_page" : 62,
+    "language_bookname" : "kakua",
+    "concept" : "TORTUGA, MOTELO_RIVER TURTLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɨh⁴",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ tɨh⁴ ʧãba² rojo y plano (flat red type)",
+                "start" : 6,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɨh⁴ ʧãba²",
+                "start" : 8,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ũ’pe-ri-ka, kãʔ’ka-ri-ka ‘chupar (mamando)’ (‘suck (nursing)’), ‘chupar fruta’ (‘suck on fruit’)",
     "startpage" : 356,
     "pos_on_page" : 46,
@@ -2557,6 +2818,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ĩ-ˈgĩ̵́-sã",
+    "startpage" : 201,
+    "pos_on_page" : 41,
+    "language_bookname" : "siriano",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩgĩ̵́sã",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "dʲahiiʔi† + gotáʔi, ‘pedregoso?’ (‘rocky?’), Véase (See) 73",
     "startpage" : 55,
     "pos_on_page" : 67,
@@ -2590,6 +2868,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 9,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "paan²at¹ nii¹†",
+    "startpage" : 3,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "LABIO_LIP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "paan²at¹ nii¹",
+                "start" : 0,
+                "end" : 13
             },
     ]
 })
@@ -3208,6 +3503,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈdã́, dã́",
+    "startpage" : 201,
+    "pos_on_page" : 42,
+    "language_bookname" : "tatuyo",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dã́",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dã́",
+                "start" : 7,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "–† Giacone: tsídoa (Véase (See) &lt;b&gt;PP&lt;/b&gt; wa-sìdùa-ka ‘chupamos’ (‘we-suck’))",
     "startpage" : 176,
     "pos_on_page" : 71,
@@ -3265,6 +3584,23 @@ manual_entries.append({
                 "string" : "‘thread’",
                 "start" : 8,
                 "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈtiki-dã",
+    "startpage" : 201,
+    "pos_on_page" : 35,
+    "language_bookname" : "piratapuyo",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tikidã",
+                "start" : 0,
+                "end" : 9
             },
     ]
 })
@@ -3561,6 +3897,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "teiʔ³paʔ¹",
+    "startpage" : 183,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "CINCO_FIVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "teiʔ³paʔ¹",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "õˈõ(-pɨ)",
     "startpage" : 298,
     "pos_on_page" : 37,
@@ -3647,6 +4000,68 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tsére-to† espec.: ‘carasucia’, + kini-kíni-to, especie pequeña (smaller species)",
+    "startpage" : 132,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "PERICO, PIHUICHO_PARAKEET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tséreto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: ‘carasucia’, + kini-kíni-to, especie pequeña (smaller species)",
+                "start" : 11,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kinikínito",
+                "start" : 34,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ɩdəˈbajnə",
+    "startpage" : 249,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "ESTE_THIS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "idəbajnə",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "idəˈbajnə",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "nakába† = ‘vomitar (comida)’ (‘vomit (food)’), + jakába ‘vomitar (líquido)’ (‘vomit (liquid)’)",
     "startpage" : 355,
     "pos_on_page" : 56,
@@ -3711,6 +4126,44 @@ manual_entries.append({
                 "string" : "ã́-n-ope",
                 "start" : 8,
                 "end" : 17
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pe-tábu-topa:† + pe-tabu-nepé-to, más pequeño (smaller roots)",
+    "startpage" : 158,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "RAÍZ_ROOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "petábutopa",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ pe-tabu-nepé-to, más pequeño (smaller roots)",
+                "start" : 16,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "petabunepéto",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
             },
     ]
 })
@@ -3838,6 +4291,23 @@ manual_entries.append({
                 "string" : "təŋkuá",
                 "start" : 0,
                 "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈjaa-ãbõ",
+    "startpage" : 202,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jaaãbõ",
+                "start" : 0,
+                "end" : 10
             },
     ]
 })
@@ -4078,6 +4548,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈkĩ̵́ã",
+    "startpage" : 201,
+    "pos_on_page" : 38,
+    "language_bookname" : "tuyuca",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩ̵́ã",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "... m’úukulianha† = ‘el niño está tirando (la cola del mico)’ (‘the child is pulling (the monkey’s tail)’); Giacone: pe-epitánipe",
     "startpage" : 341,
     "pos_on_page" : 71,
@@ -4104,6 +4591,44 @@ manual_entries.append({
                 "string" : "",
                 "start" : 18,
                 "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ɯɯxo† + xooʔtʲo, especies pequeñas (smaller species)",
+    "startpage" : 102,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "VENADO_DEER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯxo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ xooʔtʲo, especies pequeñas (smaller species)",
+                "start" : 6,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xooʔtʲo",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
             },
     ]
 })
@@ -4197,6 +4722,44 @@ manual_entries.append({
                 "string" : "",
                 "start" : 22,
                 "end" : 22
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "arókamɨ† especie grande (large species), + arókaʃe, especie pequeña (small species)",
+    "startpage" : 109,
+    "pos_on_page" : 53,
+    "language_bookname" : "yukpa",
+    "concept" : "OSO HORMIGUERO_ANTEATER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "arókamɨ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "especie grande (large species), + arókaʃe, especie pequeña (small species)",
+                "start" : 10,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "arókaʃe",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
             },
     ]
 })
@@ -4391,6 +4954,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "néépʰáhyɯpa",
+    "startpage" : 176,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "CAÑA BRAVA_CANE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "néépʰáhʸɯpa",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "néépʰáhʸɯpa",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ihi† = ‘líquido’ (‘liquid’), + dahéme, 2 words: da heme = ‘su brea’ (‘it’s resin’)",
     "startpage" : 157,
     "pos_on_page" : 66,
@@ -4474,6 +5061,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tsɩˈdobarə",
+    "startpage" : 233,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "ESPALDA, PARTE SUPERIOR_UPPER BACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsidobarə",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "tsiˈdobarə",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "(mé)-ʔmí̵í̵ʔeé† + ijáápe mí̵í̵ʔc",
     "startpage" : 31,
     "pos_on_page" : 69,
@@ -4521,6 +5132,23 @@ manual_entries.append({
                 "string" : "ijáápe mí̵í̵ʔe",
                 "start" : 22,
                 "end" : 40
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈkĩ̵́hã",
+    "startpage" : 201,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩ̵́hã",
+                "start" : 0,
+                "end" : 9
             },
     ]
 })
@@ -4612,6 +5240,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈhã-õ ˈwaʔj",
+    "startpage" : 201,
+    "pos_on_page" : 50,
+    "language_bookname" : "secoya",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hãõ waʔj",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ĩ̵bĩ̵ tĩ̵tɨ ‘high clilf’",
     "startpage" : 151,
     "pos_on_page" : 51,
@@ -4655,6 +5300,30 @@ manual_entries.append({
                 "string" : "wãkũ",
                 "start" : 13,
                 "end" : 20
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈʔnoɾɩrə",
+    "startpage" : 171,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "AJÍ_CHILI PEPPER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔnoɾirə",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈʔnoɾirə",
+                "start" : 0,
+                "end" : 8
             },
     ]
 })
@@ -4739,6 +5408,58 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "bõdã, sitá, bue-rⁱ† = sũhṹ-ri",
+    "startpage" : 364,
+    "pos_on_page" : 45,
+    "language_bookname" : "barasana",
+    "concept" : "POLVO_DUST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bõdã",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sitá",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bueri",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= sũhṹ-ri",
+                "start" : 23,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "bue-ri",
+                "start" : 15,
+                "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "lée† espec.: (masc.), + ʒúani (fem.), + li-áni",
     "startpage" : 249,
     "pos_on_page" : 25,
@@ -4779,6 +5500,37 @@ manual_entries.append({
                 "string" : "",
                 "start" : 5,
                 "end" : 5
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "– † Giacone: ua-numada (portugués (ps) queixo); nu-ueda (ps mandíbula) (‘jaw’)",
+    "startpage" : 11,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "MENTÓN_CHIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uanumada",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nuueda",
+                "start" : 49,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
             },
     ]
 })
@@ -4876,6 +5628,30 @@ manual_entries.append({
                 "string" : "",
                 "start" : 11,
                 "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈʧɩkbədirə",
+    "startpage" : 136,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "PAVA DE MONTE_GUAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˈʧikbədirə",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈʧikbədirə",
+                "start" : 0,
+                "end" : 10
             },
     ]
 })
@@ -5054,6 +5830,51 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "pĩˈṍ(-), juˈɩí ˈwáaro to pour out of; river flowing, downstream",
+    "startpage" : 302,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "FLUIR_FLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pĩṍ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "juií wáaro",
+                "start" : 12,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "to pour out of; river flowing, downstream",
+                "start" : 27,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "juˈií ˈwáaro",
+                "start" : 12,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "hɨˈéjo-kɨ† masc., + hɨˈéjo-ko (fem.)",
     "startpage" : 319,
     "pos_on_page" : 47,
@@ -5087,6 +5908,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 11,
                 "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ʤɨɨp²ka¹",
+    "startpage" : 328,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "CORTO_SHORT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʤɨɨp²ka¹",
+                "start" : 0,
+                "end" : 8
             },
     ]
 })
@@ -5581,6 +6419,51 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ba-ra-po-mónae† + ba-po-mónac y po-monae",
+    "startpage" : 201,
+    "pos_on_page" : 56,
+    "language_bookname" : "cuiba",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "barapomónae",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ba-po-mónac y po-monae",
+                "start" : 17,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bapomónac",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pomonae",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "máaru(tu)tíkkui",
     "startpage" : 245,
     "pos_on_page" : 13,
@@ -5790,6 +6673,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 15,
                 "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈkĩ̵́hã",
+    "startpage" : 201,
+    "pos_on_page" : 39,
+    "language_bookname" : "yurutí",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩ̵́hã",
+                "start" : 0,
+                "end" : 9
             },
     ]
 })
@@ -6531,6 +7431,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈkʰãʔa-na, ˈhãʔa-na",
+    "startpage" : 201,
+    "pos_on_page" : 48,
+    "language_bookname" : "koreguaje",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰãʔana",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hãʔana",
+                "start" : 12,
+                "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "pɨí̵βa† + tsʰóxkʰómɯxɨ, Véase (See) 150",
     "startpage" : 161,
     "pos_on_page" : 69,
@@ -6702,6 +7626,44 @@ manual_entries.append({
                 "string" : "híʧuu",
                 "start" : 57,
                 "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "xíinimo† + ítɨ, eulebra pequeŋ̃a (small serpent)",
+    "startpage" : 122,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "SERPIENTE, CULEBRA_SNAKE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xíinimo",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ítɨ, eulebra pequeŋ̃a (small serpent)",
+                "start" : 10,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ítɨ",
+                "start" : 12,
+                "end" : 16
             },
             {
                 "type" : "pagelayout",
@@ -6909,6 +7871,23 @@ manual_entries.append({
                 "string" : "ihoˈtɯ",
                 "start" : 0,
                 "end" : 6
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ĩʔˈrã",
+    "startpage" : 201,
+    "pos_on_page" : 46,
+    "language_bookname" : "tanimuca",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩʔrã",
+                "start" : 0,
+                "end" : 7
             },
     ]
 })
@@ -7341,6 +8320,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈpĩ́kõ",
+    "startpage" : 121,
+    "pos_on_page" : 39,
+    "language_bookname" : "yurutí",
+    "concept" : "COLA_TAIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pĩ́kõ",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "búja (SP puja)",
     "startpage" : 95,
     "pos_on_page" : 58,
@@ -7360,6 +8356,47 @@ manual_entries.append({
                 "string" : "Spanish loanword",
                 "start" : 6,
                 "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ʔɛʔ⁴ka¹",
+    "startpage" : 330,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "EMBOTADO_DULL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔɛʔ⁴ka¹",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "majlʲá-j, tagsá-j",
+    "startpage" : 305,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "LAVAR_WASH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "majlʲáj",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tagsáj",
+                "start" : 11,
+                "end" : 19
             },
     ]
 })
@@ -7893,6 +8930,47 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈti-dã",
+    "startpage" : 201,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tidã",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ʃidɨrɩkbajkajnə",
+    "startpage" : 273,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "MORIR_DIE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʃidɨrikbajkajnə",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʃidɨrikbajkajnə",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "waʃí (wa-(a)ʃí)",
     "startpage" : 44,
     "pos_on_page" : 24,
@@ -8038,6 +9116,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ˈkamɩnə",
+    "startpage" : 106,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "MONO AULLADOR_HOWLER MONKEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kaminə",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈkaminə",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "mahí-re† + mahitá-ruka-re: ‘duerme colgado (en hamaca)’ (‘sleep hanging (in a hammock)’)",
     "startpage" : 226,
     "pos_on_page" : 55,
@@ -8071,6 +9173,30 @@ manual_entries.append({
                 "string" : "",
                 "start" : 9,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ɯ́méʔc mí̵í̵ʔe",
+    "startpage" : 257,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "CORTEZA_BARK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯ́méʔe mí̵í̵ʔe",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ɯ́méʔe mí̵í̵ʔe",
+                "start" : 0,
+                "end" : 17
             },
     ]
 })
@@ -8113,7 +9239,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "i-énibe",
+                "string" : "iénibe",
                 "start" : 141,
                 "end" : 149
             },

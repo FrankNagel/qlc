@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ʔɛʔ⁴ka¹",
+    "startpage" : 330,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "EMBOTADO_DULL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔɛʔ⁴ka¹",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

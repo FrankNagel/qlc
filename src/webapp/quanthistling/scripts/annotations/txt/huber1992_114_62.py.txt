@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "tɨh⁴† + tɨh⁴ ʧãba² rojo y plano (flat red type)",
+    "startpage" : 114,
+    "pos_on_page" : 62,
+    "language_bookname" : "kakua",
+    "concept" : "TORTUGA, MOTELO_RIVER TURTLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɨh⁴",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ tɨh⁴ ʧãba² rojo y plano (flat red type)",
+                "start" : 6,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tɨh⁴ ʧãba²",
+                "start" : 8,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ɯɯxo† + xooʔtʲo, especies pequeñas (smaller species)",
+    "startpage" : 102,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "VENADO_DEER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯxo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ xooʔtʲo, especies pequeñas (smaller species)",
+                "start" : 6,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xooʔtʲo",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+    ]
+})

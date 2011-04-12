@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "jí̵ ã́ˈbṍ",
+    "startpage" : 202,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jí̵ ã́ˈbṍ",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

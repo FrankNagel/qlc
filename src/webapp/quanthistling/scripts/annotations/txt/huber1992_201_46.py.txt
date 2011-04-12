@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ĩʔˈrã",
+    "startpage" : 201,
+    "pos_on_page" : 46,
+    "language_bookname" : "tanimuca",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩʔrã",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

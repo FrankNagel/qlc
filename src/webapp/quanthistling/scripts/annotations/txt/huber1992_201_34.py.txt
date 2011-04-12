@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈti-dã",
+    "startpage" : 201,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tidã",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

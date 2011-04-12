@@ -37,7 +37,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "i-énibe",
+                "string" : "iénibe",
                 "start" : 141,
                 "end" : 149
             },

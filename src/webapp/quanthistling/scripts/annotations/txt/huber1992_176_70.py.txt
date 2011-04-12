@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "néépʰáhyɯpa",
+    "startpage" : 176,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "CAÑA BRAVA_CANE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "néépʰáhʸɯpa",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "néépʰáhʸɯpa",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

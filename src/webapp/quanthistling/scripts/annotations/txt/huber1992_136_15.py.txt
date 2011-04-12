@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈʧɩkbədirə",
+    "startpage" : 136,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "PAVA DE MONTE_GUAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˈʧikbədirə",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˈʧikbədirə",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

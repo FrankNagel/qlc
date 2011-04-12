@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈpĩ́kõ",
+    "startpage" : 121,
+    "pos_on_page" : 39,
+    "language_bookname" : "yurutí",
+    "concept" : "COLA_TAIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pĩ́kõ",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "tsére-to† espec.: ‘carasucia’, + kini-kíni-to, especie pequeña (smaller species)",
+    "startpage" : 132,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "PERICO, PIHUICHO_PARAKEET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tséreto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "espec.: ‘carasucia’, + kini-kíni-to, especie pequeña (smaller species)",
+                "start" : 11,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kinikínito",
+                "start" : 34,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

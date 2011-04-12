@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "jɨ wãˈbõ bãˈkã",
+    "startpage" : 202,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jɨ wãbõ bãkã",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})

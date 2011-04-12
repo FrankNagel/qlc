@@ -13,6 +13,7 @@ def make_map(config):
     map.minimization = False
 
     map.connect('/', controller='pages', action='index')
+    map.connect('/dbdump_date.txt', controller='pages', action='dbdump_date')
     #map.connect('/index.html', controller='pages', action='index')
     map.connect('/search/index.html', controller='search', action='index')
     map.connect('/search/result.html', controller='search', action='result')

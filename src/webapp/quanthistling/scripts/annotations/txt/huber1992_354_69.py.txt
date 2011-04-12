@@ -1,0 +1,73 @@
+
+manual_entries.append({
+    "fullentry" : "ɯʧíxkʰʲɯ́† + ɯ́ʧiɯ́kʰɯ, tsʰíiʔxʲɯ́kʰɯ, aráʔkʰo (v.l.), βoβóxkʰɯ, kʰɯβa, ápʰʲɯ́xakʰóóβe (v.i.)",
+    "startpage" : 354,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "OLER_SMELL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯʧíxkʰʲɯ́",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ɯ́ʧiɯ́kʰɯ, tsʰíiʔxʲɯ́kʰɯ, aráʔkʰo (v.l.), βoβóxkʰɯ, kʰɯβa, ápʰʲɯ́xakʰóóβe (v.i.)",
+                "start" : 12,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯ́ʧiɯ́kʰɯ",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsʰíiʔxʲɯ́kʰɯ",
+                "start" : 25,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aráʔkʰo",
+                "start" : 41,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "βoβóxkʰɯ",
+                "start" : 58,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰɯβa",
+                "start" : 69,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ápʰʲɯ́xakʰóóβe",
+                "start" : 76,
+                "end" : 93
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

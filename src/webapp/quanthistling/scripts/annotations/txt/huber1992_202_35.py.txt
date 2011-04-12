@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ˈjɨhɨ õˈbõkã† + ja õˈbõkã",
+    "startpage" : 202,
+    "pos_on_page" : 35,
+    "language_bookname" : "piratapuyo",
+    "concept" : "MI MANO_MY HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jɨhɨ õbõkã",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ja õˈbõkã",
+                "start" : 17,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ja õbõkã",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

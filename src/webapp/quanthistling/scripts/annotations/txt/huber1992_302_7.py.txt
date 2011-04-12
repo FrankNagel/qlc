@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "pɩ̵i- = ‘mandar’ (‘send’)",
+    "startpage" : 302,
+    "pos_on_page" : 7,
+    "language_bookname" : "epena Saija",
+    "concept" : "FLUIR_FLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pɨi",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "= ‘mandar’ (‘send’)",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "pɨi-",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

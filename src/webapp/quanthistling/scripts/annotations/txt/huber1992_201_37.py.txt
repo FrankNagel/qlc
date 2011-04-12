@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ˈkĩ̵́hã",
+    "startpage" : 201,
+    "pos_on_page" : 37,
+    "language_bookname" : "bará",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kĩ̵́hã",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

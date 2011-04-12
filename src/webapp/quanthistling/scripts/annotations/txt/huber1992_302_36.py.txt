@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "pĩˈṍ(-), juˈɩí ˈwáaro to pour out of; river flowing, downstream",
+    "startpage" : 302,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "FLUIR_FLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pĩṍ",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "juií wáaro",
+                "start" : 12,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "to pour out of; river flowing, downstream",
+                "start" : 27,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "juˈií ˈwáaro",
+                "start" : 12,
+                "end" : 26
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "xíinimo† + ítɨ, eulebra pequeŋ̃a (small serpent)",
+    "startpage" : 122,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "SERPIENTE, CULEBRA_SNAKE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xíinimo",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "footnote",
+                "string" : "+ ítɨ, eulebra pequeŋ̃a (small serpent)",
+                "start" : 10,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ítɨ",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

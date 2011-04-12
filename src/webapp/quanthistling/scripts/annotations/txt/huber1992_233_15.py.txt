@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "tsɩˈdobarə",
+    "startpage" : 233,
+    "pos_on_page" : 15,
+    "language_bookname" : "barí",
+    "concept" : "ESPALDA, PARTE SUPERIOR_UPPER BACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsidobarə",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "tsiˈdobarə",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

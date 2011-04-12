@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ʧɛne¹ teiʔ¹",
+    "startpage" : 184,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "DIEZ_TEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧɛne¹ teiʔ¹",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

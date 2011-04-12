@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "majlʲá-j, tagsá-j",
+    "startpage" : 305,
+    "pos_on_page" : 23,
+    "language_bookname" : "inga",
+    "concept" : "LAVAR_WASH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "majlʲáj",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tagsáj",
+                "start" : 11,
+                "end" : 19
+            },
+    ]
+})

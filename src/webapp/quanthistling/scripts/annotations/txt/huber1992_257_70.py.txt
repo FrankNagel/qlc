@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ɯ́méʔc mí̵í̵ʔe",
+    "startpage" : 257,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "CORTEZA_BARK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯ́méʔe mí̵í̵ʔe",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ɯ́méʔe mí̵í̵ʔe",
+                "start" : 0,
+                "end" : 17
+            },
+    ]
+})
