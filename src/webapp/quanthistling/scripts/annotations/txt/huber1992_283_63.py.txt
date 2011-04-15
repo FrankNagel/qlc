@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "dɔ̃j",
+    "startpage" : 283,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "DECIR_SAY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dɔ̃j",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

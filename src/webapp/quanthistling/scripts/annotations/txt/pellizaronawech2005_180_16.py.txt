@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "imiá-i, u. (a: t-',tm-i,-). = bañar, bautizar. Is. inijiá-r = mojar.; nijiá-r = lavar. Uchín imiáiyi = bañó al niño. Inijiártá = moja. Nijiártá = lava.",
+    "startpage" : 180,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "imiái",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u. (a: t-',tm-i,-).",
+                "start" : 9,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bañar",
+                "start" : 31,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bautizar",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "uchín imiáiyi",
+                "start" : 91,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "bañó al niño",
+                "start" : 109,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "inijiártá",
+                "start" : 126,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "moja",
+                "start" : 140,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nijiártá",
+                "start" : 146,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "lava",
+                "start" : 159,
+                "end" : 163
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "imiá-i",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-',tm-i,-).",
+                "start" : 9,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. inijiá-r = mojar.; nijiá-r = lavar.",
+                "start" : 49,
+                "end" : 90
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "tæ̃h ʔĩd† = ‘madre del niño’ (‘child’s mother’)",
+    "startpage" : 43,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "ESPOSA_WIFE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tæ̃h ʔĩd",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘madre del niño’ (‘child’s mother’)",
+                "start" : 11,
+                "end" : 49
+            },
+    ]
+})

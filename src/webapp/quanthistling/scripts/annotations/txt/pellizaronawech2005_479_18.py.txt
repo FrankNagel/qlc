@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "wakém-ra, m. (para: rut-ra,rutma-r,r-ur) = empacharse, indigestarse, blo- quearse el intestino. Namankén yuá, wakémrayi = se empachó comiendo carne.",
+    "startpage" : 479,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wakémra",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empacharse",
+                "start" : 44,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "indigestarse",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bloquearse el intestino",
+                "start" : 70,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namankén yuá, wakémrayi",
+                "start" : 97,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se empachó comiendo carne",
+                "start" : 126,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wakém-ra",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: rut-ra,rutma-r,r-ur)",
+                "start" : 11,
+                "end" : 41
+            },
+    ]
+})

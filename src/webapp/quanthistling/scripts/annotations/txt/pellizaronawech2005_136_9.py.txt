@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "+ anián-sa (inián-sa, ayán-sa, iyán-sa), un. = estar junto. Juank Chapáikiain ayánsayi = Juank estuvo junto donde Chapáik'.",
+    "startpage" : 136,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aniánsa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iniánsa",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ayánsa",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iyánsa",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "un.",
+                "start" : 45,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar junto",
+                "start" : 51,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank chapáikiain ayánsayi",
+                "start" : 64,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank estuvo junto donde chapáik'",
+                "start" : 95,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "án",
+                "start" : 26,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 36,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "un.",
+                "start" : 45,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 85,
+                "end" : 87
+            },
+    ]
+})

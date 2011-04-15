@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "rá-w̃i, ra-w̃a",
+    "startpage" : 223,
+    "pos_on_page" : 14,
+    "language_bookname" : "tunebo central",
+    "concept" : "VEN_COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ráw̃i",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "raw̃a",
+                "start" : 9,
+                "end" : 15
+            },
+    ]
+})

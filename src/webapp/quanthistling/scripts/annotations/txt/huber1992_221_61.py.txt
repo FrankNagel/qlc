@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "hɛ̃lẽ⁴",
+    "startpage" : 221,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "NEGRO_BLACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɛ̃lẽ⁴",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

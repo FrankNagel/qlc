@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "ɸṍhɯ̃",
+    "startpage" : 218,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "BUENO_GOOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸṍhɯ̃",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

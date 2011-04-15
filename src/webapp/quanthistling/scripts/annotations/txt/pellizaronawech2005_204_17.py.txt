@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "Yananás, na. = nombre de varón; ⇨ nombre de un río (kch. yana, = negro; s = entsa = agua de vertientes) = (río negro).",
+    "startpage" : 204,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yananás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 16,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río negro",
+                "start" : 110,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yananás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(kch. yana, = negro; s = entsa = agua de vertientes)",
+                "start" : 54,
+                "end" : 106
+            },
+    ]
+})

@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "• táitete = cuchicheo (táitum = cuchicheos).",
+    "startpage" : 257,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "táitete",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuchicheo",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "táitum",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuchicheos",
+                "start" : 34,
+                "end" : 44
+            },
+    ]
+})

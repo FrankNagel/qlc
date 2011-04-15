@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "tæ̃h ʔip† ‘padre del niño’ (‘child’s father’)",
+    "startpage" : 42,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "MARIDO, ESPOSO_HUSBAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tæ̃h ʔip",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "‘padre del niño’ (‘child’s father’)",
+                "start" : 10,
+                "end" : 46
+            },
+    ]
+})

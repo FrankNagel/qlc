@@ -4,6 +4,91 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "pushumamu, ni.na. (r,ram,ri) = de color pardo; el color pardo = atash' mushumamu = gallina de color pardo. Atashin pushumámuri = el color pardo de la gallina.",
+    "startpage" : 354,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pushumamu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de color pardo",
+                "start" : 31,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el color pardo = atash' mushumamu = gallina de color pardo",
+                "start" : 47,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el color pardo",
+                "start" : 47,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "atash' mushumamu",
+                "start" : 64,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "gallina de color pardo",
+                "start" : 83,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "atashin pushumámuri",
+                "start" : 107,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el color pardo de la gallina",
+                "start" : 130,
+                "end" : 158
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pushumamu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* kesa-r, teka-r, u. = pelar (tubérculo, árbol, cáscaras pegadas), Wapái kesartá = pela la papaya.",
     "startpage" : 415,
     "pos_on_page" : 37,
@@ -56,6 +141,127 @@ manual_entries.append({
                 "string" : "u.",
                 "start" : 18,
                 "end" : 20
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ anián-sa (inián-sa, ayán-sa, iyán-sa), un. = estar junto. Juank Chapáikiain ayánsayi = Juank estuvo junto donde Chapáik'.",
+    "startpage" : 136,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aniánsa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iniánsa",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ayánsa",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iyánsa",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "un.",
+                "start" : 45,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar junto",
+                "start" : 51,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank chapáikiain ayánsayi",
+                "start" : 64,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank estuvo junto donde chapáik'",
+                "start" : 95,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "án",
+                "start" : 26,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 36,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "un.",
+                "start" : 45,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 85,
+                "end" : 87
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ tsawái-nantu = astro del día = sol.",
+    "startpage" : 306,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsawáinantu",
+                "start" : 2,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "astro del día",
+                "start" : 18,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sol",
+                "start" : 35,
+                "end" : 38
             },
     ]
 })
@@ -205,6 +411,176 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "yunkunamu, ni.na. (r,ram,ri) = empaquetado/a; paquete, tamal, la empaquetada, Ijiu yunkunamu = palmito empaquetado. Ijiún yunkunámuri = tamal de palmitos.",
+    "startpage" : 214,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkunamu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empaquetado",
+                "start" : 31,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empaquetada",
+                "start" : 31,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paquete",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tamal",
+                "start" : 55,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la empaquetada",
+                "start" : 62,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ijiu yunkunamu",
+                "start" : 78,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "palmito empaquetado.",
+                "start" : 95,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ijiún yunkunámuri",
+                "start" : 116,
+                "end" : 135
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tamal de palmitos",
+                "start" : 138,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yunkunamu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ wáa-k, m. = sobresalir (waa-k = extraviarse; wa-ka = subirse).",
+    "startpage" : 153,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wáak",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sobresalir",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "waak",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "extraviarse",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "waka",
+                "start" : 48,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "subirse",
+                "start" : 56,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 28,
+                "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "-kákut (kákit) awátmiayi = tac golpeó.",
     "startpage" : 155,
     "pos_on_page" : 6,
@@ -308,6 +684,91 @@ manual_entries.append({
                 "string" : "añadir",
                 "start" : 16,
                 "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ aniám-sa (iniám-sa; ayám-sa, iyám-sa), 2m. = acercarse Antún' Juánkain ayámas tepáwai = Antún' está acostado cerca de Juank.",
+    "startpage" : 136,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aniámsa",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iniámsa",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ayámsa",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iyámsa",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "2m.",
+                "start" : 45,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acercarse",
+                "start" : 51,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Antún' Juánkain ayámas tepáwai",
+                "start" : 61,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Antún' está acostado cerca de Juank",
+                "start" : 98,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 26,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 36,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "2m.",
+                "start" : 45,
+                "end" : 48
             },
     ]
 })
@@ -663,6 +1124,63 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "pet, ui. = violentamente, Pet ajapayi = tiró violentamente.",
+    "startpage" : 344,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pet",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "violentamente",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Pet ajapayi",
+                "start" : 26,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tiró violentamente.",
+                "start" : 40,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pet",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 5,
+                "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ tsetsé-ar, m. = tiritar, titiritar, tener frío.",
     "startpage" : 169,
     "pos_on_page" : 7,
@@ -823,6 +1341,77 @@ manual_entries.append({
                 "string" : "poseer",
                 "start" : 23,
                 "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wakém-ra, m. (para: rut-ra,rutma-r,r-ur) = empacharse, indigestarse, blo- quearse el intestino. Namankén yuá, wakémrayi = se empachó comiendo carne.",
+    "startpage" : 479,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wakémra",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empacharse",
+                "start" : 44,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "indigestarse",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bloquearse el intestino",
+                "start" : 70,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namankén yuá, wakémrayi",
+                "start" : 97,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se empachó comiendo carne",
+                "start" : 126,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wakém-ra",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: rut-ra,rutma-r,r-ur)",
+                "start" : 11,
+                "end" : 41
             },
     ]
 })
@@ -1309,6 +1898,126 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Nantu, na. (r,ram,ri) = nombre de varón; ⇨ ave (blanca, patas y pico anaranjados). ⇨luna; mes; reloj; hora. Ju nantu akáikimtai, winíttiajai = vendré al fin del mes (bajando la luna). Nantu urútmáit = qué hora es? Nantun tákakeajai = tengo un reloj.",
+    "startpage" : 306,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nantu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 24,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ave (blanca, patas y pico anaranjados)",
+                "start" : 44,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "luna",
+                "start" : 85,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mes",
+                "start" : 91,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "reloj",
+                "start" : 96,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hora",
+                "start" : 103,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ju nantu akáikimtai, winíttiajai",
+                "start" : 109,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "vendré al fin del mes (bajando la luna)",
+                "start" : 146,
+                "end" : 186
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nantu urútmáit",
+                "start" : 188,
+                "end" : 204
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué hora es",
+                "start" : 207,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nantun tákakeajai",
+                "start" : 221,
+                "end" : 239
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tengo un reloj",
+                "start" : 242,
+                "end" : 256
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nantu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 7,
+                "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ weká-sa, m. = andar, pasear.",
     "startpage" : 170,
     "pos_on_page" : 36,
@@ -1381,6 +2090,190 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "imiá-i, u. (a: t-',tm-i,-). = bañar, bautizar. Is. inijiá-r = mojar.; nijiá-r = lavar. Uchín imiáiyi = bañó al niño. Inijiártá = moja. Nijiártá = lava.",
+    "startpage" : 180,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "imiái",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u. (a: t-',tm-i,-).",
+                "start" : 9,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bañar",
+                "start" : 31,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bautizar",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "uchín imiáiyi",
+                "start" : 91,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "bañó al niño",
+                "start" : 109,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "inijiártá",
+                "start" : 126,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "moja",
+                "start" : 140,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nijiártá",
+                "start" : 146,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "lava",
+                "start" : 159,
+                "end" : 163
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "imiá-i",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-',tm-i,-).",
+                "start" : 9,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. inijiá-r = mojar.; nijiá-r = lavar.",
+                "start" : 49,
+                "end" : 90
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "napéarma, ni.na. (r,ram,ri) = mordiscado/a; mordisco, Juank napéarma = Juank mordiscado. Juánkan napéarmari = el mordisco de Juank.",
+    "startpage" : 307,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "napéarma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mordiscado",
+                "start" : 31,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mordiscada",
+                "start" : 31,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mordisco",
+                "start" : 45,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Juank napéarma",
+                "start" : 55,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Juank mordiscado.",
+                "start" : 73,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan napéarmari",
+                "start" : 91,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el mordisco de juank",
+                "start" : 114,
+                "end" : 134
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "napéarma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "yunkíshr-uk, m.)para: utr-uk,utram-ka,ut-ka) = formarse el sarro, tener sarro. Nai yunkíshrukái = el diente tiene sarro.",
     "startpage" : 214,
     "pos_on_page" : 12,
@@ -1445,6 +2338,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "+ kashi-nantu = astro de la noche = luna.",
+    "startpage" : 306,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kashinantu",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "astro de la noche",
+                "start" : 16,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "luna",
+                "start" : 36,
+                "end" : 40
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ umá (r,im,i) = hermano, hermana (término usado entre personas de diferente sexo).",
     "startpage" : 208,
     "pos_on_page" : 14,
@@ -1490,6 +2412,84 @@ manual_entries.append({
                 "string" : "",
                 "start" : 56,
                 "end" : 56
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "purit, purírkasa; tsurit, tsurírkasa, ui. mch. = ruido (de raspar, arrancar, morder, carcomer) Jankíjai purírkasa jukiyi = se raspó con un espino.",
+    "startpage" : 354,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "purit",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "purírkasa",
+                "start" : 7,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsurit",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsurírkasa",
+                "start" : 27,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui. mch.",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ruido (de raspar, arrancar, morder, carcomer)",
+                "start" : 51,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jankíjai purírkasa jukiyi",
+                "start" : 97,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se raspó con un espino.",
+                "start" : 127,
+                "end" : 151
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "purit, purírkasa; tsurit, tsurírkasa",
+                "start" : 0,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui. mch.",
+                "start" : 40,
+                "end" : 48
             },
     ]
 })
@@ -1679,6 +2679,105 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "wakerukma, ni.na. (r,ram,ri) = querido/a, de-seado/a: lo querido, lo deseado, la voluntad. Juank wakerukma = Juank querido. Juánkan wakerúkmari = la voluntad de Juank.",
+    "startpage" : 480,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wakerukma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "querido/a",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "deseado/a",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo querido",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo deseado",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la voluntad",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank wakerukma",
+                "start" : 91,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank querido",
+                "start" : 109,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan wakerúkmari",
+                "start" : 124,
+                "end" : 145
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la voluntad de juank",
+                "start" : 148,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wakerukma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* iníntr-us, u. = investigarlo.",
     "startpage" : 186,
     "pos_on_page" : 24,
@@ -1703,6 +2802,84 @@ manual_entries.append({
                 "string" : "investigarlo",
                 "start" : 19,
                 "end" : 31
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tunmiarma, ni.na. (r,ram,ri) = tejida (cinta); la tejida, Senta tunmiarma = cinta tejida. Sentan tunmiármari = la tejida de la cinta.",
+    "startpage" : 448,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tunmiarma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tejida (cinta)",
+                "start" : 31,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la tejida",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Senta tunmiarma",
+                "start" : 58,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cinta tejida.",
+                "start" : 76,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "sentan tunmiármari",
+                "start" : 90,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la tejida de la cinta",
+                "start" : 112,
+                "end" : 133
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tunmiarma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
             },
     ]
 })
@@ -1811,6 +2988,77 @@ manual_entries.append({
                 "string" : "calentarse el agua",
                 "start" : 14,
                 "end" : 32
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "napi, na. (r,ram,ri) = culebra, serpiente Napí iniái min min ajáawai = la lengua de la culebra vibra. Makánch' esáti (esátyi) = me ha picado una vibora.",
+    "startpage" : 307,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "napi",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "culebra",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Napí iniái min min ajáawai",
+                "start" : 42,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la lengua de la culebra vibra.",
+                "start" : 74,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "makánch' esáti (esátyi)",
+                "start" : 105,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "me ha picado una vibora",
+                "start" : 134,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "napi",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 6,
+                "end" : 20
             },
     ]
 })
@@ -2187,6 +3435,99 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Yananás, na. = nombre de varón; ⇨ nombre de un río (kch. yana, = negro; s = entsa = agua de vertientes) = (río negro).",
+    "startpage" : 204,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yananás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 16,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río negro",
+                "start" : 110,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yananás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(kch. yana, = negro; s = entsa = agua de vertientes)",
+                "start" : 54,
+                "end" : 106
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "• táitete = cuchicheo (táitum = cuchicheos).",
+    "startpage" : 257,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "táitete",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuchicheo",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "táitum",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuchicheos",
+                "start" : 34,
+                "end" : 44
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ nuntum-sa. m. = acercarse.",
     "startpage" : 138,
     "pos_on_page" : 23,
@@ -2432,6 +3773,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "nakamu, ni.na. (r,ram,ri) = conocido/a; conocimiento Juank nekamu = Juank conocido. Juánkan nekámuri = el conocimiento de Juank.",
+    "startpage" : 313,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nakamu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conocido",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conocida",
+                "start" : 28,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conocimiento",
+                "start" : 40,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Juank nekamu",
+                "start" : 53,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Juank conocido",
+                "start" : 68,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan nekámuri",
+                "start" : 84,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el conocimiento de juank",
+                "start" : 105,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nakamu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 8,
+                "end" : 25
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* akan-ra, u. desgajar.",
     "startpage" : 124,
     "pos_on_page" : 35,
@@ -2541,6 +3967,56 @@ manual_entries.append({
                 "string" : "Is shiyumi.",
                 "start" : 294,
                 "end" : 305
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsútsamianku, na. (ur,ru,ri) = nombre de una estrella (de una constelación?). is. yaa.",
+    "startpage" : 423,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsútsamianku",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de una estrella (de una constelación?)",
+                "start" : 32,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsútsamianku",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (ur,ru,ri)",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. yaa.",
+                "start" : 80,
+                "end" : 88
             },
     ]
 })
@@ -2853,6 +4329,70 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "+ ipiampa-r, apampa-r, napampa-r, u. (a: tra,tma-r,-) = re- producir, producir, multiplicar.",
+    "startpage" : 334,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ipiampar",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apampar",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "napampar",
+                "start" : 23,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "reproducir",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "producir",
+                "start" : 70,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "multiplicar",
+                "start" : 80,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: tra,tma-r,-)",
+                "start" : 34,
+                "end" : 53
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "íwianch', na. (iur,rum,ri); (iwia+chi = viviente minúsculo) = espíritu. El shuar concibe al íwianch' como un viviente pequeño que puede penetrar los lugares más cerrados. Los íwianch' se aparecen de muchas maneras, porque no pueden ser captados por el ojo humano en su verdadera realidad. Todo ser que no tiene cuerpo, es íwianch'. El mismo hombre, al perder su cuerpo, se hace íwianch'. Dios-Arútam es íwianch' que se manifiesta a los hombres bajo el semblante de Nunkui, Tsunki, Etsa, Shakáim, Ayumpúm y sus respectivas hipóstasis. Íwianch' auxiliares del hombre son los Pásuk, los Tséntsak, los Arútam-shuar. Íwianch' que causan daño a los hombres son los Wáwek, Emésak, Íirshimp', Pasunt, Úmpunk y Anájmak. Iwianchin wainkiámjai = encontré un espíritu. Nukua, íwianch' wemáme = mamá, te has transformado en un espíritu.",
     "startpage" : 197,
     "pos_on_page" : 3,
@@ -2983,6 +4523,176 @@ manual_entries.append({
                 "string" : "is. iniám-ra.",
                 "start" : 11,
                 "end" : 25
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "meje-ás, u. (a: nt-sa,ntma-s,-) = husmear, olfatear (= besar). Yawá namankén mejeásái = el perro husmeó la carne. Nukuach' nii uchirín mejéawai = la mamá olfatea (= besa) a su bebé. Mejéntsatá = bésame.",
+    "startpage" : 280,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mejeás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "husmear",
+                "start" : 35,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "olfatear",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "besar",
+                "start" : 53,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yawá namankén mejeásái",
+                "start" : 64,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el perro husmeó la carne",
+                "start" : 93,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nukuach' nii uchirín mejéawai",
+                "start" : 120,
+                "end" : 151
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la mamá olfatea (besa) a su bebé.",
+                "start" : 154,
+                "end" : 191
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "mejéntsatá",
+                "start" : 192,
+                "end" : 204
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "bésame",
+                "start" : 207,
+                "end" : 214
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meje-ás,",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: nt-sa,ntma-s,-)",
+                "start" : 10,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tuntuí-ya, u. (para: tiur-a,tiurma-,t-iua) = to-car (instrumentos de percusión). Tuntuí tuntuítiuratá = tócame el tunduli.",
+    "startpage" : 449,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuntuíya",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tocar (instrumentos de percusión)",
+                "start" : 46,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tuntuí tuntuítiuratá",
+                "start" : 83,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tócame el tunduli",
+                "start" : 109,
+                "end" : 127
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tuntuí-ya,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (para: tiur-a,tiurma-,t-iua)",
+                "start" : 12,
+                "end" : 43
             },
     ]
 })
@@ -3120,6 +4830,98 @@ manual_entries.append({
                 "string" : "enfilar",
                 "start" : 14,
                 "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wái-nk, m. (ntr-uk,ntram-ka,nt-kia) = entrar Yunkits wáanam wainkiái = la guatusa entró en el hueco.",
+    "startpage" : 476,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wáink",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entrar",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yunkits wáanam wainkiái",
+                "start" : 46,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la guatusa entró en el hueco.",
+                "start" : 74,
+                "end" : 104
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "w",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "á",
+                "start" : 1,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 1,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "i-nk",
+                "start" : 3,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (ntr-uk,ntram-ka,nt-kia)",
+                "start" : 9,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 55,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 63,
+                "end" : 64
             },
     ]
 })

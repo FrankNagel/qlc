@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "wiw̃ara",
+    "startpage" : 40,
+    "pos_on_page" : 14,
+    "language_bookname" : "tunebo central",
+    "concept" : "MUJER_WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wiw̃ara",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

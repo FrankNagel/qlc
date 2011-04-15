@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "mɯ̃ʔtõ",
+    "startpage" : 43,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "ESPOSA_WIFE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɯ̃ʔtõ",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

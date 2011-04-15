@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "+ ipiampa-r, apampa-r, napampa-r, u. (a: tra,tma-r,-) = re- producir, producir, multiplicar.",
+    "startpage" : 334,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ipiampar",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apampar",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "napampar",
+                "start" : 23,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "reproducir",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "producir",
+                "start" : 70,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "multiplicar",
+                "start" : 80,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: tra,tma-r,-)",
+                "start" : 34,
+                "end" : 53
+            },
+    ]
+})

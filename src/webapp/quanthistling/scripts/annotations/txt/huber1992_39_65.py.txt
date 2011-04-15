@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "w̃́i.i-θa = niño, muchacho (‘boy’)",
+    "startpage" : 39,
+    "pos_on_page" : 65,
+    "language_bookname" : "witoto mɨnɨca",
+    "concept" : "VARÓN_MALE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "w̃́i.iθa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= niño, muchacho (‘boy’)",
+                "start" : 10,
+                "end" : 35
+            },
+    ]
+})

@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "wakerukma, ni.na. (r,ram,ri) = querido/a, de-seado/a: lo querido, lo deseado, la voluntad. Juank wakerukma = Juank querido. Juánkan wakerúkmari = la voluntad de Juank.",
+    "startpage" : 480,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wakerukma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "querido/a",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "deseado/a",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo querido",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo deseado",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la voluntad",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank wakerukma",
+                "start" : 91,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank querido",
+                "start" : 109,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan wakerúkmari",
+                "start" : 124,
+                "end" : 145
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la voluntad de juank",
+                "start" : 148,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wakerukma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})

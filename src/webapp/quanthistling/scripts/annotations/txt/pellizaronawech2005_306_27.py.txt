@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ tsawái-nantu = astro del día = sol.",
+    "startpage" : 306,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsawáinantu",
+                "start" : 2,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "astro del día",
+                "start" : 18,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sol",
+                "start" : 35,
+                "end" : 38
+            },
+    ]
+})

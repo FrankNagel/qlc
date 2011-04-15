@@ -225,6 +225,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ɯ̃ɯ̃, ãã",
+    "startpage" : 283,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "DECIR_SAY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯ̃ɯ̃",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ãã",
+                "start" : 6,
+                "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "sɨpána (sɨ-(a)pana)",
     "startpage" : 153,
     "pos_on_page" : 24,
@@ -571,6 +595,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 13,
                 "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wiw̃ara",
+    "startpage" : 40,
+    "pos_on_page" : 14,
+    "language_bookname" : "tunebo central",
+    "concept" : "MUJER_WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wiw̃ara",
+                "start" : 0,
+                "end" : 7
             },
     ]
 })
@@ -1771,6 +1812,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "hɛ̃lẽ⁴",
+    "startpage" : 221,
+    "pos_on_page" : 61,
+    "language_bookname" : "nukak",
+    "concept" : "NEGRO_BLACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hɛ̃lẽ⁴",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "–† Giacone: ua-pananipeda, (Véase (See) PP wa-bàna-ka-lé ‘nuestras-cosechas’ (‘our-erops’)",
     "startpage" : 243,
     "pos_on_page" : 71,
@@ -2400,6 +2458,37 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "w̃́i.i-θa = niño, muchacho (‘boy’)",
+    "startpage" : 39,
+    "pos_on_page" : 65,
+    "language_bookname" : "witoto mɨnɨca",
+    "concept" : "VARÓN_MALE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "w̃́i.iθa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= niño, muchacho (‘boy’)",
+                "start" : 10,
+                "end" : 35
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "(e(goɾo)ba) sosóa ‘tierra blanda’ (‘soft ground’)",
     "startpage" : 52,
     "pos_on_page" : 4,
@@ -2914,6 +3003,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ɸṍhɯ̃",
+    "startpage" : 218,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "BUENO_GOOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸṍhɯ̃",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "waˈɲiisik (?)",
     "startpage" : 241,
     "pos_on_page" : 18,
@@ -3348,6 +3454,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "mɯ̃ʔtõ",
+    "startpage" : 43,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "ESPOSA_WIFE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɯ̃ʔtõ",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "... maʧap’élipénha† = ‘(la fruta) está dañada’ (‘(the fruit) is rotten’); Giacone: kápakali",
     "startpage" : 333,
     "pos_on_page" : 71,
@@ -3663,6 +3786,30 @@ manual_entries.append({
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "rá-w̃i, ra-w̃a",
+    "startpage" : 223,
+    "pos_on_page" : 14,
+    "language_bookname" : "tunebo central",
+    "concept" : "VEN_COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ráw̃i",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "raw̃a",
+                "start" : 9,
+                "end" : 15
+            },
+    ]
+})
 
 manual_entries.append({
     "fullentry" : "bia, kónita† + kuánita, tsakíta, táubabia, matababa ‘para que entre, eomo una puntilla’ (‘eause to go in, as a nail’)",
@@ -6030,6 +6177,37 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tæ̃h ʔip† ‘padre del niño’ (‘child’s father’)",
+    "startpage" : 42,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "MARIDO, ESPOSO_HUSBAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tæ̃h ʔip",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "‘padre del niño’ (‘child’s father’)",
+                "start" : 10,
+                "end" : 46
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ˈwáa-gɨ/(o)-ha mase. sing.",
     "startpage" : 222,
     "pos_on_page" : 37,
@@ -6678,6 +6856,37 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "dɔ̃ʔɔ̃j, ʧogoj, wii",
+    "startpage" : 282,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "DAR_GIVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dɔ̃ʔɔ̃j",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧogoj",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wii",
+                "start" : 16,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ˈkĩ̵́hã",
     "startpage" : 201,
     "pos_on_page" : 39,
@@ -6690,6 +6899,23 @@ manual_entries.append({
                 "string" : "kĩ̵́hã",
                 "start" : 0,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dæ̃d",
+    "startpage" : 223,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "VEN_COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dæ̃d",
+                "start" : 0,
+                "end" : 4
             },
     ]
 })
@@ -7676,6 +7902,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "dɔ̃j",
+    "startpage" : 283,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "DECIR_SAY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dɔ̃j",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "pʰiɾaɓaɾí(-si)† imp. sing.",
     "startpage" : 281,
     "pos_on_page" : 6,
@@ -7926,6 +8169,37 @@ manual_entries.append({
                 "string" : "",
                 "start" : 15,
                 "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tæ̃h ʔĩd† = ‘madre del niño’ (‘child’s mother’)",
+    "startpage" : 43,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "ESPOSA_WIFE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tæ̃h ʔĩd",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘madre del niño’ (‘child’s mother’)",
+                "start" : 11,
+                "end" : 49
             },
     ]
 })
@@ -8267,6 +8541,23 @@ manual_entries.append({
                 "string" : "baɾpɯi",
                 "start" : 0,
                 "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dæ̃dæ̃j",
+    "startpage" : 278,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "VENIR_COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dæ̃dæ̃j",
+                "start" : 0,
+                "end" : 7
             },
     ]
 })
@@ -8811,6 +9102,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 10,
                 "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "hã́ã́ɯ̃",
+    "startpage" : 222,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "VAYA, VE_GO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hã́ã́ɯ̃",
+                "start" : 0,
+                "end" : 11
             },
     ]
 })

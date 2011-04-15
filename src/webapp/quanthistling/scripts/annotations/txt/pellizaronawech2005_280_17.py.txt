@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "meje-ás, u. (a: nt-sa,ntma-s,-) = husmear, olfatear (= besar). Yawá namankén mejeásái = el perro husmeó la carne. Nukuach' nii uchirín mejéawai = la mamá olfatea (= besa) a su bebé. Mejéntsatá = bésame.",
+    "startpage" : 280,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mejeás",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "husmear",
+                "start" : 35,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "olfatear",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "besar",
+                "start" : 53,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yawá namankén mejeásái",
+                "start" : 64,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el perro husmeó la carne",
+                "start" : 93,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nukuach' nii uchirín mejéawai",
+                "start" : 120,
+                "end" : 151
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la mamá olfatea (besa) a su bebé.",
+                "start" : 154,
+                "end" : 191
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "mejéntsatá",
+                "start" : 192,
+                "end" : 204
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "bésame",
+                "start" : 207,
+                "end" : 214
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meje-ás,",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: nt-sa,ntma-s,-)",
+                "start" : 10,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+    ]
+})

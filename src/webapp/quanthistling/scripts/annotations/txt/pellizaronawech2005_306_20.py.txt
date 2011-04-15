@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ kashi-nantu = astro de la noche = luna.",
+    "startpage" : 306,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kashinantu",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "astro de la noche",
+                "start" : 16,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "luna",
+                "start" : 36,
+                "end" : 40
+            },
+    ]
+})

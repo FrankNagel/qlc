@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "yunkunamu, ni.na. (r,ram,ri) = empaquetado/a; paquete, tamal, la empaquetada, Ijiu yunkunamu = palmito empaquetado. Ijiún yunkunámuri = tamal de palmitos.",
+    "startpage" : 214,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yunkunamu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empaquetado",
+                "start" : 31,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empaquetada",
+                "start" : 31,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paquete",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tamal",
+                "start" : 55,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la empaquetada",
+                "start" : 62,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ijiu yunkunamu",
+                "start" : 78,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "palmito empaquetado.",
+                "start" : 95,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ijiún yunkunámuri",
+                "start" : 116,
+                "end" : 135
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tamal de palmitos",
+                "start" : 138,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yunkunamu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})

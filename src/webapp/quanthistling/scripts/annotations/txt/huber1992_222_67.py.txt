@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "hã́ã́ɯ̃",
+    "startpage" : 222,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "VAYA, VE_GO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hã́ã́ɯ̃",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

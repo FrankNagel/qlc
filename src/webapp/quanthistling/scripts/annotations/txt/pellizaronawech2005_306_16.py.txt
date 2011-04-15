@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "Nantu, na. (r,ram,ri) = nombre de varón; ⇨ ave (blanca, patas y pico anaranjados). ⇨luna; mes; reloj; hora. Ju nantu akáikimtai, winíttiajai = vendré al fin del mes (bajando la luna). Nantu urútmáit = qué hora es? Nantun tákakeajai = tengo un reloj.",
+    "startpage" : 306,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nantu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 24,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ave (blanca, patas y pico anaranjados)",
+                "start" : 44,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "luna",
+                "start" : 85,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mes",
+                "start" : 91,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "reloj",
+                "start" : 96,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hora",
+                "start" : 103,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ju nantu akáikimtai, winíttiajai",
+                "start" : 109,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "vendré al fin del mes (bajando la luna)",
+                "start" : 146,
+                "end" : 186
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nantu urútmáit",
+                "start" : 188,
+                "end" : 204
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué hora es",
+                "start" : 207,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nantun tákakeajai",
+                "start" : 221,
+                "end" : 239
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tengo un reloj",
+                "start" : 242,
+                "end" : 256
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nantu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 7,
+                "end" : 21
+            },
+    ]
+})

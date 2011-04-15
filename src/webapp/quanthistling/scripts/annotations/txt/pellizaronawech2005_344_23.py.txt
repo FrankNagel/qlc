@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "pet, ui. = violentamente, Pet ajapayi = tiró violentamente.",
+    "startpage" : 344,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pet",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "violentamente",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Pet ajapayi",
+                "start" : 26,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tiró violentamente.",
+                "start" : 40,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pet",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 5,
+                "end" : 8
+            },
+    ]
+})

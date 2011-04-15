@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "dæ̃dæ̃j",
+    "startpage" : 278,
+    "pos_on_page" : 63,
+    "language_bookname" : "jupda",
+    "concept" : "VENIR_COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dæ̃dæ̃j",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})
