@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "títmain! = tan digno! Tanta gloria! Tsé, warí títmain! = porqué tantas atenciones! (no es digno de tantas atenciones).",
+    "startpage" : 443,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "títmain!",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tan digno",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Tanta gloria!",
+                "start" : 23,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsé, warí títmain!",
+                "start" : 37,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "porqué tantas atenciones! (no es digno de tantas atenciones)",
+                "start" : 61,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "títmain!",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

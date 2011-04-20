@@ -238,6 +238,168 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Warí, ui. = qué? Warí wakéram = qué quieres? Amínsha warírmet = qué es para ti? Winiasha waríruit = qué es para mi? Warímpiáit = qué es? Warínchuiti = no es nada. . ⇨warír, na (-,um,i) = cosa. Nii wariri = sus cosas.",
+    "startpage" : 485,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "warí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "warí wakéram",
+                "start" : 19,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué quieres",
+                "start" : 36,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "amínsha warírmet",
+                "start" : 50,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué es para ti",
+                "start" : 71,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "winiasha waríruit",
+                "start" : 88,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué es para mi",
+                "start" : 109,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "warímpiáit",
+                "start" : 126,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué es",
+                "start" : 141,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "warínchuiti",
+                "start" : 150,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "no es nada",
+                "start" : 165,
+                "end" : 175
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "warír",
+                "start" : 180,
+                "end" : 186
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na",
+                "start" : 188,
+                "end" : 190
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cosa",
+                "start" : 202,
+                "end" : 206
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nii wariri",
+                "start" : 208,
+                "end" : 218
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "sus cosas",
+                "start" : 221,
+                "end" : 230
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Warí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na (-,um,i)",
+                "start" : 188,
+                "end" : 199
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ tsawái-nantu = astro del día = sol.",
     "startpage" : 306,
     "pos_on_page" : 27,
@@ -689,6 +851,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tuki, tua, ui. = adonde? Tuki wéa = adonde va? Tua weam = adonde vas?",
+    "startpage" : 445,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuki",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tua",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " adonde?",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tuki wéa",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "adonde va?",
+                "start" : 37,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tua weam",
+                "start" : 48,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "adonde vas?",
+                "start" : 59,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tuki, tua,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ aniám-sa (iniám-sa; ayám-sa, iyám-sa), 2m. = acercarse Antún' Juánkain ayámas tepáwai = Antún' está acostado cerca de Juank.",
     "startpage" : 136,
     "pos_on_page" : 8,
@@ -826,6 +1066,91 @@ manual_entries.append({
                 "string" : "eá (eaya)! =",
                 "start" : 0,
                 "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tuyam, ui. = de donde? Tuyampáit = de donde es?",
+    "startpage" : 445,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuyam",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de donde?",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tuyampáit",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "de donde es?",
+                "start" : 36,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tuy",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "a",
+                "start" : 3,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 3,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "m",
+                "start" : 4,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 26,
+                "end" : 27
             },
     ]
 })
@@ -1341,6 +1666,56 @@ manual_entries.append({
                 "string" : "poseer",
                 "start" : 23,
                 "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "títmain! = tan digno! Tanta gloria! Tsé, warí títmain! = porqué tantas atenciones! (no es digno de tantas atenciones).",
+    "startpage" : 443,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "títmain!",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tan digno",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Tanta gloria!",
+                "start" : 23,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsé, warí títmain!",
+                "start" : 37,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "porqué tantas atenciones! (no es digno de tantas atenciones)",
+                "start" : 61,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "títmain!",
+                "start" : 0,
+                "end" : 9
             },
     ]
 })
@@ -4154,6 +4529,56 @@ manual_entries.append({
                 "string" : "tajar",
                 "start" : 16,
                 "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ esá-i, u. = morder (esa-r = mordiscar).",
+    "startpage" : 115,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esái",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "morder",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esar",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mordiscar",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 10,
+                "end" : 12
             },
     ]
 })

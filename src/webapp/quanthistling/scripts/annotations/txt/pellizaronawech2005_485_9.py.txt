@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "Warí, ui. = qué? Warí wakéram = qué quieres? Amínsha warírmet = qué es para ti? Winiasha waríruit = qué es para mi? Warímpiáit = qué es? Warínchuiti = no es nada. . ⇨warír, na (-,um,i) = cosa. Nii wariri = sus cosas.",
+    "startpage" : 485,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "warí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "warí wakéram",
+                "start" : 19,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué quieres",
+                "start" : 36,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "amínsha warírmet",
+                "start" : 50,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué es para ti",
+                "start" : 71,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "winiasha waríruit",
+                "start" : 88,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué es para mi",
+                "start" : 109,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "warímpiáit",
+                "start" : 126,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué es",
+                "start" : 141,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "warínchuiti",
+                "start" : 150,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "no es nada",
+                "start" : 165,
+                "end" : 175
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "warír",
+                "start" : 180,
+                "end" : 186
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na",
+                "start" : 188,
+                "end" : 190
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cosa",
+                "start" : 202,
+                "end" : 206
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nii wariri",
+                "start" : 208,
+                "end" : 218
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "sus cosas",
+                "start" : 221,
+                "end" : 230
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Warí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na (-,um,i)",
+                "start" : 188,
+                "end" : 199
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+    ]
+})

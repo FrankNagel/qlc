@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "juií wáaro",
+                "string" : "juí wáaro",
                 "start" : 12,
                 "end" : 26
             },
@@ -37,7 +37,7 @@ manual_entries.append({
             {
                 "type" : "errata",
                 "value" : "typo",
-                "string" : "juˈií ˈwáaro",
+                "string" : "juˈí ˈwáaro",
                 "start" : 12,
                 "end" : 26
             },

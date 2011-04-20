@@ -5993,7 +5993,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "juií wáaro",
+                "string" : "juí wáaro",
                 "start" : 12,
                 "end" : 26
             },
@@ -6014,7 +6014,7 @@ manual_entries.append({
             {
                 "type" : "errata",
                 "value" : "typo",
-                "string" : "juˈií ˈwáaro",
+                "string" : "juˈí ˈwáaro",
                 "start" : 12,
                 "end" : 26
             },
@@ -7210,6 +7210,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 2,
                 "end" : 2
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "matsʰíβaʔnúʔ",
+    "startpage" : 219,
+    "pos_on_page" : 32,
+    "language_bookname" : "resígaro",
+    "concept" : "MALO_BAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "matsʰíβaʔnúʔ",
+                "start" : 0,
+                "end" : 14
             },
     ]
 })
