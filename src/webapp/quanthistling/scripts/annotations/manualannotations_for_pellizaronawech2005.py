@@ -349,7 +349,7 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "example-tgt",
+                "value" : "translation",
                 "string" : "cosa",
                 "start" : 202,
                 "end" : 206
