@@ -33,51 +33,91 @@ class Nj(object):
         return self.__node_dict
 
     def __str__(self):
-        return self.__node_dict.__str__()
+        #return self.__node_dict.__str__()
+        str = ""
+        for node in sorted(self.__node_dict.keys()):
+            str += node + ':   '
+            nD = self.__node_dict[node]
+            for child in nD:
+                v = '%s: %3.3f' % (child, nD[child])
+                str += v + ' '
+            str += "\n"
+        return str
         
-    def as_jpg(self, file="njtree.jpg"):
+    def as_jpg(self, filename="njtree.jpg"):
         try:
             from PIL import Image, ImageDraw, ImageFont
         except:
             print("PIL library not found. To export nj tree to jpg, please install it: http://www.pythonware.com/products/pil/")
             return
                 
-        node = max(self.__node_dict.keys())
-        h = 1200
-        w = 1200
-        depth = self.__getdepth(node)
-        print depth
+        node = self.__maxnode()
+        h = 1400
+        w = 1400
+        maxdist = self.__getmaxdist()
+        print maxdist
+        mindist = self.__getmindist()
+        print mindist
+        meandist = self.__getmeandist()
+        print meandist
         
-        scaling = float(w-150)/len(self.__node_dists_dict.keys())
+        scaling = ( ( float(w-400)/
+            math.sqrt(len(self.__node_dists_dict.keys()) + len(self.__node_dict.keys())) ) /
+                meandist )
         print scaling
         
-        img = Image.new('RGB',(w,h),(255,255,255))
+        img = Image.new('RGBA',(w,h),(255,255,255,255))
         draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype("charissilr.ttf", 32)
+        font = ImageFont.truetype("data/fonts/charissilr.ttf", 20)
         #draw.line((0,h/2,10,h/2), fill=(255,0,0))
         # Draw the first node
-        self.__drawnode(draw, node, (w/2), (h/2), 0, scaling, self.__column_names, font)
-        img.save(file, 'JPEG')
+        print self.__column_names
+        self.__drawnode(draw, img, node, (w/2), (h/2), 0, scaling, 0, self.__column_names, font)
+        img.save(filename, 'JPEG')
 
-    def __drawnode(self, draw, node, x, y, angle, scaling, labels, font):
-        print "node: " + node
+    def __drawnode(self, draw, img, node, x, y, angle, scaling, step, labels, font):
+        try:
+            from PIL import Image, ImageDraw, ImageOps
+        except:
+            print("PIL library not found. To export nj tree to jpg, please install it: http://www.pythonware.com/products/pil/")
+            return
+
+            print "node: " + node
         print "x: " + str(x)
         print "y: " + str(y)
         try:
             dummy = int(node)
         except:
+            print "end node: " + node
+            print ord(node)-65
             # If this is an endpoint, draw the item label
             label = labels[ord(node)-65]
             (width_text, height_text) = draw.textsize(label, font=font)
-            x_text = x - (width_text/2) + (25*math.cos(angle))
-            y_text = y - (height_text/2) + (25*math.sin(angle))            
-            draw.text((x_text, y_text), label, font=font, fill='black')
+
+            txt = Image.new('RGBA', (width_text,height_text), (255,255,255,0))
+            d = ImageDraw.Draw(txt)
+            d.text( (0, 0), label,  font=font, fill='black')
+            w = txt.rotate(-angle*(180/math.pi), expand=1)
+            #fff = Image.new('RGBA', w.size, (255,255,255,0))
+            #out = Image.composite(w, fff, w)
+            
+            x_text = int(x)
+            y_text = int(y)
+            print angle
+            print math.sin(angle)
+            print math.cos(angle)
+            if math.sin(angle) < 0.0:
+                y_text = int(y - w.size[1])
+            if math.cos(angle) < 0.0:
+                x_text = int(x - w.size[0])
+            img.paste( w, (x_text, y_text), w)
+            #draw.text((x_text, y_text), label, font=font, fill='black')
             return
 
         nr_of_child_nodes = len(self.__node_dict[node].keys())
-        angle_step = ((4*math.pi)/3) / nr_of_child_nodes
-        angle_start = -(math.pi/6)
-        if node == max(self.__node_dict.keys()):
+        angle_step = ((2*math.pi)/(36)) / (nr_of_child_nodes-1)
+        angle_start = -(math.pi/(36))
+        if node == self.__maxnode():
             # this is the "root" node
             angle_step = (2*math.pi) / nr_of_child_nodes
             angle_start = 0
@@ -98,24 +138,22 @@ class Nj(object):
             # Horizontal line to right item
             draw.line((x, y, x_end, y_end), fill=(255,0,0))
             # Call the function to draw the left and right nodes
-            self.__drawnode(draw, child_node, x_end, y_end, la, scaling, labels, font)
+            self.__drawnode(draw, img, child_node, x_end, y_end, la, scaling, step+1, labels, font)
             i += 1
-            
-    def __getheight(self, node):
-        h = 0
-        try:
-            h = int(node)
-        except:
-            return 1
-        return (h + 2)
         
-    def __getdepth(self, node):
-        try:
-            dummy = int(node)
-        except:
-            return 0
-        return max((self.__getdepth(new_node) for new_node in self.__node_dict[node])) + self.__node_dists_dict[node]
+    def __maxnode(self):
+        return str(max(int(k) for k in self.__node_dict.keys()))
+    
+    def __getmaxdist(self):
+        return max(self.__node_dists_dict.values())
             
+    def __getmindist(self):
+        return min(v for v in self.__node_dists_dict.values() if v>0)
+
+    def __getmeandist(self):
+        values = [v for v in self.__node_dists_dict.values() if v>0]
+        return sum(values)/len(values)
+
     def __one_round(self, A, otus, count):
         div = numpy.sum(A,axis=1)
         n = A.shape[0]
@@ -269,4 +307,4 @@ if __name__ == "__main__":
     nj = Nj(matrix)
     nj.generate_tree()
     print nj
-    nj.as_jpg()
+    #nj.as_jpg()

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import aline
 #from pyaline import Aline, AlineRepr
 #from util import Matrix, Infinity
@@ -27,7 +29,7 @@ class LanguageComparer(object):
                     self.__matrix[i][j] = self.__matrix[j][i] = self.__compare_languages(self.__languages[self.__names[i]], self.__languages[self.__names[j]])
                     if self.__matrix[i][j] == 0 or self.__matrix[j][i] == 0:
                         sys.stderr.write("got 0 for %s and %s\n" % (self.__names[i], self.__names[j]))
-            self.__column_names = " ".join(self.__names)
+            self.__column_names = self.__names
         #print "%s" % (self.__column_names,)
         #print "%s" % (self.__matrix,)
         #print self.__matrix
@@ -39,7 +41,10 @@ class LanguageComparer(object):
     @property
     def matrix(self):
         return self.__matrix
-                    
+
+    def __str__(self):
+        return self.__matrix.__str__()
+        
     def __normalize_asjp_string(self, x):
         if x.find("//") != -1:
             parts = x.split("//")
@@ -119,7 +124,5 @@ if __name__ == "__main__":
         x.compare_individual_languages(0, 1)
     else:
         x.generate_matrix()
-        matrix = x.matrix
-        import orange
-        table = orange.fromNumpy(matrix)
+        print x.matrix
         

@@ -2,7 +2,7 @@ import collections
 It = collections.Iterable
 
 letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-digits = '0123456789'
+digits = [ str(i) for i in range(100)]
 
 def load_data(fn,split_lines=False):
     FH = open(fn,'r')
