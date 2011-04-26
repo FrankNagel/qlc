@@ -1,5 +1,6 @@
 import numpy, math
 import utils
+import sys
 
 class Nj(object):
 
@@ -22,11 +23,11 @@ class Nj(object):
             if A is None:  break
             count += 1
 
-        self.__node_dists_dict = dict()
+        self.__node_dict_flat = dict()
         for mydict in self.__node_dict.values():
             for (key, value) in mydict.iteritems():
-                self.__node_dists_dict[key] = value
-        self.__node_dists_dict[max(self.__node_dict.keys())] = 0.0
+                self.__node_dict_flat[key] = value
+        self.__node_dict_flat[max(self.__node_dict.keys())] = { 'dist': 0.0 }
         
     @property
     def node_dict(self):
@@ -34,17 +35,50 @@ class Nj(object):
 
     def __str__(self):
         #return self.__node_dict.__str__()
-        str = ""
+        ret = ""
         for node in sorted(self.__node_dict.keys()):
-            str += node + ':   '
+            ret += unicode(node) + ':   '
             nD = self.__node_dict[node]
             for child in nD:
-                v = '%s: %3.3f' % (child, nD[child])
-                str += v + ' '
-            str += "\n"
-        return str
+                v = '%s: %3.3f' % (child, nD[child]['dist'])
+                ret += v + ' '
+            ret += "\n"
+        return ret
         
     def as_jpg(self, filename="njtree.jpg"):
+        top = self.__maxnode()
+        delta_r = (2.0*math.pi) / float(len(self.__column_names))
+        
+        self.__set_angles(top, delta_r)
+        print self.__node_dict_flat
+        
+    def __set_angles(self, node, delta_r):
+        rr1 = r1 = sys.float_info.max
+        rr2 = r2 = -sys.float_info.max
+        current_r = 0.0
+
+        for child in self.__node_dict[node]:
+            if isinstance(child, int):
+                self.__set_angles(child, delta_r)
+                r1 = self.__node_dict_flat[child]['r_min']
+                r2 = self.__node_dict_flat[child]['r_max']
+                self.__node_dict_flat[child]['r'] = (r1 + r2) / 2.0
+            else:
+                r1 = r2 = self.__node_dict_flat[child]['r'] = current_r
+                current_r += delta_r
+
+            if r1 < rr1:
+                rr1 = r1
+            if r2 > rr2:
+                rr2 = r2
+
+        self.__node_dict_flat[node]['r_min'] = rr1
+        self.__node_dict_flat[node]['r_max'] = rr2
+            
+        
+
+        
+    def as_jpg_old(self, filename="njtree.jpg"):
         try:
             from PIL import Image, ImageDraw, ImageFont
         except:
@@ -115,8 +149,8 @@ class Nj(object):
             return
 
         nr_of_child_nodes = len(self.__node_dict[node].keys())
-        angle_step = ((2*math.pi)/(36)) / (nr_of_child_nodes-1)
-        angle_start = -(math.pi/(36))
+        angle_step = ((2*math.pi)/((2*step)**2+4)) / (nr_of_child_nodes-1)
+        angle_start = -(math.pi/((2*step)**2+4))
         if node == self.__maxnode():
             # this is the "root" node
             angle_step = (2*math.pi) / nr_of_child_nodes
@@ -142,7 +176,7 @@ class Nj(object):
             i += 1
         
     def __maxnode(self):
-        return str(max(int(k) for k in self.__node_dict.keys()))
+        return max(self.__node_dict.keys())
     
     def __getmaxdist(self):
         return max(self.__node_dists_dict.values())
@@ -162,7 +196,7 @@ class Nj(object):
         if n == 2:
             dist = A[1][0]
             nD = self.__node_dict[otus[0]]
-            nD[otus[1]] = dist
+            nD[otus[1]] = {'dist': dist }
             return None,otus
 
         # find the i,j to work on using divergence
@@ -182,15 +216,16 @@ class Nj(object):
                     
         # merge i and j entries
         # calculate distance of new node from tips
-        new_name = utils.digits[count]
+        new_name = count
         
         # dist from node[i]
         dist =  A[i][j]
         diff = div[i] - div[j]
         dist_i = dist/2.0 + diff/(2*(n-2))
         dist_j = dist - dist_i
-        node = { otus[i]: dist_i, 
-                 otus[j]: dist_j }
+        node = { otus[i]: { 'dist': dist_i }, 
+                 otus[j]: { 'dist' : dist_j }
+               }
         self.__node_dict[new_name] = node
         
         # calculate distances to new node
@@ -306,5 +341,6 @@ if __name__ == "__main__":
 
     nj = Nj(matrix)
     nj.generate_tree()
+    print nj.node_dict
     print nj
-    #nj.as_jpg()
+    nj.as_jpg()

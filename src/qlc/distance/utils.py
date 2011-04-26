@@ -1,8 +1,9 @@
 import collections
 It = collections.Iterable
+import string
 
-letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-digits = [ str(i) for i in range(100)]
+letters = string.ascii_letters
+#digits = [ str(i) for i in range(100)]
 
 def load_data(fn,split_lines=False):
     FH = open(fn,'r')
