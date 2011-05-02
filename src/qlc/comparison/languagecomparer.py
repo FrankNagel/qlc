@@ -6,6 +6,7 @@ import aline
 import numpy
 import sys
 
+
 class LanguageComparer(object):
     def __init__(self, languages, input_string_type, divided = False):
         self.__languages = languages
@@ -25,18 +26,17 @@ class LanguageComparer(object):
                 self.__matrix[i][i] = 0.0
                 for j in xrange(i+1, len(self.__names)):
                     sys.stderr.write("language count: %s,%s\n" % (i, j))
-
+                    
                     self.__matrix[i][j] = self.__matrix[j][i] = self.__compare_languages(self.__languages[self.__names[i]], self.__languages[self.__names[j]])
                     if self.__matrix[i][j] == 0 or self.__matrix[j][i] == 0:
                         sys.stderr.write("got 0 for %s and %s\n" % (self.__names[i], self.__names[j]))
-            self.__column_names = self.__names
         #print "%s" % (self.__column_names,)
         #print "%s" % (self.__matrix,)
         #print self.__matrix
 
     @property
     def column_names(self):
-        return self.__column_names
+        return self.__names
         
     @property
     def matrix(self):

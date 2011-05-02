@@ -45,27 +45,79 @@ class Nj(object):
             ret += "\n"
         return ret
         
-    def as_jpg(self, filename="njtree.jpg"):
+    def as_jpg(self, filename="njtree.jpg", width=1600, height=1200):
+        try:
+            from PIL import Image, ImageDraw, ImageFont
+        except:
+            print("PIL library not found. To export nj tree to jpg, please install it: http://www.pythonware.com/products/pil/")
+            return
+
+        img = Image.new('RGBA', (width,height), (255,255,255,255))
+        draw = ImageDraw.Draw(img)
+        font = ImageFont.truetype("data/fonts/charissilr.ttf", 20)
+
         top = self.__maxnode()
-        delta_r = (2.0*math.pi) / float(len(self.__column_names))
         
-        self.__set_angles(top, delta_r)
-        print self.__node_dict_flat
+        self.__current_r = 0.0
+        self.__delta_r = (2.0 * math.pi) / float(len(self.__column_names))
+        self.__xmax = 0.0
+        self.__ymax = 0.0
+        self.__xmin = 0.0
+        self.__ymin = 0.0
         
-    def __set_angles(self, node, delta_r):
+        self.__set_angles(top)
+        self.__measure_edges(top, 0.0, 0.0)
+        #print self.__node_dict_flat
+
+        longest_label = max(self.__column_names, key=len)
+        (width_text, height_text) = draw.textsize(longest_label, font=font)
+        w = width - (2 * width_text) - 40
+        h = height - (2 * width_text) - 40
+
+        sx = w / (self.__xmax - self.__xmin)
+        sy = h / (self.__ymax - self.__ymin)
+        
+        scaling = sx
+        if sx > sy:
+            scaling = sy
+
+        centerx = int( (width/2.0) - ( ( ( (self.__xmax - self.__xmin) / 2.0) + self.__xmin ) * scaling ) )
+        centery = int( (height/2.0) - ( ( ( (self.__ymax - self.__ymin) / 2.0) + self.__ymin ) * scaling ) )
+        
+        # Draw the first node
+        self.__drawnode(draw, img, top, centerx, centery, scaling, font)
+        img.save(filename, 'JPEG')
+
+    def __measure_edges(self, node, x, y):
+        x2 = 0.0
+        y2 = 0.0
+        for child in self.__node_dict[node]:
+            x2 = x + math.cos(self.__node_dict_flat[child]['r']) * self.__node_dict_flat[child]['dist']
+            y2 = y + math.sin(self.__node_dict_flat[child]['r']) * self.__node_dict_flat[child]['dist']
+            if (x2 < self.__xmin):
+                self.__xmin = x2
+            if (x2 > self.__xmax):
+                self.__xmax = x2
+            if (y2 < self.__ymin):
+                self.__ymin = y2
+            if (y2 > self.__ymax):
+                self.__ymax = y2
+            if isinstance(child, int):
+                self.__measure_edges(child, x2, y2)
+        
+    def __set_angles(self, node):
         rr1 = r1 = sys.float_info.max
         rr2 = r2 = -sys.float_info.max
-        current_r = 0.0
 
         for child in self.__node_dict[node]:
             if isinstance(child, int):
-                self.__set_angles(child, delta_r)
+                self.__set_angles(child)
                 r1 = self.__node_dict_flat[child]['r_min']
                 r2 = self.__node_dict_flat[child]['r_max']
                 self.__node_dict_flat[child]['r'] = (r1 + r2) / 2.0
             else:
-                r1 = r2 = self.__node_dict_flat[child]['r'] = current_r
-                current_r += delta_r
+                r1 = r2 = self.__node_dict_flat[child]['r'] = self.__current_r
+                self.__current_r += self.__delta_r
 
             if r1 < rr1:
                 rr1 = r1
@@ -74,106 +126,45 @@ class Nj(object):
 
         self.__node_dict_flat[node]['r_min'] = rr1
         self.__node_dict_flat[node]['r_max'] = rr2
-            
         
-
-        
-    def as_jpg_old(self, filename="njtree.jpg"):
-        try:
-            from PIL import Image, ImageDraw, ImageFont
-        except:
-            print("PIL library not found. To export nj tree to jpg, please install it: http://www.pythonware.com/products/pil/")
-            return
-                
-        node = self.__maxnode()
-        h = 1400
-        w = 1400
-        maxdist = self.__getmaxdist()
-        print maxdist
-        mindist = self.__getmindist()
-        print mindist
-        meandist = self.__getmeandist()
-        print meandist
-        
-        scaling = ( ( float(w-400)/
-            math.sqrt(len(self.__node_dists_dict.keys()) + len(self.__node_dict.keys())) ) /
-                meandist )
-        print scaling
-        
-        img = Image.new('RGBA',(w,h),(255,255,255,255))
-        draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype("data/fonts/charissilr.ttf", 20)
-        #draw.line((0,h/2,10,h/2), fill=(255,0,0))
-        # Draw the first node
-        print self.__column_names
-        self.__drawnode(draw, img, node, (w/2), (h/2), 0, scaling, 0, self.__column_names, font)
-        img.save(filename, 'JPEG')
-
-    def __drawnode(self, draw, img, node, x, y, angle, scaling, step, labels, font):
+    def __drawnode(self, draw, img, node, x, y, scaling, font):
         try:
             from PIL import Image, ImageDraw, ImageOps
         except:
             print("PIL library not found. To export nj tree to jpg, please install it: http://www.pythonware.com/products/pil/")
             return
 
-            print "node: " + node
-        print "x: " + str(x)
-        print "y: " + str(y)
-        try:
-            dummy = int(node)
-        except:
-            print "end node: " + node
-            print ord(node)-65
+        if isinstance(node, int):
+            for child_node in self.__node_dict[node].keys():
+                # Line length
+                ll = self.__node_dict_flat[child_node]['dist'] * scaling
+                # Line angle
+                la = self.__node_dict_flat[child_node]['r']
+                x_end = x + (ll*math.cos(la))
+                y_end = y + (ll*math.sin(la))
+                # Horizontal line to right item
+                draw.line((x, y, x_end, y_end), fill=(255,0,0))
+                # Call the function to draw the left and right nodes
+                self.__drawnode(draw, img, child_node, x_end, y_end, scaling, font)
+        else:
             # If this is an endpoint, draw the item label
-            label = labels[ord(node)-65]
+            angle = self.__node_dict_flat[node]['r']
+            label = self.__column_names[ord(node)-97]
             (width_text, height_text) = draw.textsize(label, font=font)
-
+            
             txt = Image.new('RGBA', (width_text,height_text), (255,255,255,0))
             d = ImageDraw.Draw(txt)
             d.text( (0, 0), label,  font=font, fill='black')
             w = txt.rotate(-angle*(180/math.pi), expand=1)
-            #fff = Image.new('RGBA', w.size, (255,255,255,0))
-            #out = Image.composite(w, fff, w)
             
             x_text = int(x)
             y_text = int(y)
-            print angle
-            print math.sin(angle)
-            print math.cos(angle)
+
             if math.sin(angle) < 0.0:
                 y_text = int(y - w.size[1])
             if math.cos(angle) < 0.0:
                 x_text = int(x - w.size[0])
             img.paste( w, (x_text, y_text), w)
-            #draw.text((x_text, y_text), label, font=font, fill='black')
-            return
-
-        nr_of_child_nodes = len(self.__node_dict[node].keys())
-        angle_step = ((2*math.pi)/((2*step)**2+4)) / (nr_of_child_nodes-1)
-        angle_start = -(math.pi/((2*step)**2+4))
-        if node == self.__maxnode():
-            # this is the "root" node
-            angle_step = (2*math.pi) / nr_of_child_nodes
-            angle_start = 0
-            
-        print "angle step: " + str(angle_step)
-        print "angle start: " + str(angle_start)
-        i = 0
-        for child_node in self.__node_dict[node].keys():
-            print "  child node: " + child_node
-            # Line length
-            ll = self.__node_dists_dict[child_node] * scaling
-            print "  ll: " + str(ll)
-            # Line angle
-            la = angle + angle_start + (angle_step*i)
-            print "  la: " + str(la)
-            x_end = x + (ll*math.cos(la))
-            y_end = y + (ll*math.sin(la))
-            # Horizontal line to right item
-            draw.line((x, y, x_end, y_end), fill=(255,0,0))
-            # Call the function to draw the left and right nodes
-            self.__drawnode(draw, img, child_node, x_end, y_end, la, scaling, step+1, labels, font)
-            i += 1
         
     def __maxnode(self):
         return max(self.__node_dict.keys())
@@ -185,7 +176,7 @@ class Nj(object):
         return min(v for v in self.__node_dists_dict.values() if v>0)
 
     def __getmeandist(self):
-        values = [v for v in self.__node_dists_dict.values() if v>0]
+        values = [v['dist'] for v in self.__node_dict_flat.values() if v>0]
         return sum(values)/len(values)
 
     def __one_round(self, A, otus, count):
