@@ -5,9 +5,9 @@ from util import Matrix, Infinity
 import sys
 
 class LanguageComparer(object):
-    def __init__(self, languages, string_class, divided = False):
+    def __init__(self, languages, language_names, string_class, divided = False):
         self.languages = languages
-        self.names = self.languages.keys()
+        self.names = language_names
         self.matrix = None
         self.string_class = string_class
         self.divided = divided
@@ -51,6 +51,14 @@ class LanguageComparer(object):
                 sum += min(Aline(x_string, y_string).get_distance() for x_string in x_strings for y_string in y_strings)
             except ZeroDivisionError:
                 sys.stderr.write("ZeroDision! initial sum i: %s x_strings: %s y_strings: %s\n" % (i, x_strings, y_strings))
+                
+            print x[i]
+            print y[i]
+            print x_strings
+            print y_strings
+            print sum
+            print
+
             count += 1
         if self.divided:
             dividend = float(sum)/float(count)
@@ -99,13 +107,15 @@ if __name__ == "__main__":
     if options.header:
         words.next()
     languages = {}
+    language_names = []
     for row in words:
         if options.asjp:
             languages[row[0]] = row[3:]
         else:
             languages[row[0]] = row[1:]
+        language_names.append(row[0])
 
-    x = LanguageComparer(languages, string_class, True if options.divided else False)
+    x = LanguageComparer(languages, language_names, string_class, True if options.divided else False)
     if options.individual:
         x.compare_individual_languages(0, 1)
     else:

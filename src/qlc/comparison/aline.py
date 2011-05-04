@@ -70,7 +70,7 @@ class Aline(object):
     c_sub = 3500
     c_exp = 4500
     c_vwl = 1000
-	
+
     r_c = ['syllabic', 'manner', 'voice', 'nasal', 'retroflex', 'lateral', 'aspirated', 'place']
     r_v = ['syllabic', 'nasal', 'retroflex', 'high', 'back', 'round', 'long']
 

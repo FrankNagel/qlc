@@ -50,7 +50,7 @@ foreach $line(<>) {
         $string =~ s/XXX//;
         $string =~ s/ +/ /g;
         $string = "" if $string eq " ";
-        $concepts[$nr] = $string;
+        $concepts[$nr-1] = $string;
     }
     
 }
