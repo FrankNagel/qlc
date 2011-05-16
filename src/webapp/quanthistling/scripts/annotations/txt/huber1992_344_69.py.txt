@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "íʧaájo† + kʷápʰaáxkʰo, kʷáiákʰo, kʷápʰɯ́xɯʔxákʰo, eʔnénɯ, kʰátʰʲétʰʲéʔxɯ́kʰo",
+    "fullentry" : "íʧaájo† + kʷápʰaáxkʰo, kʷáiákʰo, kʷápʰɯ́xɯʔxákʰo, eʔnénɯ, kʰátʰʲétʰʲeʔxɯ́kʰo",
     "startpage" : 344,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
@@ -51,7 +51,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "kʰátʰʲé́tʰʲéʔxɯ́kʰo",
+                "string" : "kʰátʰʲétʰʲeʔxɯ́kʰo",
                 "start" : 67,
                 "end" : 88
             },

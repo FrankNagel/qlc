@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "ʔdɨ̃́hõ̀",   
+    "fullentry" : "ʔdɨ̃hõ̀",
     "startpage" : 43,
     "pos_on_page" : 51,
     "language_bookname" : "orejón",
@@ -9,7 +9,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ʔdɨ̃́hõ̀",
+                "string" : "ʔdɨ̃hõ̀",
                 "start" : 0,
                 "end" : 9
             },

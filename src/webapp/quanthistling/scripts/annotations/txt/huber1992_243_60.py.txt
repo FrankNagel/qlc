@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "mo hĩ̵mka huɺe",
+    "startpage" : 243,
+    "pos_on_page" : 60,
+    "language_bookname" : "puinave",
+    "concept" : "SEMENTERA DE MAÍZ_CORN FIELD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mo hĩ̵mka huɺe",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

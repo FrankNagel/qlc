@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "w̃́i.i-θa = niño, muchacho (‘boy’)",
+    "fullentry" : "ɯ̃́i.i-θa = niño, muchacho (‘boy’)",
     "startpage" : 39,
     "pos_on_page" : 65,
     "language_bookname" : "witoto mɨnɨca",
@@ -9,7 +9,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "w̃́i.iθa",
+                "string" : "ɯ̃́i.iθa",
                 "start" : 0,
                 "end" : 9
             },

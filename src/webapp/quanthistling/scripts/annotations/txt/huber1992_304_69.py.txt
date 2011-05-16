@@ -1,0 +1,66 @@
+
+manual_entries.append({
+    "fullentry" : "mɯrííβʲe, maxááβe† + reʔre, ɯɯ́rɯ, ɯɯrɯ́βe, reréxkʰɯ",
+    "startpage" : 304,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "MOJADO_WET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɯrííβʲe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maxááβe",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "reʔre",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯ́rɯ",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯrɯ́βe",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "reréxkʰɯ",
+                "start" : 49,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ reʔre, ɯɯ́rɯ, ɯɯrɯ́́βe, reréxkʰɯ",
+                "start" : 23,
+                "end" : 58
+            },
+    ]
+})

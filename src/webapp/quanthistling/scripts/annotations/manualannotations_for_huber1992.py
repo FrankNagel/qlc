@@ -1915,7 +1915,7 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "íʧaájo† + kʷápʰaáxkʰo, kʷáiákʰo, kʷápʰɯ́xɯʔxákʰo, eʔnénɯ, kʰátʰʲétʰʲéʔxɯ́kʰo",
+    "fullentry" : "íʧaájo† + kʷápʰaáxkʰo, kʷáiákʰo, kʷápʰɯ́xɯʔxákʰo, eʔnénɯ, kʰátʰʲétʰʲeʔxɯ́kʰo",
     "startpage" : 344,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
@@ -1966,7 +1966,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "kʰátʰʲé́tʰʲéʔxɯ́kʰo",
+                "string" : "kʰátʰʲétʰʲeʔxɯ́kʰo",
                 "start" : 67,
                 "end" : 88
             },
@@ -2132,6 +2132,23 @@ manual_entries.append({
                 "string" : "",
                 "start" : 13,
                 "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "mo hĩ̵mka huɺe",
+    "startpage" : 243,
+    "pos_on_page" : 60,
+    "language_bookname" : "puinave",
+    "concept" : "SEMENTERA DE MAÍZ_CORN FIELD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mo hĩ̵mka huɺe",
+                "start" : 0,
+                "end" : 16
             },
     ]
 })
@@ -2458,7 +2475,7 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "w̃́i.i-θa = niño, muchacho (‘boy’)",
+    "fullentry" : "ɯ̃́i.i-θa = niño, muchacho (‘boy’)",
     "startpage" : 39,
     "pos_on_page" : 65,
     "language_bookname" : "witoto mɨnɨca",
@@ -2467,7 +2484,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "w̃́i.iθa",
+                "string" : "ɯ̃́i.iθa",
                 "start" : 0,
                 "end" : 9
             },
@@ -2487,6 +2504,7 @@ manual_entries.append({
             },
     ]
 })
+
 
 manual_entries.append({
     "fullentry" : "(e(goɾo)ba) sosóa ‘tierra blanda’ (‘soft ground’)",
@@ -3359,6 +3377,30 @@ manual_entries.append({
                 "string" : "kʷaʔáɯ",
                 "start" : 11,
                 "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ˈúú, bã́ˈkã́dĩ̵kĩ̵ ˈúú",
+    "startpage" : 113,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "TORTUGA_TORTOISE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "úú",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bã́kã́dĩ̵kĩ̵ úú",
+                "start" : 7,
+                "end" : 31
             },
     ]
 })
@@ -6277,6 +6319,37 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "bĩ́ˈdĩ́ pájaro, generalmente pequeño, que no se caza (a bird, generally small, that is not hunted)",
+    "startpage" : 127,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "PÁJARO_BIRD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bĩ́dĩ́",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "pájaro, generalmente pequeño, que no se caza (a bird, generally small, that is not hunted)",
+                "start" : 10,
+                "end" : 103
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "mɯ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 9,
@@ -7179,6 +7252,44 @@ manual_entries.append({
                 "string" : "jẽ́ẽ́",
                 "start" : 17,
                 "end" : 25
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "(ɨmɨkʰĩrã) ʧe espec.: ‘niño’ (‘baby boy’)",
+    "startpage" : 46,
+    "pos_on_page" : 8,
+    "language_bookname" : "epena basurudó",
+    "concept" : "CRIATURA_BABY, INFANT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɨmɨkʰĩ́rã ʧe",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʧe",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "espec.: ‘niño’ (‘baby boy’)",
+                "start" : 19,
+                "end" : 48
             },
     ]
 })
@@ -8384,7 +8495,7 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "ʔdɨ̃́hõ̀",   
+    "fullentry" : "ʔdɨ̃hõ̀",
     "startpage" : 43,
     "pos_on_page" : 51,
     "language_bookname" : "orejón",
@@ -8393,7 +8504,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ʔdɨ̃́hõ̀",
+                "string" : "ʔdɨ̃hõ̀",
                 "start" : 0,
                 "end" : 9
             },
@@ -9608,6 +9719,72 @@ manual_entries.append({
                 "string" : "nir",
                 "start" : 0,
                 "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "mɯrííβʲe, maxááβe† + reʔre, ɯɯ́rɯ, ɯɯrɯ́βe, reréxkʰɯ",
+    "startpage" : 304,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "MOJADO_WET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɯrííβʲe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maxááβe",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "reʔre",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯ́rɯ",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɯɯrɯ́βe",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "reréxkʰɯ",
+                "start" : 49,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ reʔre, ɯɯ́rɯ, ɯɯrɯ́́βe, reréxkʰɯ",
+                "start" : 23,
+                "end" : 58
             },
     ]
 })

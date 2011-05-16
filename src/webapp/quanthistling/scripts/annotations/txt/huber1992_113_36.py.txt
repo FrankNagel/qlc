@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "ˈúú, bã́ˈkã́dĩ̵kĩ̵ ˈúú",
+    "startpage" : 113,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "TORTUGA_TORTOISE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "úú",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bã́kã́dĩ̵kĩ̵ úú",
+                "start" : 7,
+                "end" : 31
+            },
+    ]
+})

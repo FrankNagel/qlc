@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "bĩ́ˈdĩ́ pájaro, generalmente pequeño, que no se caza (a bird, generally small, that is not hunted)",
+    "startpage" : 127,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "PÁJARO_BIRD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bĩ́dĩ́",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "pájaro, generalmente pequeño, que no se caza (a bird, generally small, that is not hunted)",
+                "start" : 10,
+                "end" : 103
+            },
+    ]
+})
