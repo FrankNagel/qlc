@@ -91,6 +91,9 @@
 </%def>
 
 <%def name="heading()">
+    <div id="url">
+        current url: ${url.current(qualified=True)}
+    </div>
     <div id="heading">
     <h1>${c.heading or 'No Title'}</h1>
     </div>

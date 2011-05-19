@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 
-import sys, os, glob
+import sys, os, glob, re
 sys.path.append(os.path.abspath('.'))
 
 import difflib
@@ -15,6 +15,8 @@ from paste.deploy import appconfig
 # import dictdata module
 import quanthistling.dictdata.books
 import quanthistling.dictdata.wordlistbooks
+
+import functions
 
 def main(argv):
     
@@ -97,17 +99,23 @@ def main(argv):
             if not entry_db:
                 print "could not find  entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])
                 
-            ratio = difflib.SequenceMatcher(None, e["fullentry"].decode('utf-8'), entry_db.fullentry).ratio()
+            fullentry_new = e["fullentry"].decode("utf-8")
+            fullentry_new = functions.normalize_stroke(fullentry_new)
+            #fullentry_new = re.sub(u'ɨ́', u'í̵', fullentry_new)
+            ratio = difflib.SequenceMatcher(None, fullentry_new, entry_db.fullentry).ratio()
             if ratio <= min_similarity_ratio:
                 print "We have a problem, manual entry on page %i pos %i seems not to be the same entry as in db. It was inserted to the db, but please check the entry. (ratio: %f)" % (e["startpage"], e["pos_on_page"], ratio)
 
-            entry_db.fullentry = e["fullentry"].decode('utf-8')
+            entry_db.fullentry = fullentry_new
             # delete all annotations in db
             for a in entry_db.annotations:
                 Session.delete(a)
             # insert new annotations
             for a in e["annotations"]:
-                entry_db.append_annotation(a["start"], a["end"], a["value"].decode('utf-8'), a["type"].decode('utf-8'), a["string"].decode('utf-8'))
+                string_new = a["string"].decode('utf-8')
+                string_new = functions.normalize_stroke(string_new)
+                #string_new = re.sub(u'ɨ́', u'í̵', string_new)                
+                entry_db.append_annotation(a["start"], a["end"], a["value"].decode('utf-8'), a["type"].decode('utf-8'), string_new)
             entry_db.has_manual_annotations = True
 
         Session.commit()

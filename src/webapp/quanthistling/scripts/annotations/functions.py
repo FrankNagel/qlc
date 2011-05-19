@@ -4,6 +4,21 @@ import re
 from operator import attrgetter
 import unicodedata
 
+def normalize_stroke(string_src):
+    string_new = ""
+    for char in string_src:
+        name = unicodedata.name(char)
+        char_new = char
+        if name.endswith("WITH STROKE"):
+            name_new = name.replace(" WITH STROKE", "")
+            try:
+                char_new = unicodedata.lookup(name_new)
+                char_new += u"̵"
+            except KeyError:
+                print "Unicode name \"{0}\" not found".format(name_new)
+        string_new += char_new
+    return string_new
+
 def print_error_in_entry(entry, error_string = "error in entry"):
     print error_string + ": " + entry.fullentry.encode("utf-8")
     print "   startpage: %i, pos_on_page: %i" % (entry.startpage, entry.pos_on_page)
