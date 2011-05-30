@@ -144,7 +144,8 @@ def printTree(root, indent):
 # ---------- Main ------
 
 if __name__=="__main__":
-    o = OrthographyProfile("../thiesen1998.txt")
+    o = OrthographyProfile("../../data/orthography_profiles/Thiesen1998.txt")
     test_words = ["aa", "aabuu", "uuabaa auubaa"]
     for word in test_words:
-        o.parse(word)
+        print o.parse(word)
+        
