@@ -1,8 +1,8 @@
 README
 
-The code sp_dict_for_comparison.py loads many different spanish word lists as the 1-grams files from the google project "Books-Ngram-Viewer". The files from the google project have not been added hier because they are very large (they are in total 9 files for the spanish 1-grams, each around 350 Mbs). 
+The code sp_dict_for_comparison.py loads many different spanish word lists as the 1-grams files from the google project "Books-Ngram-Viewer". The files from the google project have not been added hier because they are really large (they are in total 9 files for the spanish 1-grams, each around 350 Mbs). 
 
-The idea is to compare the words collected from different spanish sources with the translations from the QLC-Project. All entries will be decoded in utf-8 und decomposed (NFD) and normalized. The script will loop throught all the spanish sources and comprare them with the translations. Those translations which don't match in the sources will be given as a result.
+The idea is to compare the words collected from different spanish sources with the translations from the QLC-Project. All entries will be decoded in utf-8 und decomposed (NFD) and normalized. The script will loop through all the spanish sources and comprare them with the translations. Those translations which don't match in the sources will be given as a result.
 
 
 to run the script type:

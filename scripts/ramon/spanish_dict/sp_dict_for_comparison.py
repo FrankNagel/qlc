@@ -17,10 +17,10 @@ class SpanishDictionary:
         self.lemario_dictionary_file = codecs.open("lemario-20101017.txt", "r", "utf-8")
         self.getForms(self.lemario_dictionary_file)
         
-        self.coes_dictionary_file = codecs.open("/Users/ramon/Documents/SpanishDictionary/coes-dict/wordlist_from_coes.txt", "r", "utf-8")
+        self.coes_dictionary_file = codecs.open("/Users/ramon/Documents/SpanishDictionary/coes-lexemes/wordlist_from_coes.txt", "r", "utf-8")
         self.getFormsFromCoesDict(self.coes_dictionary_file)
         	
-        self.stemmer_dictionary_file = codecs.open("/Users/ramon/Documents/spanish_stemming_algorithm/voc.txt", "r", "utf-8")
+        self.stemmer_dictionary_file = codecs.open("/Users/ramon/Documents/lexemes_from_stemmer/voc.txt", "r", "utf-8")
         self.getForms(self.stemmer_dictionary_file)
         
         self.google_dictionary_file = codecs.open("/Users/ramon/Documents/google_books_spa_corpus/googlebooks-spa-all-1gram-20090715-0.csv", "r", "utf-8")
