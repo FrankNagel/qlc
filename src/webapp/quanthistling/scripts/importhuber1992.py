@@ -306,7 +306,7 @@ def correct_line(l):
 
     ret = re.sub(u"<p><b>PU</b> bigᴶik</p>", u"<p><b>PU</b> bigɺik</p>", ret)
     ret = re.sub(u"<p><b>PU</b> mo hĩ̵mka huᴶe</p>", u"<p><b>PU</b> mo hĩ̵m̃ka huɺe</p>", ret)
-    ret = re.sub(u"<p><b>PU</b> ha moᴶuk tɨjot</p>", u"<p><b>PU</b> ha moɺuk tɨjot</p>", ret)
+    ret = re.sub(u"<p><b>PU</b> ha moᴶuk ti̵jot</p>", u"<p><b>PU</b> ha moɺuk ti̵jot</p>", ret)
 
     ret = re.sub(u"<p><b>WA</b> ˈtúu pua\(-\), há’dé\(-\)</p>", u"<p><b>WA</b> ˈtúu pua(-), háˈdé(-)</p>", ret)
 
@@ -320,7 +320,7 @@ def correct_line(l):
     ret = re.sub(u"βɯ́́́́́́́ɯ́́́́́́́ríʔií", u"βɯ́ɯ́ríʔií", ret)
     ret = re.sub(u"βɯ́́́́́́́ɯ́́́́́́́ríʔií", u"βɯ́ɯ́ríʔií", ret)
     ret = re.sub(u"Giaeone", u"Giacone", ret)
-    ret = re.sub(u"tɨmɉ-kɨna", u"tɨmɨ-kɨna", ret)
+    ret = re.sub(u"ti̵mɉ-ki̵na", u"ti̵mi̵-ki̵na", ret)
     ret = re.sub(u"áikkalawa~a", u"áikkalawa-a", ret)
     ret = re.sub(u"ẽse~ʔh", u"ẽse-ʔh", ret)
     ret = re.sub(u"̄", u"̃", ret)
