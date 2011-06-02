@@ -13,16 +13,16 @@ script to parse the huber data and output ngram matrices
 
 """
 
-if len(sys.argv) != 2:
-    sys.exit("specify the length of the ngram")
+if len(sys.argv) != 4:
+    sys.exit("Call: python parseHuberData.py len_of_ngram path_to_orthographyprofile path_to_huber_data\nE.g: python parseHuberData.py 2 ../data/orthography_profiles/Huber1992.txt counterparts_huber1992.txt")
 
 # load orthography profile to parse linguistic forms from the dictionary
 # load the ngram class to parse and calculate freqs of ngmrams
 # load the huber database dump
 
-o = OrthographyProfile.OrthographyProfile("huber/huber-orthography.txt")
+o = OrthographyProfile.OrthographyProfile(sys.argv[2])
 n = Ngram.Ngram()
-file = codecs.open("huber/counterparts_huber1992.txt", "r", "utf-8")
+file = codecs.open(sys.argv[3], "r", "utf-8")
 
 file_header = file.readline()
 # COUNTERPART CONCEPT LANGUAGE_BOOKNAME LANGUAGE_CODE FAMILY BIBTEX_KEY
@@ -141,7 +141,7 @@ def printSumGramsByLanguages():
                 row += "\t"+"0"
         print row.encode("utf-8").rstrip("\t")
         
-printSumGramsByLanguages()
+# printSumGramsByLanguages()
 
 def printAllNgrams():    
     for k, v in ngram_container.iteritems():
@@ -176,12 +176,12 @@ def printGramsByConceptsMatrix():
                         s += "\t"+"0"
 
                 else:
-                    s += "\t"+"N/A"
+                    s += "\t"+"NA"
 
-        print s.encode("utf-8").rstrip("\t")
-        s = ""
+            print s.encode("utf-8").rstrip("\t")
+            s = ""
 
-
+printGramsByConceptsMatrix()
 
 """
 # checks out ok -- 366 concepts
