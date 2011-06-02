@@ -7,7 +7,12 @@ import unicodedata
 def normalize_stroke(string_src):
     string_new = ""
     for char in string_src:
-        name = unicodedata.name(char)
+        name = ""
+        if char != "\n" and char != "\r" and char != " ":
+            try:
+                name = unicodedata.name(char)
+            except ValueError:
+                print "No Unicode name found for character {0}".format(char).encode("utf-8")
         char_new = char
         if name.endswith("WITH STROKE"):
             name_new = name.replace(" WITH STROKE", "")
@@ -15,7 +20,7 @@ def normalize_stroke(string_src):
                 char_new = unicodedata.lookup(name_new)
                 char_new += u"̵"
             except KeyError:
-                print "Unicode name \"{0}\" not found".format(name_new)
+                print "Unicode name \"{0}\" not found".format(name_new).encode("utf-8")
         string_new += char_new
     return string_new
 
