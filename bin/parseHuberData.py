@@ -14,7 +14,7 @@ script to parse the huber data and output ngram matrices
 """
 
 if len(sys.argv) != 4:
-    sys.exit("Call: python parseHuberData.py len_of_ngram path_to_orthographyprofile path_to_huber_data\nE.g: python parseHuberData.py 2 ../data/orthography_profiles/Huber1992.txt counterparts_huber1992.txt")
+    sys.exit("Call: python parseHuberData.py len_of_ngram path_to_orthographyprofile path_to_huber_data \nE.g: python parseHuberData.py 2 ../data/orthography_profiles/Huber1992.txt counterparts_huber1992.txt")
 
 # load orthography profile to parse linguistic forms from the dictionary
 # load the ngram class to parse and calculate freqs of ngmrams
@@ -22,6 +22,8 @@ if len(sys.argv) != 4:
 
 o = OrthographyProfile.OrthographyProfile(sys.argv[2])
 n = Ngram.Ngram()
+
+# start the script
 file = codecs.open(sys.argv[3], "r", "utf-8")
 
 file_header = file.readline()
