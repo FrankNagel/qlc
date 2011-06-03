@@ -29,7 +29,7 @@ def main(argv):
     orthography_profile_location = sys.argv[1]
     o = OrthographyProfile.OrthographyProfile(orthography_profile_location)
     for head in head_words:
-        orthography_parse = o.parse(head)
+        orthography_parse = o.parseToIpa(head)
         print orthography_parse.encode("utf-8")
 
 if __name__=="__main__":

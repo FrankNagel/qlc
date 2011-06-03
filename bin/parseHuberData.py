@@ -67,10 +67,10 @@ for line in file:
         language_names[language_bookname] += 1
 
     # do the orthography parsing
-    orthography_parse = o.parse(counterpart)
+    orthography_parse = o.parseToIpa(counterpart) # set to parse to Ipa; see also o.parse() for just graphemic parse
     orthography_parse = orthography_parse.replace("#", "")
     split_orthography_parse = orthography_parse.split()
-    ngram_hash = n.getNgramsFromList(split_orthography_parse, int(sys.argv[2])) # set length of ngrams
+    ngram_hash = n.getNgramsFromList(split_orthography_parse, int(sys.argv[1])) # set length of ngrams
 
     # keep track of all ngrams across all languages and their counts
     for k, v in ngram_hash.iteritems():
