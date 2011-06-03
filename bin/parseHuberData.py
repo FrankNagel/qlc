@@ -70,7 +70,7 @@ for line in file:
     orthography_parse = o.parse(counterpart)
     orthography_parse = orthography_parse.replace("#", "")
     split_orthography_parse = orthography_parse.split()
-    ngram_hash = n.getNgramsFromList(split_orthography_parse, int(sys.argv[1])) # set length of ngrams
+    ngram_hash = n.getNgramsFromList(split_orthography_parse, int(sys.argv[2])) # set length of ngrams
 
     # keep track of all ngrams across all languages and their counts
     for k, v in ngram_hash.iteritems():
@@ -141,6 +141,7 @@ def printSumGramsByLanguages():
                 row += "\t"+"0"
         print row.encode("utf-8").rstrip("\t")
         
+
 # printSumGramsByLanguages()
 
 def printAllNgrams():    
@@ -177,7 +178,7 @@ def printGramsByConceptsMatrix():
 
                 else:
                     s += "\t"+"NA"
-
+                    
             print s.encode("utf-8").rstrip("\t")
             s = ""
 
