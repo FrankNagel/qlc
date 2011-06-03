@@ -6,6 +6,7 @@ Orthography Profile class for parsing strings into Quantitiative Language Compar
 
 import codecs
 import sys
+import unicodedata
 
 class OrthographyProfile(object):
     """
@@ -33,6 +34,30 @@ class OrthographyProfile(object):
         # read in orthography profile and create a tree structure
         self.root = createTree(orthography_profile)
 
+        # lookup table
+        self.graphemeToPhoneme = {}
+
+        # create look up table of grapheme to IPA from orthography profile
+        # TODO: move this into a function when we start adding more than just 
+        # 2 columns to the orthography profiles
+
+        file = codecs.open(orthography_profile, "r", "utf-8")
+        for line in file:
+            line = line.strip()
+            # skip any comments
+            if line.startswith("#") or line == "":
+                continue
+            line = unicodedata.normalize("NFD", line)
+            tokens = line.split(",") # split the orthography profile into columns
+            grapheme = tokens[0].strip()
+            phoneme = tokens[1].strip()
+            
+            if not self.graphemeToPhoneme.has_key(grapheme):
+                self.graphemeToPhoneme[grapheme] = phoneme
+            else:
+                raise Exception("You have duplicates in your orthography profile!")
+        
+
     def parse(self, string):
         """
         Returns the parsed and formated string given the graphemes encoded in the 
@@ -48,6 +73,32 @@ class OrthographyProfile(object):
         self.result = ""
         self.result += printMultigraphs(self, self.root, self.string, self.result+"# ")
         return self.result
+
+    def parseToIpa(self, string):
+        """
+        Returns the parsed and formated string given the graphemes encoded in the 
+        orthography profile and the IPA row. Uses a global scrope lookup hash for
+        the time being.
+
+        Args:
+        - string (obligatory): the string to be parsed and formatted
+
+        Returns:    
+        - the parsed and formatted string
+        """
+        self.string = string.replace(" ", "#") # add boundaries between words
+        self.result = ""
+        self.result += printMultigraphs(self, self.root, self.string, self.result+"# ")
+
+        # flip the graphemes into phonemes
+        # TODO: probably don't need a loop for *every string* -- refactor
+        for k, v in self.graphemeToPhoneme.iteritems():
+            self.result = self.result.replace(k, v)
+
+        return self.result
+
+
+    
 
 # ---------- Tree node --------
 
@@ -101,6 +152,7 @@ def createTree(file_name):
         if line.startswith("#") or line == "":
             continue
 
+        line = unicodedata.normalize("NFD", line)
         tokens = line.split(",") # split the orthography profile into columns
         grapheme = tokens[0]
         addMultigraph(root, grapheme)
@@ -147,5 +199,6 @@ if __name__=="__main__":
     o = OrthographyProfile("../../data/orthography_profiles/Thiesen1998.txt")
     test_words = ["aa", "aabuu", "uuabaa auubaa"]
     for word in test_words:
-        print o.parse(word)
+        print "parsed grapheme string: ", o.parse(word)
+        print "parsed phoneme string: ", o.parseToIpa(word)
         
