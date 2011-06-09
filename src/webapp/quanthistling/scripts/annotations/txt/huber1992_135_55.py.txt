@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "hororó:-to† + romarakoko-to, otras especies (other species): se:-sekué-to, si-koro-hĩ̵:-hĩ̵́:-to, pupúli",
+    "startpage" : 135,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "LECHUZA, BUHO_OWL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hororó:to",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "romarakokoto",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sikorohĩ̵:hĩ̵́:to",
+                "start" : 77,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pupúli",
+                "start" : 102,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ romarakoko-to, otras especies (other species): se:-sekué-to, si-koro-hĩ̵:-hĩ̵́:-to, pupúli",
+                "start" : 13,
+                "end" : 109
+            },
+    ]
+})

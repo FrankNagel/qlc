@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "your (plur.) hands",
+    "startpage" : 206,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "VUESTRAS MANOS_YOUR (PLUR.) HANDS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "your hands",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})

@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "haʔɸííʔo† + haʔɸiʔojíína, tsohóʔɯʔxa, ¿préstamo de bora? (borrowed from Bora?) Véase (See) 59",
+    "startpage" : 241,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "NUBES QUIETAS_CLOUDS AT REST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "haʔɸííʔo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "haʔɸiʔojíína",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsohóʔɯʔxa",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ haʔɸiʔojíína, tsohóʔɯʔxa, ¿préstamo de bora? (borrowed from Bora?)",
+                "start" : 12,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) 59",
+                "start" : 84,
+                "end" : 100
+            },
+    ]
+})

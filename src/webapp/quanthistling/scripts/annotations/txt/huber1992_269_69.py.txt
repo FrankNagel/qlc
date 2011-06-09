@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "axthjɯ́mɨɨí̵tʰé-kʰɯnɯ† + tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
+    "fullentry" : "axthjɯ́mi̵i̵í̵tʰé-kʰɯnɯ† + tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
     "startpage" : 269,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
@@ -9,9 +9,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "axthjɯ́mɨɨí̵tʰékʰɯnɯ",
+                "string" : "axtʰʲɯ́mi̵i̵í̵tʰé-kʰɯnɯ",
                 "start" : 0,
-                "end" : 23
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
@@ -40,6 +40,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 24,
                 "end" : 24
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "axtʰʲɯ́mi̵i̵í̵tʰé-kʰɯnɯ",
+                "start" : 0,
+                "end" : 25
             },
     ]
 })

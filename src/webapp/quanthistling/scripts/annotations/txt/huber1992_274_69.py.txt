@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "tsí̵xɨ-βé-tsʰo† + 1ʃiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro Véase (See) 281",
+    "fullentry" : "tsí̵xi̵-βé-tsʰo† + ʧiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro Véase (See) 281",
     "startpage" : 274,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
@@ -9,21 +9,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "tsí̵xɨβétsʰo",
+                "string" : "tsí̵xi̵βétsʰo",
                 "start" : 0,
                 "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "footnote",
-                "string" : "+ 1ʃiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro",
+                "string" : "+ ʧiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro",
                 "start" : 18,
                 "end" : 107
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ʃiiʔjánɯ",
+                "string" : "ʧiiʔjánɯ",
                 "start" : 21,
                 "end" : 30
             },

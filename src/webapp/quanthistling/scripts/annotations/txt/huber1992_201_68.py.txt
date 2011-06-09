@@ -1,0 +1,66 @@
+
+manual_entries.append({
+    "fullentry" : "díí-to, áxáaᵗʲo† plur., + díítɨ-si (masc. dual), díítɨ-ɸc (fem. dual)",
+    "startpage" : 201,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dííto",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "áxáatʲo",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "díítɨsi",
+                "start" : 30,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "díítɨɸo",
+                "start" : 55,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "plur., + díítɨ-si (masc. dual), díítɨ-ɸc (fem. dual)",
+                "start" : 21,
+                "end" : 77
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "áxáatʲo",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "díítɨ-ɸo",
+                "start" : 55,
+                "end" : 65
+            },
+    ]
+})

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "your (plur.) bow",
+    "startpage" : 212,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "SU ARCO DE USTEDES_YOUR (PLUR.) BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "your bow",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "óbáxákímaxe + seenc, ‘biche’ (‘not ripe fruit’)",
+    "startpage" : 156,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "FRUTA_FRUIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "óbáxákímaxe",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "seene",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ seenc, ‘biche’ (‘not ripe fruit’)",
+                "start" : 16,
+                "end" : 51
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "seene",
+                "start" : 18,
+                "end" : 23
+            },
+    ]
+})

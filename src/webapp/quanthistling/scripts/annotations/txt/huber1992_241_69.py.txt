@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "βaaɯ́meíᵗʰjɯ́ne oxtsʰo Véase (See) 59",
+    "startpage" : 241,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "NUBES QUIETAS_CLOUDS AT REST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "βaaɯ́meítʰjɯ́ne oxtsʰo",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) 59",
+                "start" : 23,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "βaaɯ́meítʰjɯ́ne oxtsʰo",
+                "start" : 0,
+                "end" : 23
+            },
+    ]
+})

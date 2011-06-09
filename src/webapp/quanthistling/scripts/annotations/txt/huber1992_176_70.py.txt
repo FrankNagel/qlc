@@ -9,14 +9,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "néépʰáhʸɯpa",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "néépʰáhʸɯpa",
+                "string" : "néépʰáhyɯpa",
                 "start" : 0,
                 "end" : 14
             },

@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "you (singular)",
+    "startpage" : 195,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "USTED_YOU (SINGULAR)",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "you",
+                "start" : 0,
+                "end" : 3
+            },
+    ]
+})

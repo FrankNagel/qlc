@@ -331,6 +331,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "your (sing.) bow",
+    "startpage" : 209,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "TU ARCO_YOUR (SING.) BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "your bow",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 7,
@@ -863,6 +880,23 @@ manual_entries.append({
                 "string" : "kúna",
                 "start" : 0,
                 "end" : 5
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "sus manos (de ellos)",
+    "startpage" : 207,
+    "pos_on_page" : 1,
+    "language_bookname" : "Español",
+    "concept" : "SUS MANOS (DE ELLOS)_THEIR HANDS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sus manos",
+                "start" : 0,
+                "end" : 9
             },
     ]
 })
@@ -1512,7 +1546,7 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "axthjɯ́mɨɨí̵tʰé-kʰɯnɯ† + tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
+    "fullentry" : "axthjɯ́mi̵i̵í̵tʰé-kʰɯnɯ† + tɯ́xɯɯ́-kʰɯnɯ, ɯɯ́xe",
     "startpage" : 269,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
@@ -1521,9 +1555,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "axthjɯ́mɨɨí̵tʰékʰɯnɯ",
+                "string" : "axtʰʲɯ́mi̵i̵í̵tʰé-kʰɯnɯ",
                 "start" : 0,
-                "end" : 23
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
@@ -1552,6 +1586,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 24,
                 "end" : 24
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "axtʰʲɯ́mi̵i̵í̵tʰé-kʰɯnɯ",
+                "start" : 0,
+                "end" : 25
             },
     ]
 })
@@ -1606,6 +1647,51 @@ manual_entries.append({
                 "value" : "stratum",
                 "string" : "Spanish loanword",
                 "start" : 19,
+                "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "óbáxákímaxe + seenc, ‘biche’ (‘not ripe fruit’)",
+    "startpage" : 156,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "FRUTA_FRUIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "óbáxákímaxe",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "seene",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ seenc, ‘biche’ (‘not ripe fruit’)",
+                "start" : 16,
+                "end" : 51
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "seene",
+                "start" : 18,
                 "end" : 23
             },
     ]
@@ -2040,6 +2126,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "βaaɯ́meíᵗʰjɯ́ne oxtsʰo Véase (See) 59",
+    "startpage" : 241,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "NUBES QUIETAS_CLOUDS AT REST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "βaaɯ́meítʰjɯ́ne oxtsʰo",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) 59",
+                "start" : 23,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "βaaɯ́meítʰjɯ́ne oxtsʰo",
+                "start" : 0,
+                "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "áulakue† (masc.), + áulako (fem.), ijáhii, híidui, áalisáiʒimi",
     "startpage" : 327,
     "pos_on_page" : 25,
@@ -2094,6 +2218,58 @@ manual_entries.append({
                 "string" : "",
                 "start" : 9,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "hororó:-to† + romarakoko-to, otras especies (other species): se:-sekué-to, si-koro-hĩ̵:-hĩ̵́:-to, pupúli",
+    "startpage" : 135,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "LECHUZA, BUHO_OWL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hororó:to",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "romarakokoto",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sikorohĩ̵:hĩ̵́:to",
+                "start" : 77,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pupúli",
+                "start" : 102,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ romarakoko-to, otras especies (other species): se:-sekué-to, si-koro-hĩ̵:-hĩ̵́:-to, pupúli",
+                "start" : 13,
+                "end" : 109
             },
     ]
 })
@@ -2856,6 +3032,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "bákolamɨ",
+    "startpage" : 173,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "AJAHUASCA, JAJÉ_BANISTERIUM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bákotamɨ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "bákotamɨ",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "palít-sɨ† + palít-ʧon ‘pocos (sólidos)’ (‘few (solids)’); jóot-ʧon ‘poca cantidad (líquidos)’ (‘little amount (liquids)’)",
     "startpage" : 300,
     "pos_on_page" : 24,
@@ -3112,6 +3312,23 @@ manual_entries.append({
                 "string" : "Spanish loanword",
                 "start" : 14,
                 "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "you (plural)",
+    "startpage" : 200,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "USTEDES_YOU (PLURAL)",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "you",
+                "start" : 0,
+                "end" : 3
             },
     ]
 })
@@ -3401,6 +3618,72 @@ manual_entries.append({
                 "string" : "bã́kã́dĩ̵kĩ̵ úú",
                 "start" : 7,
                 "end" : 31
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "díí-to, áxáaᵗʲo† plur., + díítɨ-si (masc. dual), díítɨ-ɸc (fem. dual)",
+    "startpage" : 201,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dííto",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "áxáatʲo",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "díítɨsi",
+                "start" : 30,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "díítɨɸo",
+                "start" : 55,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "plur., + díítɨ-si (masc. dual), díítɨ-ɸc (fem. dual)",
+                "start" : 21,
+                "end" : 77
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "áxáatʲo",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "díítɨ-ɸo",
+                "start" : 55,
+                "end" : 65
             },
     ]
 })
@@ -3790,6 +4073,23 @@ manual_entries.append({
                 "string" : "náɯo",
                 "start" : 0,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "you (singular)",
+    "startpage" : 195,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "USTED_YOU (SINGULAR)",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "you",
+                "start" : 0,
+                "end" : 3
             },
     ]
 })
@@ -4320,6 +4620,58 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "haʔɸííʔo† + haʔɸiʔojíína, tsohóʔɯʔxa, ¿préstamo de bora? (borrowed from Bora?) Véase (See) 59",
+    "startpage" : 241,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "NUBES QUIETAS_CLOUDS AT REST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "haʔɸííʔo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "haʔɸiʔojíína",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsohóʔɯʔxa",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ haʔɸiʔojíína, tsohóʔɯʔxa, ¿préstamo de bora? (borrowed from Bora?)",
+                "start" : 12,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) 59",
+                "start" : 84,
+                "end" : 100
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "pe-tábu-topa:† + pe-tabu-nepé-to, más pequeño (smaller roots)",
     "startpage" : 158,
     "pos_on_page" : 55,
@@ -4754,6 +5106,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "your (plur.) hands",
+    "startpage" : 206,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "VUESTRAS MANOS_YOUR (PLUR.) HANDS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "your hands",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "... m’úukulianha† = ‘el niño está tirando (la cola del mico)’ (‘the child is pulling (the monkey’s tail)’); Giacone: pe-epitánipe",
     "startpage" : 341,
     "pos_on_page" : 71,
@@ -5152,14 +5521,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "néépʰáhʸɯpa",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "néépʰáhʸɯpa",
+                "string" : "néépʰáhyɯpa",
                 "start" : 0,
                 "end" : 14
             },
@@ -5777,6 +6139,58 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "káxáá-nɨ† (masc.), + káxáá-mo (fem.), mí̵xí̵, mɨɨxoʔo",
+    "startpage" : 251,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "QUIÉN_WHO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "káxáánɨ",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "káxáámo",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mí̵xí̵",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɨɨxoʔo",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(masc.), + káxáá-mo (fem.), mí̵xí̵, mɨɨxoʔo",
+                "start" : 13,
+                "end" : 61
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "pĩ̵ka-hĩ† = ‘(árbol) podrido’ (‘rotten (tree)’), + kõʧi-hĩ̵ ‘(earne) podrida’ (‘rotten (meat)’), bẽtu-hĩ̵ ‘(fruta) podrida’ (‘rotten (fruit)’)",
     "startpage" : 333,
     "pos_on_page" : 51,
@@ -6350,6 +6764,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "your (plur.) bow",
+    "startpage" : 212,
+    "pos_on_page" : 2,
+    "language_bookname" : "English",
+    "concept" : "SU ARCO DE USTEDES_YOUR (PLUR.) BOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "your bow",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "mɯ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 9,
@@ -6479,6 +6910,72 @@ manual_entries.append({
                 "string" : "",
                 "start" : 16,
                 "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "aá-tʰʲe, tií-tʰʲe† plur., + aatʰʲé-tsʰi, tiitʰʲé-tsʰi (mase. dual), aatʰʲé-pʰɨ, tiitʰʲé-pʰɨ (fem. dual)",
+    "startpage" : 201,
+    "pos_on_page" : 69,
+    "language_bookname" : "bora",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aátʰʲe",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tiítʰʲe",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aatʰʲétsʰi",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tiitʰʲétsʰi",
+                "start" : 44,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aatʰʲépʰɨ",
+                "start" : 72,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tiitʰʲépʰɨ",
+                "start" : 85,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "plur., + aatʰʲé-tsʰi, tiitʰʲé-tsʰi (mase. dual), aatʰʲé-pʰɨ, tiitʰʲé-pʰɨ (fem. dual)",
+                "start" : 21,
+                "end" : 109
             },
     ]
 })
@@ -6777,7 +7274,7 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "tsí̵xɨ-βé-tsʰo† + 1ʃiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro Véase (See) 281",
+    "fullentry" : "tsí̵xi̵-βé-tsʰo† + ʧiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro Véase (See) 281",
     "startpage" : 274,
     "pos_on_page" : 69,
     "language_bookname" : "bora",
@@ -6786,21 +7283,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "tsí̵xɨβétsʰo",
+                "string" : "tsí̵xi̵βétsʰo",
                 "start" : 0,
                 "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "footnote",
-                "string" : "+ 1ʃiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro",
+                "string" : "+ ʧiiʔjánɯ, ápʰaxʲɯ́nɯ, kʷápʰɯ́xɯʔxákʰo, kʷátsʰɯʔkʰáo, tótsʰoʔkʰáo, kʷájɯɯʔáro",
                 "start" : 18,
                 "end" : 107
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ʃiiʔjánɯ",
+                "string" : "ʧiiʔjánɯ",
                 "start" : 21,
                 "end" : 30
             },
@@ -6924,6 +7421,51 @@ manual_entries.append({
                 "string" : "",
                 "start" : 15,
                 "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ɸíkú-ʔi† = ‘guardar’ (‘store’), + gáɲú-ʔi, xíku-ʔi",
+    "startpage" : 343,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "BOTAR, TIRAR_THROW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸíkúʔi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gáɲúʔi",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xíkuʔi",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘guardar’ (‘store’), + gáɲú-ʔi, xíku-ʔi",
+                "start" : 11,
+                "end" : 56
             },
     ]
 })

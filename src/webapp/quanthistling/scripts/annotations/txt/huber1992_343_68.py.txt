@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ɸíkú-ʔi† = ‘guardar’ (‘store’), + gáɲú-ʔi, xíku-ʔi",
+    "startpage" : 343,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "BOTAR, TIRAR_THROW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸíkúʔi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gáɲúʔi",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xíkuʔi",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘guardar’ (‘store’), + gáɲú-ʔi, xíku-ʔi",
+                "start" : 11,
+                "end" : 56
+            },
+    ]
+})

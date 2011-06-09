@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "bákolamɨ",
+    "startpage" : 173,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "AJAHUASCA, JAJÉ_BANISTERIUM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bákotamɨ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "bákotamɨ",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})
