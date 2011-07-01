@@ -45,7 +45,7 @@ class Nj(object):
             ret += "\n"
         return ret
         
-    def as_jpg(self, filename="njtree.jpg", width=1600, height=1200):
+    def as_jpg(self, filename="njtree.png", width=1600, height=1200):
         try:
             from PIL import Image, ImageDraw, ImageFont
         except:
@@ -86,7 +86,7 @@ class Nj(object):
         
         # Draw the first node
         self.__drawnode(draw, img, top, centerx, centery, scaling, font)
-        img.save(filename, 'JPEG')
+        img.save(filename, 'PNG')
 
     def __measure_edges(self, node, x, y):
         x2 = 0.0

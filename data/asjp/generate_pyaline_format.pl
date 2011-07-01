@@ -1,3 +1,4 @@
+#!/usr/bin/env perl
 
 # Perl trim function to remove whitespace from the start and end of the string
 sub trim($)
@@ -30,24 +31,18 @@ foreach $line(<>) {
         $go = 1;
     }
     next if ($go == 0);
-    #print $line;
     if ($line =~ /^[A-Z]/) {
         if ($line =~ /(^[^{]+)\{([^|]+)\|([^}]+)\}/) {
             $lang_new = $1;
             $fam1_new = $2;
             $fam2_new = $3;
+            # this if statements filters the languages; only languages in family starting with "Sal." in this case
             if ($fam1 =~ /Sal\./) {
-                #print STDERR $lang."\n";
                 print join("\t", $lang, $fam1, $fam2, $iso_code, $wals_code, $nr_of_speakers, $latitude, $longitude);
                 foreach $string(@concepts) {
                     print "\t$string";
                 }
                 print "\n";
-                #if (exists($files{$fam1})) {
-                #    $files{$fam1} .= $text;
-                #} else {
-                #    $files{$fam1} = $text;
-                #}
             }
             $lang = $lang_new;
             $fam1 = $fam1_new;
@@ -76,9 +71,3 @@ foreach $line(<>) {
     }
     
 }
-
-#foreach $file(keys(%files)) {
-#    open(F, ">$file.csv");
-#    print F $files{$file};
-#    close(F);
-#}

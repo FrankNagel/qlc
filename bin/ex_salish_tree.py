@@ -76,6 +76,6 @@ print x.matrix
 nj = nj.Nj(x.matrix, language_names)
 nj.generate_tree()
 print nj
-nj.as_jpg(filename="njtree.jpg")
+nj.as_jpg(filename="njtree.png")
 
 
