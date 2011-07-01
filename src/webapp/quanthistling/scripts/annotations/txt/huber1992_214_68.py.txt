@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "gíráa-no† + kééɸi-, compare: mítʲa-no ‘poderoso’ (‘powerful’) Véase (See) 262",
+    "startpage" : 214,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "GRANDE_BIG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gíráano",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kééɸi",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mítʲano",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ kééɸi-, compare: mítʲa-no ‘poderoso’ (‘powerful’)",
+                "start" : 12,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) 262",
+                "start" : 66,
+                "end" : 83
+            },
+    ]
+})

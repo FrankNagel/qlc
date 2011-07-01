@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "nɯʔpa† + kʰoóhí̵chpʰí nɯʔpa",
+    "startpage" : 64,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "SOL_SUN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nɯʔpa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʰoóhí̵hpʰí nɯʔpa",
+                "start" : 9,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ kʰoóhí̵chpʰí nɯʔpa",
+                "start" : 7,
+                "end" : 30
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "kʰoóhí̵hpʰí nɯʔpa",
+                "start" : 9,
+                "end" : 30
+            },
+    ]
+})

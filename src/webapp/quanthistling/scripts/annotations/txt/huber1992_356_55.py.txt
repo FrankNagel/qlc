@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "tsu-tsúne† + tsu-tsúba (plur.)",
+    "startpage" : 356,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "CHUPAR_SUCK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsutsúne",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsutsúba",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ tsu-tsúba (plur.)",
+                "start" : 12,
+                "end" : 32
+            },
+    ]
+})

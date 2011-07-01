@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "níiβi̵-gai† (red species), + xííbai, especies blancas (white species)",
+    "startpage" : 102,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "VENADO_DEER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "níiβi̵gai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xííbai",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(red species), + xííbai, especies blancas (white species)",
+                "start" : 13,
+                "end" : 72
+            },
+    ]
+})

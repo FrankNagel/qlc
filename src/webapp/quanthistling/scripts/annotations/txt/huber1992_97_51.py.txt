@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "békí̵† + hai-ko, una especie grande (a larger species)",
+    "startpage" : 97,
+    "pos_on_page" : 51,
+    "language_bookname" : "orejón",
+    "concept" : "DANTA_TAPIR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "békí̵",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "haiko",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ hai-ko, una especie grande (a larger species)",
+                "start" : 9,
+                "end" : 56
+            },
+    ]
+})

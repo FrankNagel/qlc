@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ˈbã-ˈki† (masc. sing.), + ˈbã-ˈko (fem. sing.), ˈbã-ˈrã (plur.)",
+    "startpage" : 251,
+    "pos_on_page" : 46,
+    "language_bookname" : "tanimuca",
+    "concept" : "QUIÉN_WHO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bãki",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bãko",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bãrã",
+                "start" : 50,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(masc. sing.), + ˈbã-ˈko (fem. sing.), ˈbã-ˈrã (plur.)",
+                "start" : 10,
+                "end" : 67
+            },
+    ]
+})

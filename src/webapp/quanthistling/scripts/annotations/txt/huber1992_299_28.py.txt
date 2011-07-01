@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "aapú† (masc.), + apaʔawélo (fem.)",
+    "startpage" : 299,
+    "pos_on_page" : 28,
+    "language_bookname" : "yucuna",
+    "concept" : "OTRO_OTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aapú",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "apaʔawélo",
+                "start" : 18,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(masc.), + apaʔawélo (fem.)",
+                "start" : 7,
+                "end" : 35
+            },
+    ]
+})

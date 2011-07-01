@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "ˈwáá-ja† mase. sing. + ˈwáa-gi̵-há (masc.), ˈwáa-go-há (fem.), ˈwáa-rã-há (plur.)",
+    "startpage" : 222,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "VAYA, VE_GO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wáája",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wáagi̵há",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wáagohá",
+                "start" : 48,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wáarãhá",
+                "start" : 69,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "mase. sing.",
+                "start" : 10,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ ˈwáa-gi̵-há (masc.), ˈwáa-go-há (fem.), ˈwáa-rã-há (plur.)",
+                "start" : 23,
+                "end" : 90
+            },
+    ]
+})

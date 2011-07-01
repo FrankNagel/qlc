@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "pedálipe† = ‘...es vieja’ (‘it’s old’); Giacone: pedália (mase.), pedaliáma (fem.)",
+    "startpage" : 339,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "VIEJO_OLD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pedália",
+                "start" : 50,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pedaliáma",
+                "start" : 68,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘...es vieja’ (‘it’s old’); Giacone: pedália (mase.), pedaliáma (fem.)",
+                "start" : 11,
+                "end" : 85
+            },
+    ]
+})

@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "boʔiʔiʔtyonó† + xonɯ́ɯ́βaga, ɲihĩ́ĩ́βaga",
+    "startpage" : 52,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "PANTANO_SWAMP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "boʔiʔiʔtʲonó",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xonɯ́ɯ́βaga",
+                "start" : 17,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɲihĩ́ĩ́βaga",
+                "start" : 30,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ xonɯ́ɯ́βaga, ɲihĩ́ĩ́βaga",
+                "start" : 15,
+                "end" : 43
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "boʔiʔiʔtʲonó",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

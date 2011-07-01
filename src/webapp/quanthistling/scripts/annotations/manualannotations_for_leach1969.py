@@ -4,6 +4,50 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "jahfííñityo – chinche (insecto)",
+    "startpage" : 105,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jahfííñityo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chinche (insecto)",
+                "start" : 18,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})
+
+
+manual_entries.append({
     "fullentry" : "jahfííñi (pl.)",
     "startpage" : 105,
     "pos_on_page" : 17,
@@ -33,36 +77,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "ña jáhahtíídyo – lo ama",
-    "startpage" : 71,
-    "pos_on_page" : 9,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ña jáhahtíídyo",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "lo ama",
-                "start" : 22,
-                "end" : 27
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-    ]
-})
-
-
-manual_entries.append({
     "fullentry" : "obaan (pl.)",
     "startpage" : 131,
     "pos_on_page" : 29,
@@ -90,6 +104,29 @@ manual_entries.append({
             },
     ]
 })
+
+manual_entries.append({
+    "fullentry" : "ñovááhyo – camaleón",
+    "startpage" : 131,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ñovááhyo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "camaleón",
+                "start" : 16,
+                "end" : 24
+            },
+    ]
+})
+
 
 manual_entries.append({
     "fullentry" : "taagu II – coger (fruta del árbol)",
@@ -192,48 +229,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "jahfííñityo – chinche (insecto)",
-    "startpage" : 105,
-    "pos_on_page" : 16,
+    "fullentry" : "ña jáhahtíídyo – lo ama",
+    "startpage" : 71,
+    "pos_on_page" : 9,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "jahfííñityo",
+                "string" : "ña jáhahtíídyo",
                 "start" : 0,
-                "end" : 11
+                "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "chinche (insecto)",
-                "start" : 18,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 25,
-                "end" : 25
+                "string" : "lo ama",
+                "start" : 22,
+                "end" : 27
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 26,
-                "end" : 26
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 26,
-                "end" : 26
+                "start" : 0,
+                "end" : 0
             },
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "dyavaara – llaga",
+    "startpage" : 87,
+    "pos_on_page" : 42,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyavaara",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llaga",
+                "start" : 11,
+                "end" : 16
+            },
+    ]
+})
 
                                                                                                                                                                                 
 manual_entries.append({
@@ -289,51 +334,6 @@ manual_entries.append({
                 "string" : "comadre la esposa de dyobííxam̈a",
                 "start" : 13,
                 "end" : 47
-            },
-    ]
-})
-
-
-manual_entries.append({
-    "fullentry" : "dyavaara – llaga",
-    "startpage" : 87,
-    "pos_on_page" : 42,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dyavaara",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "llaga",
-                "start" : 11,
-                "end" : 16
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "ñovááhyo – camaleón",
-    "startpage" : 131,
-    "pos_on_page" : 8,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ñovááhyo",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "camaleón",
-                "start" : 16,
-                "end" : 24
             },
     ]
 })

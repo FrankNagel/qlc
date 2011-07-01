@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "mẽtiwápe† + sivíru, especie (species)",
+    "startpage" : 155,
+    "pos_on_page" : 29,
+    "language_bookname" : "tariano",
+    "concept" : "FLOR_FLOWER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mẽtiwápe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sivíru",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ sivíru, especie (species)",
+                "start" : 12,
+                "end" : 40
+            },
+    ]
+})

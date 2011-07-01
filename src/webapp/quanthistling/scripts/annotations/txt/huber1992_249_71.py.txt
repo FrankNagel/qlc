@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "híndanha† espec.: ‘esta (flor)’ (‘this (flower)’); Giacone: ahi (mase.), ihí (fem.), ahipa (plur.)",
+    "startpage" : 249,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "ESTE_THIS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ahi",
+                "start" : 61,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ihí",
+                "start" : 74,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ahipa",
+                "start" : 87,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "espec.: ‘esta (flor)’ (‘this (flower)’); Giacone: ahi (mase.), ihí (fem.), ahipa (plur.)",
+                "start" : 11,
+                "end" : 100
+            },
+    ]
+})

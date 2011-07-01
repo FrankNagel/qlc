@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "hawasíri-to† + hawasír-to, hawái̵-to, especie grande (large species)",
+    "startpage" : 103,
+    "pos_on_page" : 55,
+    "language_bookname" : "guahibo",
+    "concept" : "MURCIÉLAGO_BAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hawasírito",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hawasírto",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hawái̵to",
+                "start" : 29,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ hawasír-to, hawái̵-to, especie grande (large species)",
+                "start" : 14,
+                "end" : 71
+            },
+    ]
+})

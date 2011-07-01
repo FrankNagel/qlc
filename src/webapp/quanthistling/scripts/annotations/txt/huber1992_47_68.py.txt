@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "ámijaa-bo† + ámija-to, (plur.); kíʤaʔuto",
+    "startpage" : 47,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "VIEJO_OLD MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ámijaabo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ámijato",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kíʤaʔuto",
+                "start" : 34,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ ámija-to, (plur.); kíʤaʔuto",
+                "start" : 12,
+                "end" : 43
+            },
+    ]
+})

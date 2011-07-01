@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "maʔníumi̵",
+    "startpage" : 191,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "MÁSCARA_MASK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maʔníɯmi̵",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "maʔníɯmi̵",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "níʔiba† (babilla), + méédúba, especie negra (black species)",
+    "startpage" : 111,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "CAIMÁN_CAYMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "níʔiba",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "méédúba",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(babilla), + méédúba, especie negra (black species)",
+                "start" : 9,
+                "end" : 63
+            },
+    ]
+})

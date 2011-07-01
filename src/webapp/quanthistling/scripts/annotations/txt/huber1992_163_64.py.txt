@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "huhɯ† espec.: ‘tubérculo’ (‘tuber’), + huθi.c ‘planta’ (‘plant’), ma.ika ‘dulce’ (‘sweet’)",
+    "startpage" : 163,
+    "pos_on_page" : 64,
+    "language_bookname" : "witoto murui",
+    "concept" : "YUCA_MANIOC",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "huhɯ",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "huθie",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maika",
+                "start" : 67,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "espec.: ‘tubérculo’ (‘tuber’), + huθi.c ‘planta’ (‘plant’), ma.ika ‘dulce’ (‘sweet’)",
+                "start" : 6,
+                "end" : 91
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "huθie",
+                "start" : 40,
+                "end" : 46
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ipʰi̵rí̵kʰa = ‘labio, borde, orilla’ (‘lip, border or edge’)",
+    "startpage" : 3,
+    "pos_on_page" : 3,
+    "language_bookname" : "embera Darién",
+    "concept" : "LABIO_LIP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ipʰi̵rí̵kʰa",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘labio, borde, orilla’ (‘lip, border or edge’)",
+                "start" : 13,
+                "end" : 62
+            },
+    ]
+})

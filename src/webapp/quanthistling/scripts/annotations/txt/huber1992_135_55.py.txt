@@ -23,6 +23,13 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
+                "string" : "se:sekuéto",
+                "start" : 62,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
                 "string" : "sikorohĩ̵:hĩ̵́:to",
                 "start" : 77,
                 "end" : 100

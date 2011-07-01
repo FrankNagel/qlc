@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hanésaijánha ...† = ‘la otra (flor)’ (‘other flower’), Giacone: páite (mase.), páita (fem.)",
+    "startpage" : 299,
+    "pos_on_page" : 71,
+    "language_bookname" : "giacone",
+    "concept" : "OTRO_OTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "páite",
+                "start" : 66,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "páita",
+                "start" : 82,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "= ‘la otra (flor)’ (‘other flower’), Giacone: páite (mase.), páita (fem.)",
+                "start" : 20,
+                "end" : 95
+            },
+    ]
+})

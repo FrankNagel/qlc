@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "haʤe-de† v.i.; + ɲɯta-de, v.t.",
+    "startpage" : 354,
+    "pos_on_page" : 64,
+    "language_bookname" : "witoto murui",
+    "concept" : "OLER_SMELL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "haʤede",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɲɯtade",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "v.i.; + ɲɯta-de, v.t.",
+                "start" : 9,
+                "end" : 30
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "iidʲ kuse† (masc.), + iʔkwc kuse (fem.)",
+    "startpage" : 203,
+    "pos_on_page" : 16,
+    "language_bookname" : "páez",
+    "concept" : "TU MANO_YOUR HAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iidʲ kuse",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "iʔkwc kuse",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(masc.), + iʔkwc kuse (fem.)",
+                "start" : 11,
+                "end" : 39
+            },
+    ]
+})

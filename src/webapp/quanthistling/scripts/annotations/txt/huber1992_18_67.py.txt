@@ -1,0 +1,17 @@
+
+manual_entries.append({
+    "fullentry" : "dʲɯxááβɯ",
+    "startpage" : 18,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "HOMBRO_SHOULDER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dʲɯxááβɯ",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

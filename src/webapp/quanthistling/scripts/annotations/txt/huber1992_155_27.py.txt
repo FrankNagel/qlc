@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "íiwinási† (i-íwi-ná-si), + putíra, especie (species)",
+    "startpage" : 155,
+    "pos_on_page" : 27,
+    "language_bookname" : "piapoco",
+    "concept" : "FLOR_FLOWER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "íiwinási",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "putíra",
+                "start" : 31,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "(i-íwi-ná-si), + putíra, especie (species)",
+                "start" : 12,
+                "end" : 57
+            },
+    ]
+})

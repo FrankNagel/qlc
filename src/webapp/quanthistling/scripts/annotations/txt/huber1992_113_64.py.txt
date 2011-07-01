@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "meniɲo† Véase (See) OC 114",
+    "startpage" : 113,
+    "pos_on_page" : 64,
+    "language_bookname" : "witoto murui",
+    "concept" : "TORTUGA_TORTOISE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "meniɲo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) OC 114",
+                "start" : 8,
+                "end" : 27
+            },
+    ]
+})

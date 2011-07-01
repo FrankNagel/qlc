@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ĩ̵-ki̵-dã† masc. plur., + ĩ̵-ko-dã (fem. plur.)",
+    "startpage" : 201,
+    "pos_on_page" : 51,
+    "language_bookname" : "orejón",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩ̵ki̵dã",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : " ĩ̵kodã",
+                "start" : 27,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "masc. plur., + ĩ̵-ko-dã (fem. plur.)",
+                "start" : 13,
+                "end" : 51
+            },
+    ]
+})

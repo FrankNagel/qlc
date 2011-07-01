@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ˈdõã† + jaˈba-riro (masc. sing.)",
+    "startpage" : 251,
+    "pos_on_page" : 34,
+    "language_bookname" : "wanano",
+    "concept" : "QUIÉN_WHO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dõã",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jabariro",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ jaˈba-riro (masc. sing.)",
+                "start" : 8,
+                "end" : 34
+            },
+    ]
+})

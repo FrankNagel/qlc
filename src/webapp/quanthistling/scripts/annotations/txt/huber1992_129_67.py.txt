@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "ɸaaro† especie azul (blues species), + kɯ́ɯ́ram̥a, especie rojo (red species)",
+    "startpage" : 129,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "GUACAMAYO_MACAW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɸaaro",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kɯ́ɯ́ram̥a",
+                "start" : 39,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "especie azul (blues species), + kɯ́ɯ́ram̥a, especie rojo (red species)",
+                "start" : 7,
+                "end" : 77
+            },
+    ]
+})

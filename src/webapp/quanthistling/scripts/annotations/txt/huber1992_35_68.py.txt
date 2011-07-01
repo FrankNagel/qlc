@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "βáβáágano† + βáaβaga (sing.); xí̵-gisi̵-ba, = ‘?-blow-?,’ Véase (See) 365))",
+    "startpage" : 35,
+    "pos_on_page" : 68,
+    "language_bookname" : "muinane",
+    "concept" : "PULMONES_LUNGS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "βáβáágano",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "βáaβaga",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xí̵gisi̵ba",
+                "start" : 34,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "+ βáaβaga (sing.); xí̵-gisi̵-ba, = ‘?-blow-?,’ Véase (See) 365))",
+                "start" : 14,
+                "end" : 81
+            },
+    ]
+})
