@@ -1,7 +1,22 @@
 
+# Perl trim function to remove whitespace from the start and end of the string
+sub trim($)
+{
+    my $string = shift;
+    $string =~ s/^\s+//;
+    $string =~ s/\s+$//;
+    return $string;
+}
+
 my $fam1 = "";
 my $fam2 = "";
 my $lang = "";
+
+my $latitude = "";
+my $longitude = "";
+my $nr_of_speakers = "";
+my $wals_code = "";
+my $iso_code = "";
 
 my @concepts = (('') x 100);
 my $go = 0;
@@ -23,7 +38,7 @@ foreach $line(<>) {
             $fam2_new = $3;
             if ($fam1 =~ /Sal\./) {
                 #print STDERR $lang."\n";
-                print "$lang\t$fam1\t$fam2";
+                print join("\t", $lang, $fam1, $fam2, $iso_code, $wals_code, $nr_of_speakers, $latitude, $longitude);
                 foreach $string(@concepts) {
                     print "\t$string";
                 }
@@ -46,11 +61,18 @@ foreach $line(<>) {
         ($nr, $concept) = split(/ /, $nr_concept);
         $string =~ s/, ?/|/g;
         $string =~ s/\r\n//g;
-        $string =~ s/\\\\.*$//;
+        $string =~ s/\/\/.*$//;
         $string =~ s/XXX//;
         $string =~ s/ +/ /g;
         $string = "" if $string eq " ";
-        $concepts[$nr] = $string;
+        $concepts[$nr-1] = $string;
+    }
+    elsif ($line =~ /^ \d/) {
+        $longitude = trim(substr($line, 3, 7));
+        $latitude = trim(substr($line, 11, 7));
+        $nr_of_speakers = trim(substr($line, 18, 12));
+        $wals_code = substr($line, 33, 3);
+        $iso_code = substr($line, 39, 3);
     }
     
 }
