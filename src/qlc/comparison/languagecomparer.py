@@ -102,7 +102,7 @@ if __name__ == "__main__":
     languages = {}
     for row in words:
         if options.asjp:
-            languages[row[1]] = row[3:]
+            languages[row[1]] = row[9:]
         else:
             languages[row[0]] = row[1:]
 

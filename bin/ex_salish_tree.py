@@ -7,7 +7,7 @@ from qlc.comparison import aline
 from qlc.distance import nj
 from numpy import *
 
-filename = "data/asjp/salish.csv"
+filename = "data/asjp/output_aline.txt"
 
 file_data = open(filename, "rb")
 file_content = csv.reader(file_data, quoting=csv.QUOTE_NONE, delimiter="\t")
@@ -49,9 +49,9 @@ language_names = []
 
 language_data = []
 for row in file_content:
-    language_names.append(row[0])
+    language_names.append(row[1])
     language_concepts = []
-    for s in row[3:]:
+    for s in row[9:]:
         if s == "":
             language_concepts.append([])
             continue
@@ -59,9 +59,6 @@ for row in file_content:
         s_split = s_decode.split("|")
         language_concept_entries = []
         for s_entry in s_split:
-            if s_entry.find("//") != -1:
-                s_entry = s_entry.split("//")[0]
-            
             s_entry = s_entry.strip()
                 
             if s_entry != "":
@@ -75,7 +72,7 @@ print x.matrix
 
 nj = nj.Nj(x.matrix, language_names)
 nj.generate_tree()
-print nj
+#print nj
 nj.as_jpg(filename="njtree.png")
 
 
