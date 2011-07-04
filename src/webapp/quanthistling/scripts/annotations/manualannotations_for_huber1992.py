@@ -5407,6 +5407,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "naahõ, tóβɯʔtʲa Véase (See) 85",
+    "startpage" : 247,
+    "pos_on_page" : 67,
+    "language_bookname" : "ocaina",
+    "concept" : "TROCHA_PATH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "naahõ",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tóβɯʔtʲa",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "Véase (See) 85",
+                "start" : 18,
+                "end" : 34
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "təηkuá",
     "startpage" : 248,
     "pos_on_page" : 11,
