@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
 
+# Corresponding wiki page:
+# http://code.google.com/p/qlc/wiki/PhyloTreeAsjp
+
 import csv, sys
 from qlc.comparison.languagecomparer import LanguageComparer
 from qlc.comparison import aline
@@ -14,38 +17,6 @@ file_content = csv.reader(file_data, quoting=csv.QUOTE_NONE, delimiter="\t")
 languages = {}
 
 language_names = []
-
-#nr_of_languages = 20
-#max_strings_per_row = 101
-#max_strings_per_entry = 3
-#max_string_length = 73
-
-#max_strings_per_entry = 0
-#max_strings_per_row = 0
-#max_string_length = 0
-
-#for row in file_content:
-#    strings = row[3:]
-#    if len(strings) > max_strings_per_row:
-#        max_strings_per_row = len(strings)
-#    languages[row[0]] = strings
-#    language_names.append(row[0])
-#    for s in strings:
-#        s_decode = s.decode("latin1")
-#        s_split = s_decode.split("|")
-#        c = len(s_split)
-#        if c > max_strings_per_entry:
-#            max_strings_per_entry = c
-#        for s_entry in s_split:
-#            if len(s_entry) > max_string_length:
-#                max_string_length = len(s_entry)
-
-#print max_strings_per_row
-#print max_strings_per_entry
-#print max_string_length
-
-#file_data.seek(0)
-#language_data = zeros( (nr_of_languages, max_strings_per_row , max_strings_per_entry), dtype=(unicode_, max_string_length))
 
 language_data = []
 for row in file_content:
@@ -70,9 +41,38 @@ x = LanguageComparer(language_data, aline.ASJP, False)
 x.generate_matrix()
 print x.matrix
 
+# plot with our nj module
 nj = nj.Nj(x.matrix, language_names)
 nj.generate_tree()
 #print nj
-nj.as_jpg(filename="njtree.png")
+nj.as_png(filename="njtree.png")
 
+# plot with rpy2
+try:
+    import rpy2.robjects as robjects
+    from rpy2.robjects.packages import importr
+
+    L = robjects.StrVector(language_names)
+    M = robjects.r['matrix'](list(x.matrix.flatten()), len(language_names))
+    
+    # workaround to set column names, there is a bug in rpy2:
+    # https://bitbucket.org/lgautier/rpy2/issue/70/matrix-colnames-and-possibly-rownames
+    M = robjects.r['as.data.frame'](M)
+    M.colnames = L
+    M = robjects.r['as.matrix'](M)
+
+    print M
+
+    ape = importr('ape')
+    grdevices = importr('grDevices')
+
+    tr = ape.nj(M)
+
+    ofn = 'njtree.pdf'
+    grdevices.pdf(ofn)
+    robjects.r.plot(tr)
+    grdevices.dev_off()
+
+except:
+    print "rpy2 not installed, I will not plot nj tree with R."
 

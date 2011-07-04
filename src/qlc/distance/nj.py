@@ -45,7 +45,7 @@ class Nj(object):
             ret += "\n"
         return ret
         
-    def as_jpg(self, filename="njtree.png", width=1600, height=1200):
+    def as_png(self, filename="njtree.png", width=1600, height=1200):
         try:
             from PIL import Image, ImageDraw, ImageFont
         except:
