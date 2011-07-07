@@ -113,7 +113,21 @@ def remove_parts_translation(str, s, e):
         end = end - len(match_period.group(0))
     return [start, end]
 
-def annotate_orthography(entry):
+def annotate_orthography(entry, o_parser):
+    # delete pos annotations
+    headorth_annotations = [ a for a in entry.annotations if a.annotationtype.type=='orthographicinterpretation']
+    for a in headorth_annotations:
+        Session.delete(a)
+                
+    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    
+    for a in head_annotations:
+        h = a.string
+        o = o_parser.parse(h)
+        
+        entry.append_annotation(a.start, a.end, u'headorthographic', u'orthographicinterpretation', o)
+    
+def annotate_orthography_old(entry):
     # delete pos annotations
     headorth_annotations = [ a for a in entry.annotations if a.annotationtype.type=='orthographicinterpretation']
     for a in headorth_annotations:
@@ -136,7 +150,7 @@ def annotate_orthography(entry):
         h = re.sub(u". #", "#", h)
         
         entry.append_annotation(a.start, a.end, u'headorthographic', u'orthographicinterpretation', h)
-    
+
 def annotate_head(entry):
     # delete pos annotations
     head_annotations = [ a for a in entry.annotations if a.value=='head']
@@ -426,6 +440,15 @@ def main(argv):
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
 
+    # create orthography parser
+    base_qlc_path = os.path.abspath(os.path.join("..", "..", ".."))
+    sys.path.append(os.path.join(base_qlc_path, "src"))
+    import qlc.OrthographyProfile
+    
+    orthography_profile_location = os.path.join(base_qlc_path, "data", "orthography_profiles", "{0}.txt".format(bibtex_key))
+    o_parser = qlc.OrthographyProfile.OrthographyProfile(orthography_profile_location)
+
+    # load dictionary data for this book
     dictdatas = Session.query(model.Dictdata).join(
         (model.Book, model.Dictdata.book_id==model.Book.id)
         ).filter(model.Book.bibtex_key==bibtex_key).all()
@@ -454,7 +477,9 @@ def main(argv):
         #chars = chars + [ u"b", u"c", u"k", u"d", u"g", u"h", u"j", u"m", u"ñ", u"n", u"p", u"r", u"t", u"v", u"w", u"y", u"a", u"á", u"a̱", u"á̱", u"e", u"é", u"e̱", u"é̱", u"i", u"í", u"i̱", u"í̱", u"o", u"ó", u"o̱", u"ó̱", u"u", u"ú", u"u̱", u"ú̱", u"í̵", u"ɨ", u"ɨ̱", u"í̵̱" ]
         
         for e in entries:
-            annotate_orthography(e)
+            annotate_orthography(e, o_parser)
+
+        Session.commit()
             
 
 if __name__ == "__main__":

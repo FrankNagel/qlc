@@ -3,7 +3,8 @@
 import sys
 import codecs
 sys.path.append("../src/qlc/") # path to OrthographyProfile
-import OrthographyProfile
+#sys.path.append("../src/qlc/") # path to OrthographyProfile
+import qlc.OrthographyProfile
 
 def main(argv):
     if len(argv) < 4:
@@ -28,7 +29,7 @@ def main(argv):
 
     # parse head words with the orthography profile and print results
     orthography_profile_location = sys.argv[1]
-    o = OrthographyProfile.OrthographyProfile(orthography_profile_location)
+    o = qlc.OrthographyProfile.OrthographyProfile(orthography_profile_location)
     for head in head_words:
         if transform_flag == 1:
             orthography_parse = o.parse(head)

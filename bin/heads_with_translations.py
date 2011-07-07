@@ -10,12 +10,22 @@ from qlc.CorpusReader import CorpusReaderDict
 def main(argv):
 
     if len(argv) < 2:
-        print "call: exportheads_with_translations.py data_path"
+        print "call: exportheads_with_translations.py data_path [bibtex_key]"
         exit(1)
 
     cr = CorpusReaderDict(argv[1])
+    
+    dictdata_ids = []    
+    if len(argv) == 3:
+        dictdata_ids = cr.dictdataIdsForBibtexKey(argv[2])
+        if len(dictdata_ids) == 0:
+            print "did not find any dictionary data for the bibtex_key."
+            sys.exit(1)
+    else:
+        dictdata_ids = cr.dictdataStringIds()
         
-    for dictdata_id in cr.dictdataStringIds():
+    
+    for dictdata_id in dictdata_ids:
         heads_with_translations = cr.headsWithTranslationsForDictdataId(dictdata_id)
         dictdata_string = cr.dictdataStringIdForDictataId(dictdata_id)
         output = codecs.open("heads_with_translations_%s.txt" % dictdata_string, "w", "utf-8")
