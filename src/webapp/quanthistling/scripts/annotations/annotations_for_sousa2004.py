@@ -21,7 +21,9 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-from manualannotations_for_sousa2004 import manual_entries
+
+#from manualannotations_for_sousa2004 import manual_entries
+manual_entries = []
 
 def annotate_head_and_translation(entry):
     annotations = [ a for a in entry.annotations if (a.value=='head' or a.value=='translation') ]

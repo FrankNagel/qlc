@@ -6,7 +6,7 @@ Corpus Reader for data of the project Quantitative Language Comparison.
 import os.path
 import codecs
 
-bookTableColumns = {
+_book_table_columns = {
     'title': 0,
     'author': 1,
     'year': 2,
@@ -18,7 +18,7 @@ bookTableColumns = {
     'is_ready': 8,
 }
 
-wordlistentryTableColumns = {
+_wordlistentry_table_columns = {
     'fullentry': 0,
     'startpage': 1,
     'endpage': 2,
@@ -30,7 +30,7 @@ wordlistentryTableColumns = {
     'has_manual_annotations': 8
 }
 
-wordlistdataTableColumns = {
+_wordlistdata_table_columns = {
     'startpage': 0,
     'endpage': 1,
     'language_bookname': 2,
@@ -39,14 +39,14 @@ wordlistdataTableColumns = {
     'component_id': 5
 }
 
-languageTableColumns = {
+_language_table_columns = {
     'name': 0,
     'langcode': 1,
     'description': 2,
     'url': 3
 }
 
-wordlistconceptTableColumns = {
+_wordlistconcept_table_columns = {
     'concept': 0
 }
 
@@ -76,7 +76,7 @@ class CorpusReaderDict(object):
         self.dictdata = {}
         self.entries = {}
         self.annotations = {}
-        self.dictdata_string_ids = {}
+        self.__dictdata_string_ids = {}
 
         # read book table
         is_first_line = True
@@ -133,10 +133,10 @@ class CorpusReaderDict(object):
             data = line.split("\t")
             self.languages[data.pop(0)] = data
 
-        self.initDictdataStringIds()
+        self.init_dictdata_string_ids()
 
 
-    def initDictdataStringIds(self):
+    def init_dictdata_string_ids(self):
         """
         Initializer for Dictdata identification strings. Dictdata are parts of books that
         contain dictionary data (vs. Nondictdata). The string IDs are equal to the
@@ -155,9 +155,10 @@ class CorpusReaderDict(object):
         for dictdata_id in self.dictdata:
             book_id = self.dictdata[dictdata_id][7]
             bibtex_key = self.books[book_id][3]
-            self.dictdata_string_ids[dictdata_id] = "%s_%s_%s" % (bibtex_key, self.dictdata[dictdata_id][0], self.dictdata[dictdata_id][2])
+            self.__dictdata_string_ids[dictdata_id] = "%s_%s_%s" % (bibtex_key, self.dictdata[dictdata_id][0], self.dictdata[dictdata_id][2])
 
-    def dictdataStringIds(self):
+    @property
+    def dictdata_string_ids(self):
         """
         Returns the dict of the mappings from numerical IDs to strings IDs for the
         Dictdata entries. Dictdata are parts of books that contain dictionary data
@@ -171,9 +172,9 @@ class CorpusReaderDict(object):
         Returns:
             - The dict of numerical IDs to string IDs
         """
-        return self.dictdata_string_ids
+        return self.__dictdata_string_ids
     
-    def dictdataStringIdForDictataId(self, dictdata_id):
+    def dictdata_string_id_for_dictata_id(self, dictdata_id):
         """
         Return the string ID to a given numerical ID of a Dictdata entry.
         Dictdata are parts of books that contain dictionary data
@@ -186,9 +187,9 @@ class CorpusReaderDict(object):
         Returns:
             - String containing the string ID of the given Dictdata entry
         """
-        return self.dictdata_string_ids[dictdata_id]
+        return self.__dictdata_string_ids[dictdata_id]
 
-    def dictdataIdsForBibtexKey(self, param_bibtex_key):
+    def dictdata_ids_for_bibtex_key(self, param_bibtex_key):
         """Return an array of dicionary parts IDs for a given book. The book
         is identified by the so-called bibtex key, which is the string for
         the book from the URL. For example: "thiesen1998".
@@ -205,7 +206,7 @@ class CorpusReaderDict(object):
                 ret.append(dictdata_id)
         return ret
         
-    def headsWithTranslationsForDictdataId(self, param_dictdata_id = None):
+    def heads_with_translations_for_dictdata_id(self, param_dictdata_id = None):
         """
         Returns a dictionary of all heads and translations for a given dictionary
         data part of a book. The keys of the dictionary are the numerical entry
@@ -257,20 +258,20 @@ class CorpusReaderDict(object):
                 ret[entry_id]['heads'] = head_annotations[entry_id]
                 ret[entry_id]['translations'] = translation_annotations[entry_id]
                 ret[entry_id]['dictdata_id'] = self.entries[entry_id][4]
-                ret[entry_id]['dictdata_string_id'] = self.dictdata_string_ids[ self.entries[entry_id][4] ]
+                ret[entry_id]['dictdata_string_id'] = self.__dictdata_string_ids[ self.entries[entry_id][4] ]
         
         return ret
 
 
-    def headsWithTranslations(self):
+    def heads_with_translations(self):
         """
         Convinience method to return heads and translations for all dictionary parts
         of all books. See headsWithTranslationsForDictdataId() for a description
         """
-        return self.headsWithTranslationsForDictdataId()
+        return self.heads_with_translations_for_dictdata_id()
 
 
-    def phonologyForDictdataId(self, param_dictdata_id = None):
+    def phonology_for_dictdata_id(self, param_dictdata_id = None):
         """Returns a python dict for all phonology annotations of the given
         dictionary part of a book. The returned dict structure is equivalent to
         the structure of the method headsWithTranslationsForDictdataId():
@@ -408,9 +409,9 @@ class CorpusReaderWordlist(object):
             data = line.split("\t")
             self.wordlistconcepts[data.pop(0)] = data
 
-        self.initWordlistdataStringIds()
+        self.init_wordlistdata_string_ids()
 
-    def initWordlistdataStringIds(self):
+    def init_wordlistdata_string_ids(self):
         """
         Initializer for Worlistdata identification strings. Wordlistdata are parts of books that
         contain wordlist data (vs. Nondictdata and Dictdata). The string IDs are equal to the
@@ -426,15 +427,15 @@ class CorpusReaderWordlist(object):
             - nothing
         """
         for wordlistdata_id in self.wordlistdata:
-            book_id = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['book_id']]
-            bibtex_key = self.books[book_id][bookTableColumns['bibtex_key']]
+            book_id = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['book_id']]
+            bibtex_key = self.books[book_id][_book_table_columns['bibtex_key']]
             self.wordlistdata_string_ids[wordlistdata_id] = "%s_%s_%s" % (
                 bibtex_key,
-                self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['startpage']],
-                self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['endpage']]
+                self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['startpage']],
+                self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['endpage']]
                 )
     
-    def wordlistdataStringIds(self):
+    def wordlistdata_string_ids(self):
         """
         Returns the dict of the mappings from numerical IDs to strings IDs for the
         Wordlistdata entries. Wordlistdata are parts of books that contain wordlists
@@ -450,7 +451,7 @@ class CorpusReaderWordlist(object):
         """
         return self.wordlistdata_string_ids
         
-    def wordlistIdsForBibtexKey(self, param_bibtex_key):
+    def wordlist_ids_for_bibtex_key(self, param_bibtex_key):
         """Return an array of wordlist parts IDs for a given book. The book
         is identified by the so-called bibtex key, which is the string for
         the book from the URL. For example: "huber1992".
@@ -462,11 +463,11 @@ class CorpusReaderWordlist(object):
         """
         ret = []
         for wordlistdata_id in self.wordlistdata:
-            book_id = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['book_id']]
-            if self.books[book_id][bookTableColumns['bibtex_key']] == param_bibtex_key:
+            book_id = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['book_id']]
+            if self.books[book_id][_book_table_columns['bibtex_key']] == param_bibtex_key:
                 yield wordlistdata_id
 
-    def getLanguageBooknameForWordlistDataId(self, wordlistdata_id):
+    def get_language_bookname_for_wordlist_data_id(self, wordlistdata_id):
         """Returns the language string that is used in the book for a given
         Wordlistdata ID.
         
@@ -475,9 +476,9 @@ class CorpusReaderWordlist(object):
         Returns:
             - A string of the language string in the book
         """
-        return self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_bookname']]
+        return self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_bookname']]
         
-    def counterpartsForWordlistdataId(self, param_wordlistdata_id = None):
+    def counterparts_for_wordlistdata_id(self, param_wordlistdata_id = None):
         """Returns an iterator for all counterpart annotations of the given
         wordlist part of a book. The entries over which you can iterate are
         a python dict each, with additional information for the counterpart.
@@ -506,7 +507,7 @@ class CorpusReaderWordlist(object):
                 continue
 
             entry_id = annotation_data[0]
-            wordlistdata_id = self.wordlistentries[entry_id][wordlistentryTableColumns['wordlistdata_id']]
+            wordlistdata_id = self.wordlistentries[entry_id][_wordlistentry_table_columns['wordlistdata_id']]
 
             if (param_wordlistdata_id == None) or (wordlistdata_id == param_wordlistdata_id):
                 if annotation_data[4] == 'counterpart':
@@ -518,18 +519,19 @@ class CorpusReaderWordlist(object):
         #ret = {}
         for entry_id in counterpart_annotations:
             #string_id = "%s_%s_%s" % (self.wordlistdata_string_ids[ self.entries[entry_id][4] ], '', '')
-            wordlistdata_id = self.wordlistentries[entry_id][wordlistentryTableColumns['wordlistdata_id']]
-            language_bookname = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_bookname']]
-            language_id = self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['language_id']]
+            wordlistdata_id = self.wordlistentries[entry_id][_wordlistentry_table_columns['wordlistdata_id']]
+            language_bookname = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_bookname']]
+            language_id = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_id']]
             if language_id != '':
-                language_code = self.languages[language_id][languageTableColumns['langcode']]
+                language_code = self.languages[language_id][_language_table_columns['langcode']]
             else:
                 language_code = "n/a"
-            concept = self.wordlistconcepts[self.wordlistentries[entry_id][wordlistentryTableColumns['concept_id']]][wordlistconceptTableColumns['concept']]
+            concept = self.wordlistconcepts[self.wordlistentries[entry_id][_wordlistentry_table_columns['concept_id']]][_wordlistconcept_table_columns['concept']]
             ret = {}
             ret['counterpart'] = counterpart_annotations[entry_id]
             ret['language_code'] = language_code
             ret['language_bookname'] = language_bookname
             ret['concept'] = concept
-            ret['bibtex_key'] = self.books [self.wordlistdata[wordlistdata_id][wordlistdataTableColumns['book_id']]] [bookTableColumns['bibtex_key']]
+            ret['bibtex_key'] = self.books [self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['book_id']]] [_book_table_columns['bibtex_key']]
             yield ret
+

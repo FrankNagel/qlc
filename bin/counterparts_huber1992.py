@@ -94,13 +94,13 @@ def main(argv):
     output = codecs.open("counterparts_huber1992.txt", "w", "utf-8")
     output.write("COUNTERPART\tCONCEPT\tLANGUAGE_BOOKNAME\tLANGUAGE_CODE\tFAMILY\tBIBTEX_KEY\n")
     
-    for wordlistdata_id in cr.wordlistIdsForBibtexKey('huber1992'):
+    for wordlistdata_id in cr.wordlist_ids_for_bibtex_key('huber1992'):
         #counterparts = cr.counterpartsForWordlistdataId(wordlistdata_id)
         #print wordlistdata_id
-        language_bookname = cr.getLanguageBooknameForWordlistDataId(wordlistdata_id)
+        language_bookname = cr.get_language_bookname_for_wordlist_data_id(wordlistdata_id)
         family = families[language_bookname]
         
-        for cp in cr.counterpartsForWordlistdataId(wordlistdata_id):
+        for cp in cr.counterparts_for_wordlistdata_id(wordlistdata_id):
             for cp_string in cp['counterpart']:
                 output.write("%s\t%s\t%s\t%s\t%s\t%s\n" % (cp_string, cp['concept'], cp['language_bookname'], cp['language_code'], family, cp['bibtex_key']))
         
