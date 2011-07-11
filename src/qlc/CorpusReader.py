@@ -6,6 +6,11 @@ Corpus Reader for data of the project Quantitative Language Comparison.
 import os.path
 import codecs
 
+_component_table_columns = {
+    'name': 0,
+    'description': 1
+}
+
 _book_table_columns = {
     'title': 0,
     'author': 1,
@@ -16,6 +21,18 @@ _book_table_columns = {
     'origfilepath': 6,
     'type': 7,
     'is_ready': 8,
+}
+
+_dictdata_table_columns = {
+    'startpage': 0,
+    'startletters': 1,
+    'endpage': 2,
+    'src_language_bookname': 3,
+    'tgt_language_bookname': 4,
+    'src_language_id': 5,
+    'tgt_language_id': 6,
+    'book_id': 7,
+    'component_id': 8
 }
 
 _wordlistentry_table_columns = {
@@ -71,12 +88,24 @@ class CorpusReaderDict(object):
         """
         
         self.datapath = datapath
+        self.components = {}
         self.books = {}
         self.languages = {}
         self.dictdata = {}
         self.entries = {}
         self.annotations = {}
         self.__dictdata_string_ids = {}
+
+        # read component table
+        is_first_line = True
+        file = codecs.open(os.path.join(datapath, "component.csv"), "r", "utf-8")
+        for line in file:
+            if is_first_line:
+                is_first_line = False
+                continue
+            line = line.strip()
+            data = line.split("\t")
+            self.components[data.pop(0)] = data
 
         # read book table
         is_first_line = True
@@ -153,8 +182,8 @@ class CorpusReaderDict(object):
             - nothing
         """
         for dictdata_id in self.dictdata:
-            book_id = self.dictdata[dictdata_id][7]
-            bibtex_key = self.books[book_id][3]
+            book_id = self.dictdata[dictdata_id][_dictdata_table_columns['book_id']]
+            bibtex_key = self.books[book_id][_book_table_columns['bibtex_key']]
             self.__dictdata_string_ids[dictdata_id] = "%s_%s_%s" % (bibtex_key, self.dictdata[dictdata_id][0], self.dictdata[dictdata_id][2])
 
     @property
@@ -201,11 +230,54 @@ class CorpusReaderDict(object):
         """
         ret = []
         for dictdata_id in self.dictdata:
-            book_id = self.dictdata[dictdata_id][7]
-            if self.books[book_id][3] == param_bibtex_key:
+            book_id = self.dictdata[dictdata_id][_dictdata_table_columns['book_id']]
+            if self.books[book_id][_book_table_columns['bibtex_key']] == param_bibtex_key:
                 ret.append(dictdata_id)
         return ret
+
+    def dictdata_ids_for_component(self, param_component):
+        """Return an array of dicionary parts IDs for a given component. The book
+        is identified by the so-called bibtex key, which is the string for
+        the book from the URL. For example: "thiesen1998".
         
+        Args:
+            - param_component (obligatory): a string with the component's name.
+        Returns:
+            - An array containing all the dictdata IDs for the component.
+        """
+        ret = []
+        for dictdata_id in self.dictdata:
+            component_id = self.dictdata[dictdata_id][_dictdata_table_columns['component_id']]
+            if self.components[component_id][_component_table_columns['name']] == param_component:
+                ret.append(dictdata_id)
+        return ret
+    
+    def src_language_iso_for_dictdata_id(self, param_dictdata_id):
+        """
+        Returns the source language for the given dictionary part as ISO code.
+        
+        Args:
+            - param_dictdata_id (obligatory): the ID of the dictionary part to
+              look up
+        Returns:
+            - The ISO code of the source language for that bibtex_key
+        """
+        src_language_id = self.dictdata[param_dictdata_id][_dictdata_table_columns['src_language_id']]
+        return self.languages[src_language_id][_language_table_columns['langcode']]
+        
+    def tgt_language_iso_for_dictdata_id(self, param_dictdata_id):
+        """
+        Returns the target language for the given dictionary part as ISO code.
+        
+        Args:
+            - param_dictdata_id (obligatory): the ID of the dictionary part to
+              look up
+        Returns:
+            - The ISO code of the target language for that bibtex_key
+        """
+        tgt_language_id = self.dictdata[param_dictdata_id][_dictdata_table_columns['tgt_language_id']]
+        return self.languages[tgt_language_id][_language_table_columns['langcode']]
+
     def heads_with_translations_for_dictdata_id(self, param_dictdata_id = None):
         """
         Returns a dictionary of all heads and translations for a given dictionary
