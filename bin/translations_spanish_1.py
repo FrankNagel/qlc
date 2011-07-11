@@ -23,6 +23,7 @@ def main(argv):
         
     output2 = codecs.open("spanish_len2.txt", "w", "utf-8")
     output3 = codecs.open("spanish_len3.txt", "w", "utf-8")
+    output4 = codecs.open("spanish_len_greater3.txt", "w", "utf-8")
 
     spanish_singleword_dict = {}
     languages_iso = []
@@ -68,6 +69,9 @@ def main(argv):
 
                 elif len_translation == 3:
                     output3.write("%s\n" % (translation))
+
+                else:
+                    output4.write("%s\n" % (translation))
 
     output = codecs.open("spanish_singlewords_matrix.txt", "w", "utf-8")
     output.write("%s\t%s\n" % ('es', '\t'.join(languages_iso)))
