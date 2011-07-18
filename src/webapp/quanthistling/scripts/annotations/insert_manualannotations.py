@@ -32,8 +32,8 @@ def main(argv):
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
 
-    #for book in quanthistling.dictdata.books.list:
-    for book in []:
+    for book in quanthistling.dictdata.books.list:
+    #for book in []:
         #print book["bibtex_key"]
         
         try:

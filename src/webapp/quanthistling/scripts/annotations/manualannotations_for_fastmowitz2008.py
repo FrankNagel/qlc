@@ -159,98 +159,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "mésrai tíri nap wáinkatin conservar, preservar. 5. conocer.",
-    "startpage" : 310,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "mésrai tíri nap wáinkatin",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "conservar",
-                "start" : 29,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "preservar",
-                "start" : 40,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "conocer",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "mésrai tíri nap wáinkatin",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 50,
-                "end" : 50
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "yasúch chícham castellano. (sinón. wíakach chícham, wiákcha chicháme̱). 2. nuca, cerviz, cogote.",
     "startpage" : 337,
     "pos_on_page" : 21,
@@ -394,6 +302,98 @@ manual_entries.append({
                 "string" : "",
                 "start" : 79,
                 "end" : 79
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "mésrai tíri nap wáinkatin conservar, preservar. 5. conocer.",
+    "startpage" : 310,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mésrai tíri nap wáinkatin",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conservar",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "preservar",
+                "start" : 40,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conocer",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mésrai tíri nap wáinkatin",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
             },
     ]
 })

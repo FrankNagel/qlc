@@ -159,12 +159,15 @@ class Nj(object):
             
             x_text = int(x)
             y_text = int(y)
-
+            
             if math.sin(angle) < 0.0:
-                y_text = int(y - w.size[1])
+                y_text = y_text - w.size[1]
             if math.cos(angle) < 0.0:
-                x_text = int(x - w.size[0])
+                x_text = x_text - w.size[0]
+
             img.paste( w, (x_text, y_text), w)
+
+
         
     def __maxnode(self):
         return max(self.__node_dict.keys())
@@ -330,7 +333,7 @@ if __name__ == "__main__":
         [6.0, 9.0, 6.0, 5.0, 0.0, 8.0],
         [8.0, 11.0, 8.0, 8.0, 8.0, 0.0]])
 
-    nj = Nj(matrix)
+    nj = Nj(matrix, ['test1', 'test2', 'test3', 'test4', 'test5', 'test6'])
     nj.generate_tree()
     print nj.node_dict
     print nj
