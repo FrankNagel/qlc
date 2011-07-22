@@ -1,9 +1,23 @@
 # -*- coding: utf8 -*-
 
-import sys, codecs, collections, re
+import sys, codecs, collections
+import regex as re
 from operator import itemgetter
 
 from qlc.CorpusReader import CorpusReaderDict
+
+# snowball stemmer: http://snowball.tartarus.org/download.php
+import Stemmer
+
+def spanish_stopwords():
+    stopwords = codecs.open("data/stopwords/spa.txt", "r", "latin-1")
+    ret = set()
+    for line in stopwords:
+        word = line.rstrip("\n")
+        word = re.sub(" *\|.*$", "", word)
+        if re.search("[^\s]", word):
+            ret.add(word)
+    return ret
 
 def main(argv):
 
@@ -28,7 +42,9 @@ def main(argv):
     spanish_len3_dict = collections.defaultdict(int)
     spanish_lengreater3_dict = collections.defaultdict(int)
     
-    re_article = re.compile("^(?:el|la|al|un|uno|y|no|una|lo|le|ser|estar|los|tener|hacer|o|de) ")
+    stemmer = Stemmer.Stemmer('spanish')
+    stopwords = spanish_stopwords()
+    re_stopwords = re.compile(r"\b" + u"(?:{0})".format("|".join(stopwords)) +  r"\b")
 
     for dictdata_id in dictdata_ids:
         src_language_iso = cr.src_language_iso_for_dictdata_id(dictdata_id)
@@ -57,15 +73,23 @@ def main(argv):
                 translations = heads_with_translations[entry_id]['heads']
                 
             for translation in translations:
-                translation = re_article.sub("", translation)
                 len_translation = len(translation.split(' '))
+                if len_translation > 1:
+                    translation_without_stopwords = re_stopwords.sub("", translation)
+                    translation_without_stopwords = translation_without_stopwords.strip(" ")
+                    translation_without_stopwords = re.sub(" +", " ", translation_without_stopwords)
+                    len_translation_without_stopwords = len(translation_without_stopwords.split(' '))
+                else:
+                    translation_without_stopwords = translation
+                    len_translation_without_stopwords = len_translation
                 
-                if len_translation == 1:
+                if len_translation_without_stopwords == 1:
                     #print translation.encode("utf-8")
-                    if not spanish_singleword_dict.has_key(translation):
-                        spanish_singleword_dict[translation] = collections.defaultdict(set)
+                    translation_stem = stemmer.stemWord(translation_without_stopwords)
+                    if not spanish_singleword_dict.has_key(translation_stem):
+                        spanish_singleword_dict[translation_stem] = collections.defaultdict(set)
                     for head in heads_with_translations[entry_id]['heads']:
-                        spanish_singleword_dict[translation][language_iso].add(head)
+                        spanish_singleword_dict[translation_stem][language_iso].add(head)
                         
                 elif len_translation == 2:
                     #output2.write("%s\n" % (translation))
@@ -78,6 +102,10 @@ def main(argv):
                 else:
                     #output4.write("%s\n" % (translation))
                     spanish_lengreater3_dict[translation] += 1
+
+    #output1 = codecs.open("spanish_len1.txt", "w", "utf-8")
+    #for w in sorted(spanish_singleword_dict.iteritems(), key=itemgetter(0), reverse=True):
+    #    output1.write(u"{0}\n".format(w[0]))
 
     output2 = codecs.open("spanish_len2.txt", "w", "utf-8")
     for w in sorted(spanish_len2_dict.iteritems(), key=itemgetter(1), reverse=True):
@@ -92,14 +120,26 @@ def main(argv):
         output4.write(u"{0}\t{1}\n".format(w[0], w[1]))
 
     output = codecs.open("spanish_singlewords_matrix.txt", "w", "utf-8")
+    output1 = codecs.open("spanish_len1.txt", "w", "utf-8")
+    total_count = 0
+    more_than_one_lang_count = 0
     output.write(u"%s\t%s\n" % ('es', '\t'.join(languages_iso)))
     for sp in spanish_singleword_dict:
         output.write(sp)
         #print spanish_singleword_dict[sp].keys()
+        count_languages = 0
         for lang in languages_iso:
+            if len(spanish_singleword_dict[sp][lang]) > 0:
+                count_languages += 1
             output.write(u"\t%s" % ('|'.join(spanish_singleword_dict[sp][lang])))
         output.write("\n")
+        output1.write(u"{0}\n".format(sp))
+        if count_languages > 1:
+            more_than_one_lang_count += 1
+        total_count += 1
         
+    print "total number of entries in single word matrix: {0}".format(total_count)
+    print "number of entries with more than one language: {0}".format(more_than_one_lang_count)
 
 if __name__ == "__main__":
     main(sys.argv)
