@@ -15,12 +15,13 @@ _book_table_columns = {
     'title': 0,
     'author': 1,
     'year': 2,
-    'bibtex_key': 3,
-    'columns': 4,
-    'pages': 5,
-    'origfilepath': 6,
-    'type': 7,
-    'is_ready': 8,
+    'isbn': 3,
+    'bibtex_key': 4,
+    'columns': 5,
+    'pages': 6,
+    'origfilepath': 7,
+    'type': 8,
+    'is_ready': 9,
 }
 
 _dictdata_table_columns = {

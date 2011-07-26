@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 
-import sys, codecs, collections
+import sys, codecs, collections, unicodedata
 import regex as re
 from operator import itemgetter
 
@@ -10,12 +10,13 @@ from qlc.CorpusReader import CorpusReaderDict
 import Stemmer
 
 def spanish_stopwords():
-    stopwords = codecs.open("data/stopwords/spa.txt", "r", "latin-1")
+    stopwords = codecs.open("data/stopwords/spa.txt", "r", "utf-8")
     ret = set()
     for line in stopwords:
         word = line.rstrip("\n")
         word = re.sub(" *\|.*$", "", word)
         if re.search("[^\s]", word):
+            word = unicodedata.normalize("NFD", word)
             ret.add(word)
     return ret
 
@@ -23,7 +24,7 @@ def main(argv):
 
     if len(argv) < 2:
         print "call: translations_spanish_1.py data_path [component]"
-        exit(1)
+        sys.exit(1)
 
     cr = CorpusReaderDict(argv[1])
 
