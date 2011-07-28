@@ -36,6 +36,27 @@ _dictdata_table_columns = {
     'component_id': 8
 }
 
+_language_table_columns = {
+    'name': 0,
+    'langcode': 1,
+    'description': 2,
+    'url': 3
+}
+
+_entry_table_columns = {
+    'head': 0,
+    'fullentry': 1,
+    'is_subentry': 2,
+    'is_subentry_of_entry_id': 3,
+    'dictdata_id': 4,
+    'startpage': 5,
+    'endpage': 6,
+    'startcolumn': 7,
+    'endcolumn': 8,
+    'pos_on_page': 9,
+    'has_manual_annotations': 10
+}
+
 _wordlistentry_table_columns = {
     'fullentry': 0,
     'startpage': 1,
@@ -55,13 +76,6 @@ _wordlistdata_table_columns = {
     'language_id': 3,
     'book_id': 4,
     'component_id': 5
-}
-
-_language_table_columns = {
-    'name': 0,
-    'langcode': 1,
-    'description': 2,
-    'url': 3
 }
 
 _wordlistconcept_table_columns = {
@@ -330,8 +344,9 @@ class CorpusReaderDict(object):
                 ret[entry_id] = {}
                 ret[entry_id]['heads'] = head_annotations[entry_id]
                 ret[entry_id]['translations'] = translation_annotations[entry_id]
-                ret[entry_id]['dictdata_id'] = self.entries[entry_id][4]
-                ret[entry_id]['dictdata_string_id'] = self.__dictdata_string_ids[ self.entries[entry_id][4] ]
+                ret[entry_id]['dictdata_id'] = self.entries[entry_id][_entry_table_columns['dictdata_id']]
+                ret[entry_id]['is_subentry'] = self.entries[entry_id][_entry_table_columns['is_subentry']]
+                ret[entry_id]['dictdata_string_id'] = self.__dictdata_string_ids[ self.entries[entry_id][_entry_table_columns['dictdata_id']] ]
         
         return ret
 
@@ -385,7 +400,6 @@ class CorpusReaderDict(object):
             #ret[entry_id]['dictdata_string_id'] = self.dictdata_string_ids[ self.entries[entry_id][4] ]
         
         return ret
-
 
 class CorpusReaderWordlist(object):
     """

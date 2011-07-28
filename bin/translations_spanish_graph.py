@@ -8,25 +8,10 @@ from qlc.CorpusReader import CorpusReaderDict
 from pygraph.classes.graph import graph
 from pygraph.readwrite.markup import write
 
-# snowball stemmer: http://snowball.tartarus.org/download.php
-import Stemmer
-
-def spanish_stopwords():
-    stopwords = codecs.open("data/stopwords/spa.txt", "r", "utf-8")
-    ret = set()
-    for line in stopwords:
-        word = line.rstrip("\n")
-        word = re.sub(" *\|.*$", "", word)
-        if re.search("[^\s]", word):
-            word = unicodedata.normalize("NFD", word)
-            ret.add(word)
-    return ret
-
-
 def main(argv):
     
     if len(argv) < 3:
-        print("call: translations_spanish_2.py data_path graph_file_out.txt [component]")
+        print("call: translations_spanish_graph.py data_path graph_file_out.txt [component]")
         sys.exit(1)
 
     cr = CorpusReaderDict(argv[1])
@@ -42,10 +27,6 @@ def main(argv):
         dictdata_ids = cr.dictdata_string_ids
         
     gr = graph()
-    
-    stemmer = Stemmer.Stemmer('spanish')
-    stopwords = spanish_stopwords()
-    re_stopwords = re.compile("\b" + u"(?:{0})".format("|".join(stopwords)) +  r"\b")
 
     for dictdata_id in dictdata_ids:
         src_language_iso = cr.src_language_iso_for_dictdata_id(dictdata_id)
@@ -72,7 +53,7 @@ def main(argv):
                 translations = heads_with_translations[entry_id]['heads']
                 
             for translation in translations:
-                for head in heads_with_translations[entry_id]['heads']:
+                for head in heads:
                     head_with_source = u"{0}|{1}".format(head, bibtex_key)
                     #translation_with_language = "{0}|{1}".format(translation, language_iso)
                     
