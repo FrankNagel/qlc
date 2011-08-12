@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "¡máh tyan tyáhaan! – ¡déjelo, no más! ¡no se preocupe!",
+    "startpage" : 117,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "máh tyan tyáhaan",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "déjelo",
+                "start" : 23,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "déjelo no más",
+                "start" : 23,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no se preocupe",
+                "start" : 42,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+    ]
+})

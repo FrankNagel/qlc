@@ -1,0 +1,239 @@
+
+manual_entries.append({
+    "fullentry" : "iñede (vi3.neg) no haber nada, no vivir, estar vacío, no estar. Jaì cuè usuma iñena meìnoconi cuè comuìdi̵cuè. Después que no estaba mi abuelo, ya crecí. ¿Bueñe di̵nomo uri caì̵ marena iñedi̵caì̵. ¿Por qué no estamos allí (ahora) viviendo bien y en paz? (Vea ite.)",
+    "startpage" : 113,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iñede",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.neg",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no haber nada",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no vivir",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar vacío",
+                "start" : 42,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no estar",
+                "start" : 56,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jaì cuè usuma iñena meìnoconi cuè comuìdi̵cuè.",
+                "start" : 66,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Después que no estaba mi abuelo, ya crecí.",
+                "start" : 120,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Bueñe di̵nomo uri caì̵ marena iñedi̵caì̵.",
+                "start" : 165,
+                "end" : 211
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Por qué no estamos allí (ahora) viviendo bien y en paz?",
+                "start" : 212,
+                "end" : 270
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ite",
+                "start" : 276,
+                "end" : 279
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 132,
+                "end" : 132
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 133,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 184,
+                "end" : 184
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 185,
+                "end" : 185
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 216,
+                "end" : 216
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 217,
+                "end" : 217
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 265,
+                "end" : 265
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 266,
+                "end" : 266
+            },
+    ]
+})

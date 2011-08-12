@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "aam̈íñ̈onh (pl.)",
+    "startpage" : 68,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aam̈íñ̈onh",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

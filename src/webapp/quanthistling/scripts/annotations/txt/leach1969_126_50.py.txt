@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "¡mónnuum̈a móndyoñ̈iíhtyo! – ¡estén alertos! ¡cuídense a sí mismos!",
+    "startpage" : 126,
+    "pos_on_page" : 50,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mónnuum̈a móndyoñ̈iíhtyo",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estén alertos",
+                "start" : 33,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuídense a sí mismos",
+                "start" : 50,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+    ]
+})

@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "cayójoho – loro-machacuy# (víbora)",
+    "startpage" : 81,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cayójoho",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "loro machacuy (víbora)",
+                "start" : 12,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "loro",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+    ]
+})

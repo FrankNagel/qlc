@@ -1,0 +1,141 @@
+
+manual_entries.append({
+    "fullentry" : "jogobe di̵beji (s) pechera, frente del corpiño (cuando se refiere a un vestido; lit. la parte del pecho). (Vea emodo di̵beji, erofene.)",
+    "startpage" : 142,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jogobe di̵beji",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s",
+                "start" : 16,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pechera",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frente del corpiño (cuando se refiere a un vestido; lit. la parte del pecho)",
+                "start" : 28,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "emodo di̵beji",
+                "start" : 112,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "erofene",
+                "start" : 127,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+    ]
+})

@@ -1,0 +1,253 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵nomo (adv3.int) dónde, a dónde, a qué lugar o parte, en qué lugar o parte, (en) dónde. ¿Ni̵nomo iti̵o? ¿Dónde (en qué lugar) vives?, ¿Dónde estás? ¿Ni̵nomo ite o jofo?, ¿Ni̵nomo o jofo ite? ¿Dónde (lit. en qué lugar) está tu casa? (Vea illano.)",
+    "startpage" : 197,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵nomo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a dónde",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a qué lugar o parte",
+                "start" : 37,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en qué lugar o parte",
+                "start" : 59,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en dónde",
+                "start" : 82,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nomo iti̵o?",
+                "start" : 95,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde (en qué lugar) vives?",
+                "start" : 111,
+                "end" : 141
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde estás?",
+                "start" : 143,
+                "end" : 158
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nomo ite o jofo?",
+                "start" : 159,
+                "end" : 179
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nomo o jofo ite?",
+                "start" : 181,
+                "end" : 201
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde (lit. en qué lugar) está tu casa?",
+                "start" : 202,
+                "end" : 245
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "illano",
+                "start" : 251,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 191,
+                "end" : 191
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 192,
+                "end" : 192
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 245,
+                "end" : 245
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 246,
+                "end" : 246
+            },
+    ]
+})

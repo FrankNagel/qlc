@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "¿jánhdyoon? – ¿qué? (animado)",
+    "startpage" : 106,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jánhdyoon",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué (animado)",
+                "start" : 15,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+    ]
+})

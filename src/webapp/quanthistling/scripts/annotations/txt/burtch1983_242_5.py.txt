@@ -1,0 +1,260 @@
+
+manual_entries.append({
+    "fullentry" : "uaìde (vi3) 1. caer, caerse. Uaìsa. Cuidado, te vas a caer. (Vea soìde.) 2. ir a sacar, sacar y traer (derivado de ote). Cuè raruiaì̵ uaìdi̵caì̵ Lucitania fi̵eca Pebamo. Hemos ido a sacar (y traer) mis cosas que (la lancha) Lucitania dejó en Pebas. (Vea ati̵de; uaì 4.)",
+    "startpage" : 242,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uaìde",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caer",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caerse",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Uaìsa.",
+                "start" : 30,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Cuidado, te vas a caer.",
+                "start" : 38,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "soìde",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ir a sacar",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sacar y traer (derivado de ote)",
+                "start" : 91,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cuè raruiaì̵ uaìdi̵caì̵ Lucitania fi̵eca Pebamo.",
+                "start" : 124,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Hemos ido a sacar (y traer) mis cosas que (la lancha) Lucitania dejó en Pebas.",
+                "start" : 177,
+                "end" : 256
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ati̵de",
+                "start" : 262,
+                "end" : 268
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "uaì",
+                "start" : 270,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 183,
+                "end" : 183
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 208,
+                "end" : 208
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 209,
+                "end" : 209
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 256,
+                "end" : 256
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
+            },
+    ]
+})

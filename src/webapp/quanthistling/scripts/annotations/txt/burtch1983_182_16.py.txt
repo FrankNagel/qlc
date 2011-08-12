@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "muruima (s1B), murui imi̵e (s2) hombre del grupo murui.",
+    "startpage" : 182,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muruima",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1B",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "murui imi̵e",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s2",
+                "start" : 28,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre del grupo murui",
+                "start" : 32,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+    ]
+})

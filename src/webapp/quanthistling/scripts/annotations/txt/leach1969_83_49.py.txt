@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "¿dsohxáhmu? – ¿cómo? ¿cómo está?",
+    "startpage" : 83,
+    "pos_on_page" : 49,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsohxáhmu",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cómo",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cómo está",
+                "start" : 23,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+    ]
+})

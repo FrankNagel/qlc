@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "(jitoma) ni̵no ia qué hora. ¿Ni̵no ia fiodaìte? ¿Qué hora (lit. dónde estaba el sol cuando) murió?",
+    "startpage" : 197,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jitoma ni̵no ia",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵no ia",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué hora",
+                "start" : 17,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵no ia fiodaìte?",
+                "start" : 29,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Qué hora (lit. dónde estaba el sol cuando) murió?",
+                "start" : 50,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+    ]
+})

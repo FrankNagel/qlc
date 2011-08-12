@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "tsóraa – (pl.)",
+    "startpage" : 146,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsóraa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

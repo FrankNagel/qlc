@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "¿dsoo jáhaan? – ¿dónde está él? (lejos)",
+    "startpage" : 84,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsoo jáhaan",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde está él (lejos)",
+                "start" : 17,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+    ]
+})

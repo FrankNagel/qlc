@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "¿dsuhdyan? – ¿qué cosa? ¿qué es? (inanimado)",
+    "startpage" : 85,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsuhdyan",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué cosa",
+                "start" : 13,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué es (inanimado)",
+                "start" : 25,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+    ]
+})

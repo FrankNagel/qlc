@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "¿jaantsíxah? – ¿es cierto? ¿es la verdad?",
+    "startpage" : 104,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaantsíxah",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "es cierto",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "es la verdad",
+                "start" : 28,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+    ]
+})

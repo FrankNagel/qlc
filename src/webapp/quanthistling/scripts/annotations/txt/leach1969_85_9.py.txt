@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "¿dsuhdyoon? – ¿qué es? (animado)",
+    "startpage" : 85,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsuhdyoon",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué es (animado)",
+                "start" : 14,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+    ]
+})

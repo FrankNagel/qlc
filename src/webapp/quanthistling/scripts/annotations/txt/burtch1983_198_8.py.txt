@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵i̵caì̵nide (vd5. neg) agotarse. Ni̵i̵caì̵nidi̵cuè. Estoy agotado. (Vea mai̵rici̵.)",
+    "startpage" : 198,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵i̵caì̵nide",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vd5. neg",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agotarse",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ni̵i̵caì̵nidi̵cuè.",
+                "start" : 36,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estoy agotado.",
+                "start" : 57,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mai̵rici̵",
+                "start" : 77,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})

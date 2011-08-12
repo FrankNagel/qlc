@@ -1,34 +1,32 @@
 # -*- coding: utf8 -*-
+#!/usr/bin/env python3
+
+# This script only works with Python 3
 
 import sys, codecs, collections, unicodedata
-import regex as re
-from operator import itemgetter
 
 from qlc.CorpusReader import CorpusReaderDict
 from pygraph.classes.graph import graph
-from pygraph.readwrite.markup import write
+from pygraph.readwrite.dot import write
 
 def main(argv):
     
     if len(argv) < 3:
-        print("call: translations_spanish_graph.py data_path graph_file_out.txt [component]")
+        print("call: translations_spanish_graph.py data_path (bibtex_key|component)")
         sys.exit(1)
 
     cr = CorpusReaderDict(argv[1])
 
-    dictdata_ids = []    
-    if len(argv) == 4:
-        print("Loading component {0}".format(argv[3]))
-        dictdata_ids = cr.dictdata_ids_for_component(argv[3])
+    dictdata_ids = cr.dictdata_ids_for_bibtex_key(argv[2])
+    if len(dictdata_ids) == 0:
+        dictdata_ids = cr.dictdata_ids_for_component(argv[2])
         if len(dictdata_ids) == 0:
-            print("did not find any dictionary data for the component.")
+            print("did not find any dictionary data for the bibtex_key or component {0}.".format(argv[2]))
             sys.exit(1)
-    else:
-        dictdata_ids = cr.dictdata_string_ids
         
-    gr = graph()
 
     for dictdata_id in dictdata_ids:
+        gr = graph()
         src_language_iso = cr.src_language_iso_for_dictdata_id(dictdata_id)
         tgt_language_iso = cr.tgt_language_iso_for_dictdata_id(dictdata_id)
         if src_language_iso != 'spa' and tgt_language_iso != 'spa':
@@ -54,21 +52,24 @@ def main(argv):
                 
             for translation in translations:
                 for head in heads:
-                    head_with_source = u"{0}|{1}".format(head, bibtex_key)
+                    #head_with_source = u"{0}|{1}".format(head, bibtex_key)
+                    #head_with_source_utf8 = head_with_source.encode("utf-8")
+                    #translation_utf8 = translation.encode("utf-8")
+                    #head_utf8 = translation.encode("utf-8")
                     #translation_with_language = "{0}|{1}".format(translation, language_iso)
                     
-                    if not gr.has_node(head_with_source):
-                        gr.add_node(head_with_source, [('lang', language_iso)])
+                    if not gr.has_node(head):
+                        gr.add_node(head, [('lang', language_iso), ('source', dictdata_string)])
                     
                     if not gr.has_node(translation):
-                        gr.add_node(translation, [('lang', 'spa')])
+                        gr.add_node(translation, [('lang', 'spa'), ('source', dictdata_string)])
                         
-                    if not gr.has_edge((head_with_source, translation)):
-                        gr.add_edge((head_with_source, translation))
+                    if not gr.has_edge((head, translation)):
+                        gr.add_edge((head, translation))
 
-    output = codecs.open(sys.argv[2], "w", "utf-8")
-    output.write(write(gr))
-    output.close()
+        output = codecs.open("{0}.dot".format(dictdata_string), "w", "utf-8")
+        output.write(write(gr))
+        output.close()
 
 if __name__ == "__main__":
     main(sys.argv)

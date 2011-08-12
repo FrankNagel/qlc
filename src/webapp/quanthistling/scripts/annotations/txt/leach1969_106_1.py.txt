@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "¿jánhdyaan? – ¿qué? (inanimado)",
+    "startpage" : 106,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jánhdyaan",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué (inanimado)",
+                "start" : 15,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+    ]
+})

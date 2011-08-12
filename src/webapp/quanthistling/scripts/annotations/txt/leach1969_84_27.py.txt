@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "¿dsoonh jajáánhsha? – – ¿en qué dirección fué él?",
+    "startpage" : 84,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsoonh jajáánhsha",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en qué dirección fué él",
+                "start" : 26,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+    ]
+})

@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "duere fi̵node perseguir, castigar (lit. hacer pobre, miserable). (Vea bue ñete, duere, sefuìde.)",
+    "startpage" : 96,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "duere fi̵nod",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "perseguir",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "castigar (lit. hacer pobre, miserable)",
+                "start" : 25,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "bue ñete",
+                "start" : 70,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "duere",
+                "start" : 81,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "sefuìde",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+    ]
+})

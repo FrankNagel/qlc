@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "tsováán – (pl.)",
+    "startpage" : 146,
+    "pos_on_page" : 41,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsováán",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 12,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

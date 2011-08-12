@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "moxóchahbi – loro-machacuy# (víbora)",
+    "startpage" : 122,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "moxóchahbi",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "loro machacuy (víbora)",
+                "start" : 14,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "loro",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})

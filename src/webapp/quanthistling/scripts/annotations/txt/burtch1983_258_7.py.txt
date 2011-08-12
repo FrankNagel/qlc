@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "i̵imana ote, i̵nina (illena) casarse (una mujer), tomar a un hombre como esposo. (Vea i̵ni.)",
+    "startpage" : 258,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵imana ote",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵nina",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵nina illena",
+                "start" : 13,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "casarse (una mujer)",
+                "start" : 29,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tomar a un hombre como esposo",
+                "start" : 50,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "i̵ni",
+                "start" : 86,
+                "end" : 90
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+    ]
+})

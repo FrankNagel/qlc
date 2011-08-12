@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "emodomo (Vea emodo 3.)",
+    "startpage" : 77,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "emodomo (vea emodo",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "emodo",
+                "start" : 9,
+                "end" : 20
+            },
+    ]
+})

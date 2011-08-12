@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "furoohto – corvina (P) (pez); semilla de umarí",
+    "startpage" : 98,
+    "pos_on_page" : 41,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "furoohto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "corvina (pez)",
+                "start" : 11,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "semilla de umarí",
+                "start" : 30,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "umarí",
+                "start" : 41,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+    ]
+})

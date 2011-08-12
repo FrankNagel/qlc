@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "i̵fomeì DME; i̵fo (imp de i̵fode) ¡Maì i̵fo! ¡Váyase adelante! (Se dice en contestación de ¡Vámonos!) (Vea maìña.)",
+    "startpage" : 257,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵fomeì dme",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Dialecto meneca (mɨní̵ca o mí̵nɨca para los huitoto)",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵fo",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imp de i̵fode",
+                "start" : 20,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Maì i̵fo",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Váyase adelante",
+                "start" : 47,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "maìña",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+    ]
+})

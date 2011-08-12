@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵nena (adv3.int) de dónde, de qué parte o lugar. ¿Ni̵nena biti̵o? ¿De dónde vienes?",
+    "startpage" : 197,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵nena",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de dónde",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de qué parte o lugar",
+                "start" : 30,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nena biti̵o?",
+                "start" : 53,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿De dónde vienes?",
+                "start" : 70,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+    ]
+})

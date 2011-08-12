@@ -147,6 +147,13 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
+                "string" : "Caì̵ fiodaìtɨcaì̵ raì̵re",
+                "start" : 739,
+                "end" : 767
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
                 "string" : "Ie muìdona caì̵ jiibina uaìna caì̵ feitaiñedɨcaì̵.",
                 "start" : 769,
                 "end" : 825
@@ -174,24 +181,31 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "imp de uaìde",
+                "value" : "example-tgt",
+                "string" : "Por eso no olvidamos la autoridad de Coca",
+                "start" : 972,
+                "end" : 1013
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imp de uaìde 2",
                 "start" : 1019,
-                "end" : 1036
+                "end" : 1035
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "¡jɨnuì uaì!",
+                "value" : "example-src",
+                "string" : "Jɨnuì uaì",
                 "start" : 1038,
-                "end" : 1050
+                "end" : 1049
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "¡Anda, saca agua (y tráela)!",
+                "value" : "example-tgt",
+                "string" : "Anda, saca agua (y tráela)",
                 "start" : 1052,
-                "end" : 1080
+                "end" : 1081
             },
             {
                 "type" : "pagelayout",

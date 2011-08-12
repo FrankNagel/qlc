@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵no (adv3.int) qué parte, qué lugar. ¿Ni̵no imi̵edo? ¿De dónde eres (lit. eres hombre de qué lugar)? (Vea ni̵maì.)",
+    "startpage" : 197,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵no",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué parte",
+                "start" : 17,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué lugar",
+                "start" : 29,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵no imi̵edo?",
+                "start" : 41,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿De dónde eres (lit. eres hombre de qué lugar)?",
+                "start" : 57,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵maì",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+    ]
+})

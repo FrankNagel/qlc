@@ -4,6 +4,161 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "dama (adj1.m) 1. solo, sin compañía. 2. no, no más. Ɨna dama macaì̵baìte. Ya no hay más (se ha terminado el cuento o el asunto). (Vea da, daje.)",
+    "startpage" : 62,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dama",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj1.m",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj1.m",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "solo",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin compañía",
+                "start" : 23,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no más",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨna dama macaì̵baìte.",
+                "start" : 55,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ya no hay más (se ha terminado el cuento o el asunto).",
+                "start" : 79,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "da",
+                "start" : 140,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "daje",
+                "start" : 144,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 134,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ɨna naì, ɨna naìllɨ dentro de un momento, espera todavía (más o menos media hora). Cuè raì̵re jaìacadɨcuè jofomo. Ie jira cuèna o raìtɨo: \"Ɨna naì\". Yo quiero ir pronto a casa. Por eso tú me dices: Espera todavía. Ɨna naìllɨ rabe facaitɨo. Más tarde (en un rato) vas a estudiar, (en media hora.) (Vea naìllɨ.)",
     "startpage" : 259,
     "pos_on_page" : 3,
@@ -293,6 +448,196 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "maraìñede (vi3.neg) no ser, estar bien; estar enfermo, no valer; ser indigno, vil; no tener ningún valor. O ii̵fe maraìñede. Tu lengua no es buena. (Vea mare.)",
+    "startpage" : 173,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "maraìñede",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.neg",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no ser",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar bien",
+                "start" : 30,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar enfermo",
+                "start" : 42,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no valer",
+                "start" : 57,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser indigno",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vil",
+                "start" : 80,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no tener ningún valor",
+                "start" : 85,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "O ii̵fe maraìñede.",
+                "start" : 109,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Tu lengua no es buena.",
+                "start" : 130,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mare",
+                "start" : 158,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 152,
+                "end" : 152
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "urue(de) (v) ser niño. Ie facaì caì̵ billa facaìse cue nia uruedɨcuè. En ese tiempo cuando nosotros vinimos, yo era un niño todavía.",
     "startpage" : 251,
     "pos_on_page" : 6,
@@ -422,6 +767,401 @@ manual_entries.append({
                 "string" : "",
                 "start" : 132,
                 "end" : 132
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jogobe di̵beji (s) pechera, frente del corpiño (cuando se refiere a un vestido; lit. la parte del pecho). (Vea emodo di̵beji, erofene.)",
+    "startpage" : 142,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jogobe di̵beji",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s",
+                "start" : 16,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pechera",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frente del corpiño (cuando se refiere a un vestido; lit. la parte del pecho)",
+                "start" : 28,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "emodo di̵beji",
+                "start" : 112,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "erofene",
+                "start" : 127,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "uaì̵ritaìde, uaì̵ricotaìde (vi3) ser o estar loco, haberse alocado, haberse confundido. (Vea i̵ri̵ci̵taìde 2.)",
+    "startpage" : 243,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uaì̵ritaìde",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uaì̵ricotaìde",
+                "start" : 15,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3",
+                "start" : 32,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser o estar loco",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "haberse alocado",
+                "start" : 55,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "haberse confundido",
+                "start" : 72,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "i̵ri̵ci̵taìde",
+                "start" : 93,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "(jitoma) ni̵no ia qué hora. ¿Ni̵no ia fiodaìte? ¿Qué hora (lit. dónde estaba el sol cuando) murió?",
+    "startpage" : 197,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jitoma ni̵no ia",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵no ia",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué hora",
+                "start" : 17,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵no ia fiodaìte?",
+                "start" : 29,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Qué hora (lit. dónde estaba el sol cuando) murió?",
+                "start" : 50,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
             },
     ]
 })
@@ -555,6 +1295,28 @@ manual_entries.append({
                 "string" : "",
                 "start" : 96,
                 "end" : 96
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "emodomo (Vea emodo 3.)",
+    "startpage" : 77,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "emodomo (vea emodo",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "emodo",
+                "start" : 9,
+                "end" : 20
             },
     ]
 })
@@ -1243,6 +2005,372 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "duere fi̵node perseguir, castigar (lit. hacer pobre, miserable). (Vea bue ñete, duere, sefuìde.)",
+    "startpage" : 96,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "duere fi̵nod",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "perseguir",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "castigar (lit. hacer pobre, miserable)",
+                "start" : 25,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "bue ñete",
+                "start" : 70,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "duere",
+                "start" : 81,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "sefuìde",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ni̵nomo (adv3.int) dónde, a dónde, a qué lugar o parte, en qué lugar o parte, (en) dónde. ¿Ni̵nomo iti̵o? ¿Dónde (en qué lugar) vives?, ¿Dónde estás? ¿Ni̵nomo ite o jofo?, ¿Ni̵nomo o jofo ite? ¿Dónde (lit. en qué lugar) está tu casa? (Vea illano.)",
+    "startpage" : 197,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵nomo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a dónde",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a qué lugar o parte",
+                "start" : 37,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en qué lugar o parte",
+                "start" : 59,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en dónde",
+                "start" : 82,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nomo iti̵o?",
+                "start" : 95,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde (en qué lugar) vives?",
+                "start" : 111,
+                "end" : 141
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde estás?",
+                "start" : 143,
+                "end" : 158
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nomo ite o jofo?",
+                "start" : 159,
+                "end" : 179
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nomo o jofo ite?",
+                "start" : 181,
+                "end" : 201
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde (lit. en qué lugar) está tu casa?",
+                "start" : 202,
+                "end" : 245
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "illano",
+                "start" : 251,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 191,
+                "end" : 191
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 192,
+                "end" : 192
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 245,
+                "end" : 245
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 246,
+                "end" : 246
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ɨna (adv2) después, más tarde, dentro de poco. Naìllɨ cuè biade. Ɨna cuè aìrɨjɨ soìtɨcuè. Más tarde vendré, después de hacer mi casabe. Ɨna dama macaì̵ baìte. Espérate, falta poco no más para terminar (el cuento). Ɨna jaì. Nia jaìacañedɨcuè. Espérate, no quiero ir todavía. (Vea iemeì.)",
     "startpage" : 259,
     "pos_on_page" : 1,
@@ -1504,6 +2632,56 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "ine (imp de ite. 2.) ¡Cuèmo ine! ¡Dáme(lo)!",
+    "startpage" : 112,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ine",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imp de ite. 2.",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cuèmo ine",
+                "start" : 21,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Dáme(lo)",
+                "start" : 34,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "caì̵ ecɨ itɨmɨe (s2B) nuestro vecino, empleado.",
     "startpage" : 74,
     "pos_on_page" : 2,
@@ -1563,6 +2741,246 @@ manual_entries.append({
                 "string" : "",
                 "start" : 23,
                 "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ni̵nomona (adv3.int) de qué parte o lugar, de dónde. ¿Ninomona biti̵o? ¿De dónde vienes? (Vea ni̵nena.)",
+    "startpage" : 197,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵nomona",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de qué parte o lugar",
+                "start" : 21,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de dónde",
+                "start" : 44,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ninomona biti̵o?",
+                "start" : 55,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿De dónde vienes?",
+                "start" : 73,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵nena",
+                "start" : 97,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "i̵fomeì DME; i̵fo (imp de i̵fode) ¡Maì i̵fo! ¡Váyase adelante! (Se dice en contestación de ¡Vámonos!) (Vea maìña.)",
+    "startpage" : 257,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵fomeì dme",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Dialecto meneca (mɨní̵ca o mí̵nɨca para los huitoto)",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵fo",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imp de i̵fode",
+                "start" : 20,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Maì i̵fo",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Váyase adelante",
+                "start" : 47,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "maìña",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
             },
     ]
 })
@@ -1759,6 +3177,260 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "muruima (s1B), murui imi̵e (s2) hombre del grupo murui.",
+    "startpage" : 182,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muruima",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1B",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "murui imi̵e",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s2",
+                "start" : 28,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre del grupo murui",
+                "start" : 32,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "illano (s1B) lugar, sitio (lit. lugar donde está alguien, algo). Caì̵ illanomo jobaìme iñede. En el lugar donde estábamos no había guerra. (Vea comuìllano, ibi̵ri̵, ite.)",
+    "startpage" : 110,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "illano",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1B",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sitio (lit. lugar donde está alguien, algo)",
+                "start" : 20,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Caì̵ illanomo jobaìme iñede.",
+                "start" : 66,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "En el lugar donde estábamos no había guerra.",
+                "start" : 98,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "comuìllano",
+                "start" : 150,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ibi̵ri̵",
+                "start" : 163,
+                "end" : 170
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ite",
+                "start" : 172,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "aì̵nide, aì̵nirite 1. (vt1) morder. Mallicɨ eo aì̵nirite. El cuchipe (pián) duele (lit. muerde) mucho. 2. aɨnide (vd) no tener esposa, ser soltero o viudo. (Vea aɨrede, dañode.)",
     "startpage" : 30,
     "pos_on_page" : 10,
@@ -1951,6 +3623,204 @@ manual_entries.append({
                 "string" : "",
                 "start" : 156,
                 "end" : 156
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "omouè (pro. pos) el suyo, la suya, los suyos, las suyas (de Uds., más de dos personas).",
+    "startpage" : 204,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "omouè",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. pos",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el suyo",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la suya",
+                "start" : 27,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los suyos",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "las suyas (de Uds., más de dos personas)",
+                "start" : 47,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ni̵nena (adv3.int) de dónde, de qué parte o lugar. ¿Ni̵nena biti̵o? ¿De dónde vienes?",
+    "startpage" : 197,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵nena",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de dónde",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de qué parte o lugar",
+                "start" : 30,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵nena biti̵o?",
+                "start" : 53,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿De dónde vienes?",
+                "start" : 70,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
             },
     ]
 })
@@ -2194,6 +4064,585 @@ manual_entries.append({
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "egi̵año (s1A) coralillo, nacanaca (culebra venenosa de colores rojo, negro y verde).",
+    "startpage" : 75,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "egi̵año",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1A",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "coralillo",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nacanaca (culebra venenosa de colores rojo, negro y verde)",
+                "start" : 26,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ruinaìtate (vc2), ruiretate (vd5c) dar, producir, causar comezón. Abi̵ ruiretate. Hace que el cuerpo tenga comezón. Janaturuño ruìnaìtate. La mariposa nocturna produce comezón. (Vea taì̵taì̵rede.)",
+    "startpage" : 216,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ruinaìtate",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vc2",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ruiretate",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vd5c",
+                "start" : 30,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar",
+                "start" : 36,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "producir",
+                "start" : 41,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "causar comezón",
+                "start" : 51,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Abi̵ ruiretate.",
+                "start" : 68,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Hace que el cuerpo tenga comezón.",
+                "start" : 84,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Janaturuño ruìnaìtate.",
+                "start" : 119,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La mariposa nocturna produce comezón.",
+                "start" : 145,
+                "end" : 183
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "taì̵taì̵rede",
+                "start" : 189,
+                "end" : 203
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 131,
+                "end" : 131
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 183,
+                "end" : 183
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 184,
+                "end" : 184
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "muno (imp de mute. 2.)",
+    "startpage" : 182,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muno",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imp de mute. 2.",
+                "start" : 6,
+                "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ni̵ne (adv3.int) dónde, a dónde. ¿Ni̵ne jaìacadi̵o? ¿Dónde quieres ir?",
+    "startpage" : 197,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵ne",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a dónde",
+                "start" : 25,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵ne jaìacadi̵o?",
+                "start" : 35,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde quieres ir?",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dani̵ (adj1.pl) solos, sin compañía (entre varios), sin orden ni permiso, sin objeto. Dani̵ jaìdi̵caì̵. Nosotros solos fuimos. (Vea conini̵, daje, dami̵e, daño.)",
+    "startpage" : 63,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dani̵",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj1.pl",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "solos",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin compañía (entre varios)",
+                "start" : 23,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin orden ni permiso",
+                "start" : 54,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin objeto",
+                "start" : 76,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Dani̵ jaìdi̵caì̵.",
+                "start" : 88,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nosotros solos fuimos.",
+                "start" : 108,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "conini̵",
+                "start" : 136,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "daje",
+                "start" : 145,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "dami̵e",
+                "start" : 151,
+                "end" : 157
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "daño",
+                "start" : 159,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+    ]
+})
 
 manual_entries.append({
     "fullentry" : "caì̵ ecɨ itɨno (s) nuestros empleados, nuestros vecinos (lit. los que viven, están al lado nuestro). (Vea dano.)",
@@ -3267,6 +5716,112 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "aìñoìcaìde (vi3.inc) jalar, destornillar, mover (hacia sí) rápidamente. Cuè aìñoìcaìga. Yo lo jalé.",
+    "startpage" : 24,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aìñoìcaìde",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.inc",
+                "start" : 16,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jalar",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "destornillar",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mover (hacia sí) rápidamente",
+                "start" : 46,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cuè aìñoìcaìga.",
+                "start" : 78,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Yo lo jalé.",
+                "start" : 99,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "igaì̵ (s1A) 1. telaraña, tejido de canastas y hamacas. Jebecɨñuaì̵dɨ danɨ nite imacɨ igaì̵aì̵na. Las arañas tejen sus telarañas. (Vea foìgaì̵.) 2. ie moìllɨ igaì̵ (s1A), moìlligaì̵ (s1B) calzón, trusa hecha de corteza de llanchama. (Vea muìgaì̵.) 3. soga, alambre.",
     "startpage" : 109,
     "pos_on_page" : 16,
@@ -3885,6 +6440,13 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
+                "string" : "Caì̵ fiodaìtɨcaì̵ raì̵re",
+                "start" : 739,
+                "end" : 767
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
                 "string" : "Ie muìdona caì̵ jiibina uaìna caì̵ feitaiñedɨcaì̵.",
                 "start" : 769,
                 "end" : 825
@@ -3912,24 +6474,31 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "imp de uaìde",
+                "value" : "example-tgt",
+                "string" : "Por eso no olvidamos la autoridad de Coca",
+                "start" : 972,
+                "end" : 1013
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imp de uaìde 2",
                 "start" : 1019,
-                "end" : 1036
+                "end" : 1035
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "¡jɨnuì uaì!",
+                "value" : "example-src",
+                "string" : "Jɨnuì uaì",
                 "start" : 1038,
-                "end" : 1050
+                "end" : 1049
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "¡Anda, saca agua (y tráela)!",
+                "value" : "example-tgt",
+                "string" : "Anda, saca agua (y tráela)",
                 "start" : 1052,
-                "end" : 1080
+                "end" : 1081
             },
             {
                 "type" : "pagelayout",
@@ -4565,6 +7134,161 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ni̵rui, ni̵ruido (adv2.int) cuándo. ¿Ni̵ruido fiodaìte? ¿Cuándo (lit. en que día) murió? ¿Ni̵rui raì̵lle? ¿Cuándo (lo) enterrará? (Vea irui, ni̵faì.)",
+    "startpage" : 198,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵rui",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵ruido",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv2.int",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuándo",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵ruido fiodaìte?",
+                "start" : 37,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Cuándo (lit. en que día) murió?",
+                "start" : 58,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵rui raì̵lle?",
+                "start" : 94,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Cuándo (lo) enterrará?",
+                "start" : 112,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "irui",
+                "start" : 143,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵faì",
+                "start" : 149,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "taìsɨllɨ (s1), taìsɨ DME talón.",
     "startpage" : 232,
     "pos_on_page" : 20,
@@ -4814,6 +7538,84 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "ni̵mei (adv3.int) quizás. Ji̵i̵, ni̵mei ieta. Sí, quizás eso es.",
+    "startpage" : 197,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵mei",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quizás",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ji̵i̵, ni̵mei ieta.",
+                "start" : 27,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Sí, quizás eso es.",
+                "start" : 47,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "jeacɨnona fɨnoraì̵nɨ(de) (ser) hombre(s) pecador(es).",
     "startpage" : 127,
     "pos_on_page" : 13,
@@ -4900,6 +7702,119 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "ni̵no (adv3.int) qué parte, qué lugar. ¿Ni̵no imi̵edo? ¿De dónde eres (lit. eres hombre de qué lugar)? (Vea ni̵maì.)",
+    "startpage" : 197,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵no",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué parte",
+                "start" : 17,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué lugar",
+                "start" : 29,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵no imi̵edo?",
+                "start" : 41,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿De dónde eres (lit. eres hombre de qué lugar)?",
+                "start" : 57,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵maì",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "naì̵mere (adf3) dulce.",
     "startpage" : 189,
     "pos_on_page" : 17,
@@ -4928,6 +7843,381 @@ manual_entries.append({
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "nibodo (s1A) sharara; pato aguja (pato salvaje, pato culebra).",
+    "startpage" : 191,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nibodo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1A",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sharara",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pato aguja (pato salvaje, pato culebra)",
+                "start" : 22,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ni̵i̵caì̵nide (vd5. neg) agotarse. Ni̵i̵caì̵nidi̵cuè. Estoy agotado. (Vea mai̵rici̵.)",
+    "startpage" : 198,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵i̵caì̵nide",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vd5. neg",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agotarse",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ni̵i̵caì̵nidi̵cuè.",
+                "start" : 36,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estoy agotado.",
+                "start" : 57,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mai̵rici̵",
+                "start" : 77,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ji̵faìruìdi̵no, ji̵faìcabidi̵no (s2Bpl) borrachines.",
+    "startpage" : 150,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ji̵faìruìdi̵no",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ji̵faìcabid",
+                "start" : 18,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s2Bpl",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "borrachines",
+                "start" : 43,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "caìde (vi3.esp) caer. Ji̵nafo di̵ne caìde. Se cayó de espaldas. (Vea bucoì̵jaìde, caìtade, uaìde.)",
+    "startpage" : 43,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "caìde",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.esp",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caer",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ji̵nafo di̵ne caìde.",
+                "start" : 23,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Se cayó de espaldas.",
+                "start" : 45,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "bucoì̵jaìde",
+                "start" : 72,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "caìtade",
+                "start" : 87,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "uaìde",
+                "start" : 97,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})
 
 manual_entries.append({
     "fullentry" : "cuè, cue (en habla lenta) (pro per, adj pos.) yo, mi. Cuè ei iñedena cuè comuìñedɨcuè. Sin mi mamá, yo no habría crecido.",
@@ -5186,6 +8476,654 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "i̵imana ote, i̵nina (illena) casarse (una mujer), tomar a un hombre como esposo. (Vea i̵ni.)",
+    "startpage" : 258,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵imana ote",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵nina",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵nina illena",
+                "start" : 13,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "casarse (una mujer)",
+                "start" : 29,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tomar a un hombre como esposo",
+                "start" : 50,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "i̵ni",
+                "start" : 86,
+                "end" : 90
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "daño (adj1.f) 1. sola, sin compañía, sin objeto. Daño ite. Está sola. 2. no más. Daño jaìde. Se fue no más. (Vea abi̵, daje, dama.)",
+    "startpage" : 63,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "daño",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj1.f",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sola",
+                "start" : 17,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin compañía",
+                "start" : 24,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin objeto",
+                "start" : 40,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Daño ite.",
+                "start" : 52,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Está sola.",
+                "start" : 63,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no más",
+                "start" : 77,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Daño jaìde.",
+                "start" : 87,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Se fue no más.",
+                "start" : 101,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "abi̵",
+                "start" : 122,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "daje",
+                "start" : 128,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "dama",
+                "start" : 134,
+                "end" : 138
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 133,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 134,
+                "end" : 134
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "iñede (vi3.neg) no haber nada, no vivir, estar vacío, no estar. Jaì cuè usuma iñena meìnoconi cuè comuìdi̵cuè. Después que no estaba mi abuelo, ya crecí. ¿Bueñe di̵nomo uri caì̵ marena iñedi̵caì̵. ¿Por qué no estamos allí (ahora) viviendo bien y en paz? (Vea ite.)",
+    "startpage" : 113,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iñede",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.neg",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no haber nada",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no vivir",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar vacío",
+                "start" : 42,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no estar",
+                "start" : 56,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jaì cuè usuma iñena meìnoconi cuè comuìdi̵cuè.",
+                "start" : 66,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Después que no estaba mi abuelo, ya crecí.",
+                "start" : 120,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Bueñe di̵nomo uri caì̵ marena iñedi̵caì̵.",
+                "start" : 165,
+                "end" : 211
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Por qué no estamos allí (ahora) viviendo bien y en paz?",
+                "start" : 212,
+                "end" : 270
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ite",
+                "start" : 276,
+                "end" : 279
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 132,
+                "end" : 132
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 133,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 184,
+                "end" : 184
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 185,
+                "end" : 185
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 216,
+                "end" : 216
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 217,
+                "end" : 217
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 265,
+                "end" : 265
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 266,
+                "end" : 266
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ni̵i̵maì (adv3.int) dónde. ¿Ni̵i̵maì naì cuè moo? ¿Dónde está mi papá? (Vea ni̵ne.)",
+    "startpage" : 198,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵i̵maì",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵i̵maì naì cuè moo?",
+                "start" : 29,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde está mi papá?",
+                "start" : 55,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵ne",
+                "start" : 84,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ɨfo (s1A) 1. cabeza, hueso redondo. (Vea caìñɨcɨ ɨfo, ɨfogɨ.) 2. ɨfo (imp de ɨfode.) (Vea ɨfomeì.)",
     "startpage" : 257,
     "pos_on_page" : 2,
@@ -5301,6 +9239,266 @@ manual_entries.append({
                 "string" : "",
                 "start" : 82,
                 "end" : 82
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "uaìde (vi3) 1. caer, caerse. Uaìsa. Cuidado, te vas a caer. (Vea soìde.) 2. ir a sacar, sacar y traer (derivado de ote). Cuè raruiaì̵ uaìdi̵caì̵ Lucitania fi̵eca Pebamo. Hemos ido a sacar (y traer) mis cosas que (la lancha) Lucitania dejó en Pebas. (Vea ati̵de; uaì 4.)",
+    "startpage" : 242,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uaìde",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caer",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caerse",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Uaìsa.",
+                "start" : 30,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Cuidado, te vas a caer.",
+                "start" : 38,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "soìde",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ir a sacar",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sacar y traer (derivado de ote)",
+                "start" : 91,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cuè raruiaì̵ uaìdi̵caì̵ Lucitania fi̵eca Pebamo.",
+                "start" : 124,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Hemos ido a sacar (y traer) mis cosas que (la lancha) Lucitania dejó en Pebas.",
+                "start" : 177,
+                "end" : 256
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ati̵de",
+                "start" : 262,
+                "end" : 268
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "uaì",
+                "start" : 270,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 183,
+                "end" : 183
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 208,
+                "end" : 208
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 209,
+                "end" : 209
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 256,
+                "end" : 256
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
             },
     ]
 })

@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵i̵maì (adv3.int) dónde. ¿Ni̵i̵maì naì cuè moo? ¿Dónde está mi papá? (Vea ni̵ne.)",
+    "startpage" : 198,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵i̵maì",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv3.int",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ni̵i̵maì naì cuè moo?",
+                "start" : 29,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Dónde está mi papá?",
+                "start" : 55,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵ne",
+                "start" : 84,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})

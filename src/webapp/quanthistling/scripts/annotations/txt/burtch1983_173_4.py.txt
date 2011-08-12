@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "maraìñede (vi3.neg) no ser, estar bien; estar enfermo, no valer; ser indigno, vil; no tener ningún valor. O ii̵fe maraìñede. Tu lengua no es buena. (Vea mare.)",
+    "startpage" : 173,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "maraìñede",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.neg",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no ser",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar bien",
+                "start" : 30,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar enfermo",
+                "start" : 42,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no valer",
+                "start" : 57,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser indigno",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vil",
+                "start" : 80,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no tener ningún valor",
+                "start" : 85,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "O ii̵fe maraìñede.",
+                "start" : 109,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Tu lengua no es buena.",
+                "start" : 130,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mare",
+                "start" : 158,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 152,
+                "end" : 152
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+    ]
+})

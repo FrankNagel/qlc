@@ -1,0 +1,155 @@
+
+manual_entries.append({
+    "fullentry" : "dama (adj1.m) 1. solo, sin compañía. 2. no, no más. Ɨna dama macaì̵baìte. Ya no hay más (se ha terminado el cuento o el asunto). (Vea da, daje.)",
+    "startpage" : 62,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dama",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj1.m",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj1.m",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "solo",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin compañía",
+                "start" : 23,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no más",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨna dama macaì̵baìte.",
+                "start" : 55,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ya no hay más (se ha terminado el cuento o el asunto).",
+                "start" : 79,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "da",
+                "start" : 140,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "daje",
+                "start" : 144,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 134,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+    ]
+})

@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "xonaajin – hamaca; aguaje (pl.)",
+    "startpage" : 159,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xonaajin",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hamaca",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aguaje",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aguaje",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})

@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "aìñoìcaìde (vi3.inc) jalar, destornillar, mover (hacia sí) rápidamente. Cuè aìñoìcaìga. Yo lo jalé.",
+    "startpage" : 24,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aìñoìcaìde",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi3.inc",
+                "start" : 16,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jalar",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "destornillar",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mover (hacia sí) rápidamente",
+                "start" : 46,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cuè aìñoìcaìga.",
+                "start" : 78,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Yo lo jalé.",
+                "start" : 99,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})
