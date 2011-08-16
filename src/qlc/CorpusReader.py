@@ -5,6 +5,7 @@ Corpus Reader for data of the project Quantitative Language Comparison.
 
 import os.path
 import codecs
+import regex as re
 
 _component_table_columns = {
     'name': 0,
@@ -110,6 +111,8 @@ class CorpusReaderDict(object):
         self.entries = {}
         self.annotations = {}
         self.__dictdata_string_ids = {}
+        
+        re_quotes = re.compile('""')
 
         # read component table
         is_first_line = True
@@ -153,7 +156,13 @@ class CorpusReaderDict(object):
                 continue
             line = line.strip()
             data = line.split("\t")
-            self.entries[data.pop(0)] = data
+            data_stripped = []
+            for d in data:
+                if len(d) > 0:
+                    if d[0] == '"' and d[-1] == '"':
+                        d = re_quotes.sub('"', d[1:-1])
+                data_stripped.append(d)
+            self.entries[data_stripped.pop(0)] = data_stripped
 
         # read annotation table
         is_first_line = True
@@ -162,9 +171,15 @@ class CorpusReaderDict(object):
             if is_first_line:
                 is_first_line = False
                 continue
-            line = line.strip()
+            line = line.rstrip("\n")
             data = line.split("\t")
-            self.annotations[data.pop(0)] = data
+            data_stripped = []
+            for d in data:
+                if len(d) > 0:
+                    if d[0] == '"' and d[-1] == '"':
+                        d = re_quotes.sub('"', d[1:-1])
+                data_stripped.append(d)
+            self.annotations[data_stripped.pop(0)] = data_stripped
             
         # read language table
         is_first_line = True
