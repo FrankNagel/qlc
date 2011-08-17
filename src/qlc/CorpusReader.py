@@ -5,7 +5,7 @@ Corpus Reader for data of the project Quantitative Language Comparison.
 
 import os.path
 import codecs
-import regex as re
+import re
 
 _component_table_columns = {
     'name': 0,

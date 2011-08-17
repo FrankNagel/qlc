@@ -2,7 +2,8 @@
 #!/usr/bin/env python
 
 import sys, codecs, collections, unicodedata
-import regex as re
+import re
+#import regex as re
 
 from pygraph.classes.graph import graph
 from pygraph.algorithms.traversal import traversal
@@ -36,8 +37,10 @@ def spanish_stopwords():
 stopwords = spanish_stopwords()
 re_stopwords = re.compile("\b(?:{0})\b".format("|".join(stopwords)))
 
-@memo
+#@memo
 def remove_stopwords_and_stem(w, split_multiwords = False):
+    if w.startswith('"') and w.endswith('"'):
+        w = w[1:-1]
     words = w.split(" ")
     w_stop = w
     if len(words) > 1:
@@ -66,6 +69,8 @@ def main(argv):
     IN = codecs.open(sys.argv[1], "r", "utf-8")
     gr = read(IN.read())
     IN.close()
+ 
+    print("Parse finished.", file=sys.stderr)
     
     for node1 in gr.nodes():
         if ("lang", "spa") in gr.node_attributes(node1):

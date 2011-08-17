@@ -39,13 +39,13 @@ def main(argv):
     
     for f in files:
         print("Processing file {0}.".format(f), file=sys.stderr)
-        IN = codecs.open(sys.argv[1], "r", "utf-8")
+        IN = codecs.open(f, "r", "utf-8")
         gr2 = read(IN.read())
         for node in gr2.nodes():
-            if ("lang", "spa") not in gr2.node_attributes(node) or node not in gr.nodes():
+            if not gr.has_node(node):
                 gr.add_node(node, attrs=gr2.node_attributes(node))
         for edge in gr2.edges():
-            if not edge in gr.edges():
+            if not gr.has_edge(edge):
                 gr.add_edge(edge, attrs=gr2.edge_attributes(edge))
         IN.close()
     

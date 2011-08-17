@@ -3,11 +3,19 @@
 
 # This script only works with Python 3
 
-import sys, codecs, collections, unicodedata
+import sys, codecs, collections, unicodedata, re
 
 from qlc.CorpusReader import CorpusReaderDict
 from pygraph.classes.graph import graph
 from pygraph.readwrite.dot import write
+
+re_quotes = re.compile('"')
+
+def escape_string(s):
+    ret = re_quotes.sub('', s)
+    if not ret.startswith('"') or not ret.endswith('"'):
+        ret = '"{0}"'.format(ret)
+    return ret
 
 def main(argv):
     
@@ -52,20 +60,19 @@ def main(argv):
                 
             for translation in translations:
                 for head in heads:
-                    #head_with_source = u"{0}|{1}".format(head, bibtex_key)
-                    #head_with_source_utf8 = head_with_source.encode("utf-8")
-                    #translation_utf8 = translation.encode("utf-8")
-                    #head_utf8 = translation.encode("utf-8")
+                    head_with_source = escape_string("{0}|{1}".format(head, bibtex_key))
+                    translation = escape_string(translation)
+                    
                     #translation_with_language = "{0}|{1}".format(translation, language_iso)
                     
-                    if not gr.has_node(head):
-                        gr.add_node(head, [('lang', language_iso), ('source', dictdata_string)])
+                    if not gr.has_node(head_with_source):
+                        gr.add_node(head_with_source, [('lang', language_iso), ('source', dictdata_string)])
                     
                     if not gr.has_node(translation):
-                        gr.add_node(translation, [('lang', 'spa'), ('source', dictdata_string)])
+                        gr.add_node(translation, [('lang', 'spa')])
                         
-                    if not gr.has_edge((head, translation)):
-                        gr.add_edge((head, translation))
+                    if not gr.has_edge((head_with_source, translation)):
+                        gr.add_edge((head_with_source, translation))
 
         output = codecs.open("{0}.dot".format(dictdata_string), "w", "utf-8")
         output.write(write(gr))
