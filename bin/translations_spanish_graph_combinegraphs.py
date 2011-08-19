@@ -4,8 +4,8 @@
 import sys, codecs, os, glob
 import regex as re
 
-from pygraph.classes.graph import graph
-from pygraph.readwrite.dot import write, read
+#from pygraph.classes.graph import graph
+from qlc.TranslationGraph import write, read
 
 def main(argv):
     

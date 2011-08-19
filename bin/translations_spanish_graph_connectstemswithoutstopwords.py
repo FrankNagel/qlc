@@ -7,7 +7,7 @@ import re
 
 from pygraph.classes.graph import graph
 from pygraph.algorithms.traversal import traversal
-from pygraph.readwrite.dot import write, read
+from qlc.TranslationGraph import write, read
 
 # snowball stemmer: http://snowball.tartarus.org/download.php
 import Stemmer
@@ -37,10 +37,13 @@ def spanish_stopwords():
 stopwords = spanish_stopwords()
 re_stopwords = re.compile("\b(?:{0})\b".format("|".join(stopwords)))
 
-#@memo
+@memo
 def remove_stopwords_and_stem(w, split_multiwords = False):
     if w.startswith('"') and w.endswith('"'):
         w = w[1:-1]
+    if w in stopwords:
+        return []
+
     words = w.split(" ")
     w_stop = w
     if len(words) > 1:

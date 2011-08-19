@@ -7,14 +7,14 @@ import sys, codecs, collections, unicodedata, re
 
 from qlc.CorpusReader import CorpusReaderDict
 from pygraph.classes.graph import graph
-from pygraph.readwrite.dot import write
+from qlc.TranslationGraph import write
 
 re_quotes = re.compile('"')
 
 def escape_string(s):
     ret = re_quotes.sub('', s)
-    if not ret.startswith('"') or not ret.endswith('"'):
-        ret = '"{0}"'.format(ret)
+    #if not ret.startswith('"') or not ret.endswith('"'):
+    #    ret = '"{0}"'.format(ret)
     return ret
 
 def main(argv):
