@@ -1,7 +1,14 @@
 # -*- coding: utf8 -*-
 #!/usr/bin/env python3
 
-# This script only works with Python 3
+"""
+This script outputs a dot files for each dictionary. The dot file each
+contain a graph, where each spanish translation is connected to each
+head word of the dictionary's native language. The spanish translation are
+not processed. The head words' strings are each connected to a string with
+the source ID. This later helps to distinguish head words from different sources
+that are represented by the same string.
+"""
 
 import sys, codecs, collections, unicodedata, re
 

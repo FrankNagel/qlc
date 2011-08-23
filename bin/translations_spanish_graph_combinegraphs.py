@@ -1,5 +1,14 @@
 # -*- coding: utf8 -*-
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
+"""
+This script takes two or more dot files (you may use wildcards for filenames)
+as input and combines the graphs of the files. Spanish translation are unified,
+so that each spanish translation only has one node in the target graph. Head
+words of native languages are still sperated in the target graph, so that head
+words with the same string from two dictionaries are two nodes in the target
+graph.
+"""
 
 import sys, codecs, os, glob
 import regex as re

@@ -45,25 +45,22 @@ def main(argv):
     
     stemmer = Stemmer.Stemmer('spanish')
     stopwords = spanish_stopwords()
-    re_stopwords = re.compile(r"\b(?:{0})\b".format("|".join(stopwords)))
+    re_stopwords = re.compile(r"\b(?:{0})\b".format( "|".join(stopwords).encode("utf-8") ))
 
     for dictdata_id in dictdata_ids:
         src_language_iso = cr.src_language_iso_for_dictdata_id(dictdata_id)
         tgt_language_iso = cr.tgt_language_iso_for_dictdata_id(dictdata_id)
         if src_language_iso != 'spa' and tgt_language_iso != 'spa':
             continue
-        
-        language_iso = None
-        if tgt_language_iso == 'spa':
-            language_iso = src_language_iso
-        else:
-            language_iso = tgt_language_iso
             
-        if language_iso not in languages_iso:
-            languages_iso.append(language_iso)
             
         heads_with_translations = cr.heads_with_translations_for_dictdata_id(dictdata_id)
-        dictdata_string = cr.dictdata_string_id_for_dictata_id(dictdata_id)        
+        dictdata_string = cr.dictdata_string_id_for_dictata_id(dictdata_id)
+        bibtex_key = dictdata_string.split("_")[0]
+
+        language_iso = bibtex_key
+        if bibtex_key not in languages_iso:
+            languages_iso.append(bibtex_key)
 
         for entry_id in heads_with_translations:
             if tgt_language_iso == 'spa':
@@ -79,15 +76,17 @@ def main(argv):
                     translation_without_stopwords = re_stopwords.sub("", translation)
                     translation_without_stopwords = translation_without_stopwords.strip(" ")
                     translation_without_stopwords = re.sub(" +", " ", translation_without_stopwords)
-                    len_translation_without_stopwords = len(translation_without_stopwords.split(' '))
+                    if translation_without_stopwords == " " or translation_without_stopwords == "":
+                        translation_without_stopwords = translation
+                        len_translation_without_stopwords = len_translation
+                    else:
+                        len_translation_without_stopwords = len(translation_without_stopwords.split(' '))
+
                 else:
                     translation_without_stopwords = translation
                     len_translation_without_stopwords = len_translation
-                
-                if "(incl.)" in translation:
-                    print(translation)
-                    print(translation_without_stopwords)
 
+                
                 if len_translation_without_stopwords == 1:
                     #print translation.encode("utf-8")
                     translation_stem = stemmer.stemWord(translation_without_stopwords)
@@ -95,6 +94,7 @@ def main(argv):
                         spanish_singleword_dict[translation_stem] = collections.defaultdict(set)
                     for head in heads_with_translations[entry_id]['heads']:
                         spanish_singleword_dict[translation_stem][language_iso].add(head)
+                    spanish_singleword_dict[translation_stem]["spa"].add(translation)
                         
 
                 elif len_translation == 2:
@@ -129,15 +129,16 @@ def main(argv):
     output1 = codecs.open("spanish_len1.txt", "w", "utf-8")
     total_count = 0
     more_than_one_lang_count = 0
-    output.write("%s\t%s\n" % ('es', '\t'.join(languages_iso)))
-    for sp in spanish_singleword_dict:
-        output.write(sp)
+    output.write("%s\t%s\n" % ("spa", "\t".join(languages_iso[1:])))
+    for sp in sorted(spanish_singleword_dict):
+        #output.write(sp)
+        output.write("%s" % ('|'.join(sorted(spanish_singleword_dict[sp]["spa"]))))
         #print spanish_singleword_dict[sp].keys()
         count_languages = 0
-        for lang in languages_iso:
+        for lang in languages_iso[1:]:
             if len(spanish_singleword_dict[sp][lang]) > 0:
                 count_languages += 1
-            output.write("\t%s" % ('|'.join(spanish_singleword_dict[sp][lang])))
+            output.write("\t%s" % ('|'.join(sorted(spanish_singleword_dict[sp][lang]))))
         output.write("\n")
         output1.write("{0}\n".format(sp))
         if count_languages > 1:
@@ -148,7 +149,7 @@ def main(argv):
     print("number of entries with more than one language: {0}".format(more_than_one_lang_count))
 
 if __name__ == "__main__":
-    if py3k == sys.version_info < (3, 0):
+    if sys.version_info < (3, 0):
         print("This script requires at least Python 3.0")
         sys.exit(1)
 

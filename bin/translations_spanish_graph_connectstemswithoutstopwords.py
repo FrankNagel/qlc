@@ -1,9 +1,18 @@
 # -*- coding: utf8 -*-
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
+"""
+This script akes as input one dot files and output a corresponding dot file
+which has additional edges between spanish translations. The additional edges
+connect translations that have equal stems. Before the comparison stop words
+will be removed from each translation. If you add the argument
+"splitmultiwords", translations with more than one word will be splitted and
+each word of the translation will be compared with each word of each other
+translation.
+"""
 
 import sys, codecs, collections, unicodedata
-import re
-#import regex as re
+import regex as re
 
 from pygraph.classes.graph import graph
 from pygraph.algorithms.traversal import traversal
@@ -12,16 +21,6 @@ from qlc.TranslationGraph import write, read
 # snowball stemmer: http://snowball.tartarus.org/download.php
 import Stemmer
 stemmer = Stemmer.Stemmer('spanish')
-
-def memo(f):
-    "Memoize function f."
-    table = {}
-    def fmemo(*args):
-        if args not in table:
-            table[args] = f(*args)
-        return table[args]
-    fmemo.memo = table
-    return fmemo
 
 def spanish_stopwords():
     stopwords = codecs.open("data/stopwords/spa.txt", "r", "utf-8")
@@ -35,28 +34,28 @@ def spanish_stopwords():
     return ret
 
 stopwords = spanish_stopwords()
-re_stopwords = re.compile("\b(?:{0})\b".format("|".join(stopwords)))
+re_stopwords = re.compile(r"\b(?:{0})\b".format( "|".join(stopwords).encode("utf-8") ))
+re_spaces = re.compile(" +")
 
-@memo
-def remove_stopwords_and_stem(w, split_multiwords = False):
-    if w.startswith('"') and w.endswith('"'):
-        w = w[1:-1]
-    if w in stopwords:
-        return []
+def remove_stopwords_and_stem(w, split_multiwords):
+    #if w in stopwords:
+    #    return []
 
-    words = w.split(" ")
+    w = w.strip(" ")
     w_stop = w
-    if len(words) > 1:
+    if " " in w_stop:
         w_stop = re_stopwords.sub("", w_stop)
         w_stop = w_stop.strip(" ")
-        w_stop = re.sub(" +", " ", w_stop)
-        words = w_stop.split(" ")
-    if not split_multiwords and len(words) == 1:
+        w_stop = re_spaces.sub(" ", w_stop)
+    if " " in w_stop:
+        if split_multiwords:
+            return stemmer.stemWords(w_stop.split(" "))
+        else:
+            return([])
+    elif len(w_stop) > 0:
         return [stemmer.stemWord(w_stop)]
-    elif split_multiwords:
-        return stemmer.stemWords(words)
     else:
-        return []
+        return([])
 
 def main(argv):
     
@@ -74,28 +73,18 @@ def main(argv):
     IN.close()
  
     print("Parse finished.", file=sys.stderr)
-    
-    for node1 in gr.nodes():
-        if ("lang", "spa") in gr.node_attributes(node1):
-            w1 = node1
-            w1_stems = remove_stopwords_and_stem(w1, split_multiwords)
-            if len(w1_stems) > 0:
-                for node2 in gr.nodes():
-                    if ("lang", "spa") in gr.node_attributes(node2) and not gr.has_edge((node1, node2)):
-                        w2 = node2
-                        if w1 == w2:
-                            continue
-                        w2_stems = remove_stopwords_and_stem(w2, split_multiwords)
-                        if len(w2_stems) > 0:
-                            if len(w1_stems) == 1 and len(w2_stems) == 1:
-                                if w1_stems[0] == w2_stems[0]:
-                                    gr.add_edge((node1, node2), attrs=[('same_stem', True)])
-                            elif len(w1_stems) > 1 and len(w2_stems) == 1:
-                                if w2_stems[0] in w1_stems:
-                                    gr.add_edge((node1, node2), attrs=[('same_stem', True)])
-                            elif len(w1_stems) == 1 and len(w2_stems) > 1:
-                                if w1_stems[0] in w2_stems:
-                                    gr.add_edge((node1, node2), attrs=[('same_stem', True)])
+    nodes = gr.nodes()
+
+    i = 0    
+    for n in gr.nodes():
+        if ("lang", "spa") in gr.node_attributes(n):
+            w1_stems = remove_stopwords_and_stem(n, split_multiwords)
+            for stem in w1_stems:
+                stem = stem + "|stem"
+                if stem not in gr.nodes():
+                    gr.add_node(stem, attrs=[('is_stem', True)])
+                if (stem, n) not in gr.edges():
+                    gr.add_edge((stem, n))
     
     OUT = codecs.open(sys.argv[2], "w", "utf-8")
     OUT.write(write(gr))

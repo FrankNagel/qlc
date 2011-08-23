@@ -46,6 +46,10 @@ def read(string):
             if g[1]:
                 for attribute_string in g[1].split(", "):
                     key, value = attribute_string.split("=")
+                    if value == "True":
+                        value = True
+                    elif value == "False":
+                        value = False
                     gr.add_node_attribute(g[0], (key, value))
             
         elif match_edge:
