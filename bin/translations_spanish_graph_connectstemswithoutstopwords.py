@@ -76,15 +76,13 @@ def main(argv):
     nodes = gr.nodes()
 
     i = 0    
-    for n in gr.nodes():
-        if ("lang", "spa") in gr.node_attributes(n):
+    for n in nodes:
+        if "lang" in gr.node[n] and gr.node[n]["lang"] == "spa":
             w1_stems = remove_stopwords_and_stem(n, split_multiwords)
             for stem in w1_stems:
                 stem = stem + "|stem"
-                if stem not in gr.nodes():
-                    gr.add_node(stem, attrs=[('is_stem', True)])
-                if (stem, n) not in gr.edges():
-                    gr.add_edge((stem, n))
+                gr.add_node(stem, is_stem=True)
+                gr.add_edge(stem, n)
     
     OUT = codecs.open(sys.argv[2], "w", "utf-8")
     OUT.write(write(gr))

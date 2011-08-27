@@ -11,7 +11,7 @@ parser. RE must be enough.
 import codecs
 import re
 
-from pygraph.classes.graph import graph
+from networkx import Graph
 
 class WrongDotFormatException(Exception): pass
 
@@ -34,7 +34,7 @@ def read(string):
     re_node = re.compile('^"([^"]*)"(?: \[([^]]*)\])?;?$')
     re_edge = re.compile('^"([^"]*)" -- "([^"]*)"(?: \[([^]]*)\])?;?$')
     
-    gr = graph()
+    gr = Graph()
     
     for line in lines:
         line = line.strip()
@@ -50,15 +50,15 @@ def read(string):
                         value = True
                     elif value == "False":
                         value = False
-                    gr.add_node_attribute(g[0], (key, value))
+                    gr.node[g[0]][key] =  value
             
         elif match_edge:
             g = match_edge.groups()
-            gr.add_edge((g[0], g[1]))
+            gr.add_edge(g[0], g[1])
             if g[2]:
                 for attribute_string in g[2].split(", "):
                     key, value = attribute_string.split("=")
-                    gr.add_edge_attribute((g[0], g[1]), (key, value))
+                    gr.edge[g[0]][g[1]][key] = value
             
         elif line != "}" and len(line) > 0:
             raise WrongDotFormatException("Could not parse line:\n\t{0}".format(line))
@@ -76,38 +76,36 @@ def write(gr):
     Returns:
         - string: input graph in dot language
     """
-    if not isinstance(gr, graph):
+    if not isinstance(gr, Graph):
         raise TypeError("G is not a graph")
     
     graphname = "translationgraph"
-    if 'name' in dir(gr):
-        graphname = gr.name
 
     ret = "graph {0}".format(graphname)
     ret += " {\n"
     
-    for n in gr.nodes():
+    for n in gr:
         node_string = '"{0}"'.format(n)
-        node_attributes = gr.node_attributes(n)
+        node_attributes = gr.node[n]
         if len(node_attributes) > 0:
-            node_attributes_string_list = ["{0}={1}".format(a[0], a[1]) for a in node_attributes]
+            node_attributes_string_list = ["{0}={1}".format(k, v) for k, v in node_attributes.items()]
             node_string += " [{0}]".format(", ".join(node_attributes_string_list))
         node_string += ";\n"
         ret += node_string
 
     seen_edges = set()
 
-    for e in gr.edges():
-        if (e[0], e[1]) in seen_edges:
+    for n1, n2 in gr.edges_iter():
+        if (n1, n2) in seen_edges:
             continue
-        edge_string = '"{0}" -- "{1}"'.format(e[0], e[1])
-        edge_attributes = gr.edge_attributes(e)
+        edge_string = '"{0}" -- "{1}"'.format(n1, n2)
+        edge_attributes = gr.edge[n1][n2]
         if len(edge_attributes) > 0:
-            edge_attributes_string_list = ["{0}={1}".format(a[0], a[1]) for a in edge_attributes]
+            edge_attributes_string_list = ["{0}={1}".format(k, v) for k, v in edge_attributes.items()]
             edge_string += " [{0}]".format(", ".join(edge_attributes_string_list))
         edge_string += ";\n"
         ret += edge_string
-        seen_edges.add((e[1], e[0]))
+        seen_edges.add((n2, n1))
 
     ret += "}\n"
     return ret

@@ -18,12 +18,12 @@ def main(argv):
 
     matrix = {}
     sources = set()
-    for node in gr.nodes():
-        if ("is_stem", True) in gr.node_attributes(node):
-            spanish_nodes = [n for n in gr[node] if ("lang", "spa") in gr.node_attributes(n)]
+    for node in gr:
+        if "is_stem" in gr.node[node] and gr.node[node]["is_stem"]:
+            spanish_nodes = [n for n in gr[node] if "lang" in gr.node[n] and gr.node[n]["lang"] == "spa"]
             head_nodes = []
             for sp in spanish_nodes:
-                head_nodes += [n for n in gr[sp] if  ("lang", "spa") and ("is_stem", True) not in gr.node_attributes(n)]
+                head_nodes += [n for n in gr[sp] if ("lang" not in gr.node[n] or gr.node[n]["lang"] != "spa") and ("is_stem" not in gr.node[n] or not gr.node[n]["is_stem"])]
             head_nodes = set(head_nodes)
 
             heads = collections.defaultdict(list)

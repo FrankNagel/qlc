@@ -50,12 +50,10 @@ def main(argv):
         print("Processing file {0}.".format(f), file=sys.stderr)
         IN = codecs.open(f, "r", "utf-8")
         gr2 = read(IN.read())
-        for node in gr2.nodes():
-            if not gr.has_node(node):
-                gr.add_node(node, attrs=gr2.node_attributes(node))
-        for edge in gr2.edges():
-            if not gr.has_edge(edge):
-                gr.add_edge(edge, attrs=gr2.edge_attributes(edge))
+        for node in gr2:
+            gr.add_node(node, gr2.node[node])
+        for n1, n2 in gr2.edges_iter():
+                gr.add_edge(n1, n2, gr2.edge[n1][n2])
         IN.close()
     
     OUT = codecs.open(sys.argv[len(argv)-1], "w", "utf-8")

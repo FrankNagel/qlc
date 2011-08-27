@@ -13,7 +13,7 @@ that are represented by the same string.
 import sys, codecs, collections, unicodedata, re
 
 from qlc.CorpusReader import CorpusReaderDict
-from pygraph.classes.graph import graph
+from networkx import Graph
 from qlc.TranslationGraph import write
 
 re_quotes = re.compile('"')
@@ -41,7 +41,7 @@ def main(argv):
         
 
     for dictdata_id in dictdata_ids:
-        gr = graph()
+        gr = Graph()
         src_language_iso = cr.src_language_iso_for_dictdata_id(dictdata_id)
         tgt_language_iso = cr.tgt_language_iso_for_dictdata_id(dictdata_id)
         if src_language_iso != 'spa' and tgt_language_iso != 'spa':
@@ -72,14 +72,14 @@ def main(argv):
                     
                     #translation_with_language = "{0}|{1}".format(translation, language_iso)
                     
-                    if not gr.has_node(head_with_source):
-                        gr.add_node(head_with_source, [('lang', language_iso), ('source', dictdata_string)])
+                    #if head_with_source not in gr:
+                    gr.add_node(head_with_source, attr_dict={ "lang": language_iso, "source": bibtex_key })
                     
-                    if not gr.has_node(translation):
-                        gr.add_node(translation, [('lang', 'spa')])
+                    #if translation not in gr:
+                    gr.add_node(translation, lang='spa')
                         
-                    if not gr.has_edge((head_with_source, translation)):
-                        gr.add_edge((head_with_source, translation))
+                    #if not gr.has_edge((head_with_source, translation)):
+                    gr.add_edge(head_with_source, translation)
 
         output = codecs.open("{0}.dot".format(dictdata_string), "w", "utf-8")
         output.write(write(gr))
