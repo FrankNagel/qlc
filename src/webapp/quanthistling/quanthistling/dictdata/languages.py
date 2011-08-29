@@ -574,4 +574,53 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=amc'
     },
+
+    {
+        'name' : u'Musak',
+        'langcode': u'mmq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mmq'
+    },
+    
+    {
+        'name' : u'Apapli',
+        'langcode': u'ena',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ena'
+    },
+
+    {
+        'name' : u'Kulsab',
+        'langcode': u'n/a',
+        'description' : u'',
+        'url' : u''
+    },
+
+    {
+        'name' : u'Paynamar',
+        'langcode': u'pmr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pmr'
+    },
+
+    {
+        'name' : u'Mum',
+        'langcode': u'kqa',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kqa'
+    },
+
+    {
+        'name' : u'Nend',
+        'langcode': u'anh',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=anh'
+    },
+
+    {
+        'name' : u'Sileibi',
+        'langcode': u'sbq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=sbq'
+    },
 ]
