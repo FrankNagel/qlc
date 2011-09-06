@@ -583,7 +583,7 @@ list = [
     },
     
     {
-        'name' : u'Apapli',
+        'name' : u'Apali',
         'langcode': u'ena',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=ena'

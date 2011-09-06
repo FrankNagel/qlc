@@ -2,6 +2,10 @@
 
 import re
 from quanthistling import model
+from annotations import functions
+
+def normalize_stroke(string_src):
+    return functions.normalize_stroke(string_src)
 
 def delete_book_from_db(Session, bibtex_key):
     book_q = Session.query(model.Book)
@@ -41,6 +45,16 @@ def insert_book_to_db(Session, bookdata):
     Session.commit()
     return book
 
+def insert_language_to_db(Session, languagedata):
+    language = model.Language()
+    language.name = languagedata['name']
+    language.langcode = languagedata['langcode']
+    language.description = languagedata['description']
+    language.url = languagedata['url']
+    Session.add(language)
+    Session.commit()
+    return language
+
 def insert_wordlistdata_to_db(Session, data, book):
     wordlistdata = model.Wordlistdata()
     wordlistdata.startpage = data['startpage']
@@ -52,7 +66,7 @@ def insert_wordlistdata_to_db(Session, data, book):
         language = Session.query(model.Language).filter_by(name=data['language_name']).first()
         if language == None:
             #log.warn("Language " + b['src_language_name'] + " not found, inserting book " + b['title'].encode('ascii', errors='ingore') + " without source language." )
-            print("Language %s not found, inserting book  without source language." % data['language_name'])
+            print("Language %s not found, inserting book without source language." % data['language_name'])
         wordlistdata.language = language
     
     if data['component'] != '':
@@ -159,3 +173,67 @@ def process_line(text, type="dictionary"):
         entry.append_annotation(a[0], a[1], a[2], a[3])
 
     return entry
+
+
+def insert_nondictdata_to_db(Session, data, book):
+    nondictdata = model.Nondictdata()
+    nondictdata.startpage = data['startpage']
+    nondictdata.endpage = data['endpage']
+    nondictdata.title = data['title']
+    file = open(os.path.join(dictdata_path, data['file']), 'r')
+    text = file.read()
+    file.close()
+
+    if re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=windows-1252\">", text):
+        html = text.decode('windows-1252')
+    elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=utf-8\">", text):
+        html = text.decode('utf-8')
+        
+    if book.bibtex_key == 'burtch1983':
+        html = re.sub(u"#001", u"ɨ", html)
+        html = re.sub(u"#002", u"Ɨ", html)
+    elif book.bibtex_key == 'thiesen1998':
+        html = re.sub(u"#003", u"-̀", html)
+        html = re.sub(u"#004", u"-́", html)
+    html = unicodedata.normalize("NFD", html)
+    nondictdata.data = html
+    nondictdata.book = book
+
+    component = Session.query(model.Component).filter_by(name=data['component']).first()
+    if component == None:
+        log.warn("Component not found, inserting nondictdata without component." )
+    nondictdata.component = component
+
+    Session.add(nondictdata)
+    Session.commit()
+    return nondictdata
+
+def insert_dictdata_to_db(Session, data, book):
+    dictdata = model.Dictdata()
+    dictdata.startpage = data['startpage']
+    dictdata.endpage = data['endpage']
+    dictdata.src_language_bookname = data['src_language_bookname']
+    dictdata.tgt_language_bookname = data['tgt_language_bookname']
+    dictdata.book = book
+    
+    srclanguage = Session.query(model.Language).filter_by(name=data['src_language_name']).first()
+    if srclanguage == None:
+        #log.warn("Language " + b['src_language_name'] + " not found, inserting book " + b['title'].encode('ascii', errors='ingore') + " without source language." )
+        print("Language %s not found, inserting book  without source language." % data['src_language_name'])
+    dictdata.src_language = srclanguage
+    
+    tgtlanguage = Session.query(model.Language).filter_by(name=data['tgt_language_name']).first()
+    if tgtlanguage == None:
+        #log.warn("Language " + b['tgt_language_name'] + " not found, inserting book " + b['title'] + " without target language." )
+        print("Language %s not found, inserting book without target language." % data['tgt_language_name'])
+    dictdata.tgt_language = tgtlanguage
+
+    component = Session.query(model.Component).filter_by(name=data['component']).first()
+    if component == None:
+        print("Component not found, inserting dictdata without component.")
+    dictdata.component = component
+    
+    Session.add(dictdata)
+    Session.commit()
+    return dictdata
+
