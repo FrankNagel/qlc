@@ -4,8 +4,7 @@ Corpus Reader for data of the project Quantitative Language Comparison.
 """
 
 import os.path
-import codecs
-import re
+import codecs, re, collections
 
 _component_table_columns = {
     'name': 0,
@@ -58,6 +57,15 @@ _entry_table_columns = {
     'has_manual_annotations': 10
 }
 
+_annotation_table_columns = {
+    'entry_id': 0,
+    'annotationtype_id': 1,
+    'start': 2,
+    'end': 3,
+    'value': 4,
+    'string': 5
+}
+
 _wordlistentry_table_columns = {
     'fullentry': 0,
     'startpage': 1,
@@ -81,6 +89,15 @@ _wordlistdata_table_columns = {
 
 _wordlistconcept_table_columns = {
     'concept': 0
+}
+
+_wordlistannotation_table_columns ={
+    'entry_id': 0,
+    'annotationtype_id': 1,
+    'start': 2,
+    'end': 3,
+    'value': 4,
+    'string': 5
 }
 
 class CorpusReaderDict(object):
@@ -110,6 +127,7 @@ class CorpusReaderDict(object):
         self.dictdata = {}
         self.entries = {}
         self.annotations = {}
+        self.entry_annotations_cache = {}
         self.__dictdata_string_ids = {}
         
         re_quotes = re.compile('""')
@@ -162,6 +180,7 @@ class CorpusReaderDict(object):
                     if d[0] == '"' and d[-1] == '"':
                         d = re_quotes.sub('"', d[1:-1])
                 data_stripped.append(d)
+            self.entry_annotations_cache[data_stripped[0]] = collections.defaultdict(set)
             self.entries[data_stripped.pop(0)] = data_stripped
 
         # read annotation table
@@ -179,7 +198,14 @@ class CorpusReaderDict(object):
                     if d[0] == '"' and d[-1] == '"':
                         d = re_quotes.sub('"', d[1:-1])
                 data_stripped.append(d)
-            self.annotations[data_stripped.pop(0)] = data_stripped
+            id = data_stripped.pop(0)
+            entry_id = data_stripped[_annotation_table_columns['entry_id']]
+            self.entry_annotations_cache[entry_id][
+                # key is the annotation value: "head", "translation", ...
+                data_stripped[_annotation_table_columns['value']]
+                # value is a list of annotation strings
+                ].add(data_stripped[_annotation_table_columns['string']])
+            self.annotations[id] = data_stripped
             
         # read language table
         is_first_line = True
@@ -308,70 +334,69 @@ class CorpusReaderDict(object):
         tgt_language_id = self.dictdata[param_dictdata_id][_dictdata_table_columns['tgt_language_id']]
         return self.languages[tgt_language_id][_language_table_columns['langcode']]
 
-    def heads_with_translations_for_dictdata_id(self, param_dictdata_id = None):
+
+    def entry_ids_for_dictdata_id(self, dictdata_id):
         """
-        Returns a dictionary of all heads and translations for a given dictionary
-        data part of a book. The keys of the dictionary are the numerical entry
-        IDs. The values of the dictionaries are dictionaries with 4 keys: "heads",
-        "translations", "dictdata_id", "dictdata_string_id". The values of
-        "heads" and "translations" are arrays of strings, the "dictdata_id" and
-        "dictdata_string_id" are strings. An example entry could look like:
-        [ '12435': [
-            "heads": [ "Hund", "Hunde" ],
-            "translations": ["dog", "dogs", "hound", "hounds"],
-            "dictdata_id": "7",
-            "dictdata_string_id": "thiesen1998_12_125"
-            ]
-        ]
+        Returns all entry IDs for a given dictdata ID. A dictdata ID is the
+        ID of a dictionary part of a source.
         
-        Args:
-            - param_dictdata_id: the numerical ID of the dictionary part of a book.
-                If not given: returns heads and translations of all dictionary parts
-                of all books.
-        Returns:
-            - A dicionary containing heads and translations for each entry, as
-                described above.
-        """
-        head_annotations = {}
-        translation_annotations = {}
+        Parameters
+        ----------
         
-        for annotation_id, annotation_data in self.annotations.items():
-            entry_id = annotation_data[0]
-            dictdata_id = self.entries[entry_id][4]
-
-            if (param_dictdata_id == None) or (dictdata_id == param_dictdata_id):
-                if annotation_data[4] == 'head':
-                    if annotation_data[0] in head_annotations:
-                        head_annotations[entry_id].append(annotation_data[5])
-                    else:
-                        head_annotations[entry_id] = [annotation_data[5]]
-                        
-                elif annotation_data[4] == 'translation':
-                    if annotation_data[0] in translation_annotations:
-                        translation_annotations[entry_id].append(annotation_data[5])
-                    else:
-                        translation_annotations[entry_id] = [annotation_data[5]]
-
-        ret = {}
-        for entry_id in head_annotations:
-            # only add an entry if both head and translation have data
-            if entry_id in translation_annotations:
-                ret[entry_id] = {}
-                ret[entry_id]['heads'] = head_annotations[entry_id]
-                ret[entry_id]['translations'] = translation_annotations[entry_id]
-                ret[entry_id]['dictdata_id'] = self.entries[entry_id][_entry_table_columns['dictdata_id']]
-                ret[entry_id]['is_subentry'] = self.entries[entry_id][_entry_table_columns['is_subentry']]
-                ret[entry_id]['dictdata_string_id'] = self.__dictdata_string_ids[ self.entries[entry_id][_entry_table_columns['dictdata_id']] ]
+        dictdata_id : str
+                ID of the dictdata, as Unicode string.
+                
+        Returns
+        -------
         
-        return ret
+        A generator for all entry IDs in that dictionary part.
+        """
+        return(k for k, v in self.entries.items()
+            if v[_entry_table_columns['dictdata_id']] == dictdata_id)
 
 
-    def heads_with_translations(self):
+    def annotations_for_entry_id_and_value(self, entry_id, value):
         """
-        Convinience method to return heads and translations for all dictionary parts
-        of all books. See headsWithTranslationsForDictdataId() for a description
+        Returns alls annotation IDs for a given entry ID and and given
+        annotation value. Annotation values are strings like "head",
+        "translation", etc.
+        
+        Parameters
+        ----------
+        
+        entry_id : str
+                ID of the entry, as Unicode string.
+        value : str
+                String of the annotation value to look for, i.e. "head",
+                "translation", etc.
+                
+        Returns
+        -------
+        
+        A generator to all the annotatotion of the entry that match the given
+        annotation value.
         """
-        return self.heads_with_translations_for_dictdata_id()
+        return(a for a in self.entry_annotations_cache[entry_id][value])
+
+
+    def heads_with_translations_for_dictdata_id(self, dictdata_id):
+        """
+        Returns alls (head, translation) pairs for a given dictdata ID.
+        
+        Parameters
+        ----------
+        dictdata_id : str
+                ID of the dictdata, as Unicode string.
+            
+         
+        Returns
+        -------
+        
+        A generator for (head, translation) tuples.
+        """
+        return((head, translation) for entry_id in self.entry_ids_for_dictdata_id(dictdata_id)
+            for head in self.annotations_for_entry_id_and_value(entry_id, "head")
+                for translation in self.annotations_for_entry_id_and_value(entry_id, "translation"))
 
 
     def phonology_for_dictdata_id(self, param_dictdata_id = None):
@@ -440,9 +465,10 @@ class CorpusReaderWordlist(object):
         self.books = {}
         self.languages = {}
         self.wordlistdata = {}
-        self.wordlistentries = {}
-        self.wordlistannotations = {}
-        self.wordlistconcepts = {}
+        self.entries = {}
+        self.annotations = {}
+        self.concepts = {}
+        self.entry_annotations_cache = {}
         self.wordlistdata_string_ids = {}
 
         # read book table
@@ -476,7 +502,8 @@ class CorpusReaderWordlist(object):
                 continue
             line = line.strip()
             data = line.split("\t")
-            self.wordlistentries[data.pop(0)] = data
+            self.entry_annotations_cache[data[0]] = collections.defaultdict(set)
+            self.entries[data.pop(0)] = data
 
         # read wordlist annotation table
         is_first_line = True
@@ -487,7 +514,14 @@ class CorpusReaderWordlist(object):
                 continue
             line = line.strip()
             data = line.split("\t")
-            self.wordlistannotations[data.pop(0)] = data
+            id = data.pop(0)
+            entry_id = data[_wordlistannotation_table_columns['entry_id']]
+            self.entry_annotations_cache[entry_id][
+                # key is the annotation value: "head", "translation", ...
+                data[_wordlistannotation_table_columns['value']]
+                # value is a list of annotation strings
+                ].add(data[_wordlistannotation_table_columns['string']])
+            self.annotations[id] = data
             
         # read language table
         is_first_line = True
@@ -509,7 +543,7 @@ class CorpusReaderWordlist(object):
                 continue
             line = line.strip()
             data = line.split("\t")
-            self.wordlistconcepts[data.pop(0)] = data
+            self.concepts[data.pop(0)] = data
 
         self.init_wordlistdata_string_ids()
 
@@ -579,61 +613,95 @@ class CorpusReaderWordlist(object):
             - A string of the language string in the book
         """
         return self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_bookname']]
+
+
+    def get_language_code_for_wordlist_data_id(self, wordlistdata_id):
+        """Returns the language code (ISO ) that was assigned to a source for
+        a given wordlistdata ID.
         
-    def counterparts_for_wordlistdata_id(self, param_wordlistdata_id = None):
-        """Returns an iterator for all counterpart annotations of the given
-        wordlist part of a book. The entries over which you can iterate are
-        a python dict each, with additional information for the counterpart.
-        The dict looks like this:
-        {
-            "counterpart": [ "hund", "hunde" ],
-            "concept": "DOG",
-            "language_bookname": "Deutsch",
-            "language_code": "de",
-            "bibtex_key": "huber1949"
-        }
-        The values of the counterpart lists are all counterparts that exist
-        for an wordlist entry.
+        Parameters
+        ----------
+        wordlistdata_id : str
+                ID of the wordlistdata part of a book
         
-        Args:
-            - param_wordlistdata_id: the numerical ID of the wordlist part of a
-            book. If not given: returns counterparts of all wordlist parts
-                of all books.
-        Returns:
-            - An iterator over dicts containing counterparts for each entry, as
-                described above.
+        Returns
+        -------
+        A string of the language code of the wordlist data
         """
-        counterpart_annotations = {}
-        for annotation_id, annotation_data in self.wordlistannotations.items():
-            if len(annotation_data) < 6:
-                continue
+        language_id = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_id']]
+        if language_id:
+            return self.languages[language_id][_language_table_columns['langcode']]
+        else:
+            return ''
 
-            entry_id = annotation_data[0]
-            wordlistdata_id = self.wordlistentries[entry_id][_wordlistentry_table_columns['wordlistdata_id']]
 
-            if (param_wordlistdata_id == None) or (wordlistdata_id == param_wordlistdata_id):
-                if annotation_data[4] == 'counterpart':
-                    if annotation_data[0] in counterpart_annotations:
-                        counterpart_annotations[entry_id].append(annotation_data[5])
-                    else:
-                        counterpart_annotations[entry_id] = [annotation_data[5]]
+    def entry_ids_for_wordlistdata_id(self, wordlistdata_id):
+        """
+        Returns all entry IDs for a given wordlistdata ID. A wordlistdata ID is
+        the ID of a wordlist part of a source.
         
-        #ret = {}
-        for entry_id in counterpart_annotations:
-            #string_id = "%s_%s_%s" % (self.wordlistdata_string_ids[ self.entries[entry_id][4] ], '', '')
-            wordlistdata_id = self.wordlistentries[entry_id][_wordlistentry_table_columns['wordlistdata_id']]
-            language_bookname = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_bookname']]
-            language_id = self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['language_id']]
-            if language_id != '':
-                language_code = self.languages[language_id][_language_table_columns['langcode']]
-            else:
-                language_code = "n/a"
-            concept = self.wordlistconcepts[self.wordlistentries[entry_id][_wordlistentry_table_columns['concept_id']]][_wordlistconcept_table_columns['concept']]
-            ret = {}
-            ret['counterpart'] = counterpart_annotations[entry_id]
-            ret['language_code'] = language_code
-            ret['language_bookname'] = language_bookname
-            ret['concept'] = concept
-            ret['bibtex_key'] = self.books [self.wordlistdata[wordlistdata_id][_wordlistdata_table_columns['book_id']]] [_book_table_columns['bibtex_key']]
-            yield ret
+        Parameters
+        ----------
+        
+        wordlistdata_id : str
+                ID of the dictdata, as Unicode string.
+                
+        Returns
+        -------
+        
+        A generator for all entry IDs in that dictionary part.
+        """
+        return(k for k, v in self.entries.items()
+            if v[_wordlistentry_table_columns['wordlistdata_id']] == wordlistdata_id)
+    
+        
+    def concept_for_entry_id(self, entry_id):
+        return self.concepts[
+            self.entries[entry_id][
+                _wordlistentry_table_columns['concept_id']
+                ]][_wordlistconcept_table_columns['concept']]
+        
+        
+    def annotations_for_entry_id_and_value(self, entry_id, value):
+        """
+        Returns alls annotation IDs for a given entry ID and and given
+        annotation value. Annotation values are strings like "head",
+        "translation", etc.
+        
+        Parameters
+        ----------
+        
+        entry_id : str
+                ID of the entry, as string.
+        value : str
+                String of the annotation value to look for, i.e. "head",
+                "translation", etc.
+                
+        Returns
+        -------
+        
+        A generator to all the annotatotion of the entry that match the given
+        annotation value.
+        """
+        return(a for a in self.entry_annotations_cache[entry_id][value])
+    
+    
+    def concepts_with_counterparts_for_wordlistdata_id(self, wordlistdata_id):
+        """Returns all pairs of concepts and counterparts for a given
+        wordlistdata ID.
+        
+        Parameters
+        ----------
+        
+        wordlistdata_id : str
+                ID of the wordlistdata, as string.
+                
+        Returns
+        -------
+        A generator for all (concept, counterpart) tuples in the wordlist part
+        of the source.
+        """
+        return((self.concept_for_entry_id(entry_id), counterpart)
+            for entry_id in self.entry_ids_for_wordlistdata_id(wordlistdata_id)
+                for counterpart in self.annotations_for_entry_id_and_value(entry_id, "counterpart"))
 
