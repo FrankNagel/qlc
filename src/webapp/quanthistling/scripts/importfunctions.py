@@ -237,3 +237,38 @@ def insert_dictdata_to_db(Session, data, book):
     Session.commit()
     return dictdata
 
+def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages):
+    for lang in iter(entry):
+        #entry_db = model.WordlistEntry()
+        entry_db = process_line(entry[lang]["fullentry"], "wordlist")
+        
+        language_bookname = languages[lang]
+        entry_db.wordlistdata = wordlistdata[language_bookname]
+        entry_db.language = wordlistdata[language_bookname].language
+        #entry_db.fullentry = entry[lang]['fullentry']
+        entry_db.pos_on_page = entry[lang]['pos_on_page']
+        entry_db.startpage = page
+        entry_db.endpage = page
+        entry_db.startcolumn = column
+        entry_db.endcolumn = column
+        
+        concept_db =  model.meta.Session.query(model.WordlistConcept).filter_by(concept=concept_id).first()
+        if concept_db == None:
+            concept_db = model.WordlistConcept()
+            concept_db.concept = concept_id
+        
+        entry_db.concept = concept_db
+        
+        #print entry_db.id
+        #print entry_db.fullentry.encode("utf-8")
+        
+        if lang in annotation:
+            inserted = []
+            for a in annotation[lang]:
+                if a['string'] not in inserted:
+                    entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
+                    inserted.append(a['string'])
+                
+        
+        Session.add(entry_db)
+        Session.commit()

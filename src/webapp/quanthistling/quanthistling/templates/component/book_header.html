@@ -71,7 +71,7 @@ if current_page != None:
 %>
 <p>
 <label for="page"><b>Page</b></label>
-    ${h.select('pageurl', current_page,[ [ h.url_for(controller='book', action='view', bibtexkey=c.bibtexkey), '' ] ] + [ [ h.url_for(controller='book', action=action, bibtexkey=c.bibtexkey, pagenr=pagenr), pagenr] for pagenr in range(from_page, to_page) ], id='page_select', onchange='javascript:window.location.href=$(\'page_select\').getValue();')}
+    ${h.select('pageurl', current_page,[ [ h.url_for(controller='book', action='view', bibtexkey=c.bibtexkey), '' ] ] + [ [ h.url_for(controller='book', action=action, bibtexkey=c.bibtexkey, pagenr=pagenr), pagenr] for pagenr in range(from_page, to_page+1) ], id='page_select', onchange='javascript:window.location.href=$(\'page_select\').getValue();')}
 </p>
 </%def>
 

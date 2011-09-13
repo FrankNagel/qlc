@@ -180,42 +180,6 @@ def remove_parts_head_brackets(str):
     h = re.sub(" +", " ", h)
     return h
 
-def insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata):
-    for lang in iter(entry):
-        #entry_db = model.WordlistEntry()
-        entry_db = importfunctions.process_line(entry[lang]["fullentry"], "wordlist")
-        
-        language_bookname = languages[lang]
-        entry_db.wordlistdata = wordlistdata[language_bookname]
-        entry_db.language = wordlistdata[language_bookname].language
-        entry_db.fullentry = entry[lang]['fullentry']
-        entry_db.pos_on_page = entry[lang]['pos_on_page']
-        entry_db.startpage = page
-        entry_db.endpage = page
-        entry_db.startcolumn = 1
-        entry_db.endcolumn = 1
-        
-        concept_db =  model.meta.Session.query(model.WordlistConcept).filter_by(concept=concept_id).first()
-        if concept_db == None:
-            concept_db = model.WordlistConcept()
-            concept_db.concept = concept_id
-        
-        entry_db.concept = concept_db
-        
-        #print entry_db.id
-        #print entry_db.fullentry.encode("utf-8")
-        
-        if lang in annotation:
-            inserted = []
-            for a in annotation[lang]:
-                if a['string'] not in inserted:
-                    entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
-                    inserted.append(a['string'])
-                
-        
-        Session.add(entry_db)
-        Session.commit()
-
 def create_annotation(start, end, value, type, string):
     match_spaces = re.match(" +", string)
     if match_spaces:
@@ -359,6 +323,7 @@ def main(argv):
     wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
     
     page                        = 0
+    column                      = 1
     pos_on_page                 = 1
     current_entry_text          = ''
     line_in_page                = 0
@@ -400,7 +365,7 @@ def main(argv):
                             if a['type'] == "pagelayout":
                                 annotation["giacone"].append(a)
                         pos_on_page = pos_on_page + 1
-                    insert_entry_to_db(entry, annotation, page, concept_id, wordlistdata)
+                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
                 number = re.sub(u'[\[\]]', '', l)
                 page = int(number)
                 line_in_page = 1

@@ -198,7 +198,10 @@ class BookController(BaseController):
                 c.entries = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).all()
                 return render('/derived/book/page.html')
             elif c.book.type  == "wordlist":
-                c.entries = model.meta.Session.query(model.WordlistEntry).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).all()
+                c.entries = model.meta.Session.query(model.WordlistEntry).join(
+                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
+                    ).filter(model.Wordlistdata.book_id==c.book.id).filter(
+                    "wordlist_entry.startpage<=:pagenr and wordlist_entry.endpage>=:pagenr").params(pagenr=int(pagenr)).all()
                 return render('/derived/book/page_wordlist.html')
         else:
             abort(404)
