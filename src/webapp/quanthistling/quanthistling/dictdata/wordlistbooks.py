@@ -510,5 +510,229 @@ list = [
 		'component' : ''
             },
         ]
+    },
+    
+    {
+        'title' : u'A Comparative Word List of the Rai Coast Languages, Madang Province, Papua New Guinea',
+        'author' : u'Z\'graggen J. A.',
+        'year' : 1980,
+        'bibtex_key' : u'zgraggen1980',
+        'pages' : 181,
+        'columns' : 0,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/zgraggen1980_wordlistdata_1_159.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sinsauru',
+                'language_bookname' : u'Sinsauru',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Asas',
+                'language_bookname' : u'Asas',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sausi',
+                'language_bookname' : u'Sausi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kesawai',
+                'language_bookname' : u'Kesawai',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Dumpu',
+                'language_bookname' : u'Dumpu',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Arawum',
+                'language_bookname' : u'Arawum',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kolom',
+                'language_bookname' : u'Kolom',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Siroi',
+                'language_bookname' : u'Suroi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Lemio',
+                'language_bookname' : u'Lemio',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Pulabu',
+                'language_bookname' : u'Pulabu',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Yabong',
+                'language_bookname' : u'Yabong',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Ganglau',
+                'language_bookname' : u'Ganglau',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Saep',
+                'language_bookname' : u'Saep',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sop',
+                'language_bookname' : u'Usino',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sumau',
+                'language_bookname' : u'Sumau',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Urigina',
+                'language_bookname' : u'Urigina',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Danaru',
+                'language_bookname' : u'Danaru',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Uya',
+                'language_bookname' : u'Usu',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Ogea',
+                'language_bookname' : u'Erima',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Duduela',
+                'language_bookname' : u'Duduela',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kwato',
+                'language_bookname' : u'Kwato',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Rerau',
+                'language_bookname' : u'Rerau',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Jilim',
+                'language_bookname' : u'Jilim',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Yangulam',
+                'language_bookname' : u'Yangulam',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Anjam',
+                'language_bookname' : u'Bom',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Male',
+                'language_bookname' : u'Male',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Bongu',
+                'language_bookname' : u'Bongu',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sam',
+                'language_bookname' : u'Songum',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Sogeram'
+            },
+        ]
     }
 ]
