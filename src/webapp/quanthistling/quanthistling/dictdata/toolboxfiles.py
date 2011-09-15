@@ -56,7 +56,14 @@ list = [
                 'annotations': {
                     'lx': 'head',
                     'de': 'translation',
-                }
+                },
+                'charmapping': {
+                    u"É¨": u"i̵",
+                    u"N": u"ŋ"
+                },
+                'applycharmappingon': [
+                    'lx', 'ue', 'a', 'e', 'ac', 'aw'
+                ]
             },
         ],
         'nondictdata' : [

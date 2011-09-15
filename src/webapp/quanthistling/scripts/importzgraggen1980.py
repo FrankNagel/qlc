@@ -25,16 +25,92 @@ languages = {
     'B22': 'Rerau',
     'B23': 'Jilim',
     'B24': 'Yangulam',
-    'C19': 'Erima',
-    'C20': 'Duduela',
-    'C21': 'Kwato',
-    'C22': 'Rerau',
-    'C23': 'Jilim',
-    'C24': 'Yangulam',
     'B25': 'Bom',
     'B26': 'Male',
     'B27': 'Bongu',
     'B28': 'Songum',
+
+    'C 1': 'Kare',
+
+    'C 2': 'Girawa',
+    'C 3': 'Munit',
+    'C 4': 'Bemal',
+    'C 5': 'Sihan',
+    'C 6': 'Gumalu',
+    'C 7': 'Isebe',
+    'C 8': 'Amele',
+    'C 9': 'Bau',
+    'C10': 'Panim',
+
+    'C11': 'Rapting',
+    'C12': 'Wamas',
+    'C13': 'Samosa',
+    'C14': 'Murupi',
+    'C15': 'Saruga',
+    'C16': 'Nake',
+    'C17': 'Mosimo',
+    'C18': 'Garus',
+    'C19': 'Yoidik',
+    'C20': 'Rempi',
+    'C21': 'Bagupi',
+    'C22': 'Silopi',
+    'C23': 'Utu',
+    'C24': 'Mawan',
+    'C25': 'Baimak',
+    'C26': 'Matepi',
+    'C27': 'Gal',
+    'C28': 'Garuh',
+    'C29': 'Kamba',
+
+    'D 1': 'Mugil',
+
+    'E 1': 'Dimir',
+    'E 2': 'Malas',
+    'E 3': 'Bunabun',
+    'E 4': 'Korak',
+    'E 5': 'Waskia',
+
+    'F 1': 'Pay',
+    'F 2': 'Pila',
+    'F 3': 'Saki',
+    'F 4': 'Tani',
+    'F 5': 'Ulingan',
+    'F 6': 'Bepour',
+    'F 7': 'Moere',
+    'F 8': 'Kowaki',
+    'F 9': 'Mawak',
+    'F10': 'Hinihon',
+    'F11': 'Musar',
+    'F12': 'Wanambre',
+    'F13': 'Koguman',
+    'F14': 'Abasakur',
+    'F15': 'Wanuma',
+    'F16': 'Yaben',
+    'F17': 'Yarawata',
+    'F18': 'Bilakura',
+    'F19': 'Parawen',
+    'F20': 'Ukuriguma',
+    'F21': 'Amaimon',
+
+    'G1': 'Sileibi',
+    'G2': 'Katiati',
+    'G3': 'Osum',
+    'G4': 'Pondoma',
+    'G5': 'Ikundun',
+    'G6': 'Moresada',
+    'G7': 'Wadaginam',
+
+    'H1': 'Atemple',
+    'H2': 'Angaua',
+    'H3': 'Emerum',
+    'H4': 'Musak',
+    'H5': 'Paynamar',
+
+    'I1': 'Isabi',
+    'I2': 'Biyom',
+    'I3': 'Tauya',
+    'I4': 'Faita',
+
     'English': 'English'
 }
 
@@ -56,10 +132,10 @@ import importfunctions
 dictdata_path = 'quanthistling/dictdata'
 
 def main(argv):
-    book_bibtex_key = u"zgraggen1980"
+    #book_bibtex_key = u"zgraggen1980"
     
-    if len(argv) < 2:
-        print "call: importhuber1992.py ini_file"
+    if len(argv) < 3:
+        print "call: importhuber1992.py ini_file bibtex_key"
         exit(1)
     
     ini_file = argv[1]
@@ -71,6 +147,7 @@ def main(argv):
     metadata.create_all(bind=Session.bind)
 
     wordlistbook = {}
+    book_bibtex_key = argv[2]
     for b in quanthistling.dictdata.wordlistbooks.list:
         if b['bibtex_key'] == book_bibtex_key:
             wordlistbookdata = b

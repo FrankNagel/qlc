@@ -518,7 +518,7 @@ list = [
         'year' : 1980,
         'bibtex_key' : u'zgraggen1980',
         'pages' : 181,
-        'columns' : 0,
+        'columns' : 2,
         'is_ready' : False,
         'file' : 'comparative_wordlists/zgraggen1980_wordlistdata_1_159.xml',
         'type' : 'wordlist',
@@ -734,5 +734,573 @@ list = [
                 'component' : 'Sogeram'
             },
         ]
+    },
+    
+    {
+        'title' : u'A Comparative Word List of the Northern Adelbert Range Languages, Madang Province, Papua New Guinea',
+        'author' : u'Z\'graggen J. A.',
+        'year' : 1980,
+        'bibtex_key' : u'zgraggen1980b',
+        'pages' : 177,
+        'columns' : 2,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/zgraggen1980b_wordlistdata_1_159.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Bargam',
+                'language_bookname' : u'Mugil',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Dimir',
+                'language_bookname' : u'Dimir',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Malas',
+                'language_bookname' : u'Malas',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Brem',
+                'language_bookname' : u'Bunabun',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Korak',
+                'language_bookname' : u'Korak',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Waskia',
+                'language_bookname' : u'Waskia',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Mala',
+                'language_bookname' : u'Pay',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Maia',
+                'language_bookname' : u'Pila',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Maia',
+                'language_bookname' : u'Saki',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Maiani',
+                'language_bookname' : u'Tani',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Mauwake',
+                'language_bookname' : u'Ulingan',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Bepour',
+                'language_bookname' : u'Bepour',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Moere',
+                'language_bookname' : u'Moere',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kowaki',
+                'language_bookname' : u'Kowaki',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Mawak',
+                'language_bookname' : u'Mawak',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Pamosu',
+                'language_bookname' : u'Hinihon',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Musar',
+                'language_bookname' : u'Musar',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Wanambre',
+                'language_bookname' : u'Wanambre',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kobol',
+                'language_bookname' : u'Koguman',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Pal',
+                'language_bookname' : u'Abasakur',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Usan',
+                'language_bookname' : u'Wanuma',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Yaben',
+                'language_bookname' : u'Yaben',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Yarawata',
+                'language_bookname' : u'Yarawata',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Bilakura',
+                'language_bookname' : u'Bilakura',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Parawen',
+                'language_bookname' : u'Parawen',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Ukuriguma',
+                'language_bookname' : u'Ukuriguma',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Amaimon',
+                'language_bookname' : u'Amaimon',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Sogeram'
+            },
+        ]
+    },
+
+    {
+        'title' : u'A Comparative Word List of the Mabuso Languages, Madang Province, Papua New Guinea',
+        'author' : u'Z\'graggen J. A.',
+        'year' : 1980,
+        'bibtex_key' : u'zgraggen1980c',
+        'pages' : 184,
+        'columns' : 2,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/zgraggen1980c_wordlistdata_1_159.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kare',
+                'language_bookname' : u'Kare',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Girawa',
+                'language_bookname' : u'Girawa',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Munit',
+                'language_bookname' : u'Munit',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Kein',
+                'language_bookname' : u'Bemal',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sihan',
+                'language_bookname' : u'Sihan',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Gumalu',
+                'language_bookname' : u'Gumalu',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Isebe',
+                'language_bookname' : u'Isebe',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Amele',
+                'language_bookname' : u'Amele',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Bau',
+                'language_bookname' : u'Bau',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Panim',
+                'language_bookname' : u'Panim',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Rapting',
+                'language_bookname' : u'Rapting',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Wamas',
+                'language_bookname' : u'Wamas',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Samosa',
+                'language_bookname' : u'Samosa',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Murupi',
+                'language_bookname' : u'Murupi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Saruga',
+                'language_bookname' : u'Saruga',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Nake',
+                'language_bookname' : u'Nake',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Mosimo',
+                'language_bookname' : u'Mosimo',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Garus',
+                'language_bookname' : u'Garus',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Yoidik',
+                'language_bookname' : u'Yoidik',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Rempi',
+                'language_bookname' : u'Rempi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Bagupi',
+                'language_bookname' : u'Bagupi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Silopi',
+                'language_bookname' : u'Silopi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Utu',
+                'language_bookname' : u'Utu',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Mawan',
+                'language_bookname' : u'Mawan',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Baimak',
+                'language_bookname' : u'Baimak',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Matepi',
+                'language_bookname' : u'Matepi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Gal',
+                'language_bookname' : u'Gal',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Nobonob',
+                'language_bookname' : u'Garuh',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Wagi',
+                'language_bookname' : u'Kamba',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Sogeram'
+            },
+        ]
+    },
+
+    {
+        'title' : u'A Comparative Word List of the Southern Adelbert Range Languages, Madang Province, Papua New Guinea',
+        'author' : u'Z\'graggen J. A.',
+        'year' : 1980,
+        'bibtex_key' : u'zgraggen1980d',
+        'pages' : 99,
+        'columns' : 2,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/zgraggen1980d_wordlistdata_1_159.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Sileibi',
+                'language_bookname' : u'Sileibi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Mum',
+                'language_bookname' : u'Katiati',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Utarmbung',
+                'language_bookname' : u'Osum',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Anam',
+                'language_bookname' : u'Pondoma',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Anamgura',
+                'language_bookname' : u'Ikundun',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Moresada',
+                'language_bookname' : u'Moresada',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Wadaginam',
+                'language_bookname' : u'Wadaginam',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Atemble',
+                'language_bookname' : u'Atemple',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Nend',
+                'language_bookname' : u'Angaua',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Apali',
+                'language_bookname' : u'Emerum',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Musak',
+                'language_bookname' : u'Musak',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Paynamar',
+                'language_bookname' : u'Paynamar',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Isabi',
+                'language_bookname' : u'Isabi',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Biyom',
+                'language_bookname' : u'Biyom',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Tauya',
+                'language_bookname' : u'Tauya',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'Faita',
+                'language_bookname' : u'Faita',
+                'component' : 'Sogeram'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 159,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Sogeram'
+            },
+        ]
     }
+
 ]

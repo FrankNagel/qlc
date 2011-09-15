@@ -77,6 +77,8 @@ def main(argv):
         book = importfunctions.insert_book_to_db(Session, tb)
             
         for data in tb['dictdata']:
+            if data['file'] != "sogeram/apaldic.db":
+                continue
             dictdata = importfunctions.insert_dictdata_to_db(Session, data, book)
 
             print("Processing file {0}.".format(data['file']))
@@ -97,6 +99,14 @@ def main(argv):
                     if line.strip():
                         entry_string += line
                     else:
+                        if "charmapping" in data:
+                            for a in data["applycharmappingon"]:
+                                match_a = re.search("\\\\{0}[^\n]*\n".format(a), entry_string)
+                                if match_a:
+                                    string = match_a.group(0)
+                                    for char_original in data["charmapping"]:
+                                        string = re.sub(char_original, data["charmapping"][char_original], string)
+                                        entry_string = entry_string[:match_a.start(0):] + string + entry_string[match_a.end(0)-1:]
                         entry = model.Entry()
                         annotations = []
                         annotations_subentry = []

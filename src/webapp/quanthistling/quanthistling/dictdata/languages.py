@@ -827,4 +827,459 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=snx'
     },
 
+    {
+        'name' : u'Bargam',
+        'langcode': u'mlp',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mlp'
+    },
+
+    {
+        'name' : u'Dimir',
+        'langcode': u'dmc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=dmc'
+    },
+
+    {
+        'name' : u'Malas',
+        'langcode': u'mkr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mkr'
+    },
+
+    {
+        'name' : u'Brem',
+        'langcode': u'buq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=buq'
+    },
+
+    {
+        'name' : u'Korak',
+        'langcode': u'koz',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=koz'
+    },
+
+    {
+        'name' : u'Waskia',
+        'langcode': u'wsk',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=wsk'
+    },
+
+    {
+        'name' : u'Mala',
+        'langcode': u'ped',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ped'
+    },
+
+    {
+        'name' : u'Maia',
+        'langcode': u'sks',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=sks'
+    },
+
+    {
+        'name' : u'Maiani',
+        'langcode': u'tnh',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=tnh'
+    },
+
+    {
+        'name' : u'Mauwake',
+        'langcode': u'mhl',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mhl'
+    },
+
+    {
+        'name' : u'Bepour',
+        'langcode': u'bie',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bie'
+    },
+
+    {
+        'name' : u'Moere',
+        'langcode': u'mvq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mvq'
+    },
+
+    {
+        'name' : u'Kowaki',
+        'langcode': u'xow',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=xow'
+    },
+
+    {
+        'name' : u'Mawak',
+        'langcode': u'mjj',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mjj'
+    },
+
+    {
+        'name' : u'Pamosu',
+        'langcode': u'hih',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=hih'
+    },
+
+    {
+        'name' : u'Musar',
+        'langcode': u'mmi',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mmi'
+    },
+
+    {
+        'name' : u'Wanambre',
+        'langcode': u'wnb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=wnb'
+    },
+
+    {
+        'name' : u'Kobol',
+        'langcode': u'kgu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kgu'
+    },
+    
+    {
+        'name' : u'Pal',
+        'langcode': u'abw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=abw'
+    },
+
+    {
+        'name' : u'Usan',
+        'langcode': u'wnu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=wnu'
+    },
+
+    {
+        'name' : u'Yaben',
+        'langcode': u'ybm',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ybm'
+    },
+
+    {
+        'name' : u'Yarawata',
+        'langcode': u'yrw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=yrw'
+    },
+
+    {
+        'name' : u'Bilakura',
+        'langcode': u'bql',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bql'
+    },
+    
+    {
+        'name' : u'Parawen',
+        'langcode': u'prw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=prw'
+    },
+
+    {
+        'name' : u'Ukuriguma',
+        'langcode': u'ukg',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ukg'
+    },
+    
+    {
+        'name' : u'Amaimon',
+        'langcode': u'ali',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ali'
+    },
+
+    {
+        'name' : u'Kare',
+        'langcode': u'kmf',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kmf'
+    },
+
+    {
+        'name' : u'Girawa',
+        'langcode': u'bbr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bbr'
+    },
+    
+    {
+        'name' : u'Munit',
+        'langcode': u'mtc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mtc'
+    },
+    
+    {
+        'name' : u'Kein',
+        'langcode': u'bmh',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bmh'
+    },
+    
+    {
+        'name' : u'Sihan',
+        'langcode': u'snr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=snr'
+    },
+    
+    {
+        'name' : u'Gumalu',
+        'langcode': u'gmu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gmu'
+    },
+    
+    {
+        'name' : u'Isebe',
+        'langcode': u'igo',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=igo'
+    },
+    
+    {
+        'name' : u'Amele',
+        'langcode': u'aey',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=aey'
+    },
+    
+    {
+        'name' : u'Bau',
+        'langcode': u'bbd',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bbd'
+    },
+    
+    {
+        'name' : u'Panim',
+        'langcode': u'pnr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pnr'
+    },
+
+    {
+        'name' : u'Rapting',
+        'langcode': u'rpt',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=rpt'
+    },
+
+    {
+        'name' : u'Wamas',
+        'langcode': u'wmc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=wmc'
+    },
+
+    {
+        'name' : u'Samosa',
+        'langcode': u'swm',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=swm'
+    },
+    
+    {
+        'name' : u'Murupi',
+        'langcode': u'mqw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mqw'
+    },
+    
+    {
+        'name' : u'Saruga',
+        'langcode': u'sra',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=sra'
+    },
+    
+    {
+        'name' : u'Nake',
+        'langcode': u'nbk',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=nbk'
+    },
+    
+    {
+        'name' : u'Mosimo',
+        'langcode': u'mqv',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mqv'
+    },
+    
+    {
+        'name' : u'Garus',
+        'langcode': u'gyb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gyb'
+    },
+    
+    {
+        'name' : u'Yoidik',
+        'langcode': u'ydk',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ydk'
+    },
+    
+    {
+        'name' : u'Rempi',
+        'langcode': u'rmp',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=rmp'
+    },
+
+    {
+        'name' : u'Bagupi',
+        'langcode': u'bpi',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bpi'
+    },
+    
+    {
+        'name' : u'Silopi',
+        'langcode': u'xsp',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=xsp'
+    },
+    
+    {
+        'name' : u'Utu',
+        'langcode': u'utu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=utu'
+    },
+    
+    {
+        'name' : u'Mawan',
+        'langcode': u'mcz',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mcz'
+    },
+
+    {
+        'name' : u'Baiwak',
+        'langcode': u'bmx',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bmx'
+    },
+    
+    {
+        'name' : u'Matepi',
+        'langcode': u'mqe',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mqe'
+    },
+
+    {
+        'name' : u'Gal',
+        'langcode': u'gap',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gap'
+    },
+    
+    {
+        'name' : u'Nobonob',
+        'langcode': u'gaw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gaw'
+    },
+
+    {
+        'name' : u'Wagi',
+        'langcode': u'fad',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=fad'
+    },
+
+    {
+        'name' : u'Utarmbung',
+        'langcode': u'omo',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=omo'
+    },
+
+    {
+        'name' : u'Anam',
+        'langcode': u'pda',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pda'
+    },
+
+    {
+        'name' : u'Anamgura',
+        'langcode': u'imi',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=imi'
+    },
+
+    {
+        'name' : u'Moresada',
+        'langcode': u'msx',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=msx'
+    },
+
+    {
+        'name' : u'Wadaginam',
+        'langcode': u'wdg',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=wdg'
+    },
+
+    {
+        'name' : u'Atemble',
+        'langcode': u'ate',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ate'
+    },
+    
+    {
+        'name' : u'Isabi',
+        'langcode': u'isa',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=isa'
+    },
+
+    {
+        'name' : u'Biyom',
+        'langcode': u'bpm',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bpm'
+    },
+
+    {
+        'name' : u'Tauya',
+        'langcode': u'tya',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=tya'
+    },
+
+    {
+        'name' : u'Faita',
+        'langcode': u'faj',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=faj'
+    },
+
 ]
