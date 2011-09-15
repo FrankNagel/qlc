@@ -62,7 +62,7 @@ list = [
                     u"N": u"ŋ"
                 },
                 'applycharmappingon': [
-                    'lx', 'ue', 'a', 'e', 'ac', 'aw'
+                    'lx', 'ue', 'a', 'e', 'ac', 'aw', 'sy', 'le'
                 ]
             },
         ],
@@ -188,7 +188,18 @@ list = [
                     'ge': 'translation',
                     'xl': 'subentry-head',
                     'gx': 'subentry-translation'
-                }
+                },
+                'charmapping': {
+                    u"B": u"β",
+                    u"N": u"ŋ",
+                    u"Ä": u"ɣ",
+                    u"Ô": u"i̵r",
+                    u"¸": u"ɸ",
+                    u"n\)": u"ɲ"
+                },
+                'applycharmappingon': [
+                    'lx', 'xl', 'cf'
+                ]
             },
         ],
         'nondictdata' : [

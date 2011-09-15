@@ -1183,119 +1183,119 @@ list = [
         'wordlistdata' : [
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Sileibi',
                 'language_bookname' : u'Sileibi',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Mum',
                 'language_bookname' : u'Katiati',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Utarmbung',
                 'language_bookname' : u'Osum',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Anam',
                 'language_bookname' : u'Pondoma',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Anamgura',
                 'language_bookname' : u'Ikundun',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Moresada',
                 'language_bookname' : u'Moresada',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Wadaginam',
                 'language_bookname' : u'Wadaginam',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Atemble',
                 'language_bookname' : u'Atemple',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Nend',
                 'language_bookname' : u'Angaua',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Apali',
                 'language_bookname' : u'Emerum',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Musak',
                 'language_bookname' : u'Musak',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Paynamar',
                 'language_bookname' : u'Paynamar',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Isabi',
                 'language_bookname' : u'Isabi',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Biyom',
                 'language_bookname' : u'Biyom',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Tauya',
                 'language_bookname' : u'Tauya',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'Faita',
                 'language_bookname' : u'Faita',
                 'component' : 'Sogeram'
             },
             {
                 'startpage' : 1,
-                'endpage' : 159,
+                'endpage' : 80,
                 'language_name' : u'English',
                 'language_bookname' : u'English',
                 'component' : 'Sogeram'
