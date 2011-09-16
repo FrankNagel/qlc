@@ -195,7 +195,8 @@ list = [
                     u"Ä": u"ɣ",
                     u"Ô": u"i̵r",
                     u"¸": u"ɸ",
-                    u"n\)": u"ɲ"
+                    u"n\)": u"ɲ",
+                    u"&": u"i̵"
                 },
                 'applycharmappingon': [
                     'lx', 'xl', 'cf'

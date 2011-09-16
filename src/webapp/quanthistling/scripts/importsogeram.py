@@ -39,15 +39,15 @@ def clean_and_split_translations(fullentry, annotations):
                 if not mybreak:
                     end = match_sep.start(0)
 
-                    #match_prefix_garbage = re.search(r'^\s*(?:\([^)]*\)|"[^"]*")\s*', substr[start:end])
-                    #while match_prefix_garbage:
-                    #    start = start + match_prefix_garbage.end(0)
-                    #    match_prefix_garbage = re.search(r'^\s*(?:\([^)]*\)|"[^"]*")\s*', substr[start:end])
+                    match_prefix_garbage = re.search(r'^\s*(?:\([^)]*\)|"[^"]*")\s*', substr[start:end])
+                    while match_prefix_garbage:
+                        start = start + match_prefix_garbage.end(0)
+                        match_prefix_garbage = re.search(r'^\s*(?:\([^)]*\)|"[^"]*")\s*', substr[start:end])
     
-                    #match_suffix_garbage = re.search(r'\s*(?:\([^)]*\)|"[^"]*")\s*$', substr[start:end])
-                    #while match_suffix_garbage:
-                    #    end = start + match_suffix_garbage.start(0)
-                    #    match_suffix_garbage = re.search(r'\s*(?:\([^)]*\)|"[^"]*")\s*$', substr[start:end])
+                    match_suffix_garbage = re.search(r'\s*(?:\([^)]*\)|"[^"]*")\s*$', substr[start:end])
+                    while match_suffix_garbage:
+                        end = start + match_suffix_garbage.start(0)
+                        match_suffix_garbage = re.search(r'\s*(?:\([^)]*\)|"[^"]*")\s*$', substr[start:end])
 
                     ret.append([a_start + start, a_start + end, a[2], a[3]])
                     start = match_sep.end(0)
@@ -104,7 +104,7 @@ def main(argv):
                                     string = match_a.group(0)
                                     for char_original in data["charmapping"]:
                                         string = re.sub(char_original, data["charmapping"][char_original], string)
-                                        entry_string = entry_string[:match_a.start(0):] + string + entry_string[match_a.end(0)-1:]
+                                    entry_string = entry_string[:match_a.start(0)] + string + entry_string[match_a.end(0):]
                         entry = model.Entry()
                         annotations = []
                         annotations_subentry = []
