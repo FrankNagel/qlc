@@ -199,7 +199,7 @@ list = [
                     u"&": u"i̵"
                 },
                 'applycharmappingon': [
-                    'lx', 'xl', 'cf'
+                    'lx', 'xl', 'cf', 'ap'
                 ]
             },
         ],
