@@ -93,4 +93,4 @@ class Matrix(object):
 
 if __name__=="__main__":
     input_hash = {"aaa":{"a":1,"b":2}, "bbb":{"c":1,"d":2}}
-    m = Matrix(input_hash)
+    Matrix(input_hash)

@@ -42,7 +42,9 @@ class OrthographyProfile(object):
         # 2 columns to the orthography profiles
 
         file = codecs.open(orthography_profile, "r", "utf-8")
+        line_count = 0
         for line in file:
+            line_count += 1
             line = line.strip()
             # skip any comments
             if line.startswith("#") or line == "":
@@ -55,7 +57,7 @@ class OrthographyProfile(object):
             if not self.graphemeToPhoneme.has_key(grapheme):
                 self.graphemeToPhoneme[grapheme] = phoneme
             else:
-                raise Exception("You have duplicates in your orthography profile!")
+                raise Exception("You have a duplicate in your orthography profile at:"+str(line_count))
         
 
     def parse(self, string):
