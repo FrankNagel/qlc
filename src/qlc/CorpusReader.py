@@ -2,9 +2,17 @@
 """
 Corpus Reader for data of the project Quantitative Language Comparison.
 """
+#-----------------------------------------------------------------------------
+# Imports
+#-----------------------------------------------------------------------------
 
 import os.path
 import codecs, re, collections
+
+
+#-----------------------------------------------------------------------------
+# Globals
+#-----------------------------------------------------------------------------
 
 _component_table_columns = {
     'name': 0,
@@ -100,6 +108,10 @@ _wordlistannotation_table_columns ={
     'string': 5
 }
 
+#-----------------------------------------------------------------------------
+# Classes
+#-----------------------------------------------------------------------------
+
 class CorpusReaderDict(object):
     """
     The corpus reader class for dictionary data. API was designed to allow
@@ -107,6 +119,8 @@ class CorpusReaderDict(object):
     in Python data structures. Think of it as DB-less queries that return
     Key-Value-Stores.
     """
+    
+    __slots__ = [ 'books', 'dictdata' ]
     
     def __init__(self, datapath):
         """
@@ -686,6 +700,12 @@ class CorpusReaderWordlist(object):
         return(a for a in self.entry_annotations_cache[entry_id][value])
     
     
+    def counterparts_for_wordlistdata_id(self, wordlistdata_id):
+        return(counterpart
+            for entry_id in self.entry_ids_for_wordlistdata_id(wordlistdata_id)
+                for counterpart in self.annotations_for_entry_id_and_value(entry_id, "counterpart"))
+        
+
     def concepts_with_counterparts_for_wordlistdata_id(self, wordlistdata_id):
         """Returns all pairs of concepts and counterparts for a given
         wordlistdata ID.

@@ -8,6 +8,8 @@ import codecs
 import sys
 import unicodedata
 
+class DuplicateExceptation(Exception): pass
+
 class OrthographyProfile(object):
     """
     The orthography profile class for reading in a dictionary's 
@@ -54,13 +56,17 @@ class OrthographyProfile(object):
             grapheme = tokens[0].strip()
             phoneme = tokens[1].strip()
             
-            if not self.graphemeToPhoneme.has_key(grapheme):
+            if not grapheme in self.graphemeToPhoneme:
                 self.graphemeToPhoneme[grapheme] = phoneme
             else:
-                raise Exception("You have a duplicate in your orthography profile at:"+str(line_count))
+                raise DuplicateException("You have a duplicate in your orthography profile at: {0}".format(line_count))
         
 
-    def parse(self, string):
+    def parse_string_to_graphemes(self, string):
+        return tuple(self.parse_string_to_graphemes_string(string).split(" "))
+        
+
+    def parse_string_to_graphemes_string(self, string):
         """
         Returns the parsed and formated string given the graphemes encoded in the 
         orthography profile.
@@ -76,7 +82,8 @@ class OrthographyProfile(object):
         self.result += printMultigraphs(self, self.root, self.string, self.result+"# ")
         return self.result
 
-    def parseToIpa(self, string):
+
+    def parse_string_to_ipa_string(self, string):
         """
         Returns the parsed and formated string given the graphemes encoded in the 
         orthography profile and the IPA row. Uses a global scrope lookup hash for
@@ -191,16 +198,16 @@ def printTree(root, indent):
         if child.isSentinel():
             char += "*"
         children += char + " "
-    print indent + children
+    print(indent + children)
     for char, child in root.getChildren().iteritems():
         printTree(child, indent + "  ")
 
 # ---------- Main ------
 
 if __name__=="__main__":
-    o = OrthographyProfile("../../data/orthography_profiles/Thiesen1998.txt")
+    o = OrthographyProfile("../../data/orthography_profiles/thiesen1998.txt")
     test_words = ["aa", "aabuu", "uuabaa auubaa"]
     for word in test_words:
-        print "parsed grapheme string: ", o.parse(word)
-        print "parsed phoneme string: ", o.parseToIpa(word)
+        print("parsed grapheme string: ", o.parse_string_to_graphemes_string(word))
+        print("parsed phoneme string: ", o.parse_string_to_ipa_string(word))
         

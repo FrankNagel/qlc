@@ -1,93 +1,34 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import codecs
-import sys
+import collections
+import numpy
+
+def ngrams_from_graphemes(graphemes, n):
+    list_of_grams = []
+    for i in range(0, len(graphemes)-n+1):
+        list_of_grams.append(graphemes[i:i+n])
+    return list_of_grams
 
 
-class Ngram(object):
-    """
-    Ngrams class
+def words_ngrams_matrix_for_graphemes_list(graphemes_list, n):
+    ngrams_counts = list()
+    ngrams_set = set()
+    row_names = list()
+    for i, graphemes in enumerate(graphemes_list):
 
-    """
-    def __init__(self):        
-        self.count = 0
-        self.hash = {}
+        ngrams_counts.append(collections.defaultdict(int))
+        row_names.append(graphemes)
+        ngrams = ngrams_from_graphemes(graphemes, n)
 
-    def getListNgramsFromWord(self, word, n):
-        list_of_grams = []
-        for i in range(0, len(word)-n+1):
-            list_of_grams.append(word[i:i+n])
-        return list_of_grams
+        for ngram in ngrams:
+            ngrams_counts[i][ngram] += 1
+            ngrams_set.add(ngram)
 
-    def getNgramsFromList(self, list, n):
-        hash = {}
-        for i in range(0, len(list)-n+1):
-            grams = list[i:i+n]
-            gram = ""
-            for i in grams:
-                gram += i
-            if not hash.has_key(gram):
-                hash[gram] = 1
-            else:
-                hash[gram] += 1
-            #print gram
-        return hash
-
-
-if __name__=="__main__":
-    ngram = Ngram()
-    x = ngram.getListNgramsFromWord("abcdef", 3)
-    list = ["aa", "bb", "cc", "dd"]
-    print list
-    ngram.getHashNgramsFromList(list, 2)
-
-    """
-    file = codecs.open("counterparts_huber1992.txt", "r", "utf-8")
-
-    # COUNTERPARTCONCEPTLANGUAGE_BOOKNAMELANGUAGE_CODEFAMILYBIBTEX_KEY
-    header = file.readline()
-    # print header.encode("utf-8")
-
-    # kekinroPUNZAR_PIERCEtunebo centraltufCHIBCHAhuber1992
-    hash = {}
-    list_of_words = []
-
-    line = file.readline()
-    line = line.strip()
-    columns = line.split("\t")
-    counterpart = columns[0]
-    language_code = columns[3]
-    # print line.encode("utf-8")
-
-    code = language_code
-    list_of_words.append(counterpart)
-
-    line_num = 2
+    ngrams_list = sorted(list(ngrams_set))
+    matrix = numpy.zeros( ( len(row_names), len(ngrams_list) ) )
     
-    while line != "":
-        # print len(line)
-        line_num += 1
-        line = file.readline()
-        line = line.strip()
-        columns =line.split("\t")
-        # print len(columns), columns
+    for i in range(len(row_names)):
+        for j, ngram in enumerate(ngrams_list):
+            matrix[i][j] = ngrams_counts[i][ngram]
 
-        if len(columns) > 1:
-            counterpart = columns[0]
-            language_code = columns[3]
-
-        if language_code != code:
-            if not hash.has_key(language_code):
-                hash[language_code] = list_of_words
-            code = language_code
-            list_of_words = []
-            continue
-        list_of_words.append(counterpart)
-
-    if not hash.has_key(code):
-        hash[code] = list_of_words
-
-    for k, v in hash.iteritems():
-        print k, v
-        """
+    return (row_names, ngrams_list, matrix)

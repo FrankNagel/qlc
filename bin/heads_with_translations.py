@@ -1,5 +1,26 @@
-# -*- coding: utf-8 -*-
+# encoding: utf-8
 #!/usr/bin/env python3
+
+"""
+Documentation.
+
+Authors:
+
+* Peter  Bouda
+"""
+
+#-----------------------------------------------------------------------------
+#  Copyright (C) 2011
+#  The Quantitative Language Comparison (scikits.qlc) Team
+#
+#  Distributed under the terms of the BSD License.
+#
+#  The full license is in the file COPYING.txt, distributed with this software.
+#-----------------------------------------------------------------------------
+
+#-----------------------------------------------------------------------------
+# Imports
+#-----------------------------------------------------------------------------
 
 import sys, os, glob
 import codecs
