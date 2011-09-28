@@ -9,7 +9,6 @@ def parseGraphemes(string):
     grapheme_pattern = regex.compile("\X", regex.UNICODE)
     return grapheme_pattern.findall(string)
 
-
 if __name__=="__main__":
-    print("testing grapheme matcher")
-    print(parseGraphemes("aaaa"))
+    print "testing grapheme matcher - should return a list: ['a', 'a', 'a', 'a']"
+    print "test:", parseGraphemes("aaaa")
