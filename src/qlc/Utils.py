@@ -22,9 +22,9 @@ if __name__=="__main__":
     print
     print "test hash set"
     hash = {"a":1, "b":0}
-    storeHash(hash, a)
-    storeHash(hash, b)
-    storeHash(hash, c)
+    storeHash(hash, "a")
+    storeHash(hash, "b")
+    storeHash(hash, "c")
     print hash
     
 
