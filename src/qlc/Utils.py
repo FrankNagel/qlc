@@ -17,14 +17,16 @@ def storeHash(hash, k):
     return hash
 
 if __name__=="__main__":
-    print "testing grapheme matcher - should return a list: ['a', 'a', 'a', 'a']"
+    print "**testing parseGraphemes function"
+    print "should return a list: ['a', 'a', 'a', 'a']"
     print "test:", parseGraphemes("aaaa")
     print
-    print "test hash set"
+    print "**testing storeHash function"
+    print "should return a hash: {'a': 2, 'c': 1, 'b': 1}"
     hash = {"a":1, "b":0}
     storeHash(hash, "a")
     storeHash(hash, "b")
     storeHash(hash, "c")
     print hash
-    
+    print
 
