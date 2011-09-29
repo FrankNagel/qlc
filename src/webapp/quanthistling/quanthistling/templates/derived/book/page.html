@@ -1,6 +1,7 @@
 <%inherit file="/base/index.html"/>
 <%namespace name="component" file="/component/entry.html" />
 <%namespace name="bookheader" file="/component/book_header.html" />
+<%page cached="True" cache_key="${url.current(qualified=True)}"/>
 
 ${bookheader.standardheader()}
 
