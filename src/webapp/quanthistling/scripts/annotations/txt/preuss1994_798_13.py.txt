@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "aforeide (aforeiya) - Vintr, ser profundo (canasto, hueco, olla, río, etc.); / 5, 20 / 7, 30 /",
+    "startpage" : 798,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aforeide",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aforeiya",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vintr",
+                "start" : 22,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser profundo (canasto, hueco, olla, río, etc.)",
+                "start" : 29,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aforeide",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aforeide",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aforeiya",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 80,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 88,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})

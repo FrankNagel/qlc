@@ -1,47 +1,54 @@
 
 manual_entries.append({
-    "fullentry" : "joxóóvuco – shirui (pez) joxóóvu (pl.)",
-    "startpage" : 113,
-    "pos_on_page" : 13,
+    "fullentry" : "monhx__ / monh__ / monhxo – ustedes (m.d.)",
+    "startpage" : 121,
+    "pos_on_page" : 10,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "joxóóvuco",
+                "string" : "monhx",
                 "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "shirui (pez)",
-                "start" : 14,
-                "end" : 26
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "joxóóvu",
-                "start" : 27,
-                "end" : 36
+                "string" : "monh",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monhxo",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ustedes",
+                "start" : 28,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "pl.",
-                "start" : 37,
+                "string" : "m.d.",
+                "start" : 36,
                 "end" : 42
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "shirui",
-                "start" : 14,
-                "end" : 20
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
                 "string" : "",
                 "start" : 26,
                 "end" : 26
@@ -50,15 +57,8 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 27,
-                "end" : 27
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 27,
-                "end" : 27
+                "start" : 26,
+                "end" : 26
             },
     ]
 })

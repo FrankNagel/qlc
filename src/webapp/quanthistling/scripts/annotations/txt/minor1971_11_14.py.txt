@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "corácaì̵ s. Moena, (árbol).",
+    "startpage" : 11,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "corácaì̵",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "moena (árbol)",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Moena",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})

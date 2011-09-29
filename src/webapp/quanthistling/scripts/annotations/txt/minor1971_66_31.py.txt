@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "mentira. Sinón.: 'jabofue'.",
+    "startpage" : 66,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mentira",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jabofue",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

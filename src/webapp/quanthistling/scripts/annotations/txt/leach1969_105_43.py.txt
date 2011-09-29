@@ -1,57 +1,57 @@
 
 manual_entries.append({
-    "fullentry" : "¡xoxo dyurón! – ¡enséñanos! (m.d.)",
-    "startpage" : 161,
-    "pos_on_page" : 24,
+    "fullentry" : "jamítsohíívi – azulejo / suisui (pájaro)",
+    "startpage" : 105,
+    "pos_on_page" : 43,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "xoxo dyurón",
+                "string" : "jamítsohíívi",
                 "start" : 0,
-                "end" : 15
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "enséñanos",
-                "start" : 17,
-                "end" : 30
+                "string" : "azulejo",
+                "start" : 18,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "m.d.",
-                "start" : 31,
-                "end" : 37
+                "value" : "translation",
+                "string" : "suisui (pájaro)",
+                "start" : 28,
+                "end" : 44
             },
             {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "suisui",
+                "start" : 28,
+                "end" : 34
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 16,
-                "end" : 16
+                "start" : 27,
+                "end" : 27
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 17,
-                "end" : 17
+                "start" : 28,
+                "end" : 28
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 17,
-                "end" : 17
+                "start" : 28,
+                "end" : 28
             },
     ]
 })

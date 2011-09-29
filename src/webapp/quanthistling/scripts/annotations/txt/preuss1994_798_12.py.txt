@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "afeko (afekuei̵) - Nc, rendija, ranura en un tejido (canasto, cernidor, pared de la maloca); / 5, 9 / 10, 10 / 12, 45 /",
+    "startpage" : 798,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "afeko",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "afekuei̵",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Nc",
+                "start" : 19,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rendija",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ranura en un tejido (canasto, cernidor, pared de la maloca)",
+                "start" : 32,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "afeko",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "afeko",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "afekuei̵",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 95,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 102,
+                "end" : 104
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "12",
+                "start" : 111,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+    ]
+})

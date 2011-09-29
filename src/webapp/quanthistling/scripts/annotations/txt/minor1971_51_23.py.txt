@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵nó adv. ¿Dónde (al frente)?",
+    "startpage" : 51,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵nó",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde al frente",
+                "start" : 12,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+    ]
+})

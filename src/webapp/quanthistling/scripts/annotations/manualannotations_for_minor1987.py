@@ -714,6 +714,77 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "i̵na jabe (í̵-na já-be) interj. ¡Espere! ¡Un momentico!",
+    "startpage" : 118,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵na jabe",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 26,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "espere",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un momentico",
+                "start" : 43,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "i̵na jabe",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "interj.",
+                "start" : 26,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "caiñí̵chiru (cai-ñí̵-chi-ru) s. La rótula de la rodilla.",
     "startpage" : 12,
     "pos_on_page" : 27,
@@ -1499,6 +1570,162 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ní̵fuena (ní̵-fue-na) adj. ¿Cuál cuento?, ¿qué asunto¿",
+    "startpage" : 90,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ní̵fuena",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 24,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuál cuento",
+                "start" : 29,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué asunto",
+                "start" : 45,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ní̵fuena",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 24,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "neca (né-ca) adv. ¿A ver? o ¿dónde? Sinón: nee.",
+    "startpage" : 86,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "neca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a ver",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dónde",
+                "start" : 29,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "nee",
+                "start" : 46,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "neca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "úigɨdacaɨ (úi-gɨ-da-caɨ) s. El tallo blanco de ‘úigɨe’.",
     "startpage" : 112,
     "pos_on_page" : 34,
@@ -2050,6 +2277,91 @@ manual_entries.append({
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "uái iri (u-ái í-ri) v., imper. ¡Calma! o ¡quieto!",
+    "startpage" : 110,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uái iri",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v., imper.",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imper.",
+                "start" : 27,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calma",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quieto",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uái iri",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v., imper.",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+    ]
+})
 
 manual_entries.append({
     "fullentry" : "jí̵icaide (jí̵-i-cai-de) v. Estar eucorvado o inclinado (una persona).",
@@ -3591,6 +3903,112 @@ manual_entries.append({
                 "string" : "",
                 "start" : 49,
                 "end" : 49
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ebe (é-be) inter. ¡Oh! Interjección exclamatoria de sorpresa, pena, alegría, u olvido.",
+    "startpage" : 27,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ebe",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inter.",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de sorpresa",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de pena",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de alegría",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de olvido",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ebe",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inter.",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
             },
     ]
 })

@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "adode - incitar al coito, excitar; / 84 /",
+    "startpage" : 798,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "adode",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "incitar al coito",
+                "start" : 8,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "excitar",
+                "start" : 26,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "adode",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adode",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "84",
+                "start" : 37,
+                "end" : 39
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "ji̵níde v. No querer conocer el bien (referido al corazón)",
+    "startpage" : 38,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ji̵níde",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no querer conocer el bien (referido al corazón)",
+                "start" : 12,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+    ]
+})

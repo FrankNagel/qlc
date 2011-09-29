@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "bahfi__ – a este lado de",
+    "startpage" : 75,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bahfi",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a este lado de",
+                "start" : 10,
+                "end" : 24
+            },
+    ]
+})

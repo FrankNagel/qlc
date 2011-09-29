@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "i̵naì̵ jabe interj. ¡Espere! ¡Un momentito!",
+    "startpage" : 73,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵naì̵ jabe",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "espere",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un momentito",
+                "start" : 30,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+    ]
+})

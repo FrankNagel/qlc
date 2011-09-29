@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "llillóde v. Chupar y comer (por ejemplo, una naranja); besar.",
+    "startpage" : 42,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "llillóde",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chupar y comer (por ejemplo, una naranja)",
+                "start" : 13,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "besar",
+                "start" : 56,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+    ]
+})

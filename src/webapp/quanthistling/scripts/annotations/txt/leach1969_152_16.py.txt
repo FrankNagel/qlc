@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "urahfomahtsí – maleante, los que hacen daño (gente, animales, cosas); los que no saludan; pecadores",
+    "startpage" : 152,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "urahfomahtsí",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "maleante",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los que hacen daño (gente, animales, cosas)",
+                "start" : 26,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los que no saludan",
+                "start" : 72,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pecadores",
+                "start" : 92,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})

@@ -1,64 +1,64 @@
 
 manual_entries.append({
-    "fullentry" : "joxóóvuco – shirui (pez) joxóóvu (pl.)",
-    "startpage" : 113,
-    "pos_on_page" : 13,
+    "fullentry" : "xaca / xac__ – nosotras; nos (f.d.)",
+    "startpage" : 156,
+    "pos_on_page" : 24,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "joxóóvuco",
+                "string" : "xaca",
                 "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xac",
+                "start" : 7,
                 "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "shirui (pez)",
-                "start" : 14,
-                "end" : 26
+                "string" : "nosotras",
+                "start" : 15,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "joxóóvu",
-                "start" : 27,
-                "end" : 36
+                "value" : "translation",
+                "string" : "nos",
+                "start" : 25,
+                "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "pl.",
-                "start" : 37,
-                "end" : 42
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "shirui",
-                "start" : 14,
-                "end" : 20
+                "string" : "f.d.",
+                "start" : 29,
+                "end" : 35
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 26,
-                "end" : 26
+                "start" : 24,
+                "end" : 24
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 27,
-                "end" : 27
+                "start" : 25,
+                "end" : 25
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 27,
-                "end" : 27
+                "start" : 25,
+                "end" : 25
             },
     ]
 })

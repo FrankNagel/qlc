@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "apéta pron. El (niño), ella (niña).",
+    "startpage" : 5,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apéta",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el (niño)",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ella (niña)",
+                "start" : 25,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+    ]
+})

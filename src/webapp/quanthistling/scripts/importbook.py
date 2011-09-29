@@ -88,7 +88,7 @@ def main(argv):
     book = importfunctions.insert_book_to_db(Session, bookdata)
 
     for data in bookdata['nondictdata']:
-        nondictdata = importfunctions.insert_nondictdata_to_db(Session, data, book)
+        nondictdata = importfunctions.insert_nondictdata_to_db(Session, data, book, os.path.join(dictdata_path, data['file']))
     
     for data in bookdata['dictdata']:
         

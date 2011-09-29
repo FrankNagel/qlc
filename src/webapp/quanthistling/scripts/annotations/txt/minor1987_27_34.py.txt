@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "ebe (é-be) inter. ¡Oh! Interjección exclamatoria de sorpresa, pena, alegría, u olvido.",
+    "startpage" : 27,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ebe",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inter.",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de sorpresa",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de pena",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de alegría",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh interjección exclamatoria de olvido",
+                "start" : 19,
+                "end" : 88
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ebe",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inter.",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+    ]
+})

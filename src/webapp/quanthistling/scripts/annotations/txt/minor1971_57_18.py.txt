@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "pi̵cáde v. Comer algo (pan o plátanos) junto con carne.",
+    "startpage" : 57,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pi̵cáde",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "comer algo (pan o plátanos) junto con carne",
+                "start" : 12,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+    ]
+})

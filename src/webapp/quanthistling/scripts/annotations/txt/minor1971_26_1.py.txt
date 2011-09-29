@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "ivána s. Jergón (Cierta) culebra venenosa).",
+    "startpage" : 26,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ivána",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jergón (Cierta) culebra venenosa",
+                "start" : 10,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Jergón",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+    ]
+})

@@ -1,6 +1,7 @@
 # -*- coding: utf8 -*-
 
-import re
+import re, os
+import unicodedata
 from quanthistling import model
 from annotations import functions
 
@@ -175,12 +176,12 @@ def process_line(text, type="dictionary"):
     return entry
 
 
-def insert_nondictdata_to_db(Session, data, book):
+def insert_nondictdata_to_db(Session, data, book, filename):
     nondictdata = model.Nondictdata()
     nondictdata.startpage = data['startpage']
     nondictdata.endpage = data['endpage']
     nondictdata.title = data['title']
-    file = open(os.path.join(dictdata_path, data['file']), 'r')
+    file = open(filename, 'r')
     text = file.read()
     file.close()
 

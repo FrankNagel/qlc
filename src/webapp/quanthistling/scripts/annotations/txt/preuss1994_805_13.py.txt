@@ -1,0 +1,540 @@
+
+manual_entries.append({
+    "fullentry" : "bite (biya, bii / biiri (var. mi̵ni̵ka))- Vintr, venir, regresar; biñokeide seguir detrás de una persona; biyagobe puerto de venida; biyaui día de venida; biyazo camino de venida; biyi̵ki̵no noticia de futura venida; biyi̵no lugar de futura venida; biyi̵zo camino de futura venida; / 1, 9 / 3, 9 / 4, 7 / 5, 5 / 6, 5 / 6, 107 / 6, 194 / 7, 3 / 8, 9 / 9, 9 / 10, 8 / 12, 2 / 13, 1 / 13, 149 / 13, 173 / 16, 103 / 17, 17 / 17, 106 / 18, 6 / 19, 29 / 20, 48 / 22, 17 / 22, 20 / 23, 37 / 25, 35 /",
+    "startpage" : 805,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bite",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biya",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bii",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biiri",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vintr",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "venir",
+                "start" : 49,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "regresar",
+                "start" : 56,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biñokeide",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "seguir detrás de una persona",
+                "start" : 77,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biyagobe",
+                "start" : 108,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puerto de venida",
+                "start" : 117,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biyaui",
+                "start" : 135,
+                "end" : 141
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "día de venida",
+                "start" : 142,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biyazo",
+                "start" : 158,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "camino de venida",
+                "start" : 165,
+                "end" : 181
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biyi̵ki̵no",
+                "start" : 183,
+                "end" : 193
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "noticia de futura venida",
+                "start" : 194,
+                "end" : 218
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biyi̵no",
+                "start" : 220,
+                "end" : 227
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar de futura venida",
+                "start" : 228,
+                "end" : 250
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biyi̵zo",
+                "start" : 252,
+                "end" : 259
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "camino de futura venida",
+                "start" : 260,
+                "end" : 283
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bite",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bite",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biya, bii / biiri",
+                "start" : 6,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mi̵ni̵ka",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biñokeide",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biñokeide",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biyagobe",
+                "start" : 108,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biyagobe",
+                "start" : 108,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biyaui",
+                "start" : 135,
+                "end" : 141
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biyaui",
+                "start" : 135,
+                "end" : 141
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biyazo",
+                "start" : 158,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biyazo",
+                "start" : 158,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biyi̵ki̵no",
+                "start" : 183,
+                "end" : 193
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biyi̵ki̵no",
+                "start" : 183,
+                "end" : 193
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biyi̵no",
+                "start" : 220,
+                "end" : 227
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biyi̵no",
+                "start" : 220,
+                "end" : 227
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biyi̵zo",
+                "start" : 252,
+                "end" : 259
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biyi̵zo",
+                "start" : 252,
+                "end" : 259
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1",
+                "start" : 287,
+                "end" : 288
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3",
+                "start" : 294,
+                "end" : 295
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "4",
+                "start" : 301,
+                "end" : 302
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 308,
+                "end" : 309
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 315,
+                "end" : 316
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 322,
+                "end" : 323
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 331,
+                "end" : 332
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 340,
+                "end" : 341
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "8",
+                "start" : 347,
+                "end" : 348
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 354,
+                "end" : 355
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 361,
+                "end" : 363
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "12",
+                "start" : 369,
+                "end" : 371
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 377,
+                "end" : 379
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 385,
+                "end" : 387
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 395,
+                "end" : 397
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 405,
+                "end" : 407
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "17",
+                "start" : 415,
+                "end" : 417
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "17",
+                "start" : 424,
+                "end" : 426
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "18",
+                "start" : 434,
+                "end" : 436
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "19",
+                "start" : 442,
+                "end" : 444
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 451,
+                "end" : 453
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 460,
+                "end" : 462
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 469,
+                "end" : 471
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "23",
+                "start" : 478,
+                "end" : 480
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 487,
+                "end" : 489
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 164,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 243,
+                "end" : 243
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 244,
+                "end" : 244
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 319,
+                "end" : 319
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 320,
+                "end" : 320
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 402,
+                "end" : 402
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 403,
+                "end" : 403
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 481,
+                "end" : 481
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 482,
+                "end" : 482
+            },
+    ]
+})

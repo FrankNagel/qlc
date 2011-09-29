@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "jámuunhñ̈o – su nuera (cualquier mujer que es su pariente por matrimonio con un hijo, sobrino, primo o nieto)",
+    "startpage" : 123,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jámuunhñ̈o",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "su nuera (cualquier mujer que es su pariente por matrimonio con un hijo, sobrino, primo o nieto)",
+                "start" : 15,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})

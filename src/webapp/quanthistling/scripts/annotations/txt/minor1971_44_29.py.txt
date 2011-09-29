@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "manaì̵de v. Ser o estar fresco (cosas), ser humilde; no enojarse, ser pacífico.",
+    "startpage" : 44,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "manaì̵de",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser o estar fresco (cosas)",
+                "start" : 13,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser humilde",
+                "start" : 41,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no enojarse",
+                "start" : 54,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser pacífico",
+                "start" : 67,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+    ]
+})

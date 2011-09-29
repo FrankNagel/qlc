@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "lloiroji̵ s. Fruto verde (no maduro) del pijuayo.",
+    "startpage" : 42,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "lloiroji̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fruto verde (no maduro) del pijuayo",
+                "start" : 13,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "pijuayo",
+                "start" : 41,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+    ]
+})

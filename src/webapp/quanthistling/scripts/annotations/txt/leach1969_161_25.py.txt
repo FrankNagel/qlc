@@ -1,29 +1,29 @@
 
 manual_entries.append({
-    "fullentry" : "¡xoxo dyurón! – ¡enséñanos! (m.d.)",
+    "fullentry" : "tya xóxaau – lo subimos (m.d.)",
     "startpage" : 161,
-    "pos_on_page" : 24,
+    "pos_on_page" : 25,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "xoxo dyurón",
+                "string" : "tya xóxaau",
                 "start" : 0,
-                "end" : 15
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "enséñanos",
-                "start" : 17,
-                "end" : 30
+                "string" : "lo subimos",
+                "start" : 14,
+                "end" : 24
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "m.d.",
-                "start" : 31,
-                "end" : 37
+                "start" : 25,
+                "end" : 31
             },
             {
                 "type" : "pagelayout",
@@ -36,22 +36,22 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 16,
-                "end" : 16
+                "start" : 24,
+                "end" : 24
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 17,
-                "end" : 17
+                "start" : 25,
+                "end" : 25
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 17,
-                "end" : 17
+                "start" : 25,
+                "end" : 25
             },
     ]
 })

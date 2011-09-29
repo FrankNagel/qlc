@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "jiñóna s. Apacharama (árbol). Su ceniza se mezcla con barro para hacer cerámica",
+    "startpage" : 32,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jiñóna",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "apacharama (árbol) su ceniza se mezcla con barro para hacer cerámica",
+                "start" : 12,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Apacharama",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+    ]
+})

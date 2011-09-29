@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "jaì̵tdáì̵do s. Morocotón (insecto). Su larva vive en la palmera del aguaje.",
+    "startpage" : 29,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaì̵tdáì̵do",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "morocotón (insecto) su larva vive en la palmera del aguaje",
+                "start" : 18,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Morocotón",
+                "start" : 18,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "aguaje",
+                "start" : 72,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+    ]
+})

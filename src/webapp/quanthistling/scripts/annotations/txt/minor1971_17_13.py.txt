@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "dubáraga s. Diseño (de cuadros) lleno de flores u otros dibujos.",
+    "startpage" : 17,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dubáraga",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "diseño (de cuadros) lleno de flores u otros dibujos",
+                "start" : 13,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+    ]
+})

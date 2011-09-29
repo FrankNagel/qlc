@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "agaide (agaiya) - Vintr, calentarse junto a la hoguera, al sol; tener fiebre; / 11, 18 / 11, 23 / 23, 88 /",
+    "startpage" : 798,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "agaide",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "agaiya",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vintr",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calentarse junto a la hoguera",
+                "start" : 25,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "al sol",
+                "start" : 56,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener fiebre",
+                "start" : 64,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "agaide",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "agaide",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "agaiya",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "11",
+                "start" : 80,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "11",
+                "start" : 89,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "23",
+                "start" : 98,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})

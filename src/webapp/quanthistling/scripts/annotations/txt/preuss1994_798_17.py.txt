@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "Agaronarei̵ - Npr, personaje mítico masculino, jefe de los Agarofaiñuei̵; Agaronarei̵o: Agaronarei̵ y su gente; / 16, 2 / 16, 3 / 16, 66 /",
+    "startpage" : 798,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "agaronarei̵",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Npr",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "personaje mítico masculino",
+                "start" : 19,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jefe de los Agarofaiñuei̵",
+                "start" : 48,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Agaronarei̵o: Agaronarei̵ y su gente",
+                "start" : 76,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Agaronarei̵",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Agaronarei̵",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Agarofaiñuei̵; Agaronarei̵o",
+                "start" : 60,
+                "end" : 88
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Agaronarei̵",
+                "start" : 90,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 116,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 124,
+                "end" : 126
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 132,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 90,
+                "end" : 90
+            },
+    ]
+})

@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "fúútyo – guara (C) agutí / añuje (P) (roedor)",
+    "startpage" : 99,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fúútyo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guara (c) agutí / añuje (p) (roedor)",
+                "start" : 11,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "guara",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "añuje",
+                "start" : 30,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+    ]
+})

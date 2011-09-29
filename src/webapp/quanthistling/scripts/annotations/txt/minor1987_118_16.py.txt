@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "i̵na jabe (í̵-na já-be) interj. ¡Espere! ¡Un momentico!",
+    "startpage" : 118,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵na jabe",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 26,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "espere",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un momentico",
+                "start" : 43,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "i̵na jabe",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "interj.",
+                "start" : 26,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+    ]
+})

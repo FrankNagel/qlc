@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "monóri̵ s. Arbol (parecido al plátano) de fruto colorante, morado.",
+    "startpage" : 46,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monóri̵",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arbol (parecido al plátano) de fruto colorante morado",
+                "start" : 12,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+    ]
+})

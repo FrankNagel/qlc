@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "rochírede v. Hacer frío (tiempo) o estar frío (cosa)",
+    "startpage" : 61,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rochírede",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer frío (tiempo) o estar frío (cosa)",
+                "start" : 14,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})

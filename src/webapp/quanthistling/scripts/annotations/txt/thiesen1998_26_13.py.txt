@@ -1,0 +1,372 @@
+
+manual_entries.append({
+    "fullentry" : "[áába̱nu] vi. 1. descolorarse; opacarse. Táwajyámú oonóvá tsúúca áábanújucóó. El tinte de mi ropa se está descolorando. 2. oscurecerse, volverse oscuro; ocultarse. Cuuve nuhba áábanúhi. En la tarde el sol se oculta. 3. (fig). volverse viejo, perder su juventud o hermosura. Tsúúca ó áábanú tájpií. Ya estoy perdiendo mi hermosura. (sinón. teevénu)",
+    "startpage" : 26,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "áába̱nu",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "descolorarse",
+                "start" : 18,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "opacarse",
+                "start" : 33,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táwajyámú oonóvá tsúúca áábanújucóó.",
+                "start" : 43,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El tinte de mi ropa se está descolorando. ",
+                "start" : 91,
+                "end" : 135
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oscurecerse",
+                "start" : 137,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse oscuro",
+                "start" : 151,
+                "end" : 166
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ocultarse",
+                "start" : 168,
+                "end" : 177
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cuuve nuhba áábanúhi.",
+                "start" : 179,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " En la tarde el sol se oculta. ",
+                "start" : 203,
+                "end" : 234
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "fig.",
+                "start" : 237,
+                "end" : 242
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse viejo",
+                "start" : 244,
+                "end" : 258
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "perder su juventud o hermosura",
+                "start" : 260,
+                "end" : 290
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsúúca ó áábanú tájpií.",
+                "start" : 292,
+                "end" : 323
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Ya estoy perdiendo mi hermosura. (sinón. teevénu)",
+                "start" : 323,
+                "end" : 375
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# áá b a̱ n u #",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[áába̱nu]",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táwajyámú oonóvá tsúúca áá",
+                "start" : 43,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "banújucóó.",
+                "start" : 78,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Cuuve nuhba áá",
+                "start" : 179,
+                "end" : 195
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "banúhi.",
+                "start" : 195,
+                "end" : 203
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tsúúca ó áábanú",
+                "start" : 292,
+                "end" : 313
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tájpií.",
+                "start" : 314,
+                "end" : 323
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "teevénu",
+                "start" : 366,
+                "end" : 374
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 195,
+                "end" : 195
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 195,
+                "end" : 195
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 195,
+                "end" : 195
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 233,
+                "end" : 233
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 234,
+                "end" : 234
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 272,
+                "end" : 272
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 272,
+                "end" : 272
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 272,
+                "end" : 272
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 313,
+                "end" : 313
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 314,
+                "end" : 314
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 351,
+                "end" : 351
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 351,
+                "end" : 351
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 351,
+                "end" : 351
+            },
+    ]
+})

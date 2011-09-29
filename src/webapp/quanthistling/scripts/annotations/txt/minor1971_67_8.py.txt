@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "tdotde v. Correr (el agua del río), derramar.",
+    "startpage" : 67,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tdotde",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "correr (el agua del río)",
+                "start" : 10,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derramar",
+                "start" : 37,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})

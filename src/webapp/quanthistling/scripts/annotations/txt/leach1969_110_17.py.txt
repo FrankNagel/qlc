@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "jooa I – poner (ropa, hoja al techo); palpar; tocar",
+    "startpage" : 110,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jooa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "I",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner (ropa, hoja al techo)",
+                "start" : 9,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palpar",
+                "start" : 38,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tocar",
+                "start" : 46,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+    ]
+})

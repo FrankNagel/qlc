@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "penácai̵ s. Topa, balsa, (árbol).",
+    "startpage" : 56,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "penácai̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "topa",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "balsa",
+                "start" : 19,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "árbol",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Topa",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "balsa",
+                "start" : 19,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})

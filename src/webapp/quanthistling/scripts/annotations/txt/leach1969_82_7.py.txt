@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "covááya – uvas (C) uvillas (P) (árbol); cetico (árbol)",
+    "startpage" : 82,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "covááya",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uvas",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uvillas (árbol)",
+                "start" : 21,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cetico (árbol)",
+                "start" : 43,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cetico",
+                "start" : 43,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+    ]
+})

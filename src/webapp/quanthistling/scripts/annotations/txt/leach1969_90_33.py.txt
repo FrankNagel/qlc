@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "dyoúúna III – picar (plantas; insectos); dar comezón",
+    "startpage" : 90,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyoúúna",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "III",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "picar (plantas; insectos)",
+                "start" : 16,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar comezón",
+                "start" : 43,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+    ]
+})

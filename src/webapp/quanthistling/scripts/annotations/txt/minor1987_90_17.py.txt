@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "ní̵fuena (ní̵-fue-na) adj. ¿Cuál cuento?, ¿qué asunto¿",
+    "startpage" : 90,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ní̵fuena",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 24,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuál cuento",
+                "start" : 29,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué asunto",
+                "start" : 45,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ní̵fuena",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 24,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+    ]
+})

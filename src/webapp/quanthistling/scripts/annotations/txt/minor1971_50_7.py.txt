@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "nobi̵de v. Estar débil (de hambre) y sin fuerza para andar.",
+    "startpage" : 50,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nobi̵de",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar débil (de hambre) y sin fuerza para andar",
+                "start" : 11,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+    ]
+})

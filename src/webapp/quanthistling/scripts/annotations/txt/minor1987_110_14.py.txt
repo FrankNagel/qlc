@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "uái iri (u-ái í-ri) v., imper. ¡Calma! o ¡quieto!",
+    "startpage" : 110,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uái iri",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v., imper.",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "imper.",
+                "start" : 27,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calma",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quieto",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uái iri",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v., imper.",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+    ]
+})

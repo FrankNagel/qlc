@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "comeñede v. Ser sobrehumano (para adultos). Ser pueril, infantil (para niños).",
+    "startpage" : 10,
+    "pos_on_page" : 36,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "comeñede",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser sobrehumano (para adultos)",
+                "start" : 13,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser pueril",
+                "start" : 45,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "infantil (para niños)",
+                "start" : 57,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+    ]
+})

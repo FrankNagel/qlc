@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "peráìco s. Cáscara de la fruta del macambo (un árbol), plato antiguo.",
+    "startpage" : 56,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "peráìco",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cáscara de la fruta del macambo (un árbol)",
+                "start" : 13,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "plato antiguo",
+                "start" : 59,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "macambo",
+                "start" : 38,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+    ]
+})
