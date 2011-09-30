@@ -590,13 +590,6 @@ list = [
     },
 
     {
-        'name' : u'Kulsab',
-        'langcode': u'n/a',
-        'description' : u'',
-        'url' : u''
-    },
-
-    {
         'name' : u'Paynamar',
         'langcode': u'pmr',
         'description' : u'',
@@ -1178,7 +1171,7 @@ list = [
     },
 
     {
-        'name' : u'Baiwak',
+        'name' : u'Baimak',
         'langcode': u'bmx',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=bmx'

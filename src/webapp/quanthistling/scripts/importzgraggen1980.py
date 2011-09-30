@@ -135,7 +135,7 @@ def main(argv):
     #book_bibtex_key = u"zgraggen1980"
     
     if len(argv) < 3:
-        print "call: importhuber1992.py ini_file bibtex_key"
+        print "call: importzgraggen1980.py ini_file bibtex_key"
         exit(1)
     
     ini_file = argv[1]
@@ -186,15 +186,15 @@ def main(argv):
             
             # parse page and line number
             if re_page.match(l):
+                if entry != {}:
+                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
+                annotation = {}
+                entry = {}
                 match_page = re_page.match(l)
                 page = int(match_page.group(1))
                 pos_on_page = 1
                 print "Parsing page {0}".format(page)
             if re_column.match(l):
-                if entry != {}:
-                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
-                annotation = {}
-                entry = {}
                 match_column = re_column.match(l)
                 column =  int(match_column.group(1))
                 print "Column {0}".format(column)
@@ -206,13 +206,23 @@ def main(argv):
                 entry['English']['fullentry'] = meaning_english
                 entry['English']['pos_on_page'] = pos_on_page
                 annotation['English'] = []
+                
+                concept = meaning_english.upper()
+                concept = re.sub(u"^\* ?", u"", concept)
+                concept = re.sub(u" ?\(", u"_", concept)
+                concept = re.sub(u"\) ?", u"_", concept)
+                concept = re.sub(u", ?", u"_", concept)
+                concept = re.sub(u" +$", u"", concept)
+                concept = re.sub(u" ", u"_", concept)
+                concept_id = u"{0}".format(concept)
 
                 start = 0
                 end = len(meaning_english)
                 match_bracket = re.search(" ?\([^)]*\) ?$", meaning_english)
+
                 if match_bracket:
-                    print "found"
                     end = end - len(match_bracket.group(0))
+
                 match_star = re.match("\*", meaning_english)
                 if match_star:
                     start = 1
@@ -232,7 +242,6 @@ def main(argv):
                     start_new = match.end(0)
                 
                 pos_on_page = pos_on_page + 1
-                concept_id = u"{0}".format(meaning_english.upper())
             else:
                 parts = l.split("\t")
                 language = parts[0]
@@ -256,6 +265,11 @@ def main(argv):
                 start_new = 0
                 for match in re.finditer(u"(?:, |$)", fullentry):
                     end_new = match.start(0)
+                    match_bracket = re.search(" ?\([^)]*\) ?$", fullentry[start_new:end_new])
+
+                    if match_bracket:
+                        end_new = end_new - len(match_bracket.group(0))
+
                     a = {}
                     a['start'] = start_entry + start_new
                     a['end'] = start_entry + end_new

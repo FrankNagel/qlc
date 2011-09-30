@@ -82,7 +82,7 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 1,
-                'src_language_name' : u'Kulsab',
+                'src_language_name' : u'Faita',
                 'tgt_language_name' : u'English',
                 'src_language_bookname' : u'Kulsab',
                 'tgt_language_bookname' : u'English',
