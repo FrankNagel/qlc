@@ -33,11 +33,11 @@ list = [
         ]
     },
     {
-        'title' : u'A Preliminary Phonological History of the Sogeram Languages of Papua New Guinea - Apali̵',
-        'author' : u'Daniels, Don R.',
-        'year' : 2010,  
-        'bibtex_key' : u'daniels2010apali',
-        'pages' : 31,
+        'title' : u'Preliminary Dictionary of Apali̵',
+        'author' : u'Wade, Martha',
+        'year' : None,
+        'bibtex_key' : u'wadeND',
+        'pages' : 1,
         'columns' : 1,
         'is_ready' : False,
         'type' : 'dictionary',
