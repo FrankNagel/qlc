@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "F 1Pay-ipⁱr̃i",
+    "startpage" : 20,
+    "pos_on_page" : 8,
+    "language_bookname" : "Pay",
+    "concept" : "NECK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "-ipⁱr̃i",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

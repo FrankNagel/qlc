@@ -164,7 +164,9 @@ def main(argv):
     wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
     
     page                        = 0
+    page_new                    = 0
     column                      = 0
+    column_new                  = 0
     pos_on_page                 = 1
     current_entry_text          = ''
     concept_id                  = 0
@@ -186,19 +188,21 @@ def main(argv):
             
             # parse page and line number
             if re_page.match(l):
-                if entry != {}:
-                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
-                annotation = {}
-                entry = {}
                 match_page = re_page.match(l)
-                page = int(match_page.group(1))
+                page_new = int(match_page.group(1))
                 pos_on_page = 1
                 print "Parsing page {0}".format(page)
             if re_column.match(l):
                 match_column = re_column.match(l)
-                column =  int(match_column.group(1))
+                column_new =  int(match_column.group(1))
                 print "Column {0}".format(column)
             elif re_english.match(l):
+                if entry != {}:
+                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
+                annotation = {}
+                entry = {}
+                page = page_new
+                column = column_new
                 match_english = re_english.match(l)
                 meaning_english = match_english.group(1)
                 print "  English: %s" % meaning_english.encode("utf-8")

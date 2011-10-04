@@ -57,8 +57,8 @@ def clean_and_split_translations(fullentry, annotations):
                     
 
 def main(argv):
-    if len(argv) < 2:
-        print "call: importdictdata.py ini_file"
+    if len(argv) < 3:
+        print "call: importtoolboxfile.py bibtex_key ini_file"
         exit(1)
 
     ini_file = argv[1]

@@ -20,6 +20,7 @@ from paste.deploy import appconfig
 
 import quanthistling.dictdata.books
 import quanthistling.dictdata.wordlistbooks
+import quanthistling.dictdata.toolboxfiles
 
 from routes import url_for
 
@@ -46,7 +47,7 @@ def main(argv):
     
 
     #for b in []:
-    for b in quanthistling.dictdata.books.list:
+    for b in quanthistling.dictdata.books.list + quanthistling.dictdata.toolboxfiles.list:
         if bibtex_key_param != None and bibtex_key_param != b['bibtex_key']:
             continue
         

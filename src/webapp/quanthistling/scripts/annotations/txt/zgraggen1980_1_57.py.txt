@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "B27ŋaŋᵉli",
+    "startpage" : 1,
+    "pos_on_page" : 57,
+    "language_bookname" : "Bongu",
+    "concept" : "WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋaŋᵉli",
+                "start" : 3,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
