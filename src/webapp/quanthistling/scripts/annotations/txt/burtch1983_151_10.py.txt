@@ -34,10 +34,10 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
+                "value" : "pos",
                 "string" : "pas de jɨte",
                 "start" : 128,
-                "end" : 140
+                "end" : 139
             },
             {
                 "type" : "pagelayout",

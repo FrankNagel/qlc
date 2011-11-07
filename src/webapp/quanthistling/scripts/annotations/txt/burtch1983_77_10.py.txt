@@ -7,16 +7,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "emodomo (vea emodo",
+                "string" : "emodomo",
                 "start" : 0,
-                "end" : 18
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "crossreference",
-                "string" : "emodo",
-                "start" : 9,
-                "end" : 20
+                "string" : "emodo 3.",
+                "start" : 13,
+                "end" : 21
             },
     ]
 })

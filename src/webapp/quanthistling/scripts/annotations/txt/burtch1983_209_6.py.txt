@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "rabi̵ci̵ pizarra, tabla ancha.",
+    "startpage" : 209,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rabi̵ci̵",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pizarra",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tabla ancha",
+                "start" : 18,
+                "end" : 29
+            },
+    ]
+})

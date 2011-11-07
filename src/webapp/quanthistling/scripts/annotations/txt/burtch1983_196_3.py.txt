@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "(ni̵ca) (Vea ni̵i̵ca.)",
+    "startpage" : 196,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵ca",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ni̵i̵ca",
+                "start" : 13,
+                "end" : 20
+            },
+    ]
+})

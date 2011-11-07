@@ -1,0 +1,316 @@
+
+manual_entries.append({
+    "fullentry" : "faì̵nonocaìde (v) 1. dejar, abandonar. Nana jaì caì̵ usuma comuìllano faì̵nonocaìda caì̵ biti̵caì̵. Todos vinimos abandonando el suelo natal (lit. lugar donde crecieron) de nuestros abuelos. 2. sanar de una enfermedad, calmar el dolor, dejarle a uno la fiebre. Faì̵nonocaìde. Jaì faì̵caìde. Se ha calmado. Ya (le) ha dejado (la fiebre, enfermedad). (Vea faì̵caìde, faì̵caìñote.)",
+    "startpage" : 85,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "faì̵nonocaìde",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 17,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dejar",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abandonar",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Nana jaì caì̵ usuma comuìllano faì̵nonocaìda caì̵ biti̵caì̵.",
+                "start" : 41,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Todos vinimos abandonando el suelo natal (lit. lugar donde crecieron) de nuestros abuelos.",
+                "start" : 109,
+                "end" : 199
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sanar de una enfermedad",
+                "start" : 203,
+                "end" : 226
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calmar el dolor",
+                "start" : 228,
+                "end" : 243
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dejarle a uno la fiebre",
+                "start" : 245,
+                "end" : 268
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Faì̵nonocaìde. Jaì faì̵caìde.",
+                "start" : 270,
+                "end" : 304
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Se ha calmado. Ya (le) ha dejado (la fiebre, enfermedad).",
+                "start" : 305,
+                "end" : 362
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "faì̵caìde",
+                "start" : 368,
+                "end" : 379
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "faì̵caìñote",
+                "start" : 381,
+                "end" : 395
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 162,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 186,
+                "end" : 186
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 186,
+                "end" : 186
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 186,
+                "end" : 186
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 211,
+                "end" : 211
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 212,
+                "end" : 212
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 237,
+                "end" : 237
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 261,
+                "end" : 261
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 262,
+                "end" : 262
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 291,
+                "end" : 291
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 292,
+                "end" : 292
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 319,
+                "end" : 319
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 320,
+                "end" : 320
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 345,
+                "end" : 345
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 345,
+                "end" : 345
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 345,
+                "end" : 345
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 367,
+                "end" : 367
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 368,
+                "end" : 368
+            },
+    ]
+})

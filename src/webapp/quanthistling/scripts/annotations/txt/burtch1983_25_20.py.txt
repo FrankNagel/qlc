@@ -35,8 +35,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "(ille) ana(mo) jaìde",
-                "start" : 49,
+                "string" : "ille anamo jaìde",
+                "start" : 50,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ana jaìde",
+                "start" : 57,
                 "end" : 71
             },
             {
@@ -56,8 +63,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sumir, asentar en el fondo del agua o río",
-                "start" : 110,
+                "string" : "sumir",
+                "start" : 109,
+                "end" : 114
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "asentar en el fondo del agua o río",
+                "start" : 116,
                 "end" : 151
             },
             {

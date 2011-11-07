@@ -104,7 +104,7 @@ def remove_parts_translation(str, s, e):
     if match_bracket_end:
         end = end - len(match_bracket_end.group(0))
         subsubstr = subsubstr[:-len(match_bracket_end.group(0))]
-    match_bracket_start = re.match(u" ?\((?:[vV]er .*?|imp\.sg\..*?|múlt\..*?|sinón\..*?)\)", subsubstr)
+    match_bracket_start = re.match(u" ?\((?:[vV]er .*?|imp\.sg\..*?|múlt\..*?|sinón\..*?|fig\.)\)", subsubstr)
     if match_bracket_start:
         start = start + len(match_bracket_start.group(0))
         subsubstr = subsubstr[len(match_bracket_start.group(0)):]
@@ -123,7 +123,7 @@ def annotate_orthography(entry, o_parser):
     
     for a in head_annotations:
         h = a.string
-        o = o_parser.parse(h)
+        o = o_parser.parse_string_to_graphemes_string(h)
         
         entry.append_annotation(a.start, a.end, u'headorthographic', u'orthographicinterpretation', o)
     
@@ -441,7 +441,7 @@ def main(argv):
     metadata.create_all(bind=Session.bind)
 
     # create orthography parser
-    base_qlc_path = os.path.abspath(os.path.join("..", "..", ".."))
+    base_qlc_path = "/media/Daten/Projects/git-github/qlc"
     sys.path.append(os.path.join(base_qlc_path, "src"))
     import qlc.OrthographyProfile
     

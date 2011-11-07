@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "ci̵gi̵ride (v) ser, estar muy enredado, nudoso. Ñeci̵ro ci̵gi̵ride. La chambira está enredada. (Vea biri̵ride, i̵coi̵bide, i̵ri̵ci̵taìde.)",
+    "startpage" : 55,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ci̵gi̵ride",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 12,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser, estar muy enredado, nudoso",
+                "start" : 15,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ñeci̵ro ci̵gi̵ride.",
+                "start" : 48,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La chambira está enredada.",
+                "start" : 69,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "biri̵ride",
+                "start" : 102,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "i̵coi̵bide",
+                "start" : 113,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "i̵ri̵ci̵taìde",
+                "start" : 125,
+                "end" : 139
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+    ]
+})

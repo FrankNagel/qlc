@@ -108,7 +108,9 @@ def annotate_everything(entry):
         match_parts = re.search(r"[,;] ?", entry.fullentry[s:e])
         if match_parts:
             e = e - len(match_parts.group(0))
-        functions.insert_translation(entry, s, e)
+        translation = entry.fullentry[s:e]
+        translation = re.sub(u"[‘’']", u"", translation)
+        functions.insert_translation(entry, s, e, translation)
 
     return heads
 

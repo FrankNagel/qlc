@@ -1,0 +1,169 @@
+
+manual_entries.append({
+    "fullentry" : "biñaìñuaì̵ (pro. dem., pro. pos, adj. pos-pl) éstas (seres animados), su, sus, (el) suyo, (la) suya, (los) suyos, (las) suyas (de éstas).",
+    "startpage" : 36,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biñaìñuaì̵",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. dem.",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. pos",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj. pos-pl",
+                "start" : 37,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "éstas (seres animados)",
+                "start" : 49,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "su",
+                "start" : 75,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sus",
+                "start" : 79,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(el) suyo",
+                "start" : 84,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(la) suya",
+                "start" : 95,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(los) suyos",
+                "start" : 106,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(las) suyas (de éstas)",
+                "start" : 119,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+    ]
+})

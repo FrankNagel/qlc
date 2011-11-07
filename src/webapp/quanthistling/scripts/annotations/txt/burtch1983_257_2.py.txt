@@ -55,17 +55,17 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
+                "value" : "pos",
                 "string" : "imp de ɨfode",
                 "start" : 72,
-                "end" : 86
+                "end" : 84
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "crossreference",
                 "string" : "ɨfomeì",
-                "start" : 88,
-                "end" : 101
+                "start" : 92,
+                "end" : 99
             },
             {
                 "type" : "pagelayout",

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "(i̵note) (Vea i̵i̵note.)",
+    "startpage" : 259,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵note",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "i̵i̵note",
+                "start" : 14,
+                "end" : 22
+            },
+    ]
+})

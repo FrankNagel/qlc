@@ -27,9 +27,9 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
+                "value" : "head",
                 "string" : "cuìta",
-                "start" : 28,
+                "start" : 27,
                 "end" : 33
             },
             {
@@ -37,13 +37,13 @@ manual_entries.append({
                 "value" : "pos",
                 "string" : "s1A",
                 "start" : 35,
-                "end" : 39
+                "end" : 38
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "cuìtallɨ",
-                "start" : 42,
+                "start" : 41,
                 "end" : 50
             },
             {
@@ -51,13 +51,13 @@ manual_entries.append({
                 "value" : "pos",
                 "string" : "s1B",
                 "start" : 52,
-                "end" : 56
+                "end" : 55
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "especie de piña poco jugosa",
-                "start" : 58,
+                "start" : 57,
                 "end" : 85
             },
             {
