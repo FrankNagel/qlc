@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "ajííxo – salsa picante de yuca y ají, tocopí (P)",
+    "startpage" : 71,
+    "pos_on_page" : 36,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ajííxo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salsa picante de yuca y ají",
+                "start" : 11,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tocopí",
+                "start" : 41,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 50,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tocopí",
+                "start" : 41,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+    ]
+})

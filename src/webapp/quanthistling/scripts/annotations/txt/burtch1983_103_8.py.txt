@@ -20,6 +20,13 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "leche",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "example-src",
                 "string" : "Cuè ei monoì̵ i jirodi̵cuè.",
                 "start" : 21,

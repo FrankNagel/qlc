@@ -14,8 +14,22 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "guara (c) agutí / añuje (p) (roedor)",
+                "string" : "guara (C)",
                 "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agutí",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "añuje (P) (roedor)",
+                "start" : 30,
                 "end" : 49
             },
             {

@@ -28,9 +28,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Fi̵vuì di̵nena jitomana anafefitate. Dallu jitoma uieco baìnina jira iese raìti̵caì̵",
+                "string" : "Fi̵vuì di̵nena jitomana anafefitate. Dallu jitoma uieco baìnina jira iese raìti̵caì̵.",
                 "start" : 17,
-                "end" : 105
+                "end" : 106
             },
             {
                 "type" : "dictinterpretation",

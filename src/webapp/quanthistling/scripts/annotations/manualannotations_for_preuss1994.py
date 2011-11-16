@@ -4,91 +4,6 @@ manual_entries = []
 
 
 manual_entries.append({
-    "fullentry" : "aforeide (aforeiya) - Vintr, ser profundo (canasto, hueco, olla, río, etc.); / 5, 20 / 7, 30 /",
-    "startpage" : 798,
-    "pos_on_page" : 13,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "aforeide",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "aforeiya",
-                "start" : 10,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "Vintr",
-                "start" : 22,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ser profundo (canasto, hueco, olla, río, etc.)",
-                "start" : 29,
-                "end" : 76
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "aforeide",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "aforeide",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "aforeiya",
-                "start" : 10,
-                "end" : 18
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "5",
-                "start" : 80,
-                "end" : 81
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "7",
-                "start" : 88,
-                "end" : 89
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 87,
-                "end" : 87
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 88,
-                "end" : 88
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "afeko (afekuei̵) - Nc, rendija, ranura en un tejido (canasto, cernidor, pared de la maloca); / 5, 9 / 10, 10 / 12, 45 /",
     "startpage" : 798,
     "pos_on_page" : 12,
@@ -188,51 +103,86 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "adode - incitar al coito, excitar; / 84 /",
+    "fullentry" : "aforeide (aforeiya) - Vintr, ser profundo (canasto, hueco, olla, río, etc.); / 5, 20 / 7, 30 /",
     "startpage" : 798,
-    "pos_on_page" : 8,
+    "pos_on_page" : 13,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "adode",
+                "string" : "aforeide",
                 "start" : 0,
-                "end" : 5
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aforeiya",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vintr",
+                "start" : 22,
+                "end" : 27
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "incitar al coito",
-                "start" : 8,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "excitar",
-                "start" : 26,
-                "end" : 33
+                "string" : "ser profundo (canasto, hueco, olla, río, etc.)",
+                "start" : 29,
+                "end" : 76
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "adode",
+                "string" : "aforeide",
                 "start" : 0,
-                "end" : 5
+                "end" : 8
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "adode",
+                "string" : "aforeide",
                 "start" : 0,
-                "end" : 5
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aforeiya",
+                "start" : 10,
+                "end" : 18
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "84",
-                "start" : 37,
-                "end" : 39
+                "string" : "5",
+                "start" : 80,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 88,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
             },
     ]
 })
@@ -344,135 +294,157 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "{-ya / - a / - ja / - na} - Sufv: No finito; jaaiya ir, biya venir",
-    "startpage" : 901,
-    "pos_on_page" : 4,
+    "fullentry" : "Agaronarei̵ - Npr, personaje mítico masculino, jefe de los Agarofaiñuei̵; Agaronarei̵o: Agaronarei̵ y su gente; / 16, 2 / 16, 3 / 16, 66 /",
+    "startpage" : 798,
+    "pos_on_page" : 17,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "ya",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "a",
-                "start" : 7,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ja",
-                "start" : 13,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "na",
-                "start" : 20,
-                "end" : 24
+                "string" : "agaronarei̵",
+                "start" : 0,
+                "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "Sufv: No finito",
-                "start" : 28,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "jaaiya",
-                "start" : 45,
-                "end" : 51
+                "string" : "Npr",
+                "start" : 14,
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ir",
-                "start" : 52,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "biya",
-                "start" : 56,
-                "end" : 60
+                "string" : "personaje mítico masculino",
+                "start" : 19,
+                "end" : 46
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "venir",
-                "start" : 60,
-                "end" : 66
+                "string" : "jefe de los Agarofaiñuei̵",
+                "start" : 48,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Agaronarei̵o: Agaronarei̵ y su gente",
+                "start" : 76,
+                "end" : 112
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "{",
+                "string" : "Agaronarei̵",
                 "start" : 0,
-                "end" : 1
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Agaronarei̵",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Agarofaiñuei̵; Agaronarei̵o",
+                "start" : 60,
+                "end" : 88
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Agaronarei̵",
+                "start" : 90,
+                "end" : 101
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "-ya / - a / - ja / - na",
-                "start" : 1,
+                "string" : "16",
+                "start" : 116,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 124,
+                "end" : 126
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 132,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 90,
+                "end" : 90
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "adode - incitar al coito, excitar; / 84 /",
+    "startpage" : 798,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "adode",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "incitar al coito",
+                "start" : 8,
                 "end" : 24
             },
             {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "-ya / - a / - ja / - na",
-                "start" : 1,
-                "end" : 24
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "excitar",
+                "start" : 26,
+                "end" : 33
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "}",
-                "start" : 24,
-                "end" : 25
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "jaaiya",
-                "start" : 45,
-                "end" : 51
+                "string" : "adode",
+                "start" : 0,
+                "end" : 5
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "jaaiya",
-                "start" : 45,
-                "end" : 51
+                "string" : "adode",
+                "start" : 0,
+                "end" : 5
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "ir,",
-                "start" : 51,
-                "end" : 56
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "biya",
-                "start" : 56,
-                "end" : 60
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "biya",
-                "start" : 56,
-                "end" : 60
+                "string" : "84",
+                "start" : 37,
+                "end" : 39
             },
     ]
 })
@@ -1018,107 +990,135 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "Agaronarei̵ - Npr, personaje mítico masculino, jefe de los Agarofaiñuei̵; Agaronarei̵o: Agaronarei̵ y su gente; / 16, 2 / 16, 3 / 16, 66 /",
-    "startpage" : 798,
-    "pos_on_page" : 17,
+    "fullentry" : "{-ya / - a / - ja / - na} - Sufv: No finito; jaaiya ir, biya venir",
+    "startpage" : 901,
+    "pos_on_page" : 4,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "agaronarei̵",
-                "start" : 0,
-                "end" : 11
+                "string" : "ya",
+                "start" : 1,
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "Npr",
-                "start" : 14,
+                "value" : "head",
+                "string" : "a",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ja",
+                "start" : 13,
                 "end" : 17
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "personaje mítico masculino",
-                "start" : 19,
-                "end" : 46
+                "value" : "head",
+                "string" : "na",
+                "start" : 20,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Sufv: No finito",
+                "start" : 28,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaaiya",
+                "start" : 45,
+                "end" : 51
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "jefe de los Agarofaiñuei̵",
-                "start" : 48,
-                "end" : 74
+                "string" : "ir",
+                "start" : 52,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biya",
+                "start" : 56,
+                "end" : 60
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Agaronarei̵o: Agaronarei̵ y su gente",
-                "start" : 76,
-                "end" : 112
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Agaronarei̵",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Agaronarei̵",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Agarofaiñuei̵; Agaronarei̵o",
+                "string" : "venir",
                 "start" : 60,
-                "end" : 88
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "{",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-ya / - a / - ja / - na",
+                "start" : 1,
+                "end" : 24
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Agaronarei̵",
-                "start" : 90,
-                "end" : 101
+                "string" : "-ya / - a / - ja / - na",
+                "start" : 1,
+                "end" : 24
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "16",
-                "start" : 116,
-                "end" : 118
+                "string" : "}",
+                "start" : 24,
+                "end" : 25
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "16",
-                "start" : 124,
-                "end" : 126
+                "string" : "jaaiya",
+                "start" : 45,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaaiya",
+                "start" : 45,
+                "end" : 51
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "16",
-                "start" : 132,
-                "end" : 134
+                "string" : "ir,",
+                "start" : 51,
+                "end" : 56
             },
             {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 89,
-                "end" : 89
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biya",
+                "start" : 56,
+                "end" : 60
             },
             {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 90,
-                "end" : 90
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biya",
+                "start" : 56,
+                "end" : 60
             },
     ]
 })

@@ -35,18 +35,18 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "E 4Korak-birⁱnut",
-    "startpage" : 21,
-    "pos_on_page" : 6,
-    "language_bookname" : "Korak",
-    "concept" : "BACK",
+    "fullentry" : "F 1-pⁱr̃i adʌbi",
+    "startpage" : 20,
+    "pos_on_page" : 36,
+    "language_bookname" : "Pay",
+    "concept" : "THROAT",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "-birⁱnut",
-                "start" : 8,
-                "end" : 16
+                "string" : "-pⁱr̃i adʌbi",
+                "start" : 3,
+                "end" : 15
             },
             {
                 "type" : "pagelayout",
@@ -54,13 +54,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 3,
                 "end" : 3
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 8,
-                "end" : 8
             },
     ]
 })
@@ -97,18 +90,18 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "F 1-pⁱr̃i adʌbi",
-    "startpage" : 20,
-    "pos_on_page" : 36,
-    "language_bookname" : "Pay",
-    "concept" : "THROAT",
+    "fullentry" : "E 4Korak-birⁱnut",
+    "startpage" : 21,
+    "pos_on_page" : 6,
+    "language_bookname" : "Korak",
+    "concept" : "BACK",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "-pⁱr̃i adʌbi",
-                "start" : 3,
-                "end" : 15
+                "string" : "-birⁱnut",
+                "start" : 8,
+                "end" : 16
             },
             {
                 "type" : "pagelayout",
@@ -116,6 +109,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 3,
                 "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
             },
     ]
 })

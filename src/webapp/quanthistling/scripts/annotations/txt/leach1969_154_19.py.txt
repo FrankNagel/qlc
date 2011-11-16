@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "uunpón̈a – una clase de veneno para pescar (compuesto de la planta huaca, pijuayo y ají)",
+    "startpage" : 154,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uunpón̈a",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una clase de veneno para pescar (compuesto de la planta huaca, pijuayo y ají)",
+                "start" : 12,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "huaca",
+                "start" : 68,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pijuayo",
+                "start" : 75,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+    ]
+})

@@ -20,13 +20,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "No ocurre el pasivo",
-                "start" : 16,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "seijite",
                 "start" : 38,

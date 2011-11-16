@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "tocorúhyo – bujurqui (pez(",
+    "startpage" : 141,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tocorúhyo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bujurqui (pez)",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bujurqui",
+                "start" : 13,
+                "end" : 21
+            },
+    ]
+})

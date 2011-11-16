@@ -7,9 +7,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "i̵fomeì dme",
+                "string" : "i̵fomeì",
                 "start" : 0,
-                "end" : 12
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
@@ -35,14 +35,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Maì i̵fo",
+                "string" : "¡Maì i̵fo!",
                 "start" : 35,
                 "end" : 46
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "Váyase adelante",
+                "string" : "¡Váyase adelante!",
                 "start" : 47,
                 "end" : 65
             },

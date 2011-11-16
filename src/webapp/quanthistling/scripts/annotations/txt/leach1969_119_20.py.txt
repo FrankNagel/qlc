@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "man̈aañi – chirriclés – (loro chiquito)",
+    "startpage" : 119,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "man̈aañi",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chirriclés (loro chiquito)",
+                "start" : 12,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "chirriclés",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})

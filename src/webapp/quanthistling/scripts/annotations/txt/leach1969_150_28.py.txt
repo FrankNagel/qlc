@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "tyóhcotiohfo",
+    "startpage" : 150,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyóhcotiohfo",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

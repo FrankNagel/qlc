@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "¡xójoh! – ¡sobrino!",
+    "startpage" : 135,
+    "pos_on_page" : 49,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¡xójoh!",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¡sobrino!",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

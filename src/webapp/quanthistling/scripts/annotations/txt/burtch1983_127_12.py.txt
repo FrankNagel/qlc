@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(ser) hombre pecador",
-                "start" : 27,
+                "string" : "ser hombre pecador",
+                "start" : 28,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre pecador",
+                "start" : 33,
                 "end" : 47
             },
             {

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "tucán (ave)",
+    "startpage" : 117,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tucán (ave)",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

@@ -49,9 +49,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hombre de piel oscura o de raza negra (Tiene cierta significación del color negro.)",
+                "string" : "hombre de piel oscura o de raza negra",
                 "start" : 86,
-                "end" : 171
+                "end" : 123
             },
             {
                 "type" : "dictinterpretation",
