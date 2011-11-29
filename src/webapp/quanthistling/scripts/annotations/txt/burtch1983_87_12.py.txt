@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "especie de árbol que arde bien, llamado gasolina-caspi",
+                "string" : "especie de árbol que arde bien, llamado gasolina caspi",
                 "start" : 13,
                 "end" : 68
             },

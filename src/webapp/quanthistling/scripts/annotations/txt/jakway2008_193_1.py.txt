@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "paloma, especies de wampau, yampits, paum, yapagkam, tsamau (tsama) yampits, naintia yampits.",
+    "startpage" : 193,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de paloma",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wampau",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yampits",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paum",
+                "start" : 37,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yapagkam",
+                "start" : 43,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsamau (tsama) yampits",
+                "start" : 53,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "naintia yampits",
+                "start" : 77,
+                "end" : 93
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "paloma, especies de",
+                "start" : 0,
+                "end" : 19
+            },
+    ]
+})

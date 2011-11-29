@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "ardilla, especies de kunam, wichig, kunamtum.",
+    "startpage" : 136,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de ardilla",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kunam",
+                "start" : 20,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wichig",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kunamtum",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ardilla, especies de",
+                "start" : 0,
+                "end" : 20
+            },
+    ]
+})

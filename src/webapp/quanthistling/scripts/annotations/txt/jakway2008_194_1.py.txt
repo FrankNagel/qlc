@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "parado, estar wajaktasa, wajamu, wajat.",
+    "startpage" : 194,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "estar parado",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wajaktasa",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wajamu",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wajat",
+                "start" : 33,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "parado, estar",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

@@ -23,7 +23,7 @@ import functions
 
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation']
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="boundary"]
     for a in annotations:
         Session.delete(a)
     heads = []
@@ -98,7 +98,12 @@ def annotate_everything(entry):
             
 
     for i in range(len(head_starts)):
-        inserted_head = functions.insert_head(entry, head_starts[i], head_ends[i])
+        head = entry.fullentry[head_starts[i]:head_ends[i]]
+        match_boundary = re.match("- ?", head)
+        if match_boundary:
+            entry.append_annotation(head_starts[i], head_starts[i] + len(match_boundary.group(0)), u'boundary', u'dictinterpretation', u"morpheme boundary")
+            head = re.sub("^- ?", "", head)
+        inserted_head = functions.insert_head(entry, head_starts[i], head_ends[i], head)
         if inserted_head != None:
             heads.append(inserted_head)
         

@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "medio, en medio ajapen.",
+    "startpage" : 185,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "medio",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "en medio",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ajapen",
+                "start" : 15,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "medio, en medio",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

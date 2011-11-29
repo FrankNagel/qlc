@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "supuesto, por eeta.",
+    "startpage" : 212,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "por supuesto",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "eeta",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "supuesto, por",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "¿adónde?, ¿a dónde? ¿iturani?, ¿tui?",
+    "startpage" : 130,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "adónde",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "a dónde",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "iturani",
+                "start" : 21,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tui",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¿adónde?, ¿a dónde?",
+                "start" : 0,
+                "end" : 21
+            },
+    ]
+})

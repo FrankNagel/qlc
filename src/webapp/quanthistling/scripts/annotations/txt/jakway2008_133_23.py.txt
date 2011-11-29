@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "allí, por nukeyi.",
+    "startpage" : 133,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "por allí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nukeyi",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "allí, por",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "gusto, por antra.",
+    "startpage" : 171,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "por gusto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "antra",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gusto, por",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

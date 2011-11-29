@@ -14,30 +14,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mojojóis",
+                "string" : "mojojóis (C)",
                 "start" : 13,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 24,
-                "end" : 25
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "suri (larva comestible)",
+                "string" : "suri (P) (larva comestible)",
                 "start" : 28,
                 "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 34,
-                "end" : 35
             },
             {
                 "type" : "formatting",

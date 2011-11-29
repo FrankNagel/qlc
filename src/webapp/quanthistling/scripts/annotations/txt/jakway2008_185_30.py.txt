@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "mellizos, tener jimamratsa, jimamramu, jimamat.",
+    "startpage" : 185,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tener mellizos",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jimamratsa",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jimamramu",
+                "start" : 28,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jimamat",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mellizos, tener",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

@@ -14,9 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "(pl.)",
-                "start" : 9,
-                "end" : 14
+                "string" : "pl.",
+                "start" : 10,
+                "end" : 13
             },
             {
                 "type" : "pagelayout",

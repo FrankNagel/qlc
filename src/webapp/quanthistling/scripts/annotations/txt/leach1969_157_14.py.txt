@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "xavi__ – pequeño",
+    "startpage" : 157,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xavi",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pequeño",
+                "start" : 9,
+                "end" : 17
+            },
+    ]
+})

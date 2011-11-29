@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "í̵dí̵i̵noro s. el único; lo único.",
+    "startpage" : 64,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "í̵dí̵i̵noro",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el único",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo único",
+                "start" : 28,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "í̵dí̵i̵noro",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

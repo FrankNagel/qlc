@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "quieto, estar jasa ekemsatsa, jasa eketmau, jasa ekemat.",
+    "startpage" : 202,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "estar quieto",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jasa ekemsatsa",
+                "start" : 13,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jasa eketmau",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jasa ekemat",
+                "start" : 44,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "quieto, estar",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "dificultad en hacer algo, tener tujinkatsa, tujinkamu, tujinkat.",
+    "startpage" : 159,
+    "pos_on_page" : 39,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tener dificultad en hacer algo",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tujinkatsa",
+                "start" : 31,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tujinkamu",
+                "start" : 44,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tujinkat",
+                "start" : 55,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dificultad en hacer algo, tener",
+                "start" : 0,
+                "end" : 31
+            },
+    ]
+})

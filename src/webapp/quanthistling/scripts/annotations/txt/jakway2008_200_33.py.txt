@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "principio, en el nagkamchatin, nagkamchatinan.",
+    "startpage" : 200,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "en el principio",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nagkamchatin",
+                "start" : 16,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nagkamchatinan",
+                "start" : 31,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "principio, en el",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

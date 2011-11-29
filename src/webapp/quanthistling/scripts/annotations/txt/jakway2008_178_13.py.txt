@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "lagartija, especies de shampi, takarsa.",
+    "startpage" : 178,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de lagartija",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "shampi",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "takarsa",
+                "start" : 31,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lagartija, especies de",
+                "start" : 0,
+                "end" : 22
+            },
+    ]
+})

@@ -9,7 +9,14 @@ manual_entries.append({
                 "value" : "head",
                 "string" : "monhc",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",

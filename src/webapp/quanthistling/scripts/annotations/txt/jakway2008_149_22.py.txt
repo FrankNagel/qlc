@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "compañero, ser tsaniastasa, tsaniamu, tsanit.",
+    "startpage" : 149,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ser compañero",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsaniastasa",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsaniamu",
+                "start" : 29,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsanit",
+                "start" : 39,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "compañero, ser",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

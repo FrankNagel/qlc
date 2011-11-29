@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "ayuda, encontrar atukatsa, atukamu, atut.",
+    "startpage" : 138,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "encontrar ayuda",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atukatsa",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atukamu",
+                "start" : 27,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atut",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ayuda, encontrar",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

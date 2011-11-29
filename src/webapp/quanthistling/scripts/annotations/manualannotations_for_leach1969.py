@@ -205,6 +205,99 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "jahiin__ – adulto; anciano; viejo",
+    "startpage" : 105,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jahiin",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "adulto",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anciano",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "viejo",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jahíínja (pl.)",
+    "startpage" : 105,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jahíínja",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "jamiixo – carachama (P) (pez); pepa de chonta dura / pijuayo",
     "startpage" : 105,
     "pos_on_page" : 42,
@@ -219,16 +312,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "carachama (pez)",
+                "string" : "carachama (P) (pez)",
                 "start" : 10,
                 "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 20,
-                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
@@ -399,6 +485,71 @@ manual_entries.append({
                 "string" : "",
                 "start" : 22,
                 "end" : 22
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jan̈aa__ – dos",
+    "startpage" : 106,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jan̈aa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dos",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ján̈oon__ – vacío; desnudo",
+    "startpage" : 106,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ján̈oon",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vacío",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desnudo",
+                "start" : 21,
+                "end" : 28
             },
     ]
 })
@@ -680,9 +831,38 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "(pl.)",
-                "start" : 9,
+                "string" : "pl.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jonhtáánjin (pl.)",
+    "startpage" : 109,
+    "pos_on_page" : 44,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jonhtáánjin",
+                "start" : 0,
                 "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 15,
+                "end" : 18
             },
             {
                 "type" : "pagelayout",
@@ -780,6 +960,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "joojóñ̈onh (pl.)",
+    "startpage" : 111,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "joojóñ̈onh",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "joróóhdso – pajaracón (C) momoto (pájaro)",
     "startpage" : 112,
     "pos_on_page" : 19,
@@ -794,16 +1003,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pajaracón",
+                "string" : "pajaracón (C)",
                 "start" : 14,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 26,
-                "end" : 27
+                "end" : 28
             },
             {
                 "type" : "dictinterpretation",
@@ -868,6 +1070,63 @@ manual_entries.append({
                 "string" : "",
                 "start" : 0,
                 "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "joróónmo – derinero (C) (árbol)",
+    "startpage" : 112,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "joróónmo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derinero (árbol)",
+                "start" : 13,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C",
+                "start" : 23,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "derinero",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
             },
     ]
 })
@@ -951,30 +1210,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mojarra",
+                "string" : "mojarra (C)",
                 "start" : 11,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 20,
-                "end" : 21
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "bujurqui (pez)",
+                "string" : "bujurqui (P) (pez)",
                 "start" : 23,
                 "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 33,
-                "end" : 34
             },
             {
                 "type" : "formatting",
@@ -1025,6 +1270,128 @@ manual_entries.append({
                 "string" : "pl.",
                 "start" : 16,
                 "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "juhto__ – nuevo",
+    "startpage" : 113,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "juhto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nuevo",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jumoonxo – churuco (C) musmuqui (P) (mono)",
+    "startpage" : 114,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jumoonxo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "churuco (C)",
+                "start" : 11,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "musmuqui (P) (mono)",
+                "start" : 23,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "churuco",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "musmuqui",
+                "start" : 23,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jumoon (pl.)",
+    "startpage" : 114,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jumoon",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 8,
+                "end" : 11
             },
             {
                 "type" : "pagelayout",
@@ -1123,16 +1490,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cacacocán",
+                "string" : "cacacocán (C)",
                 "start" : 11,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 23,
-                "end" : 24
+                "end" : 25
             },
     ]
 })
@@ -1302,16 +1662,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pihuicho (pájaro)",
+                "string" : "pihuicho (P) (pájaro)",
                 "start" : 30,
                 "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 40,
-                "end" : 41
             },
             {
                 "type" : "formatting",
@@ -1388,30 +1741,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "palma de milpesillo",
+                "string" : "palma de milpesillo (C)",
                 "start" : 15,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 36,
-                "end" : 37
+                "end" : 38
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cinamilla",
+                "string" : "cinamilla (P)",
                 "start" : 40,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 51,
-                "end" : 52
+                "end" : 53
             },
             {
                 "type" : "formatting",
@@ -1587,9 +1926,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "(pl.)",
-                "start" : 18,
-                "end" : 23
+                "string" : "pl.",
+                "start" : 19,
+                "end" : 22
             },
             {
                 "type" : "pagelayout",
@@ -1616,30 +1955,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "tucho",
+                "string" : "tucho (C)",
                 "start" : 14,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 21,
-                "end" : 22
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sachashuyo (pez)",
+                "string" : "sachashuyo (P) (pez)",
                 "start" : 25,
                 "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 37,
-                "end" : 38
             },
             {
                 "type" : "formatting",
@@ -1718,7 +2043,14 @@ manual_entries.append({
                 "value" : "head",
                 "string" : "monhc",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
@@ -1775,14 +2107,28 @@ manual_entries.append({
                 "value" : "head",
                 "string" : "monhx",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "monh",
                 "start" : 10,
-                "end" : 14
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 14,
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
@@ -1894,6 +2240,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "moñaan̈ájinh – arriera, curuhuinse (P) (hormigas)",
+    "startpage" : 121,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "moñaan̈ájinh",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arriera",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "curuhuinse (hormigas)",
+                "start" : 26,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 38,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "curuhuinse",
+                "start" : 26,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "móónhsa (pl.)",
     "startpage" : 121,
     "pos_on_page" : 46,
@@ -1918,6 +2349,135 @@ manual_entries.append({
                 "string" : "",
                 "start" : 0,
                 "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "moonno – agutí pequeño, punchana (P) (roedor)",
+    "startpage" : 121,
+    "pos_on_page" : 50,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "moonno",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agutí pequeño",
+                "start" : 9,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "punchana (roedor)",
+                "start" : 26,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 36,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "punchana",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "monnoo (pl.)",
+    "startpage" : 121,
+    "pos_on_page" : 51,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monnoo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "monhto / mon__ – ustedes",
+    "startpage" : 121,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monhto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mon",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 12,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ustedes",
+                "start" : 17,
+                "end" : 24
             },
     ]
 })
@@ -2213,9 +2773,116 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "(pl.)",
-                "start" : 15,
+                "string" : "pl.",
+                "start" : 16,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "najiinco – arriera, curuhuinse (P) (hormiga brava)",
+    "startpage" : 124,
+    "pos_on_page" : 39,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "najiinco",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arriera",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "curuhuinse (p) (hormiga brava)",
+                "start" : 20,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "̃curuhuinse",
+                "start" : 20,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 20,
                 "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "najiinhta (pl.)",
+    "startpage" : 124,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "najiinhta",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 11,
+                "end" : 14
             },
             {
                 "type" : "pagelayout",
@@ -2335,6 +3002,42 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "nuuñ̈o__ – costumbre; por",
+    "startpage" : 127,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuuñ̈o",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "costumbre",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por",
+                "start" : 23,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ñahúúnhcojo – masa de canagucho (C), de aguaje (P)",
     "startpage" : 127,
     "pos_on_page" : 42,
@@ -2349,30 +3052,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "masa de canagucho",
+                "string" : "masa de canagucho (C)",
                 "start" : 17,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 36,
-                "end" : 37
+                "end" : 38
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "de aguaje",
+                "string" : "de aguaje (P)",
                 "start" : 40,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 51,
-                "end" : 52
+                "end" : 53
             },
             {
                 "type" : "formatting",
@@ -2519,30 +3208,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mojojóis",
+                "string" : "mojojóis (C)",
                 "start" : 13,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 24,
-                "end" : 25
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "suri (larva comestible)",
+                "string" : "suri (P) (larva comestible)",
                 "start" : 28,
                 "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 34,
-                "end" : 35
             },
             {
                 "type" : "formatting",
@@ -2604,6 +3279,133 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "obaanco – palma de milpeso (C), ungurahui (P) seje (se saca aceite de la pepa)",
+    "startpage" : 131,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "obaanco",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palma de milpeso (C)",
+                "start" : 10,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ungurahui (P)",
+                "start" : 32,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "seje (se saca aceite de la pepa)",
+                "start" : 46,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "palma",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "de",
+                "start" : 16,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "milpeso",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ungurahui",
+                "start" : 32,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "obaan (pl.)",
     "startpage" : 131,
     "pos_on_page" : 29,
@@ -2654,6 +3456,129 @@ manual_entries.append({
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "ohoo__ – cola",
+    "startpage" : 132,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ohoo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cola",
+                "start" : 9,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ojóón__ – joven; juventud",
+    "startpage" : 132,
+    "pos_on_page" : 50,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ojóón",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "joven",
+                "start" : 12,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "juventud",
+                "start" : 19,
+                "end" : 27
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tyáhojuudsóhu (D)",
+    "startpage" : 133,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyáhojuudsóhu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Dialecto dyohxaya de Ocaina",
+                "start" : 16,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ojooncótoh (pl.)",
+    "startpage" : 133,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ojooncótoh",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
 
 manual_entries.append({
     "fullentry" : "oojo – sobrino (así les nombran las mujeres; pero los hombres solamente al hijo de su hermano)",
@@ -2775,17 +3700,17 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¡xójoh!",
-                "start" : 0,
-                "end" : 8
+                "value" : "head",
+                "string" : "xójoh",
+                "start" : 1,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¡sobrino!",
-                "start" : 11,
-                "end" : 20
+                "value" : "translation",
+                "string" : "sobrino",
+                "start" : 12,
+                "end" : 19
             },
             {
                 "type" : "pagelayout",
@@ -2815,6 +3740,177 @@ manual_entries.append({
                 "string" : "pl.",
                 "start" : 13,
                 "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "óóruñ̈onh (pl.)",
+    "startpage" : 136,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "óóruñ̈onh",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "orootyo – nigua, pique; picarón (C) cunchi (P) (pez)",
+    "startpage" : 137,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "orootyo",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nigua",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pique",
+                "start" : 17,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "picarón",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C",
+                "start" : 34,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cunchi (pez)",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 45,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "picarón",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cunchi",
+                "start" : 37,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "oroo (pl.)",
+    "startpage" : 137,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "oroo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 6,
+                "end" : 9
             },
             {
                 "type" : "pagelayout",
@@ -2992,30 +4088,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mojarra",
+                "string" : "mojarra (C)",
                 "start" : 22,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 31,
-                "end" : 32
+                "end" : 33
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "bujurqui (pez)",
+                "string" : "bujurqui (P) (pez)",
                 "start" : 35,
                 "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 45,
-                "end" : 46
             },
             {
                 "type" : "formatting",
@@ -3099,7 +4181,7 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "̈játun̈anjínxa – salió del baile",
+    "fullentry" : "játun̈anjínxa – salió del baile",
     "startpage" : 143,
     "pos_on_page" : 30,
     "annotations" : [
@@ -3163,16 +4245,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sumileoncito (mono)",
+                "string" : "sumileoncito (C) (mono)",
                 "start" : 18,
                 "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 31,
-                "end" : 34
             },
             {
                 "type" : "dictinterpretation",
@@ -3251,6 +4326,163 @@ manual_entries.append({
                 "string" : "pl.",
                 "start" : 17,
                 "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsiija – callampas; oreja de palo (C) (hongos)",
+    "startpage" : 144,
+    "pos_on_page" : 47,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsiija",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "callampas",
+                "start" : 9,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oreja de palo (hongos)",
+                "start" : 20,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C",
+                "start" : 35,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "oreja",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "de",
+                "start" : 26,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "palo",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsiixo (sg.)",
+    "startpage" : 144,
+    "pos_on_page" : 48,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsiixo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "sg.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsiiyiná (pl.)",
+    "startpage" : 145,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsiiyiná",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 11,
+                "end" : 14
             },
             {
                 "type" : "pagelayout",
@@ -3392,23 +4624,158 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tyafúúdyo – machimango (P) (árbol) (de la corteza se hacen canastas poco durables)",
+    "startpage" : 148,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyafúúdyo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "machimango (árbol) (de la corteza se hacen canastas poco durables)",
+                "start" : 14,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 26,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "machimango",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tyah__ – ésa; ése",
+    "startpage" : 148,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyah",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ésa",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ése",
+                "start" : 15,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "¡xomuxó tyatyohsá oon! – ¡no lo olvide!",
     "startpage" : 149,
     "pos_on_page" : 28,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¡xomuxó tyatyohsá oon!",
-                "start" : 0,
-                "end" : 24
+                "value" : "head",
+                "string" : "xomuxó tyatyohsá oon",
+                "start" : 1,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¡no lo olvide!",
-                "start" : 27,
-                "end" : 41
+                "value" : "translation",
+                "string" : "no lo olvide",
+                "start" : 28,
+                "end" : 40
             },
             {
                 "type" : "pagelayout",
@@ -3603,6 +4970,120 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tyoróhxoñ̈onh (pl.)",
+    "startpage" : 150,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyoróhxoñ̈onh",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "uhxóóya – guansoco (C), leche caspi (P) (árbol)",
+    "startpage" : 151,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uhxóóya",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guansoco",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C",
+                "start" : 22,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "leche caspi (árbol)",
+                "start" : 26,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 39,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "guansoco",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "leche",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "caspi",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "úm̈ooncho num̈á (pl.)",
     "startpage" : 151,
     "pos_on_page" : 32,
@@ -3788,6 +5269,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "uu__ / aa__ / aaji III (b) – venir",
+    "startpage" : 153,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 2,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aa",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aaji",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "III (b)",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "venir",
+                "start" : 29,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "uum̈a / um̈á__ / uum̈ája – ellos (m.d.)",
     "startpage" : 153,
     "pos_on_page" : 42,
@@ -3802,8 +5361,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "um̈á__",
+                "string" : "um̈á",
                 "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 13,
                 "end" : 15
             },
             {
@@ -3909,6 +5475,70 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "uuca / ucá__ / uucája – ellas (f.d.)",
+    "startpage" : 153,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uuca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ucá",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uucája",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ellas (f.d.)",
+                "start" : 26,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "uunpón̈a – una clase de veneno para pescar (compuesto de la planta huaca, pijuayo y ají)",
     "startpage" : 154,
     "pos_on_page" : 19,
@@ -4008,6 +5638,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "úúsa; jáá__; jari (D) – ellos; ellas",
+    "startpage" : 154,
+    "pos_on_page" : 43,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "úúsa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jáá",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jari",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Dialecto dyohxaya de Ocaina",
+                "start" : 22,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ellos",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ellas",
+                "start" : 35,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "úvaaja – hongos, oreja de palo (C)",
     "startpage" : 154,
     "pos_on_page" : 50,
@@ -4029,16 +5737,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "oreja de palo",
+                "string" : "oreja de palo (C)",
                 "start" : 18,
-                "end" : 32
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 33,
-                "end" : 34
+                "end" : 35
             },
             {
                 "type" : "formatting",
@@ -4254,6 +5955,13 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "nosotras",
                 "start" : 15,
@@ -4448,6 +6156,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "xavi__ – pequeño",
+    "startpage" : 157,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xavi",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pequeño",
+                "start" : 9,
+                "end" : 17
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "xo – me (objeto); nosotros (m.d.) (sujeto)",
     "startpage" : 157,
     "pos_on_page" : 49,
@@ -4612,30 +6349,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "canagucho",
+                "string" : "canagucho (C)",
                 "start" : 12,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 23,
-                "end" : 24
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "aguaje (palmera)",
+                "string" : "aguaje (P) (palmera)",
                 "start" : 27,
                 "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 35,
-                "end" : 36
             },
             {
                 "type" : "formatting",
@@ -4719,30 +6442,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "canaguchal",
+                "string" : "canaguchal (C)",
                 "start" : 14,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 26,
-                "end" : 27
+                "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "aguajal (pantano donde hay aguajes)",
+                "string" : "aguajal (P) (pantano donde hay aguajes)",
                 "start" : 30,
                 "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 39,
-                "end" : 40
             },
             {
                 "type" : "formatting",
@@ -4875,6 +6584,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "xonajín (pl.)",
+    "startpage" : 159,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xonajín",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "xox__ / xo__ / xoxo – nosotros; nos (m.d.)",
     "startpage" : 161,
     "pos_on_page" : 22,
@@ -4884,14 +6622,28 @@ manual_entries.append({
                 "value" : "head",
                 "string" : "xox",
                 "start" : 0,
-                "end" : 3
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 3,
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "xo",
                 "start" : 8,
-                "end" : 10
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 10,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
@@ -5216,6 +6968,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "aa__ / uu__ / aaji III (b) – venir",
+    "startpage" : 67,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 2,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uu",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aaji",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "III (b)",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "venir",
+                "start" : 29,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ááhxo – suguigui negro (C) tocón (P), (mono)",
     "startpage" : 67,
     "pos_on_page" : 38,
@@ -5230,29 +7060,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "suguigui negro",
+                "string" : "suguigui negro (C)",
                 "start" : 10,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 25,
                 "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "tocón",
+                "string" : "tocón (P)",
                 "start" : 29,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 36,
                 "end" : 39
             },
             {
@@ -5373,6 +7189,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "¡áán tyajánjinh! – ¡oh, así!",
+    "startpage" : 68,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "áán tyajánjinh",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oh así",
+                "start" : 23,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "aam̈i – micolunudo (C), chosna (P), (mono)",
     "startpage" : 68,
     "pos_on_page" : 3,
@@ -5387,29 +7253,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "micolunudo",
+                "string" : "micolunudo (C)",
                 "start" : 8,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 19,
                 "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "chosna",
+                "string" : "chosna (P)",
                 "start" : 24,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 31,
                 "end" : 34
             },
             {
@@ -5468,6 +7320,35 @@ manual_entries.append({
                 "string" : "pl.",
                 "start" : 13,
                 "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "acááyiñ̈onh (pl.)",
+    "startpage" : 70,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acááyiñ̈onh",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 16,
+                "end" : 19
             },
             {
                 "type" : "pagelayout",
@@ -5551,16 +7432,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "tocopí",
+                "string" : "tocopí (P)",
                 "start" : 41,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 50,
-                "end" : 51
+                "end" : 52
             },
             {
                 "type" : "formatting",
@@ -5608,30 +7482,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mafala",
+                "string" : "mafala (C)",
                 "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 18,
-                "end" : 19
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "huitina (tubérculo comestible)",
+                "string" : "huitina (P) (tubérculo comestible)",
                 "start" : 21,
                 "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 30,
-                "end" : 31
             },
             {
                 "type" : "formatting",
@@ -5745,6 +7605,155 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "am̈oonxo – conga (C) ísula (P) (hormiga feroz); especie de pez muy pequeño",
+    "startpage" : 72,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "am̈oonxo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conga",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C",
+                "start" : 18,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ísula (hormiga feroz)",
+                "start" : 21,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 29,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "especie de pez muy pequeño",
+                "start" : 49,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ísula",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "am̈oonja (pl.)",
+    "startpage" : 72,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "am̈oonja",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "am̈uuro – huitina, mafala (C) (planta)",
     "startpage" : 72,
     "pos_on_page" : 8,
@@ -5766,16 +7775,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mafala (planta)",
+                "string" : "mafala (C) (planta)",
                 "start" : 19,
                 "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 27,
-                "end" : 28
             },
             {
                 "type" : "formatting",
@@ -5804,6 +7806,191 @@ manual_entries.append({
                 "string" : "",
                 "start" : 26,
                 "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "atóónmojoma – mojojóis (C) suri (P) (larvas comestibles que viven en algunas palmeras)",
+    "startpage" : 73,
+    "pos_on_page" : 41,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atóónmojoma",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mojojóis",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C",
+                "start" : 27,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suri (larvas comestibles que viven en algunas palmeras)",
+                "start" : 30,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "P",
+                "start" : 36,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mojojóis",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "suri",
+                "start" : 30,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "atóónmojonh (pl.)",
+    "startpage" : 73,
+    "pos_on_page" : 42,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atóónmojonh",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "atyo__ – centro; medio",
+    "startpage" : 74,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atyo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "centro",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "medio",
+                "start" : 17,
+                "end" : 22
             },
     ]
 })
@@ -6002,6 +8189,49 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "bahí__ – este, esta; éste",
+    "startpage" : 76,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bahí",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "este",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esta",
+                "start" : 16,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "éste",
+                "start" : 22,
+                "end" : 27
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "bióóhxa– – fariña (granulada hecha de yuca)",
     "startpage" : 77,
     "pos_on_page" : 22,
@@ -6040,6 +8270,35 @@ manual_entries.append({
                 "string" : "",
                 "start" : 32,
                 "end" : 32
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "bu__ – este",
+    "startpage" : 79,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 2,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "este",
+                "start" : 7,
+                "end" : 11
             },
     ]
 })
@@ -6208,6 +8467,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "carááhta (pl.)",
+    "startpage" : 81,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "carááhta",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "cayójoho – loro-machacuy# (víbora)",
     "startpage" : 81,
     "pos_on_page" : 27,
@@ -6272,30 +8560,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cucusa",
+                "string" : "cucusa (C)",
                 "start" : 14,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 22,
-                "end" : 23
+                "end" : 24
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "isango",
+                "string" : "isango (P)",
                 "start" : 25,
-                "end" : 32
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 33,
-                "end" : 34
+                "end" : 35
             },
             {
                 "type" : "formatting",
@@ -6502,6 +8776,64 @@ manual_entries.append({
                 "string" : "",
                 "start" : 19,
                 "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dsiro__ – allí",
+    "startpage" : 83,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsiro",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "allí",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "¿dso__? – ¿cuál? ",
+    "startpage" : 83,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dso",
+                "start" : 1,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuál",
+                "start" : 10,
+                "end" : 18
             },
     ]
 })
@@ -6820,30 +9152,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mojojóis",
+                "string" : "mojojóis (C)",
                 "start" : 15,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 26,
-                "end" : 27
+                "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "suri (larva que vive en una palmera)",
+                "string" : "suri (P) (larva que vive en una palmera)",
                 "start" : 29,
                 "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 35,
-                "end" : 36
             },
             {
                 "type" : "formatting",
@@ -6900,6 +9218,35 @@ manual_entries.append({
                 "string" : "",
                 "start" : 49,
                 "end" : 49
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dyaa__ – palos",
+    "startpage" : 85,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyaa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palos",
+                "start" : 9,
+                "end" : 14
             },
     ]
 })
@@ -7041,16 +9388,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "picón",
+                "string" : "picón (C)",
                 "start" : 15,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 23,
-                "end" : 24
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
@@ -7062,16 +9402,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cunchi (pez)",
+                "string" : "cunchi (P) (pez)",
                 "start" : 33,
                 "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 41,
-                "end" : 42
             },
             {
                 "type" : "formatting",
@@ -7148,30 +9481,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pilar",
+                "string" : "pilar (C)",
                 "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 18,
-                "end" : 19
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "norcón",
+                "string" : "norcón (P)",
                 "start" : 21,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 30,
-                "end" : 31
+                "end" : 32
             },
             {
                 "type" : "pagelayout",
@@ -7387,6 +9706,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "dyoodsa jumoonxo – tití, mico león (C), leoncito (mono)",
+    "startpage" : 89,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyoodsa jumoonxo",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tití",
+                "start" : 19,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mico león (C)",
+                "start" : 26,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "leoncito (mono)",
+                "start" : 42,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "dyoúúna III – picar (plantas; insectos); dar comezón",
     "startpage" : 90,
     "pos_on_page" : 33,
@@ -7496,6 +9900,64 @@ manual_entries.append({
                 "string" : "sembrar",
                 "start" : 14,
                 "end" : 21
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "faagúñ̈onh (pl.)",
+    "startpage" : 92,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "faagúñ̈onh",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dyuxa__ – brazo",
+    "startpage" : 92,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyuxa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brazo",
+                "start" : 10,
+                "end" : 15
             },
     ]
 })
@@ -7708,16 +10170,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "corvina (pez)",
+                "string" : "corvina (P) (pez)",
                 "start" : 11,
                 "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 19,
-                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
@@ -7845,6 +10300,92 @@ manual_entries.append({
                 "string" : "",
                 "start" : 28,
                 "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "fuxón (pl.)",
+    "startpage" : 99,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fuxón",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "fuuxo__ – algo hecho de fierro (metal)",
+    "startpage" : 99,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fuuxo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "algo hecho de fierro (metal)",
+                "start" : 10,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
             },
     ]
 })

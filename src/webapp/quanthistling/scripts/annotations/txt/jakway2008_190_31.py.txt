@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "ocupado, estar umikchatsa, umikchamu, umikchat.",
+    "startpage" : 190,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "estar ocupado",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "umikchatsa",
+                "start" : 14,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "umikchamu",
+                "start" : 27,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "umikchat",
+                "start" : 38,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ocupado, estar",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

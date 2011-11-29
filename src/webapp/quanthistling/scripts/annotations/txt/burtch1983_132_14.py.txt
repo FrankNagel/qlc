@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "un clan en el río Cara-Paraná de dialecto mi̵ca",
+                "string" : "un clan en el río Cara Paraná de dialecto mi̵ca",
                 "start" : 15,
                 "end" : 64
             },

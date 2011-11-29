@@ -35,8 +35,8 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ana-caspi",
-                "start" : 35,
+                "string" : "ana caspi",
+                "start" : 36,
                 "end" : 45
             },
             {

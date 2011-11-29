@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "hongo comestible, especies de mugkura, mukush, eesem.",
+    "startpage" : 173,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de hongo comestible",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mugkura",
+                "start" : 29,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mukush",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "eesem",
+                "start" : 47,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hongo comestible, especies de",
+                "start" : 0,
+                "end" : 29
+            },
+    ]
+})

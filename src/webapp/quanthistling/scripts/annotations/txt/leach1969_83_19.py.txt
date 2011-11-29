@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "dsiro__ – allí",
+    "startpage" : 83,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsiro",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "allí",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})

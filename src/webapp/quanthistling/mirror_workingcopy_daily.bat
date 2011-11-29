@@ -3,7 +3,7 @@ set PATH=%PATH%;c:\Program Files (x86)\PostgreSQL\8.4\bin;c:\Program Files (x86)
 
 cd %QUANTHISTLINGPATH%
 python scripts/export_all_static_data_daily.py development.ini
-scripts/exportcsv.bat
+call scripts/exportcsv.bat
 
 cd %QUANTHISTLINGPATH%\quanthistling\public\downloads
 call pg_dump.exe -h localhost -U postgres -c quanthistling > pgdump_quanthistling.sql

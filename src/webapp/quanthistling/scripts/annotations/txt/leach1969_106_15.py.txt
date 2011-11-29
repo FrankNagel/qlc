@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "jan̈aa__ – dos",
+    "startpage" : 106,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jan̈aa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dos",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

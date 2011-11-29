@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "botar al agua una canoa, una balsa o un tronco y hacerlos bajar por el río ajekratsa, ajekeamu, ajekat.",
+    "startpage" : 141,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "botar al agua una canoa y hacerlos bajar por el río",
+                "start" : 0,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "botar al agua una balsa y hacerlos bajar por el río",
+                "start" : 0,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "botar al agua un tronco y hacerlos bajar por el río",
+                "start" : 0,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ajekratsa",
+                "start" : 75,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ajekeamu",
+                "start" : 87,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ajekat",
+                "start" : 97,
+                "end" : 104
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "botar al agua una canoa, una balsa o un tronco y hacerlos bajar por el río",
+                "start" : 0,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

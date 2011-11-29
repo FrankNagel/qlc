@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "banda, la amain, amainin.",
+    "startpage" : 139,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "la banda",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amain",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amainin",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "banda, la",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "tarántula, especie de washi tsere, washi tseren.",
+    "startpage" : 213,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especie de tarántula",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "washi tsere",
+                "start" : 22,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "washi tseren",
+                "start" : 36,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tarántula, especie de",
+                "start" : 0,
+                "end" : 22
+            },
+    ]
+})

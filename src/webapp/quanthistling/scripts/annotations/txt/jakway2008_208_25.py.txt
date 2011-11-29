@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "seguida, en turamuik; patatkauk.",
+    "startpage" : 208,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "en seguida",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "turamuik",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "patatkauk",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "seguida, en",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

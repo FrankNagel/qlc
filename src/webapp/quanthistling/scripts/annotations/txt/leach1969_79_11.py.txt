@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "bu__ – este",
+    "startpage" : 79,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 2,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "este",
+                "start" : 7,
+                "end" : 11
+            },
+    ]
+})

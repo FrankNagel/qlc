@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "dyuxa__ – brazo",
+    "startpage" : 92,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyuxa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brazo",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})

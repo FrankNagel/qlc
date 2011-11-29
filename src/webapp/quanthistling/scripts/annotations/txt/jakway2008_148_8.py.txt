@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "clueca, estar teketatsa, teketeamu, teketat.",
+    "startpage" : 148,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "estar clueca",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "teketatsa",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "teketeamu",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "teketat",
+                "start" : 36,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "clueca, estar",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

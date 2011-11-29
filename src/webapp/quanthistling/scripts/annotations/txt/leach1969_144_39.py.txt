@@ -14,16 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sumileoncito (mono)",
+                "string" : "sumileoncito (C) (mono)",
                 "start" : 18,
                 "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 31,
-                "end" : 34
             },
             {
                 "type" : "dictinterpretation",

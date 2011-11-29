@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "ohoo__ – cola",
+    "startpage" : 132,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ohoo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cola",
+                "start" : 9,
+                "end" : 13
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "garza, especies de taanta, uun taanta, napiunturu.",
+    "startpage" : 170,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de garza",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "taanta",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uun taanta",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "napiunturu",
+                "start" : 39,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "garza, especies de",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})

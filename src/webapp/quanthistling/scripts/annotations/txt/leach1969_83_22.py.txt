@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "¿dso__? – ¿cuál? ",
+    "startpage" : 83,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dso",
+                "start" : 1,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuál",
+                "start" : 10,
+                "end" : 18
+            },
+    ]
+})

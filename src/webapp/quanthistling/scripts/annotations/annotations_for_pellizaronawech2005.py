@@ -24,7 +24,7 @@ import functions
     
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=="head"]
     for a in head_annotations:
         Session.delete(a)
     
@@ -62,21 +62,41 @@ def annotate_head(entry):
                 start = start + match.end(0)
 
     if end > 0:
+        substr = entry.fullentry[start:end]
+        match_stratum = re.search("\(del (?:cast\.|quechua)\) ?$", substr)
+        if match_stratum:
+            end = end - len(match_stratum.group(0))
+            substr = entry.fullentry[start:end]
+            if "quechua" in match_stratum.group(0):
+                entry.append_annotation(start + match_stratum.start(0), end, u"stratum", u"dictinterpretation", u"Quechua")
+            else:
+                entry.append_annotation(start + match_stratum.start(0), end, u"stratum", u"dictinterpretation", u"Spanish")
+            
         s = start
-        for match in re.finditer(u"(?:\)?[,;] ?| ?\(|\)? ?$)", entry.fullentry[start:end]):
-            e = start + match.start(0)
-            # remove brackets
-            string = entry.fullentry[s:e]
-            if re.match(u"\(", string) and re.search(u"\)$", string) and not re.search(u"[\(\)]", string[1:-1]):
-                s = s + 1
-                e = e - 1
+        for match in re.finditer(u"(?:\)?[,;] ?| ?\(|\)? ?$)", substr):
+            mybreak = False
+            # are we in a bracket?
+            for m in re.finditer(r'\([^)]*\)', substr):
+                #print m.start(0)
+                #print match.start(0)
+                if match.start(0) >= m.start(0) and match.end(0) <= m.end(0):
+                    mybreak = True
                 
-            # remove hyphens
-            head = re.sub(u"[\-\-]", u"", entry.fullentry[s:e])
-            inserted_head = functions.insert_head(entry, s, e, head)
-            if inserted_head != None:
-                heads.append(inserted_head)
-            s = start + match.end(0)
+            if not mybreak:
+                e = start + match.start(0)
+                # remove brackets
+                string = entry.fullentry[s:e]
+                if re.match(u"\(", string) and re.search(u"\)$", string) and not re.search(u"[\(\)]", string[1:-1]):
+                    s = s + 1
+                    e = e - 1
+                    
+                # remove hyphens
+                head = re.sub(u"[¿?¡!]", u"", entry.fullentry[s:e])
+                #head = re.sub(u"[\-\-]", u"", entry.fullentry[s:e])
+                inserted_head = functions.insert_head(entry, s, e, head)
+                if inserted_head != None:
+                    heads.append(inserted_head)
+                s = start + match.end(0)
 
     if len(heads) == 0:
         print "no head found for entry: " + entry.fullentry.encode('utf-8')

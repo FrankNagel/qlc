@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "arbusto, especie de untukar.",
+    "startpage" : 136,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especie de arbusto",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "untukar",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "arbusto, especie de",
+                "start" : 0,
+                "end" : 19
+            },
+    ]
+})

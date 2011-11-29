@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "asado, bien tsarutsrutu.",
+    "startpage" : 136,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bien asado",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsarutsrutu",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "asado, bien",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

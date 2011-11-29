@@ -21,16 +21,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "oreja de palo",
+                "string" : "oreja de palo (C)",
                 "start" : 18,
-                "end" : 32
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 33,
-                "end" : 34
+                "end" : 35
             },
             {
                 "type" : "formatting",

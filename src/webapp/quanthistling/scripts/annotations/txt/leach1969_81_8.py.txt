@@ -14,30 +14,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cucusa",
+                "string" : "cucusa (C)",
                 "start" : 14,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 22,
-                "end" : 23
+                "end" : 24
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "isango",
+                "string" : "isango (P)",
                 "start" : 25,
-                "end" : 32
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 33,
-                "end" : 34
+                "end" : 35
             },
             {
                 "type" : "formatting",

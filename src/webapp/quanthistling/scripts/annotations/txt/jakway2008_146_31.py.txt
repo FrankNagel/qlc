@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "celos, tener akasmaktasa, akasmamu, akasmat.",
+    "startpage" : 146,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tener celos",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "akasmaktasa",
+                "start" : 12,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "akasmamu",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "akasmat",
+                "start" : 36,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "celos, tener",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

@@ -14,16 +14,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "¡vámonos ahora!",
-                "start" : 8,
-                "end" : 24
+                "string" : "vámonos ahora",
+                "start" : 9,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "¡listo!",
-                "start" : 25,
-                "end" : 32
+                "string" : "listo",
+                "start" : 26,
+                "end" : 31
             },
             {
                 "type" : "dictinterpretation",

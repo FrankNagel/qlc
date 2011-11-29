@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "tsamau (tsama) paani, tsamau (tsama) paanin especie de pez de cuello colorado, más pequeño que la piraña.",
+    "startpage" : 102,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsamau paani",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsama paani",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsamau paanin",
+                "start" : 22,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsama paanin",
+                "start" : 30,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "especie de pez de cuello colorado más pequeño que la piraña",
+                "start" : 44,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsamau (tsama) paani, tsamau (tsama) paanin",
+                "start" : 0,
+                "end" : 43
+            },
+    ]
+})

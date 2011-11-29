@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "̈játun̈anjínxa – salió del baile",
+    "fullentry" : "játun̈anjínxa – salió del baile",
     "startpage" : 143,
     "pos_on_page" : 30,
     "annotations" : [

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "foto, fotografía nakumkartutai, nakumkartutain.",
+    "startpage" : 168,
+    "pos_on_page" : 41,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "foto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fotografía",
+                "start" : 6,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nakumkartutai",
+                "start" : 17,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nakumkartutain",
+                "start" : 33,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "foto, fotografía",
+                "start" : 0,
+                "end" : 17
+            },
+    ]
+})

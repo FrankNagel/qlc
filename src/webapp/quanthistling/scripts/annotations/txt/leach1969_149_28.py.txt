@@ -6,17 +6,17 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¡xomuxó tyatyohsá oon!",
-                "start" : 0,
-                "end" : 24
+                "value" : "head",
+                "string" : "xomuxó tyatyohsá oon",
+                "start" : 1,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¡no lo olvide!",
-                "start" : 27,
-                "end" : 41
+                "value" : "translation",
+                "string" : "no lo olvide",
+                "start" : 28,
+                "end" : 40
             },
             {
                 "type" : "pagelayout",

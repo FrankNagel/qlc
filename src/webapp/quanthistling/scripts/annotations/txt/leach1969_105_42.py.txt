@@ -14,16 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "carachama (pez)",
+                "string" : "carachama (P) (pez)",
                 "start" : 10,
                 "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 20,
-                "end" : 23
             },
             {
                 "type" : "dictinterpretation",

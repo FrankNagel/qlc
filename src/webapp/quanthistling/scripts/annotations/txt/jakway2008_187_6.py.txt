@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "minga, hacer tuarkatsa, tuarkamu, tuarat.",
+    "startpage" : 187,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer minga",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tuarkatsa",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tuarkamu",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tuarat",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "minga, hacer",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

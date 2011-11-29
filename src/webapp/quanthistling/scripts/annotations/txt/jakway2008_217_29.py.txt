@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "tu-huayo (especie de ave) sukuya, sukuyan.",
+    "startpage" : 217,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tu huayo (especie de ave)",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 2,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sukuya",
+                "start" : 25,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sukuyan",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tu-huayo (especie de ave)",
+                "start" : 0,
+                "end" : 25
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "exacto, exactamente nekaseg; metek.",
+    "startpage" : 167,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "exacto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "exactamente",
+                "start" : 8,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nekaseg",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "metek",
+                "start" : 29,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "exacto, exactamente",
+                "start" : 0,
+                "end" : 19
+            },
+    ]
+})

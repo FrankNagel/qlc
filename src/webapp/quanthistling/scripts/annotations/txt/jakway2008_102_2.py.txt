@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "tsamau (tsama) yampits, tsamau (tsama) yampitsan especie de paloma de color rojo.",
+    "startpage" : 102,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsamau yampits",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsama yampits",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsamau yampitsan",
+                "start" : 24,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsama yampitsan",
+                "start" : 32,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "especie de paloma de color rojo",
+                "start" : 48,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsamau (tsama) yampits, tsamau (tsama) yampitsan",
+                "start" : 0,
+                "end" : 48
+            },
+    ]
+})

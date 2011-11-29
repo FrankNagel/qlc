@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "cangrejo, especies de urik, chugka, kusuch.",
+    "startpage" : 144,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de cangrejo",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "urik",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chugka",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kusuch",
+                "start" : 36,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cangrejo, especies de",
+                "start" : 0,
+                "end" : 21
+            },
+    ]
+})

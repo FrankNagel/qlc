@@ -28,16 +28,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pihuicho (pájaro)",
+                "string" : "pihuicho (P) (pájaro)",
                 "start" : 30,
                 "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 40,
-                "end" : 41
             },
             {
                 "type" : "formatting",

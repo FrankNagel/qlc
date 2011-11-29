@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "dieta, guardar ijarmaktasa, ijarmamu, ijarmat.",
+    "startpage" : 159,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "guardar dieta",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ijarmaktasa",
+                "start" : 14,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ijarmamu",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ijarmat",
+                "start" : 38,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dieta, guardar",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

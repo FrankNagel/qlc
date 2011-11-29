@@ -6,17 +6,17 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¡xójoh!",
-                "start" : 0,
-                "end" : 8
+                "value" : "head",
+                "string" : "xójoh",
+                "start" : 1,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¡sobrino!",
-                "start" : 11,
-                "end" : 20
+                "value" : "translation",
+                "string" : "sobrino",
+                "start" : 12,
+                "end" : 19
             },
             {
                 "type" : "pagelayout",

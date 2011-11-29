@@ -14,16 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "corvina (pez)",
+                "string" : "corvina (P) (pez)",
                 "start" : 11,
                 "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 19,
-                "end" : 22
             },
             {
                 "type" : "dictinterpretation",

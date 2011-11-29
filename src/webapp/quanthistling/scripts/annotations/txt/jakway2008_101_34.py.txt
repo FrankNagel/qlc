@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "tsamau (tsama) namukmau, tsamau (tsama) namukmaun chapo (bebida hecha de plátanos maduros).",
+    "startpage" : 101,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsamau namukmau",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsama namukmau",
+                "start" : 8,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsamau namukmaun",
+                "start" : 25,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsama namukmaun",
+                "start" : 33,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chapo (bebida hecha de plátanos maduros)",
+                "start" : 49,
+                "end" : 92
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsamau (tsama) namukmau, tsamau (tsama) namukmaun",
+                "start" : 0,
+                "end" : 49
+            },
+    ]
+})

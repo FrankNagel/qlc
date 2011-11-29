@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "siesta, dormir la iyamratasa, iyameamu, iyamat.",
+    "startpage" : 209,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dormir la siesta",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "iyamratasa",
+                "start" : 17,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "iyameamu",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "iyamat",
+                "start" : 40,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "siesta, dormir la",
+                "start" : 0,
+                "end" : 17
+            },
+    ]
+})

@@ -20,6 +20,13 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "nosotras",
                 "start" : 15,

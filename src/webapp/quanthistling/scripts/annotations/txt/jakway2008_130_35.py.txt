@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "adoptivo, hijo weaka tsakatmamu, weaka tsakatmamun.",
+    "startpage" : 130,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hijo adoptivo",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "weaka tsakatmamu",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "weaka tsakatmamun",
+                "start" : 33,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "adoptivo, hijo",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

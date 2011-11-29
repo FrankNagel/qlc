@@ -35,9 +35,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "¡No sé!",
-                "start" : 28,
-                "end" : 36
+                "string" : "No sé",
+                "start" : 29,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",

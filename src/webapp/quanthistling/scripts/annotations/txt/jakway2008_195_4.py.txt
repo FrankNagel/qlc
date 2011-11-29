@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "pava del monte, especies de awach, kuyu, aunts.",
+    "startpage" : 195,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de pava del monte",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "awach",
+                "start" : 27,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kuyu",
+                "start" : 35,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aunts",
+                "start" : 41,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pava del monte, especies de",
+                "start" : 0,
+                "end" : 27
+            },
+    ]
+})

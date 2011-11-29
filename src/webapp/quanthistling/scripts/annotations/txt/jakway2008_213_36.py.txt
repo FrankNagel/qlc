@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "taricaya, especies de shutat, charapun, takash.",
+    "startpage" : 213,
+    "pos_on_page" : 36,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de taricaya",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "shutat",
+                "start" : 21,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "charapun",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "takash",
+                "start" : 40,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "taricaya, especies de",
+                "start" : 0,
+                "end" : 21
+            },
+    ]
+})

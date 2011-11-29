@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "jergón, especies de muash napi, tsere makanch, makanch.",
+    "startpage" : 177,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de jergón",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "muash napi",
+                "start" : 20,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsere makanch",
+                "start" : 33,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "makanch",
+                "start" : 48,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jergón, especies de",
+                "start" : 0,
+                "end" : 20
+            },
+    ]
+})

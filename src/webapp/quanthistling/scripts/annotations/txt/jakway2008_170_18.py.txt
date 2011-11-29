@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "girar, hacer ayantratsa, ayanteamu, ayantat.",
+    "startpage" : 170,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer girar",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ayantratsa",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ayanteamu",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ayantat",
+                "start" : 36,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "girar, hacer",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

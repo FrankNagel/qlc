@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "locrero, especies de mait, kaukau.",
+    "startpage" : 180,
+    "pos_on_page" : 37,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de locrero",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mait",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kaukau",
+                "start" : 27,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "locrero, especies de",
+                "start" : 0,
+                "end" : 20
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "juhto__ – nuevo",
+    "startpage" : 113,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "juhto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nuevo",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})
