@@ -829,7 +829,7 @@ list = [
                 'src_language_bookname' : u'Español',
                 'tgt_language_bookname' : u'Tuyuca',
                 're_letter_only': u'^\w, \ws*$',
-                'file' : 'tucanoan/tamayo1988_dictdata_1_145.xml',
+                'file' : 'tucanoan/tamayo1988_dictdata_3_145.xml',
                 'component' : 'Tucanoan'
             },
         ],
@@ -848,14 +848,14 @@ list = [
         'type' : 'dictionary',
         'dictdata' : [
             {
-                'startpage' : 1,
+                'startpage' : 4,
                 'endpage' : 125,
                 'src_language_name' : u'Spanish',
                 'tgt_language_name' : u'Siriano',
                 'src_language_bookname' : u'Español',
                 'tgt_language_bookname' : u'Siriano',
                 're_letter_only': u'^\w, \ws*$',
-                'file' : 'tucanoan/tamayo1988_dictdata_1_145.xml',
+                'file' : 'tucanoan/trujillo1980_dictdata_4_125.xml',
                 'component' : 'Tucanoan'
             },
         ],
