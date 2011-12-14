@@ -1275,4 +1275,11 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=faj'
     },
     
+    {
+        'name' : u'Siriano',
+        'langcode': u'sri',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=sri'
+    },
+
 ]

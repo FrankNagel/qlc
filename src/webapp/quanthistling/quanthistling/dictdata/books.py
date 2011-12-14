@@ -836,4 +836,31 @@ list = [
         'nondictdata' : [
         ]
     },
+
+    {
+        'title' : u'Vocabulario Siriano y Español',	
+        'author' : u'Trujillo, Olga',
+        'year' : 1980,
+        'bibtex_key' : u'trujillo1980',
+        'pages' : 128,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 125,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Siriano',
+                'src_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Siriano',
+                're_letter_only': u'^\w, \ws*$',
+                'file' : 'tucanoan/tamayo1988_dictdata_1_145.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
+    
 ]
