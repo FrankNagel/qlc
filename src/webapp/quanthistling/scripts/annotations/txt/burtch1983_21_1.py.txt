@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cuero seco de sachavaca que se pone en la espalda como vestido para una danza, o antiguamente para protección en las guerras",
+                "string" : "cuero seco de sachavaca que se pone en la espalda como vestido para una danza o antiguamente para protección en las guerras",
                 "start" : 13,
                 "end" : 138
             },

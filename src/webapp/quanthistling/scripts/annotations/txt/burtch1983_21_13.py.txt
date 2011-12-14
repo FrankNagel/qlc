@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre de un cerro en Colombia donde dicen que vive el personaje mitológico, Monaìrue Jitoma",
+                "string" : "nombre de un cerro en Colombia donde dicen que vive el personaje mitológico Monaìrue Jitoma",
                 "start" : 13,
                 "end" : 107
             },

@@ -14,16 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "derinero (árbol)",
+                "string" : "derinero (C) (árbol)",
                 "start" : 13,
                 "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "C",
-                "start" : 23,
-                "end" : 24
             },
             {
                 "type" : "formatting",

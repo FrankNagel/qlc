@@ -21,7 +21,28 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "gente furiosa, mala, irritada, enojada",
+                "string" : "gente furiosa",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gente mala",
+                "start" : 21,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gente irritada",
+                "start" : 21,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gente enojada",
                 "start" : 21,
                 "end" : 59
             },

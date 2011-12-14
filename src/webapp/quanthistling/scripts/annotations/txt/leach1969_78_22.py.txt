@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "boonñ̈ím̈a __ñi – nadie",
+    "startpage" : 78,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "boonñ̈ím̈a ñi",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nadie",
+                "start" : 21,
+                "end" : 26
+            },
+    ]
+})

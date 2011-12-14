@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "meter algo para cerrar el hucco sepetút.",
+    "startpage" : 242,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "meter algo para cerrar el hueco",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sepetút",
+                "start" : 31,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meter algo para cerrar el hucco",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+    ]
+})

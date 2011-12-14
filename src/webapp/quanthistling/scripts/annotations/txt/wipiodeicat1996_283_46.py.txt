@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "hacer tomar en gotas, o en cucharaditas aúwat.",
+    "startpage" : 283,
+    "pos_on_page" : 46,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer tomar en gotas",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer tomar en cucharaditas",
+                "start" : 0,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aúwat",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hacer tomar en gotas, o en cu",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "charaditas aúwat.",
+                "start" : 29,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})

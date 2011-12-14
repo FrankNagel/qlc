@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pájaro negro de pico rojo, llamado pihuacuro o pivacuro por la gente de esa región",
+                "string" : "pájaro negro de pico rojo llamado pihuacuro o pivacuro por la gente de esa región",
                 "start" : 15,
                 "end" : 99
             },

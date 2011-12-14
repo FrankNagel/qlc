@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "agujercado, agujereada adj. tsaáp(a).",
+    "startpage" : 162,
+    "pos_on_page" : 48,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "agujereado",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "agujereada",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 22,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsaáp",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsaápa",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "agujercado, agujereada",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 22,
+                "end" : 27
+            },
+    ]
+})

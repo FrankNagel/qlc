@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "acción de relampaguer péetut.",
+    "startpage" : 268,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acción de relampaguear",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "péetut",
+                "start" : 22,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "acción de relampaguer",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "relampaguear",
+                "start" : 11,
+                "end" : 22
+            },
+    ]
+})

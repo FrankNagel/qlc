@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "dsohxam̈a __ñi – nada",
+    "startpage" : 84,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsohxam̈a ñi",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nada",
+                "start" : 18,
+                "end" : 22
+            },
+    ]
+})

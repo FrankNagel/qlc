@@ -1,0 +1,239 @@
+
+manual_entries.append({
+    "fullentry" : "baìmi̵e (pro. dem, pro. pos, adj pos-sg, dual o pl) ése; su, sus; (el) suyo, (los suyos, (la) suya, (las) suyas (de ése). Baìmi̵e fue. (Es) su boca de ése.",
+    "startpage" : 31,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "baìmi̵e",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. dem",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. pos",
+                "start" : 20,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj pos-sg",
+                "start" : 30,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "dual o pl",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ése",
+                "start" : 52,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "su",
+                "start" : 59,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sus",
+                "start" : 63,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el suyo",
+                "start" : 69,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyo",
+                "start" : 73,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los suyos",
+                "start" : 80,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyos",
+                "start" : 84,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la suya",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suya",
+                "start" : 96,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "las suyas (de ése)",
+                "start" : 103,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyas (de ése)",
+                "start" : 108,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Baìmi̵e fue.",
+                "start" : 125,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "(Es) su boca de ése.",
+                "start" : 139,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 155,
+                "end" : 155
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "(los) suyos",
+                "start" : 79,
+                "end" : 89
+            },
+    ]
+})

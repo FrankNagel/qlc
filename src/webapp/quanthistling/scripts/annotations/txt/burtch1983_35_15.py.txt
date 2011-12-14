@@ -49,22 +49,43 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(la) suya",
-                "start" : 72,
+                "string" : "la suya",
+                "start" : 73,
                 "end" : 81
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(los) suyos",
-                "start" : 83,
+                "string" : "suya",
+                "start" : 77,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los suyos",
+                "start" : 84,
                 "end" : 94
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(las) suyas (de ésos)",
-                "start" : 96,
+                "string" : "suyos",
+                "start" : 89,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "las suyas (de ésos)",
+                "start" : 97,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyas (de ésos)",
+                "start" : 102,
                 "end" : 118
             },
             {

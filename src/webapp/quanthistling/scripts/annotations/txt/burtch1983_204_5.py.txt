@@ -1,0 +1,176 @@
+
+manual_entries.append({
+    "fullentry" : "oma (s1) cuñado (esposo de la hermana o hermano del esposo) de una mujer, concuñado (esposo de la hermana del esposo) de una mujer. (Vea jaì̵enima, oima, ri̵feìma.)",
+    "startpage" : 204,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "oma",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuñado",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposo de la hermana o hermano del esposo de una mujer",
+                "start" : 18,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "concuñado",
+                "start" : 75,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposo de la hermana del esposo de una mujer",
+                "start" : 87,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jaì̵enima",
+                "start" : 139,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "oima",
+                "start" : 151,
+                "end" : 155
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ri̵feìma",
+                "start" : 157,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+    ]
+})

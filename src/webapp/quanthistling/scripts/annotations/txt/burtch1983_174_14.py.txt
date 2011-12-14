@@ -35,7 +35,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ropa rota colgada, colgando",
+                "string" : "ropa rota colgada",
+                "start" : 33,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ropa rota colgando",
                 "start" : 33,
                 "end" : 60
             },

@@ -28,7 +28,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "una cosa grande como cría recién nacida de animal grande, o como un árbol podrido",
+                "string" : "una cosa grande como cría recién nacida de animal grande o como un árbol podrido",
                 "start" : 46,
                 "end" : 130
             },

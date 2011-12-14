@@ -14,8 +14,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(ser) culebra no venenosa (lit. culebra no más)",
-                "start" : 13,
+                "string" : "ser culebra no venenosa (lit. culebra no más)",
+                "start" : 14,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "culebra no venenosa (lit. culebra no más)",
+                "start" : 19,
                 "end" : 61
             },
             {

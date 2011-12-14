@@ -21,7 +21,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hueco de un palo o árbol, o entre las raíces",
+                "string" : "hueco de un palo o árbol",
+                "start" : 15,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hueco entre las raíces",
                 "start" : 15,
                 "end" : 61
             },

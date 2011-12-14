@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "clan del venado, cuyos miembros hablan el dialecto mi̵ca",
+                "string" : "clan del venado cuyos miembros hablan el dialecto mi̵ca",
                 "start" : 19,
                 "end" : 75
             },

@@ -28,9 +28,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ser indeciso (lit. pensar en muchas cosas)",
+                "string" : "ser indeciso",
                 "start" : 65,
-                "end" : 107
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pensar en muchas cosas",
+                "start" : 84,
+                "end" : 106
             },
             {
                 "type" : "dictinterpretation",

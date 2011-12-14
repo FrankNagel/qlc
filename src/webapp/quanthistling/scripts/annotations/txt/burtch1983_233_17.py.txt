@@ -1,0 +1,281 @@
+
+manual_entries.append({
+    "fullentry" : "taì̵mi̵e (s1B) hombre desnudo, hombre (que viene) con las manos vacías. Suufue jasici̵ buena oñede. Taì̵mi̵e biti̵o. Caza desafortunada es ir al monte y no traer nada. Regresas (de caza) con las manos vacías. Naìmaci̵ abi̵ taì̵mi̵iaì̵. Ellos (son) hombres desnudos. (Vea emuìrogi̵de, ri̵ji̵bogi̵, taì̵no.)",
+    "startpage" : 233,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taì̵mi̵e",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1B",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre desnudo",
+                "start" : 15,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre con las manos vacías",
+                "start" : 32,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre que viene con las manos vacías",
+                "start" : 32,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Suufue jasici̵ buena oñede. Taì̵mi̵e biti̵o.",
+                "start" : 74,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Caza desafortunada es ir al monte y no traer nada. Regresas (de caza) con las manos vacías.",
+                "start" : 121,
+                "end" : 213
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Naìmaci̵ abi̵ taì̵mi̵iaì̵.",
+                "start" : 214,
+                "end" : 243
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ellos (son) hombres desnudos.",
+                "start" : 244,
+                "end" : 273
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "emuìrogi̵de",
+                "start" : 279,
+                "end" : 291
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ri̵ji̵bogi̵",
+                "start" : 293,
+                "end" : 304
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "taì̵no",
+                "start" : 306,
+                "end" : 313
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 155,
+                "end" : 155
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 205,
+                "end" : 205
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 234,
+                "end" : 234
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 234,
+                "end" : 234
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 234,
+                "end" : 234
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 263,
+                "end" : 263
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 264,
+                "end" : 264
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 289,
+                "end" : 289
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 289,
+                "end" : 289
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 289,
+                "end" : 289
+            },
+    ]
+})

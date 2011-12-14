@@ -1,0 +1,155 @@
+
+manual_entries.append({
+    "fullentry" : "eìnaìte (vd) madurarse (lit. llegar a ser maduro) los frutos. (No se refiere a piña ni a yuca.) (Vea eisi̵, jiaì̵de, murude, jiguìde, jinide.)",
+    "startpage" : 75,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eìnaìte",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vd",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "madurarse los frutos (No se refiere a piña ni a yuca.)",
+                "start" : 15,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llegar a ser maduro los frutos (No se refiere a piña ni a yuca.)",
+                "start" : 31,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "eisi̵",
+                "start" : 104,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jiaì̵de",
+                "start" : 111,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "murude",
+                "start" : 121,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jiguìde",
+                "start" : 129,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jinide",
+                "start" : 139,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+    ]
+})

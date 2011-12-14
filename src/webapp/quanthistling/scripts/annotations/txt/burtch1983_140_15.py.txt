@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "canción que cantan los huitoto del clan irapay o del oso hormiguero, en la fiesta si̵ci̵i o cuando muere un hijo",
+                "string" : "canción que cantan los huitoto del clan irapay o del oso hormiguero en la fiesta si̵ci̵i o cuando muere un hijo",
                 "start" : 15,
                 "end" : 128
             },

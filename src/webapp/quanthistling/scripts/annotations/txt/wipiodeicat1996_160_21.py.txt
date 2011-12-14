@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "accrcarse hacia algo o alguien yunúmtut.",
+    "startpage" : 160,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acercarse hacia algo o alguien",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yunúmtut",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "accrcarse hacia algo o alguien",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+    ]
+})

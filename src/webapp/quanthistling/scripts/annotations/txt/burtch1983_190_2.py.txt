@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "naì̵raì̵ illano (s) pueblo, caserío (lit. lugar donde vive una nación o clan).",
+    "startpage" : 190,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "naì̵raì̵ illano",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s",
+                "start" : 19,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pueblo",
+                "start" : 21,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caserío",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar donde vive una nación o clan",
+                "start" : 45,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+    ]
+})

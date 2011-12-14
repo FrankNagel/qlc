@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "anhíínñ̈ityo – pejetorre (C), cunchi (P) (pez)",
+    "startpage" : 72,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anhíínñ̈ityo",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pejetorre (C)",
+                "start" : 18,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cunchi (P) (pez)",
+                "start" : 33,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+    ]
+})

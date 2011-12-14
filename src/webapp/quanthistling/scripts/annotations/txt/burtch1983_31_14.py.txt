@@ -56,29 +56,57 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(el) suyo",
-                "start" : 74,
+                "string" : "el suyo",
+                "start" : 75,
                 "end" : 83
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(los) suyos",
-                "start" : 85,
+                "string" : "suyo",
+                "start" : 79,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los suyos",
+                "start" : 86,
                 "end" : 96
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(la) suya",
-                "start" : 98,
+                "string" : "suyos",
+                "start" : 91,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la suya",
+                "start" : 99,
                 "end" : 107
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "(las) suyas (de ésos)",
-                "start" : 109,
+                "string" : "suya",
+                "start" : 103,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "las suyas (de ésos)",
+                "start" : 110,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyas (de ésos)",
+                "start" : 115,
                 "end" : 131
             },
             {

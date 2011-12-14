@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "fruto del árbol mafiraì, de color amarillo y parecido a la uva",
+                "string" : "fruto del árbol mafiraì de color amarillo y parecido a la uva",
                 "start" : 14,
                 "end" : 78
             },

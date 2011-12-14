@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "jimena ofegoì̵ (s) chonta (cogollo) de pijuayo. (Vea cogoì̵, ofeide, ofemuì.)",
+    "startpage" : 203,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jimena ofegoì̵",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s",
+                "start" : 17,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chonta de pijuayo",
+                "start" : 20,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cogollo de pijuayo",
+                "start" : 28,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "cogoì̵",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ofeide",
+                "start" : 63,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ofemuì",
+                "start" : 71,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+    ]
+})

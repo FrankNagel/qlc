@@ -14,16 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "machimango (árbol) (de la corteza se hacen canastas poco durables)",
+                "string" : "machimango (P) (árbol) (de la corteza se hacen canastas poco durables)",
                 "start" : 14,
                 "end" : 85
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 26,
-                "end" : 27
             },
             {
                 "type" : "formatting",

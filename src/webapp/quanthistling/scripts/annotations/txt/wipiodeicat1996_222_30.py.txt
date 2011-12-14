@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "hacer beder eméjet.",
+    "startpage" : 222,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer heder",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "eméjet",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hacer beder",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

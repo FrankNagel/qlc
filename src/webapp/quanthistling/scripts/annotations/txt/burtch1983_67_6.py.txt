@@ -1,0 +1,337 @@
+
+manual_entries.append({
+    "fullentry" : "duere fi̵node perseguir, castigar. Ni̵baì̵ ua caì̵ comi̵ni̵, comi̵ni̵na muìdona duere fi̵nocana uìte. \"Ua imaci̵na duere cuè fi̵nolli̵\" lloti̵maci̵; iadedi̵ dane ji̵aì̵ci̵nomona caì̵ jaìe einamaci̵ di̵ga marena ñaì̵te. De veras, tal vez por su propia culpa, (los blancos) persequían a nuestros paisanos. (Los blancos) decían: Los perseguiré. Pero en otro caso hablaban bien con nuestros antepasados. (Vea sefuìde.)",
+    "startpage" : 67,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "duere fi̵node",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "perseguir",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "castigar",
+                "start" : 25,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ni̵baì̵ ua caì̵ comi̵ni̵, comi̵ni̵na muìdona duere fi̵nocana uìte. \"Ua imaci̵na duere cuè fi̵nolli̵\" lloti̵maci̵; iadedi̵ dane ji̵aì̵ci̵nomona caì̵ jaìe einamaci̵ di̵ga marena ñaì̵te.",
+                "start" : 35,
+                "end" : 228
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "De veras, tal vez por su propia culpa, (los blancos) perseguían a nuestros paisanos. (Los blancos) decían: Los perseguiré. Pero en otro caso hablaban bien con nuestros antepasados.",
+                "start" : 229,
+                "end" : 412
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "sefuìde",
+                "start" : 418,
+                "end" : 426
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 140,
+                "end" : 140
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 141,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 167,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 200,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 200,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 200,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 232,
+                "end" : 232
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 282,
+                "end" : 282
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 308,
+                "end" : 308
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 308,
+                "end" : 308
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 308,
+                "end" : 308
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 331,
+                "end" : 331
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 331,
+                "end" : 331
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 331,
+                "end" : 331
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 381,
+                "end" : 381
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 382,
+                "end" : 382
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 406,
+                "end" : 406
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 406,
+                "end" : 406
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 406,
+                "end" : 406
+            },
+    ]
+})

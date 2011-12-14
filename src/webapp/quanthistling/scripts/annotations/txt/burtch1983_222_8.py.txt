@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "tangará con cabeza de color oro, cuyas plumas se usan también en fabricación de coronas",
+                "string" : "tangará con cabeza de color oro cuyas plumas se usan también en fabricación de coronas",
                 "start" : 12,
                 "end" : 102
             },

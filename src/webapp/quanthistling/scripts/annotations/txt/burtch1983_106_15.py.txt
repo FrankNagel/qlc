@@ -21,7 +21,28 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cáscara de algunos frutos como palta, plátano, umarí, pijuayo y yuca",
+                "string" : "cáscara de algunos frutos como palta",
+                "start" : 13,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cáscara de algunos frutos como plátano",
+                "start" : 13,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cáscara de algunos frutos como umarí",
+                "start" : 13,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cáscara de algunos frutos como pijuayo y yuca",
                 "start" : 13,
                 "end" : 84
             },

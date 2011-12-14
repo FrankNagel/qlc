@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "__xo / __hxo – casa",
+    "startpage" : 97,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hxo",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "casa",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

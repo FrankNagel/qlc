@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "especie de escarabajo verde que vive en las arboledas de jagaìraì y parece una cucaracha grande, de más o menos 5 a 6 centímetros de largo",
+                "string" : "especie de escarabajo verde que vive en las arboledas de jagaìraì y parece una cucaracha grande",
                 "start" : 17,
                 "end" : 159
             },

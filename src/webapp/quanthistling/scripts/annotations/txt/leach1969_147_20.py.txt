@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "tya__ (SD) __mah – uno",
+    "startpage" : 147,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tya mah",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 3,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "SD",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uno",
+                "start" : 19,
+                "end" : 22
+            },
+    ]
+})

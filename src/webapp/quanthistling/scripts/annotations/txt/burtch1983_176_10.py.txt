@@ -21,7 +21,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "dos pretinas, cabestrillos",
+                "string" : "dos pretinas",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dos cabestrillos",
                 "start" : 15,
                 "end" : 41
             },

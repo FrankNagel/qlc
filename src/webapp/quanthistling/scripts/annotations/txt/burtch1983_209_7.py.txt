@@ -21,9 +21,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "borrador (lit. cosa para limpiar la pizarra)",
+                "string" : "borrador",
                 "start" : 20,
-                "end" : 64
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cosa para limpiar la pizarra",
+                "start" : 35,
+                "end" : 63
             },
             {
                 "type" : "dictinterpretation",

@@ -55,8 +55,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "(La creencia dice que) el arco iris sale (lit. está arqueado) de la boa.",
+                "value" : "example-tgt",
+                "string" : "(La creencia dice que) el arco iris sale (lit. está argueado) de la boa.",
                 "start" : 146,
                 "end" : 219
             },

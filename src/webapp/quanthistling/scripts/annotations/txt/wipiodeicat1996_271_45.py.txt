@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "ruido que produce el agua al precipitarse por un pongo uj.",
+    "startpage" : 271,
+    "pos_on_page" : 45,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ruido que produce el agua al precipitarse por un pongo",
+                "start" : 0,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uj",
+                "start" : 55,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ruido que produce el agua al pre",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cipitarse por un pongo uj.",
+                "start" : 32,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+    ]
+})

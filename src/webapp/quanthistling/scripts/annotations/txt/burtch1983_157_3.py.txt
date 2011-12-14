@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "especie de árbol, una de las especies que se utilizan para el palo de la fiesta lladico",
+                "string" : "especie de árbol",
                 "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una de las especies que se utilizan para el palo de la fiesta lladico",
+                "start" : 33,
                 "end" : 102
             },
             {

@@ -1,0 +1,155 @@
+
+manual_entries.append({
+    "fullentry" : "ri̵feìma (voc. ri̵feì) (s1A) concuñado (esposo de la cuñada) de un hombre; esposo anterior de la esposa, esposo de la esposa anterior. (Vea oima.)",
+    "startpage" : 217,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ri̵feìma",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "voc. ri̵feì",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1A",
+                "start" : 26,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "concuñado",
+                "start" : 31,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposo de la cuñada de un hombre",
+                "start" : 43,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposo anterior de la esposa",
+                "start" : 79,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposo de la esposa anterior",
+                "start" : 109,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "oima",
+                "start" : 144,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+    ]
+})

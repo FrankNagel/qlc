@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "casabe cocido en agua, y después cocido al vapor en hojas de si̵gori̵",
+                "string" : "casabe cocido en agua y después cocido al vapor en hojas de si̵gori̵",
                 "start" : 12,
                 "end" : 82
             },

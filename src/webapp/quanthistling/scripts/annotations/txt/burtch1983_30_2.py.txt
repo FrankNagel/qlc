@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "lugar donde vivía Monaìrue Jitoma, personaje en un mito huitoto que llevó muchas cosas sin pedirlas",
+                "string" : "lugar donde vivía Monaìrue Jitoma",
                 "start" : 17,
                 "end" : 119
             },

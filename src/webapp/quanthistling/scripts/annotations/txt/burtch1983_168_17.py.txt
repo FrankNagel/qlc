@@ -7,15 +7,22 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "lli̵ci̵si",
+                "string" : "lli̵ci̵si casi",
                 "start" : 0,
-                "end" : 9
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "casi carne cruda, que no está cocida",
-                "start" : 10,
+                "string" : "carne cruda",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "carne que no está cocida",
+                "start" : 15,
                 "end" : 47
             },
             {

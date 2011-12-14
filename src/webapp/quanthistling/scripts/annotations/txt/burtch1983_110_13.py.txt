@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "savia de los árboles y plantas, especialmente de jebe y leche caspi",
+                "string" : "savia de los árboles y plantas",
                 "start" : 11,
                 "end" : 79
             },

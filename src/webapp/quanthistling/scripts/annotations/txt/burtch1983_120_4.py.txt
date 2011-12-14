@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ser, estar desanimado",
+                "string" : "ser desanimado",
                 "start" : 38,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar desanimado",
+                "start" : 43,
                 "end" : 59
             },
             {

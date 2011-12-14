@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "baìñaìñuaì̵ (pro. dem, pro. pos, adj pos-pl) ésas, su, sus (de ésas); (el) suyo, (los) suyos, (la) suya, (las) suyas (de ésas).",
+    "startpage" : 32,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "baìñaìñuaì̵",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. dem",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pro. pos",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj pos-pl",
+                "start" : 38,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ésas",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "su",
+                "start" : 57,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sus (de ésas)",
+                "start" : 61,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el suyo",
+                "start" : 78,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyo",
+                "start" : 82,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los suyos",
+                "start" : 89,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la suya",
+                "start" : 102,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suya",
+                "start" : 106,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "las suyas (de ésas)",
+                "start" : 113,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyas (de ésas)",
+                "start" : 118,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+    ]
+})

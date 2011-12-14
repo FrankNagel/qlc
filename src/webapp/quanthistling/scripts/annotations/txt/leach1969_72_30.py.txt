@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "anunhtyónco – víbora; jergón (P)",
+    "startpage" : 72,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anunhtyónco",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "víbora",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jergón (P)",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jergón",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+    ]
+})

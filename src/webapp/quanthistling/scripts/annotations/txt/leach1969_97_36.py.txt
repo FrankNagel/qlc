@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "fojóón / fojóónjun (pl.)",
+    "startpage" : 97,
+    "pos_on_page" : 36,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fojóón",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fojóónjun",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 24,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

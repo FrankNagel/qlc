@@ -21,16 +21,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "punchana (roedor)",
+                "string" : "punchana (P) (roedor)",
                 "start" : 26,
                 "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "P",
-                "start" : 36,
-                "end" : 37
             },
             {
                 "type" : "formatting",

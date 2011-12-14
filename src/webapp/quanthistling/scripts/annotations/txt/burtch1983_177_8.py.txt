@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "tener pena, especialmente cuando muere un familiar",
+                "string" : "tener pena especialmente cuando muere un familiar",
                 "start" : 39,
                 "end" : 89
             },

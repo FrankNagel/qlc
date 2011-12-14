@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "shuyu pequeño que tiene manchas chiquitas y rojas en los lados, y que vive en quebradas altas",
+                "string" : "shuyu pequeño que tiene manchas chiquitas y rojas en los lados y que vive en quebradas altas",
                 "start" : 11,
                 "end" : 105
             },

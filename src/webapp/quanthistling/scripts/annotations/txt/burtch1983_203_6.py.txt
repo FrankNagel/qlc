@@ -28,8 +28,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "chonta (cogollo) de palmera",
-                "start" : 15,
+                "string" : "chonta de palmera",
+                "start" : 16,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cogollo de palmera",
+                "start" : 24,
                 "end" : 43
             },
             {
