@@ -19,4 +19,6 @@ __all__ =  [
     "annotations_for_thiesen1998",
     "annotations_for_walton1997",
     "annotations_for_wipiodeicat1996",
+    "annotations_for_trujillo1980",
+    "annotations_for_tamayo1988",
 ]
