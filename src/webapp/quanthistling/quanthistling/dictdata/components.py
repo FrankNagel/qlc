@@ -25,4 +25,9 @@ list = [
         'name' : u'Sogeram',
         'description' : u'',
     },
+    
+    {
+        'name' : u'Tuconoan',
+        'description' : u'',
+    },
 ]

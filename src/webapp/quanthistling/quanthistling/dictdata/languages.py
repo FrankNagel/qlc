@@ -1274,5 +1274,5 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=faj'
     },
-
+    
 ]

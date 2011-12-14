@@ -810,5 +810,30 @@ list = [
             },
         ]
     },
-
+################################# Tucanoan
+    {
+        'title' : u'Mi Primer Diccionario',	
+        'author' : u'César Tamayo L.',
+        'year' : 1988,
+        'bibtex_key' : u'tamayo1988',
+        'pages' : 190,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 3,
+                'endpage' : 145,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Tuyuca',
+                'src_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Tuyuca',
+                're_letter_only': u'^\w, \ws*$',
+                'file' : 'tucanoan/tamayo1988_dictdata_1_145.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
 ]
