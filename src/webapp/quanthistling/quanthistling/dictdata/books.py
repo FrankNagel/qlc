@@ -509,7 +509,7 @@ list = [
             {
                 'startpage' : 329,
                 'endpage' : 369,
-                'src_language_name' : u'Shuar',
+                'src_language_name' : u'Katukina',
                 'tgt_language_name' : u'Portuguese',
                 'src_language_bookname' : u'Katukina',
                 'tgt_language_bookname' : u'Português',
@@ -862,5 +862,70 @@ list = [
         'nondictdata' : [
         ]
     },
+    
+    {
+        'title' : u'MARĨ YAYE MENA CARAPANA, YAIA YAYE MENA ESPAÑOL MACÃRĨCÃ TUTI',
+        'author' : u'Metzger, Ronald G.',
+        'year' : 2000,
+        'bibtex_key' : u'metzger2000',
+        'pages' : 157,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 11,
+                'endpage' : 97,
+                'src_language_name' : u'Carapana',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Carapana',
+                'tgt_language_bookname' : u'Español',
+                're_letter_only': u'^<b>\w+|Ã|Ẽ|Ĩ|Ñ|Õ|Ũ|U̶|Ũ̶</b>\s*$',
+                'file' : 'tucanoan/metzger2000_dictdata_11_97.xml',
+                'component' : 'Tucanoan'
+            },
+            #{
+            #    'startpage' : 115,
+            #    'endpage' : 137,
+            #    'src_language_name' : u'Spanish',
+            #    'tgt_language_name' : u'Carapana',
+            #    'src_language_bookname' : u'Español',
+            #    'tgt_language_bookname' : u'Carapana',
+            #    're_letter_only': u'^<b>\w+</b>\s*$',
+            #    'file' : 'tucanoan/metzger2000_dictdata_115_137.xml',
+            #    'component' : 'Tucanoan'
+            #},
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 10,
+                'title': u'Start pages',
+                'file' : 'tucanoan/metzger2000_nondictdata_1_10.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 98,
+                'endpage' : 112,
+                'title': u'Illustrations',
+                'file' : 'tucanoan/metzger2000_nondictdata_98_112.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 113,
+                'endpage' : 114,
+                'title': u'Appendices',
+                'file' : 'tucanoan/metzger2000_nondictdata_113_114.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 139,
+                'endpage' : 157,
+                'title': u'Appendices',
+                'file' : 'tucanoan/metzger2000_nondictdata_139_157.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+    }
     
 ]
