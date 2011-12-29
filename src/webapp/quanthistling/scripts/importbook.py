@@ -220,6 +220,19 @@ def main(argv):
                     # add current line to current entry
                     current_entry_text = current_entry_text + l + "\n"
                         
+        # Add last entry from file
+        current_entry_text = re.sub(r'[\f\n]*$', '', current_entry_text)
+        entry = importfunctions.process_line(current_entry_text)
+        # add additional entry data
+        entry.startpage               = current_entry_start_page
+        entry.endpage                 = page
+        entry.startcolumn             = current_entry_start_column
+        entry.endcolumn               = column
+        entry.pos_on_page             = current_entry_pos_on_page
+        entry.dictdata                = dictdata
+        entry.is_subentry             = is_subentry
+        entry.is_subentry_of_entry_id = current_mainentry_id
+        Session.add(entry)
         f1.close()
 
         #dictdata.startletters = unicode(repr(sorted(list(startletters))))

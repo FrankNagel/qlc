@@ -138,9 +138,9 @@ def process_line(text, type="dictionary"):
                 html_entity_start_stack.append(html_entity_start)
                 html_entity_stack.append(html_entity)
                 html_entity = ''
-        elif char == '\n':
+        elif char == '\n' or char == '\t':
             pos = 0
-            if prevchar == '-':
+            if prevchar == '-' and char != '\t':
                 fullentry = fullentry[:-1]
                 pos = len(fullentry)
                 for a in annotations:
