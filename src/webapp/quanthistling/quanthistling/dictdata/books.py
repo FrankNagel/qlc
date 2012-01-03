@@ -926,6 +926,49 @@ list = [
                 'component' : 'Tucanoan'
             },
         ]
+    },
+    {
+        'title' : u'A Língua Dos Índios Yawanawá Do Acre',
+        'author' : u'Paula, Aldir Santos de',
+        'year' : 2004,
+        'bibtex_key' : u'paula2004',
+        'pages' : 302,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 242,
+                'endpage' : 266,
+                'src_language_name' : u'Yawanawa',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Yawanawá',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
+                'file' : 'panoan/paula2004_dictdata_242_266.xml',
+                'component' : 'Panoan'
+            },
+            #{
+            #    'startpage' : 267,
+            #    'endpage' : 288,
+            #    'src_language_name' : u'Yawanawa',
+            #    'tgt_language_name' : u'Portuguese',
+            #    'src_language_bookname' : u'Yawanawá',
+            #    'tgt_language_bookname' : u'Português',
+            #    're_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
+            #    'file' : 'panoan/paula2004_dictdata_267_288.xml',
+            #    'component' : 'Panoan'
+            #},
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 241,
+                'endpage' : 242,
+                'title': u'Appendices',
+                'file' : 'panoan/paula2004_nondictdata_241_242.htm',
+                'component' : 'Panoan'
+            },
+        ]
     }
     
 ]
