@@ -1281,11 +1281,19 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=sri'
     },
-     {
+    
+    {
         'name' : u'Yawanawa',
         'langcode': u'ywn',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=ywn'
+    },
+    
+    {
+        'name' : u'Nonuya',
+        'langcode': u'noj',
+        'description' : u'',
+        'url' : u'http://www.sil.org/iso639-3/documentation.asp?id=noj'
     },
 
 ]
