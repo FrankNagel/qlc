@@ -1281,5 +1281,11 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=sri'
     },
+     {
+        'name' : u'Yawanawa',
+        'langcode': u'ywn',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ywn'
+    },
 
 ]
