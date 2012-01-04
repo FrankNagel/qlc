@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre del clan del mono canijoma que vive principalmente cerca de Chorrera, Colombia",
+                "string" : "nombre del clan del mono canijoma que vive principalmente cerca de Chorrera Colombia",
                 "start" : 15,
                 "end" : 100
             },

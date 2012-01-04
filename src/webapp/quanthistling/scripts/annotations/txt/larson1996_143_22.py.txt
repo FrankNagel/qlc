@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "escalavitud – aents agkánji̱ átsugbau",
+    "startpage" : 143,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esclavitud",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aents agkánji̱ átsugbau",
+                "start" : 14,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "esclavitud",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

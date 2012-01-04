@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "poner hojas en la cumbreza de la casa – wasemát",
+    "startpage" : 177,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "poner hojas en la cumbre de la casa",
+                "start" : 0,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wasemát",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "poner hojas en la cumbre de la casa",
+                "start" : 0,
+                "end" : 37
+            },
+    ]
+})

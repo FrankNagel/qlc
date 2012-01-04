@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "ubag – término que designa a un hermano, -a ó primo, -a del sexo opuesto, siempre que estos pertenezcan al linaje del padre",
+    "startpage" : 74,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ubag",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "término que designa a un hermano ó primo del sexo opuesto siempre que estos pertenezcan al linaje del padre",
+                "start" : 7,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "término que designa a una hermana ó prima del sexo opuesto siempre que estos pertenezcan al linaje del padre",
+                "start" : 7,
+                "end" : 125
+            },
+    ]
+})

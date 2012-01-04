@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "el tubérculo o raíz de yuca dulce, de la que se hace la chicha juiñoi",
+                "string" : "el tubérculo o raíz de yuca dulce de la que se hace la chicha juiñoi",
                 "start" : 16,
                 "end" : 88
             },

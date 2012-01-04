@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "wincháinchaintau – débil, tambaliante",
+    "startpage" : 84,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wincháinchaintau",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "débil",
+                "start" : 20,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tambaleante",
+                "start" : 28,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "tambaleante",
+                "start" : 28,
+                "end" : 39
+            },
+    ]
+})

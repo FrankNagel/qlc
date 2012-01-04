@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "jikijú̱ – morado, enegrecido por un golpe",
+    "startpage" : 32,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jikijú̱",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "morado",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ennegrecido por un golpe",
+                "start" : 19,
+                "end" : 42
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ennegrecido por un golpe",
+                "start" : 19,
+                "end" : 42
+            },
+    ]
+})

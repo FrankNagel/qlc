@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "kuwét – embrear cerbatana u olla, embarrar; rayado (desordinamente)",
+    "startpage" : 42,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuwét",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "embrear cerbatana u olla",
+                "start" : 9,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "embarrar",
+                "start" : 35,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayado (desordenadamente)",
+                "start" : 45,
+                "end" : 68
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rayado (desordenadamente)",
+                "start" : 45,
+                "end" : 68
+            },
+    ]
+})

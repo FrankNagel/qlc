@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "empeorar (enfermedad) – wakemá játa",
+    "startpage" : 141,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "empeorar (enfermedad)",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wakemá játa",
+                "start" : 24,
+                "end" : 37
+            },
+    ]
+})

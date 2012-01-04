@@ -27764,7 +27764,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "bastón de ritmo hecho de bambú que se usa en las fiestas menisaì, oci̵i y si̵ci̵i para inaugurar una casa para fiestas",
+                "string" : "bastón de ritmo hecho de bambú que se usa en las fiestas menisaì para inaugurar una casa para fiestas",
+                "start" : 16,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bastón de ritmo hecho de bambú que se usa en las fiestas oci̵i y si̵ci̵i para inaugurar una casa para fiestas",
                 "start" : 16,
                 "end" : 137
             },
@@ -41087,8 +41094,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hijo de Jusiñamuì, creador y dios de los mitos huitotos",
+                "string" : "hijo de Jusiñamuì",
                 "start" : 20,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "creador y dios de los mitos huitotos",
+                "start" : 41,
                 "end" : 77
             },
             {
@@ -42132,7 +42146,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre del clan del mono canijoma que vive principalmente cerca de Chorrera, Colombia",
+                "string" : "nombre del clan del mono canijoma que vive principalmente cerca de Chorrera Colombia",
                 "start" : 15,
                 "end" : 100
             },
@@ -44687,8 +44701,29 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ser, estar muy enredado, nudoso",
+                "string" : "ser muy enredado",
                 "start" : 15,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser muy nudoso",
+                "start" : 15,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar muy enredado",
+                "start" : 20,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar muy nudoso",
+                "start" : 20,
                 "end" : 46
             },
             {
@@ -45055,8 +45090,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre con que los murui llaman a Jurachoi, uno de los dos hermanos gigantes de un mito de los muinane",
+                "string" : "nombre con que los murui llaman a Jurachoi",
                 "start" : 10,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uno de los dos hermanos gigantes de un mito de los muinane",
+                "start" : 54,
                 "end" : 112
             },
             {
@@ -45224,7 +45266,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "árbol pequeño de propiedades estupefacientes como el ayahuasca, y la droga que se hace de las hojas",
+                "string" : "árbol pequeño de propiedades estupefacientes como el ayahuasca y la droga que se hace de las hojas",
                 "start" : 20,
                 "end" : 121
             },
@@ -45649,7 +45691,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre con que se designa en un mito a una persona que cambia para parecer de otro grupo u otra persona, como un nativo que vive con los blancos y parece uno de ellos",
+                "string" : "nombre con que se designa en un mito a una persona que cambia para parecer de otro grupo u otra persona como un nativo que vive con los blancos y parece uno de ellos",
                 "start" : 18,
                 "end" : 184
             },
@@ -47631,9 +47673,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre con que los murui llaman a Nacavari, uno de dos hermanos gigantes en un mito de los muinane (muìnáni̵)",
+                "string" : "nombre con que los murui llaman a Nacavari",
                 "start" : 10,
-                "end" : 125
+                "end" : 52
             },
             {
                 "type" : "dictinterpretation",
@@ -47641,6 +47683,13 @@ manual_entries.append({
                 "string" : "Dialecto muinane (muìnánɨ para los huitoto muinane)",
                 "start" : 53,
                 "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uno de dos hermanos gigantes en un mito de los muinane (muìnáni̵)",
+                "start" : 58,
+                "end" : 125
             },
             {
                 "type" : "dictinterpretation",
@@ -50177,9 +50226,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nuestros vecinos (lit. los que viven, están al lado nuestro)",
-                "start" : 41,
-                "end" : 101
+                "string" : "nuestros vecinos",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los que viven al lado nuestro",
+                "start" : 63,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los que están al lado nuestro",
+                "start" : 63,
+                "end" : 100
             },
             {
                 "type" : "dictinterpretation",
@@ -53418,7 +53481,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "el tubérculo o raíz de yuca dulce, de la que se hace la chicha juiñoi",
+                "string" : "el tubérculo o raíz de yuca dulce de la que se hace la chicha juiñoi",
                 "start" : 16,
                 "end" : 88
             },
@@ -54272,9 +54335,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "especie de árbol que arde bien, llamado gasolina caspi",
+                "string" : "especie de árbol que arde bien llamado gasolina caspi",
                 "start" : 13,
                 "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 62,
+                "end" : 63
             },
             {
                 "type" : "dictinterpretation",
@@ -56347,7 +56417,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "poner en algo, o encima de algo apretando con la mano para que se pegue",
+                "string" : "poner en algo o encima de algo apretando con la mano para que se pegue",
                 "start" : 15,
                 "end" : 86
             },
@@ -56727,7 +56797,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "vara de mando hecha de palo de sangre (aromana o ci̵ri̵ti̵ño), que se usa en la fiesta i̵fonaco, en la que se nombra como nuevo curaca del clan al hijo del curaca fallecido",
+                "string" : "vara de mando hecha de palo de sangre (aromana o ci̵ri̵ti̵ño) que se usa en la fiesta i̵fonaco en la que se nombra como nuevo curaca del clan al hijo del curaca fallecido",
                 "start" : 13,
                 "end" : 186
             },

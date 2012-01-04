@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "flojo (perizoso) – dáki, ásumchau",
+    "startpage" : 147,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "flojo (perezoso)",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dáki",
+                "start" : 19,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ásumchau",
+                "start" : 26,
+                "end" : 35
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "flojo (perezoso)",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

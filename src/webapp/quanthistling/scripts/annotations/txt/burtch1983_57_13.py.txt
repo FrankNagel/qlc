@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre con que los murui llaman a Jurachoi, uno de los dos hermanos gigantes de un mito de los muinane",
+                "string" : "nombre con que los murui llaman a Jurachoi",
                 "start" : 10,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uno de los dos hermanos gigantes de un mito de los muinane",
+                "start" : 54,
                 "end" : 112
             },
             {

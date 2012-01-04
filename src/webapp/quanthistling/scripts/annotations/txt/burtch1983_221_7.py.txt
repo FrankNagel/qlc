@@ -21,7 +21,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "bastón de ritmo hecho de bambú que se usa en las fiestas menisaì, oci̵i y si̵ci̵i para inaugurar una casa para fiestas",
+                "string" : "bastón de ritmo hecho de bambú que se usa en las fiestas menisaì para inaugurar una casa para fiestas",
+                "start" : 16,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bastón de ritmo hecho de bambú que se usa en las fiestas oci̵i y si̵ci̵i para inaugurar una casa para fiestas",
                 "start" : 16,
                 "end" : 137
             },

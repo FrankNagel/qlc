@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "cuñado, –a (entre hombre y mujer) – wajég",
+    "startpage" : 133,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cuñada",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cuñado",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wajég",
+                "start" : 37,
+                "end" : 43
+            },
+    ]
+})

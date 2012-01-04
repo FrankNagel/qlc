@@ -28,9 +28,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nuestros vecinos (lit. los que viven, están al lado nuestro)",
-                "start" : 41,
-                "end" : 101
+                "string" : "nuestros vecinos",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los que viven al lado nuestro",
+                "start" : 63,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "los que están al lado nuestro",
+                "start" : 63,
+                "end" : 100
             },
             {
                 "type" : "dictinterpretation",

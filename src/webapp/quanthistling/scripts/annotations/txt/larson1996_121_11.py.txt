@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "bularse de – dushíkit",
+    "startpage" : 121,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "burlarse de",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dushíkit",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "burlarse de",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

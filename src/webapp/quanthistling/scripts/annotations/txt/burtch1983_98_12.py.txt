@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "poner en algo, o encima de algo apretando con la mano para que se pegue",
+                "string" : "poner en algo o encima de algo apretando con la mano para que se pegue",
                 "start" : 15,
                 "end" : 86
             },

@@ -21,9 +21,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre con que los murui llaman a Nacavari, uno de dos hermanos gigantes en un mito de los muinane (muìnáni̵)",
+                "string" : "nombre con que los murui llaman a Nacavari",
                 "start" : 10,
-                "end" : 125
+                "end" : 52
             },
             {
                 "type" : "dictinterpretation",
@@ -31,6 +31,13 @@ manual_entries.append({
                 "string" : "Dialecto muinane (muìnánɨ para los huitoto muinane)",
                 "start" : 53,
                 "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uno de dos hermanos gigantes en un mito de los muinane (muìnáni̵)",
+                "start" : 58,
+                "end" : 125
             },
             {
                 "type" : "dictinterpretation",

@@ -4,6 +4,7 @@ import sys, os
 sys.path.append(os.path.abspath('.'))
 
 import re
+import codecs, unicodedata
 
 from operator import attrgetter
 import difflib
@@ -172,7 +173,7 @@ def annotate_pos(entry, valid_pos_arr):
             entry.append_annotation(start, end, u'pos', u'dictinterpretation')
             i = i + 1
 
-def annotate_translations_and_examples(entry):
+def annotate_translations_and_examples(entry, manual_examples_dict):
     # delete translation annotations
     trans_annotations = [ a for a in entry.annotations if a.value=='translation']
     for a in trans_annotations:
@@ -268,11 +269,34 @@ def annotate_translations_and_examples(entry):
         #functions.insert_translation(entry, start, end)
 
         # insert examples
-        if match_first_dot:
-            re_ex = re.compile(r'(?<=\.) ?(.*?[\.\!\?]) ?(.*?[\.\!\?])')
-            for match_ex in re_ex.finditer(entry.fullentry, translation_starts[i]+match_first_dot.start(0), translation_ends[i]):
-                entry.append_annotation(match_ex.start(1), match_ex.end(1), u'example-src', u'dictinterpretation')
-                entry.append_annotation(match_ex.start(2), match_ex.end(2), u'example-tgt', u'dictinterpretation')       
+        if not (entry.startpage, entry.pos_on_page) in manual_examples_dict:
+            if match_first_dot:
+                re_ex = re.compile(r'(?<=\.) ?(.*?[\.\!\?]) ?(.*?[\.\!\?])')
+                for match_ex in re_ex.finditer(entry.fullentry, translation_starts[i]+match_first_dot.start(0), translation_ends[i]):
+                    entry.append_annotation(match_ex.start(1), match_ex.end(1), u'example-src', u'dictinterpretation')
+                    entry.append_annotation(match_ex.start(2), match_ex.end(2), u'example-tgt', u'dictinterpretation')       
+
+    if (entry.startpage, entry.pos_on_page) in manual_examples_dict:
+        re_hashes = re.compile("#([^#]*)#")
+        fullentry = manual_examples_dict[(entry.startpage, entry.pos_on_page)]
+        examples = []
+        examples_starts = []
+        examples_ends = []
+        offset = 1
+        last_end = 0
+        for m in re_hashes.finditer(fullentry, last_end):
+            examples.append(m.group(1))
+            examples_starts.append(m.start(1) - offset)
+            examples_ends.append(m.end(1) - offset)
+            last_end = m.end(1) + 1
+            offset += 2
+            
+        if (len(examples) % 2) != 0:
+            print(u"Error in manual example: {0}".format(fullentry).encode("utf-8"))
+        else:
+            for i in range(len(examples)/2):
+                entry.append_annotation(examples_starts[i*2], examples_ends[i*2], u'example-src', u'dictinterpretation')
+                entry.append_annotation(examples_starts[i*2+1], examples_ends[i*2+1], u'example-tgt', u'dictinterpretation')       
                 
  
 def main(argv):
@@ -296,6 +320,24 @@ def main(argv):
         manual_heads_dict[(int(startpage), int(pos_on_page))] = fullentry.decode("utf-8")
     manual_heads.close()
     
+    manual_examples = codecs.open("scripts/annotations/txt/burtch1983_two_examples_or_more.txt", 'r', "utf-8")
+    manual_examples_dict = {}
+    for l in manual_examples:
+        if not '#' in l:
+            continue
+        l = l.strip()
+        l = functions.normalize_stroke(l)
+        l = unicodedata.normalize("NFD", l)
+        fullentry, url = l.split("|")
+        match_url_parts = re.search("/source/burtch1983/(\d{1,3})/(\d{1,3})/index.html", l)
+        if match_url_parts:
+            startpage = match_url_parts.group(1)
+            pos_on_page = match_url_parts.group(2)
+            manual_examples_dict[(int(startpage), int(pos_on_page))] = fullentry
+        else:
+            print("Couldn't match URL: {0}".format(url))
+    manual_examples.close()
+
     pos_file = open("scripts/annotations/txt/burtch1983_valid_pos.txt", 'r')
     valid_pos_arr = []
     for l in pos_file:
@@ -314,7 +356,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=105,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=240,pos_on_page=8).all()
 
         startletters = set()
     
@@ -325,7 +367,7 @@ def main(argv):
                     if len(h) > 0:
                         startletters.add(h[0].lower())
             annotate_pos(e, valid_pos_arr)
-            annotate_translations_and_examples(e)
+            annotate_translations_and_examples(e, manual_examples_dict)
             #annotate_examples(e)
             annotate_dialect(e)
             annotate_crossrefs(e)

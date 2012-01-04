@@ -1,0 +1,260 @@
+
+manual_entries.append({
+    "fullentry" : "especies de rana: shaám(pi), báku, paí, súakaraip(a)/(i), puwách(i), puách(i), súwi, bukún, juatín, juwatín, puwín(ta), puín, mujúi, shágka, wánip(a).",
+    "startpage" : 265,
+    "pos_on_page" : 54,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "especies de rana",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "shaám",
+                "start" : 18,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "shaámpi",
+                "start" : 18,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "báku",
+                "start" : 30,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paí",
+                "start" : 37,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "súakaraip",
+                "start" : 43,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "súakaraipa",
+                "start" : 43,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "súakaraipi",
+                "start" : 43,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puwách",
+                "start" : 62,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puwáchi",
+                "start" : 62,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puách",
+                "start" : 74,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puáchi",
+                "start" : 74,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "súwi",
+                "start" : 85,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bukún",
+                "start" : 92,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "juatín",
+                "start" : 100,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "juwatín",
+                "start" : 109,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puwín",
+                "start" : 119,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puwínta",
+                "start" : 119,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "puín",
+                "start" : 131,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mujúi",
+                "start" : 138,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "shágka",
+                "start" : 146,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wánip",
+                "start" : 155,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wánipa",
+                "start" : 155,
+                "end" : 163
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "especies de rana:",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 155,
+                "end" : 155
+            },
+    ]
+})

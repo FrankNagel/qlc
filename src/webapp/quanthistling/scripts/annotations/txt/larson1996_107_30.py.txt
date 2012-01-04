@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "acabar de comer, de matar y de hacer – amúut",
+    "startpage" : 107,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acabar de comer",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acabar de matar y de hacer",
+                "start" : 0,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amúut",
+                "start" : 39,
+                "end" : 45
+            },
+    ]
+})

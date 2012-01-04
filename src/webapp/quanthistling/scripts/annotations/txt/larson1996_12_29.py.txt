@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "betsáju̱ – pedregál (en río), raudál, vado",
+    "startpage" : 12,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "betsáju̱",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pedregal (en río)",
+                "start" : 12,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "raudal",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vado",
+                "start" : 42,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "pedregal (en río)",
+                "start" : 12,
+                "end" : 31
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "raudal",
+                "start" : 33,
+                "end" : 40
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "rayado (desordinamente) – kuwét",
+    "startpage" : 181,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rayado (desordenadamente)",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kuwét",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rayado (desordenadamente)",
+                "start" : 0,
+                "end" : 23
+            },
+    ]
+})

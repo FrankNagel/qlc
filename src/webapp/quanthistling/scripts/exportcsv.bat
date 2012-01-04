@@ -1,5 +1,5 @@
-set QUANTHISTLINGPATH=h:\ProjectsWin\svn-googlecode\qlc\src\webapp\quanthistling
-set PATH=%PATH%;c:\Program Files (x86)\PostgreSQL\8.4\bin
+set QUANTHISTLINGPATH=c:\Users\pbouda\Projects\svn-googlecode\qlc\src\webapp\quanthistling
+set PATH=%PATH%;c:\Program Files (x86)\PostgreSQL\8.4\bin;c:\Program Files\7-Zip
 call psql -U postgres -c "copy (select * from entry) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\entry.csv
 call psql -U postgres -c "copy (select * from annotation) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\annotation.csv
 call psql -U postgres -c "copy (select * from dictdata) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\dictdata.csv
@@ -12,3 +12,4 @@ call psql -U postgres -c "copy (select * from wordlist_entry) to STDOUT DELIMITE
 call psql -U postgres -c "copy (select * from wordlist_annotation) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\wordlistannotation.csv
 call psql -U postgres -c "copy (select * from wordlistdata) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\wordlistdata.csv
 call psql -U postgres -c "copy (select * from wordlist_concept) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\wordlistconcept.csv
+call 7z.exe u -tzip %QUANTHISTLINGPATH%\quanthistling\public\downloads\csv.zip %QUANTHISTLINGPATH%\tmp\csv\*.csv

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "wawasápa – huahuasapa (instrumento punsante)",
+    "startpage" : 83,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wawasápa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "huahuasapa (instrumento punzante)",
+                "start" : 12,
+                "end" : 45
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "huahuasapa (instrumento punzante)",
+                "start" : 12,
+                "end" : 45
+            },
+    ]
+})

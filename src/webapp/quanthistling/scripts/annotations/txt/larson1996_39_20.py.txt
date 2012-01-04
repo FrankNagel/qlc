@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "kistián – persona 'civilizada'",
+    "startpage" : 39,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kistián",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "persona civilizada",
+                "start" : 11,
+                "end" : 30
+            },
+    ]
+})

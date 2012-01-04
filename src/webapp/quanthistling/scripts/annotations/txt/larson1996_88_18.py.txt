@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "yugkipák – sajino (jabalí)",
+    "startpage" : 88,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yugkipák",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sajino (jabalí)",
+                "start" : 12,
+                "end" : 28
+            },
+    ]
+})

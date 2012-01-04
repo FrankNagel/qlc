@@ -21,8 +21,29 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ser, estar muy enredado, nudoso",
+                "string" : "ser muy enredado",
                 "start" : 15,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser muy nudoso",
+                "start" : 15,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar muy enredado",
+                "start" : 20,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar muy nudoso",
+                "start" : 20,
                 "end" : 46
             },
             {

@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "chitúk – color amarillento, turbiudad de agua",
+    "startpage" : 16,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chitúk",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "color amarillento",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "turbiedad de agua",
+                "start" : 29,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "turbiedad de agua",
+                "start" : 29,
+                "end" : 46
+            },
+    ]
+})

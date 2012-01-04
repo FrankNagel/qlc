@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "desvanecer – emegkáut",
+    "startpage" : 139,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "desvanecer",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emegkáut",
+                "start" : 13,
+                "end" : 22
+            },
+    ]
+})

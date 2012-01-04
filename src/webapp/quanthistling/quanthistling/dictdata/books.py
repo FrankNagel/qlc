@@ -864,7 +864,7 @@ list = [
     },
     
     {
-        'title' : u'MARĨ YAYE MENA CARAPANA, YAIA YAYE MENA ESPAÑOL MACÃRĨCÃ TUTI',
+        'title' : u'Marĩ Yaye Mena Carapana, Yaia Yaye Mena Español Macãrĩcã Tuti',
         'author' : u'Metzger, Ronald G.',
         'year' : 2000,
         'bibtex_key' : u'metzger2000',

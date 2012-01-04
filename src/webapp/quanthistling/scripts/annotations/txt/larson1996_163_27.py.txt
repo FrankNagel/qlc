@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "mecer – pegát, ésegmat, wéchimat",
+    "startpage" : 163,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mecer",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pegát",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ésegmat",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "wéchimat",
+                "start" : 26,
+                "end" : 35
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "dúship – un árbol de cuyas pepas se hace un atavío llevado por los hombres, atavío hecho de pepas negras (se lleva, cruzado en los hombros, como un tipo de chaleco)",
+    "startpage" : 20,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dúship",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un árbol de cuyas pepas se hace un atavío llevado por los hombres",
+                "start" : 10,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atavío hecho de pepas negras (se lleva, cruzado en los hombros, como un tipo de chaleco)",
+                "start" : 79,
+                "end" : 168
+            },
+    ]
+})

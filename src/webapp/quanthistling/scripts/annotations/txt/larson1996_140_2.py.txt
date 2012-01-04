@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "doblar soga, tela – apiját",
+    "startpage" : 140,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "doblar soga",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "doblar tela",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "apiját",
+                "start" : 20,
+                "end" : 27
+            },
+    ]
+})

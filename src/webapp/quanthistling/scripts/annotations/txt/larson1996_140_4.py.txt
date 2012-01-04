@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "dolear – aéntset",
+    "startpage" : 140,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dolear",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer cargar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aéntset",
+                "start" : 9,
+                "end" : 17
+            },
+    ]
+})

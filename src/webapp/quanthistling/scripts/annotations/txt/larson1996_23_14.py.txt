@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "eseékagtin – persona que corrije, instructor",
+    "startpage" : 23,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eseékagtin",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "persona que corrige",
+                "start" : 14,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "instructor",
+                "start" : 35,
+                "end" : 45
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "persona que corrige",
+                "start" : 14,
+                "end" : 33
+            },
+    ]
+})

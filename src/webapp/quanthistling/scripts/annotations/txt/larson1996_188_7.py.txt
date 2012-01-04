@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "serquillo (penado) – dijái",
+    "startpage" : 188,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cerquillo (peinado)",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dijái",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "cerquillo (peinado)",
+                "start" : 0,
+                "end" : 18
+            },
+    ]
+})

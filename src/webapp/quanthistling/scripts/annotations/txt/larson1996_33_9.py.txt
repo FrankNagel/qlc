@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "jinút – ser terminados por alguna enfermidad",
+    "startpage" : 33,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jinút",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser terminados por alguna enfermedad",
+                "start" : 9,
+                "end" : 45
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ser terminados por alguna enfermedad",
+                "start" : 9,
+                "end" : 45
+            },
+    ]
+})

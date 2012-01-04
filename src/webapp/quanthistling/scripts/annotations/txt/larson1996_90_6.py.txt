@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "yuwág – prima cuñada (término empleado entre mujeres, siempre refiriéndose al linaje de la madre)",
+    "startpage" : 90,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yuwág",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "prima cuñada (término empleado entre mujeres, siempre refiriéndose al linaje de la madre)",
+                "start" : 9,
+                "end" : 101
+            },
+    ]
+})

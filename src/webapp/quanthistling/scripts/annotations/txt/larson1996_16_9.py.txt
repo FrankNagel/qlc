@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "chipát – parte interior del carcaj (consiste en muchos palitos secos hechos de hojas de palmera, entre los cuales se guarda los dardos, como agujas en un acerico)",
+    "startpage" : 16,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chipát",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parte interior del carcaj (consiste en muchos palitos secos hechos de hojas de palmera, entre los cuales se guarda los dardos, como agujas en un acerico)",
+                "start" : 10,
+                "end" : 163
+            },
+    ]
+})

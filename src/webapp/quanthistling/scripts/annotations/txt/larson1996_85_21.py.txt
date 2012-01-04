@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "yáigchi (yáiju̱ch) – muy pequeno",
+    "startpage" : 85,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yáigchi (yáiju̱ch)",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "muy pequeño",
+                "start" : 23,
+                "end" : 34
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "muy pequeño",
+                "start" : 23,
+                "end" : 34
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "nántu etsáwamu – luna menguarte",
+    "startpage" : 48,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nántu etsáwamu",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "luna menguante",
+                "start" : 19,
+                "end" : 33
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "luna menguante",
+                "start" : 19,
+                "end" : 33
+            },
+    ]
+})

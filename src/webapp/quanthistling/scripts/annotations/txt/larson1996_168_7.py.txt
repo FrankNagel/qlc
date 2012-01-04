@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "nuca (parte trascara de cuello) – yasúch, kuntuj",
+    "startpage" : 168,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuca (parte trasera de cuello)",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yasúch",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kuntuj",
+                "start" : 43,
+                "end" : 49
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "nuca (parte trasera de cuello)",
+                "start" : 0,
+                "end" : 31
+            },
+    ]
+})

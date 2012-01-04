@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "hermana, –o (entre mujer y hombre) – ubag",
+    "startpage" : 153,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hermana (entre mujer y hombre)",
+                "start" : 0,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hermano (entre mujer y hombre)",
+                "start" : 0,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ubag",
+                "start" : 37,
+                "end" : 41
+            },
+    ]
+})

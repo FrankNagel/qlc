@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "cucharón hecho de calabeza – katsújin",
+    "startpage" : 132,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cucharón hecho de calabaza",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "katsújin",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "cucharón hecho de calabaza",
+                "start" : 0,
+                "end" : 27
+            },
+    ]
+})

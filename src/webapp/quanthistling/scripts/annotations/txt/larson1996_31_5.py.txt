@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "jápat – madera media hachatada",
+    "startpage" : 31,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jápat",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "madera medio achatada",
+                "start" : 9,
+                "end" : 31
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "madera medio achatada",
+                "start" : 9,
+                "end" : 31
+            },
+    ]
+})

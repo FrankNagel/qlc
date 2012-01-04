@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "suyo (suya) – nínu",
+    "startpage" : 190,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suyo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suya",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nínu",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "ka̱á̱shap – raya (animal aguático)",
+    "startpage" : 37,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ka̱á̱shap",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "raya (animal acuático)",
+                "start" : 13,
+                "end" : 36
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "raya (animal acuático)",
+                "start" : 13,
+                "end" : 36
+            },
+    ]
+})

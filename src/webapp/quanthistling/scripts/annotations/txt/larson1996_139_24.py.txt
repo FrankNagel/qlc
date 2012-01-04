@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "dislocación de un hesco – manchántut",
+    "startpage" : 139,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dislocación de un hueso",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "manchántut",
+                "start" : 27,
+                "end" : 38
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dislocación de un hueso",
+                "start" : 0,
+                "end" : 24
+            },
+    ]
+})

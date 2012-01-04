@@ -104,6 +104,7 @@ def process_line(text, type="dictionary"):
     fullentry               = ''
     annotations             = []
     prevchar                = ''
+    prevchar_special        = False
     for char in text:
         if char == '<':
             in_html_entity = True
@@ -138,9 +139,9 @@ def process_line(text, type="dictionary"):
                 html_entity_start_stack.append(html_entity_start)
                 html_entity_stack.append(html_entity)
                 html_entity = ''
-        elif char == '\n' or char == '\t':
+        elif char == '\n':
             pos = 0
-            if prevchar == '-' and char != '\t':
+            if prevchar == '-':
                 fullentry = fullentry[:-1]
                 pos = len(fullentry)
                 for a in annotations:
@@ -154,6 +155,12 @@ def process_line(text, type="dictionary"):
             annotations.append([pos, pos, u'newline', u'pagelayout'])
         elif char == '\t':
             pos = len(fullentry)
+            
+            if pos >  0 and not prevchar_special:
+                #print "inserted space for tab"
+                #print text.encode("utf-8")
+                #print fullentry.encode("utf-8")
+                fullentry = fullentry + " "
             annotations.append([pos, pos, u'tab', u'pagelayout'])
         elif char == '\f':
             pos = len(fullentry)
@@ -164,6 +171,10 @@ def process_line(text, type="dictionary"):
             fullentry = fullentry + char
         if not in_html_entity and char != '>' and char != '\f' and char != '\n' and char != '\t':
             prevchar = char
+        if char == '\f' or char == '\n' or char == '\t':
+            prevchar_special = True
+        else:
+            prevchar_special = False
             
     entry.fullentry = fullentry
     #fullentry_search = re.sub(r'[\.\,\!\?\)\(;:¿║¡/\\\[\]]', ' ', entry.fullentry)

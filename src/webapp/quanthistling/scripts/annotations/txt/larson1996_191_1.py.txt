@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "tapar botellas, ollas, etc. – atektút",
+    "startpage" : 191,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tapar botellas",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tapar ollas etc",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atektút",
+                "start" : 30,
+                "end" : 38
+            },
+    ]
+})

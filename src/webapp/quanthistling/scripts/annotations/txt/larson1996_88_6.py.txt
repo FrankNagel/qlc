@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "yátsut – hermano, primo (término empleado entre hombres, siempre refiriéndose al linaje del padre)",
+    "startpage" : 88,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yátsut",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermano",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "primo (término empleado entre hombres, siempre refiriéndose al linaje del padre)",
+                "start" : 19,
+                "end" : 101
+            },
+    ]
+})

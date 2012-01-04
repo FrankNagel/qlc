@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre con que se designa en un mito a una persona que cambia para parecer de otro grupo u otra persona, como un nativo que vive con los blancos y parece uno de ellos",
+                "string" : "nombre con que se designa en un mito a una persona que cambia para parecer de otro grupo u otra persona como un nativo que vive con los blancos y parece uno de ellos",
                 "start" : 18,
                 "end" : 184
             },

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "pushújin – blanco grizaseo",
+    "startpage" : 57,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pushújin",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "blanco grisáceo",
+                "start" : 12,
+                "end" : 27
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "blanco grisáceo",
+                "start" : 12,
+                "end" : 27
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "armarillo oscuro – yagkúttaku",
+    "startpage" : 115,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "amarillo oscuro",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yagkúttaku",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "amarillo oscuro",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

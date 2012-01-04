@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "ujágkit – especie de árbol (chonta, palmera pequeña con espinas)",
+    "startpage" : 75,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ujágkit",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "especie de árbol (chonta, palmera pequeña con espinas)",
+                "start" : 11,
+                "end" : 67
+            },
+    ]
+})

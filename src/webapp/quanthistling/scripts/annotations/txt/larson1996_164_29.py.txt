@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "mientras que, cuando – núni ái̱",
+    "startpage" : 164,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mientras que",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cuando",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "núni ái̱",
+                "start" : 23,
+                "end" : 33
+            },
+    ]
+})

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "pinta (enfermedad) – tú̱ji̱",
+    "startpage" : 175,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pinta (enfermedad)",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tú̱ji̱",
+                "start" : 21,
+                "end" : 28
+            },
+    ]
+})

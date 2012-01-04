@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "rendirse, rendido – yawét",
+    "startpage" : 183,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rendirse",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rendido",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yawét",
+                "start" : 20,
+                "end" : 26
+            },
+    ]
+})

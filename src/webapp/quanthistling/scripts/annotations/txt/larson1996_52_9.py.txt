@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "pajá̱t – ¡pum! ¡paf! (sonido de golpe)",
+    "startpage" : 52,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pajá̱t",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pum paf (sonido de golpe)",
+                "start" : 11,
+                "end" : 39
+            },
+    ]
+})

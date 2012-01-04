@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "llanuar – núgka páka",
+    "startpage" : 160,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "llanura",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "núgka páka",
+                "start" : 10,
+                "end" : 22
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "llanura",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

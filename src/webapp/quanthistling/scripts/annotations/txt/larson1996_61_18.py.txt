@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "shampí – término de cariño empleado entre hermanas y cuñadas",
+    "startpage" : 61,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shampí",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "término de cariño empleado entre hermanas y cuñadas",
+                "start" : 10,
+                "end" : 63
+            },
+    ]
+})

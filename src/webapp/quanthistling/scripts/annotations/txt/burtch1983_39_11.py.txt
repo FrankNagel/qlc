@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hijo de Jusiñamuì, creador y dios de los mitos huitotos",
+                "string" : "hijo de Jusiñamuì",
                 "start" : 20,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "creador y dios de los mitos huitotos",
+                "start" : 41,
                 "end" : 77
             },
             {

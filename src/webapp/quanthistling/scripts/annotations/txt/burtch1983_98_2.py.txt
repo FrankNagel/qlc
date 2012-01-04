@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "vara de mando hecha de palo de sangre (aromana o ci̵ri̵ti̵ño), que se usa en la fiesta i̵fonaco, en la que se nombra como nuevo curaca del clan al hijo del curaca fallecido",
+                "string" : "vara de mando hecha de palo de sangre (aromana o ci̵ri̵ti̵ño) que se usa en la fiesta i̵fonaco en la que se nombra como nuevo curaca del clan al hijo del curaca fallecido",
                 "start" : 13,
                 "end" : 186
             },

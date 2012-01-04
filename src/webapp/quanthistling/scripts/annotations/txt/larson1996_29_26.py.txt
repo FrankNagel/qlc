@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "iwají̱ – 'niña del ojo' (la imagen humano que a veces se puede percibir en el ojo de una persona), gracioso, chistoso",
+    "startpage" : 29,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iwají̱",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "niña del ojo (la imagen humana que a veces se puede percibir en el ojo de una persona)",
+                "start" : 11,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gracioso",
+                "start" : 101,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chistoso",
+                "start" : 111,
+                "end" : 119
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "humana",
+                "start" : 37,
+                "end" : 43
+            },
+    ]
+})

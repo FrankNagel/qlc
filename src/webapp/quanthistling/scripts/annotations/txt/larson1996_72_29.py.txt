@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "tsejé̱emna – pájaro (pequeño, de color negro con algunas plumas rojas y azules)",
+    "startpage" : 72,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsejé̱emna",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pájaro (pequeño, de color negro con algunas plumas rojas y azules)",
+                "start" : 14,
+                "end" : 82
+            },
+    ]
+})

@@ -28,7 +28,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "árbol pequeño de propiedades estupefacientes como el ayahuasca, y la droga que se hace de las hojas",
+                "string" : "árbol pequeño de propiedades estupefacientes como el ayahuasca y la droga que se hace de las hojas",
                 "start" : 20,
                 "end" : 121
             },

@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "alabanda – amáin",
+    "startpage" : 110,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "a la banda",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "otro lado del rio",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amáin",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "a la banda",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

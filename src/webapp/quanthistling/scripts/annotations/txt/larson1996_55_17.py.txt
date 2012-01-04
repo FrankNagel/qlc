@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "pínik – escalera, guarda-ollas (estante en alto donde se guardan las ollas)",
+    "startpage" : 55,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pínik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "escalera",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guarda-ollas (estante en alto donde se guardan las ollas)",
+                "start" : 19,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guarda ollas (estante en alto donde se guardan las ollas)",
+                "start" : 19,
+                "end" : 76
+            },
+    ]
+})

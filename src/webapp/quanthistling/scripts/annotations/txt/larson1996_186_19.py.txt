@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "saltapalito (grillo, langosto) – mánchi",
+    "startpage" : 186,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "saltapalito (grillo, langosta)",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mánchi",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "saltapalito (grillo, langosta)",
+                "start" : 0,
+                "end" : 30
+            },
+    ]
+})

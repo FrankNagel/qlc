@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "nínu – suyo, suya (de él, de ella)",
+    "startpage" : 49,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nínu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suyo (de él)",
+                "start" : 8,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suya (de ella)",
+                "start" : 14,
+                "end" : 36
+            },
+    ]
+})
