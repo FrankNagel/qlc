@@ -1295,5 +1295,13 @@ list = [
         'description' : u'',
         'url' : u'http://www.sil.org/iso639-3/documentation.asp?id=noj'
     },
+    
+    {
+        'name' : u'French',
+        'langcode': u'fra',
+        'description' : u'',
+        'url' : u'http://www.sil.org/iso639-3/documentation.asp?id=fra'
+    },
+
 
 ]
