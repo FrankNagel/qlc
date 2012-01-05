@@ -969,6 +969,61 @@ list = [
                 'component' : 'Panoan'
             },
         ]
+    },
+    {
+        'title' : u'Les Nonuya et Les Okáina',
+        'author' : u'Rivet, Paul ET Wavrin, Robert de',
+        'year' : 1953,
+        'bibtex_key' : u'rivet1953',
+        'pages' : 57,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 336,
+                'endpage' : 377,
+                'src_language_name' : u'French',
+                'tgt_language_name' : u'Nonuya',
+                'src_language_bookname' : u'Français',
+                'tgt_language_bookname' : u'Nonuya',
+                're_letter_only': u'^\w+\s*$',
+                'file' : 'witotoan/rivet1953_dictdata_nonuya_336_377.xml',
+                'component' : 'Witotoan'
+            },
+            {
+                'startpage' : 336,
+                'endpage' : 377,
+                'src_language_name' : u'French',
+                'tgt_language_name' : u'Ocaina',
+                'src_language_bookname' : u'Français',
+                'tgt_language_bookname' : u'Okáina',
+                're_letter_only': u'^\w+\s*$',
+                'file' : 'witotoan/rivet1953_dictdata_ocaina_336_377.xml',
+                'component' : 'Witotoan'
+            },
+            {
+                'startpage' : 336,
+                'endpage' : 377,
+                'src_language_name' : u'French',
+                'tgt_language_name' : u'Huitoto Murui',
+                'src_language_bookname' : u'Français',
+                'tgt_language_bookname' : u'Witóto',
+                're_letter_only': u'^\w+\s*$',
+                'file' : 'witotoan/rivet1953_dictdata_huitoto_murui_336_377.xml',
+                'component' : 'Witotoan'
+            }, 
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 333,
+                'endpage' : 336,
+                'title': u'Appendices',
+                'file' : 'witotoan/rivet1953_nondictdata_333_336.htm',
+                'component' : 'Witotoan'
+            },
+        ]
     }
+    
     
 ]
