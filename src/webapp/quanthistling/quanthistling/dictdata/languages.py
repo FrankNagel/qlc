@@ -1302,6 +1302,13 @@ list = [
         'description' : u'',
         'url' : u'http://www.sil.org/iso639-3/documentation.asp?id=fra'
     },
+    
+    {
+        'name' : u'Panobo',
+        'langcode': u'pno',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pno'
+    },
 
 
 ]
