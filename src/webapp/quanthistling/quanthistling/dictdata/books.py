@@ -1023,7 +1023,101 @@ list = [
                 'component' : 'Witotoan'
             },
         ]
-    }
+    },
+    {
+        'title' : u'Datos del idioma huariapano',
+        'author' : u'Parker, Stephen',
+        'year' : 1992,
+        'bibtex_key' : u'parker1992',
+        'pages' : 54,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 7,
+                'endpage' : 28,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Panobo',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Huariapano',
+                're_letter_only': u'^\w+\s*$',
+                'file' : 'panoan/parker1992_dictdata_7_28.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 7,
+                'title': u'Start pages',
+                'file' : 'panoan/parker1992_nondictdata_1_7.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 29,
+                'endpage' : 48,
+                'title': u'Example sentences',
+                'file' : 'panoan/parker1992_nondictdata_29_48.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 50,
+                'endpage' : 53,
+                'title': u'Texts',
+                'file' : 'panoan/parker1992_nondictdata_50_53.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 54,
+                'endpage' : 54,
+                'title': u'Table of contents',
+                'file' : 'panoan/parker1992_nondictdata_54.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'Diccionario TUCANO - CASTELLANO',
+        'author' : u'Gallo, M., Carlos, I.',
+        'year' : 1972,
+        'bibtex_key' : u'gallo1972',
+        'pages' : 100,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 7,
+                'endpage' : 97,
+                'src_language_name' : u'Tucano',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Tucano',
+                'tgt_language_bookname' : u'Castellano',
+                're_letter_only': u'^<b>\w+|Ñ|U̶</b>\s*$',
+                'file' : 'tucanoan/gallo1972_dictdata_7_97.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 6,
+                'title': u'Start pages',
+                'file' : 'tucanoan/gallo1972_nondictdata_1_6.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 98,
+                'endpage' : 100,
+                'title': u'End pages',
+                'file' : 'tucanoan/gallo1972_nondictdata_98_100.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     
     
 ]
