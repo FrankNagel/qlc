@@ -27,7 +27,8 @@ def annotate_head(entry):
     head_annotations = [ a for a in entry.annotations if a.value=='head']
     for a in head_annotations:
         Session.delete(a)
-
+        
+    # Delete this code and insert your code
     head = None
     heads = []
     
@@ -62,6 +63,7 @@ def annotate_pos(entry):
     for a in pos_annotations:
         Session.delete(a)
 
+    # Delete this code and insert your code
     newline_annotations = [ a for a in entry.annotations if a.value=='newline']
     newline_annotations = sorted(newline_annotations, key=attrgetter('start'))
     
@@ -87,11 +89,10 @@ def annotate_translations(entry):
     for a in trans_annotations:
         Session.delete(a)
 
-                
  
 def main(argv):
 
-    bibtex_key = u"tamayo1988"
+    bibtex_key = u"Insert your bibtex key"
     
     if len(argv) < 2:
         print "call: annotations_for%s.py ini_file" % bibtex_key
