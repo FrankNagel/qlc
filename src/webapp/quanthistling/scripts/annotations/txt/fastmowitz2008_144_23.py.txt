@@ -21,9 +21,30 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "golpear para que quede prendido en el suelo, en un palo, en una tabla, en una canoa, etc.",
+                "string" : "golpear para que quede prendido en el suelo",
                 "start" : 17,
-                "end" : 106
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "golpear para que quede prendido en un palo",
+                "start" : 62,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "golpear para que quede prendido en una tabla",
+                "start" : 74,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "golpear para que quede prendido en una canoa",
+                "start" : 88,
+                "end" : 100
             },
             {
                 "type" : "formatting",

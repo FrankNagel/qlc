@@ -6030,13 +6030,6 @@ manual_entries.append({
                 "end" : 40
             },
             {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sujeto del verbo transitivo",
-                "start" : 46,
-                "end" : 77
-            },
-            {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",

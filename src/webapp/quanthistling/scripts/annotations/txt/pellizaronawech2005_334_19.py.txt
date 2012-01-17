@@ -26,6 +26,13 @@ manual_entries.append({
                 "end" : 78
             },
             {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chinki",
+                "start" : 776,
+                "end" : 782
+            },
+            {
                 "type" : "formatting",
                 "value" : "bold",
                 "string" : "panka",

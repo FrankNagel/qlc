@@ -6224,16 +6224,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hecho pez nanchir",
+                "string" : "nombre de varón",
                 "start" : 31,
-                "end" : 69
+                "end" : 47
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nombre de varón",
-                "start" : 31,
-                "end" : 47
+                "string" : "hecho pez nanchir",
+                "start" : 51,
+                "end" : 68
             },
             {
                 "type" : "formatting",
@@ -7399,6 +7399,13 @@ manual_entries.append({
                 "string" : "ave (la hembra blanquecina y café, el macho negruzco)",
                 "start" : 24,
                 "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chinki",
+                "start" : 776,
+                "end" : 782
             },
             {
                 "type" : "formatting",
