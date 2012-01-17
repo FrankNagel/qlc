@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "kr kr kr! = cuidado! (exclamación frente a un peligro).",
+    "startpage" : 255,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kr kr kr",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuidado (exclamación frente a un peligro)",
+                "start" : 12,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kr kr kr!",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

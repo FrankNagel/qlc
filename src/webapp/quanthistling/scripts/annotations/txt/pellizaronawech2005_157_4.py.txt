@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "eáa eáa, mch. = voz del ave sunka, del sapo shanká y de la culebra wánip.",
+    "startpage" : 157,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eáa eáa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del ave sunka",
+                "start" : 18,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del sapo shanká y de la culebra wánip",
+                "start" : 18,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eáa eáa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+    ]
+})

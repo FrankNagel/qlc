@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "• yankunt = armadillo (enorme, patas traseras como las del tapir y delanteras como las del oso hormiguero wishíwshi.",
+    "startpage" : 381,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yankunt",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "armadillo (enorme, patas traseras como las del tapir y delanteras como las del oso hormiguero wishíwshi)",
+                "start" : 12,
+                "end" : 117
+            },
+    ]
+})

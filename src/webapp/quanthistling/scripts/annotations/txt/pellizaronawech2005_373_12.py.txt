@@ -1,0 +1,141 @@
+
+manual_entries.append({
+    "fullentry" : "sútarach' (sútar), ni.na.ui. (sutárchi-r,ram,ri) = cortito/a, corto/a, bajo/a (de estatura), breve (discurso, función): cortedad, brevedad,, brevemente. Sutarach' chicháawai = habla brevemente",
+    "startpage" : 373,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sútarach'",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sútar",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.ui.",
+                "start" : 21,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortito",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortita",
+                "start" : 54,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "corto",
+                "start" : 65,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "corta",
+                "start" : 65,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bajo",
+                "start" : 74,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "baja (de estatura)",
+                "start" : 74,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "breve (discurso, función)",
+                "start" : 96,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortedad",
+                "start" : 124,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brevedad",
+                "start" : 134,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brevedad",
+                "start" : 134,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brevemente",
+                "start" : 145,
+                "end" : 155
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brevemente",
+                "start" : 145,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sútarach' (sútar),",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na.ui. (sutárchi-r,ram,ri)",
+                "start" : 21,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 96,
+                "end" : 96
+            },
+    ]
+})

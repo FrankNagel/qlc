@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Númpaim, na. (numpa = sangre; im = yumi = agua de lluvia) = nombre de un río (río de sangre, rojo).",
+    "startpage" : 323,
+    "pos_on_page" : 38,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "númpaim",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río de sangre",
+                "start" : 80,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río rojo",
+                "start" : 80,
+                "end" : 100
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Númpaim",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (numpa = sangre; im = yumi = agua de lluvia)",
+                "start" : 10,
+                "end" : 58
+            },
+    ]
+})

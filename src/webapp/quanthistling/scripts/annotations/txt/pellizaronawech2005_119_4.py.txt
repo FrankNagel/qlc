@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "+ yurum-a, um. = almorzar, cenar, deshayunar.",
+    "startpage" : 119,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yuruma",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "um.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "almorzar",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cenar",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desayunar",
+                "start" : 34,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "um.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "desayunar",
+                "start" : 34,
+                "end" : 44
+            },
+    ]
+})

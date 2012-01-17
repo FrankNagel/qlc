@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "Cháasem, na. ur,rum,ri) = nombre de mujer y varón: ➱ave (grandecita, azul, anida en el suelo). Mch. chaset chaset. Is. chinki.",
+    "startpage" : 383,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cháasem",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer y varón",
+                "start" : 27,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ave (grandecita, azul, anida en el suelo)",
+                "start" : 54,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Cháasem",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ur,rum,ri)",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. chaset chaset. Is. chinki.",
+                "start" : 97,
+                "end" : 128
+            },
+    ]
+})

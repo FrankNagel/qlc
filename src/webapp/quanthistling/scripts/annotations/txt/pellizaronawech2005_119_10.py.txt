@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "aj! = caray! (exclamación al recordar algo olvidado). Aj, machitian kajinmatkíjai = caray! me olvidé el machete.",
+    "startpage" : 119,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aj",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caray (exclamación al recordar algo olvidado)",
+                "start" : 6,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Aj, machitian kajinmatkíjai",
+                "start" : 55,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "caray! me olvidé el machete",
+                "start" : 86,
+                "end" : 114
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aj!",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+    ]
+})

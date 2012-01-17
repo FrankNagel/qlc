@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "wiút wiút, ui. = elástico, con movimiento de estirarse y encogerse. (r. wiút wiút ajáawai = se hace elástico.",
+    "startpage" : 495,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wiút wiút",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "elástico",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "con movimiento de estirarse y encogerse",
+                "start" : 30,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "wiút wiút ajáawai",
+                "start" : 75,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se hace elástico",
+                "start" : 98,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wiút wiút",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 13,
+                "end" : 16
+            },
+    ]
+})

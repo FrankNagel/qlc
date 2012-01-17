@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "jempé-ajarí, na. = pequeño espacio sin vegetación en la selva, causado por la planta venenosa iwiáinkiu.",
+    "startpage" : 227,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jempéajarí",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pequeño espacio sin vegetación en la selva causado por la planta venenosa iwiáinkiu",
+                "start" : 21,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jempé-ajarí",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+    ]
+})

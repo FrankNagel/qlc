@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Ja! jaja! = cierto! (afirmando durante una conversación), que pasa! (al tomar conciencia después de un desmayo, o de una distracción).",
+    "startpage" : 220,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Ja jaja",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cierto (afirmando durante una conversación)",
+                "start" : 12,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que pasa (al tomar conciencia después de un desmayo, o de una distracción)",
+                "start" : 59,
+                "end" : 136
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Ja! jaja!",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+    ]
+})

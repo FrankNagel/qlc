@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "panka, na. (r,ram,ri) = ave (la hembra blanquecina y café, el macho negruzco) mch. káar' káar'. Otra clase: rojiza la hembra y el macho negruzco; mch. taj taj. Según la mitología, era una mujer muy presumida, llamada Pancha, que despreció la ayuda de Shakáim, Dios del trabajo, presumiendo que podía sembrar la huerta con sus propias fuerzas. Pero no pudo terminar el trabajo, porque la huerta se ensanchaba siempre más. Llevada por la pereza, se comía la yuca tierna de la huerta y cocinaba palos de balsa para su esposo. Un día, mientras cocinaba, se le reventó la olla y se quemó con el agua hirviente, transformándose en el ave panka. Cuando se posa en los árboles de la huerta, se prohibe mirarla, para no contagiarse de su presunción y de su pereza. Is. chinki.",
+    "startpage" : 334,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "panka",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ave (la hembra blanquecina y café, el macho negruzco)",
+                "start" : 24,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "panka",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 7,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch. káar' káar'.",
+                "start" : 79,
+                "end" : 98
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch. taj taj.",
+                "start" : 149,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. chinki.",
+                "start" : 772,
+                "end" : 783
+            },
+    ]
+})

@@ -21,8 +21,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mal, muy mal",
+                "string" : "mal",
                 "start" : 46,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "muy mal",
+                "start" : 51,
                 "end" : 58
             },
             {

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "yapáitiam? = quién eres? (forma antigua en lugar de yáitiam).",
+    "startpage" : 206,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yapáitiam",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién eres (forma antigua en lugar de yáitiam)",
+                "start" : 14,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yapáitiam?",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

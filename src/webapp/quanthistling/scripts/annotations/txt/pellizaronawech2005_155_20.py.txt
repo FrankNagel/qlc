@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "+ awét-i, u. (a: ur-',urm-i,-) = mandarle al-go. Arútam nawen awetúrmaji = Dios nos ordenó diez mandamientos. Papín awéturyi = me mandó una carta.",
+    "startpage" : 155,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awéti",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mandarle algo",
+                "start" : 34,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "arútam nawen awetúrmaji",
+                "start" : 50,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "dios nos ordenó diez mandamientos",
+                "start" : 78,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "papín awéturyi",
+                "start" : 114,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "me mandó una carta",
+                "start" : 133,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: ur-',urm-i,-)",
+                "start" : 11,
+                "end" : 31
+            },
+    ]
+})

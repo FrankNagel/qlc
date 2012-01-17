@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "impijiá!, na. = amiga! (trato entre hermanas, cuñadas y amigas).",
+    "startpage" : 182,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "impijiá",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amiga (trato entre hermanas, cuñadas y amigas)",
+                "start" : 17,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "impijiá!",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

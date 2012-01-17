@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "kéerrr! = cuidado! (exclamación de peligro).",
+    "startpage" : 252,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kéerrr",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuidado (exclamación de peligro)",
+                "start" : 11,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kéerrr!",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

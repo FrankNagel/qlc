@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "pitiámu, na. (r,ram,ri) = canasta (chankín grande con boca estrecha) Sirve para guardar el maní. Is. chankín.",
+    "startpage" : 349,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pitiámu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "canasta (chankín grande con boca estrecha)",
+                "start" : 27,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chankín",
+                "start" : 104,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pitiámu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. chankín.",
+                "start" : 100,
+                "end" : 113
+            },
+    ]
+})

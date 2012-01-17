@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "ketséktsek! = ay! (exclamación de dolor al quemarse).",
+    "startpage" : 253,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ketséktsek",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ay (exclamación de dolor al quemarse)",
+                "start" : 15,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ketséktsek!",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

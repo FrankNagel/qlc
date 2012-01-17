@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Wéents, na. (wee = sal; nts = entsa = agua de vertiente) = nombre de un río (río salado, río de la sal)",
+    "startpage" : 491,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wéents",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río salado",
+                "start" : 79,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río de la sal",
+                "start" : 92,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Wéents,",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (wee = sal; nts = entsa = agua de vertiente)",
+                "start" : 9,
+                "end" : 57
+            },
+    ]
+})

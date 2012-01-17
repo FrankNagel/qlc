@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "yánkunt, na. (ur,rum,ri) = animal (tipo armadillo enorme con coraza, patas traseras como de capibara unkumia, manos delanteras como de hormiguero wishíwshi). Is. shushuí.",
+    "startpage" : 205,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yánkunt",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "animal (tipo armadillo enorme con coraza, patas traseras como de capibara unkumia, manos delanteras como de hormiguero wishíwshi)",
+                "start" : 28,
+                "end" : 158
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "shushuí",
+                "start" : 164,
+                "end" : 172
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yánkunt",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (ur,rum,ri)",
+                "start" : 10,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. shushuí.",
+                "start" : 160,
+                "end" : 173
+            },
+    ]
+})

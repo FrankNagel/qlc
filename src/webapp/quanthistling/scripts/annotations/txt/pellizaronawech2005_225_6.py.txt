@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ tankamásh' = salón de los varones, de las visitas y celebraciones.",
+    "startpage" : 225,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tankamásh'",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salón de los varones",
+                "start" : 16,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salón de las visitas y celebraciones",
+                "start" : 16,
+                "end" : 69
+            },
+    ]
+})

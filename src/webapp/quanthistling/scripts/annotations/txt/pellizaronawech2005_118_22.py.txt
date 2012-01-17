@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "?ayáut, na. = molusco gasterópodo terrestre.",
+    "startpage" : 118,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ayáut",
+                "start" : 1,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "molusco gasterópodo terrestre",
+                "start" : 15,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "?ayáut",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 12
+            },
+    ]
+})

@@ -7,9 +7,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "títmain!",
+                "string" : "títmain",
                 "start" : 0,
-                "end" : 9
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
@@ -21,9 +21,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Tanta gloria!",
+                "string" : "Tanta gloria",
                 "start" : 23,
-                "end" : 36
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",

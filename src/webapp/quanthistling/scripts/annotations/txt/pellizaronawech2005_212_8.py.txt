@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "• entsa, na. = agua (de vertiente). ⇨hipóstasis de Shakáim-Dios. Según la mitología Shakáim- Dios llega como lluvia huracanada (shaka-yumi = Shakáim) para esparcir sobre la tierra las semillas de todas las plantas de la selva. ⇨calabaza en forma de pera para llevar el agua. Según la mitología las calabazas yumi nacieron entre las cenizas de las plantas quemadas por el espíritu de una abuela, que se apareció bajo la forma de una hoja y se fugó incendiada por su nieto.",
+    "startpage" : 212,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "entsa",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agua (de vertiente)",
+                "start" : 15,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hipóstasis de Shakáim Dios",
+                "start" : 37,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 232,
+                "end" : 232
+            },
+    ]
+})

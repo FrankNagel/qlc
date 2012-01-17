@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "piniakum-sa, m. (para: tur-sa,turma-s,t-us) = acostarse boca abajo, echarse de bruce.",
+    "startpage" : 346,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "piniakumsa",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acostarse boca abajo",
+                "start" : 46,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "echarse de bruces",
+                "start" : 68,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "piniakum-sa,",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: tur-sa,turma-s,t-us)",
+                "start" : 13,
+                "end" : 43
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "echarse de bruces",
+                "start" : 68,
+                "end" : 84
+            },
+    ]
+})

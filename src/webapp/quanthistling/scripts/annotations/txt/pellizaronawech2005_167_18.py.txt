@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "etsántramu, ni.na. (r,ram,ri) = alumbrado/a, calentado/a por el sol: calentamiento, alumbramiento. Etsa etsántramu = alumbrado por el sol. Etsán etsantrámuri = el alumbramiento del sol.",
+    "startpage" : 167,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "etsántramu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alumbrado",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alumbrada",
+                "start" : 33,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calentado por el sol",
+                "start" : 46,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calentada por el sol",
+                "start" : 46,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calentamiento",
+                "start" : 70,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alumbramiento",
+                "start" : 85,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "etsa etsántramu",
+                "start" : 100,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "alumbrado por el sol",
+                "start" : 119,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "etsán etsantrámuri",
+                "start" : 141,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el alumbramiento del sol",
+                "start" : 164,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "etsántramu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 30
+            },
+    ]
+})

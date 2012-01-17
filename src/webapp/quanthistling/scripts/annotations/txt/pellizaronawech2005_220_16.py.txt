@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "jaja jaja jai, = estribillo de las canciones nampet, para decir: - así hago, esta es mi canción, así canto yo.",
+    "startpage" : 220,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaja jaja jai",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estribillo de las canciones nampet",
+                "start" : 17,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaja jaja jai,",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

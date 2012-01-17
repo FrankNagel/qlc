@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "* shi! = aléjate (a las aves).",
+    "startpage" : 165,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shi",
+                "start" : 2,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aléjate (a las aves)",
+                "start" : 9,
+                "end" : 30
+            },
+    ]
+})

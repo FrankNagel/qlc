@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "chuwa! = ajá! caray! caramba! sorpresa! atizá! (exclamación de maravilla dicha por los varones).",
+    "startpage" : 402,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chuwa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ajá",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caray",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caramba",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sorpresa",
+                "start" : 31,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atizá (exclamación de maravilla dicha por los varones)",
+                "start" : 41,
+                "end" : 98
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chuwa!",
+                "start" : 0,
+                "end" : 6
+            },
+    ]
+})

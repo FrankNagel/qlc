@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "Núnkui, na. = nombre de mujer; ⇨ teofanía: manifestación femenina de Arútam-Dios, creador de las hortalizas. Su nombre significa que vive en la tierra y que es su dueña. La mitología dice que penetró en la tierra por el tubo de una guadúa, dejando a los shuar sus nándar (reliquias), para que se comuniquen con ella. Arútam vive en la cascada sagrada y los ríos son sus caminos para llegar donde los shuar. Dado que Nunkui sale del río, es una manifestación de Arútam-Dios. Ella tiene todo poder debajo de la tierra. A ella se le debe el origen y el desarrollo de los tubérculos y de los animales que viven debajo de la tierra, pues ella los crea con su palabra. Se presenta como mujer, porque es el arquetipo de la mujer shuar, pues ella le enseña como cultivar la huerta, fabricar las vasijas con la arcilla y como dar a luz y criar a los bebés. Sus hipóstasis pueden ser todos los animales que viven debajo de la tierra, sobretodo el armadillo y el ratón. La mujer shuar, cuando quiere encontrarse con ella, toma tabaco y va en trance en un áak (cobertizo), construido en su huerta. En la misma huerta guarda los Nántar (reliquias de Nunkui) y le canta los ánent (plegarias), para que, por medio de ellos, dé fuerza a los cultivos. Por medio de la crisálida inchimiu, que se encuentra en el camote de la huerta, la joven recibe su fuerza. Las mujeres shuar que la imitan como su arquetipo, son llamadas Nunkui. Estas mujeres, después de su muerte se reúnen con ella, haciéndose Arútam-shuar (Santas, familiares de Arútam). Nunkui son todos los animales, los tiestos de barro y restos arqueológicos que se encuentran debajo de la tierra. Todo lo que está debajo de la tierra está hecho por ella y recibe su vida. En la celebración del Nua-tsáanku (en la cual la mujer toma zumo de tabaco, para que entre en ella la fuerza de Nunkui) la mujer shuar se inicia a imitar a Nunkui en los trabajos y en las plegarias ánent, haciéndose kasaku (mujer madura).",
+    "startpage" : 324,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "núnkui",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 15,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "manifestación femenina de Arútam-Dios",
+                "start" : 46,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "creador de las hortalizas",
+                "start" : 87,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Núnkui",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nunkui",
+                "start" : 428,
+                "end" : 434
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Arútam-",
+                "start" : 475,
+                "end" : 483
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nántar",
+                "start" : 1137,
+                "end" : 1144
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ánent",
+                "start" : 1182,
+                "end" : 1188
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "inchimiu",
+                "start" : 1286,
+                "end" : 1294
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nua-tsáanku",
+                "start" : 1771,
+                "end" : 1783
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 258,
+                "end" : 258
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 978,
+                "end" : 978
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1747,
+                "end" : 1747
+            },
+    ]
+})

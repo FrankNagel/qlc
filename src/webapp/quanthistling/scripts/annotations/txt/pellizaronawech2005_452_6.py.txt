@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "tutínkiamu, ni.na. (r,ram,ri) = abotonado/a, tensado/a: la abotonada, el botón, el gancho, el tensor. Pushí tutinkiamu = camisa abotonada. Pushín tutinkiámuri = los botones de la camisa",
+    "startpage" : 452,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tutínkiamu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abotonado",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abotonada",
+                "start" : 33,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tensado",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tensada",
+                "start" : 46,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la abotonada",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el botón",
+                "start" : 71,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el gancho",
+                "start" : 82,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el tensor",
+                "start" : 93,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "pushí tutinkiamu",
+                "start" : 104,
+                "end" : 121
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "camisa abotonada",
+                "start" : 124,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Pushín tutinkiámuri",
+                "start" : 142,
+                "end" : 163
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "los botones de la camisa",
+                "start" : 166,
+                "end" : 190
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tutínkiamu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 30
+            },
+    ]
+})

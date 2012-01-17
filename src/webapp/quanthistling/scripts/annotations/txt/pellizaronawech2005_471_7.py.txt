@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "uwíshak, na. (uwíshka-r,ram,ri) = sacramental: bendición; consagración; rito, objeto, o persona que da una ayuda sobrenatural.",
+    "startpage" : 471,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uwíshak",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bendición",
+                "start" : 49,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "consagración",
+                "start" : 61,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rito",
+                "start" : 76,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "objeto que da una ayuda sobrenatural",
+                "start" : 82,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "persona que da una ayuda sobrenatural",
+                "start" : 92,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uwíshak",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (uwíshka-r,ram,ri)",
+                "start" : 10,
+                "end" : 33
+            },
+    ]
+})

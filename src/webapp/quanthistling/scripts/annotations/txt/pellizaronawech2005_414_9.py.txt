@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "Tsentsempu, na. (ur,rum,ri) = nombre de mujer; ⇨ planta de coca (mata de ramitas con florcitas blancas acampanadas. Uchitsentsémpu tiene mata y hojas mas pequeñas. Úunt- tsentsémpu es de mata y hojas más grandes). Con el uchi- tsentsempu se hace un concentrado cocinando la hoja, para curar la fiebre y el mal de hígado de los niños. También se da ritualmente al destete del bebé. ⇨ Rito del tsentsempu: Por la tarde el padre del bebé hace un minúsculo chankín (canastito) y lo cuelga al pau (poste ritual) de la casa. Trae de la selva una rama de uchich-tsentsempu, le saca cuatro hojitas y se las entrega al wea. Este las mete en su nátip (copa ritual), que coloca en el pequeño chankín. Por la mañana el wea se purifica, lavándose y cambiándose de ropa y se sienta en el chimpí (trono). Mastica las hojas de tsentsempu, junto con piripri, tsekeánchmar, chiki y tapir y escupe en el nátip. El papá trae el bebé, que el wea sienta sobre sus rodillas. Le hace tomar un poco de zumo y luego se lo sopla en sus extremidades y en la espalda. A continuación estira dichas extremidades y las pone a contacto con las suyas, diciendo: que se fortalezcan, que desarrollen bien, que aprenda pronto a caminar y que se le fortalezca la espalda para poder cargar pesos. Después de imponerle el nombre, hace ademán de colgarle el chankín a las espaldas y se lo devuelve a su padre, que lo acuesta en el tampu (amaca). Entonces el wea ordena a los padres los tabúes que deben observar para el desarrollo del bebé y los manda a trasplantar la ramita de tsentsempu, de la cual habían sacado las cuatro hojitas. Los días siguientes estos van a visitar al wea, para conocer los sueños proféticos sobre el niño. Estos sueños pueden ser: Imiátramu (buen pronóstico); waimiátkamu (bendición divina); mesemátkamu, mesekrátramu (mala suerte). Se observa también la ramita trasplantada. Si brota es pronóstico de buena suerte. Pero si se seca es pronóstico de mala suerte.",
+    "startpage" : 414,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsentsempu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 30,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "planta de coca",
+                "start" : 49,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tsentsempu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (ur,rum,ri)",
+                "start" : 12,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 704,
+                "end" : 704
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 835,
+                "end" : 835
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 835,
+                "end" : 835
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 835,
+                "end" : 835
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1281,
+                "end" : 1281
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1431,
+                "end" : 1431
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 1624,
+                "end" : 1624
+            },
+    ]
+})

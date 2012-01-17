@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "waya waya, mch. = voz de la palomita murá-púush (púush de la zona baja dice: tuukrá tuukrá).",
+    "startpage" : 477,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "waya waya",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz de la palomita murá púush (púush de la zona baja dice: tuukrá tuukrá)",
+                "start" : 18,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "waya waya",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+    ]
+})

@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "namíamu, ni.na. (r,ram,ri) = motolo/a, sin filo; la falta de filo. Machit namíamu = machete sin filo. Machitian namiámuri = la falta de filo del machete.",
+    "startpage" : 300,
+    "pos_on_page" : 44,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "namíamu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "motolo",
+                "start" : 30,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "motola",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin filo",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la falta de filo",
+                "start" : 50,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "machit namíamu",
+                "start" : 68,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "machete sin filo",
+                "start" : 86,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "machitian namiámuri",
+                "start" : 104,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la falta de filo del machete",
+                "start" : 127,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "namíamu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 10,
+                "end" : 27
+            },
+    ]
+})

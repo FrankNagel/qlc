@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "anám-ka",
+                "string" : "anámka",
                 "start" : 2,
                 "end" : 10
             },

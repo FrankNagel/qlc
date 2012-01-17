@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "awájtiurma, ni.na. (r,ram,ri) = abanicado/a; la abanicada, abaniqueo, bendición con hisopo. Wáwek awájntiurma = demonios abanicados. Wawekan awajntiúrmari. La abanicada de los demonios. El uwishín (exorcista) ventila al enfermo con su escobilla (sasank), para congelar a los malos espíritus wáwek. Al final del rito de curación, con su escobilla hace el gesto de barrer a los malos espíritus desde el enfermo hasta la puerta de la casa.",
+    "startpage" : 152,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awájtiurma",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abanicado",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abanicada",
+                "start" : 33,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la abanicada",
+                "start" : 46,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abaniqueo",
+                "start" : 60,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bendición con hisopo",
+                "start" : 71,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "wáwek awájntiurma",
+                "start" : 94,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "demonios abanicados",
+                "start" : 116,
+                "end" : 135
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wawekan awajntiúrmari",
+                "start" : 137,
+                "end" : 159
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La abanicada de los demonios",
+                "start" : 161,
+                "end" : 189
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awájtiurma",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 30
+            },
+    ]
+})

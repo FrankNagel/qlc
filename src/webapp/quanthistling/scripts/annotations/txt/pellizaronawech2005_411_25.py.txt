@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "tse! = exclamación de sorpresa y desaprobación. Tse, warí títmain! = qué, no es tanto! Tse, yajáuchíti = que asco, es repugnante.",
+    "startpage" : 411,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tse",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación de sorpresa y desaprobación",
+                "start" : 7,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tse, warí títmain!",
+                "start" : 50,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué, no es tanto!",
+                "start" : 73,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tse, yajáuchíti",
+                "start" : 92,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "que asco, es repugnante",
+                "start" : 112,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tse!",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

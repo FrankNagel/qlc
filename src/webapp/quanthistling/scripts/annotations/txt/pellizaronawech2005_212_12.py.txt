@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "• shi-yumi, taku = calabaza (ovalada) Su interior se usa como esponja y como bodoque.",
+    "startpage" : 212,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shiyumi",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taku",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calabaza (ovalada)",
+                "start" : 19,
+                "end" : 37
+            },
+    ]
+})

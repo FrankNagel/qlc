@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "káeeer! = grito de satisfacción.",
+    "startpage" : 236,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "káeeer",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "grito de satisfacción",
+                "start" : 11,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "káeeer!",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

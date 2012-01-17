@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "+ awánkt-uk, u. = engancharle algo, pescarle (= engan charle el anzuelo). Tsaújai namakan awánktukái = le enganchó un pescado con el anzuelo = con el anzuelo le pescó un pez.",
+    "startpage" : 153,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awánktuk",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "engancharle algo",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescarle (= engancharle el anzuelo)",
+                "start" : 37,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tsaújai namakan awánktukái",
+                "start" : 75,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "le enganchó un pescado con el anzuelo = con el anzuelo le pescó un pez",
+                "start" : 107,
+                "end" : 179
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 14,
+                "end" : 16
+            },
+    ]
+})

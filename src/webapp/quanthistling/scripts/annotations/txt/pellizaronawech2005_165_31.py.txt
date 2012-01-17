@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "* juu! = vete (a las fieras).",
+    "startpage" : 165,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "juu",
+                "start" : 2,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vete (a las fieras)",
+                "start" : 9,
+                "end" : 28
+            },
+    ]
+})

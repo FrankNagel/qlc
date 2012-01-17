@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "tsenkenmamu, ni.na. (r,ram,ri) = hecho/ gancho, con gancho, gancho, horquilla. Numi tsenkénmamu = palo con gancho. Numín tenkenmámuri = el gancho del palo.",
+    "startpage" : 413,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsenkenmamu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hecho gancho",
+                "start" : 33,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "con gancho",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gancho",
+                "start" : 60,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "horquilla",
+                "start" : 68,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "numi tsenkénmamu",
+                "start" : 79,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "palo con gancho",
+                "start" : 99,
+                "end" : 114
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "numín tenkenmámuri",
+                "start" : 116,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el gancho del palo",
+                "start" : 139,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsenkenmamu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 30
+            },
+    ]
+})

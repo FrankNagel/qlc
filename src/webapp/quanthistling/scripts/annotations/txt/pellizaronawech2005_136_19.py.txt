@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "aniawá! = sorprendente! que maravilla! (exclamación de maravilla y de sorpresa de las mujeres).",
+    "startpage" : 136,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aniawá",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sorprendente",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que maravilla (exclamación de maravilla y de sorpresa de las mujeres)",
+                "start" : 25,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aniawá!",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

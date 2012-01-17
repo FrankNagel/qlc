@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "jai! = grito para llamar la atención; para expresar valentía. Yakuma jai, jáanchua jái = soy inalcanzable como el mono yakum, arisco como el machín.",
+    "startpage" : 220,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "grito para llamar la atención",
+                "start" : 7,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "para expresar valentía",
+                "start" : 39,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yakuma jai, jáanchua jái",
+                "start" : 64,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "soy inalcanzable como el mono yakum, arisco como el machín",
+                "start" : 93,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jai!",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

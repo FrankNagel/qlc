@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "* ayawá! = ajá! ... (dicho por las mujeres).",
+    "startpage" : 402,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ayawá",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ajá (dicho por las mujeres)",
+                "start" : 12,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 4,
+                "end" : 5
+            },
+    ]
+})

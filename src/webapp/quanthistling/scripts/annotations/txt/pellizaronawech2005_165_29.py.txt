@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "es! = (al caballo) arre!. (al perro) márchate!",
+    "startpage" : 165,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "es",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arre (al caballo)",
+                "start" : 6,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "márchate (al perro)",
+                "start" : 26,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "es!",
+                "start" : 0,
+                "end" : 3
+            },
+    ]
+})

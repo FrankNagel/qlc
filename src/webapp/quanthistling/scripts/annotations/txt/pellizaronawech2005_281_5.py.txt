@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "mekumá-chicháu, na. = ventrílogo.",
+    "startpage" : 281,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mekumáchicháu",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 18,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ventrílocuo",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mekumá-chicháu",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 18,
+                "end" : 21
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ventrílocuo",
+                "start" : 24,
+                "end" : 35
+            },
+    ]
+})

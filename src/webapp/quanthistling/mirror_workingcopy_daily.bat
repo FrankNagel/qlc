@@ -10,3 +10,4 @@ call pg_dump.exe -h localhost -U postgres -c quanthistling > pgdump_quanthistlin
 call 7z.exe u -tzip pgdump_quanthistling.zip pgdump_quanthistling.sql
 call pscp -r *.zip peterbouda.de:/var/www/quanthistling-new/quanthistling/public/downloads/
 REM call pscp -r pgdump_quanthistling.sql peterbouda.de:/var/www/quanthistling-new/quanthistling/public/downloads/
+cd %QUANTHISTLINGPATH%

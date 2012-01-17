@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Numpatkáim, na. (numpa = sangre; tak = casi; im = yumi = agua de lluvia) = nombre de un río (río sanguinolento, rojizo).",
+    "startpage" : 324,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "numpatkáim",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río sanguinolento",
+                "start" : 95,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río rojizo",
+                "start" : 95,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Numpatkáim",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (numpa = sangre; tak = casi; im = yumi = agua de lluvia)",
+                "start" : 13,
+                "end" : 73
+            },
+    ]
+})

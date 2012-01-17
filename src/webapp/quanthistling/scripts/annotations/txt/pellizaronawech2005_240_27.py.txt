@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "kakáaram, ni.na.ui. (kakáarma-r,ram,ri) = fortalecido/a, fuerte, duro/a: fortalecimiento, fortaleza, fuerza, dureza. Juank kakáaram = Juank fortalecido. Juánkan kakáarmari = la fortaleza de Juank.",
+    "startpage" : 240,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kakáaram",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.ui.",
+                "start" : 11,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fortalecido",
+                "start" : 44,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fortalecida",
+                "start" : 44,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fuerte",
+                "start" : 59,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "duro",
+                "start" : 67,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dura",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fortalecimiento",
+                "start" : 75,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fortaleza",
+                "start" : 92,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fuerza",
+                "start" : 103,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dureza",
+                "start" : 111,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank kakáaram",
+                "start" : 119,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank fortalecido",
+                "start" : 137,
+                "end" : 154
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan kakáarmari",
+                "start" : 156,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la fortaleza de juank",
+                "start" : 179,
+                "end" : 200
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kakáaram",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na.ui. (kakáarma-r,ram,ri)",
+                "start" : 11,
+                "end" : 42
+            },
+    ]
+})

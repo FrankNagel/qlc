@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "Yúsrik, na. (iur,rum,ri) = nombre de mujer: ⇨pez (variedad: espinoso con aletas). Is. namak. ⇨avecilla (pecho amarillo, espalda plomo). Is. chinki.",
+    "startpage" : 217,
+    "pos_on_page" : 42,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yúsrik",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 28,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pez (variedad: espinoso con aletas)",
+                "start" : 46,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "namak",
+                "start" : 87,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "avecilla (pecho amarillo, espalda plomo)",
+                "start" : 95,
+                "end" : 135
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chinki",
+                "start" : 141,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yúsrik",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 9,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. namak.",
+                "start" : 83,
+                "end" : 93
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. chinki.",
+                "start" : 137,
+                "end" : 148
+            },
+    ]
+})

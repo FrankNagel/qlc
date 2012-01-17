@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "jeje! = exclamación de vergüenza.",
+    "startpage" : 227,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jeje",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación de vergüenza",
+                "start" : 8,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jeje!",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "• mamatunch' = hormiga (grande, rijiza, con aguijón).",
+    "startpage" : 490,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mamatunch'",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hormiga (grande, rojiza, con aguijón)",
+                "start" : 15,
+                "end" : 53
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "hormiga (grande, rojiza, con aguijón)",
+                "start" : 15,
+                "end" : 53
+            },
+    ]
+})

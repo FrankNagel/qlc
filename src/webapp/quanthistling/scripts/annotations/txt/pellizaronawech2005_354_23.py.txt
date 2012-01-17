@@ -28,13 +28,6 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "el color pardo = atash' mushumamu = gallina de color pardo",
-                "start" : 47,
-                "end" : 105
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
                 "string" : "el color pardo",
                 "start" : 47,
                 "end" : 61

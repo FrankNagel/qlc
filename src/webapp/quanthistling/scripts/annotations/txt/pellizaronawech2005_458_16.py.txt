@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Ukúncham (Ukunchma-), = nombre de varón (= hecho esqueleto, flaco)",
+    "startpage" : 458,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ukúncham",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ukunchma",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hecho esqueleto",
+                "start" : 45,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "flaco",
+                "start" : 62,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Ukúncham (Ukunchma-)",
+                "start" : 0,
+                "end" : 21
+            },
+    ]
+})

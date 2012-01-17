@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "chai! = hola, oiga. Al final de los wáimianch' (oraciones de petición) se llama a Arútam-Dios que venga a cumplir lo pedido, gritando: chai chai chai... El visitante al acercarse a una casa, anuncia su llegada diciendo: Chai winiájai = hola vengo!",
+    "startpage" : 383,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chai",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hola",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oiga",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "al final de los wáimianch' (oraciones de petición) se llama a arútam-dios que venga a cumplir lo pedido, gritando: chai chai chai... el visitante al acercarse a una casa, anuncia su llegada diciendo: chai winiájai",
+                "start" : 20,
+                "end" : 237
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "hola vengo",
+                "start" : 240,
+                "end" : 250
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chai!",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "jau! = bueno! Entendí! estoy de acuerdo!",
+    "startpage" : 224,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jau",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bueno",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Entendí",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estoy de acuerdo",
+                "start" : 24,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jau!",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "chi! = lapsus (me equivoco! me corrijo! error! no es así!).",
+    "startpage" : 387,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chi",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lapsus (me equivoco! me corrijo! error! no es así!)",
+                "start" : 7,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chi!",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

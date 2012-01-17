@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "+ ekent = sala de las mujeres, reservada a la familia (cocina, dormitorio de las parejas).",
+    "startpage" : 225,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ekent",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sala de las mujeres reservada a la familia (cocina, dormitorio de las parejas)",
+                "start" : 10,
+                "end" : 89
+            },
+    ]
+})

@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "* kish! = vete (en general)",
+    "startpage" : 165,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kish",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vete (en general)",
+                "start" : 10,
+                "end" : 27
+            },
+    ]
+})

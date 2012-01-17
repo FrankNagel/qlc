@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "chua! Is. chuwa!",
+    "startpage" : 398,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chua",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chuwa",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chua!",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. chuwa!",
+                "start" : 6,
+                "end" : 16
+            },
+    ]
+})

@@ -9,12 +9,12 @@ POSTGRES_BIN_PATH = "C:\\Program Files (x86)\\PostgreSQL\\8.4\\bin"
 
 print("Downloading dump file...")
 response = urllib2.urlopen('http://www.cidles.eu/quanthistling/downloads/pgdump_quanthistling.zip')
-output = open("pgdump_quanthistling.zip", "w")
+output = open("pgdump_quanthistling.zip", "wb")
 output.write(response.read())
 output.close()
 
 print("Extracting dump file...")
-myzip = ZipFile.open("pgdump_quanthistling.zip", "r")
+myzip = ZipFile("pgdump_quanthistling.zip", "r")
 myzip.extractall()
 myzip.close()
 

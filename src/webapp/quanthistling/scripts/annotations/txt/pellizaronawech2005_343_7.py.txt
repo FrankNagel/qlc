@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "pej! = fallé (el tiro)!",
+    "startpage" : 343,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pej",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fallé (el tiro)",
+                "start" : 7,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pej!",
+                "start" : 0,
+                "end" : 4
+            },
+    ]
+})

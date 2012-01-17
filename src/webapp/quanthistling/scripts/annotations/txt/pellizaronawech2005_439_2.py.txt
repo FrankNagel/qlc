@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "Tíink', na. (iur,rum,ri) (ir,im,i) = nombre de varón: ⇨arbusto (tipo paja toquilla, medicinal, flor amarilla, perfumada). Se toma el zumo del cogollo en la picadura de un alacrán. Se come el cogollo en las picaduras de hormigas. Is. numi; tsuak.",
+    "startpage" : 439,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tíink'",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 9,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 38,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arbusto (tipo paja toquilla, medicinal, flor amarilla, perfumada)",
+                "start" : 57,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tíink'",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri) (ir,im,i)",
+                "start" : 9,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. numi; tsuak.",
+                "start" : 232,
+                "end" : 248
+            },
+    ]
+})

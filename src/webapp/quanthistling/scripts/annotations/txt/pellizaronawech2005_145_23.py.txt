@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "achi-k, u. (a: r-ka,rma-k,-) = coger, acoger. Achírkatá = cógeme a mi. + achír-ka, u. = cogerle. Achírtuktá = cógemelo.",
+    "startpage" : 145,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "achik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "coger",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acoger",
+                "start" : 38,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "achírkatá",
+                "start" : 46,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cógeme a mi",
+                "start" : 60,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "achírka",
+                "start" : 76,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cogerle",
+                "start" : 92,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "achírtuktá",
+                "start" : 101,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cógemelo",
+                "start" : 116,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "achi-k",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: r-ka,rma-k,-)",
+                "start" : 8,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u.",
+                "start" : 87,
+                "end" : 89
+            },
+    ]
+})

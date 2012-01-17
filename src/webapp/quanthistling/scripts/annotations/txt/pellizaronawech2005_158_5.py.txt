@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "eeá! = exclamación de gusto al concluir la risa.",
+    "startpage" : 158,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eeá",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación de gusto al concluir la risa",
+                "start" : 8,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eeá!",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

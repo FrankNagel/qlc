@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "eáa! = que susto! (exclamación de susto).",
+    "startpage" : 157,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eáa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que susto (exclamación de susto)",
+                "start" : 8,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eáa!",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "jáar jáar, mch. = voz de la lagartija náitiak-sumpa.",
+    "startpage" : 219,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jáar jáar",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz de la lagartija náitiak sumpa",
+                "start" : 20,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jáar jáar,",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 13,
+                "end" : 17
+            },
+    ]
+})

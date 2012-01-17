@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "imiákma, ni.na. (r,ram,ri) = vomitado/a; vómito; rito de tomar agüita de tabaco, o de guayusa, para vomitar el páusak (contaminación). Páusak imiákma = contaminación vomitada. Páuskan imiákmari = el vómito de la contaminación.",
+    "startpage" : 180,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "imiákma",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vomitado",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vomitada",
+                "start" : 30,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vómito",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rito de tomar agüita de tabaco o de guayusa para vomitar el páusak (contaminación)",
+                "start" : 51,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "páusak imiákma",
+                "start" : 140,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "contaminación vomitada",
+                "start" : 159,
+                "end" : 182
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "páuskan imiákmari",
+                "start" : 184,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el vómito de la contaminación",
+                "start" : 206,
+                "end" : 237
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "imiákma",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 10,
+                "end" : 27
+            },
+    ]
+})

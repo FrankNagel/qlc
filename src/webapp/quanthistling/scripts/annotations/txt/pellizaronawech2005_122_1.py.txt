@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "?ajuínk, ni. = afortunado. Ánkuash ajuínkiáiti = Ánkuash es afortunado, tiene suerte.",
+    "startpage" : 122,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ajuínk",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "afortunado",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ánkuash ajuínkiáiti",
+                "start" : 28,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "ánkuash es afortunado, tiene suerte",
+                "start" : 53,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "?ajuínk",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.",
+                "start" : 10,
+                "end" : 13
+            },
+    ]
+})

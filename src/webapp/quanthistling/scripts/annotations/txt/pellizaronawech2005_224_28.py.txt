@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "jaupmimiu, ni.na. (r,ram,ri) = lavado/ la cara; lavatorio de la cara. Juank jaupmimiu = Juank lavado la cara. Juánkan jaupmímiuri = el lavatorio de la cara de Juank.",
+    "startpage" : 224,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaupmimiu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lavado la cara",
+                "start" : 31,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lavatorio de la cara",
+                "start" : 48,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank jaupmimiu",
+                "start" : 70,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank lavado la cara",
+                "start" : 88,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan jaupmímiuri",
+                "start" : 110,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el lavatorio de la cara de juank",
+                "start" : 134,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaupmimiu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+    ]
+})

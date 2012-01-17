@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "• Ítiua = armadillo mítico, sin coraza, jefe de los armadillos.",
+    "startpage" : 381,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ítiua",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "armadillo mítico sin coraza",
+                "start" : 11,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jefe de los armadillos",
+                "start" : 42,
+                "end" : 64
+            },
+    ]
+})

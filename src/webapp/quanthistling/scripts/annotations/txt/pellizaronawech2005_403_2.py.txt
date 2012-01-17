@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Chuwints, na. (chuwi = bugla, pez; nts = entsa = agua de vertientes) = nombre de un río (río de las buglas, o de los peces chuwi).",
+    "startpage" : 403,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chuwints",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río de las buglas",
+                "start" : 90,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río de los peces chuwi",
+                "start" : 90,
+                "end" : 130
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Chuwints,",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (chuwi = bugla, pez; nts = entsa = agua de vertientes)",
+                "start" : 10,
+                "end" : 68
+            },
+    ]
+})
