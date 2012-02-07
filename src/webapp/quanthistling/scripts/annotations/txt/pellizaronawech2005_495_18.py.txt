@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "wishí-kuishi, na. = hongo (oreja de los palos podridos) is ésempu.",
+    "startpage" : 495,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wishíkuishi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hongo (oreja de los palos podridos)",
+                "start" : 21,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ésempu",
+                "start" : 60,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wishí-kuishi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is ésempu.",
+                "start" : 57,
+                "end" : 68
+            },
+    ]
+})

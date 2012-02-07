@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "ella pron. ni [ausente]; áu [presente].",
+    "startpage" : 408,
+    "pos_on_page" : 53,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ella",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ni",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "áu",
+                "start" : 25,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ella",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.",
+                "start" : 5,
+                "end" : 10
+            },
+    ]
+})

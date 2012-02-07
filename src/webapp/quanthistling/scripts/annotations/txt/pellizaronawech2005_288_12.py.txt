@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "• kakaku, kukuku = rana (verdosa-café, vive en las palmeras achu. Mch. kukúkuk. Se cree que es la manifestación de un espíritu maligno.",
+    "startpage" : 288,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kakaku",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kukuku",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rana (verdosa-café, vive en las palmeras achu)",
+                "start" : 19,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kukúkuk.",
+                "start" : 67,
+                "end" : 81
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rana (verdosa-café, vive en las palmeras achu)",
+                "start" : 19,
+                "end" : 65
+            },
+    ]
+})

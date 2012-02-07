@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "¡permiso! (en la casa) ¡aangturata!",
+    "startpage" : 470,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "permiso (en la casa)",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aangturata",
+                "start" : 22,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¡permiso! (en la casa)",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

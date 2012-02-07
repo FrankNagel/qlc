@@ -1128,6 +1128,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Antún', na. ach. = nombre de varón (= que es ecuchado).",
+    "startpage" : 138,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "antún'",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ach.",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 20,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que es ecuchado",
+                "start" : 40,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Antún'",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ach.",
+                "start" : 9,
+                "end" : 17
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "apápe-k, u. (a: t-ka,tma-k,-) = perseguir. Apapétkatá = persígueme. ¨* patát-uk, u. (a: ur-ka,ram-ka,-) = seguir, ir detrás. Patáturkatá = sígueme, anda detrás de mi.",
     "startpage" : 139,
     "pos_on_page" : 19,
@@ -1279,6 +1329,63 @@ manual_entries.append({
                 "string" : "na.",
                 "start" : 10,
                 "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "apatai, na. (r,ram,ri) = maquina de coser, ingrampadora.",
+    "startpage" : 140,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apatai",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "maquina de coser",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "engrapadora",
+                "start" : 43,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "apatai",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "engrapadora",
+                "start" : 43,
+                "end" : 55
             },
     ]
 })
@@ -1704,6 +1811,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "awa-r, u. (a: r-a,rma-r,-) = afeitar, desbastar, labrar, sculpir). Intiashín awarmarái = te afeitó el cabello.",
+    "startpage" : 154,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awar",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "afeitar",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desbastar",
+                "start" : 38,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "labrar",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esculpir",
+                "start" : 57,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "intiashín awarmarái",
+                "start" : 67,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "te afeitó el cabello",
+                "start" : 91,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awa-r",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: r-a,rma-r,-)",
+                "start" : 7,
+                "end" : 26
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "esculpir",
+                "start" : 57,
+                "end" : 64
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ awét-i, u. (a: ur-',urm-i,-) = mandarle al-go. Arútam nawen awetúrmaji = Dios nos ordenó diez mandamientos. Papín awéturyi = me mandó una carta.",
     "startpage" : 155,
     "pos_on_page" : 20,
@@ -1792,6 +1984,35 @@ manual_entries.append({
                 "string" : "tac golpeó",
                 "start" : 30,
                 "end" : 41
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "-kúchat awátmiayi = heriendo golpeó.",
+    "startpage" : 155,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kúchat awátmiayi",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hiriendo golpeó",
+                "start" : 22,
+                "end" : 38
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "hiriendo golpeó",
+                "start" : 22,
+                "end" : 38
             },
     ]
 })
@@ -3208,6 +3429,171 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "• Uwí ijiámturma = rogativas a Uwí (Dios de la renovación), rondando alrededor de las ollas de chicha de chonta (uwí), para lograr un nuevo año.",
+    "startpage" : 175,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uwí ijiámturma",
+                "start" : 2,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rogativas a Uwí rondando alrededor de las ollas de chicha de chonta para lograr un nuevo año",
+                "start" : 21,
+                "end" : 149
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "• Uniushin ijiámturma = rogativas a Ayumpúm (Dios de la vida), rondando alrededor de la tsantsa del mono perezoso (uniush'), para lograr la fecundidad.",
+    "startpage" : 175,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uniushin ijiámturma",
+                "start" : 2,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rogativas a Ayumpúm rondando alrededor de la tsantsa del mono perezoso para lograr la fecundidad",
+                "start" : 25,
+                "end" : 152
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "• Katipin ijiámturma = Rogativas a Shakáim (Dios de los cultivos), rondando alrededor de un ratón amarrado en una balsa, para alejar las plagas de las huertas.",
+    "startpage" : 175,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "katipin ijiámturma",
+                "start" : 2,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Rogativas a Shakáim rondando alrededor de un ratón amarrado en una balsa para alejar las plagas de las huertas",
+                "start" : 24,
+                "end" : 161
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ijiámtutai, na. (r,ram,ri) = celebración, rito (ronda alrededor de la tsantsa, de la chonta, del ratón...) Ijiármáamunam, na. = tiempo de ayuno; Cuaresma.",
+    "startpage" : 175,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ijiámtutai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "celebración",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rito (ronda alrededor de la tsantsa, de la chonta, del ratón...)",
+                "start" : 44,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Ijiármáamunam",
+                "start" : 110,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 127,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tiempo de ayuno",
+                "start" : 133,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Cuaresma",
+                "start" : 150,
+                "end" : 158
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ijiámtutai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jiármáamunam",
+                "start" : 111,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 127,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ jin-ia, m. (para: iutr-ua,iutram-a,iut-a;) = exterminarse, acabarse, extinguirse. Jiniútruatí = que se me exterminen",
     "startpage" : 176,
     "pos_on_page" : 19,
@@ -3541,6 +3927,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "imínramu, ni.na. (r,ram,ri) = hecho/a ablandar; blandamiento. Mikia imínramu = cera hecha ablandar. Mikian iminrámuri = el ablandamiento de la cera.",
+    "startpage" : 182,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "imínramu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hecho/a ablandar",
+                "start" : 31,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ablandamiento",
+                "start" : 49,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "mikia imínramu",
+                "start" : 63,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cera hecha ablandar",
+                "start" : 81,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "mikian iminrámuri",
+                "start" : 102,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el ablandamiento de la cera",
+                "start" : 123,
+                "end" : 150
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "imínramu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 11,
+                "end" : 28
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ablandamiento",
+                "start" : 49,
+                "end" : 61
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "impijiá!, na. = amiga! (trato entre hermanas, cuñadas y amigas).",
     "startpage" : 182,
     "pos_on_page" : 14,
@@ -3613,6 +4084,106 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "ískiria, na. ach. (r,ram,ri) = escalera (shch. tutínkramu).",
+    "startpage" : 192,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ískiria",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ach.",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "escalera",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ískiria",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ach. (r,ram,ri)",
+                "start" : 10,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "shch.",
+                "start" : 42,
+                "end" : 47
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "íspik, na. ach. (iur,rum,ri) = espejo (shch. íimiatai).",
+    "startpage" : 192,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "íspik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ach.",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "espejo",
+                "start" : 32,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "íspik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ach. (iur,rum,ri)",
+                "start" : 8,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "shch.",
+                "start" : 40,
+                "end" : 45
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ itíp-ia. u. = ponerle la falda.",
     "startpage" : 195,
     "pos_on_page" : 17,
@@ -3644,6 +4215,56 @@ manual_entries.append({
                 "string" : "u.",
                 "start" : 12,
                 "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ tarímiat = fundador, fundación, asentamiento, esposa (fun- dadora del hogar), aborigen (fundador de una etnia).",
+    "startpage" : 195,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tarímiat",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fundador",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fundación",
+                "start" : 24,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "asentamiento",
+                "start" : 36,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposa (fundadora del hogar)",
+                "start" : 50,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aborigen (fundador de una etnia)",
+                "start" : 82,
+                "end" : 114
             },
     ]
 })
@@ -3834,6 +4455,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "yaku, na. = hombre que golpea ritualmente el escudo y grita \"ya\" en la procesión de entrada de la tsantsa en la casa ritual. Representa el rayo que, según el mito, hizo entrar al decapitado en la casa de Ayumpum.",
+    "startpage" : 202,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yaku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hombre que golpea ritualmente el escudo y grita ya en la procesión de entrada de la tsantsa en la casa ritual",
+                "start" : 12,
+                "end" : 124
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yaku",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Yampaku. na. (ur,rum,ri) = nombre de mujer; ⇨arbusto (hojas alargadas, frutitas en racimos). En la celebración del numpamrumkimiu (primera menstruación) la anciana lava con las hojas a la joven, purificándola. Su flor perfumada se coloca en la chicha chapuras. Is. numi.",
     "startpage" : 203,
     "pos_on_page" : 20,
@@ -4000,6 +4671,70 @@ manual_entries.append({
                 "string" : "(kch. yana, = negro; s = entsa = agua de vertientes)",
                 "start" : 54,
                 "end" : 106
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Yampuna, na. (r.ram,ri) = nombre de varón; ⇨guacagayo (azul, pecho amarillo). Is. chinki.",
+    "startpage" : 204,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yampuna",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 26,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guacamayo (azul, pecho amarillo)",
+                "start" : 45,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chinki",
+                "start" : 83,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yampuna",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r.ram,ri)",
+                "start" : 9,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. chinki.",
+                "start" : 79,
+                "end" : 90
             },
     ]
 })
@@ -5341,6 +6076,177 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "jeste, mch. = grito ritual para alejar a los malos espíritu emésak, durante la celebración de la tsantsa.",
+    "startpage" : 228,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jeste",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "grito ritual para alejar a los malos espíritu emésak durante la celebración de la tsantsa",
+                "start" : 14,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jeste",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 7,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jíipiar, na. (jí ipra-r,ram,ri) = enfermedad (falta de respiración, dolores a la cintura y a los costados); dolores intercostálicos.",
+    "startpage" : 229,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jíipiar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "enfermedad (falta de respiración, dolores a la cintura y a los costados)",
+                "start" : 36,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dolores intercostales",
+                "start" : 111,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jíipiar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (jí ipra-r,ram,ri)",
+                "start" : 10,
+                "end" : 33
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dolores intercostales",
+                "start" : 111,
+                "end" : 135
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jintiám-á, u. (para: rut-a,rutma-,r-ua) = hacer camino, asenderar, abrir trochas. Jintia jintiámatá = haz un camino",
+    "startpage" : 230,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jintiámá",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer camino",
+                "start" : 44,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "asenderar",
+                "start" : 58,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abrir trochas",
+                "start" : 69,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jintia jintiámatá",
+                "start" : 84,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "haz un camino",
+                "start" : 106,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jintiám-á,",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (para: rut-a,rutma-,r-ua)",
+                "start" : 13,
+                "end" : 41
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "káeeer! = grito de satisfacción.",
     "startpage" : 236,
     "pos_on_page" : 23,
@@ -5554,6 +6460,134 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "kana-r (kan-ur), m. (para: kan-utr-ur,utramra,ut-ra) = dormirse. Kanútrurtí = que se me duerma.",
+    "startpage" : 243,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kanar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kanur",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 17,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dormirse",
+                "start" : 55,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "kanútrurtí",
+                "start" : 65,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "que se me duerma",
+                "start" : 80,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kana-r (kan-ur)",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : ", m. (para:",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-utr-ur,utramra,ut-ra)",
+                "start" : 30,
+                "end" : 53
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kantsé, ach. (r.ram,ri) = alcancel. (hierba roja que se cultiva para curar las hinchazones). Is. tsuak.",
+    "startpage" : 244,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kantsé",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ach.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alcancel (hierba roja que se cultiva para curar las hinchazones)",
+                "start" : 27,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "tsuak",
+                "start" : 98,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kantsé,",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ach. (r.ram,ri)",
+                "start" : 9,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. tsuak.",
+                "start" : 94,
+                "end" : 104
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Kanús, na. (kanu = canoa; s = entsa = rio) = nombre de un río (río de canoas, río navegable); � nombre de varón.",
     "startpage" : 245,
     "pos_on_page" : 24,
@@ -5606,6 +6640,98 @@ manual_entries.append({
                 "string" : "na. (kanu = canoa; s = entsa = rio)",
                 "start" : 8,
                 "end" : 44
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kátsuram, ni.na. (katsurma-r,ram,ri) = endurecido/a, duro/a; durezao. Yuwí katsúram = sapallos duros. Yuwín katsúrmari = la dureza de los zapallos.",
+    "startpage" : 249,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kátsuram",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "endurecido/a",
+                "start" : 40,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "duro/a",
+                "start" : 54,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dureza",
+                "start" : 62,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yuwí katsúram",
+                "start" : 71,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "sapallos duros",
+                "start" : 89,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yuwín katsúrmari",
+                "start" : 105,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la dureza de los zapallos",
+                "start" : 126,
+                "end" : 151
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kátsuram",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (katsurma-r,ram,ri)",
+                "start" : 11,
+                "end" : 38
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dureza",
+                "start" : 62,
+                "end" : 69
             },
     ]
 })
@@ -5734,6 +6860,198 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "kuyánch' kuyánch', mch. = voz del ave paínkia-pinínch'.",
+    "startpage" : 258,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuyánch' kuyánch'",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del ave paínkia pinínch'",
+                "start" : 28,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kuyánch' kuyánch',",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 21,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kujá-r, u. (para: tr-ur,tram-ra,t-ra) = tragar, egullir. Takat kujátrurtá = trágamelo de golpe. Nu chichámtaik kujártá = traga enseguida.",
+    "startpage" : 259,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kujár",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tragar",
+                "start" : 41,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "engullir",
+                "start" : 49,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "takat kujátrurtá",
+                "start" : 58,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "trágamelo de golpe",
+                "start" : 79,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nu chichámtaik kujártá",
+                "start" : 100,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "traga enseguida",
+                "start" : 128,
+                "end" : 143
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kujá-r,",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (para: tr-ur,tram-ra,t-ra)",
+                "start" : 9,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "engullir",
+                "start" : 49,
+                "end" : 56
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Kutukú, na. (r,ram,ri) = nombre de la cordillera oriental; ⇨altura fría cubierta de musgos. ⇨ sapo (pequeño, ceniza, tipo chirimius). Mch. kutuk kutuk.",
+    "startpage" : 268,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kutukú",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de la cordillera oriental",
+                "start" : 26,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "altura fría cubierta de musgos",
+                "start" : 61,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sapo (pequeño, ceniza, tipo chirimius)",
+                "start" : 96,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Kutukú",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 9,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kutuk kutuk.",
+                "start" : 137,
+                "end" : 154
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ mayát-ka, m. (para: rut-ka,rutma-k,r-uk) = respirar (= varios respiros), alentar.",
     "startpage" : 272,
     "pos_on_page" : 29,
@@ -5772,6 +7090,198 @@ manual_entries.append({
                 "string" : "(para: rut-ka,rutma-k,r-uk)",
                 "start" : 16,
                 "end" : 43
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Makuwa, na. = manifestación de un espíritu en forma de un fémur pavoroso que, durante el transe, viene entre un viento impetuoso desde el cielo, manifestando mucho poder.",
+    "startpage" : 274,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "makuwa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "manifestación de un espíritu en forma de un fémur pavoroso que durante el transe viene entre un viento impetuoso desde el cielo manifestando mucho poder",
+                "start" : 14,
+                "end" : 172
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Makuwa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "marankit, na. (maránkti-r,ram,ri) = sapo (pequeño, amarillento, piernas con aros oscuros) Es usado para curar el mal de ojos tawárit. Mch. maránkit kit. Is. mukunt.",
+    "startpage" : 277,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "marankit",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sapo (pequeño, amarillento, piernas con aros oscuros)",
+                "start" : 37,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mukunt",
+                "start" : 161,
+                "end" : 167
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "marankit",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (maránkti-r,ram,ri)",
+                "start" : 10,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. maránkit kit. Is. mukunt.",
+                "start" : 137,
+                "end" : 168
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "matsu-r, m. (para: rt-ur,rtam-ra,r-a) = atontarse, intoxicarse, azorrarse, amodarrarse, alelarse. Namak timiún matsúrarái = Los peces se atontaron con el barbasco.",
+    "startpage" : 279,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "matsur",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atontarse",
+                "start" : 40,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "intoxicarse",
+                "start" : 51,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "azorrarse",
+                "start" : 64,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amodorrarse",
+                "start" : 75,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alelarse",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namak timiún matsúrarái",
+                "start" : 98,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "los peces se atontaron con el barbasco",
+                "start" : 127,
+                "end" : 165
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "matsu-r,",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: rt-ur,rtam-ra,r-a)",
+                "start" : 9,
+                "end" : 37
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "amodorrarse",
+                "start" : 75,
+                "end" : 86
             },
     ]
 })
@@ -5940,6 +7450,128 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "• kaka = rana (pequeña, café claro, barriga amarilla; vive en las hojas de la pelma. Mch. kakákak kakákak.",
+    "startpage" : 288,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kaka",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rana (pequeña, café claro, barriga amarilla; vive en las hojas de la pelma)",
+                "start" : 9,
+                "end" : 85
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kakákak kakákak.",
+                "start" : 87,
+                "end" : 110
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rana (pequeña, café claro, barriga amarilla; vive en las hojas de la pelma)",
+                "start" : 9,
+                "end" : 85
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "• kakaku, kukuku = rana (verdosa-café, vive en las palmeras achu. Mch. kukúkuk. Se cree que es la manifestación de un espíritu maligno.",
+    "startpage" : 288,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kakaku",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kukuku",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rana (verdosa-café, vive en las palmeras achu)",
+                "start" : 19,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kukúkuk.",
+                "start" : 67,
+                "end" : 81
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rana (verdosa-café, vive en las palmeras achu)",
+                "start" : 19,
+                "end" : 65
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "• kíria, suya = sapo (grande con cachos, plomo; vive en el río. Mch. kiriákriá.",
+    "startpage" : 288,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kíria",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suya",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sapo (grande con cachos, plomo; vive en el río)",
+                "start" : 17,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kiriákriá.",
+                "start" : 66,
+                "end" : 83
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "sapo (grande con cachos, plomo; vive en el río)",
+                "start" : 17,
+                "end" : 64
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "mukuntramu, ni.na. (r,ram,ri) = chupeteado/a; el chupeteo. Rito que realiza el padre de familia, chupeteando el cuerpo de su hijito, para sacarle el tapikiú (enfermedad causada por el padre que violó algún tabú). Is. tapikiú.",
     "startpage" : 289,
     "pos_on_page" : 12,
@@ -6018,6 +7650,70 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "mukútsepe, na.(mukútspe-r,-ram,-ri) = piojo (de los pollos); menadon sp. Is. aka.",
+    "startpage" : 289,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mukútsepe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "piojo (de los pollos)",
+                "start" : 40,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "aka",
+                "start" : 79,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mukútsepe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.(mukútspe-r,-ram,-ri)",
+                "start" : 12,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. aka.",
+                "start" : 75,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "⇨ mudo (ach.). is. chichachu.",
     "startpage" : 292,
     "pos_on_page" : 24,
@@ -6056,6 +7752,49 @@ manual_entries.append({
                 "string" : "ach.). is. chichachu.",
                 "start" : 8,
                 "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "▪ tará = picante; yapaku = salado, amargo.",
+    "startpage" : 295,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tará",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "picante",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yapaku",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salado",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amargo",
+                "start" : 36,
+                "end" : 42
             },
     ]
 })
@@ -6587,6 +8326,120 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "* initia-napi = culebra (tipo ampujka.",
+    "startpage" : 307,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "initianapi",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "culebra (tipo ampujka)",
+                "start" : 16,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "* initia-napi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "culebra (tipo ampujka)",
+                "start" : 16,
+                "end" : 37
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "napuí, na. (r,ram,ri) = kúbito y peroné. Kankájín napuíri = peroné. Kuntún napuíri = cúbito.",
+    "startpage" : 309,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "napuí",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cúbito y peroné",
+                "start" : 25,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "kankájín napuíri",
+                "start" : 44,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "peroné",
+                "start" : 66,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "kuntún napuíri",
+                "start" : 75,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cúbito",
+                "start" : 94,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "napuí",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "cúbito y peroné",
+                "start" : 25,
+                "end" : 42
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "nawénam-ewétai, na. = calzado, zapato, sandallas.",
     "startpage" : 312,
     "pos_on_page" : 31,
@@ -6892,6 +8745,184 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "+ nuí, ui. = allí, en aquel lugar. Juí = aquí, en este lugar.",
+    "startpage" : 316,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuí",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "allí",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en aquel lugar",
+                "start" : 21,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Juí",
+                "start" : 37,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aquí",
+                "start" : 44,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en este lugar",
+                "start" : 51,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 8,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ nuyá, ui. = desde allá. Juyá = desde aquí.",
+    "startpage" : 316,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuyá",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desde allá",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Juyá",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desde aquí",
+                "start" : 36,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "á",
+                "start" : 31,
+                "end" : 33
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ nuní, ui. = hacia allá. Juní = hacia acá.",
+    "startpage" : 316,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuní",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacia allá",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Juní",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacia acá",
+                "start" : 36,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 9,
+                "end" : 12
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Númpaim, na. (numpa = sangre; im = yumi = agua de lluvia) = nombre de un río (río de sangre, rojo).",
     "startpage" : 323,
     "pos_on_page" : 38,
@@ -7119,6 +9150,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Nunkuich', na. = nombre de mujer (= pequeña Nunkui).",
+    "startpage" : 325,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nunkuich'",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 17,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pequeña Nunkui",
+                "start" : 36,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nunkuich'",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Páati, na. = nombre de varóm.",
     "startpage" : 330,
     "pos_on_page" : 36,
@@ -7164,6 +9245,70 @@ manual_entries.append({
                 "string" : "nombre de varón",
                 "start" : 14,
                 "end" : 30
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "paí-nk (pay-as), u. (para: ntiur-ka,ntiurma,nt-iuk) = poner el veneno, o el ceíbo en las flechas. Tseásan payármiayi = puso el veneno, envenenó la flecha.",
+    "startpage" : 331,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "paínk",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "payas",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 18,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner el veneno o el ceíbo en las flechas",
+                "start" : 55,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tseásan payármiayi",
+                "start" : 100,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "puso el veneno, envenenó la flecha",
+                "start" : 123,
+                "end" : 158
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "paí-nk (pay-as)",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (para: ntiur-ka,ntiurma,nt-iuk)",
+                "start" : 18,
+                "end" : 52
             },
     ]
 })
@@ -7539,6 +9684,105 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "petsámramu, ni.na. (r,ram,ri) = rayado/a con rayas paralelas; la rayada con rayas paralelas, rayas papalelas. Itip' petsámramu = falda rayada con rayas paralelas. Itipin petsamrámuri = las rayas paralelas de la falda.",
+    "startpage" : 344,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "petsámramu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayado con rayas paralelas",
+                "start" : 33,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayada con rayas paralelas",
+                "start" : 33,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la rayada con rayas paralelas",
+                "start" : 63,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayas paralelas",
+                "start" : 94,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "itip' petsámramu",
+                "start" : 111,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "falda rayada con rayas paralelas",
+                "start" : 131,
+                "end" : 163
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "itipin petsamrámuri",
+                "start" : 165,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "las rayas paralelas de la falda",
+                "start" : 188,
+                "end" : 219
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "petsámramu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 30
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rayas paralelas",
+                "start" : 94,
+                "end" : 109
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "pet, ui. = violentamente, Pet ajapayi = tiró violentamente.",
     "startpage" : 344,
     "pos_on_page" : 23,
@@ -7777,6 +10021,77 @@ manual_entries.append({
                 "string" : "estar haciendo (estársele)",
                 "start" : 18,
                 "end" : 45
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pukut, mch.ui. = ruído de zampullir. Pukut wayayi = tas se metió.",
+    "startpage" : 352,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pukut",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.ui.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ruído de zambullir",
+                "start" : 17,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "pukut wayayi",
+                "start" : 38,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tas se metió",
+                "start" : 53,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pukut",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.ui.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 45,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ruído de zambullir",
+                "start" : 17,
+                "end" : 36
             },
     ]
 })
@@ -8024,6 +10339,49 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "séenta, na. (r,ram,ri) = cinta que los wáimiaku (encontrados por Arútam Dios) se ponen en las muñecas, como signo de su encuentro con Dios. Es memorial de una fuerza que no se puede perder sin realizar la misión recibida.",
+    "startpage" : 363,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "séenta",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cinta que los wáimiaku se ponen en las muñecas como signo de su encuentro con Dios",
+                "start" : 26,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "séenta",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 9,
+                "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Senta, na. = nombre de mujer; ⇨pulsera (cinta que el wáimiku se pone en las muñecas, en los tobillos y también en los brazos, después de haber sido elegido por Arutam Dios para cumplir una misión. Se la quita después de haber realizado la misión recibida.",
     "startpage" : 364,
     "pos_on_page" : 21,
@@ -8069,6 +10427,185 @@ manual_entries.append({
                 "string" : "na.",
                 "start" : 7,
                 "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "suéaa tsku tsku tsku, mch. = voz del buho úunt-ampush.",
+    "startpage" : 367,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suéaa tsku tsku tsku",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 23,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del buho úunt ampush",
+                "start" : 30,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "suéaa tsku tsku tsku",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 23,
+                "end" : 27
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* jíipiar = falta de respiración, dolores intercostálicos.",
+    "startpage" : 370,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jíipiar",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "falta de respiración",
+                "start" : 13,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dolores intercostales",
+                "start" : 36,
+                "end" : 60
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dolores intercostales",
+                "start" : 36,
+                "end" : 60
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* kupakash' (kupakshi-) = epatitis (sífilis?).",
+    "startpage" : 370,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kupakash'",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kupakshi",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Hepatitis (sífilis?)",
+                "start" : 26,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "Hepatitis (sífilis?)",
+                "start" : 26,
+                "end" : 46
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "surutjákmia, ni.na. (r,ram,ri) = arremolinado/a; la arrimolinada.",
+    "startpage" : 372,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "surutjákmia",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arremolinado",
+                "start" : 34,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arremolinada",
+                "start" : 34,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la arremolinada",
+                "start" : 50,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "surutjákmia",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "la arremolinada",
+                "start" : 50,
+                "end" : 65
             },
     ]
 })
@@ -8385,6 +10922,35 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "* yaratai = contucto aferente.",
+    "startpage" : 378,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yaratai",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conducto aferente",
+                "start" : 12,
+                "end" : 29
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "conducto aferente",
+                "start" : 12,
+                "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "• yankunt = armadillo (enorme, patas traseras como las del tapir y delanteras como las del oso hormiguero wishíwshi.",
     "startpage" : 381,
     "pos_on_page" : 27,
@@ -8622,6 +11188,106 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "Chánkuap', na. = nombre de varón y de un río (ach. Huasaga).",
+    "startpage" : 385,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chánkuap'",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón y de un río",
+                "start" : 18,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Chánkuap'",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ach. Huasaga).",
+                "start" : 49,
+                "end" : 63
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Chapawik, na. (iur,rum,ri) = nombre de mujer; ➱gargantilla (tejido de conchitas sháuk que antiguamente usaba el hombre. Ahora se usa como brazalete, en lugar del patake (sarta de mullos envuelta en las muñecas de la manos).",
+    "startpage" : 385,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chapawik",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 29,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gargantilla (tejido de conchitas sháuk)",
+                "start" : 47,
+                "end" : 224
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Chapawik",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 10,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "chi! = lapsus (me equivoco! me corrijo! error! no es así!).",
     "startpage" : 387,
     "pos_on_page" : 18,
@@ -8646,6 +11312,86 @@ manual_entries.append({
                 "string" : "chi!",
                 "start" : 0,
                 "end" : 4
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ Uchich'-chini = abeja (pequeña, amarillenta, sin aguijón, casa en los huecos con conducto de salida, cera amarilla, miel en celdas.",
+    "startpage" : 390,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uchich'chini",
+                "start" : 2,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abeja (pequeña, amarillenta, sin aguijón, casa en los huecos con conducto de salida, cera amarilla, miel en celdas)",
+                "start" : 18,
+                "end" : 134
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "abeja (pequeña, amarillenta, sin aguijón, casa en los huecos con conducto de salida, cera amarilla, miel en celdas)",
+                "start" : 18,
+                "end" : 134
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "▪ sekat = abeja (pequeña, negra, sin aguijón; casa en los huecos, cera negra omónima.",
+    "startpage" : 390,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sekat",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abeja (pequeña, negra, sin aguijón; casa en los huecos, cera negra omónima)",
+                "start" : 10,
+                "end" : 87
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "abeja (pequeña, negra, sin aguijón; casa en los huecos, cera negra omónima)",
+                "start" : 10,
+                "end" : 87
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* anémartin = discurso de alerta (antes de salir para la guerra) y de reclutamiento para la guerra.",
+    "startpage" : 397,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anémartin",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "discurso de alerta antes de salir para la guerra y de reclutamiento para la guerra",
+                "start" : 15,
+                "end" : 99
             },
     ]
 })
@@ -8873,6 +11619,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tsáankmin, na. (iur,rum,ri) = anciano/a que, después del entierro de un ser querido, salpica agua de tabaco en los ojos de los deudos y canta las plegarias, para que el alma del difunto se marche al descanso eterno, reuniéndose en la fiesta de los espíritus (íwianch') en la casa de Arútam Dios.",
+    "startpage" : 404,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsáankmin",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anciana que después del entierro de un ser querido salpica agua de tabaco en los ojos de los deudos y canta las plegarias para que el alma del difunto se marche al descanso eterno reuniéndose en la fiesta de los espíritus íwianch' en la casa de Arútam Dios",
+                "start" : 31,
+                "end" : 300
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anciano que después del entierro de un ser querido salpica agua de tabaco en los ojos de los deudos y canta las plegarias para que el alma del difunto se marche al descanso eterno reuniéndose en la fiesta de los espíritus íwianch' en la casa de Arútam Dios",
+                "start" : 31,
+                "end" : 300
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsáankmin,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 12,
+                "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "tsaj! = que maravilla! (exclamación de admiración).",
     "startpage" : 405,
     "pos_on_page" : 25,
@@ -8897,6 +11693,134 @@ manual_entries.append({
                 "string" : "tsaj!",
                 "start" : 0,
                 "end" : 5
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsakem-ka, u. (a: r-uk,ram-ka,-) = hacer rayitas, manchitas, puntitos. Tsakémrukái = me hizo puntitos.",
+    "startpage" : 406,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsakemka",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer rayitas",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer manchitas",
+                "start" : 35,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer puntitos",
+                "start" : 35,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tsakémrukái",
+                "start" : 71,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "me hizo puntitos",
+                "start" : 87,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsakem-ka,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: r-uk,ram-ka,-)",
+                "start" : 11,
+                "end" : 32
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "* takuar = planta cucurbitacea (fruto grande)Con los frutos de estas plantas se hacen tazas (tsapa), coladores (tsatsa), cucharas y cucharones (unkúship), cantimploras (wémpenku), recipientes para el agua (yumi), recipientes para la chicha (punu). Is. yumi.",
+    "startpage" : 409,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "takuar",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "planta cucurbitacea (fruto grande)",
+                "start" : 11,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "yumi",
+                "start" : 254,
+                "end" : 258
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. yumi.",
+                "start" : 250,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
             },
     ]
 })
@@ -8983,6 +11907,56 @@ manual_entries.append({
                 "string" : "tse!",
                 "start" : 0,
                 "end" : 4
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsej tsej, mch. = voz del colibrí, del avecita juú-chínki y del avecilla makákit.",
+    "startpage" : 412,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsej tsej",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del colibrí",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del avecita juú chínki y del avecilla makákit",
+                "start" : 18,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsej tsej,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
             },
     ]
 })
@@ -9315,6 +12289,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tsurámtar-ka, m. (para: tur-ka,turma-k,t-uk) = acalamrarse, electizarse. Nawer tsuramtarturkáyi = se me acalambró el pie.",
+    "startpage" : 423,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsurámtarka",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acalambrarse",
+                "start" : 48,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "electrizarse",
+                "start" : 61,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nawer tsuramtarturkáyi",
+                "start" : 74,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se me acalambró el pie",
+                "start" : 100,
+                "end" : 123
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsurámtar-ka,",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: tur-ka,turma-k,t-uk)",
+                "start" : 15,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "acalambrarse",
+                "start" : 48,
+                "end" : 59
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "electrizarse",
+                "start" : 61,
+                "end" : 72
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "taku, na. /r,ram,ri) = bodoque (hecho con la esponja de una calabaza, para cargar la escopeta y para disparar con la pequeña bodoquera de aire comprimido takétak. ⇨ taco de dinamita; Taku ajúntkatárum = tirad al agua el taco de dinamita. ⇨ calabaza (amarilla, la parte interior esponjosa). Is shiyumi.",
     "startpage" : 428,
     "pos_on_page" : 13,
@@ -9502,6 +12554,63 @@ manual_entries.append({
                 "string" : "títmain!",
                 "start" : 0,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Tiwints, na. (tiwi = nombre de varón; nts = entsa = agua de vertientes) = nombre de un río (río del Señor Tiwi; afluente del río Numpatkáim). ach. tigüintza, tihuintsa.",
+    "startpage" : 444,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tiwints",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río del Señor Tiwi",
+                "start" : 94,
+                "end" : 114
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "afluente del río Numpatkáim",
+                "start" : 116,
+                "end" : 145
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tiwints",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (tiwi = nombre de varón; nts = entsa = agua de vertientes)",
+                "start" : 9,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ach. tigüintza, tihuintsa.",
+                "start" : 148,
+                "end" : 175
             },
     ]
 })
@@ -9800,6 +12909,98 @@ manual_entries.append({
                 "string" : "u. (para: tiur-a,tiurma-,t-iua)",
                 "start" : 12,
                 "end" : 43
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "túum' (tuim), na. = sopa de vegetales, de frijoles, de tubérculos, o de guineos maduros. Después de haber tomado algún narcótico, se cura la intoxicación, tomando una sopa de guineos maduros cocinados.",
+    "startpage" : 452,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "túum'",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuim",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sopa de vegetales",
+                "start" : 21,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sopa de frijoles",
+                "start" : 21,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sopa de tubérculos",
+                "start" : 21,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sopa de guineos maduros",
+                "start" : 21,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "túum' (tuim)",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
             },
     ]
 })
@@ -10133,6 +13334,91 @@ manual_entries.append({
                 "string" : "ni.na. (r,ram,ri)",
                 "start" : 9,
                 "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ushu, na.ni ui. (r,ram,ri) = ávido de carne, goloso; gula, avidez ⇨alquitira (familia de los anturios; hoja verde con puntos blancos, medicinal contra los gusanos). Is. wanchup'; tsuak.",
+    "startpage" : 465,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ushu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.ni ui.",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ávido de carne",
+                "start" : 29,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "goloso",
+                "start" : 46,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gula",
+                "start" : 54,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alquitira (familia de los anturios; hoja verde con puntos blancos, medicinal contra los gusanos)",
+                "start" : 68,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "wanchup'",
+                "start" : 170,
+                "end" : 178
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "tsuak",
+                "start" : 180,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ushu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.ni ui. (r,ram,ri)",
+                "start" : 6,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. wanchup'; tsuak.",
+                "start" : 166,
+                "end" : 186
             },
     ]
 })
@@ -10478,6 +13764,63 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "wakats, na. (ur,rum,ri) = ave, (pacharaco, pava mediana, café, garganta roja, cola larga). Mch. wátraka wátraka. Is. chinki.",
+    "startpage" : 479,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wakats",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ave (pacharaco, pava mediana, café, garganta roja, cola larga)",
+                "start" : 26,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chinki",
+                "start" : 120,
+                "end" : 126
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wakats",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (ur,rum,ri)",
+                "start" : 8,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. wátraka wátraka. Is. chinki.",
+                "start" : 92,
+                "end" : 127
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "wakém-ra, m. (para: rut-ra,rutma-r,r-ur) = empacharse, indigestarse, blo- quearse el intestino. Namankén yuá, wakémrayi = se empachó comiendo carne.",
     "startpage" : 479,
     "pos_on_page" : 18,
@@ -10643,6 +13986,84 @@ manual_entries.append({
                 "string" : "ni.na. (r,ram,ri)",
                 "start" : 11,
                 "end" : 28
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wantsa-nk, m. (para: ntr-uk,ntram-ka,nt-ka) = quedar raquítico, lancharse. (las plantas). + yantsá-nk, m. (para: ntr-uk,ntram-ka,nt-ka) = quedar raquítico (animales).",
+    "startpage" : 483,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wantsank",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quedar raquítico",
+                "start" : 46,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lancharse (las plantas)",
+                "start" : 65,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yantsánk",
+                "start" : 93,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 105,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quedar raquítico (animales)",
+                "start" : 140,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wantsa-nk",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: ntr-uk,ntram-ka,nt-ka)",
+                "start" : 11,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: ntr-uk,ntram-ka,nt-ka)",
+                "start" : 105,
+                "end" : 137
             },
     ]
 })
@@ -10970,6 +14391,63 @@ manual_entries.append({
                 "string" : "lancharse (los tubérculos)",
                 "start" : 25,
                 "end" : 52
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wishí-kuishi, na. = hongo (oreja de los palos podridos) is ésempu.",
+    "startpage" : 495,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wishíkuishi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hongo (oreja de los palos podridos)",
+                "start" : 21,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ésempu",
+                "start" : 60,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wishí-kuishi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is ésempu.",
+                "start" : 57,
+                "end" : 68
             },
     ]
 })

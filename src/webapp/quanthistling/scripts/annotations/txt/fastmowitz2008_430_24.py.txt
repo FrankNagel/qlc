@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "su hija (de ustedes, de él, ella, ellos, ellas), nuestra hija nawántri.",
+    "startpage" : 430,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "su hija (de ustedes, de él, ella, ellos, ellas)",
+                "start" : 0,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nuestra hija",
+                "start" : 50,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nawántri",
+                "start" : 62,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "su hija (de ustedes, de él, ella, ellos,",
+                "start" : 0,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ellas), nuestra hija",
+                "start" : 42,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+    ]
+})

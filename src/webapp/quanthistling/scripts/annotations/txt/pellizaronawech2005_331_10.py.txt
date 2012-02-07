@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "paí-nk (pay-as), u. (para: ntiur-ka,ntiurma,nt-iuk) = poner el veneno, o el ceíbo en las flechas. Tseásan payármiayi = puso el veneno, envenenó la flecha.",
+    "startpage" : 331,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "paínk",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "payas",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 18,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner el veneno o el ceíbo en las flechas",
+                "start" : 55,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tseásan payármiayi",
+                "start" : 100,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "puso el veneno, envenenó la flecha",
+                "start" : 123,
+                "end" : 158
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "paí-nk (pay-as)",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (para: ntiur-ka,ntiurma,nt-iuk)",
+                "start" : 18,
+                "end" : 52
+            },
+    ]
+})

@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "petsámramu, ni.na. (r,ram,ri) = rayado/a con rayas paralelas; la rayada con rayas paralelas, rayas papalelas. Itip' petsámramu = falda rayada con rayas paralelas. Itipin petsamrámuri = las rayas paralelas de la falda.",
+    "startpage" : 344,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "petsámramu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayado con rayas paralelas",
+                "start" : 33,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayada con rayas paralelas",
+                "start" : 33,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la rayada con rayas paralelas",
+                "start" : 63,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayas paralelas",
+                "start" : 94,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "itip' petsámramu",
+                "start" : 111,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "falda rayada con rayas paralelas",
+                "start" : 131,
+                "end" : 163
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "itipin petsamrámuri",
+                "start" : 165,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "las rayas paralelas de la falda",
+                "start" : 188,
+                "end" : 219
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "petsámramu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 30
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rayas paralelas",
+                "start" : 94,
+                "end" : 109
+            },
+    ]
+})

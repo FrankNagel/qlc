@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "pukut, mch.ui. = ruído de zampullir. Pukut wayayi = tas se metió.",
+    "startpage" : 352,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pukut",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.ui.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ruído de zambullir",
+                "start" : 17,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "pukut wayayi",
+                "start" : 38,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tas se metió",
+                "start" : 53,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pukut",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.ui.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 45,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ruído de zambullir",
+                "start" : 17,
+                "end" : 36
+            },
+    ]
+})

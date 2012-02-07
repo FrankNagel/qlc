@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "+ tarímiat = fundador, fundación, asentamiento, esposa (fun- dadora del hogar), aborigen (fundador de una etnia).",
+    "startpage" : 195,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tarímiat",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fundador",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fundación",
+                "start" : 24,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "asentamiento",
+                "start" : 36,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esposa (fundadora del hogar)",
+                "start" : 50,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aborigen (fundador de una etnia)",
+                "start" : 82,
+                "end" : 114
+            },
+    ]
+})

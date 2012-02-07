@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "tsáankmin, na. (iur,rum,ri) = anciano/a que, después del entierro de un ser querido, salpica agua de tabaco en los ojos de los deudos y canta las plegarias, para que el alma del difunto se marche al descanso eterno, reuniéndose en la fiesta de los espíritus (íwianch') en la casa de Arútam Dios.",
+    "startpage" : 404,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsáankmin",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anciana que después del entierro de un ser querido salpica agua de tabaco en los ojos de los deudos y canta las plegarias para que el alma del difunto se marche al descanso eterno reuniéndose en la fiesta de los espíritus íwianch' en la casa de Arútam Dios",
+                "start" : 31,
+                "end" : 300
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anciano que después del entierro de un ser querido salpica agua de tabaco en los ojos de los deudos y canta las plegarias para que el alma del difunto se marche al descanso eterno reuniéndose en la fiesta de los espíritus íwianch' en la casa de Arútam Dios",
+                "start" : 31,
+                "end" : 300
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsáankmin,",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 12,
+                "end" : 28
+            },
+    ]
+})

@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "awa-r, u. (a: r-a,rma-r,-) = afeitar, desbastar, labrar, sculpir). Intiashín awarmarái = te afeitó el cabello.",
+    "startpage" : 154,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awar",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "afeitar",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desbastar",
+                "start" : 38,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "labrar",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esculpir",
+                "start" : 57,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "intiashín awarmarái",
+                "start" : 67,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "te afeitó el cabello",
+                "start" : 91,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awa-r",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: r-a,rma-r,-)",
+                "start" : 7,
+                "end" : 26
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "esculpir",
+                "start" : 57,
+                "end" : 64
+            },
+    ]
+})

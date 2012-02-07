@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "+ Uchich'-chini = abeja (pequeña, amarillenta, sin aguijón, casa en los huecos con conducto de salida, cera amarilla, miel en celdas.",
+    "startpage" : 390,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uchich'chini",
+                "start" : 2,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abeja (pequeña, amarillenta, sin aguijón, casa en los huecos con conducto de salida, cera amarilla, miel en celdas)",
+                "start" : 18,
+                "end" : 134
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "abeja (pequeña, amarillenta, sin aguijón, casa en los huecos con conducto de salida, cera amarilla, miel en celdas)",
+                "start" : 18,
+                "end" : 134
+            },
+    ]
+})

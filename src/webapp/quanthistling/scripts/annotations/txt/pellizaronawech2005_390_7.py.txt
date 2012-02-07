@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "▪ sekat = abeja (pequeña, negra, sin aguijón; casa en los huecos, cera negra omónima.",
+    "startpage" : 390,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sekat",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abeja (pequeña, negra, sin aguijón; casa en los huecos, cera negra omónima)",
+                "start" : 10,
+                "end" : 87
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "abeja (pequeña, negra, sin aguijón; casa en los huecos, cera negra omónima)",
+                "start" : 10,
+                "end" : 87
+            },
+    ]
+})

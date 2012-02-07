@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "• Uniushin ijiámturma = rogativas a Ayumpúm (Dios de la vida), rondando alrededor de la tsantsa del mono perezoso (uniush'), para lograr la fecundidad.",
+    "startpage" : 175,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uniushin ijiámturma",
+                "start" : 2,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rogativas a Ayumpúm rondando alrededor de la tsantsa del mono perezoso para lograr la fecundidad",
+                "start" : 25,
+                "end" : 152
+            },
+    ]
+})

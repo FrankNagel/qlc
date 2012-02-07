@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "Tiwints, na. (tiwi = nombre de varón; nts = entsa = agua de vertientes) = nombre de un río (río del Señor Tiwi; afluente del río Numpatkáim). ach. tigüintza, tihuintsa.",
+    "startpage" : 444,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tiwints",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río del Señor Tiwi",
+                "start" : 94,
+                "end" : 114
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "afluente del río Numpatkáim",
+                "start" : 116,
+                "end" : 145
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tiwints",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (tiwi = nombre de varón; nts = entsa = agua de vertientes)",
+                "start" : 9,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ach. tigüintza, tihuintsa.",
+                "start" : 148,
+                "end" : 175
+            },
+    ]
+})

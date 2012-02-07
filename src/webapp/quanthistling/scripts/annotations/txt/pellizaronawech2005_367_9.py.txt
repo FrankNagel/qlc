@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "suéaa tsku tsku tsku, mch. = voz del buho úunt-ampush.",
+    "startpage" : 367,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suéaa tsku tsku tsku",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 23,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del buho úunt ampush",
+                "start" : 30,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "suéaa tsku tsku tsku",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 23,
+                "end" : 27
+            },
+    ]
+})

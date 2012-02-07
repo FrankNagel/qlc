@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "• kíria, suya = sapo (grande con cachos, plomo; vive en el río. Mch. kiriákriá.",
+    "startpage" : 288,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kíria",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suya",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sapo (grande con cachos, plomo; vive en el río)",
+                "start" : 17,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kiriákriá.",
+                "start" : 66,
+                "end" : 83
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "sapo (grande con cachos, plomo; vive en el río)",
+                "start" : 17,
+                "end" : 64
+            },
+    ]
+})

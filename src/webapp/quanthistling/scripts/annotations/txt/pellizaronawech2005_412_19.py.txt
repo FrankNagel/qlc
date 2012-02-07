@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "tsej tsej, mch. = voz del colibrí, del avecita juú-chínki y del avecilla makákit.",
+    "startpage" : 412,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsej tsej",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del colibrí",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del avecita juú chínki y del avecilla makákit",
+                "start" : 18,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsej tsej,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 11,
+                "end" : 15
+            },
+    ]
+})

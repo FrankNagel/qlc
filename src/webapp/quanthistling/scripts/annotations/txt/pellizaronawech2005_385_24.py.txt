@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Chapawik, na. (iur,rum,ri) = nombre de mujer; ➱gargantilla (tejido de conchitas sháuk que antiguamente usaba el hombre. Ahora se usa como brazalete, en lugar del patake (sarta de mullos envuelta en las muñecas de la manos).",
+    "startpage" : 385,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chapawik",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 29,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gargantilla (tejido de conchitas sháuk)",
+                "start" : 47,
+                "end" : 224
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Chapawik",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 10,
+                "end" : 26
+            },
+    ]
+})

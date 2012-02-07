@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "* takuar = planta cucurbitacea (fruto grande)Con los frutos de estas plantas se hacen tazas (tsapa), coladores (tsatsa), cucharas y cucharones (unkúship), cantimploras (wémpenku), recipientes para el agua (yumi), recipientes para la chicha (punu). Is. yumi.",
+    "startpage" : 409,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "takuar",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "planta cucurbitacea (fruto grande)",
+                "start" : 11,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "yumi",
+                "start" : 254,
+                "end" : 258
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. yumi.",
+                "start" : 250,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+    ]
+})

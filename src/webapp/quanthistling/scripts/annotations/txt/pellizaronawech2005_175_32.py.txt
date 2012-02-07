@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "• Uwí ijiámturma = rogativas a Uwí (Dios de la renovación), rondando alrededor de las ollas de chicha de chonta (uwí), para lograr un nuevo año.",
+    "startpage" : 175,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uwí ijiámturma",
+                "start" : 2,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rogativas a Uwí rondando alrededor de las ollas de chicha de chonta para lograr un nuevo año",
+                "start" : 21,
+                "end" : 149
+            },
+    ]
+})

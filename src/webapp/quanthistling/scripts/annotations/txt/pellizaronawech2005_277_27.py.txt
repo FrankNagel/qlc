@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "marankit, na. (maránkti-r,ram,ri) = sapo (pequeño, amarillento, piernas con aros oscuros) Es usado para curar el mal de ojos tawárit. Mch. maránkit kit. Is. mukunt.",
+    "startpage" : 277,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "marankit",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sapo (pequeño, amarillento, piernas con aros oscuros)",
+                "start" : 37,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mukunt",
+                "start" : 161,
+                "end" : 167
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "marankit",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (maránkti-r,ram,ri)",
+                "start" : 10,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. maránkit kit. Is. mukunt.",
+                "start" : 137,
+                "end" : 168
+            },
+    ]
+})

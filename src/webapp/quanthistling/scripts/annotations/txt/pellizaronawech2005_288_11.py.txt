@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "• kaka = rana (pequeña, café claro, barriga amarilla; vive en las hojas de la pelma. Mch. kakákak kakákak.",
+    "startpage" : 288,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kaka",
+                "start" : 2,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rana (pequeña, café claro, barriga amarilla; vive en las hojas de la pelma)",
+                "start" : 9,
+                "end" : 85
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kakákak kakákak.",
+                "start" : 87,
+                "end" : 110
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "rana (pequeña, café claro, barriga amarilla; vive en las hojas de la pelma)",
+                "start" : 9,
+                "end" : 85
+            },
+    ]
+})

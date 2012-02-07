@@ -1,15 +1,15 @@
 
 manual_entries.append({
-    "fullentry" : "put ͪ onom. sonido de romperse una cinta magnetofónica.",
+    "fullentry" : "putʰ onom. sonido de romperse una cinta magnetofónica.",
     "startpage" : 241,
     "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "put ͪ",
+                "string" : "putʰ",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",

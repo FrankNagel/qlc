@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "* anémartin = discurso de alerta (antes de salir para la guerra) y de reclutamiento para la guerra.",
+    "startpage" : 397,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "anémartin",
+                "start" : 2,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "discurso de alerta antes de salir para la guerra y de reclutamiento para la guerra",
+                "start" : 15,
+                "end" : 99
+            },
+    ]
+})

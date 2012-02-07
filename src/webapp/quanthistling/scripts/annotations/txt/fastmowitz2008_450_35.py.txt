@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "masajeado adj. yakármau.",
+    "startpage" : 450,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "masajeado",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yakármau",
+                "start" : 15,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "masajeado",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

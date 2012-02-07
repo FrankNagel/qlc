@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "kujá-r, u. (para: tr-ur,tram-ra,t-ra) = tragar, egullir. Takat kujátrurtá = trágamelo de golpe. Nu chichámtaik kujártá = traga enseguida.",
+    "startpage" : 259,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kujár",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tragar",
+                "start" : 41,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "engullir",
+                "start" : 49,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "takat kujátrurtá",
+                "start" : 58,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "trágamelo de golpe",
+                "start" : 79,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nu chichámtaik kujártá",
+                "start" : 100,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "traga enseguida",
+                "start" : 128,
+                "end" : 143
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kujá-r,",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (para: tr-ur,tram-ra,t-ra)",
+                "start" : 9,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "engullir",
+                "start" : 49,
+                "end" : 56
+            },
+    ]
+})

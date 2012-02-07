@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "• Katipin ijiámturma = Rogativas a Shakáim (Dios de los cultivos), rondando alrededor de un ratón amarrado en una balsa, para alejar las plagas de las huertas.",
+    "startpage" : 175,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "katipin ijiámturma",
+                "start" : 2,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Rogativas a Shakáim rondando alrededor de un ratón amarrado en una balsa para alejar las plagas de las huertas",
+                "start" : 24,
+                "end" : 161
+            },
+    ]
+})

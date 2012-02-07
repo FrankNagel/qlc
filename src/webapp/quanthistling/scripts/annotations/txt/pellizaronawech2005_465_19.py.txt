@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "ushu, na.ni ui. (r,ram,ri) = ávido de carne, goloso; gula, avidez ⇨alquitira (familia de los anturios; hoja verde con puntos blancos, medicinal contra los gusanos). Is. wanchup'; tsuak.",
+    "startpage" : 465,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ushu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.ni ui.",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ávido de carne",
+                "start" : 29,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "goloso",
+                "start" : 46,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gula",
+                "start" : 54,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alquitira (familia de los anturios; hoja verde con puntos blancos, medicinal contra los gusanos)",
+                "start" : 68,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "wanchup'",
+                "start" : 170,
+                "end" : 178
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "tsuak",
+                "start" : 180,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ushu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.ni ui. (r,ram,ri)",
+                "start" : 6,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. wanchup'; tsuak.",
+                "start" : 166,
+                "end" : 186
+            },
+    ]
+})

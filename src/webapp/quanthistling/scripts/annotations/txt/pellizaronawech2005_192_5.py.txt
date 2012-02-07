@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "íspik, na. ach. (iur,rum,ri) = espejo (shch. íimiatai).",
+    "startpage" : 192,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "íspik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ach.",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "espejo",
+                "start" : 32,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "íspik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ach. (iur,rum,ri)",
+                "start" : 8,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "shch.",
+                "start" : 40,
+                "end" : 45
+            },
+    ]
+})

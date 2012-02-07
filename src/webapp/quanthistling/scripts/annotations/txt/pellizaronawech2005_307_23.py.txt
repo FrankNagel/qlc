@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "* initia-napi = culebra (tipo ampujka.",
+    "startpage" : 307,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "initianapi",
+                "start" : 2,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "culebra (tipo ampujka)",
+                "start" : 16,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "* initia-napi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "culebra (tipo ampujka)",
+                "start" : 16,
+                "end" : 37
+            },
+    ]
+})

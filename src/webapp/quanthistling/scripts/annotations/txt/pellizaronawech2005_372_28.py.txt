@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "surutjákmia, ni.na. (r,ram,ri) = arremolinado/a; la arrimolinada.",
+    "startpage" : 372,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "surutjákmia",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arremolinado",
+                "start" : 34,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arremolinada",
+                "start" : 34,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "la arremolinada",
+                "start" : 50,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "surutjákmia",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "la arremolinada",
+                "start" : 50,
+                "end" : 65
+            },
+    ]
+})

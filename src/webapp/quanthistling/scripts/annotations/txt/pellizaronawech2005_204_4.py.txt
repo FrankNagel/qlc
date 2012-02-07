@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "Yampuna, na. (r.ram,ri) = nombre de varón; ⇨guacagayo (azul, pecho amarillo). Is. chinki.",
+    "startpage" : 204,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yampuna",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 26,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guacamayo (azul, pecho amarillo)",
+                "start" : 45,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "chinki",
+                "start" : 83,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yampuna",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r.ram,ri)",
+                "start" : 9,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. chinki.",
+                "start" : 79,
+                "end" : 90
+            },
+    ]
+})

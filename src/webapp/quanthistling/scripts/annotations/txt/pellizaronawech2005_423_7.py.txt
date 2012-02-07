@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "tsurámtar-ka, m. (para: tur-ka,turma-k,t-uk) = acalamrarse, electizarse. Nawer tsuramtarturkáyi = se me acalambró el pie.",
+    "startpage" : 423,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsurámtarka",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acalambrarse",
+                "start" : 48,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "electrizarse",
+                "start" : 61,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nawer tsuramtarturkáyi",
+                "start" : 74,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se me acalambró el pie",
+                "start" : 100,
+                "end" : 123
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsurámtar-ka,",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: tur-ka,turma-k,t-uk)",
+                "start" : 15,
+                "end" : 46
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "acalambrarse",
+                "start" : 48,
+                "end" : 59
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "electrizarse",
+                "start" : 61,
+                "end" : 72
+            },
+    ]
+})

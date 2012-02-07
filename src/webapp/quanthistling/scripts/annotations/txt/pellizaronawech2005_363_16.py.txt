@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "séenta, na. (r,ram,ri) = cinta que los wáimiaku (encontrados por Arútam Dios) se ponen en las muñecas, como signo de su encuentro con Dios. Es memorial de una fuerza que no se puede perder sin realizar la misión recibida.",
+    "startpage" : 363,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "séenta",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cinta que los wáimiaku se ponen en las muñecas como signo de su encuentro con Dios",
+                "start" : 26,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "séenta",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 9,
+                "end" : 23
+            },
+    ]
+})

@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "matsu-r, m. (para: rt-ur,rtam-ra,r-a) = atontarse, intoxicarse, azorrarse, amodarrarse, alelarse. Namak timiún matsúrarái = Los peces se atontaron con el barbasco.",
+    "startpage" : 279,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "matsur",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atontarse",
+                "start" : 40,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "intoxicarse",
+                "start" : 51,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "azorrarse",
+                "start" : 64,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amodorrarse",
+                "start" : 75,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alelarse",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "namak timiún matsúrarái",
+                "start" : 98,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "los peces se atontaron con el barbasco",
+                "start" : 127,
+                "end" : 165
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "matsu-r,",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: rt-ur,rtam-ra,r-a)",
+                "start" : 9,
+                "end" : 37
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "amodorrarse",
+                "start" : 75,
+                "end" : 86
+            },
+    ]
+})

@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "Nunkuich', na. = nombre de mujer (= pequeña Nunkui).",
+    "startpage" : 325,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nunkuich'",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de mujer",
+                "start" : 17,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pequeña Nunkui",
+                "start" : 36,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nunkuich'",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

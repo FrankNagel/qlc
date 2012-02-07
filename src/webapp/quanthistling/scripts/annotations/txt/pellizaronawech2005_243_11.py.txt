@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "kana-r (kan-ur), m. (para: kan-utr-ur,utramra,ut-ra) = dormirse. Kanútrurtí = que se me duerma.",
+    "startpage" : 243,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kanar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kanur",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 17,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dormirse",
+                "start" : 55,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "kanútrurtí",
+                "start" : 65,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "que se me duerma",
+                "start" : 80,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kana-r (kan-ur)",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : ", m. (para:",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-utr-ur,utramra,ut-ra)",
+                "start" : 30,
+                "end" : 53
+            },
+    ]
+})

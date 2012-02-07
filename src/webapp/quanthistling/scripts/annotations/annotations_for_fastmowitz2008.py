@@ -41,6 +41,20 @@ def annotate_dialect(entry):
         elif match.group(1) == u'P':
             entry.append_annotation(match.start(0), match.end(0), u'dialectidentification', u'dictinterpretation', u'Dialecto de Puránchim')
 
+def annotate_stratum(entry):
+    # delete stratum annotations
+    dialect_annotations = [ a for a in entry.annotations if a.value=='stratum']
+    for a in dialect_annotations:
+        Session.delete(a)
+
+    for match in re.finditer(u'\(del (?:cast\.( ?[^)]*)|quechua)\)', entry.fullentry):
+        if match.group(0) == u'del quechua':
+            entry.append_annotation(match.start(0), match.end(0), u'stratum', u'dictinterpretation', u'Quechua loanword')
+        elif match.group(1) == u'':
+            entry.append_annotation(match.start(0), match.end(0), u'stratum', u'dictinterpretation', u'Spanish loanword')
+        else:
+            entry.append_annotation(match.start(0), match.end(0), u'stratum', u'dictinterpretation', u'Spanish loanword {0}'.format(match.group(1)))
+    
 def get_head_end(entry):
     first_italic = functions.get_first_italic_start_in_range(entry, 0, len(entry.fullentry))
     if first_italic == -1:
@@ -63,8 +77,8 @@ def get_head_end(entry):
         else:
             at_start = False
         
-    # brackets after head belong to head
-    for m in re.finditer(u"\(.*?\)", entry.fullentry[:first_italic]):
+    # brackets after head belong to head, if they are not spanish loanword indication
+    for m in re.finditer(u"\((?!del cast\.)[^)]*?\)", entry.fullentry[:first_italic]):
         if m.start(0) <= (last_bold_end + 1) and m.end(0) > last_bold_end:
             last_bold_end = m.end(0)
             
@@ -99,23 +113,25 @@ def annotate_head(entry):
     head_end = get_head_end(entry)
     if head_end == -1:
         return []
-        
-    head_start = 0
     
-    substr = entry.fullentry[head_start:head_end]
+    substr = entry.fullentry[:head_end]
 
-    start = head_start
-    for match in re.finditer(r' ?(?:\((?:HUI|AN|C|HUA|P)\))? ?, ?', substr):
-        end = match.start(0) + head_start
-        entry.append_annotation(start, end, u'head', u'dictinterpretation')
-        heads.append(entry.fullentry[start:end])
-        start = match.end(0) + head_start
-    end = head_end
-    match_dialect = re.search(u"\((?:HUI|AN|C|HUA|P)\) ?$", entry.fullentry[start:end])
-    if match_dialect:
-        end = start + match_dialect.start(0)
-    entry.append_annotation(start, end, u'head', u'dictinterpretation')
-    heads.append(entry.fullentry[start:end])
+    start = 0
+    for match in re.finditer(r' ?(?:, ?|; ?|$)', substr):
+        mybreak = False
+        # are we in a bracket?
+        for m in re.finditer(r'\(.*?\)', substr):
+            if match.start(0) >= m.start(0) and match.end(0) < m.end(0):
+                mybreak = True
+            
+        if not mybreak:
+            end = match.start(0)
+            match_dialect = re.search(u"\((?:HUI|AN|C|HUA|P)\) ?$", entry.fullentry[start:end])
+            if match_dialect:
+                end = start + match_dialect.start(0)
+            entry.append_annotation(start, end, u'head', u'dictinterpretation')
+            heads.append(entry.fullentry[start:end])
+            start = match.end(0)
         
     return heads
                 
@@ -285,7 +301,7 @@ def main(argv):
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         print len(entries)
         
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=337,pos_on_page=21).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=300,pos_on_page=12).all()
         #entries = []
         
         startletters = set()
@@ -300,6 +316,7 @@ def main(argv):
             annotate_translations(e)
             annotate_crossrefs(e)
             annotate_dialect(e)
+            annotate_stratum(e)
             #annotate_examples(e)
 
         dictdata.startletters = unicode(repr(sorted(list(startletters))))

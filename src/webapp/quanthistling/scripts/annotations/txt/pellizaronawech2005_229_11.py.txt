@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "jíipiar, na. (jí ipra-r,ram,ri) = enfermedad (falta de respiración, dolores a la cintura y a los costados); dolores intercostálicos.",
+    "startpage" : 229,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jíipiar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "enfermedad (falta de respiración, dolores a la cintura y a los costados)",
+                "start" : 36,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dolores intercostales",
+                "start" : 111,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jíipiar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (jí ipra-r,ram,ri)",
+                "start" : 10,
+                "end" : 33
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dolores intercostales",
+                "start" : 111,
+                "end" : 135
+            },
+    ]
+})

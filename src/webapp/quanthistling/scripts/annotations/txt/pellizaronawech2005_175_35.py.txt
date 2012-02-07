@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "ijiámtutai, na. (r,ram,ri) = celebración, rito (ronda alrededor de la tsantsa, de la chonta, del ratón...) Ijiármáamunam, na. = tiempo de ayuno; Cuaresma.",
+    "startpage" : 175,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ijiámtutai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "celebración",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rito (ronda alrededor de la tsantsa, de la chonta, del ratón...)",
+                "start" : 44,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Ijiármáamunam",
+                "start" : 110,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 127,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tiempo de ayuno",
+                "start" : 133,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Cuaresma",
+                "start" : 150,
+                "end" : 158
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ijiámtutai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jiármáamunam",
+                "start" : 111,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 127,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+    ]
+})

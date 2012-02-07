@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "▪ tará = picante; yapaku = salado, amargo.",
+    "startpage" : 295,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tará",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "picante",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yapaku",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salado",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amargo",
+                "start" : 36,
+                "end" : 42
+            },
+    ]
+})

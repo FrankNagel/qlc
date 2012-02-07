@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "tsakem-ka, u. (a: r-uk,ram-ka,-) = hacer rayitas, manchitas, puntitos. Tsakémrukái = me hizo puntitos.",
+    "startpage" : 406,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsakemka",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer rayitas",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer manchitas",
+                "start" : 35,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer puntitos",
+                "start" : 35,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tsakémrukái",
+                "start" : 71,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "me hizo puntitos",
+                "start" : 87,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsakem-ka,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: r-uk,ram-ka,-)",
+                "start" : 11,
+                "end" : 32
+            },
+    ]
+})

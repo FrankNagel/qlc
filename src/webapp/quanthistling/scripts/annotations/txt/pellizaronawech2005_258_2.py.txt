@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "kuyánch' kuyánch', mch. = voz del ave paínkia-pinínch'.",
+    "startpage" : 258,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuyánch' kuyánch'",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del ave paínkia pinínch'",
+                "start" : 28,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kuyánch' kuyánch',",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 21,
+                "end" : 26
+            },
+    ]
+})

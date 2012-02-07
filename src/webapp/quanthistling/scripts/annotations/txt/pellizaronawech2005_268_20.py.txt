@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "Kutukú, na. (r,ram,ri) = nombre de la cordillera oriental; ⇨altura fría cubierta de musgos. ⇨ sapo (pequeño, ceniza, tipo chirimius). Mch. kutuk kutuk.",
+    "startpage" : 268,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kutukú",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de la cordillera oriental",
+                "start" : 26,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "altura fría cubierta de musgos",
+                "start" : 61,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sapo (pequeño, ceniza, tipo chirimius)",
+                "start" : 96,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Kutukú",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (r,ram,ri)",
+                "start" : 9,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mch. kutuk kutuk.",
+                "start" : 137,
+                "end" : 154
+            },
+    ]
+})

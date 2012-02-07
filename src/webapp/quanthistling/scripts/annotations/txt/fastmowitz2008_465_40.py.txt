@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "¿para qué sirve? ¿itiúrtaingki?",
+    "startpage" : 465,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "para qué sirve",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "itiúrtaingki",
+                "start" : 17,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¿para qué sirve?",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

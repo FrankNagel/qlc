@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "llevando bajo el brazo tsukapés.",
+    "startpage" : 375,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "llevando bajo el brazo",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tsukapés",
+                "start" : 23,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "llevando bajo el brazo tsukap",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

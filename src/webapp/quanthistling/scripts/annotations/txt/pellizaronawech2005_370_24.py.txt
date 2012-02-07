@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "* jíipiar = falta de respiración, dolores intercostálicos.",
+    "startpage" : 370,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jíipiar",
+                "start" : 2,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "falta de respiración",
+                "start" : 13,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dolores intercostales",
+                "start" : 36,
+                "end" : 60
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "dolores intercostales",
+                "start" : 36,
+                "end" : 60
+            },
+    ]
+})

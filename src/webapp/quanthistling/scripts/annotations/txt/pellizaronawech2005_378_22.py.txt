@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "* yaratai = contucto aferente.",
+    "startpage" : 378,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yaratai",
+                "start" : 2,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conducto aferente",
+                "start" : 12,
+                "end" : 29
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "conducto aferente",
+                "start" : 12,
+                "end" : 29
+            },
+    ]
+})

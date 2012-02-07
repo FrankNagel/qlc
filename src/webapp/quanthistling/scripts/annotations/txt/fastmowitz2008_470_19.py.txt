@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "¡permiso! (para entrar) ¡winájai!",
+    "startpage" : 470,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "permiso (para entrar)",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "winájai",
+                "start" : 23,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¡permiso! (para entrar)",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
