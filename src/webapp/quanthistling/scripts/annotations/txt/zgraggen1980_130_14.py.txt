@@ -1,31 +1,31 @@
 
 manual_entries.append({
-    "fullentry" : "F 1Pay-ipⁱr̃i",
-    "startpage" : 20,
-    "pos_on_page" : 8,
-    "language_bookname" : "Pay",
-    "concept" : "NECK",
+    "fullentry" : "B13 Saep yab-(1),",
+    "startpage" : 130,
+    "pos_on_page" : 14,
+    "language_bookname" : "Saep",
+    "concept" : "GIVE",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "-ipⁱr̃i",
-                "start" : 6,
-                "end" : 13
+                "string" : "yab",
+                "start" : 9,
+                "end" : 16
             },
             {
                 "type" : "pagelayout",
-                "value" : "tab",
+                "value" : "newline",
                 "string" : "",
                 "start" : 3,
                 "end" : 3
             },
             {
                 "type" : "pagelayout",
-                "value" : "tab",
+                "value" : "newline",
                 "string" : "",
-                "start" : 6,
-                "end" : 6
+                "start" : 8,
+                "end" : 8
             },
     ]
 })

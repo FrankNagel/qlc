@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B 6 Arawum j̃iŋala",
+    "startpage" : 86,
+    "pos_on_page" : 7,
+    "language_bookname" : "Arawum",
+    "concept" : "COMB",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ǰiŋala",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ǰiŋala",
+                "start" : 11,
+                "end" : 18
+            },
+    ]
+})

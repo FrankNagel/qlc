@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "E 5 -arⁱg- (sg) -ari- (pl)",
+    "startpage" : 132,
+    "pos_on_page" : 94,
+    "language_bookname" : "Waskia",
+    "concept" : "SEE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "arⁱg",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ari",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

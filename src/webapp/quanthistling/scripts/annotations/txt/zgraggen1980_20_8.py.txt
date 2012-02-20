@@ -1,17 +1,17 @@
 
 manual_entries.append({
-    "fullentry" : "E 4Korak-birⁱnut",
-    "startpage" : 21,
-    "pos_on_page" : 6,
-    "language_bookname" : "Korak",
-    "concept" : "BACK",
+    "fullentry" : "F 1Pay-ipⁱr̃i",
+    "startpage" : 20,
+    "pos_on_page" : 65,
+    "language_bookname" : "Pay",
+    "concept" : "NECK",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "-birⁱnut",
-                "start" : 8,
-                "end" : 16
+                "string" : "-ipⁱr̃i",
+                "start" : 6,
+                "end" : 13
             },
             {
                 "type" : "pagelayout",
@@ -24,8 +24,8 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 8,
-                "end" : 8
+                "start" : 6,
+                "end" : 6
             },
     ]
 })

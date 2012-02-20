@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "C24 Mawan ăp",
+    "startpage" : 71,
+    "pos_on_page" : 141,
+    "language_bookname" : "Mawan",
+    "concept" : "GROUND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ap",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ap",
+                "start" : 10,
+                "end" : 13
+            },
+    ]
+})

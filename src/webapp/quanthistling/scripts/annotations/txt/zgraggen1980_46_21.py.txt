@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B20 Duduela muj̀a",
+    "startpage" : 46,
+    "pos_on_page" : 21,
+    "language_bookname" : "Duduela",
+    "concept" : "MEAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "muǰa",
+                "start" : 12,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "muǰa",
+                "start" : 12,
+                "end" : 17
+            },
+    ]
+})

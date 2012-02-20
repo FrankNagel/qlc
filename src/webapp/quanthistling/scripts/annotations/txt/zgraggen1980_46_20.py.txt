@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B19 Erima maj̀a",
+    "startpage" : 46,
+    "pos_on_page" : 20,
+    "language_bookname" : "Erima",
+    "concept" : "MEAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maǰa",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "maǰa",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})

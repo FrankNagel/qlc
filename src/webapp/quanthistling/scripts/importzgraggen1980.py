@@ -115,6 +115,8 @@ languages = {
 }
 
 import sys, os, re
+import collections
+
 sys.path.append(os.path.abspath('.'))
 
 import pylons.test
@@ -133,218 +135,228 @@ dictdata_path = 'quanthistling/dictdata'
 
 def main(argv):
     #book_bibtex_key = u"zgraggen1980"
+    bibtex_keys_in_file = [ 'zgraggen1980', 'zgraggen1980b', 'zgraggen1980c', 'zgraggen1980d' ]
+    combined_bibtex_key = 'zgraggen1980'
     
-    if len(argv) < 3:
-        print "call: importzgraggen1980.py bibtex_key ini_file"
+    if len(argv) < 2:
+        print "call: importzgraggen1980.py  ini_file"
         exit(1)
     
-    ini_file = argv[2]
+    ini_file = argv[1]
     conf = appconfig('config:' + ini_file, relative_to='.')
     if not pylons.test.pylonsapp:
         load_environment(conf.global_conf, conf.local_conf)
     
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
-
-    wordlistbook = {}
-    book_bibtex_key = argv[1].decode("utf-8")
+    
     for b in quanthistling.dictdata.wordlistbooks.list:
-        if b['bibtex_key'] == book_bibtex_key:
+        if b['bibtex_key'] == bibtex_keys_in_file[0]:
             wordlistbookdata = b
 
-    importfunctions.delete_book_from_db(Session, book_bibtex_key)
-    
+    importfunctions.delete_book_from_db(Session, combined_bibtex_key)
     book = importfunctions.insert_book_to_db(Session, wordlistbookdata)
 
-    wordlistdata = {}
-    for data in wordlistbookdata['wordlistdata']:
-        d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
-        wordlistdata[data['language_bookname']] = d
+    poses_on_page               = collections.defaultdict(int)
 
-    wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
+    for book_bibtex_key in bibtex_keys_in_file:
+        wordlistbook = {}
+        #book_bibtex_key = argv[1].decode("utf-8")
     
-    page                        = 0
-    page_new                    = 0
-    column                      = 0
-    column_new                  = 0
-    pos_on_page                 = 1
-    current_entry_text          = ''
-    concept_id                  = 0
-    annotation                  = {}
-    entry                       = {}
-    
-    re_page = re.compile(u"\[Seite (\d+)\]$")
-    re_column = re.compile(u"\[Spalte (\d+)\]$")
-    re_english = re.compile(u"<i>([^<]*)</i>")
-    re_html = re.compile(u"</?\w{1,2}>")
+        for b in quanthistling.dictdata.wordlistbooks.list:
+            if b['bibtex_key'] == book_bibtex_key:
+                wordlistbookdata = b
 
-    for line in wordlistfile:        
-        l = line.strip()
-        #l = unescape(l)
-        l = l.decode('utf-8')
+        wordlistdata = {}
+        for data in wordlistbookdata['wordlistdata']:
+            d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
+            wordlistdata[data['language_bookname']] = d
+    
+        wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
         
-        l = re.sub(u"̧", u"̩", l)
-        l = re.sub(u"ӕ", u"æ", l)
-        l = re.sub(u"[ǝә]", u"ə", l)
-        l = re.sub(u"ε", u"ɛ", l)
-        l = re.sub(u"ι", u"ɩ", l)
-        l = re.sub(u"O̵", u"o̵", l)
-        l = re.sub(u"ͥ", u"\u2071", l)
-        l = re.sub(u"\?", u"ˀ", l)
-        #re.sub(u"abʌ:ni, oυ-, on-", u"abʌ:ni, ou-, on-", l)
-
-        if re.search(u'^<p>', l):
-            l = re.sub(u'</?p>', '', l)
-            #print l.encode("utf-8")
+        page                        = 0
+        page_new                    = 0
+        column                      = 0
+        column_new                  = 0
+        pos_on_page                 = 1
+        current_entry_text          = ''
+        concept_id                  = 0
+        annotation                  = {}
+        entry                       = {}
+        
+        re_page = re.compile(u"\[Seite (\d+)\]$")
+        re_column = re.compile(u"\[Spalte (\d+)\]$")
+        re_english = re.compile(u"<i>([^<]*)</i>")
+        re_html = re.compile(u"</?\w{1,2}>")
+    
+        for line in wordlistfile:        
+            l = line.strip()
+            #l = unescape(l)
+            l = l.decode('utf-8')
             
-            # parse page and line number
-            if re_page.match(l):
-                match_page = re_page.match(l)
-                page_new = int(match_page.group(1))
-                pos_on_page = 1
-                print "Parsing page {0}".format(page)
-            if re_column.match(l):
-                match_column = re_column.match(l)
-                column_new =  int(match_column.group(1))
-                print "Column {0}".format(column)
-            elif re_english.match(l):
-                if entry != {}:
-                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
-                annotation = {}
-                entry = {}
-                page = page_new
-                column = column_new
-                match_english = re_english.match(l)
-                meaning_english = match_english.group(1)
-                meaning_english = re.sub("(?:\d?\d|\*) ?$", "", meaning_english)
-                meaning_english = re.sub("^\*", "", meaning_english)
-                print "  English: %s" % meaning_english.encode("utf-8")
-                entry['English'] = {}
-                entry['English']['fullentry'] = meaning_english
-                entry['English']['pos_on_page'] = pos_on_page
-                annotation['English'] = []
+            l = re.sub(u"̧", u"̩", l)
+            l = re.sub(u"ӕ", u"æ", l)
+            l = re.sub(u"[ǝә]", u"ə", l)
+            l = re.sub(u"ε", u"ɛ", l)
+            l = re.sub(u"ι", u"ɩ", l)
+            l = re.sub(u"O̵", u"o̵", l)
+            l = re.sub(u"ͥ", u"\u2071", l)
+            l = re.sub(u"\?", u"ˀ", l)
+            #re.sub(u"abʌ:ni, oυ-, on-", u"abʌ:ni, ou-, on-", l)
+    
+            if re.search(u'^<p>', l):
+                l = re.sub(u'</?p>', '', l)
+                #print l.encode("utf-8")
                 
-                concept = meaning_english.upper()
-                concept = re.sub(u"^\* ?", u"", concept)
-                concept = re.sub(u" ?\(", u"_", concept)
-                concept = re.sub(u"\) ?", u"_", concept)
-                concept = re.sub(u", ?", u"_", concept)
-                concept = re.sub(u" +$", u"", concept)
-                concept = re.sub(u" ", u"_", concept)
-                concept = re.sub(u"_$", "", concept)
-                concept_id = u"{0}".format(concept)
-
-                start = 0
-                end = len(meaning_english)
-                match_bracket = re.search(" ?\([^)]*\) ?$", meaning_english)
-
-                if match_bracket:
-                    end = end - len(match_bracket.group(0))
-
-                match_star = re.match("\*", meaning_english)
-                if match_star:
-                    start = 1
+                # parse page and line number
+                if re_page.match(l):
+                    poses_on_page[page] = pos_on_page
+                    match_page = re_page.match(l)
+                    page_new = int(match_page.group(1))
+                    pos_on_page = poses_on_page[page_new] + 1
+                    print "Parsing page {0}".format(page)
+                if re_column.match(l):
+                    match_column = re_column.match(l)
+                    column_new =  int(match_column.group(1))
+                    print "Column {0}".format(column)
+                elif re_english.match(l):
+                    if entry != {}:
+                        importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
+                    annotation = {}
+                    entry = {}
+                    page = page_new
+                    column = column_new
+                    match_english = re_english.match(l)
+                    meaning_english = match_english.group(1)
+                    meaning_english = re.sub("(?:\d?\d|\*) ?$", "", meaning_english)
+                    meaning_english = re.sub("^\*", "", meaning_english)
+                    print "  English: %s" % meaning_english.encode("utf-8")
+                    entry['English'] = {}
+                    entry['English']['fullentry'] = meaning_english
+                    entry['English']['pos_on_page'] = pos_on_page
+                    annotation['English'] = []
                     
-                meaning_english = meaning_english[start:end]
-                
-                start_new = 0
-                for match in re.finditer(u"(?:, |$)", meaning_english):
-                    end_new = match.start(0)
-                    a = {}
-                    a['start'] = start + start_new
-                    a['end'] = start + end_new
-                    a['value'] = 'counterpart'
-                    a['type'] = 'dictinterpretation'
-                    a['string'] = meaning_english[start_new:end_new]
-                    annotation['English'].append(a)
-                    start_new = match.end(0)
-                
-                pos_on_page = pos_on_page + 1
-            else:
-                parts = l.split("\t")
-                language = parts[0]
-                
-                if language not in languages:
-                    continue
-                
-                if len(parts) == 3:
-                    fullentry = parts[2]
-                elif len(parts) == 2:
-                    fullentry = parts[1]
-                else:
-                    continue
-                
-                entry[parts[0]] = {}
-                annotation[parts[0]] = []
-                entry[parts[0]]['fullentry'] = l
-                entry[parts[0]]['pos_on_page'] = pos_on_page
-                start_entry = len(l) - len(fullentry)
-                end_entry = len(l)
-                start_new = 0
-                for match in re.finditer(u"(?:[,;] |$)", fullentry):
-                    mybreak = False
-                    # are we in a bracket?
-                    for m in re.finditer(r'\(.*?\)', fullentry):
-                        if match.start(0) > m.start(0) and match.end(0) < m.end(0):
-                            mybreak = True
+                    concept = meaning_english.upper()
+                    concept = re.sub(u"^\* ?", u"", concept)
+                    concept = re.sub(u" ?\(", u"_", concept)
+                    concept = re.sub(u"\) ?", u"_", concept)
+                    concept = re.sub(u", ?", u"_", concept)
+                    concept = re.sub(u" +$", u"", concept)
+                    concept = re.sub(u" ", u"_", concept)
+                    concept = re.sub(u"_$", "", concept)
+                    concept_id = u"{0}".format(concept)
+    
+                    start = 0
+                    end = len(meaning_english)
+                    match_bracket = re.search(" ?\([^)]*\) ?$", meaning_english)
+    
+                    if match_bracket:
+                        end = end - len(match_bracket.group(0))
+    
+                    match_star = re.match("\*", meaning_english)
+                    if match_star:
+                        start = 1
                         
-                    if not mybreak:
+                    meaning_english = meaning_english[start:end]
+                    
+                    start_new = 0
+                    for match in re.finditer(u"(?:, |$)", meaning_english):
                         end_new = match.start(0)
-                        
-                        match_bracket = re.search(" ?\([^)]*\) ?$", fullentry[start_new:end_new])
-                        if match_bracket:
-                            end_new = end_new - len(match_bracket.group(0))
-    
-                        match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
-                        if match_dashes1:
-                            start_new = start_new + len(match_dashes1.group(0))
-                            
-                        match_dashes2 = re.search("--?,?$", fullentry[start_new:end_new])
-                        if match_dashes2:
-                            end_new = end_new - len(match_dashes2.group(0))
-                            
-                        match_bracket2 = re.search("^ ?\(([^)]*)\)", fullentry[start_new:end_new])
-                        if match_bracket2:
-                            a = {}
-                            a['start'] = start_entry + start_new
-                            a['end'] = start_entry + end_new
-                            a['value'] = 'counterpart'
-                            a['type'] = 'dictinterpretation'
-                            annotation_string = match_bracket2.group(1) + fullentry[start_new+len(match_bracket2.group(0)):end_new]
-                            annotation_string = re_html.sub("", annotation_string)
-                            a['string'] = annotation_string
-                            annotation[parts[0]].append(a)
-
-                            a2 = {}
-                            a2['start'] = start_entry + start_new
-                            a2['end'] = start_entry + end_new
-                            a2['value'] = 'counterpart'
-                            a2['type'] = 'dictinterpretation'
-                            annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
-                            annotation_string = re_html.sub("", annotation_string)
-                            a2['string'] = annotation_string
-                            annotation[parts[0]].append(a2)
-                            
-                        else:
-                            a = {}
-                            a['start'] = start_entry + start_new
-                            a['end'] = start_entry + end_new
-                            a['value'] = 'counterpart'
-                            a['type'] = 'dictinterpretation'
-                            annotation_string = fullentry[start_new:end_new]
-                            annotation_string = re_html.sub("", annotation_string)
-                            a['string'] = annotation_string
-                            annotation[parts[0]].append(a)
-
+                        a = {}
+                        a['start'] = start + start_new
+                        a['end'] = start + end_new
+                        a['value'] = 'counterpart'
+                        a['type'] = 'dictinterpretation'
+                        a['string'] = meaning_english[start_new:end_new]
+                        annotation['English'].append(a)
                         start_new = match.end(0)
-                
-                
-                pos_on_page += 1
-
+                    
+                    pos_on_page = pos_on_page + 1
+                else:
+                    parts = l.split("\t")
+                    language = parts[0]
+                    
+                    if language not in languages:
+                        continue
+                    
+                    if len(parts) == 3:
+                        fullentry = parts[2]
+                    elif len(parts) == 2:
+                        fullentry = parts[1]
+                    else:
+                        continue
+                    
+                    entry[parts[0]] = {}
+                    annotation[parts[0]] = []
+                    entry[parts[0]]['fullentry'] = l
+                    entry[parts[0]]['pos_on_page'] = pos_on_page
+                    start_entry = len(l) - len(fullentry)
+                    end_entry = len(l)
+                    start_new = 0
+                    for match in re.finditer(u"(?:[,;] |$)", fullentry):
+                        mybreak = False
+                        # are we in a bracket?
+                        for m in re.finditer(r'\(.*?\)', fullentry):
+                            if match.start(0) > m.start(0) and match.end(0) < m.end(0):
+                                mybreak = True
+                            
+                        if not mybreak:
+                            end_new = match.start(0)
+                            
+                            match_bracket = re.search(" ?\([^)]*\) ?$", fullentry[start_new:end_new])
+                            if match_bracket:
+                                end_new = end_new - len(match_bracket.group(0))
+        
+                            match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
+                            if match_dashes1:
+                                start_new = start_new + len(match_dashes1.group(0))
+                                
+                            match_dashes2 = re.search("--?,?$", fullentry[start_new:end_new])
+                            if match_dashes2:
+                                end_new = end_new - len(match_dashes2.group(0))
+                                
+                            match_bracket2 = re.search("^ ?\(([^)]*)\)", fullentry[start_new:end_new])
+                            if match_bracket2:
+                                a = {}
+                                a['start'] = start_entry + start_new
+                                a['end'] = start_entry + end_new
+                                a['value'] = 'counterpart'
+                                a['type'] = 'dictinterpretation'
+                                annotation_string = match_bracket2.group(1) + fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                annotation_string = re_html.sub("", annotation_string)
+                                a['string'] = annotation_string
+                                annotation[parts[0]].append(a)
     
-    Session.commit()
-    Session.close()
-    wordlistfile.close()   
+                                a2 = {}
+                                a2['start'] = start_entry + start_new
+                                a2['end'] = start_entry + end_new
+                                a2['value'] = 'counterpart'
+                                a2['type'] = 'dictinterpretation'
+                                annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                annotation_string = re_html.sub("", annotation_string)
+                                a2['string'] = annotation_string
+                                annotation[parts[0]].append(a2)
+                                
+                            else:
+                                a = {}
+                                a['start'] = start_entry + start_new
+                                a['end'] = start_entry + end_new
+                                a['value'] = 'counterpart'
+                                a['type'] = 'dictinterpretation'
+                                annotation_string = fullentry[start_new:end_new]
+                                annotation_string = re_html.sub("", annotation_string)
+                                a['string'] = annotation_string
+                                annotation[parts[0]].append(a)
+    
+                            start_new = match.end(0)
+                    
+                    
+                    pos_on_page += 1
+    
+        
+        Session.commit()
+        Session.close()
+        wordlistfile.close()   
 
 if __name__ == "__main__":
     main(sys.argv)

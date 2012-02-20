@@ -10382,6 +10382,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "sawín-ia, u. (a: t-iua,tiam-a,-) = dar de to-mar el sawin (tabaco ensalivado), entabacar.",
+    "startpage" : 363,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sawínia",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar de tomar el sawin (tabaco ensalivado)",
+                "start" : 36,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entabacar",
+                "start" : 80,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sawín-ia,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-iua,tiam-a,-)",
+                "start" : 11,
+                "end" : 33
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Senta, na. = nombre de mujer; ⇨pulsera (cinta que el wáimiku se pone en las muñecas, en los tobillos y también en los brazos, después de haber sido elegido por Arutam Dios para cumplir una misión. Se la quita después de haber realizado la misión recibida.",
     "startpage" : 364,
     "pos_on_page" : 21,
@@ -10997,6 +11047,98 @@ manual_entries.append({
                 "string" : "jefe de los armadillos",
                 "start" : 42,
                 "end" : 64
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "shuirma, ni.na. (r,ram,ri) = amoratado/a; lo moratado. Juank shuírma = Juank amoratado. Juánkan shuírmari = lo amoratado de Juank.",
+    "startpage" : 381,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shuirma",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.na.",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amoratado",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "amoratada",
+                "start" : 29,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo amoratado",
+                "start" : 42,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juank shuírma",
+                "start" : 55,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "juank amoratado",
+                "start" : 72,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "juánkan shuírmari",
+                "start" : 89,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "lo amoratado de juank",
+                "start" : 111,
+                "end" : 132
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "shuirma",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.na. (r,ram,ri)",
+                "start" : 9,
+                "end" : 26
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "lo amoratado",
+                "start" : 42,
+                "end" : 53
             },
     ]
 })
@@ -14276,6 +14418,35 @@ manual_entries.append({
                 "string" : "",
                 "start" : 176,
                 "end" : 176
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "• kúpit = hormiga (pequeña, megra, olorosa, muerde).",
+    "startpage" : 490,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kúpit",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hormiga (pequeña, negra, olorosa, muerde)",
+                "start" : 11,
+                "end" : 53
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "hormiga (pequeña, negra, olorosa, muerde)",
+                "start" : 11,
+                "end" : 53
             },
     ]
 })

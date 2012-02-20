@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B12 Ganglau f̩taksi-",
+    "startpage" : 105,
+    "pos_on_page" : 13,
+    "language_bookname" : "Ganglau",
+    "concept" : "WET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fitaksi",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "fitaksi-",
+                "start" : 12,
+                "end" : 20
+            },
+    ]
+})

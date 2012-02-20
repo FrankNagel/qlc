@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "• kúpit = hormiga (pequeña, megra, olorosa, muerde).",
+    "startpage" : 490,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kúpit",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hormiga (pequeña, negra, olorosa, muerde)",
+                "start" : 11,
+                "end" : 53
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "hormiga (pequeña, negra, olorosa, muerde)",
+                "start" : 11,
+                "end" : 53
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "F14Abasakurpⁱrakɛsi",
+    "startpage" : 18,
+    "pos_on_page" : 80,
+    "language_bookname" : "Abasakur",
+    "concept" : "SALIVA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pⁱrakɛsi",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

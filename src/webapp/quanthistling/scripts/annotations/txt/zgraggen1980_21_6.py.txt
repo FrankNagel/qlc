@@ -1,17 +1,17 @@
 
 manual_entries.append({
-    "fullentry" : "F14Abasakurpⁱrakɛsi",
-    "startpage" : 18,
-    "pos_on_page" : 21,
-    "language_bookname" : "Abasakur",
-    "concept" : "SALIVA",
+    "fullentry" : "E 4Korak-birⁱnut",
+    "startpage" : 21,
+    "pos_on_page" : 65,
+    "language_bookname" : "Korak",
+    "concept" : "BACK",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "pⁱrakɛsi",
-                "start" : 11,
-                "end" : 19
+                "string" : "-birⁱnut",
+                "start" : 8,
+                "end" : 16
             },
             {
                 "type" : "pagelayout",
@@ -24,8 +24,8 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 11,
-                "end" : 11
+                "start" : 8,
+                "end" : 8
             },
     ]
 })

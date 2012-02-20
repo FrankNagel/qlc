@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B25 Bom anj̀am mʌr-",
+    "startpage" : 131,
+    "pos_on_page" : 26,
+    "language_bookname" : "Bom",
+    "concept" : "TALK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "anǰam mʌr",
+                "start" : 8,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "anǰam mʌr-",
+                "start" : 8,
+                "end" : 19
+            },
+    ]
+})

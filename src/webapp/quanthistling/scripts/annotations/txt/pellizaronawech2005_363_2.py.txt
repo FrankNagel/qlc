@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "sawín-ia, u. (a: t-iua,tiam-a,-) = dar de to-mar el sawin (tabaco ensalivado), entabacar.",
+    "startpage" : 363,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sawínia",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar de tomar el sawin (tabaco ensalivado)",
+                "start" : 36,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entabacar",
+                "start" : 80,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sawín-ia,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-iua,tiam-a,-)",
+                "start" : 11,
+                "end" : 33
+            },
+    ]
+})
