@@ -56,9 +56,9 @@ def annotate_head(entry):
     return heads
 
 
-def annotate_pos(entry):
+def annotate_pos_and_translation(entry):
     # delete pos annotations
-    pos_annotations = [ a for a in entry.annotations if a.value=='pos']
+    pos_annotations = [ a for a in entry.annotations if a.value=='pos' or a.value=="translation" ]
     for a in pos_annotations:
         Session.delete(a)
 
@@ -75,17 +75,15 @@ def annotate_pos(entry):
     
     match_pos = re.search("\(([^)]{1,8})\)", first_line)
     
+    translation_end = newline_annotations[0].start
+    if match_pos.end(0) > newline_annotations[0].start:
+        translation_end =  newline_annotations[1].start
+    
     if match_pos:
         entry.append_annotation(match_pos.start(1), match_pos.end(1), u"pos", u"dictinterpretation")
+        functions.insert_translation(entry, match_pos.end(0), translation_end)
     else:
         functions.print_error_in_entry(entry)
-
-
-def annotate_translations(entry):
-    # delete translation annotations
-    trans_annotations = [ a for a in entry.annotations if a.value=='translation']
-    for a in trans_annotations:
-        Session.delete(a)
 
                 
  
@@ -112,7 +110,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=105,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=3,pos_on_page=1).all()
 
         startletters = set()
     
@@ -122,9 +120,8 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            annotate_pos(e)
-            annotate_translations(e)
-        
+            annotate_pos_and_translation(e)
+
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
 
         Session.commit()
