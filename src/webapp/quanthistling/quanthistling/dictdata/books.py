@@ -848,14 +848,14 @@ list = [
         'type' : 'dictionary',
         'dictdata' : [
             {
-                'startpage' : 4,
+                'startpage' : 1,
                 'endpage' : 125,
                 'src_language_name' : u'Spanish',
                 'tgt_language_name' : u'Siriano',
                 'src_language_bookname' : u'Español',
                 'tgt_language_bookname' : u'Siriano',
                 're_letter_only': u'^\w, \ws*$',
-                'file' : 'tucanoan/trujillo1980_dictdata_4_125.xml',
+                'file' : 'tucanoan/trujillo1980_dictdata_1_125.xml',
                 'component' : 'Tucanoan'
             },
         ],
@@ -880,7 +880,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Carapana',
                 'tgt_language_bookname' : u'Español',
-                're_letter_only': u'^<b>\w+|Ã|Ẽ|Ĩ|Ñ|Õ|Ũ|U̶|Ũ̶</b>\s*$',
+                #'re_letter_only': u'^<b>\w+|Ã|Ẽ|Ĩ|Ñ|Õ|Ũ|U̶|Ũ̶</b>\s*$',
                 'file' : 'tucanoan/metzger2000_dictdata_11_97.xml',
                 'component' : 'Tucanoan'
             },
@@ -944,7 +944,7 @@ list = [
                 'tgt_language_name' : u'Portuguese',
                 'src_language_bookname' : u'Yawanawá',
                 'tgt_language_bookname' : u'Português',
-                're_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
+                #'re_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
                 'file' : 'panoan/paula2004_dictdata_242_266.xml',
                 'component' : 'Panoan'
             },
@@ -1118,6 +1118,51 @@ list = [
         ]
             
     },
-    
+    {
+        'title' : u'Wirã ya, Peamasa ya wererituri',
+        'author' : u'Tulio Alemán M., Reinaldo López H., Marion Miller',
+        'year' : 2000,
+        'bibtex_key' : u'aleman2000',
+        'pages' : 133,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 9,
+                'endpage' : 69,
+                'src_language_name' : u'Desano',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Desano',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'tucanoan/aleman2000_dictdata_9_69.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 8,
+                'title': u'Start pages',
+                'file' : 'tucanoan/aleman2000_nondictdata_1_8.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 70,
+                'endpage' : 96,
+                'title': u'Illustrations and texts',
+                'file' : 'tucanoan/aleman2000_nondictdata_70_96.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 115,
+                'endpage' : 133,
+                'title': u'Texts',
+                'file' : 'tucanoan/aleman2000_nondictdata_115_133.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     
 ]
