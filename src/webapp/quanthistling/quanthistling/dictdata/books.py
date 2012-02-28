@@ -1288,5 +1288,51 @@ list = [
         ]
             
     },
+    {
+        'title' : u'MASA YE, GAWA YE RÃCA ÃMARA TUTI',
+        'author' : u'Jeffrey R., Smothermon, Josephine H.',
+        'year' : 1993,
+        'bibtex_key' : u'smothermon1993',
+        'pages' : 206,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 13,
+                'endpage' : 116,
+                'src_language_name' : u'Macuna',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Macuna',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'tucanoan/smothermon1993_dictdata_13_116.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 12,
+                'title': u'Start pages',
+                'file' : 'tucanoan/smothermon1993_nondictdata_1_12.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 117,
+                'endpage' : 140,
+                'title': u'Illustrations and start pages',
+                'file' : 'tucanoan/smothermon1993_nondictdata_117_140.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 191,
+                'endpage' : 206,
+                'title': u'Appendices',
+                'file' : 'tucanoan/smothermon1993_nondictdata_191_206.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     
 ]
