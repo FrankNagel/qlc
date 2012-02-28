@@ -1334,5 +1334,37 @@ list = [
         ]
             
     },
+    {
+        'title' : u'MASA YE, GAVA YE RÃCA MACARIATUTI',
+        'author' : u'Faustino Benjamín L., John Fredy Benjamín L., Wen y Paula Jones, Roberto Marín N., Jaime Reina G. y otros',
+        'year' : 1990,
+        'bibtex_key' : u'faustino1990',
+        'pages' : 107,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 13,
+                'endpage' : 107,
+                'src_language_name' : u'Barasana-Eduria',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Barasana y taibano',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'tucanoan/faustino1990_dictdata_13_107.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 12,
+                'title': u'Start pages',
+                'file' : 'tucanoan/faustino1990_nondictdata_1_12.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     
 ]
