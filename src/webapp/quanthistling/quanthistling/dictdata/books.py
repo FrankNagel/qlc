@@ -1164,5 +1164,90 @@ list = [
         ]
             
     },
+    {
+        'title' : u'DICCIONARIO BILINGÜE',
+        'author' : u'Waltz, Nathan E.',
+        'year' : 2007,
+        'bibtex_key' : u'waltz2007',
+        'pages' : 514,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 13,
+                'endpage' : 337,
+                'src_language_name' : u'Guanano',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Wanano o Guanano',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'tucanoan/waltz2007_dictdata_13_337.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 12,
+                'title': u'Start pages',
+                'file' : 'tucanoan/waltz2007_nondictdata_1_12.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 426,
+                'endpage' : 514,
+                'title': u'Grammar and bibliography',
+                'file' : 'tucanoan/waltz2007_nondictdata_426_514.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
+     {
+        'title' : u'Diccionario Ilustrado Bilingüe',
+        'author' : u'Morse, Nancy L., Salser, Jay K., Neva de Salser, Jr. y',
+        'year' : 1999,
+        'bibtex_key' : u'morse1999',
+        'pages' : 495,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 19,
+                'endpage' : 328,
+                'src_language_name' : u'Cubeo',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Cubeo',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'tucanoan/morse1999_dictdata_19_328.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 16,
+                'title': u'Start pages',
+                'file' : 'tucanoan/morse1999_nondictdata_1_16.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 418,
+                'endpage' : 490,
+                'title': u'Appendices',
+                'file' : 'tucanoan/morse1999_nondictdata_418_490.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 491,
+                'endpage' : 495,
+                'title': u'Bibliography',
+                'file' : 'tucanoan/morse1999_nondictdata_491_495.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     
 ]
