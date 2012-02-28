@@ -1203,7 +1203,7 @@ list = [
         ]
             
     },
-     {
+    {
         'title' : u'Diccionario Ilustrado Bilingüe',
         'author' : u'Morse, Nancy L., Salser, Jay K., Neva de Salser, Jr. y',
         'year' : 1999,
@@ -1244,6 +1244,45 @@ list = [
                 'endpage' : 495,
                 'title': u'Bibliography',
                 'file' : 'tucanoan/morse1999_nondictdata_491_495.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'Diccionario Bilingüe',
+        'author' : u'Cook, Dorothy M., Gralow, Frances L.',
+        'year' : 2001,
+        'bibtex_key' : u'cook2001',
+        'pages' : 204,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 29,
+                'endpage' : 128,
+                'src_language_name' : u'Koreguaje',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Koreguaje',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'tucanoan/cook2001_dictdata_29_128.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 28,
+                'title': u'Start pages',
+                'file' : 'tucanoan/cook2001_nondictdata_1_28.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 188,
+                'endpage' : 204,
+                'title': u'Appendices',
+                'file' : 'tucanoan/cook2001_nondictdata_188_204.htm',
                 'component' : 'Tucanoan'
             },
         ]
