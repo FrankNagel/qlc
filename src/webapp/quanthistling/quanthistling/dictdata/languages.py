@@ -414,13 +414,6 @@ list = [
     },
 
     {
-        'name' : u'Tatuyo',
-        'langcode': u'tav',
-        'description' : u'',
-        'url' : u'http://www.ethnologue.com/show_language.asp?code=tav'
-    },
-
-    {
         'name' : u'Tucano',
         'langcode': u'tuo',
         'description' : u'',
@@ -1276,13 +1269,6 @@ list = [
     },
     
     {
-        'name' : u'Siriano',
-        'langcode': u'sri',
-        'description' : u'',
-        'url' : u'http://www.ethnologue.com/show_language.asp?code=sri'
-    },
-    
-    {
         'name' : u'Yawanawa',
         'langcode': u'ywn',
         'description' : u'',
@@ -1314,6 +1300,18 @@ list = [
         'langcode': u'srq',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=srq'
+    },
+    {
+        'name' : u'Matís',
+        'langcode': u'mpq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mpq'
+    },
+    {
+        'name' : u'Chácobo',
+        'langcode': u'cao',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=cao'
     },
 
 ]
