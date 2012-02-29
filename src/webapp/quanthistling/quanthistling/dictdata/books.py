@@ -1366,5 +1366,37 @@ list = [
         ]
             
     },
+    {
+        'title' : u'DICCIONARIO SIRIONO Y CASTELLANO',
+        'author' : u'Priest, Perry, Priest Anne de',
+        'year' : 1985,
+        'bibtex_key' : u'perry_priest1985',
+        'pages' : 146,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 93,
+                'src_language_name' : u'Sirionó',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Siriono',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'tucanoan/perry_priest1985_dictdata_1_93.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'tucanoan/perry_priest1985_nondictdata_0_0.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     
 ]
