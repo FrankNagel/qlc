@@ -1398,5 +1398,51 @@ list = [
         ]
             
     },
+    {
+        'title' : u'ESTUDO LEXICAL DA LÍNGUA MATIS SUBSÍDIOS PARA UM DICIONÁRIO BILÍNGÜE',
+        'author' : u' Ferreira, Vitória Regina Spanghero',
+        'year' : 2005,
+        'bibtex_key' : u'ferreira2005',
+        'pages' : 211,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 115,
+                'endpage' : 193,
+                'src_language_name' : u'Matís',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Matis',
+                'tgt_language_bookname' : u'Português',
+                'file' : 'Panoan/ferreira2005_dictdata_115_193.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'Panoan/ferreira2005_nondictdata_0_0.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 114,
+                'title': u'Language explanatory pages',
+                'file' : 'Panoan/ferreira2005_nondictdata_1_114.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 195,
+                'endpage' : 211,
+                'title': u'End pages',
+                'file' : 'Panoan/ferreira2005_nondictdata_195_211.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
     
 ]
