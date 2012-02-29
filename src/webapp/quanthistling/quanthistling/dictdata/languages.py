@@ -1309,6 +1309,11 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=pno'
     },
-
+    {
+        'name' : u'Sirionó',
+        'langcode': u'srq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=srq'
+    },
 
 ]
