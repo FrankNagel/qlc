@@ -1400,7 +1400,7 @@ list = [
     },
     {
         'title' : u'ESTUDO LEXICAL DA LÍNGUA MATIS SUBSÍDIOS PARA UM DICIONÁRIO BILÍNGÜE',
-        'author' : u' Ferreira, Vitória Regina Spanghero',
+        'author' : u'Ferreira, Vitória Regina Spanghero',
         'year' : 2005,
         'bibtex_key' : u'ferreira2005',
         'pages' : 211,
@@ -1439,6 +1439,38 @@ list = [
                 'endpage' : 211,
                 'title': u'End pages',
                 'file' : 'Panoan/ferreira2005_nondictdata_195_211.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'DICCIONARIO CHACOBO-CASTELLANO',
+        'author' : u'Zingg, Philipp',
+        'year' : 1998,
+        'bibtex_key' : u'zingg1998',
+        'pages' : 434,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 45,
+                'endpage' : 310,
+                'src_language_name' : u'Chácobo',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Chacobo',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Panoan/zingg1998_dictdata_45_310.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 44,
+                'title': u'Start pages',
+                'file' : 'Panoan/zingg1998_nondictdata_0_44.htm',
                 'component' : 'Panoan'
             },
         ]
