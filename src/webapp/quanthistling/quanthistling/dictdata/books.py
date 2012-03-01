@@ -1476,5 +1476,43 @@ list = [
         ]
             
     },
-    
+    {
+        'title' : u'DICCIONARIO CAPANAHUA-CASTELLANO',
+        'author' : u'Loos, Eugene, Loos, Betty',
+        'year' : 1998,
+        'bibtex_key' : u'loos1998',
+        'pages' : 518,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 63,
+                'endpage' : 403,
+                'src_language_name' : u'Capanahua',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Capanahua',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Panoan/loos1998_dictdata_63_403.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 62,
+                'title': u'Start pages',
+                'file' : 'Panoan/loos1998_nondictdata_1_62.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 496,
+                'endpage' : 518,
+                'title': u'Appendices',
+                'file' : 'Panoan/loos1998_nondictdata_496_518.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
 ]
