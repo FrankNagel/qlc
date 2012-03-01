@@ -116,7 +116,7 @@ def main(argv):
         #startletters                = set()
        
         # now process file and add all entries to the database
-        re_letter_only = re.compile(data['re_letter_only'], re.DOTALL)
+        #re_letter_only = re.compile(data['re_letter_only'], re.DOTALL)
         #print data['re_letter_only']
         
         for line in f1:
@@ -146,7 +146,7 @@ def main(argv):
                             page_change = True
                         log.info("Page is now: " + str(page_new))
                         
-                elif re.match(r'^\[BILD\]', l) or re.match(re_letter_only, l):
+                elif re.match(r'^\[BILD\]', l):
                     pass
                 # parse data
                 elif (page_new >= data['startpage']) and (page_new <= data['endpage']):
