@@ -1515,4 +1515,82 @@ list = [
         ]
             
     },
+    {
+        'title' : u'Glosario Aguaruna-Castellano',
+        'author' : u'Mori, Angel Corbera',
+        'year' : 1981,
+        'bibtex_key' : u'mori1981',
+        'pages' : 79,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 78,
+                'src_language_name' : u'Aguaruna',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Aguaruna',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Jivaroan/mori1981_dictdata_1_78.xml',
+                'component' : 'Jivaroan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'Jivaroan/mori1981_nondictdata_0_0.htm',
+                'component' : 'Jivaroan'
+            },
+            {
+                'startpage' : 79,
+                'endpage' : 79,
+                'title': u'Last page',
+                'file' : 'Jivaroan/mori1981_nondictdata_79.htm',
+                'component' : 'Jivaroan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'Materiales para estudios comparativos de la familia pano: Frases y textos del dialecto mastanahua',
+        'author' : u'Loos, Eugene E.',
+        'year' : 2008,
+        'bibtex_key' : u'loos2008',
+        'pages' : 57,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 41,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Sharanahua',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Mastanahua',
+                'file' : 'Panoan/loos2008_dictdata_1_41.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'Panoan/loos2008_nondictdata_0_0.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 42,
+                'endpage' : 57,
+                'title': u'Appendices',
+                'file' : 'Panoan/loos2008_nondictdata_42_57.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
 ]
