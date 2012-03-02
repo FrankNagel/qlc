@@ -92,13 +92,6 @@ list = [
     },
     
     {
-        'name' : u'Aguaruna',
-        'langcode': u'agr',
-        'description' : u'',
-        'url' : u'http://www.ethnologue.com/show_language.asp?code=agr'
-    },
-    
-    {
         'name' : u'Achagua',
         'langcode': u'aca',
         'description' : u'',
