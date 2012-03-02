@@ -1312,5 +1312,11 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=kaq'
     },
+    {
+        'name' : u'Sharanahua',
+        'langcode': u'mcd',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mcd'
+    },
 
 ]
