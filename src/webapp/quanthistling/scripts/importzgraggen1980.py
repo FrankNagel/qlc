@@ -114,6 +114,8 @@ languages = {
     'English': 'English'
 }
 
+languages_list = languages.values()
+
 import sys, os, re
 import collections
 
@@ -139,7 +141,7 @@ def main(argv):
     combined_bibtex_key = 'zgraggen1980'
     
     if len(argv) < 2:
-        print "call: importzgraggen1980.py  ini_file"
+        print "call: importzgraggen1980.py ini_file"
         exit(1)
     
     ini_file = argv[1]
@@ -188,6 +190,7 @@ def main(argv):
         re_column = re.compile(u"\[Spalte (\d+)\]$")
         re_english = re.compile(u"<i>([^<]*)</i>")
         re_html = re.compile(u"</?\w{1,2}>")
+        re_singledash = re.compile(u"(?<!-)-(?!-)")
     
         for line in wordlistfile:        
             l = line.strip()
@@ -282,9 +285,15 @@ def main(argv):
                     if len(parts) == 3:
                         fullentry = parts[2]
                     elif len(parts) == 2:
-                        fullentry = parts[1]
+                        if parts[1] in languages_list:
+                            fullentry = ""
+                        else:
+                            fullentry = parts[1]
+                        
                     else:
                         continue
+
+                    fullentry = re.sub("^-- ", "", fullentry)
                     
                     entry[parts[0]] = {}
                     annotation[parts[0]] = []
@@ -293,62 +302,66 @@ def main(argv):
                     start_entry = len(l) - len(fullentry)
                     end_entry = len(l)
                     start_new = 0
-                    for match in re.finditer(u"(?:[,;] |$)", fullentry):
-                        mybreak = False
-                        # are we in a bracket?
-                        for m in re.finditer(r'\(.*?\)', fullentry):
-                            if match.start(0) > m.start(0) and match.end(0) < m.end(0):
-                                mybreak = True
-                            
-                        if not mybreak:
-                            end_new = match.start(0)
-                            
-                            match_bracket = re.search(" ?\([^)]*\) ?$", fullentry[start_new:end_new])
-                            if match_bracket:
-                                end_new = end_new - len(match_bracket.group(0))
+                    if len(fullentry) > 0:
+                        for match in re.finditer(u"(?:[,;] |$)", fullentry):
+                            mybreak = False
+                            # are we in a bracket?
+                            for m in re.finditer(r'\(.*?\)', fullentry):
+                                if match.start(0) > m.start(0) and match.end(0) < m.end(0):
+                                    mybreak = True
+                                
+                            if not mybreak:
+                                end_new = match.start(0)
+                                
+                                match_bracket = re.search(" ?\([^)]*\) ?$", fullentry[start_new:end_new])
+                                if match_bracket:
+                                    end_new = end_new - len(match_bracket.group(0))
+            
+                                match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
+                                if match_dashes1:
+                                    start_new = start_new + len(match_dashes1.group(0))
+                                    
+                                match_dashes2 = re.search("--?,?$", fullentry[start_new:end_new])
+                                if match_dashes2:
+                                    end_new = end_new - len(match_dashes2.group(0))
+                                    
+                                match_bracket2 = re.search("^ ?\(([^)]*)\)", fullentry[start_new:end_new])
+                                if match_bracket2:
+                                    a = {}
+                                    a['start'] = start_entry + start_new
+                                    a['end'] = start_entry + end_new
+                                    a['value'] = 'counterpart'
+                                    a['type'] = 'dictinterpretation'
+                                    annotation_string = match_bracket2.group(1) + fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                    annotation_string = re_html.sub("", annotation_string)
+                                    annotation_string = re_singledash.sub("", annotation_string)
+                                    a['string'] = annotation_string
+                                    annotation[parts[0]].append(a)
         
-                            match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
-                            if match_dashes1:
-                                start_new = start_new + len(match_dashes1.group(0))
-                                
-                            match_dashes2 = re.search("--?,?$", fullentry[start_new:end_new])
-                            if match_dashes2:
-                                end_new = end_new - len(match_dashes2.group(0))
-                                
-                            match_bracket2 = re.search("^ ?\(([^)]*)\)", fullentry[start_new:end_new])
-                            if match_bracket2:
-                                a = {}
-                                a['start'] = start_entry + start_new
-                                a['end'] = start_entry + end_new
-                                a['value'] = 'counterpart'
-                                a['type'] = 'dictinterpretation'
-                                annotation_string = match_bracket2.group(1) + fullentry[start_new+len(match_bracket2.group(0)):end_new]
-                                annotation_string = re_html.sub("", annotation_string)
-                                a['string'] = annotation_string
-                                annotation[parts[0]].append(a)
-    
-                                a2 = {}
-                                a2['start'] = start_entry + start_new
-                                a2['end'] = start_entry + end_new
-                                a2['value'] = 'counterpart'
-                                a2['type'] = 'dictinterpretation'
-                                annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
-                                annotation_string = re_html.sub("", annotation_string)
-                                a2['string'] = annotation_string
-                                annotation[parts[0]].append(a2)
-                                
-                            else:
-                                a = {}
-                                a['start'] = start_entry + start_new
-                                a['end'] = start_entry + end_new
-                                a['value'] = 'counterpart'
-                                a['type'] = 'dictinterpretation'
-                                annotation_string = fullentry[start_new:end_new]
-                                annotation_string = re_html.sub("", annotation_string)
-                                a['string'] = annotation_string
-                                annotation[parts[0]].append(a)
-    
-                            start_new = match.end(0)
+                                    a2 = {}
+                                    a2['start'] = start_entry + start_new
+                                    a2['end'] = start_entry + end_new
+                                    a2['value'] = 'counterpart'
+                                    a2['type'] = 'dictinterpretation'
+                                    annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                    annotation_string = re_html.sub("", annotation_string)
+                                    annotation_string = re_singledash.sub("", annotation_string)
+                                    a2['string'] = annotation_string
+                                    annotation[parts[0]].append(a2)
+                                    
+                                else:
+                                    a = {}
+                                    a['start'] = start_entry + start_new
+                                    a['end'] = start_entry + end_new
+                                    a['value'] = 'counterpart'
+                                    a['type'] = 'dictinterpretation'
+                                    annotation_string = fullentry[start_new:end_new]
+                                    annotation_string = re_html.sub("", annotation_string)
+                                    annotation_string = re_singledash.sub("", annotation_string)
+                                    a['string'] = annotation_string
+                                    annotation[parts[0]].append(a)
+        
+                                start_new = match.end(0)
                     
                     
                     pos_on_page += 1

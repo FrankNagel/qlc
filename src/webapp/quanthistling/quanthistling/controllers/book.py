@@ -233,23 +233,6 @@ class BookController(BaseController):
         else:
             abort(404)
 
-#    def head(self, bibtexkey, srclanguage, tgtlanguage, head):
-#        c.heading = c.book.bookinfo() + ", Entry " + head
-#        c.entries = []
-#        c.head = head
-#        if c.book:
-#            c.entries = model.meta.Session.query(model.Entry).join((model.Annotation, model.Annotation.entry_id==model.Entry.id)).filter(
-#                and_(
-#                    model.Entry.dictdata_id==c.dictdata.id,
-#                    model.Entry.is_subentry==False,
-#                    model.Annotation.value=='head',
-#                    model.Annotation.string==head
-#                    )
-#                ).all()
-#            return render('/derived/book/head.html')
-#        else:
-#            return "Book not found."
-
     def concept_wordlist(self, bibtexkey, concept):
         c.heading = c.book.bookinfo_with_status() + ", Concept " + concept
         c.concept = concept
@@ -451,44 +434,44 @@ class BookController(BaseController):
                 return "success"
         abort(404)
 
-    def dictinterpretation_annotations_for_entryid(self, bibtexkey, pagenr, pos_on_page, format):
-        c.heading = ""
-        c.entries = []
-        c.annotationtypes = [ "dictinterpretation", "orthographicinterpretation", "errata" ]
-        c.pagenr = pagenr
-        c.pos_on_page = pos_on_page
-        c.ces_doc_url = url_for(controller='book', action='entryid', bibtexkey=bibtexkey, pagenr=int(pagenr), pos_on_page=int(pos_on_page), format='xml', qualified=True)
-        if c.book:
-            c.entry = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id, startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
-            #c.annotations = [ a for a in c.entry.annotations if a.annotationtype.type=='dictinterpretation' ]
-            #c.annotations = sorted(c.annotations, key=attrgetter('start'))
-            if format == 'xml':
-                c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
-                response.headers['content-type'] = 'text/xml; charset=utf-8'
-                return render('/derived/book/annotations_for_entry.xml')
-            else:
-                c.heading = c.book.bookinfo_with_status() + ", Entry " + pos_on_page + " on Page " + pagenr
-                return render('/derived/book/entryid.html')
-        else:
-            abort(404)
+    #def dictinterpretation_annotations_for_entryid(self, bibtexkey, pagenr, pos_on_page, format):
+    #    c.heading = ""
+    #    c.entries = []
+    #    c.annotationtypes = [ "dictinterpretation", "orthographicinterpretation", "errata" ]
+    #    c.pagenr = pagenr
+    #    c.pos_on_page = pos_on_page
+    #    c.ces_doc_url = url_for(controller='book', action='entryid', bibtexkey=bibtexkey, pagenr=int(pagenr), pos_on_page=int(pos_on_page), format='xml', qualified=True)
+    #    if c.book:
+    #        c.entry = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id, startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
+    #        #c.annotations = [ a for a in c.entry.annotations if a.annotationtype.type=='dictinterpretation' ]
+    #        #c.annotations = sorted(c.annotations, key=attrgetter('start'))
+    #        if format == 'xml':
+    #            c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
+    #            response.headers['content-type'] = 'text/xml; charset=utf-8'
+    #            return render('/derived/book/annotations_for_entry.xml')
+    #        else:
+    #            c.heading = c.book.bookinfo_with_status() + ", Entry " + pos_on_page + " on Page " + pagenr
+    #            return render('/derived/book/entryid.html')
+    #    else:
+    #        abort(404)
 
-    def formatting_annotations_for_entryid(self, bibtexkey, pagenr, pos_on_page, format):
-        c.heading = ""
-        c.entries = []
-        c.annotationtypes = [ 'pagelayout', 'formatting' ]
-        c.pagenr = pagenr
-        c.pos_on_page = pos_on_page
-        c.ces_doc_url = url_for(controller='book', action='entryid', bibtexkey=bibtexkey, pagenr=int(pagenr), pos_on_page=int(pos_on_page), format='xml', qualified=True)
-        if c.book:
-            c.entry = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id, startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
-            #c.annotations = [ a for a in c.entry.annotations if a.annotationtype.type=='formatting' or a.annotationtype.type=='pagelayout' ]
-            #c.annotations = sorted(c.annotations, key=attrgetter('start'))
-            if format == 'xml':
-                c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
-                response.headers['content-type'] = 'text/xml; charset=utf-8'
-                return render('/derived/book/annotations_for_entry.xml')
-            else:
-                c.heading = c.book.bookinfo_with_status() + ", Entry " + pos_on_page + " on Page " + pagenr
-                return render('/derived/book/entryid.html')
-        else:
-            abort(404)
+    #def formatting_annotations_for_entryid(self, bibtexkey, pagenr, pos_on_page, format):
+    #    c.heading = ""
+    #    c.entries = []
+    #    c.annotationtypes = [ 'pagelayout', 'formatting' ]
+    #    c.pagenr = pagenr
+    #    c.pos_on_page = pos_on_page
+    #    c.ces_doc_url = url_for(controller='book', action='entryid', bibtexkey=bibtexkey, pagenr=int(pagenr), pos_on_page=int(pos_on_page), format='xml', qualified=True)
+    #    if c.book:
+    #        c.entry = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id, startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
+    #        #c.annotations = [ a for a in c.entry.annotations if a.annotationtype.type=='formatting' or a.annotationtype.type=='pagelayout' ]
+    #        #c.annotations = sorted(c.annotations, key=attrgetter('start'))
+    #        if format == 'xml':
+    #            c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
+    #            response.headers['content-type'] = 'text/xml; charset=utf-8'
+    #            return render('/derived/book/annotations_for_entry.xml')
+    #        else:
+    #            c.heading = c.book.bookinfo_with_status() + ", Entry " + pos_on_page + " on Page " + pagenr
+    #            return render('/derived/book/entryid.html')
+    #    else:
+    #        abort(404)

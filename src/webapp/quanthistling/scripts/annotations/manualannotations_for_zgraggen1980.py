@@ -66,6 +66,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "F10 Hinihon bumbuɛp ah-; -- awi",
+    "startpage" : 127,
+    "pos_on_page" : 76,
+    "language_bookname" : "Hinihon",
+    "concept" : "RUN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bumbuɛp ah",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bumbuɛp awi",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "B13 Saep yab-(1),",
     "startpage" : 130,
     "pos_on_page" : 14,
@@ -166,6 +204,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "F20 Ukuriguma maliralu ulukid-, -- sapuko-",
+    "startpage" : 159,
+    "pos_on_page" : 27,
+    "language_bookname" : "Ukuriguma",
+    "concept" : "THUNDERING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maliralu ulukid",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maliralu sapuko",
+                "start" : 32,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "F14Abasakurpⁱrakɛsi",
     "startpage" : 18,
     "pos_on_page" : 80,
@@ -216,6 +292,44 @@ manual_entries.append({
                 "string" : "",
                 "start" : 3,
                 "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "F11 Musar mandɛ ɛndɛ, -- amun",
+    "startpage" : 1,
+    "pos_on_page" : 77,
+    "language_bookname" : "Musar",
+    "concept" : "MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ ɛndɛ",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ amun",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
             },
     ]
 })
@@ -302,6 +416,199 @@ manual_entries.append({
                 "string" : "",
                 "start" : 8,
                 "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "B14 kuay kubtʌb, -- dup",
+    "startpage" : 22,
+    "pos_on_page" : 44,
+    "language_bookname" : "Usino",
+    "concept" : "ELBOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuay kubtʌb",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuay dup",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "F10 Hinihon mandɛ sɛpa, -- fiwi",
+    "startpage" : 2,
+    "pos_on_page" : 76,
+    "language_bookname" : "Hinihon",
+    "concept" : "OLD_OF_HUMANS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ sɛpa",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ fiwi",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "B 5 midi, -- ŋgɛri",
+    "startpage" : 33,
+    "pos_on_page" : 35,
+    "language_bookname" : "Dumpu",
+    "concept" : "SKIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "midi",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "midi ŋgɛri",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "B 7 mande, -- ŋʌroro",
+    "startpage" : 33,
+    "pos_on_page" : 37,
+    "language_bookname" : "Kolom",
+    "concept" : "SKIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mande",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mande ŋʌroro",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C16 mimino magun, -- nain",
+    "startpage" : 3,
+    "pos_on_page" : 155,
+    "language_bookname" : "Nake",
+    "concept" : "GIRL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mimino magun",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mimino nain",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C28 nit aih, -- ahin",
+    "startpage" : 3,
+    "pos_on_page" : 167,
+    "language_bookname" : "Garuh",
+    "concept" : "GIRL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nit aih",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nit ahin",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
             },
     ]
 })
@@ -435,6 +742,37 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "C16 avina subo, -- uhnʌ:g",
+    "startpage" : 6,
+    "pos_on_page" : 141,
+    "language_bookname" : "Nake",
+    "concept" : "SIBLING_DIFFERENT_SEX_YOUNGER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "avina subo",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "avina uhnʌ:g",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "C24 Mawan ăp",
     "startpage" : 71,
     "pos_on_page" : 141,
@@ -468,6 +806,161 @@ manual_entries.append({
                 "string" : "ap",
                 "start" : 10,
                 "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C12 sab̵ɛ mɛgu, -- onʌmo",
+    "startpage" : 75,
+    "pos_on_page" : 156,
+    "language_bookname" : "Wamas",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sab̵ɛ mɛgu",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sab̵ɛ onʌmo",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C14 saba balu, -- tugatamɛ",
+    "startpage" : 75,
+    "pos_on_page" : 158,
+    "language_bookname" : "Murupi",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saba balu",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saba tugatamɛ",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C15 save, -- tugata",
+    "startpage" : 75,
+    "pos_on_page" : 159,
+    "language_bookname" : "Saruga",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "save",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "save tugata",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C17 sabe, -- amu",
+    "startpage" : 75,
+    "pos_on_page" : 161,
+    "language_bookname" : "Mosimo",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sabe",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sabe amu",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C27 ʌb uhur̃, -- gu",
+    "startpage" : 75,
+    "pos_on_page" : 171,
+    "language_bookname" : "Gal",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʌb uhur̃",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʌb gu",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
             },
     ]
 })

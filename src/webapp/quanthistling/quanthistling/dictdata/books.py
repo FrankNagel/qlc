@@ -490,7 +490,7 @@ list = [
                 'title': u'Apendices',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_293_296.html',
 		'component' : 'Jivaroan'
-            },
+	    },
         ]
     },
 
@@ -972,7 +972,7 @@ list = [
     },
     {
         'title' : u'Les Nonuya et Les Okáina',
-        'author' : u'Rivet, Paul ET Wavrin, Robert de',
+        'author' : u'Rivet, Paul & Wavrin, Robert de',
         'year' : 1953,
         'bibtex_key' : u'rivet1953',
         'pages' : 57,
@@ -988,7 +988,7 @@ list = [
                 'src_language_bookname' : u'Français',
                 'tgt_language_bookname' : u'Nonuya',
                 're_letter_only': u'^\w+\s*$',
-                'file' : 'witotoan/rivet1953_dictdata_nonuya_336_377.xml',
+                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
                 'component' : 'Witotoan'
             },
             {
@@ -999,7 +999,7 @@ list = [
                 'src_language_bookname' : u'Français',
                 'tgt_language_bookname' : u'Okáina',
                 're_letter_only': u'^\w+\s*$',
-                'file' : 'witotoan/rivet1953_dictdata_ocaina_336_377.xml',
+                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
                 'component' : 'Witotoan'
             },
             {
@@ -1010,7 +1010,7 @@ list = [
                 'src_language_bookname' : u'Français',
                 'tgt_language_bookname' : u'Witóto',
                 're_letter_only': u'^\w+\s*$',
-                'file' : 'witotoan/rivet1953_dictdata_huitoto_murui_336_377.xml',
+                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
                 'component' : 'Witotoan'
             }, 
         ],
