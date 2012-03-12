@@ -44,9 +44,9 @@ def annotate_everything(entry):
         head = entry.fullentry[0:tab_annotations[0].start]
         inserted_head = functions.insert_head(entry, 0, tab_annotations[0].start, head)
         # waar komt de waarde voor pos vandaan?
-        entry.append_annotation(tab_annotations[0].start, tab_annotations[1].start, u'pos', u'dictinterpretation')
-        translation = entry.fullentry[tab_annotations[1].end:]
-        functions.insert_translation(entry, tab_annotations[1].end, translation_end, translation)
+        entry.append_annotation(tab_annotations[0].start + 1, tab_annotations[1].start, u'pos', u'dictinterpretation')
+        translation = entry.fullentry[tab_annotations[1].end + 1:]
+        functions.insert_translation(entry, tab_annotations[1].end + 1, translation_end, translation)
         
         
         #entry.append_annotation(start, end, u'head', u'dictinterpretation')
