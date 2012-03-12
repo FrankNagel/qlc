@@ -1593,4 +1593,84 @@ list = [
         ]
             
     },
+    {
+        'title' : u'DICCIONARIO AGUARUNA CASTELLANO',
+        'author' : u'Yagkug, Abel Uwarai, Suikai, Isaac Paz, Regan, Jaime S.J.',
+        'year' : 1998,
+        'bibtex_key' : u'yagkug1998',
+        'pages' : 162,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 8,
+                'endpage' : 158,
+                'src_language_name' : u'Aguaruna',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Aguaruna',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Jivaroan/yagkug1998_dictdata_8_158.xml',
+                'component' : 'Jivaroan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 7,
+                'title': u'Start pages',
+                'file' : 'Jivaroan/yagkug1998_nondictdata_1_7.htm',
+                'component' : 'Jivaroan'
+            },
+            {
+                'startpage' : 160,
+                'endpage' : 162,
+                'title': u'End pages',
+                'file' : 'Jivaroan/yagkug1998_nondictdata_160_162.htm',
+                'component' : 'Jivaroan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'Un Léxico Nɨpode Uitoto - Español - Inglés',
+        'author' : u'Griffiths, Thomas, Coleman, John, Morales, Misael',
+        'year' : 2001,
+        'bibtex_key' : u'griffiths2001',
+        'pages' : 199,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 79,
+                'endpage' : 199,
+                'src_language_name' : u'Huitoto Nüpode',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Nɨpode Uitoto',
+                'tgt_language_bookname' : u'Español - Inglés',
+                'file' : 'witotoan/griffiths2001_dictdata_79_199_spa.xml',
+                'component' : 'Witotoan'
+            },
+            {
+                'startpage' : 79,
+                'endpage' : 199,
+                'src_language_name' : u'Huitoto Nüpode',
+                'tgt_language_name' : u'English',
+                'src_language_bookname' : u'Nɨpode Uitoto',
+                'tgt_language_bookname' : u'Español - Inglés',
+                'file' : 'witotoan/griffiths2001_dictdata_79_199_eng.xml',
+                'component' : 'Witotoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 79,
+                'title': u'Start pages',
+                'file' : 'witotoan/griffiths2001_nondictdata_1_79.htm',
+                'component' : 'Witotoan'
+            },
+        ]
+    },
 ]
