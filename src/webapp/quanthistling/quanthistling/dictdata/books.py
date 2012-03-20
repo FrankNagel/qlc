@@ -226,7 +226,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Uitoto',
                 'tgt_language_bookname' : u'Español',
-                're_letter_only': u'^(?:<i><b>)?(?:\w+|Ɨ|Ñ)(?:</b></i>)?$',
+                #'re_letter_only': u'^(?:<i><b>)?(?:\w+|Ɨ|Ñ)(?:</b></i>)?$',
                 'file' : 'witotoan/preuss1994_dictdata_797_912.xml',
                 'component' : 'Witotoan'
             },

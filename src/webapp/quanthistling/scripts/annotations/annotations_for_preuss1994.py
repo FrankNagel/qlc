@@ -28,7 +28,7 @@ def annotate_everything(entry):
         Session.delete(a)
     heads = []
     
-    match = re.search(u' ?- (Suf[nv]:[^;]*;|CIN: ?([^;]*;))', entry.fullentry)
+    match = re.search(u' ?- (Suf[nv]|CIN): ?([^;]*;)', entry.fullentry)
 
     head_starts = []
     head_ends = []
@@ -54,9 +54,9 @@ def annotate_everything(entry):
             head_starts.append(start)
             head_ends.append(end)
         
-        if re.match(u"CIN:", match.group(1)):
-            translation_starts.append(match.start(2))
-            translation_ends.append(match.end(2))            
+#        if re.match(u"CIN:", match.group(1)):
+        translation_starts.append(match.start(2))
+        translation_ends.append(match.end(2))            
         
         trans_start = 0
         trans_end = 0
@@ -74,7 +74,7 @@ def annotate_everything(entry):
         if trans_start > 0:
             translation_starts.append(trans_start)
             translation_ends.append(len(entry.fullentry))
-        entry.append_annotation(match.start(1), match.end(1)-1, u'pos', u'dictinterpretation')
+        entry.append_annotation(match.start(1), match.end(1), u'pos', u'dictinterpretation')
     else:
         match = re.search(u"([^-]*)- ?([^,]{0,6}),? ?(.*?; ?(?=también|sinón|cf\.)|[^/]*(?=/)|[^;]*(?=;)|.*$)", entry.fullentry)
         if match:
@@ -110,7 +110,7 @@ def annotate_everything(entry):
     for i in range(len(translation_starts)):
         s = translation_starts[i]
         e = translation_ends[i]
-        match_parts = re.search(r"[,;] ?", entry.fullentry[s:e])
+        match_parts = re.search(r"[,;.] ?", entry.fullentry[s:e])
         if match_parts:
             e = e - len(match_parts.group(0))
         translation = entry.fullentry[s:e]
@@ -141,7 +141,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=797,pos_on_page=10).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=829,pos_on_page=13).all()
 
         startletters = set()
     
