@@ -4,8 +4,8 @@ import os, urllib2
 from zipfile import ZipFile
 from subprocess import call 
 
-#POSTGRES_BIN_PATH = "C:\\Program Files (x86)\\PostgreSQL\\8.4\\bin"
-POSTGRES_BIN_PATH = "/Library/PostgreSQL/8.4/bin/"
+POSTGRES_BIN_PATH = "C:\\Program Files (x86)\\PostgreSQL\\8.4\\bin"
+#POSTGRES_BIN_PATH = "/usr/local/bin"
 
 print("Downloading dump file...")
 response = urllib2.urlopen('http://www.cidles.eu/quanthistling/downloads/pgdump_quanthistling.zip')

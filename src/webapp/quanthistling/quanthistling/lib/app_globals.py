@@ -16,5 +16,5 @@ class Globals(object):
 
         """
         self.cache = CacheManager(**parse_cache_config_options(config))
-        #from turbomail.adapters import tm_pylons
-        #tm_pylons.start_extension(config)
+        from turbomail.adapters import tm_pylons
+        tm_pylons.start_extension(config)

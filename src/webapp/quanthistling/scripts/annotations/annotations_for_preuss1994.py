@@ -55,8 +55,8 @@ def annotate_everything(entry):
             head_ends.append(end)
         
 #        if re.match(u"CIN:", match.group(1)):
-        translation_starts.append(match.start(2))
-        translation_ends.append(match.end(2))            
+            translation_starts.append(match.start(2))
+            translation_ends.append(match.end(2))            
         
         trans_start = 0
         trans_end = 0
@@ -141,7 +141,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=829,pos_on_page=13).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=797,pos_on_page=10).all()
 
         startletters = set()
     
