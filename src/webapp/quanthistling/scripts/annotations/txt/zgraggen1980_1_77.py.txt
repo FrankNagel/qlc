@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "F11 Musar mandɛ ɛndɛ, -- amun",
+    "startpage" : 1,
+    "pos_on_page" : 77,
+    "language_bookname" : "Musar",
+    "concept" : "MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ ɛndɛ",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ amun",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

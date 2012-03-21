@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B27 Bongu pʌt,",
+    "startpage" : 84,
+    "pos_on_page" : 28,
+    "language_bookname" : "Bongu",
+    "concept" : "AXE_STONE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʌt",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : ",",
+                "start" : 13,
+                "end" : 14
+            },
+    ]
+})

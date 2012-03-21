@@ -1,0 +1,24 @@
+
+manual_entries.append({
+    "fullentry" : "F 1-pⁱr̃i adʌbi",
+    "startpage" : 20,
+    "pos_on_page" : 93,
+    "language_bookname" : "Pay",
+    "concept" : "THROAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pⁱr̃i adʌbi",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

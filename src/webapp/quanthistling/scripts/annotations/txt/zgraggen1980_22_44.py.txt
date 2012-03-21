@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "B14 kuay kubtʌb, -- dup",
+    "startpage" : 22,
+    "pos_on_page" : 44,
+    "language_bookname" : "Usino",
+    "concept" : "ELBOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuay kubtʌb",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuay dup",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

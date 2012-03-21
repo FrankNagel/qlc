@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "F10 Hinihon mandɛ sɛpa, -- fiwi",
+    "startpage" : 2,
+    "pos_on_page" : 76,
+    "language_bookname" : "Hinihon",
+    "concept" : "OLD_OF_HUMANS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ sɛpa",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandɛ fiwi",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

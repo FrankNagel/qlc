@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C14 saba balu, -- tugatamɛ",
+    "startpage" : 75,
+    "pos_on_page" : 158,
+    "language_bookname" : "Murupi",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saba balu",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saba tugatamɛ",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

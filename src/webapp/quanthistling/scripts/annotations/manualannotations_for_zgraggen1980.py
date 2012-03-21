@@ -204,6 +204,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "C 8 Amele utɛ'ɛ-",
+    "startpage" : 154,
+    "pos_on_page" : 125,
+    "language_bookname" : "Amele",
+    "concept" : "CALL_OUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "utɛˀɛ",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˀ",
+                "start" : 13,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "F20 Ukuriguma maliralu ulukid-, -- sapuko-",
     "startpage" : 159,
     "pos_on_page" : 27,
@@ -368,6 +406,37 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
+                "string" : "ipⁱr̃i",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "F 1Pay-ipⁱr̃i",
+    "startpage" : 20,
+    "pos_on_page" : 65,
+    "language_bookname" : "Pay",
+    "concept" : "NECK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
                 "string" : "-ipⁱr̃i",
                 "start" : 6,
                 "end" : 13
@@ -390,6 +459,30 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "F 1-pⁱr̃i adʌbi",
+    "startpage" : 20,
+    "pos_on_page" : 93,
+    "language_bookname" : "Pay",
+    "concept" : "THROAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pⁱr̃i adʌbi",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "E 4Korak-birⁱnut",
     "startpage" : 21,
     "pos_on_page" : 65,
@@ -401,6 +494,37 @@ manual_entries.append({
                 "value" : "counterpart",
                 "string" : "-birⁱnut",
                 "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "E 4Korak-birⁱnut",
+    "startpage" : 21,
+    "pos_on_page" : 65,
+    "language_bookname" : "Korak",
+    "concept" : "BACK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "birⁱnut",
+                "start" : 9,
                 "end" : 16
             },
             {
@@ -961,6 +1085,82 @@ manual_entries.append({
                 "string" : "",
                 "start" : 3,
                 "end" : 3
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "B26 Male mɛnɛn,",
+    "startpage" : 84,
+    "pos_on_page" : 27,
+    "language_bookname" : "Male",
+    "concept" : "AXE_STONE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɛnɛn",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : ",",
+                "start" : 14,
+                "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "B27 Bongu pʌt,",
+    "startpage" : 84,
+    "pos_on_page" : 28,
+    "language_bookname" : "Bongu",
+    "concept" : "AXE_STONE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pʌt",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : ",",
+                "start" : 13,
+                "end" : 14
             },
     ]
 })

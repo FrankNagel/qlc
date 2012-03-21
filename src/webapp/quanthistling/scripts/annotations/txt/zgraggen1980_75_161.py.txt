@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C17 sabe, -- amu",
+    "startpage" : 75,
+    "pos_on_page" : 161,
+    "language_bookname" : "Mosimo",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sabe",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sabe amu",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

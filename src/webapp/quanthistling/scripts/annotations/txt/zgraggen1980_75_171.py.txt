@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C27 ʌb uhur̃, -- gu",
+    "startpage" : 75,
+    "pos_on_page" : 171,
+    "language_bookname" : "Gal",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʌb uhur̃",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʌb gu",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

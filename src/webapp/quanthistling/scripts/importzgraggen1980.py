@@ -313,9 +313,11 @@ def main(argv):
                             if not mybreak:
                                 end_new = match.start(0)
                                 
-                                match_bracket = re.search(" ?\([^)]*\) ?$", fullentry[start_new:end_new])
+                                match_bracket = re.search(" ?\(([^)]*)\) ?$", fullentry[start_new:end_new])
                                 if match_bracket:
-                                    end_new = end_new - len(match_bracket.group(0))
+                                    # if there is a number in the bracket then remove it
+                                    if re.search("\d", match_bracket.group(1)):
+                                        end_new = end_new - len(match_bracket.group(0))
             
                                 match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
                                 if match_dashes1:
@@ -349,6 +351,30 @@ def main(argv):
                                     a2['string'] = annotation_string
                                     annotation[parts[0]].append(a2)
                                     
+                                match_bracket3 = re.search("\(([^)]*)\) ?$", fullentry[start_new:end_new])
+                                if match_bracket3:
+                                    a = {}
+                                    a['start'] = start_entry + start_new
+                                    a['end'] = start_entry + end_new
+                                    a['value'] = 'counterpart'
+                                    a['type'] = 'dictinterpretation'
+                                    annotation_string =  fullentry[start_new:start_new+match_bracket3.start(0)] + match_bracket3.group(1)
+                                    annotation_string = re_html.sub("", annotation_string)
+                                    annotation_string = re_singledash.sub("", annotation_string)
+                                    a['string'] = annotation_string
+                                    annotation[parts[0]].append(a)
+        
+                                    a2 = {}
+                                    a2['start'] = start_entry + start_new
+                                    a2['end'] = start_entry + end_new
+                                    a2['value'] = 'counterpart'
+                                    a2['type'] = 'dictinterpretation'
+                                    annotation_string = fullentry[start_new:start_new+match_bracket3.start(0)]
+                                    annotation_string = re_html.sub("", annotation_string)
+                                    annotation_string = re_singledash.sub("", annotation_string)
+                                    a2['string'] = annotation_string
+                                    annotation[parts[0]].append(a2)
+
                                 else:
                                     a = {}
                                     a['start'] = start_entry + start_new

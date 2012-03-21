@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "B 7 mande, -- ŋʌroro",
+    "startpage" : 33,
+    "pos_on_page" : 37,
+    "language_bookname" : "Kolom",
+    "concept" : "SKIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mande",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mande ŋʌroro",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

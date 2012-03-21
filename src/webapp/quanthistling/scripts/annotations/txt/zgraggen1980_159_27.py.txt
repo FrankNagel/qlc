@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "F20 Ukuriguma maliralu ulukid-, -- sapuko-",
+    "startpage" : 159,
+    "pos_on_page" : 27,
+    "language_bookname" : "Ukuriguma",
+    "concept" : "THUNDERING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maliralu ulukid",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "maliralu sapuko",
+                "start" : 32,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

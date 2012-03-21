@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "flecha que tiene una punta central y otra amarrada al costado; se usa para pescar xenetan",
+    "startpage" : 475,
+    "pos_on_page" : 48,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "flecha que tiene una punta central y otra amarrada al costado",
+                "start" : 0,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "flecha que se usa para pescar",
+                "start" : 0,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "xenetan",
+                "start" : 81,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "flecha que tiene una",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "punta central y otra ama",
+                "start" : 21,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rrada al costado; se usa",
+                "start" : 45,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "para pescar",
+                "start" : 70,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+    ]
+})

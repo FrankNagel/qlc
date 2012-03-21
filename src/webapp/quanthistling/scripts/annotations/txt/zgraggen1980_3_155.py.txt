@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C16 mimino magun, -- nain",
+    "startpage" : 3,
+    "pos_on_page" : 155,
+    "language_bookname" : "Nake",
+    "concept" : "GIRL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mimino magun",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mimino nain",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

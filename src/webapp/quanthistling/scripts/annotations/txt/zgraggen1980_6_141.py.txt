@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C16 avina subo, -- uhnʌ:g",
+    "startpage" : 6,
+    "pos_on_page" : 141,
+    "language_bookname" : "Nake",
+    "concept" : "SIBLING_DIFFERENT_SEX_YOUNGER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "avina subo",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "avina uhnʌ:g",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

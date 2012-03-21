@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "C 8 Amele utɛ'ɛ-",
+    "startpage" : 154,
+    "pos_on_page" : 125,
+    "language_bookname" : "Amele",
+    "concept" : "CALL_OUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "utɛˀɛ",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ˀ",
+                "start" : 13,
+                "end" : 14
+            },
+    ]
+})

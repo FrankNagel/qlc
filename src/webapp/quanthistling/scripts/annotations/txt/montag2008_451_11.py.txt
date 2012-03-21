@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "comezón, tener comezón en el oído o en la oreja paxuatan ik-",
+    "startpage" : 451,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "comezón",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tener comezón en el oído o en la oreja",
+                "start" : 10,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paxuatan ik-",
+                "start" : 50,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "comezón, tener comezón en",
+                "start" : 0,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "el oído o en la oreja",
+                "start" : 28,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B26 Male mɛnɛn,",
+    "startpage" : 84,
+    "pos_on_page" : 27,
+    "language_bookname" : "Male",
+    "concept" : "AXE_STONE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɛnɛn",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : ",",
+                "start" : 14,
+                "end" : 15
+            },
+    ]
+})

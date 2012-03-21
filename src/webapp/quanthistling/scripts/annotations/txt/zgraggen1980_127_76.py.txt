@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "F10 Hinihon bumbuɛp ah-; -- awi",
+    "startpage" : 127,
+    "pos_on_page" : 76,
+    "language_bookname" : "Hinihon",
+    "concept" : "RUN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bumbuɛp ah",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bumbuɛp awi",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

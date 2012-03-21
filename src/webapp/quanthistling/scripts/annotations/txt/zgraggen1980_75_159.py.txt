@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C15 save, -- tugata",
+    "startpage" : 75,
+    "pos_on_page" : 159,
+    "language_bookname" : "Saruga",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "save",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "save tugata",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

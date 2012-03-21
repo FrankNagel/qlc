@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "C12 sab̵ɛ mɛgu, -- onʌmo",
+    "startpage" : 75,
+    "pos_on_page" : 156,
+    "language_bookname" : "Wamas",
+    "concept" : "CLOUD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sab̵ɛ mɛgu",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sab̵ɛ onʌmo",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
