@@ -55,7 +55,7 @@ def annotate_crossrefs(entry):
 
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='boundary']
     for a in head_annotations:
         Session.delete(a)
         
@@ -64,11 +64,27 @@ def annotate_head(entry):
     head_end_pos = functions.get_last_bold_pos_at_start(entry)
     head_start_pos = 0
     
+    head = entry.fullentry[head_start_pos:head_end_pos]
+    
     match_number = re.search("\d ?", entry.fullentry[head_start_pos:head_end_pos])
     if match_number:
         head_end_pos = head_end_pos - len(match_number.group(0))
         
-    inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos)
+    match_boundary = re.match("- ?", head)
+    match_boundary2 = re.match(".*(-$) ?", head)
+    if match_boundary:
+        entry.append_annotation(head_start_pos, head_start_pos + len(match_boundary.group(0)), u'boundary', u'dictinterpretation', u"morpheme boundary")
+        head = re.sub("^- ?", "", head)
+        inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos, head)
+    if match_boundary2:
+        entry.append_annotation(head_end_pos - len(match_boundary2.group(1)), head_end_pos, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        head = re.sub("-$ ?", "", head)
+        inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos, head)
+    if inserted_head != None:
+        heads.append(inserted_head)
+    else:    
+        inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos)
+    
     heads.append(inserted_head)
     
     return heads
@@ -231,7 +247,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=75,pos_on_page=19).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=78,pos_on_page=36).all()
         #entries = []
         
         startletters = set()
