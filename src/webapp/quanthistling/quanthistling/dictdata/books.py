@@ -1649,7 +1649,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Nɨpode Uitoto',
                 'tgt_language_bookname' : u'Español - Inglés',
-                'file' : 'witotoan/griffiths2001_dictdata_79_199_spa.xml',
+                'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
                 'component' : 'Witotoan'
             },
             {
@@ -1659,7 +1659,7 @@ list = [
                 'tgt_language_name' : u'English',
                 'src_language_bookname' : u'Nɨpode Uitoto',
                 'tgt_language_bookname' : u'Español - Inglés',
-                'file' : 'witotoan/griffiths2001_dictdata_79_199_eng.xml',
+                'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
                 'component' : 'Witotoan'
             },
         ],
