@@ -128,9 +128,9 @@ def annotate_translations_and_examples(entry):
     if match_number:
         translations_start = match_number.start(0)
     else:
-        translations_start = functions.get_pos_or_head_end(entry)
+        translations_start = functions.get_pos_or_head_end(entry) + 1
 
-    match_brackets = re.match(u"(?:\d )?\[.*?\] ?", entry.fullentry[translations_start:])
+    match_brackets = re.search(u"(?:\d)?\[.*?\] ?", entry.fullentry[translations_start:])
     if match_brackets:
         translations_start = translations_start + len(match_brackets.group(0))
     
@@ -230,8 +230,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=109,pos_on_page=4).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=75,pos_on_page=19).all()
         #entries = []
         
         startletters = set()
