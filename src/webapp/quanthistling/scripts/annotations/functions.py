@@ -27,6 +27,50 @@ def normalize_stroke(string_src):
 def print_error_in_entry(entry, error_string = "error in entry"):
     print error_string + ": " + entry.fullentry.encode("utf-8")
     print "   startpage: %i, pos_on_page: %i" % (entry.startpage, entry.pos_on_page)
+    
+
+def get_bold_range(entry):
+    sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
+    sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
+
+    last_bold_end = -1
+    at_start = True
+    for a in sorted_annotations:
+        if at_start and (a.start <= (last_bold_end + 1)):
+            first_bold_start = a.start
+            last_bold_end = a.end            
+        else:
+            at_start = False
+    return first_bold_start, last_bold_end
+
+def get_dict_bold_ranges(entry):
+    dict_br = {}
+    for a in sorted(entry.annotations):
+        if a.value == 'bold':
+            dict_br[int(a.start)] = int(a.end) 
+   
+    return dict_br
+
+def get_list_bold_ranges(entry):
+    #sorted_annotations = [ a for a in entry.annotations if a.value=='bold' ]
+    #sorted_annotations = sorted(sorted_annotations, key=attrgetter('start')
+
+    sorted_annotations = [ [a.start, a.end]
+        for a in sorted(entry.annotations, key=attrgetter('start'))
+        if a.value=='bold' ]
+    
+    return_list = [ sorted_annotations[0] ]
+    j = 0
+    for i, a in enumerate(sorted_annotations[1:]):
+        if sorted_annotations[i][1] == a[0]:
+            return_list[j][1] = a[1]
+        elif sorted_annotations[i][1] + 1 == a[0]:
+            return_list[j][1] = a[1]
+        else:
+            return_list.append(a)
+            j += 1
+    
+    return return_list
 
 def get_last_bold_pos_at_start(entry):
     sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
@@ -41,6 +85,7 @@ def get_last_bold_pos_at_start(entry):
             at_start = False
     return last_bold_end
 
+
 def get_head_end(entry):
     sorted_annotations = [ a for a in entry.annotations if a.value=='head']
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
@@ -49,6 +94,14 @@ def get_head_end(entry):
     if len(sorted_annotations) > 0:
         head_end = sorted_annotations[-1].end
     return head_end
+
+def get_head_ends(entry):
+    head_ends = []
+    for a in sorted(entry.annotations):
+        if a.value == 'head':
+            head_ends.append(int(a.end))
+   
+    return head_ends
     
 def get_pos_end(entry):
     sorted_annotations = [ a for a in entry.annotations if a.value=='pos']
@@ -84,13 +137,32 @@ def get_first_bold_start_in_range(entry, s, e):
 
     return -1
 
-def get_first_italic_start_in_range(entry, s, e):
+def get_last_bold_end_in_range(entry, s, e):
+    sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
+    sorted_annotations = sorted(sorted_annotations, key=attrgetter('end'))
+    
+    for a in sorted_annotations:
+        if a.end >= s and a.end <=e:
+            return a.end
+
+    return -1
+
+def get_first_italic_range(entry):
     sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
     
+    if len(sorted_annotations) != 0:
+        return (sorted_annotations[0].start, sorted_annotations[0].end)
+    else:
+        print entry.fullentry.encode("utf-8")
+
+def get_last_italic_in_range(entry, s, e):
+    sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
+    sorted_annotations = sorted(sorted_annotations, key=attrgetter('end'))
+    
     for a in sorted_annotations:
-        if a.start >= s and a.start <=e:
-            return a.start
+        if a.end >= s and a.end <=e:
+            return a.end
 
     return -1
 
@@ -150,5 +222,16 @@ def insert_translation(entry, s, e, string = None):
         (start, end, string_new) = remove_parts(entry, start, end)
     if not re.match(r" *$", string_new):
         return insert_annotation(entry, s, e, u"translation", string_new.lower())
+    else:
+        return None
+    
+def insert_pos(entry, s, e, string = None):
+    start = s
+    end = e
+    string_new = string
+    if string == None:
+        (start, end, string_new) = remove_parts(entry, start, end)
+    if not re.match(r" *$", string_new):
+        return insert_annotation(entry, s, e, u"pos", string_new.lower())
     else:
         return None
