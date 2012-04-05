@@ -31,6 +31,7 @@ def annotate_head_and_translation(entry):
         Session.delete(a)
     
     tab_annotations = [ a for a in entry.annotations if a.value=='tab' ]
+    tab_annotations = sorted(tab_annotations, key=attrgetter('start'))
     
     heads = []
     
