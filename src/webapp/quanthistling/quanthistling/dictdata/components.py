@@ -27,7 +27,7 @@ list = [
     },
     
     {
-        'name' : u'Tuconoan',
+        'name' : u'Tucanoan',
         'description' : u'',
     },
 ]
