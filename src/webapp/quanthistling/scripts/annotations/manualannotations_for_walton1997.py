@@ -89,6 +89,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "quítí̵cáfétehi v.i. (voz pasiva) [3sg. quítí̵cáfótono; pas.rem. quítí̵cáfútúuhi] ser cortado.",
+    "startpage" : 101,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "quítí̵cáfétehi",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "voz pasiva",
+                "start" : 25,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser cortado",
+                "start" : 94,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "quítí̵cáfétehi",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quítí̵cáfótono",
+                "start" : 43,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quítí̵cáfútúuhi",
+                "start" : 72,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 93,
+                "end" : 93
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "quíígáiba s. árbol parecida a la caña; al machucar las fibras que se sacan del palo, se produce un líquido útil como remedio para el sarampión.",
     "startpage" : 101,
     "pos_on_page" : 7,
@@ -7641,34 +7726,6 @@ manual_entries.append({
                 "string" : "v.i.",
                 "start" : 10,
                 "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "3sg.m.",
-                "start" : 16,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "níítóobo",
-                "start" : 23,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pas.rem.",
-                "start" : 36,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "níítúuhi",
-                "start" : 45,
-                "end" : 56
             },
             {
                 "type" : "dictinterpretation",

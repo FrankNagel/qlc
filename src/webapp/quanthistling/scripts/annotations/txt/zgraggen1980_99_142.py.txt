@@ -1,17 +1,17 @@
 
 manual_entries.append({
-    "fullentry" : "F 1Pay-ipⁱr̃i",
-    "startpage" : 20,
-    "pos_on_page" : 65,
-    "language_bookname" : "Pay",
-    "concept" : "NECK",
+    "fullentry" : "C26 Matepi im :g",
+    "startpage" : 99,
+    "pos_on_page" : 142,
+    "language_bookname" : "Matepi",
+    "concept" : "HOT",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "ipⁱr̃i",
-                "start" : 6,
-                "end" : 13
+                "string" : "imʌ:g",
+                "start" : 11,
+                "end" : 16
             },
             {
                 "type" : "pagelayout",
@@ -24,8 +24,15 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 6,
-                "end" : 6
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʌ",
+                "start" : 13,
+                "end" : 14
             },
     ]
 })

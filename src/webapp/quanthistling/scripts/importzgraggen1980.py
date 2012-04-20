@@ -159,7 +159,7 @@ def main(argv):
     importfunctions.delete_book_from_db(Session, combined_bibtex_key)
     book = importfunctions.insert_book_to_db(Session, wordlistbookdata)
 
-    poses_on_page               = collections.defaultdict(int)
+    poses_on_page = collections.defaultdict(int)
 
     for book_bibtex_key in bibtex_keys_in_file:
         wordlistbook = {}
@@ -171,8 +171,16 @@ def main(argv):
 
         wordlistdata = {}
         for data in wordlistbookdata['wordlistdata']:
-            d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
-            wordlistdata[data['language_bookname']] = d
+            print data['language_bookname']
+            if data['language_bookname'] in wordlistdata.keys():
+                print "Is here"
+                d = wordlistdata[data['language_bookname']]
+            else:
+                print "is not here"
+                d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
+                wordlistdata[data['language_bookname']] = d
+    
+        continue
     
         wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
         
@@ -193,6 +201,7 @@ def main(argv):
         re_singledash = re.compile(u"(?<!-)-(?!-)")
     
         for line in wordlistfile:        
+            
             l = line.strip()
             #l = unescape(l)
             l = l.decode('utf-8')
@@ -217,7 +226,9 @@ def main(argv):
                     match_page = re_page.match(l)
                     page_new = int(match_page.group(1))
                     pos_on_page = poses_on_page[page_new] + 1
-                    print "Parsing page {0}".format(page)
+                    print "Parsing page {0}".format(page_new)
+                #if page_new != 39:
+                #    continue
                 if re_column.match(l):
                     match_column = re_column.match(l)
                     column_new =  int(match_column.group(1))
@@ -316,7 +327,7 @@ def main(argv):
                                 match_bracket = re.search(" ?\(([^)]*)\) ?$", fullentry[start_new:end_new])
                                 if match_bracket:
                                     # if there is a number in the bracket then remove it
-                                    if re.search("\d", match_bracket.group(1)):
+                                    if re.search("(?:[\dmfv]|pl)", match_bracket.group(1)):
                                         end_new = end_new - len(match_bracket.group(0))
             
                                 match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
@@ -327,16 +338,26 @@ def main(argv):
                                 if match_dashes2:
                                     end_new = end_new - len(match_dashes2.group(0))
                                     
-                                match_bracket2 = re.search("^ ?\(([^)]*)\)", fullentry[start_new:end_new])
+                                match_bracket2 = re.search("\(([^)]*)\)", fullentry[start_new:end_new])
+
+                                #if concept == 'TAIL' and parts[0] == 'C25':
+                                #    print
+                                #    print fullentry[start_new:end_new].encode("utf-8")
+                                #    print annotation[parts[0]]
+                                #    print
+                                    
                                 if match_bracket2:
                                     a = {}
                                     a['start'] = start_entry + start_new
                                     a['end'] = start_entry + end_new
                                     a['value'] = 'counterpart'
                                     a['type'] = 'dictinterpretation'
-                                    annotation_string = match_bracket2.group(1) + fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                    annotation_string = fullentry[start_new:start_new+match_bracket2.start(0)] + match_bracket2.group(1) + fullentry[start_new + match_bracket2.end(0):end_new]
                                     annotation_string = re_html.sub("", annotation_string)
                                     annotation_string = re_singledash.sub("", annotation_string)
+                                    #if concept == 'TAIL' and parts[0] == 'C25':
+                                    #    print annotation_string
+
                                     a['string'] = annotation_string
                                     annotation[parts[0]].append(a)
         
@@ -345,35 +366,39 @@ def main(argv):
                                     a2['end'] = start_entry + end_new
                                     a2['value'] = 'counterpart'
                                     a2['type'] = 'dictinterpretation'
-                                    annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                    #annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
+                                    annotation_string = fullentry[start_new:start_new+match_bracket2.start(0)] + fullentry[start_new+match_bracket2.end(0):end_new]
                                     annotation_string = re_html.sub("", annotation_string)
                                     annotation_string = re_singledash.sub("", annotation_string)
-                                    a2['string'] = annotation_string
-                                    annotation[parts[0]].append(a2)
+                                    #if concept == 'TAIL' and parts[0] == 'C25':
+                                    #    print annotation_string
                                     
-                                match_bracket3 = re.search("\(([^)]*)\) ?$", fullentry[start_new:end_new])
-                                if match_bracket3:
-                                    a = {}
-                                    a['start'] = start_entry + start_new
-                                    a['end'] = start_entry + end_new
-                                    a['value'] = 'counterpart'
-                                    a['type'] = 'dictinterpretation'
-                                    annotation_string =  fullentry[start_new:start_new+match_bracket3.start(0)] + match_bracket3.group(1)
-                                    annotation_string = re_html.sub("", annotation_string)
-                                    annotation_string = re_singledash.sub("", annotation_string)
-                                    a['string'] = annotation_string
-                                    annotation[parts[0]].append(a)
-        
-                                    a2 = {}
-                                    a2['start'] = start_entry + start_new
-                                    a2['end'] = start_entry + end_new
-                                    a2['value'] = 'counterpart'
-                                    a2['type'] = 'dictinterpretation'
-                                    annotation_string = fullentry[start_new:start_new+match_bracket3.start(0)]
-                                    annotation_string = re_html.sub("", annotation_string)
-                                    annotation_string = re_singledash.sub("", annotation_string)
                                     a2['string'] = annotation_string
                                     annotation[parts[0]].append(a2)
+                                                                        
+                                #match_bracket3 = re.search("\(([^)]*)\) ?$", fullentry[start_new:end_new])
+                                #if match_bracket3:
+                                #    a = {}
+                                #    a['start'] = start_entry + start_new
+                                #    a['end'] = start_entry + end_new
+                                #    a['value'] = 'counterpart'
+                                #    a['type'] = 'dictinterpretation'
+                                #    annotation_string =  fullentry[start_new:start_new+match_bracket3.start(0)] + match_bracket3.group(1)
+                                #    annotation_string = re_html.sub("", annotation_string)
+                                #    annotation_string = re_singledash.sub("", annotation_string)
+                                #    a['string'] = annotation_string
+                                #    annotation[parts[0]].append(a)
+                                #
+                                #    a2 = {}
+                                #    a2['start'] = start_entry + start_new
+                                #    a2['end'] = start_entry + end_new
+                                #    a2['value'] = 'counterpart'
+                                #    a2['type'] = 'dictinterpretation'
+                                #    annotation_string = fullentry[start_new:start_new+match_bracket3.start(0)]
+                                #    annotation_string = re_html.sub("", annotation_string)
+                                #    annotation_string = re_singledash.sub("", annotation_string)
+                                #    a2['string'] = annotation_string
+                                #    annotation[parts[0]].append(a2)
 
                                 else:
                                     a = {}
@@ -387,6 +412,9 @@ def main(argv):
                                     a['string'] = annotation_string
                                     annotation[parts[0]].append(a)
         
+                                #if concept == 'TAIL' and parts[0] == 'C25':
+                                #    print annotation[parts[0]]
+
                                 start_new = match.end(0)
                     
                     
@@ -394,8 +422,9 @@ def main(argv):
     
         
         Session.commit()
-        Session.close()
         wordlistfile.close()   
+
+    Session.close()
 
 if __name__ == "__main__":
     main(sys.argv)

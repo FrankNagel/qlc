@@ -57,11 +57,13 @@ def insert_language_to_db(Session, languagedata):
     return language
 
 def insert_wordlistdata_to_db(Session, data, book):
-    wordlistdata = model.Wordlistdata()
-    wordlistdata.startpage = data['startpage']
-    wordlistdata.endpage = data['endpage']
-    wordlistdata.language_bookname = data['language_bookname']
-    wordlistdata.book = book
+    wordlistdata = Session.query(model.Wordlistdata).filter_by(book_id=book.id, language_bookname=data['language_bookname'], startpage=data['startpage'], endpage=data['endpage']).first()
+    if wordlistdata == None:
+        wordlistdata = model.Wordlistdata()
+        wordlistdata.startpage = data['startpage']
+        wordlistdata.endpage = data['endpage']
+        wordlistdata.language_bookname = data['language_bookname']
+        wordlistdata.book = book
     
     if data['language_name'] != "":
         language = Session.query(model.Language).filter_by(name=data['language_name']).first()

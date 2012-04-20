@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "yiriko - ¡estate sobre el yadiko!; / 70 /",
+    "startpage" : 904,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yiriko",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estate sobre el yadiko",
+                "start" : 9,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yiriko",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yiriko",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yadiko",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "70",
+                "start" : 37,
+                "end" : 39
+            },
+    ]
+})

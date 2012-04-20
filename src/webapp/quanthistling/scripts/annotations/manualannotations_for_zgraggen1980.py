@@ -407,7 +407,7 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ipⁱr̃i",
-                "start" : 7,
+                "start" : 6,
                 "end" : 13
             },
             {
@@ -1199,6 +1199,44 @@ manual_entries.append({
                 "string" : "ǰiŋala",
                 "start" : 11,
                 "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "C26 Matepi im :g",
+    "startpage" : 99,
+    "pos_on_page" : 142,
+    "language_bookname" : "Matepi",
+    "concept" : "HOT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "imʌ:g",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "ʌ",
+                "start" : 13,
+                "end" : 14
             },
     ]
 })

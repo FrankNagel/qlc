@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "uruni̵ki̵ ver ri̵bei uruni̵ki̵.",
+    "startpage" : 899,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uruni̵ki̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ri̵bei uruni̵ki̵",
+                "start" : 14,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uruni̵ki̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "uruni̵ki̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ri̵bei uruni̵ki̵.",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ri̵bei uruni̵ki̵.",
+                "start" : 14,
+                "end" : 31
+            },
+    ]
+})
