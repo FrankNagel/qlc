@@ -58,8 +58,10 @@ def annotate_everything(entry):
                 if m < len(numbers):
                     #print n, " <"
                     trans_start = numbers[n] + 1
+                    print trans_start, 'ts'
                     trans_end = numbers[m] - 3
-                    if trans_end < newline_annotations[0].start:
+                    print trans_end, 'te'
+                    if trans_end <= newline_annotations[0].start:
                         translation = entry.fullentry[trans_start:trans_end]
                         functions.insert_translation(entry, trans_start, trans_end, translation)
                     m += 1

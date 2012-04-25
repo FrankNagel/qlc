@@ -54,7 +54,6 @@ def find_pos(entry, valid_pos_arr):
             #print ("[\(,;\. ]%s[\),;\. ]"%p).encode("utf-8")
             re_pos = re.compile(u"[\(,;\./ ]%s[\),;\./ ]"%p)
             if re_pos.search(pos):
-                #print "match"
                 start = match_bracket.start(1)
                 end = match_bracket.end(1)
                 starts.append(start)
@@ -99,7 +98,7 @@ def annotate_dialect(entry):
 
 def annotate_head(entry, manual_heads_dict, valid_pos_arr):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='boundary']
     for a in head_annotations:
         Session.delete(a)
 
@@ -125,22 +124,33 @@ def annotate_head(entry, manual_heads_dict, valid_pos_arr):
     if head == None:
         if (entry.startpage, entry.pos_on_page) in manual_heads_dict:
             head, rest = manual_heads_dict[(entry.startpage, entry.pos_on_page)].split("#", 1)
-            
+
     if head != None:
         head_start = 0
         head_end = len(head)
-        substr = entry.fullentry[head_start:head_end]
         start = head_start
+        substr = entry.fullentry[head_start:head_end]
+        match_boundary = re.search("- ?", substr)
         for match in re.finditer(u'(?:,|;|\? ¿|! ¡|/|$) ?', substr):
-            end = match.start(0) + head_start
-            inserted_head = functions.insert_head(entry, start, end)
+            if match_boundary:
+                entry.append_annotation(start, start + len(match_boundary.group(0)), u'boundary', u'dictinterpretation', u"morpheme boundary")
+                end = match.start(0)
+                head = entry.fullentry[start:end]
+                head = re.sub("- ?", "", head)
+                inserted_head = functions.insert_head(entry, start, end, head)
+            else:
+                end = match.start(0)
+                inserted_head = functions.insert_head(entry, start, end)
             if inserted_head != None:
                 heads.append(inserted_head)
             else:
                 print "empty head in entry: " + entry.fullentry.encode("utf-8")
-            start = match.end(0) + head_start
+            start = match.end(0)
+        
+          
         #end = head_end
         #inserted_head = functions.insert_head(entry, start, end)
+        
         #if inserted_head != None:
         #    heads.append(inserted_head)
         #else:
@@ -160,8 +170,10 @@ def annotate_pos(entry, valid_pos_arr):
 
     (pos_starts, pos_ends) = find_pos(entry, valid_pos_arr)
     if len(pos_starts) > 0:
+        #print len(pos_starts)
         i = 0
         for pos_start in pos_starts:
+            # print i
             pos_end = pos_ends[i]
             substr = entry.fullentry[pos_start:pos_end]
             start = pos_start
@@ -172,6 +184,7 @@ def annotate_pos(entry, valid_pos_arr):
             end = pos_end
             entry.append_annotation(start, end, u'pos', u'dictinterpretation')
             i = i + 1
+            
 
 def annotate_translations_and_examples(entry, manual_examples_dict):
     # delete translation annotations
@@ -355,8 +368,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=240,pos_on_page=8).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=244,pos_on_page=7).all()
 
         startletters = set()
     
