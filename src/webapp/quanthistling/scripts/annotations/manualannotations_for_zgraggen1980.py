@@ -204,6 +204,44 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "B18 Usu (asi)bih(i)-",
+    "startpage" : 133,
+    "pos_on_page" : 19,
+    "language_bookname" : "Usu",
+    "concept" : "BATHE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bih",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "asibihi",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "C 8 Amele utɛ'ɛ-",
     "startpage" : 154,
     "pos_on_page" : 125,
@@ -861,6 +899,44 @@ manual_entries.append({
                 "string" : "ou-",
                 "start" : 19,
                 "end" : 22
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "F13 (i)rigirok(k), igim",
+    "startpage" : 60,
+    "pos_on_page" : 107,
+    "language_bookname" : "Koguman",
+    "concept" : "GREEN_COCONUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "rigirok",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "irigirok",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "igim",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
             },
     ]
 })

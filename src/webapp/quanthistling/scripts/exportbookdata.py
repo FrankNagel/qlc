@@ -6,6 +6,9 @@ import re
 import tempfile
 import shutil
 
+import socket
+socket.setdefaulttimeout(1000000)
+
 from zipfile import ZipFile
 
 # add path to script
@@ -97,7 +100,7 @@ def main(argv):
                     print "example translation count error"
                     print "  src examples: %i" % len(examples_src)
                     print "  tgt examples: %i" % len(examples_tgt)
-                    sys.exit(1)
+                    #sys.exit(1)
                 
                 # write examples to two files
                 if len(examples_src) > 0:

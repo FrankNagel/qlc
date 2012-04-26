@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "B18 Usu (asi)bih(i)-",
+    "startpage" : 133,
+    "pos_on_page" : 19,
+    "language_bookname" : "Usu",
+    "concept" : "BATHE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bih",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "asibihi",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+    ]
+})

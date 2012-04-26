@@ -32,8 +32,8 @@ def main(argv):
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
 
-    for book in quanthistling.dictdata.books.list:
-    #for book in []:
+    #for book in quanthistling.dictdata.books.list:
+    for book in []:
         #print book["bibtex_key"]
         
         try:
@@ -98,7 +98,8 @@ def main(argv):
             
             entry_db = Session.query(model.WordlistEntry).filter_by(wordlistdata_id=wordlistdata.id, startpage=e["startpage"], pos_on_page=e["pos_on_page"]).first()
             if not entry_db:
-                print "could not find  entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])
+                print "could not find entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])
+                sys.exit(1)
                 
             fullentry_new = e["fullentry"].decode("utf-8")
             fullentry_new = functions.normalize_stroke(fullentry_new)

@@ -160,8 +160,12 @@ def main(argv):
     book = importfunctions.insert_book_to_db(Session, wordlistbookdata)
 
     poses_on_page = collections.defaultdict(int)
+    concept_ids = collections.defaultdict(int)
+    
 
+    wordlistdata = {}
     for book_bibtex_key in bibtex_keys_in_file:
+        print "Parsing {0}...".format(book_bibtex_key)
         wordlistbook = {}
         #book_bibtex_key = argv[1].decode("utf-8")
     
@@ -169,18 +173,17 @@ def main(argv):
             if b['bibtex_key'] == book_bibtex_key:
                 wordlistbookdata = b
 
-        wordlistdata = {}
         for data in wordlistbookdata['wordlistdata']:
-            print data['language_bookname']
+            #print data['language_bookname']
+            #print wordlistdata.keys()
             if data['language_bookname'] in wordlistdata.keys():
-                print "Is here"
+                #print "Is here"
                 d = wordlistdata[data['language_bookname']]
             else:
-                print "is not here"
+                #print "is not here"
                 d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
                 wordlistdata[data['language_bookname']] = d
     
-        continue
     
         wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
         
@@ -235,6 +238,10 @@ def main(argv):
                     print "Column {0}".format(column)
                 elif re_english.match(l):
                     if entry != {}:
+                        if book_bibtex_key != "zgraggen1980":
+                            del(entry['English'])
+                            if entry.has_key('Spanish'):
+                                del(entry['Spanish'])
                         importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
                     annotation = {}
                     entry = {}
@@ -258,6 +265,7 @@ def main(argv):
                     concept = re.sub(u" +$", u"", concept)
                     concept = re.sub(u" ", u"_", concept)
                     concept = re.sub(u"_$", "", concept)
+                    concept = re.sub(u"^_", "", concept)
                     concept_id = u"{0}".format(concept)
     
                     start = 0

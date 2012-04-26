@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "F13 (i)rigirok(k), igim",
+    "startpage" : 60,
+    "pos_on_page" : 107,
+    "language_bookname" : "Koguman",
+    "concept" : "GREEN_COCONUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "rigirok",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "irigirok",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "igim",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})
