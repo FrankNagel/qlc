@@ -130,23 +130,32 @@ def annotate_head(entry, manual_heads_dict, valid_pos_arr):
         head_end = len(head)
         start = head_start
         substr = entry.fullentry[head_start:head_end]
-        match_boundary = re.search("- ?", substr)
         for match in re.finditer(u'(?:,|;|\? ¿|! ¡|/|$) ?', substr):
-            if match_boundary:
+            
+            end = match.start(0)
+            head = entry.fullentry[start:end]
+            for match_boundary in re.finditer(u"^-", head):
                 entry.append_annotation(start, start + len(match_boundary.group(0)), u'boundary', u'dictinterpretation', u"morpheme boundary")
-                end = match.start(0)
-                head = entry.fullentry[start:end]
-                head = re.sub("- ?", "", head)
-                inserted_head = functions.insert_head(entry, start, end, head)
-            else:
-                end = match.start(0)
-                inserted_head = functions.insert_head(entry, start, end)
+                head = re.sub("^-", "", head)
+                #print head, '1'
+                #functions.insert_head(entry, start, end, head)
+                
+    
+            for match_boundaries in re.finditer(u"-$", head):
+                entry.append_annotation(start + match_boundaries.start(0), start + match_boundaries.end(0), u'boundary', u'dictinterpretation', u"morpheme boundary")
+                head = re.sub("-$", "", head)
+                #print head, '2'
+                #functions.insert_head(entry, start, end, head)
+                
+            #else:
+            end = match.start(0)
+            inserted_head = functions.insert_head(entry, start, end, head)
             if inserted_head != None:
                 heads.append(inserted_head)
             else:
                 print "empty head in entry: " + entry.fullentry.encode("utf-8")
             start = match.end(0)
-        
+
           
         #end = head_end
         #inserted_head = functions.insert_head(entry, start, end)
@@ -368,8 +377,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=244,pos_on_page=7).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=86,pos_on_page=9).all()
 
         startletters = set()
     
