@@ -118,6 +118,7 @@ languages_list = languages.values()
 
 import sys, os, re
 import collections
+import codecs
 
 sys.path.append(os.path.abspath('.'))
 
@@ -134,6 +135,28 @@ from paste.deploy import appconfig
 import importfunctions
 
 dictdata_path = 'quanthistling/dictdata'
+
+def create_concepts_mapping():
+    f = codecs.open("scripts/zgraggen_concepts.txt", "r", "utf-8")
+    concepts_mapping = dict()
+    book = None
+    for l in f:
+        if re.match("Parsing", l):
+            match_book = re.match("Parsing ([^\.]*)\.\.\.", l)
+            book = match_book.group(1)
+        elif re.match("%%%", l):
+            l = l.rstrip()
+            match_parts = re.search("^%%%([^:]*): ([^-]*)->(.*)$", l)
+            line = match_parts.group(1)
+            concept = match_parts.group(3)
+            #print line.encode("utf-8")
+            #print u"  {0}".format(concept).encode("utf-8")
+            if line == None or concept == None or book == None:
+                print u"Error while parsing concept mapping: {0}".format(l).encode("utf-8")
+                sys.exit(1)
+            concepts_mapping[(book, line)] = concept
+            
+    return concepts_mapping
 
 def main(argv):
     #book_bibtex_key = u"zgraggen1980"
@@ -152,6 +175,8 @@ def main(argv):
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
     
+    concepts_mapping = create_concepts_mapping()
+
     for b in quanthistling.dictdata.wordlistbooks.list:
         if b['bibtex_key'] == bibtex_keys_in_file[0]:
             wordlistbookdata = b
@@ -257,16 +282,20 @@ def main(argv):
                     entry['English']['pos_on_page'] = pos_on_page
                     annotation['English'] = []
                     
-                    concept = meaning_english.upper()
-                    concept = re.sub(u"^\* ?", u"", concept)
-                    concept = re.sub(u" ?\(", u"_", concept)
-                    concept = re.sub(u"\) ?", u"_", concept)
-                    concept = re.sub(u", ?", u"_", concept)
-                    concept = re.sub(u" +$", u"", concept)
-                    concept = re.sub(u" ", u"_", concept)
-                    concept = re.sub(u"_$", "", concept)
-                    concept = re.sub(u"^_", "", concept)
-                    concept_id = u"{0}".format(concept)
+                    if concepts_mapping.has_key((book_bibtex_key, l)):
+                        concept_id = concepts_mapping[(book_bibtex_key, l)]
+                        print "used modified concept ID."
+                    else:
+                        concept = meaning_english.upper()
+                        concept = re.sub(u"^\* ?", u"", concept)
+                        concept = re.sub(u" ?\(", u"_", concept)
+                        concept = re.sub(u"\) ?", u"_", concept)
+                        concept = re.sub(u", ?", u"_", concept)
+                        concept = re.sub(u" +$", u"", concept)
+                        concept = re.sub(u" ", u"_", concept)
+                        concept = re.sub(u"_$", "", concept)
+                        concept = re.sub(u"^_", "", concept)
+                        concept_id = u"{0}".format(concept)
     
                     start = 0
                     end = len(meaning_english)
