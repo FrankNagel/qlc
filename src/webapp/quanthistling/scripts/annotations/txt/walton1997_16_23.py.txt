@@ -1,16 +1,9 @@
 
 manual_entries.append({
-    "fullentry" : "-dúhú suf. el que fue / fuí. I̵í̵jóhódúhu ónóóno. Usted fue quien dijo.",
-    "startpage" : 33,
-    "pos_on_page" : 13,
+    "fullentry" : "-bácho [vd. -báchu] suf. apuesto. Jíllí̵bacho ímogoobo. Apuesto que él lo quiere así.",
+    "startpage" : 16,
+    "pos_on_page" : 23,
     "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dúhú",
-                "start" : 0,
-                "end" : 7
-            },
             {
                 "type" : "dictinterpretation",
                 "value" : "boundary",
@@ -20,92 +13,92 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bácho",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "suf.",
-                "start" : 8,
-                "end" : 12
+                "start" : 22,
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "el que fue",
-                "start" : 13,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "el que fuí",
-                "start" : 13,
-                "end" : 30
+                "string" : "apuesto",
+                "start" : 27,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "I̵í̵jóhódúhu ónóóno.",
-                "start" : 32,
-                "end" : 59
+                "string" : "Jíllí̵bacho ímogoobo.",
+                "start" : 36,
+                "end" : 60
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "Usted fue quien dijo.",
-                "start" : 59,
-                "end" : 81
+                "string" : "Apuesto que él lo quiere así.",
+                "start" : 60,
+                "end" : 92
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "-dúhú",
+                "string" : "-bácho",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "I̵í̵jóhódúhu ónóóno.",
-                "start" : 32,
-                "end" : 59
+                "string" : "-báchu",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Jíllí̵bacho ímogoobo.",
+                "start" : 36,
+                "end" : 60
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 31,
-                "end" : 31
+                "start" : 35,
+                "end" : 35
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 32,
-                "end" : 32
+                "start" : 36,
+                "end" : 36
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 32,
-                "end" : 32
+                "start" : 36,
+                "end" : 36
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 32,
-                "end" : 32
+                "start" : 36,
+                "end" : 36
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 59,
-                "end" : 59
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
                 "start" : 60,
                 "end" : 60
             },
@@ -113,15 +106,22 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 60,
-                "end" : 60
+                "start" : 61,
+                "end" : 61
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 60,
-                "end" : 60
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
             },
     ]
 })
