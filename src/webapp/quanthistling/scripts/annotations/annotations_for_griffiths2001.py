@@ -24,56 +24,106 @@ import functions
 
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation']
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation']
     for a in annotations:
         Session.delete(a)
 
     tab_annotations = [ a for a in entry.annotations if a.value=='tab' ]
+    tab_annotations = sorted(tab_annotations, key=attrgetter('start'))
+    
     newline_annotations = [ a for a in entry.annotations if a.value=='newline' ]
- 
-    #translation_end = ""
-    #if len(newline_annotations) == 1:
-     #   translation_end = " " + entry.fullentry[newline_annotations[0].start:]
-
-    ent = entry.fullentry
-    p = re.compile('\d+.')
-    numbers = []
-    for match in p.finditer(ent):
-        numbers.append(match.end()) 
+    newline_annotations = sorted(newline_annotations, key=attrgetter('start')) 
     
-    m = 1
-    
-    translation_end = len(entry.fullentry)
-
     heads = []
+    c_list = []
     
-    if len(tab_annotations) != 2 and len(numbers) == 0:
-        print "not 2 tabs in entry " + entry.fullentry.encode("utf-8")
+    if len(tab_annotations) != 2:
+        print "not 2 tabs in entry ", functions.print_error_in_entry(entry)
     else:
-        head = entry.fullentry[0:tab_annotations[0].start]
-        inserted_head = functions.insert_head(entry, 0, tab_annotations[0].start, head)
-        
-        if numbers:
-            for n in range(len(numbers)):
-                if m < len(numbers):
-                    #print n, " <"
-                    trans_start = numbers[n] + 1
-                    print trans_start, 'ts'
-                    trans_end = numbers[m] - 3
-                    print trans_end, 'te'
-                    if trans_end <= newline_annotations[0].start:
-                        translation = entry.fullentry[trans_start:trans_end]
-                        functions.insert_translation(entry, trans_start, trans_end, translation)
-                    m += 1
+        h_start = 0
+        h_end = tab_annotations[0].start
+        head = entry.fullentry[h_start:h_end]
+        for m in re.finditer(u',', head):
+            c_list.append(m.start())
+            
+        if c_list:
+            for i in range(len(c_list)):
+                if i == 0:
+                    head_end = c_list[i]
+                    functions.insert_head(entry, h_start, head_end)
+                
+                    head2_start = c_list[0] + 2
+                    if i + 1 < len(c_list):
+                        head2_end = c_list[i+1]
+                        functions.insert_head(entry, head2_start, head2_end)
+                    else:
+                        functions.insert_head(entry, head2_start, h_end)
+                        c_list = []
                 else:
-                    translation = entry.fullentry[numbers[m - 1] + 1:]
-                    functions.insert_translation(entry, numbers[m - 1] + 1, translation_end, translation)
+                    head_start = c_list[i] + 2
+                    if i + 1 < len(c_list):
+                        head_end = c_list[i+1]
+                        functions.insert_head(entry, head_start, head_end)
+                    else:
+                        functions.insert_head(entry, head_start, h_end)
+                        c_list = []
         else:
-            translation = entry.fullentry[tab_annotations[0].end + 1:tab_annotations[1].start]
-            functions.insert_translation(entry, tab_annotations[0].end + 1, tab_annotations[1].start, translation)
+            functions.insert_head(entry, h_start, h_end, head)
         
-        heads.append(inserted_head)
+        # translations
         
+        if len(newline_annotations) == 1:
+            t_starts = []
+            t_ends = []
+            
+            spa_t_start = h_end + 1
+            spa_t_end = newline_annotations[0].start
+            
+            #eng_t_start = tab_annotations[1].end + 1 # this should actually give the right position, but is causing the first character of the translation to be missing (?) 
+            eng_t_start = tab_annotations[1].end
+            eng_t_end = len(entry.fullentry)
+            
+            t_starts.append(spa_t_start)
+            t_starts.append(eng_t_start)
+            t_ends.append(spa_t_end)
+            t_ends.append(eng_t_end)
+            
+            for x in range(len(t_starts)):
+                substr = entry.fullentry[t_starts[x]:t_ends[x]]
+            
+                for m in re.finditer(u'(,|;|(\d+\.) ?)', substr):
+                    comma = True                
+                    for match_bracket in re.finditer(u'\(.*?\)', substr):
+                        if m.start() > match_bracket.start() and m.start() < match_bracket.end():
+                            comma = False
+                
+                    if comma:
+                        c_list.append(m.start() + t_starts[x])
+                
+                if c_list:
+                    for i in range(len(c_list)):
+                        if i == 0:
+                            trans_e = c_list[i]
+                            functions.insert_translation(entry, t_starts[x], trans_e)
+                        
+                            trans2_s = c_list[0] + 2
+                            if i + 1 < len(c_list):
+                                trans2_e = c_list[i+1]
+                                functions.insert_translation(entry, trans2_s, trans2_e)
+                            else:
+                                functions.insert_translation(entry, trans2_s, t_ends[x])
+                                c_list = []
+                        else:
+                            trans_s = c_list[i] + 2
+                            if i + 1 < len(c_list):
+                                trans_e = c_list[i+1]
+                                functions.insert_translation(entry, trans_s, trans_e)
+                            else:
+                                functions.insert_translation(entry, trans_s, t_ends[x])
+                                c_list = []
+                else:
+                    functions.insert_translation(entry, t_starts[x], t_ends[x])
+   
     return heads
 
     
@@ -100,8 +150,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=79,pos_on_page=4).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=82,pos_on_page=2).all()
 
         startletters = set()
     
