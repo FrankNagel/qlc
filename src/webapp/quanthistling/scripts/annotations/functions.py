@@ -199,7 +199,7 @@ def remove_parts(entry, s, e):
         end = end - 1
         
         string = entry.fullentry[start:end]
-        
+    
     return (start, end, string)
 
 def insert_head(entry, s, e, string = None):
