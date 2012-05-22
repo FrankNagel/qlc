@@ -1473,6 +1473,13 @@ list = [
                 'file' : 'Panoan/zingg1998_nondictdata_0_44.htm',
                 'component' : 'Panoan'
             },
+            {
+                'startpage' : 45,
+                'endpage' : 303,
+                'title': u'Start pages',
+                'file' : 'Panoan/zingg1998_nondictdata_prefixes_suffixes_45_303.htm',
+                'component' : 'Panoan'
+            },
         ]
             
     },
