@@ -1476,7 +1476,7 @@ list = [
             {
                 'startpage' : 45,
                 'endpage' : 303,
-                'title': u'Start pages',
+                'title': u'Suffixes and prefixes',
                 'file' : 'Panoan/zingg1998_nondictdata_prefixes_suffixes_45_303.htm',
                 'component' : 'Panoan'
             },
