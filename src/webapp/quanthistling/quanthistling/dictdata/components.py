@@ -30,4 +30,8 @@ list = [
         'name' : u'Tucanoan',
         'description' : u'',
     },
+    {
+        'name' : u'Arawak',
+        'description' : u'',
+    },
 ]
