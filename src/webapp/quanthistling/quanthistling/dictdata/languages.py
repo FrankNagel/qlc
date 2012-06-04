@@ -1318,5 +1318,11 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mcd'
     },
+    {
+        'name' : u'Ashéninka, Pichis',
+        'langcode': u'cpu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=cpu'
+    },
 
 ]
