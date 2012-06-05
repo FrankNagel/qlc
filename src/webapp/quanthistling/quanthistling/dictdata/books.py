@@ -1680,4 +1680,159 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'DICCIONARIO BÁSICO ILUSTRADO WAYUUNAIKI-ESPAÑOL ESPAÑOL-WAYUUNAIKI',
+        'author' : u'Captain, David M., Captain, Linda B.',
+        'year' : 2005,
+        'bibtex_key' : u'captain2005',
+        'pages' : 92,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 13,
+                'endpage' : 49,
+                'src_language_name' : u'Wayuu',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Wayuunaiki',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'arawak/captain2005_dictdata_13_49.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 13,
+                'title': u'Start pages',
+                'file' : 'arawak/captain2005_nondictdata_1_13.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Lecciones para el apredizaje del idioma ashéninca',
+        'author' : u'Payne, Judith',
+        'year' : 1989,
+        'bibtex_key' : u'payne1989',
+        'pages' : 502,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 363,
+                'endpage' : 471,
+                'src_language_name' : u'Ashéninka, Pichis',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Ashéninca',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/payne1989_dictdata_363_471.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 362,
+                'title': u'Start pages',
+                'file' : 'arawak/payne1989_nondictdata_1_362.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Diccionario Piro (Yine) Tokanchi gikshijikowaka-steno',
+        'author' : u'Nies, Joyce',
+        'year' : 1986,
+        'bibtex_key' : u'nies1986',
+        'pages' : 592,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 25,
+                'endpage' : 345,
+                'src_language_name' : u'Yine',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Piro',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/nies1986_dictdata_25_345.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 24,
+                'title': u'Start pages',
+                'file' : 'arawak/nies1986_nondictdata_1_24.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Datos de la lengua iñapari',
+        'author' : u'Parker, Stephen',
+        'year' : 1995,
+        'bibtex_key' : u'parker1995',
+        'pages' : 209,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 25,
+                'endpage' : 71,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Iñapari',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Iñapari',
+                'file' : 'arawak/parker1995_dictdata_25_71.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 25,
+                'title': u'Start pages',
+                'file' : 'arawak/parker1995_nondictdata_1_25.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Pequeño diccionario machiguenga ~ castellano',
+        'author' : u'Snell, Betty',
+        'year' : 1998,
+        'bibtex_key' : u'snell1998',
+        'pages' : 412,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 73,
+                'endpage' : 273,
+                'src_language_name' : u'Machiguenga',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Machiguenga',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/snell1998_dictdata_73_273.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 72,
+                'title': u'Start pages',
+                'file' : 'arawak/snell1998_nondictdata_1_72.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
 ]
