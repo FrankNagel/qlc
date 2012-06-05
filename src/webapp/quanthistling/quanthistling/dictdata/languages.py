@@ -1324,5 +1324,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cpu'
     },
-
+    {
+        'name' : u'Yine',
+        'langcode': u'pib',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pib'
+    },
 ]
