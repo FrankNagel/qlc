@@ -1330,4 +1330,16 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=pib'
     },
+    {
+        'name' : u'Iñapari',
+        'langcode': u'inp',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=inp'
+    },
+    {
+        'name' : u'Machiguenga',
+        'langcode': u'mcb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mcb'
+    },
 ]
