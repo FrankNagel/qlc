@@ -1342,4 +1342,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mcb'
     },
+    {
+        'name' : u'Chayahuita',
+        'langcode': u'cbt',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=cbt'
+    },
 ]
