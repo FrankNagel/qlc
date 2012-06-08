@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "jí̵fáiyi̵hi [vd. jí̵fáiyuhi] v.t. [sg. dí̵fáiyi̵hi] dar golpes con un bastón de baile, dar palo a uno, castigar.",
+    "startpage" : 76,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jí̵fáiyi̵hi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.t.",
+                "start" : 33,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar golpes con un bastón de baile",
+                "start" : 58,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar palo a uno",
+                "start" : 94,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "castigar",
+                "start" : 110,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jí̵fáiyi̵hi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jí̵fáiyuhi",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dí̵fáiyi̵hi",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 97,
+                "end" : 97
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+    ]
+})

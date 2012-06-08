@@ -1,0 +1,246 @@
+
+manual_entries.append({
+    "fullentry" : "gáájácí̵cáfétehi v.t. (voz pasiva) [3sg.m. gáájácí̵cáfótóobo; pas.rem. gáájácí̵cáfútúuhi] conocer, hacer adivinar, recobrar la sensibilidad. Ajáshuno táfíco gáájácí̵cáfétehi. Ya recobré la sensibilidad en mi cuerpo.",
+    "startpage" : 46,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "gáájácí̵cáfétehi",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.t.",
+                "start" : 23,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "conocer",
+                "start" : 110,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer adivinar",
+                "start" : 119,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "recobrar la sensibilidad",
+                "start" : 135,
+                "end" : 159
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ajáshuno táfíco gáájácí̵cáfétehi.",
+                "start" : 161,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ya recobré la sensibilidad en mi cuerpo.",
+                "start" : 204,
+                "end" : 245
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gáájácí̵cáfétehi",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gáájácí̵cáfótóobo",
+                "start" : 49,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gáájácí̵cáfútúuhi",
+                "start" : 84,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ajáshuno táfíco gáájácí̵cáfétehi.",
+                "start" : 161,
+                "end" : 203
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 203,
+                "end" : 203
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 237,
+                "end" : 237
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+    ]
+})

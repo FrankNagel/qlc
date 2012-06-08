@@ -443,10 +443,10 @@ def main(argv):
     # create orthography parser
     base_qlc_path = "/media/Daten/Projects/git-github/qlc"
     sys.path.append(os.path.join(base_qlc_path, "src"))
-    import qlc.OrthographyProfile
+    #import qlc.OrthographyProfile
     
-    orthography_profile_location = os.path.join(base_qlc_path, "data", "orthography_profiles", "{0}.txt".format(bibtex_key))
-    o_parser = qlc.OrthographyProfile.OrthographyProfile(orthography_profile_location)
+    #orthography_profile_location = os.path.join(base_qlc_path, "data", "orthography_profiles", "{0}.txt".format(bibtex_key))
+    #o_parser = qlc.OrthographyProfile.OrthographyProfile(orthography_profile_location)
 
     # load dictionary data for this book
     dictdatas = Session.query(model.Dictdata).join(
@@ -476,10 +476,10 @@ def main(argv):
         #chars = [ u"ch", u"ds", u"ll", u"ts", u"ty", u"cy", u"jy", u"vy", u"by", u"my", u"dy", u"py", u"gy", u"wy", u"a̱?a̱?", u"a̱?́a̱?́", u"e̱?e̱?", u"e̱?́e̱?́", u"i̱?i̱?", u"i̱?́i̱?́", u"o̱?o̱?", u"o̱?́o̱?́", u"u̱?u̱?", u"u̱?́u̱?́", u"ɨ̱?ɨ̱?", u"i̵̱?́i̵̱?́"]
         #chars = chars + [ u"b", u"c", u"k", u"d", u"g", u"h", u"j", u"m", u"ñ", u"n", u"p", u"r", u"t", u"v", u"w", u"y", u"a", u"á", u"a̱", u"á̱", u"e", u"é", u"e̱", u"é̱", u"i", u"í", u"i̱", u"í̱", u"o", u"ó", u"o̱", u"ó̱", u"u", u"ú", u"u̱", u"ú̱", u"í̵", u"ɨ", u"ɨ̱", u"í̵̱" ]
         
-        for e in entries:
-            annotate_orthography(e, o_parser)
+     #   for e in entries:
+      #      annotate_orthography(e, o_parser)
 
-        Session.commit()
+       # Session.commit()
             
 
 if __name__ == "__main__":

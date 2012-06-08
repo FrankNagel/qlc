@@ -90,8 +90,9 @@ def main(argv):
         for e in manual_entries:
             #print e["language_bookname"].encode("utf-8")
             wordlistdata = model.meta.Session.query(model.Wordlistdata).join(
-                (model.Book, model.Wordlistdata.book_id==model.Book.id)
-                ).filter(model.Book.bibtex_key==book["bibtex_key"]).filter(u"startpage<=:pagenr and endpage>=:pagenr and language_bookname=:language_bookname").params(pagenr=int(e["startpage"]),language_bookname=e["language_bookname"].decode("utf-8")).first()
+                (model.Book, model.Wordlistdata.book_id==model.Book.id),
+                (model.LanguageBookname, model.Wordlistdata.language_bookname_id==model.LanguageBookname.id)
+                ).filter(model.Book.bibtex_key==book["bibtex_key"]).filter(u"startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(e["startpage"])).filter(model.LanguageBookname.name==e["language_bookname"].decode("utf-8")).first()
             
             if not wordlistdata:
                 print "could not find wordlistdata for entry on page %s, pos on page %s in book %s" % (e["startpage"], e["pos_on_page"], book["bibtex_key"])

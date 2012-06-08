@@ -942,6 +942,37 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "I2 kasuwa + 'give'",
+    "startpage" : 66,
+    "pos_on_page" : 219,
+    "language_bookname" : "Biyom",
+    "concept" : " TALK_TO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kasuwa",
+                "start" : 3,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "+ 'give'",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "C16 avina subo, -- uhnʌ:g",
     "startpage" : 6,
     "pos_on_page" : 141,

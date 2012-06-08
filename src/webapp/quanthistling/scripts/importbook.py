@@ -93,7 +93,9 @@ def main(argv):
     for data in bookdata['dictdata']:
         
         dictdata = importfunctions.insert_dictdata_to_db(Session, data, book)
-    
+        #print dictdata.src_languages[0].language_iso.langcode
+        #print dictdata.tgt_languages[0].language_iso.langcode
+        
         log.info("Parsing " + data['file'] + "...")
         f1 = open(os.path.join(dictdata_path, data['file']), 'r')
     
@@ -161,6 +163,7 @@ def main(argv):
                         entry.endcolumn               = column
                         entry.pos_on_page             = current_entry_pos_on_page
                         entry.dictdata                = dictdata
+                        entry.book                    = book
                         entry.is_subentry             = is_subentry
                         entry.is_subentry_of_entry_id = current_mainentry_id
                         Session.add(entry)
@@ -237,7 +240,8 @@ def main(argv):
 
         #dictdata.startletters = unicode(repr(sorted(list(startletters))))
         Session.commit()
-        Session.close()
-    
+
+    Session.commit()
+    Session.close()
 if __name__ == "__main__":
     main(sys.argv)

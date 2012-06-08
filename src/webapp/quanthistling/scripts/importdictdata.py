@@ -20,6 +20,7 @@ from paste.deploy import appconfig
 
 import importbook
 import importhuber1992
+import importzgraggen1980
 from annotations import *
 
 def ann(ini_file, bibtex_key):
@@ -48,19 +49,26 @@ def main(argv):
     Session.query(model.WordlistAnnotation).delete()
     Session.query(model.Entry).delete()
     Session.query(model.WordlistEntry).delete()
-    Session.query(model.Dictdata).delete()
+
     Session.query(model.Wordlistdata).delete()
+
+    # delete languages
+    Session.query(model.LanguageTgt).delete()
+    Session.query(model.LanguageSrc).delete()
+    Session.query(model.LanguageIso).delete()
+    Session.query(model.LanguageBookname).delete()
+    #Session.query(model.LanguageWordlistdata).delete()
+
+    Session.query(model.Dictdata).delete()
     Session.query(model.Nondictdata).delete()
     Session.query(model.Book).delete()
     Session.query(model.Component).delete()
-    # delete languages
-    Session.query(model.Language).delete()
     # delete annotationtypes
     Session.query(model.Annotationtype).delete()
     
     # insert languages
     for l in quanthistling.dictdata.languages.list:
-        language = model.Language()
+        language = model.LanguageIso()
         language.name = l['name']
         language.langcode = l['langcode']
         language.description = l['description']
@@ -88,19 +96,22 @@ def main(argv):
         log.info("Inserted annotationtype " + at['type'] + ".")
         
     Session.close()
-
+    
     for b in quanthistling.dictdata.books.list:
         importbook.main(['importbook.py', b['bibtex_key'], ini_file])
-        log.info("Parsing annotations for " + b['bibtex_key'] + "...")
-        #if ini_file == "development.ini":
-        #    from multiprocessing import Process
-        #    p = Process(target=ann, args=(ini_file, b['bibtex_key']))
-        #    p.start()
-        #else:
-        eval("annotations_for_%s.main(['annotations_for_%s.py', ini_file])" % (b['bibtex_key'], b['bibtex_key']))
+        if os.path.exists(
+                os.path.join(
+                    "scripts", "annotations", "annotations_for_{0}.py".format(
+                        b['bibtex_key']))):
+            log.info("Parsing annotations for " + b['bibtex_key'] + "...")
+            eval("annotations_for_%s.main(['annotations_for_%s.py', ini_file])" % (b['bibtex_key'], b['bibtex_key']))
+        else:
+            log.info("No annotation script found for " + b['bibtex_key'] + "...")
+
         
-    for b in quanthistling.dictdata.wordlistbooks.list:
-        importhuber1992.main(['importhuber1992.py', ini_file])
+    #for b in quanthistling.dictdata.wordlistbooks.list:
+    importhuber1992.main(['importhuber1992.py', ini_file])
+    importzgraggen1980.main(['importhuber1992.py', ini_file])
 
 if __name__ == "__main__":
     main(sys.argv)

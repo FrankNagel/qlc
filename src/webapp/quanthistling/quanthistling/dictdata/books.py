@@ -984,35 +984,35 @@ list = [
                 'startpage' : 336,
                 'endpage' : 377,
                 'src_language_name' : u'French',
-                'tgt_language_name' : u'Nonuya',
+                'tgt_language_name' : [ u'Nonuya', u'Ocaina', u'Huitoto Murui' ],
                 'src_language_bookname' : u'Français',
-                'tgt_language_bookname' : u'Nonuya',
+                'tgt_language_bookname' : [ u'Nonuya', u'Okáina', u'Witóto' ],
                 're_letter_only': u'^\w+\s*$',
                 'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
                 'component' : 'Witotoan'
             },
-            {
-                'startpage' : 336,
-                'endpage' : 377,
-                'src_language_name' : u'French',
-                'tgt_language_name' : u'Ocaina',
-                'src_language_bookname' : u'Français',
-                'tgt_language_bookname' : u'Okáina',
-                're_letter_only': u'^\w+\s*$',
-                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
-                'component' : 'Witotoan'
-            },
-            {
-                'startpage' : 336,
-                'endpage' : 377,
-                'src_language_name' : u'French',
-                'tgt_language_name' : u'Huitoto Murui',
-                'src_language_bookname' : u'Français',
-                'tgt_language_bookname' : u'Witóto',
-                're_letter_only': u'^\w+\s*$',
-                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
-                'component' : 'Witotoan'
-            }, 
+            #{
+            #    'startpage' : 336,
+            #    'endpage' : 377,
+            #    'src_language_name' : u'French',
+            #    'tgt_language_name' : u'Ocaina',
+            #    'src_language_bookname' : u'Français',
+            #    'tgt_language_bookname' : u'Okáina',
+            #    're_letter_only': u'^\w+\s*$',
+            #    'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
+            #    'component' : 'Witotoan'
+            #},
+            #{
+            #    'startpage' : 336,
+            #    'endpage' : 377,
+            #    'src_language_name' : u'French',
+            #    'tgt_language_name' : u'Huitoto Murui',
+            #    'src_language_bookname' : u'Français',
+            #    'tgt_language_bookname' : u'Witóto',
+            #    're_letter_only': u'^\w+\s*$',
+            #    'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
+            #    'component' : 'Witotoan'
+            #}, 
         ],
         'nondictdata' : [
             {
@@ -1653,22 +1653,22 @@ list = [
                 'startpage' : 79,
                 'endpage' : 199,
                 'src_language_name' : u'Huitoto Nüpode',
-                'tgt_language_name' : u'Spanish',
+                'tgt_language_name' : [ u'Spanish', u'English' ],
                 'src_language_bookname' : u'Nɨpode Uitoto',
-                'tgt_language_bookname' : u'Español - Inglés',
+                'tgt_language_bookname' : [ u'Español', u'Inglés' ],
                 'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
                 'component' : 'Witotoan'
             },
-            {
-                'startpage' : 79,
-                'endpage' : 199,
-                'src_language_name' : u'Huitoto Nüpode',
-                'tgt_language_name' : u'English',
-                'src_language_bookname' : u'Nɨpode Uitoto',
-                'tgt_language_bookname' : u'Español - Inglés',
-                'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
-                'component' : 'Witotoan'
-            },
+            #{
+            #    'startpage' : 79,
+            #    'endpage' : 199,
+            #    'src_language_name' : u'Huitoto Nüpode',
+            #    'tgt_language_name' : u'English',
+            #    'src_language_bookname' : u'Nɨpode Uitoto',
+            #    'tgt_language_bookname' : u'Español - Inglés',
+            #    'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
+            #    'component' : 'Witotoan'
+            #},
         ],
         'nondictdata' : [
             {

@@ -1410,6 +1410,203 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "icaìfona i-ide rodar, girar, moverse alrededor de un eje. Eni̵rue jitoma abi̵do bene icaìfoì̵na i-ide; maca-macarite. La Tierra se mueve alrededor del Sol; se va. (Vea fueda, icuìfo, ituru.)",
+    "startpage" : 105,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "icaìfona iide",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 11,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rodar",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "girar",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "moverse alrededor de un eje",
+                "start" : 30,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Eni̵rue jitoma abi̵do bene icaìfoì̵na i-ide; maca-macarite.",
+                "start" : 59,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La Tierra se mueve alrededor del Sol; se va.",
+                "start" : 121,
+                "end" : 165
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "fueda",
+                "start" : 171,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "icuìfo",
+                "start" : 178,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ituru",
+                "start" : 187,
+                "end" : 192
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Amena icaìromo. (Está) en la rama del árbol. (Vea igaì.)",
     "startpage" : 105,
     "pos_on_page" : 20,
@@ -14822,6 +15019,98 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "faì̵ji̵-faì̵ji̵caìda macarite (v) andar a coxcojilla, cojear.",
+    "startpage" : 170,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "faì̵ji̵faì̵ji̵caìda macarite",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 8,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 34,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "andar a coxcojilla",
+                "start" : 36,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cojear",
+                "start" : 57,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "mafiji̵ (s1B) fruto del árbol mafiraì, de color amarillo y parecido a la uva.",
     "startpage" : 170,
     "pos_on_page" : 17,
@@ -22171,37 +22460,58 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-a",
+                "string" : "a",
                 "start" : 0,
                 "end" : 2
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-ia",
+                "string" : "ia",
                 "start" : 4,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 4,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-jia",
+                "string" : "jia",
                 "start" : 9,
                 "end" : 13
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 9,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-nia",
+                "string" : "nia",
                 "start" : 15,
                 "end" : 19
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "suf. v. desinencial",
-                "start" : 21,
-                "end" : 40
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 15,
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
@@ -22664,9 +22974,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-o",
+                "string" : "o",
                 "start" : 0,
                 "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
             },
             {
                 "type" : "dictinterpretation",
@@ -22702,6 +23019,141 @@ manual_entries.append({
                 "string" : "",
                 "start" : 26,
                 "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ñuja-ñujacaìda macarite (v) andar a coxcojilla. (Vea faì̵ji̵-faì̵ji̵caìda.)",
+    "startpage" : 201,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ñujañujacaìda macarite",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 5,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 28,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "andar a coxcojilla",
+                "start" : 30,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "faì̵ji̵-faì̵ji̵caìda",
+                "start" : 56,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ñuja-ñujacaìdi̵mi̵e (s2B) cojo.",
+    "startpage" : 201,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ñujañujacaìdi̵mi̵e",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 5,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s2B",
+                "start" : 24,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cojo",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
             },
     ]
 })
@@ -32949,6 +33401,70 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "uaì-uaìtaraì̵ma (s1B) el incrédulo, el desobediente.",
+    "startpage" : 242,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uaìuaìtaraì̵ma",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 4,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s1B",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el incrédulo",
+                "start" : 24,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el desobediente",
+                "start" : 40,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ie uaì (s) su autoridad (de un jefe o cacique).",
     "startpage" : 242,
     "pos_on_page" : 2,
@@ -34642,6 +35158,126 @@ manual_entries.append({
                 "string" : "",
                 "start" : 83,
                 "end" : 83
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ui-uicaìde (V.inc) llevar, andar con cuidado. Lloebi̵ ui-uicaìde. Siempre lleva con cuidado el machete. (Vea uìte.)",
+    "startpage" : 250,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uiuicaìde",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 2,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "V.inc",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llevar",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "andar con cuidado",
+                "start" : 28,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Lloebi̵ ui-uicaìde.",
+                "start" : 47,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Siempre lleva con cuidado el machete.",
+                "start" : 68,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "uìte",
+                "start" : 111,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
             },
     ]
 })
@@ -46561,6 +47197,133 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "daìa-daìacaìda fede, daìa-daìacaìda jaìde aletear brincando. (Vea feede, seroride.)",
+    "startpage" : 61,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "daìadaìacaìda fede",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 5,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "daìadaìacaìda jaìde",
+                "start" : 24,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 29,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aletear brincando",
+                "start" : 49,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "feede",
+                "start" : 73,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "seroride",
+                "start" : 80,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "dama (adj1.m) 1. solo, sin compañía. 2. no, no más. Ɨna dama macaì̵baìte. Ya no hay más (se ha terminado el cuento o el asunto). (Vea da, daje.)",
     "startpage" : 62,
     "pos_on_page" : 12,
@@ -49373,9 +50136,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-e",
+                "string" : "e",
                 "start" : 0,
                 "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
             },
             {
                 "type" : "dictinterpretation",
@@ -53694,6 +54464,105 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "faì̵ji̵-faì̵ji̵caìda macarite (v) andar a coxcojilla. (Vea ñuja-ñujacaìda, macarite.)",
+    "startpage" : 85,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "faì̵ji̵faì̵ji̵caìda macarite",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 8,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 34,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "andar a coxcojilla",
+                "start" : 36,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ñuja-ñujacaìda",
+                "start" : 62,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "macarite",
+                "start" : 81,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "faì̵nonocaìde (v) 1. dejar, abandonar. Nana jaì caì̵ usuma comuìllano faì̵nonocaìda caì̵ biti̵caì̵. Todos vinimos abandonando el suelo natal (lit. lugar donde crecieron) de nuestros abuelos. 2. sanar de una enfermedad, calmar el dolor, dejarle a uno la fiebre. Faì̵nonocaìde. Jaì faì̵caìde. Se ha calmado. Ya (le) ha dejado (la fiebre, enfermedad). (Vea faì̵caìde, faì̵caìñote.)",
     "startpage" : 85,
     "pos_on_page" : 8,
@@ -56282,8 +57151,22 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-fi̵re-",
+                "string" : "fi̵re",
                 "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
                 "end" : 7
             },
             {
@@ -56337,6 +57220,13 @@ manual_entries.append({
             },
             {
                 "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
                 "start" : 49,
@@ -56345,13 +57235,6 @@ manual_entries.append({
             {
                 "type" : "pagelayout",
                 "value" : "newline",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
                 "string" : "",
                 "start" : 49,
                 "end" : 49

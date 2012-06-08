@@ -7,6 +7,7 @@ import pickle
 from quanthistling.model.meta import Session, metadata
 from sqlalchemy import schema, types
 from sqlalchemy import orm, func
+from sqlalchemy import and_
 
 from webhelpers.html import literal
 from operator import attrgetter
@@ -24,6 +25,7 @@ entry_table = schema.Table('entry', meta.metadata,
     schema.Column('is_subentry', types.Boolean),
     schema.Column('is_subentry_of_entry_id', types.Integer),
     schema.Column('dictdata_id', types.Integer, schema.ForeignKey('dictdata.id')),
+    schema.Column('book_id', types.Integer, schema.ForeignKey('book.id')),
     schema.Column('startpage', types.Integer),
     schema.Column('endpage', types.Integer),
     schema.Column('startcolumn', types.Integer),
@@ -53,12 +55,26 @@ dictdata_table = schema.Table('dictdata', meta.metadata,
     schema.Column('startpage', types.Integer),
     schema.Column('endpage', types.Integer),
     schema.Column('startletters', types.Unicode(511)),
-    schema.Column('src_language_bookname', types.Unicode(255)),
-    schema.Column('tgt_language_bookname', types.Unicode(255)),
-    schema.Column('src_language_id', types.Integer, schema.ForeignKey('language.id')),
-    schema.Column('tgt_language_id', types.Integer, schema.ForeignKey('language.id')),
+    #schema.Column('src_language_id', types.Integer, schema.ForeignKey('language.id')),
+    #schema.Column('tgt_language_id', types.Integer, schema.ForeignKey('language.id')),
     schema.Column('book_id', types.Integer, schema.ForeignKey('book.id')),
     schema.Column('component_id', types.Integer, schema.ForeignKey('component.id')),
+)
+
+language_src_table = schema.Table('language_src', meta.metadata,
+    schema.Column('id', types.Integer,
+        schema.Sequence('language_src_seq_id', optional=True), primary_key=True),
+    schema.Column('dictdata_id', types.Integer, schema.ForeignKey('dictdata.id')),
+    schema.Column('language_iso_id', types.Integer, schema.ForeignKey('language_iso.id')),
+    schema.Column('language_bookname_id', types.Integer, schema.ForeignKey('language_bookname.id'))
+)
+
+language_tgt_table = schema.Table('language_tgt', meta.metadata,
+    schema.Column('id', types.Integer,
+        schema.Sequence('language_tgt_seq_id', optional=True), primary_key=True),
+    schema.Column('dictdata_id', types.Integer, schema.ForeignKey('dictdata.id')),
+    schema.Column('language_iso_id', types.Integer, schema.ForeignKey('language_iso.id')),
+    schema.Column('language_bookname_id', types.Integer, schema.ForeignKey('language_bookname.id')),
 )
 
 nondictdata_table = schema.Table('nondictdata', meta.metadata,
@@ -77,11 +93,19 @@ wordlistdata_table = schema.Table('wordlistdata', meta.metadata,
         schema.Sequence('wordlistdata_seq_id', optional=True), primary_key=True),
     schema.Column('startpage', types.Integer),
     schema.Column('endpage', types.Integer),
-    schema.Column('language_bookname', types.Unicode(255)),
-    schema.Column('language_id', types.Integer, schema.ForeignKey('language.id')),
+    schema.Column('language_bookname_id', types.Integer, schema.ForeignKey('language_bookname.id')),
+    schema.Column('language_iso_id', types.Integer, schema.ForeignKey('language_iso.id')),
     schema.Column('book_id', types.Integer, schema.ForeignKey('book.id')),
     schema.Column('component_id', types.Integer, schema.ForeignKey('component.id')),
 )
+
+#language_wordlistdata_table = schema.Table('language_wordlistdata', meta.metadata,
+#    schema.Column('id', types.Integer,
+#        schema.Sequence('language_wordlistdata_seq_id', optional=True), primary_key=True),
+#    schema.Column('wordlistdata_id', types.Integer, schema.ForeignKey('wordlistdata.id')),
+#    schema.Column('language_iso_id', types.Integer, schema.ForeignKey('language_iso.id')),
+#    schema.Column('language_bookname_id', types.Integer, schema.ForeignKey('language_bookname.id')),
+#)
 
 annotation_table = schema.Table('annotation', meta.metadata,
     schema.Column('id', types.Integer,
@@ -101,13 +125,19 @@ annotationtype_table = schema.Table('annotationtype', meta.metadata,
     schema.Column('description', types.Text),
 )
 
-language_table = schema.Table('language', meta.metadata,
+language_iso_table = schema.Table('language_iso', meta.metadata,
     schema.Column('id', types.Integer,
-        schema.Sequence('language_seq_id', optional=True), primary_key=True),
+        schema.Sequence('language_iso_seq_id', optional=True), primary_key=True),
     schema.Column('name', types.Unicode(255), nullable=False),
     schema.Column('langcode', types.Unicode(10)),
     schema.Column('description', types.Text),
     schema.Column('url', types.Unicode(255)),
+)
+
+language_bookname_table = schema.Table('language_bookname', meta.metadata,
+    schema.Column('id', types.Integer,
+        schema.Sequence('language_bookname_seq_id', optional=True), primary_key=True),
+    schema.Column('name', types.Unicode(255), nullable=False),
 )
 
 component_table = schema.Table('component', meta.metadata,
@@ -157,7 +187,7 @@ corpusversion_table = schema.Table('corpusversion', meta.metadata,
 )
 
 class Entry(object):
-                    
+    
     def append_annotation(self, start, end, value, type, string=None):
         annotation = Annotation()
         
@@ -337,7 +367,7 @@ class Book(object):
             return Session.query(func.max(Wordlistdata.endpage)).filter_by(book_id=self.id).scalar()
         else:
             return None
-
+        
 class Dictdata(object):
     pass
 
@@ -355,7 +385,19 @@ class Annotation(object):
 class Annotationtype(object):
     pass
 
-class Language(object):
+class LanguageSrc(object):
+    pass
+
+class LanguageTgt(object):
+    pass
+
+#class LanguageWordlistdata(object):
+#    pass
+
+class LanguageIso(object):
+    pass
+
+class LanguageBookname(object):
     pass
 
 class Component(object):
@@ -413,6 +455,7 @@ orm.mapper(Entry, entry_table, properties={
 })
 
 orm.mapper(Book, book_table, properties={
+   'entries':orm.relation(Entry, backref='book'),
    'dictdata':orm.relation(Dictdata, backref='book'),
    'nondictdata':orm.relation(Nondictdata, backref='book'),
    'wordlistdata':orm.relation(Wordlistdata, backref='book')
@@ -431,20 +474,71 @@ orm.mapper(Annotationtype, annotationtype_table, properties={
    'wordlist_annotations':orm.relation(WordlistAnnotation, backref='annotationtype')
 })
 
-orm.mapper(Language, language_table, properties={
-   'dictdata_with_src':orm.relation(Dictdata, primaryjoin=language_table.c.id == dictdata_table.c.src_language_id, backref="src_language"),
-   'dictdata_with_tgt':orm.relation(Dictdata, primaryjoin=language_table.c.id == dictdata_table.c.tgt_language_id, backref="tgt_language"),
-   'wordlistdata':orm.relation(Wordlistdata, backref='language')
+orm.mapper(LanguageSrc, language_src_table, properties={
+    'language_iso': orm.relation(
+        LanguageIso,
+        backref='src_language'),
+    'language_bookname': orm.relation(
+        LanguageBookname,
+        backref='src_language')
+#    'dictdata': orm.relation(
+#        Dictdata,
+#        backref='tgt_language')
 })
 
+orm.mapper(LanguageTgt, language_tgt_table, properties={
+    'language_iso': orm.relation(
+        LanguageIso,
+        backref='tgt_language'),
+    'language_bookname': orm.relation(
+        LanguageBookname,
+        backref='tgt_language')
+#    'dictdata': orm.relation(
+#        Dictdata,
+#        backref='tgt_language')
+})
+
+#orm.mapper(LanguageWordlistdata, language_wordlistdata_table, properties={
+#    'language_iso': orm.relation(LanguageIso, backref='language'),
+#    'language_bookname': orm.relation(LanguageBookname, backref='language')
+#})
+
+orm.mapper(LanguageIso, language_iso_table)
+orm.mapper(LanguageBookname, language_bookname_table)
+
+#orm.mapper(LanguageBookname, language_bookname_table, properties={
+#   'dictdata_with_src':orm.relation(
+#        Dictdata,
+#        secondary=dictdata_srclanguage_table,
+#        primaryjoin=id==dictdata_srclanguage_table.c.language_id,
+#        secondaryjoin=dictdata_table.c.id==dictdata_srclanguage_table.c.dictdata_id,
+#        backref="src_languages_booknames"),
+#   'dictdata_with_tgt':orm.relation(
+#        Dictdata,
+#        secondary=dictdata_tgtlanguage_table,
+#        primaryjoin=id==dictdata_tgtlanguage_table.c.language_id,
+#        secondaryjoin=dictdata_table.c.id==dictdata_tgtlanguage_table.c.dictdata_id,
+#        backref="tgt_languages_booknames")
+#})
+
 orm.mapper(Dictdata, dictdata_table, properties={
-   'entries':orm.relation(Entry, backref='dictdata')
+   'entries':orm.relation(Entry, backref='dictdata'),
+   'src_languages': orm.relation(LanguageSrc, backref='dictdata'),
+   'tgt_languages': orm.relation(LanguageTgt, backref='dictdata')
+   #'src_languages':orm.relation(LanguageIso, secondary=language_src_table, backref='src_dictdata'),
+   #'tgt_languages':orm.relation(LanguageIso, secondary=language_tgt_table, backref='tgt_dictdata'),
+   #'src_languages_booknames':orm.relation(LanguageBookname, secondary=language_src_table, backref='src_dictdata'),
+   #'tgt_languages_booknames':orm.relation(LanguageBookname, secondary=language_tgt_table, backref='tgt_dictdata'),
 })
 
 orm.mapper(Nondictdata, nondictdata_table)
 
 orm.mapper(Wordlistdata, wordlistdata_table, properties={
-    'entries': orm.relation(WordlistEntry, backref="wordlistdata")
+    'entries': orm.relation(WordlistEntry, backref="wordlistdata"),
+    'language_iso': orm.relation(LanguageIso, backref="wordlistdata"),
+    'language_bookname': orm.relation(LanguageBookname, backref="wordlistdata"),
+    #'languages':orm.relation(LanguageWordlistdata, backref='wordlistdata'),
+    #'languages_booknames':orm.relation(LanguageBookname, secondary=language_wordlistdata_table, backref='wordlistdata'),
 })
 
 orm.mapper(WordlistEntry, wordlist_entry_table, properties={

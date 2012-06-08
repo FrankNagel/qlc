@@ -41,12 +41,12 @@ class BookController(BaseController):
         c.book = None
         if bibtexkey:
             c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=bibtexkey).first()
+            if not c.book:
+                abort(404)
             c.corpushistory = model.meta.Session.query(model.Corpusversion).all()
             c.corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
             c.iso_time = c.corpusversion.updated.strftime("%Y-%m-%dT%H:%M:%S")
             c.bibtexkey = bibtexkey
-            if not c.book:
-                abort(404)
             if c.book.type == "wordlist":
                 c.startpage = c.book.wordlistdata_startpage()
                 c.endpage = c.book.wordlistdata_endpage()
@@ -56,8 +56,10 @@ class BookController(BaseController):
                 if not c.dictdata:
                     abort(404)
                 else:
-                    c.srclanguage = c.dictdata.src_language.langcode
-                    c.tgtlanguage = c.dictdata.tgt_language.langcode
+                    #c.srclanguage = c.dictdata.src_language.langcode
+                    #c.tgtlanguage = c.dictdata.tgt_language.langcode
+                    c.srclanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.src_languages ])
+                    c.tgtlanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.tgt_languages ])
                     c.startpage = c.dictdata.startpage
                     c.endpage = c.dictdata.endpage
             elif c.book.type == "wordlist":
@@ -69,8 +71,10 @@ class BookController(BaseController):
             if not c.dictdata:
                 abort(404)
             else:
-                c.srclanguage = c.dictdata.src_language.langcode
-                c.tgtlanguage = c.dictdata.tgt_language.langcode
+                #c.srclanguage = c.dictdata.src_language.langcode
+                #c.tgtlanguage = c.dictdata.tgt_language.langcode
+                c.srclanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.src_languages ])
+                c.tgtlanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.tgt_languages ])
                 c.startpage = int(startpage)
                 c.endpage = int(endpage)
 
@@ -183,8 +187,8 @@ class BookController(BaseController):
         c.action = 'page_with_layout'
         if c.book:
             pagenr_minus_one = int(pagenr)-1
-            c.entries = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id,is_subentry=True).filter(and_(model.Entry.startpage==pagenr_minus_one, model.Entry.endpage==int(pagenr))).all()
-            c.entries = c.entries + model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).all()
+            c.entries = model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=True).filter(and_(model.Entry.startpage==pagenr_minus_one, model.Entry.endpage==int(pagenr))).all()
+            c.entries = c.entries + model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).all()
             return render('/derived/book/page_with_layout.html')
         else:
             abort(404)
@@ -195,7 +199,7 @@ class BookController(BaseController):
         c.entries = []
         if c.book:
             if c.book.type == "dictionary":
-                c.entries = model.meta.Session.query(model.Entry).filter_by(dictdata_id=c.dictdata.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).all()
+                c.entries = model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr))
                 return render('/derived/book/page.html')
             elif c.book.type  == "wordlist":
                 c.entries = model.meta.Session.query(model.WordlistEntry).join(
@@ -256,7 +260,9 @@ class BookController(BaseController):
         c.entries = []
         if c.book:
             if c.book.type  == "wordlist":
-                wordlistdata_db = model.meta.Session.query(model.Wordlistdata).filter_by(book_id=c.book.id, language_bookname=language_bookname).first()
+                wordlistdata_db = model.meta.Session.query(model.Wordlistdata).join(
+                    (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
+                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.LanguageBookname.name==language_bookname).first()
                 c.entries = wordlistdata_db.entries
                 return render('/derived/book/page_wordlist.html')
         else:
@@ -270,8 +276,9 @@ class BookController(BaseController):
         if c.book:
             c.entry = model.meta.Session.query(model.WordlistEntry).join(
                     (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
-                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
-                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.Wordlistdata.language_bookname==language_bookname).filter(model.WordlistConcept.concept==concept).first()
+                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id),
+                    (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
+                ).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
 
             #if format == 'xml':
             #    c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
@@ -294,8 +301,9 @@ class BookController(BaseController):
         if c.book:
             c.entry = model.meta.Session.query(model.WordlistEntry).join(
                     (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
-                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
-                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.Wordlistdata.language_bookname==language_bookname).filter(model.WordlistConcept.concept==concept).first()
+                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id),
+                    (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
+                ).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
             c.heading = c.book.bookinfo_with_status() + ", Concept " + concept + " in Language " + language_bookname
             c.saveurl = url_for(controller='book', action='save_entryid_wordlist', bibtexkey=c.book.bibtex_key, language_bookname=c.language_bookname, concept=c.concept, format='html')
             return render('/base/edit_entryid.html')
@@ -306,8 +314,9 @@ class BookController(BaseController):
         if c.book:
             c.entry = model.meta.Session.query(model.WordlistEntry).join(
                     (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
-                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
-                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.Wordlistdata.language_bookname==language_bookname).filter(model.WordlistConcept.concept==concept).first()
+                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id),
+                    (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
+                ).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
             param_annotations = request.params.get("annotations", None)
             param_fullentry = request.params.get("fullentry", None)
             #print param_fullentry
@@ -356,14 +365,12 @@ class BookController(BaseController):
         if c.book:
             # only for python code, we use the same method "entryid" for wordlists
             # so that all .py files have similar filenames
-            if c.book.type == "wordlist":
-                c.entry =  model.meta.Session.query(model.WordlistEntry).join(
-                    (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
-                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.WordlistEntry.startpage==int(pagenr)).filter(model.WordlistEntry.pos_on_page==int(pos_on_page)).first()
-            else:
-                c.entry = model.meta.Session.query(model.Entry).filter_by(startpage=int(pagenr), pos_on_page=int(pos_on_page), dictdata_id=c.dictdata.id).first()
-
+            #if c.book.type == "wordlist":
+            #    c.entry = model.meta.Session.query(model.WordlistEntry).filter_by(startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
+            #else:
+            c.entry = model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id, startpage=int(pagenr), pos_on_page=int(pos_on_page)).first()
             #c.annotations = sorted(c.entry.annotations, key=attrgetter('start'))
+
             if format == 'xml':
                 c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
                 response.headers['content-type'] = 'text/xml; charset=utf-8'

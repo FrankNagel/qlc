@@ -1,0 +1,260 @@
+
+manual_entries.append({
+    "fullentry" : "jí̵cáfétehi v.i. (voz pasiva) [3sg.m. jí̵cáfótóobo; pas.rem. jí̵cáfútúuhi; 2sg. dí̵cáfétehi] entrarse, meterse, vestirse, ponerse. Fáti̵ ípaaje faño jí̵cáfétehi. El guara se metió en su cueva. V. jí̵cuhi.",
+    "startpage" : 75,
+    "pos_on_page" : 37,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jí̵cáfétehi",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entrarse",
+                "start" : 107,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "meterse",
+                "start" : 117,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vestirse",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ponerse",
+                "start" : 136,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Fáti̵ ípaaje faño jí̵cáfétehi.",
+                "start" : 145,
+                "end" : 181
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El guara se metió en su cueva.",
+                "start" : 182,
+                "end" : 213
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jí̵cuhi",
+                "start" : 217,
+                "end" : 225
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jí̵cáfétehi",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jí̵cáfótóobo",
+                "start" : 41,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jí̵cáfútúuhi",
+                "start" : 68,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dí̵cáfétehi",
+                "start" : 91,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Fáti̵ ípaaje faño jí̵cáfétehi.",
+                "start" : 145,
+                "end" : 181
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jí̵cuhi.",
+                "start" : 217,
+                "end" : 226
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 90,
+                "end" : 90
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 213,
+                "end" : 213
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+    ]
+})

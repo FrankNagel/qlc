@@ -187,8 +187,8 @@ def main(argv):
     poses_on_page = collections.defaultdict(int)
     concept_ids = collections.defaultdict(int)
     
-
     wordlistdata = {}
+
     for book_bibtex_key in bibtex_keys_in_file:
         print "Parsing {0}...".format(book_bibtex_key)
         wordlistbook = {}
@@ -198,6 +198,7 @@ def main(argv):
             if b['bibtex_key'] == book_bibtex_key:
                 wordlistbookdata = b
 
+        languages_iso = {}
         for data in wordlistbookdata['wordlistdata']:
             #print data['language_bookname']
             #print wordlistdata.keys()
@@ -207,6 +208,7 @@ def main(argv):
             else:
                 #print "is not here"
                 d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
+                languages_iso[data['language_bookname']] = data['language_name']
                 wordlistdata[data['language_bookname']] = d
     
     
@@ -267,7 +269,7 @@ def main(argv):
                             del(entry['English'])
                             if entry.has_key('Spanish'):
                                 del(entry['Spanish'])
-                        importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
+                        importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages, languages_iso)
                     annotation = {}
                     entry = {}
                     page = page_new

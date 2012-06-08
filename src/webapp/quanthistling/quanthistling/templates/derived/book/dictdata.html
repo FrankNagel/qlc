@@ -13,7 +13,15 @@ ${component.bookinfo()}
         <a href="${h.url_for(controller='book', action='view', bibtexkey=c.book.bibtex_key, startpage=dictdata.startpage, endpage=dictdata.endpage, format='html')}">
             Dictionary (pp. ${dictdata.startpage} - ${dictdata.endpage})
         </a>
-        (Approximate ISO 639-3 identification: ${dictdata.src_language.langcode} - ${dictdata.tgt_language.langcode})
+        &nbsp;( Approximate ISO 639-3 identification:
+        % for l in dictdata.src_languages:
+            ${l.language_iso.langcode}&nbsp;
+        % endfor
+        -
+        % for l in dictdata.tgt_languages:
+            &nbsp;${l.language_iso.langcode}
+        % endfor
+        )
         </li>
     % endfor
 

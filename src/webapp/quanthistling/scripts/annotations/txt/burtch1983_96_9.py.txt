@@ -7,8 +7,22 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-fi̵re-",
+                "string" : "fi̵re",
                 "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
                 "end" : 7
             },
             {
@@ -62,6 +76,13 @@ manual_entries.append({
             },
             {
                 "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
                 "start" : 49,
@@ -70,13 +91,6 @@ manual_entries.append({
             {
                 "type" : "pagelayout",
                 "value" : "newline",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
                 "string" : "",
                 "start" : 49,
                 "end" : 49

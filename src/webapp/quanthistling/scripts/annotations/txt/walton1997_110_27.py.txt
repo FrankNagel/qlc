@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "tagóyi̵ [vd. tyágóyi̵] f. abuela.",
+    "startpage" : 110,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tagóyi̵",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.",
+                "start" : 26,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abuela",
+                "start" : 29,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tagóyi̵",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tyágóyi̵",
+                "start" : 14,
+                "end" : 24
+            },
+    ]
+})

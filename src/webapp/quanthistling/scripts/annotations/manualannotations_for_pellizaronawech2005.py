@@ -10253,56 +10253,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "rak, mch. = voz de los loros kawá, achu kawá y shámak.",
-    "startpage" : 356,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "rak",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "mch.",
-                "start" : 5,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "voz de los loros kawá",
-                "start" : 12,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "voz de los loros achu kawá y shámak",
-                "start" : 12,
-                "end" : 56
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "rak",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "mch.",
-                "start" : 5,
-                "end" : 9
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "+ junut junut, ávidamente (comen los hombre). Junut junut amukái = lo acabó tragándolo ávidamente.",
     "startpage" : 358,
     "pos_on_page" : 35,
@@ -11139,35 +11089,6 @@ manual_entries.append({
                 "string" : "lo amoratado",
                 "start" : 42,
                 "end" : 53
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "cha! = no sé! (exclamación de duda).",
-    "startpage" : 383,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cha",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "no sé (exclamación de duda)",
-                "start" : 7,
-                "end" : 37
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cha!",
-                "start" : 0,
-                "end" : 4
             },
     ]
 })

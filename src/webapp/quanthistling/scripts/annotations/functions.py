@@ -137,6 +137,16 @@ def get_first_bold_start_in_range(entry, s, e):
 
     return -1
 
+def get_first_italic_start_in_range(entry, s, e):
+    sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
+    sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
+    
+    for a in sorted_annotations:
+        if a.start >= s and a.start <=e:
+            return a.start
+
+    return -1
+
 def get_last_bold_end_in_range(entry, s, e):
     sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))

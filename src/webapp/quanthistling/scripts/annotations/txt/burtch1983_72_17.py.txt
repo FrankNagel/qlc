@@ -7,9 +7,16 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "-e",
+                "string" : "e",
                 "start" : 0,
                 "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
             },
             {
                 "type" : "dictinterpretation",

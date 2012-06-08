@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "tí̵ááfai [vd. tí̵ááifai] s. rallador.",
+    "startpage" : 112,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tí̵ááfai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 31,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rallador",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tí̵ááfai",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tí̵ááifai",
+                "start" : 17,
+                "end" : 29
+            },
+    ]
+})

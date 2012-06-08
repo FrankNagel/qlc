@@ -4,7 +4,10 @@ psql -c "copy (select * from annotation) to STDOUT DELIMITER AS E'\t' CSV HEADER
 psql -c "copy (select * from dictdata) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/dictdata.csv
 psql -c "copy (select * from nondictdata) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/nondictdata.csv
 psql -c "copy (select * from book) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/book.csv
-psql -c "copy (select * from language) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/language.csv
+psql -c "copy (select * from language_iso) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/language_iso.csv
+psql -c "copy (select * from language_bookname) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/language_bookname.csv
+psql -c "copy (select * from language_src) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/language_src.csv
+psql -c "copy (select * from language_tgt) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/language_tgt.csv
 psql -c "copy (select * from component) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/component.csv
 psql -c "copy (select * from corpusversion) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/corpusversion.csv
 psql -c "copy (select * from wordlist_entry) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > $QUANTHISTLINGPATH/tmp/csv/wordlistentry.csv

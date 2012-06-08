@@ -10,11 +10,11 @@ ${component.bookinfo()}
 % for wordlistdata in c.book.wordlistdata:
     <ul>
     <li>
-        <a href="${h.url_for(controller='book', action='language_wordlist', bibtexkey=c.bibtexkey, language_bookname=wordlistdata.language_bookname, format='html')}">
-        ${wordlistdata.language_bookname}
+        <a href="${h.url_for(controller='book', action='language_wordlist', bibtexkey=c.bibtexkey, language_bookname=wordlistdata.language_bookname.name, format='html')}">
+        ${wordlistdata.language_bookname.name}
         </a>
-        % if wordlistdata.language != None:
-            ; Approximate ISO 639-3 identification: <a target="_blank" href="${wordlistdata.language.url}">${wordlistdata.language.langcode}</a>
+        % if wordlistdata.language_iso != None:
+            ; Approximate ISO 639-3 identification: <a target="_blank" href="${wordlistdata.language_iso.url}">${wordlistdata.language_iso.langcode}</a>
         % endif
     </li>
     </ul>

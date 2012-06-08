@@ -12,7 +12,23 @@
                 <a href="${h.url_for(controller='book', action='dictdata', bibtexkey=book.bibtex_key, startpage=dictdata.startpage, endpage=dictdata.endpage, format='html')}">
                     Dictionary (pp. ${dictdata.startpage} - ${dictdata.endpage})
                 </a>
-                (Approximate ISO 639-3 identification: ${dictdata.src_language.langcode} - ${dictdata.tgt_language.langcode})
+                &nbsp;( Approximate ISO 639-3 identification:
+                % for l in dictdata.src_languages:
+                    % if l.language_iso:
+                        ${l.language_iso.langcode}&nbsp;
+                    % else:
+                        n/a&nbsp;
+                    % endif
+                % endfor
+                -
+                % for l in dictdata.tgt_languages:
+                    % if l.language_iso:
+                        &nbsp;${l.language_iso.langcode}
+                    % else:
+                        &nbsp;n/a
+                    % endif
+                % endfor
+                )
                 </li>
             % endfor
         % elif book.type == 'wordlist':

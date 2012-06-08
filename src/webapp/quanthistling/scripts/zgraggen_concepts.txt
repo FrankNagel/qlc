@@ -1,0 +1,1239 @@
+
+Parsing zgraggen1980...
+<i>man</i> 1: man -> MAN
+<i>woman</i> 2: woman -> WOMAN
+<i>old (of humans)</i> 3: old (of humans) -> OLD_OF_HUMANS
+<i>child</i> 6: child -> CHILD
+<i>boy</i>7 9: boy -> BOY
+<i>girl</i>8 10: girl -> GIRL
+<i>father</i> 11: father -> FATHER
+<i>mother</i> 12: mother -> MOTHER
+<i>sibling same sex, older</i> 13: sibling same sex, older -> SIBLING_SAME_SEX_OLDER
+<i>sibling same sex, younger</i> 14: sibling same sex, younger -> SIBLING_SAME_SEX_YOUNGER
+<i>sibling different sex, older</i> 15: sibling different sex, older -> SIBLING_DIFFERENT_SEX_OLDER
+<i>sibling different sex, younger</i> 16: sibling different sex, younger -> SIBLING_DIFFERENT_SEX_YOUNGER
+<i>I</i> 24: I -> I
+<i>thou</i> 25: thou -> THOU
+<i>he</i> 26: he -> HE
+<i>we</i> 27: we -> WE
+<i>ye</i> 28: ye -> YE
+<i>they</i> 29: they -> THEY
+<i>all</i>: all -> ALL
+%%%<i>hair9</i> 88: hair9 -> HAIR
+<i>head</i> 33: head -> HEAD
+<i>brains</i>: brains -> BRAINS
+<i>face (forehead)</i> 36: face (forehead) -> FACE_FOREHEAD
+<i>ear</i> 38: ear -> EAR
+<i>eye</i> 39: eye -> EYE
+<i>mouth</i> 41: mouth -> MOUTH
+<i>nose</i> 42: nose -> NOSE
+<i>tongue</i> 44: tongue -> TONGUE
+<i>saliva</i> 45: saliva -> SALIVA
+<i>tooth</i> 46: tooth -> TOOTH
+<i>chin</i> 47: chin -> CHIN
+<i>nape</i> 51: nape -> NAPE
+<i>neck</i> 49: neck -> NECK
+<i>throat</i> 50: throat -> THROAT
+<i>back</i> 53: back -> BACK
+<i>buttocks</i> 54: buttocks -> BUTTOCKS
+<i>arm</i> 55: arm -> ARM
+<i>elbow</i> 57: elbow -> ELBOW
+<i>shoulder</i> 58: shoulder -> SHOULDER
+<i>armpit</i> 59: armpit -> ARMPIT
+<i>left (arm)</i> 60: left (arm) -> LEFT_ARM
+<i>right (arm)</i> 61: right (arm) -> RIGHT_ARM
+<i>thumb</i> 65: thumb -> THUMB
+<i>fingernail</i> 66: fingernail -> FINGERNAIL
+<i>leg</i> 67: leg -> LEG
+<i>upper leg</i> 68: upper leg -> UPPER_LEG
+<i>knee</i> 71: knee -> KNEE
+%%%<i>calf</i> 70: calf -> CALF_OF_LEG
+<i>belly</i>10 72: belly -> BELLY
+<i>stomach (guts)</i> 73: stomach (guts) -> STOMACH_GUTS
+<i>breast (woman)</i> 74: breast (woman) -> BREAST_WOMAN
+<i>chest</i> 75: chest -> CHEST
+<i>navel</i> 77: navel -> NAVEL
+<i>blood</i> 78: blood -> BLOOD
+<i>vein</i> 79: vein -> VEIN
+<i>heart</i>11 83: heart -> HEART
+<i>liver</i> 81: liver -> LIVER
+<i>lung</i> 82: lung -> LUNG
+<i>bone</i> 84: bone -> BONE
+<i>skin</i> 85: skin -> SKIN
+<i>sweat</i> 86: sweat -> SWEAT
+<i>sore</i> 87: sore -> SORE
+<i>excrement</i> 89: excrement -> EXCREMENT
+<i>urine</i> 90: urine -> URINE
+<i>penis</i> 91: penis -> PENIS
+<i>vulva</i> 95: vulva -> VULVA
+<i>name</i> 93: name -> NAME
+<i>shadow</i> 92: shadow -> SHADOW
+<i>bird</i> 96: bird -> BIRD
+<i>*cassowary</i> 101: *cassowary -> CASSOWARY
+<i>tail (of dog)</i> 106: tail (of dog) -> TAIL_OF_DOG
+<i>tail (of bird)</i> 99: tail (of bird) -> TAIL_OF_BIRD
+<i>*chicken (tame)</i> 102: *chicken (tame) -> CHICKEN_TAME
+<i>chicken (wild)</i> 103: chicken (wild) -> CHICKEN_WILD
+<i>egg</i> 100: egg -> EGG
+<i>dog</i> 104: dog -> DOG
+<i>male</i>12 107: male -> MALE
+<i>female</i>13 108: female -> FEMALE
+<i>fly</i> (n) 109: fly -> FLY
+<i>louse</i> 112: louse -> LOUSE
+<i>fish</i> 110: fish -> FISH
+<i>crayfish</i> 111: crayfish -> CRAYFISH
+<i>mosquito</i> 114: mosquito -> MOSQUITO
+<i>*pig</i> 115: *pig -> PIG
+<i>meat</i> 116: meat -> MEAT
+<i>fat</i> 117: fat -> FAT
+<i>crocodile</i> 118: crocodile -> CROCODILE
+<i>flying fox</i> 119: flying fox -> FLYING_FOX
+<i>frog</i> 120: frog -> FROG
+<i>rat</i> 121: rat -> RAT
+<i>snake</i> 122: snake -> SNAKE
+<i>wallaby</i> 123: wallaby -> WALLABY
+<i>possum (tree)</i>14 124: possum (tree) -> POSSUM_TREE
+<i>possum (ground)</i> 125: possum (ground) -> POSSUM_GROUND
+<i>butterfly</i> 126: butterfly -> BUTTERFLY
+<i>wing</i> 98: wing -> WING
+<i>banana</i> 127: banana -> BANANA
+<i>*betelnut</i> 128: *betelnut -> BETELNUT
+<i>*betel pepper vine</i> 129: *betel pepper vine -> BETEL_PEPPER_VINE
+<i>*lime</i> 130: *lime -> LIME
+<i>alang-alang grass</i> 131: alang-alang grass -> ALANG-ALANG_GRASS
+<i>pandanus</i> 132: pandanus -> PANDANUS
+<i>*potato</i> 133: *potato -> POTATO
+%%%<i>*sugar</i> 134: *sugar -> SUGAR_CANE
+<i>taro</i> 135: taro -> TARO
+<i>*singapore taro</i> 136: *singapore taro -> SINGAPORE_TARO
+<i>yam</i> 137: yam -> YAM
+%%%<i>yam (dioscorea esculenta)</i> 138: yam (dioscorea esculenta) -> YAM_DISCOREA_ESCULENTA
+<i>*tobacco</i>15 139: *tobacco -> TOBACCO
+<i>*sago</i> 140: *sago -> SAGO
+%%%<i>*coconut</i> 141: *coconut -> COCONUT_TREE
+<i>*ripe coconut</i> 142: *ripe coconut -> RIPE_COCONUT
+<i>*green coconut</i> 143: *green coconut -> GREEN_COCONUT
+<i>tree</i> 144: tree -> TREE
+<i>fruit</i> 148: fruit -> FRUIT
+<i>sap</i> 149: sap -> SAP
+<i>stump (of tree)</i> 150: stump (of tree) -> STUMP_OF_TREE
+<i>top (of tree)</i> 151: top (of tree) -> TOP_OF_TREE
+<i>trunk (of tree)</i> 152: trunk (of tree) -> TRUNK_OF_TREE
+<i>root (of tree)</i> 153: root (of tree) -> ROOT_OF_TREE
+<i>piece of wood</i> 154: piece of wood -> PIECE_OF_WOOD
+<i>cane</i> 156: cane -> CANE
+<i>stick</i> 157: stick -> STICK
+<i>bamboo</i> 158: bamboo -> BAMBOO
+<i>*bean</i> 159: *bean -> BEAN
+<i>shrub (tanget)</i> 161: shrub (tanget) -> SHRUB_TANGET
+<i>vine</i> 160: vine -> VINE
+<i>fire</i> 162: fire -> FIRE
+<i>light (of fire)</i> 163: light (of fire) -> LIGHT_OF_FIRE
+<i>ashes</i> 164: ashes -> ASHES
+<i>smoke</i> 165: smoke -> SMOKE
+<i>garden</i> 166: garden -> GARDEN
+<i>fence</i> 167: fence -> FENCE
+<i>ground</i> 168: ground -> GROUND
+<i>house</i> 169: house -> HOUSE
+<i>moon</i> 173: moon -> MOON
+<i>mountain</i> 174: mountain -> MOUNTAIN
+<i>path</i> 175: path -> PATH
+<i>sea</i> 176: sea -> SEA
+<i>shore</i> 177: shore -> SHORE
+<i>sand</i> 178: sand -> SAND
+<i>sky</i> 180: sky -> SKY
+<i>cloud</i> 181: cloud -> CLOUD
+<i>*salt</i> 183: *salt -> SALT
+<i>fog</i> 182: fog -> FOG
+<i>stone</i> 184: stone -> STONE
+<i>star</i> 185: star -> STAR
+<i>sun</i> 186: sun -> SUN
+<i>village</i> 188: village -> VILLAGE
+<i>woods</i> 189: woods -> WOODS
+<i>wind</i> 194: wind -> WIND
+<i>water</i> 190: water -> WATER
+<i>rain</i> 191: rain -> RAIN
+%%%<i>*arrow</i> (a)16 196: *arrow -> ARROW_A
+%%%<i>*arrow</i> (d) 196: *arrow -> ARROW_D
+%%%<i>*arrow</i> (b) 196: *arrow -> ARROW_B
+%%%<i>*arrow</i> (c) 197: *arrow -> ARROW_C
+%%%<i>*spear</i> 197b: *spear -> FISH_SPEAR
+<i>*spear</i> 197a: *spear -> SPEAR
+<i>*axe (stone)</i> 198a: *axe (stone) -> AXE_STONE
+<i>*axe (iron)</i> 198b: *axe (iron) -> AXE_IRON
+<i>*bow</i> 199: *bow -> BOW
+<i>*rope (of bow)</i> 200: *rope (of bow) -> ROPE_OF_BOW
+<i>*comb</i> 203: *comb -> COMB
+<i>*grass skirt</i> 204: *grass skirt -> GRASS_SKIRT
+<i>*G-string</i> 205: *G-string -> G-STRING
+<i>*loincloth</i> 213: *loincloth -> LOINCLOTH
+<i>*basket</i> 214: *basket -> BASKET
+<i>*hand drum</i> 206: *hand drum -> HAND_DRUM
+<i>signal drum</i> 207: signal drum -> SIGNAL_DRUM
+<i>*saucepan (clay pot)</i> 210: *saucepan (clay pot) -> SAUCEPAN_CLAY_POT
+<i>*wooden plate</i> 209: *wooden plate -> WOODEN_PLATE
+<i>*knife</i> 208: *knife -> KNIFE
+<i>*netbag</i> 212: *netbag -> NETBAG
+<i>one</i> 215: one -> ONE
+<i>two</i> 216: two -> TWO
+<i>bad</i> 221: bad -> BAD
+<i>good</i> 220: good -> GOOD
+<i>big</i> 224: big -> BIG
+<i>small</i> 225: small -> SMALL
+<i>black</i> 226: black -> BLACK
+<i>dirty</i> 222: dirty -> DIRTY
+<i>red</i> 227: red -> RED
+<i>white</i> 228: white -> WHITE
+<i>yellow</i> 229: yellow -> YELLOW
+<i>green</i> 230: green -> GREEN
+<i>full</i> 234: full -> FULL
+<i>empty</i> 235: empty -> EMPTY
+<i>hot</i> 236: hot -> HOT
+<i>cold</i> 237: cold -> COLD
+<i>heavy</i> 238: heavy -> HEAVY
+<i>sharp</i>17	248: sharp -> SHARP
+<i>long</i> 240: long -> LONG
+<i>short</i> 241: short -> SHORT
+<i>many</i> 242: many -> MANY
+<i>few</i> 243: few -> FEW
+<i>new</i> 244: new -> NEW
+<i>old (of objects)</i> 245: old (of objects) -> OLD_OF_OBJECTS
+<i>straight</i> 250: straight -> STRAIGHT
+<i>crooked</i> 251: crooked -> CROOKED
+<i>wet</i>18 252: wet -> WET
+<i>dry</i> 253: dry -> DRY
+<i>ripe</i> 246: ripe -> RIPE
+<i>hungry</i> 260: hungry -> HUNGRY
+<i>this</i>19 261: this -> THIS
+<i>that</i> 262: that -> THAT
+<i>who</i> 263: who -> WHO
+<i>what</i> 264: what -> WHAT
+<i>where</i> 265: where -> WHERE
+<i>how many</i> 266: how many -> HOW_MANY
+<i>morning</i> 268: morning -> MORNING
+<i>day break</i> 268b: day break -> DAY_BREAK
+<i>afternoon</i> 270: afternoon -> AFTERNOON
+<i>night</i> 271: night -> NIGHT
+<i>yesterday</i> 275: yesterday -> YESTERDAY
+<i>tomorrow</i> 278: tomorrow -> TOMORROW
+<i>day before yesterday</i> 276: day before yesterday -> DAY_BEFORE_YESTERDAY
+<i>day after tomorrow</i> 279: day after tomorrow -> DAY_AFTER_TOMORROW
+<i>before</i> 277: before -> BEFORE
+<i>afterwards</i> 280: afterwards -> AFTERWARDS
+<i>now</i> 274: now -> NOW
+<i>there</i>19 282: there -> THERE
+<i>here</i> 281: here -> HERE
+<i>near</i> 287: near -> NEAR
+<i>far</i> 288: far -> FAR
+<i>quickly</i> 289: quickly -> QUICKLY
+<i>slowly</i> 290: slowly -> SLOWLY
+<i>yes</i> 291: yes -> YES
+<i>no</i> 292: no -> NO
+<i>inside (the house)</i> 285: inside (the house) -> INSIDE_THE_HOUSE
+<i>always</i> 293: always -> ALWAYS
+<i>be</i> 296: be -> BE
+<i>sleep</i> 297: sleep -> SLEEP
+<i>cough</i> 301: cough -> COUGH
+<i>sit down</i> 298: sit down -> SIT_DOWN
+<i>stand</i> 299: stand -> STAND
+<i>stand up</i> 300: stand up -> STAND_UP
+<i>die</i> 302: die -> DIE
+<i>come</i> 303: come -> COME
+<i>go</i> 304: go -> GO
+<i>walk</i> 310: walk -> WALK
+<i>go up</i> 305: go up -> GO_UP
+<i>go down</i> 306: go down -> GO_DOWN
+<i>run</i> 309: run -> RUN
+%%%<i>fall (tree)</i> 313: fall (tree) -> FALL_OVER_TREE
+%%%<i>fly</i> (v) 315: fly -> TO_FLY
+<i>jump</i> 316: jump -> JUMP
+<i>swell up (skin)</i> 317: swell up (skin) -> SWELL_UP_SKIN
+<i>vomit</i> 318: vomit -> VOMIT
+<i>give</i>20 319: give -> GIVE
+<i>talk</i> (itr) 320: talk -> TALK
+%%%<i>talk</i> (tr) 321: talk -> TALK_TO
+<i>watch</i> (itr) 322: watch -> WATCH
+<i>see</i> (tr) 323: see -> SEE
+<i>bathe</i> (itr)21 325: bathe -> BATHE
+<i>wash</i> (tr) 326: wash -> WASH
+<i>hear</i> 324: hear -> HEAR
+<i>bite</i> 327: bite -> BITE
+<i>carry (on shoulder)</i>22 328: carry (on shoulder) -> CARRY_ON_SHOULDER
+<i>carry (on back)</i> 329: carry (on back) -> CARRY_ON_BACK
+<i>blow (on fire)</i> 332: blow (on fire) -> BLOW_ON_FIRE
+<i>dig</i> 334: dig -> DIG
+<i>break (across)</i> 333: break (across) -> BREAK_ACROSS
+<i>split</i> 335: split -> SPLIT
+<i>tear</i> 336: tear -> TEAR
+<i>cut (with knife)</i> 338: cut (with knife) -> CUT_WITH_KNIFE
+<i>chop (with axe)</i> 337: chop (with axe) -> CHOP_WITH_AXE
+%%%<i>fell (tree)</i> 340: fell (tree) -> FELL_A_TREE
+<i>bury</i> 341: bury -> BURY
+<i>plant</i> 342: plant -> PLANT
+<i>boil</i> 345: boil -> BOIL
+<i>roast</i> 344: roast -> ROAST
+%%%<i>fill up (water)</i> 347: fill up (water) -> FILL_UP
+<i>burn</i>23 346: burn -> BURN
+<i>buy</i> 343: buy -> BUY
+<i>eat</i> 348: eat -> EAT
+<i>fight (hit)</i> 349: fight (hit) -> FIGHT_HIT
+<i>kill</i> 350: kill -> KILL
+<i>throw (stone)</i> 351: throw (stone) -> THROW_STONE
+<i>shoot</i> 352: shoot -> SHOOT
+<i>look for</i> 353: look for -> LOOK_FOR
+%%%<i>pour out (liquid)</i> 357: pour out (liquid) -> POUR_OUT
+<i>work</i> 355: work -> WORK
+<i>make</i> 354: make -> MAKE
+<i>hold</i> 356: hold -> HOLD
+%%%<i>sharpen</i> 355: sharpen -> SHARPEN_A_BOW
+<i>pull</i> 358: pull -> PULL
+<i>push</i> 359: push -> PUSH
+<i>scratch (skin)</i> 361: scratch (skin) -> SCRATCH_SKIN
+<i>put</i> 360: put -> PUT
+<i>smell</i> 363: smell -> SMELL
+<i>swallow</i> 364: swallow -> SWALLOW
+<i>tie</i> 366a: tie -> TIE
+<i>fasten</i> 366b: fasten -> FASTEN
+<i>laugh</i> 369: laugh -> LAUGH
+<i>take</i> 365: take -> TAKE
+<i>call out</i> 367: call out -> CALL_OUT
+<i>cry</i> 368: cry -> CRY
+<i>singsing</i> 370: singsing -> SINGSING
+<i>dance</i> 370: dance -> DANCE
+<i>turn (oneself)</i> 371: turn (oneself) -> TURN_ONESELF
+<i>dream</i> 374: dream -> DREAM
+<i>be sick</i> 380: be sick -> BE_SICK
+<i>be afraid</i> 375: be afraid -> BE_AFRAID
+<i>cooked</i> 232: cooked -> COOKED
+<i>think</i> 373: think -> THINK
+<i>thundering</i>: thundering -> THUNDERING
+<i>lightning</i>: lightning -> LIGHTNING
+
+Parsing zgraggen1980b...
+<i>man</i> 1: man -> MAN
+<i>woman</i> 2: woman -> WOMAN
+<i>old (of humans)</i> 3: old (of humans) -> OLD_OF_HUMANS
+<i>child</i> 6: child -> CHILD
+<i>boy</i>⁴ 9: boy -> BOY
+<i>girl</i>⁵ 10: girl -> GIRL
+<i>father</i> 11: father -> FATHER
+<i>mother</i> 12: mother -> MOTHER
+<i>sibling (same sex, older)</i> 13: sibling (same sex, older) -> SIBLING_SAME_SEX_OLDER
+<i>sibling (same sex, younger)</i> 14: sibling (same sex, younger) -> SIBLING_SAME_SEX_YOUNGER
+<i>sibling (different sex, older)</i> 15: sibling (different sex, older) -> SIBLING_DIFFERENT_SEX_OLDER
+<i>sibling (different sex, younger)</i> 16: sibling (different sex, younger) -> SIBLING_DIFFERENT_SEX_YOUNGER
+<i>I</i>	24: I -> I
+<i>thou</i>	25: thou -> THOU
+<i>he</i>	26: he -> HE
+<i>we</i>	29: we -> WE
+<i>ye</i>	28: ye -> YE
+<i>they</i>	29: they -> THEY
+<i>all</i>: all -> ALL
+<i>hair</i>7 88: hair -> HAIR
+<i>head</i> 33: head -> HEAD
+<i>brains</i> 35: brains -> BRAINS
+%%%<i>face</i> 37: face -> FACE_FOREHEAD
+<i>ear</i> 38: ear -> EAR
+<i>eye</i> 39: eye -> EYE
+<i>mouth </i>41: mouth  -> MOUTH
+<i>nose</i> 42: nose -> NOSE
+<i>tongue</i> 44: tongue -> TONGUE
+<i>saliva </i>45: saliva  -> SALIVA
+<i>tooth</i> 46: tooth -> TOOTH
+<i>chin</i> 47: chin -> CHIN
+<i>nape</i> 51: nape -> NAPE
+<i>neck</i> 49: neck -> NECK
+<i>throat</i> 50: throat -> THROAT
+<i>back</i> 53: back -> BACK
+<i>buttocks</i> 54: buttocks -> BUTTOCKS
+<i>arm</i> 55: arm -> ARM
+<i>elbow</i> 57: elbow -> ELBOW
+<i>shoulder</i> 58: shoulder -> SHOULDER
+<i>armpit</i> 59: armpit -> ARMPIT
+<i>left (arm) </i>60: left (arm)  -> LEFT_ARM
+<i>right (arm)</i> 61: right (arm) -> RIGHT_ARM
+<i>thumb</i> 65: thumb -> THUMB
+<i>fingernail</i> 66: fingernail -> FINGERNAIL
+<i>leg</i> 67: leg -> LEG
+<i>(upper) leg</i> 68: (upper) leg -> UPPER_LEG
+%%%<i>calf</i> 70: calf -> CALF_OF_LEG
+<i>knee</i> 71: knee -> KNEE
+<i>belly</i>8 72: belly -> BELLY
+<i>stomach (guts)</i> 73: stomach (guts) -> STOMACH_GUTS
+<i>breast (woman)</i> 74: breast (woman) -> BREAST_WOMAN
+<i>chest</i>75: chest -> CHEST
+<i>navel</i> 77: navel -> NAVEL
+<i>blood</i> 78: blood -> BLOOD
+<i>vein</i> 79: vein -> VEIN
+<i>heart</i>9 83: heart -> HEART
+<i>liver</i>9 81: liver -> LIVER
+<i>lung</i>9 82: lung -> LUNG
+<i>bone</i> 84: bone -> BONE
+<i>skin</i> 85: skin -> SKIN
+<i>sweat</i> 86: sweat -> SWEAT
+<i>sore</i> 87: sore -> SORE
+<i>excrement</i> 89: excrement -> EXCREMENT
+<i>urine</i> 90: urine -> URINE
+<i>penis</i> 91: penis -> PENIS
+<i>vulva</i> 95: vulva -> VULVA
+<i>name</i> 93: name -> NAME
+<i>shadow</i> 92: shadow -> SHADOW
+<i>bird</i> 96: bird -> BIRD
+<i>*cassowary</i> 101: *cassowary -> CASSOWARY
+<i>tail (of bird)</i> 99: tail (of bird) -> TAIL_OF_BIRD
+<i>tail (of dog)</i> 106: tail (of dog) -> TAIL_OF_DOG
+<i>*chicken (tame)</i> 102: *chicken (tame) -> CHICKEN_TAME
+<i>*chicken (wild)</i> 103: *chicken (wild) -> CHICKEN_WILD
+<i>dog</i> 104: dog -> DOG
+<i>egg</i> 100: egg -> EGG
+<i>male</i>10 107: male -> MALE
+<i>female</i>11 108: female -> FEMALE
+<i>fly</i> (n) 109: fly -> FLY
+<i>louse</i> 112: louse -> LOUSE
+<i>fish</i> 110: fish -> FISH
+<i>crayfish</i> 111: crayfish -> CRAYFISH
+<i>mosquito </i>114: mosquito  -> MOSQUITO
+<i>*pig</i> 115: *pig -> PIG
+<i>meat</i> 116: meat -> MEAT
+<i>fat </i>117: fat  -> FAT
+<i>crocodile</i> 118: crocodile -> CROCODILE
+<i>flying fox</i> 119: flying fox -> FLYING_FOX
+<i>frog</i> 120: frog -> FROG
+<i>rat</i> 121: rat -> RAT
+<i>snake</i> 122: snake -> SNAKE
+<i>wallaby</i> 123: wallaby -> WALLABY
+<i>possum (tree)</i>12 124: possum (tree) -> POSSUM_TREE
+<i>possum (ground)</i> 125: possum (ground) -> POSSUM_GROUND
+<i>butterfly</i> 126: butterfly -> BUTTERFLY
+<i>wing</i> 98: wing -> WING
+<i>*banana</i> 127: *banana -> BANANA
+<i>*betelnut</i> 128: *betelnut -> BETELNUT
+<i>*betel pepper vine</i> 129: *betel pepper vine -> BETEL_PEPPER_VINE
+<i>*lime</i> 130: *lime -> LIME
+<i>alang-alang grass</i> 131: alang-alang grass -> ALANG-ALANG_GRASS
+<i>*pandanus</i> 132: *pandanus -> PANDANUS
+<i>*potato</i> 133: *potato -> POTATO
+<i>*sugar cane</i> 134: *sugar cane -> SUGAR_CANE
+<i>*taro</i> 135: *taro -> TARO
+%%%<i>*taro singapore</i> 136: *taro singapore -> SINGAPORE_TARO
+<i>*yam</i> 137: *yam -> YAM
+<i>*yam (discorea esculenta)</i> 138: *yam (discorea esculenta) -> YAM_DISCOREA_ESCULENTA
+<i>*tobacco</i>13 139: *tobacco -> TOBACCO
+<i>*sago</i> 140: *sago -> SAGO
+<i>*coconut (tree)</i> 141: *coconut (tree) -> COCONUT_TREE
+<i>*ripe coconut</i> 142: *ripe coconut -> RIPE_COCONUT
+<i>*green coconut</i> 143: *green coconut -> GREEN_COCONUT
+<i>tree</i> 144: tree -> TREE
+<i>fruit </i>148: fruit  -> FRUIT
+<i>sap</i> 149: sap -> SAP
+%%%<i>stump</i> 150: stump -> STUMP_OF_TREE
+%%%<i>top</i> 151: top -> TOP_OF_TREE
+%%%<i>trunk</i> 152: trunk -> TRUNK_OF_TREE
+<i>piece of wood</i> 154: piece of wood -> PIECE_OF_WOOD
+%%%<i>root </i>153: root  -> ROOT_OF_TREE
+<i>cane</i> 156: cane -> CANE
+<i>stick</i> 157: stick -> STICK
+<i>bamboo</i> 158: bamboo -> BAMBOO
+<i>bean</i> 159: bean -> BEAN
+%%%<i>shrub</i> 161: shrub -> SHRUB_TANGET
+<i>vine</i> 160: vine -> VINE
+<i>fire</i> 162: fire -> FIRE
+<i>light (of fire)</i> 163: light (of fire) -> LIGHT_OF_FIRE
+<i>smoke</i> 165: smoke -> SMOKE
+<i>ashes</i> 164: ashes -> ASHES
+<i>garden</i> 166: garden -> GARDEN
+<i>fence</i> 167: fence -> FENCE
+<i>ground</i> 168: ground -> GROUND
+<i>house</i> 169: house -> HOUSE
+<i>moon</i> 173: moon -> MOON
+<i>mountain</i> 174: mountain -> MOUNTAIN
+<i>path</i> 175: path -> PATH
+<i>sea</i> 176: sea -> SEA
+<i>shore</i> 177: shore -> SHORE
+<i>sand</i> 178: sand -> SAND
+<i>sky</i> 180: sky -> SKY
+<i>cloud</i> 181: cloud -> CLOUD
+<i>fog</i> 182: fog -> FOG
+<i>*salt</i> 183: *salt -> SALT
+<i>stone</i> 184: stone -> STONE
+<i>star</i> 185: star -> STAR
+<i>sun</i> 186: sun -> SUN
+<i>village</i> 188: village -> VILLAGE
+<i>woods</i> 189: woods -> WOODS
+<i>wind</i> 194: wind -> WIND
+<i>water</i> 190: water -> WATER
+<i>rain</i> 191: rain -> RAIN
+%%%<i>*arrow</i>14 196a: *arrow -> ARROW_A
+%%%<i>*arrow</i> 196b: *arrow -> ARROW_B
+%%%<i>*arrow</i> 196c: *arrow -> ARROW_C
+%%%<i>*arrow</i> 196d: *arrow -> ARROW_D
+%%%<i>*spear</i> 197a: *spear -> SPEAR
+%%%<i>*spear</i> 197b: *spear -> FISH_SPEAR
+<i>*axe (stone)</i> 198a: *axe (stone) -> AXE_STONE
+<i>*axe (iron)</i> 198b: *axe (iron) -> AXE_IRON
+<i>*bow</i> 199: *bow -> BOW
+<i>*rope (of bow)</i> 200: *rope (of bow) -> ROPE_OF_BOW
+<i>*comb</i> 203: *comb -> COMB
+<i>*grass skirt</i> 204: *grass skirt -> GRASS_SKIRT
+<i>*G-string</i> 205: *G-string -> G-STRING
+<i>*loincloth</i> 213: *loincloth -> LOINCLOTH
+<i>*basket</i> 214: *basket -> BASKET
+<i>*hand drum</i> 206: *hand drum -> HAND_DRUM
+<i>*signal drum</i> 207: *signal drum -> SIGNAL_DRUM
+<i>*wooden plate</i> 209: *wooden plate -> WOODEN_PLATE
+<i>*saucepan (clay pot)</i> 210: *saucepan (clay pot) -> SAUCEPAN_CLAY_POT
+<i>*knife</i> 208: *knife -> KNIFE
+<i>*netbag</i> 212: *netbag -> NETBAG
+<i>one</i> 215: one -> ONE
+<i>two</i> 216: two -> TWO
+<i>good</i> 220: good -> GOOD
+<i>bad</i> 221: bad -> BAD
+<i>big</i> 224: big -> BIG
+<i>small</i> 225: small -> SMALL
+<i>dirty</i> 222: dirty -> DIRTY
+<i>black</i> 226: black -> BLACK
+<i>red</i> 227: red -> RED
+<i>white</i> 228: white -> WHITE
+<i>yellow</i> 229: yellow -> YELLOW
+<i>green</i> 230: green -> GREEN
+<i>full</i> 234: full -> FULL
+<i>empty</i> 235: empty -> EMPTY
+<i>hot</i> 236: hot -> HOT
+<i>cold</i> 237: cold -> COLD
+<i>sharp</i>15 248: sharp -> SHARP
+<i>heavy</i> 238: heavy -> HEAVY
+<i>long</i> 240: long -> LONG
+<i>short</i> 241: short -> SHORT
+<i>many</i> 242: many -> MANY
+<i>few</i> 243: few -> FEW
+<i>new</i> 244: new -> NEW
+<i>old (of objects)</i> 245: old (of objects) -> OLD_OF_OBJECTS
+<i>straight</i> 250: straight -> STRAIGHT
+<i>crooked</i> 251: crooked -> CROOKED
+<i>wet</i>16 252: wet -> WET
+<i>dry</i> 253: dry -> DRY
+<i>ripe</i> 246: ripe -> RIPE
+<i>hungry</i> 260: hungry -> HUNGRY
+<i>this</i>17 261: this -> THIS
+<i>that</i> 262: that -> THAT
+<i>who</i> 263: who -> WHO
+<i>what</i> 264: what -> WHAT
+<i>where</i> 265: where -> WHERE
+<i>how many</i> 266: how many -> HOW_MANY
+<i>morning</i> 268: morning -> MORNING
+<i>day break</i> 268b: day break -> DAY_BREAK
+<i>afternoon</i> 270: afternoon -> AFTERNOON
+<i>night</i> 271: night -> NIGHT
+<i>yesterday</i> 275: yesterday -> YESTERDAY
+<i>tomorrow</i> 278: tomorrow -> TOMORROW
+<i>day before yesterday</i> 276: day before yesterday -> DAY_BEFORE_YESTERDAY
+<i>day after tomorrow</i> 279: day after tomorrow -> DAY_AFTER_TOMORROW
+<i>before</i> 277: before -> BEFORE
+<i>afterwards</i> 280: afterwards -> AFTERWARDS
+<i>now</i> 274: now -> NOW
+<i>there</i>16 282: there -> THERE
+<i>here</i> 281: here -> HERE
+<i>near</i> 287: near -> NEAR
+<i>far</i> 288: far -> FAR
+<i>quickly</i> 289: quickly -> QUICKLY
+<i>slowly</i> 290: slowly -> SLOWLY
+<i>yes</i> 291: yes -> YES
+<i>no</i> 292: no -> NO
+<i>always</i> 293: always -> ALWAYS
+<i>inside (the house)</i> 285: inside (the house) -> INSIDE_THE_HOUSE
+<i>be</i> 296: be -> BE
+<i>sleep</i> 297: sleep -> SLEEP
+<i>cough</i> 301: cough -> COUGH
+<i>sit down</i> 298: sit down -> SIT_DOWN
+<i>stand</i> 299: stand -> STAND
+<i>stand up</i> 300: stand up -> STAND_UP
+<i>die</i> 302: die -> DIE
+<i>come</i> 303: come -> COME
+<i>go</i> 304: go -> GO
+<i>walk</i> 310: walk -> WALK
+<i>go up</i> 305: go up -> GO_UP
+<i>go down</i> 306: go down -> GO_DOWN
+<i>run</i> 309: run -> RUN
+<i>fall over (tree)</i> 313: fall over (tree) -> FALL_OVER_TREE
+%%%<i>fly</i> (v) 315: fly -> TO_FLY
+<i>jump</i> 316: jump -> JUMP
+<i>swell up (skin)</i> 317: swell up (skin) -> SWELL_UP_SKIN
+<i>vomit</i> 318: vomit -> VOMIT
+<i>give</i>18 319: give -> GIVE
+<i>talk</i> (itr) 320: talk -> TALK
+<i>talk to</i> (tr) 321: talk to -> TALK_TO
+<i>watch</i> (itr) 322: watch -> WATCH
+<i>see</i> (tr) 323: see -> SEE
+<i>bathe</i>19 (itr) 325: bathe -> BATHE
+<i>wash</i> (tr) 326: wash -> WASH
+<i>hear</i> 324: hear -> HEAR
+<i>bite</i> 327: bite -> BITE
+<i>carry (on back)</i> 329: carry (on back) -> CARRY_ON_BACK
+<i>carry (on shoulder)</i>20 328: carry (on shoulder) -> CARRY_ON_SHOULDER
+<i>blow on (fire)</i> 332: blow on (fire) -> BLOW_ON_FIRE
+<i>dig</i> 334: dig -> DIG
+%%%<i>break (across the grain)</i> 333: break (across the grain) -> BREAK_ACROSS
+<i>split</i> 335: split -> SPLIT
+<i>tear</i> 336: tear -> TEAR
+<i>cut (with knife)</i> 338: cut (with knife) -> CUT_WITH_KNIFE
+%%%<i>chop</i> 337: chop -> CHOP_WITH_AXE
+<i>fell (a tree)</i> 340: fell (a tree) -> FELL_A_TREE
+<i>bury</i> 341: bury -> BURY
+<i>plant</i> (v) 342: plant -> PLANT
+<i>roast</i> 344: roast -> ROAST
+<i>boil</i> 345: boil -> BOIL
+<i>burn</i> (tr)21 346: burn -> BURN
+%%%<i>fill up (water)</i> 147: fill up (water) -> FILL_UP
+<i>buy</i> 343: buy -> BUY
+<i>eat</i> 348: eat -> EAT
+<i>kill</i> 350: kill -> KILL
+<i>fight (hit)</i> 349: fight (hit) -> FIGHT_HIT
+<i>throw (stone)</i> 351: throw (stone) -> THROW_STONE
+<i>shoot</i> 352: shoot -> SHOOT
+<i>look for</i> 353: look for -> LOOK_FOR
+%%%<i>pour out (liquid)</i> 357: pour out (liquid) -> POUR_OUT
+<i>make</i> 354: make -> MAKE
+<i>work</i> (v) 355: work -> WORK
+<i>sharpen (a bow)</i> 355b: sharpen (a bow) -> SHARPEN_A_BOW
+<i>hold</i> 356: hold -> HOLD
+<i>push</i> 359: push -> PUSH
+<i>pull</i> 358: pull -> PULL
+%%%<i>scratch</i> 361: scratch -> SCRATCH_SKIN
+<i>put</i> 360: put -> PUT
+<i>smell</i> (tr) 363: smell -> SMELL
+<i>swallow</i> 364: swallow -> SWALLOW
+<i>tie</i> 366a: tie -> TIE
+<i>fasten</i> 366b: fasten -> FASTEN
+<i>take</i> 365: take -> TAKE
+<i>laugh</i> 369: laugh -> LAUGH
+<i>call out</i> 367: call out -> CALL_OUT
+<i>cry</i> 368: cry -> CRY
+<i>singsing</i> 370a: singsing -> SINGSING
+<i>dance</i> 370b: dance -> DANCE
+<i>turn (oneself)</i> 371: turn (oneself) -> TURN_ONESELF
+<i>dream</i> 374: dream -> DREAM
+%%%<i>sick</i> 380: sick -> BE_SICK
+%%%<i>afraid</i> (v) 375: afraid -> BE_AFRAID
+<i>cooked</i> 232: cooked -> COOKED
+<i>think</i> 373: think -> THINK
+<i>thundering</i> 318b: thundering -> THUNDERING
+<i>lightning</i> 318c: lightning -> LIGHTNING
+
+Parsing zgraggen1980c...
+<i>man 1</i>: man 1 -> MAN_1
+<i>woman</i> 2: woman -> WOMAN
+<i>old (of humans)</i> 3: old (of humans) -> OLD_OF_HUMANS
+<i>child</i> 6: child -> CHILD
+<i>boy</i> 94: boy -> BOY
+<i>girl</i> 104: girl -> GIRL
+<i>father</i> 115: father -> FATHER
+<i>mother</i> 125: mother -> MOTHER
+<i>sibling same sex, older</i> 13: sibling same sex, older -> SIBLING_SAME_SEX_OLDER
+<i>sibling same sex, younger</i> 14: sibling same sex, younger -> SIBLING_SAME_SEX_YOUNGER
+<i>sibling different sex, older</i> 15: sibling different sex, older -> SIBLING_DIFFERENT_SEX_OLDER
+<i>sibling different sex, younger</i> 16: sibling different sex, younger -> SIBLING_DIFFERENT_SEX_YOUNGER
+<i>I</i>	24: I -> I
+<i>thou</i>	25: thou -> THOU
+<i>he</i>	26: he -> HE
+<i>we</i>	27: we -> WE
+<i>ye</i>	28: ye -> YE
+<i>they</i>	12: they -> THEY
+<i>all</i>: all -> ALL
+<i>hair</i>6 88: hair -> HAIR
+<i>head</i> 33: head -> HEAD
+<i>brains</i> 35: brains -> BRAINS
+<i>face (forehead)</i> 37: face (forehead) -> FACE_FOREHEAD
+<i>ear</i> 38: ear -> EAR
+<i>eye</i> 39: eye -> EYE
+<i>mouth</i> 41: mouth -> MOUTH
+<i>nose</i> 42: nose -> NOSE
+<i>tongue</i> 44: tongue -> TONGUE
+<i>saliva</i> 45: saliva -> SALIVA
+<i>tooth</i> 46: tooth -> TOOTH
+<i>chin</i> 47: chin -> CHIN
+<i>nape</i> 51: nape -> NAPE
+<i>neck</i> 49: neck -> NECK
+<i>throat</i> 50: throat -> THROAT
+<i>back</i> 53: back -> BACK
+<i>buttocks</i> 54: buttocks -> BUTTOCKS
+<i>arm</i> 55: arm -> ARM
+<i>elbow</i> 57: elbow -> ELBOW
+<i>shoulder</i> 58: shoulder -> SHOULDER
+<i>armpit</i> 59: armpit -> ARMPIT
+<i>left (arm) </i>60: left (arm)  -> LEFT_ARM
+<i>right (arm)</i> 61: right (arm) -> RIGHT_ARM
+<i>thumb</i> 65: thumb -> THUMB
+<i>fingernail</i> 66: fingernail -> FINGERNAIL
+<i>leg </i>67: leg  -> LEG
+<i>upper leg</i> 68: upper leg -> UPPER_LEG
+<i>calf (of leg)</i> 70: calf (of leg) -> CALF_OF_LEG
+<i>knee</i> 71: knee -> KNEE
+<i>belly</i> 727: belly -> BELLY
+<i>stomach (guts)</i> 73: stomach (guts) -> STOMACH_GUTS
+<i>breast (woman)</i> 74: breast (woman) -> BREAST_WOMAN
+<i>chest</i> 75: chest -> CHEST
+<i>navel</i> 77: navel -> NAVEL
+<i>blood</i> 78: blood -> BLOOD
+<i>vein</i> 79: vein -> VEIN
+<i>heart</i>8 83: heart -> HEART
+<i>liver</i> 81: liver -> LIVER
+<i>lung</i> 82: lung -> LUNG
+<i>bone</i> 84: bone -> BONE
+%%%<i>skin (body)</i> 85: skin (body) -> SKIN
+<i>sweat</i> 86: sweat -> SWEAT
+<i>sore</i> 87: sore -> SORE
+<i>excrement</i> 89: excrement -> EXCREMENT
+<i>urine</i> 90: urine -> URINE
+<i>penis</i> 91: penis -> PENIS
+<i>vulva</i> 95: vulva -> VULVA
+<i>name</i> 93: name -> NAME
+<i>shadow</i> 92: shadow -> SHADOW
+<i>cassowary*</i> 101: cassowary* -> CASSOWARY*
+<i>bird</i> 96: bird -> BIRD
+<i>tail (of bird)</i> 99: tail (of bird) -> TAIL_OF_BIRD
+%%%<i>tail</i> 106: tail -> TAIL_OF_DOG
+<i>*chicken (tame)</i> 102: *chicken (tame) -> CHICKEN_TAME
+<i>chicken (wild)</i> 103: chicken (wild) -> CHICKEN_WILD
+<i>egg </i>100: egg  -> EGG
+<i>dog</i> 104: dog -> DOG
+%%%<i>male (of animals)</i> 107: male (of animals) -> MALE
+%%%<i>female (of animals)</i> 108: female (of animals) -> FEMALE
+<i>fly</i> (n) 109: fly -> FLY
+<i>louse</i> 112: louse -> LOUSE
+<i>fish</i> 110: fish -> FISH
+<i>crayfish</i> 111: crayfish -> CRAYFISH
+<i>mosquito</i> 114: mosquito -> MOSQUITO
+<i>pig*</i> 115: pig* -> PIG*
+<i>meat</i> 116: meat -> MEAT
+<i>fat</i> 117: fat -> FAT
+<i>crocodile* </i>118: crocodile*  -> CROCODILE*
+<i>flying fox</i> 119: flying fox -> FLYING_FOX
+<i>frog </i>120: frog  -> FROG
+<i>rat </i>121: rat  -> RAT
+<i>snake</i> 122: snake -> SNAKE
+<i>wallaby</i> 123: wallaby -> WALLABY
+%%%<i>possum (tree)9</i> 124: possum (tree)9 -> POSSUM_TREE
+<i>possum (ground)</i> 125: possum (ground) -> POSSUM_GROUND
+<i>butterfly</i> 126: butterfly -> BUTTERFLY
+<i>wing </i>98: wing  -> WING
+<i>banana</i> 127: banana -> BANANA
+<i>*betelnut</i> 128: *betelnut -> BETELNUT
+<i>*betel pepper vine </i>129: *betel pepper vine  -> BETEL_PEPPER_VINE
+<i>*lime</i> 130: *lime -> LIME
+<i>alang-alang grass </i>131: alang-alang grass  -> ALANG-ALANG_GRASS
+<i>pandanus </i>132: pandanus  -> PANDANUS
+<i>*potato</i> 133: *potato -> POTATO
+%%%<i>*sugar</i> 134: *sugar -> SUGAR_CANE
+<i>taro</i> 135: taro -> TARO
+<i>*singapore taro</i> 136: *singapore taro -> SINGAPORE_TARO
+<i>yam</i> 137: yam -> YAM
+%%%<i>yam (dioscorea esculenta)</i> 138: yam (dioscorea esculenta) -> YAM_DISCOREA_ESCULENTA
+<i>*tobacco10</i> 139: *tobacco10 -> TOBACCO10
+<i>*sago</i> 140: *sago -> SAGO
+<i>*coconut (tree)</i>	141: *coconut (tree) -> COCONUT_TREE
+<i>*ripe coconut</i> 142: *ripe coconut -> RIPE_COCONUT
+<i>*green coconut</i> 143: *green coconut -> GREEN_COCONUT
+<i>tree</i> 144: tree -> TREE
+<i>fruit</i> 148: fruit -> FRUIT
+<i>sap</i> 149: sap -> SAP
+<i>stump (of tree)</i> 150: stump (of tree) -> STUMP_OF_TREE
+<i>top (of tree)</i> 151: top (of tree) -> TOP_OF_TREE
+<i>trunk (of tree)</i> 152: trunk (of tree) -> TRUNK_OF_TREE
+<i>root (of tree)</i> 153: root (of tree) -> ROOT_OF_TREE
+<i>piece of wood</i> 154: piece of wood -> PIECE_OF_WOOD
+<i>cane</i> 156: cane -> CANE
+<i>stick</i> 157: stick -> STICK
+<i>bamboo</i> 158: bamboo -> BAMBOO
+<i>*bean</i> 159: *bean -> BEAN
+<i>shrub (tanget)</i> 161: shrub (tanget) -> SHRUB_TANGET
+<i>vine</i> 160: vine -> VINE
+<i>fire</i> 162: fire -> FIRE
+<i>light (of fire)</i> 163: light (of fire) -> LIGHT_OF_FIRE
+<i>smoke</i> 165: smoke -> SMOKE
+<i>ashes</i> 164: ashes -> ASHES
+<i>garden</i> 166: garden -> GARDEN
+<i>fence</i> 167: fence -> FENCE
+<i>ground</i> 168: ground -> GROUND
+<i>house</i> 169: house -> HOUSE
+<i>moon</i> 173: moon -> MOON
+<i>mountain</i> 174: mountain -> MOUNTAIN
+<i>path</i> 175: path -> PATH
+<i>sea</i> 176: sea -> SEA
+<i>shore</i> 177: shore -> SHORE
+<i>sand</i> 178: sand -> SAND
+<i>sky</i> 180: sky -> SKY
+<i>cloud</i> 181: cloud -> CLOUD
+<i>fog</i> 182: fog -> FOG
+<i>salt</i> 183: salt -> SALT
+<i>stone</i> 184: stone -> STONE
+<i>star</i> 185: star -> STAR
+<i>sun</i> 186: sun -> SUN
+<i>village</i> 188: village -> VILLAGE
+<i>woods</i> 189: woods -> WOODS
+<i>wind</i> 194: wind -> WIND
+<i>water</i> 190: water -> WATER
+<i>rain</i> 191: rain -> RAIN
+%%%<i>*arrow</i>11 196b: *arrow -> ARROW_B
+%%%<i>*arrow</i> 196a: *arrow -> ARROW_A
+%%%<i>*arrow</i> 196c: *arrow -> ARROW_C
+%%%<i>*arrow</i> 196d: *arrow -> ARROW_D
+%%%<i>*spear</i> 197a: *spear -> SPEAR
+%%%<i>*spear (fish spear)</i> 197b: *spear (fish spear) -> FISH_SPEAR
+<i>*axe (stone)</i> 198a: *axe (stone) -> AXE_STONE
+<i>*axe (iron)</i> 198b: *axe (iron) -> AXE_IRON
+<i>*bow</i> 199: *bow -> BOW
+<i>*rope (of bow)</i> 200: *rope (of bow) -> ROPE_OF_BOW
+<i>*comb</i> 203: *comb -> COMB
+<i>*grass skirt</i> 204: *grass skirt -> GRASS_SKIRT
+<i>*G-string</i> 205: *G-string -> G-STRING
+<i>*loincloth</i>12 213: *loincloth -> LOINCLOTH
+<i>*basket</i> 214: *basket -> BASKET
+<i>*hand drum</i> 206: *hand drum -> HAND_DRUM
+<i>*signal drum</i> 207: *signal drum -> SIGNAL_DRUM
+<i>*wooden plate</i> 209: *wooden plate -> WOODEN_PLATE
+<i>*saucepan (clay pot)</i> 210: *saucepan (clay pot) -> SAUCEPAN_CLAY_POT
+<i>*knife</i> 208: *knife -> KNIFE
+<i>*netbag</i> 212: *netbag -> NETBAG
+<i>one</i> 215: one -> ONE
+<i>two</i> 216: two -> TWO
+<i>bad</i> 221: bad -> BAD
+<i>good</i> 220: good -> GOOD
+<i>big</i> 224: big -> BIG
+<i>small</i> 225: small -> SMALL
+<i>dirty</i> 222: dirty -> DIRTY
+<i>black</i> 226: black -> BLACK
+<i>red</i> 227: red -> RED
+<i>white</i> 228: white -> WHITE
+<i>yellow</i> 299: yellow -> YELLOW
+<i>green</i> 230: green -> GREEN
+<i>full</i> 234: full -> FULL
+<i>empty</i> 235: empty -> EMPTY
+<i>hot</i> 236: hot -> HOT
+<i>cold</i> 237: cold -> COLD
+<i>sharp</i>13 248: sharp -> SHARP
+<i>heavy</i> 238: heavy -> HEAVY
+<i>long</i> 240: long -> LONG
+<i>short</i> 241: short -> SHORT
+<i>many</i> 242: many -> MANY
+<i>few</i> 243: few -> FEW
+<i>new</i> 244: new -> NEW
+<i>old (of objects)</i> 245: old (of objects) -> OLD_OF_OBJECTS
+<i>straight</i> 250: straight -> STRAIGHT
+<i>crooked</i> 251: crooked -> CROOKED
+<i>wet</i>14 252: wet -> WET
+<i>dry</i> 253: dry -> DRY
+<i>ripe</i> 246: ripe -> RIPE
+<i>hungry</i> 260: hungry -> HUNGRY
+<i>this</i>15 261: this -> THIS
+<i>that</i> 262: that -> THAT
+<i>who</i> 263: who -> WHO
+<i>what</i> 264: what -> WHAT
+<i>where</i> 265: where -> WHERE
+<i>how many</i> 266: how many -> HOW_MANY
+<i>morning</i> 268a: morning -> MORNING
+<i>day break</i> 268b: day break -> DAY_BREAK
+<i>afternoon</i> 270: afternoon -> AFTERNOON
+<i>night</i> 271: night -> NIGHT
+<i>yesterday</i> 275: yesterday -> YESTERDAY
+<i>tomorrow</i> 278: tomorrow -> TOMORROW
+<i>day before yesterday</i> 276: day before yesterday -> DAY_BEFORE_YESTERDAY
+<i>day after tomorrow</i> 279: day after tomorrow -> DAY_AFTER_TOMORROW
+<i>before</i> 277: before -> BEFORE
+<i>afterwards</i> 280: afterwards -> AFTERWARDS
+<i>now</i> 274: now -> NOW
+<i>there</i>15 282: there -> THERE
+<i>here</i> 281: here -> HERE
+<i>near</i> 287: near -> NEAR
+<i>far</i> 288: far -> FAR
+<i>quickly</i> 289: quickly -> QUICKLY
+<i>slowly</i> 290: slowly -> SLOWLY
+<i>yes</i> 291: yes -> YES
+<i>no</i> 292: no -> NO
+<i>always</i> 293: always -> ALWAYS
+<i>inside (the house)</i> 285: inside (the house) -> INSIDE_THE_HOUSE
+<i>be</i> 296: be -> BE
+<i>sleep</i> 297: sleep -> SLEEP
+<i>cough</i> 301: cough -> COUGH
+<i>sit down</i> 298: sit down -> SIT_DOWN
+<i>stand</i> 299: stand -> STAND
+<i>stand up</i> 300: stand up -> STAND_UP
+<i>die</i> 302: die -> DIE
+<i>come</i> 303: come -> COME
+<i>go</i> 304: go -> GO
+<i>walk</i> 310: walk -> WALK
+<i>go up</i> 305: go up -> GO_UP
+<i>go down</i> 306: go down -> GO_DOWN
+<i>run</i> 309: run -> RUN
+%%%<i>fall (tree)</i> 313: fall (tree) -> FALL_OVER_TREE
+%%%<i>fly</i> (v) 315: fly -> TO_FLY
+<i>jump</i> 316: jump -> JUMP
+<i>swell up (skin)</i> 317: swell up (skin) -> SWELL_UP_SKIN
+<i>vomit</i> 318: vomit -> VOMIT
+<i>give</i>16 319: give -> GIVE
+<i>talk</i> (itr)17 320: talk -> TALK
+%%%<i>talk</i> (tr) 321: talk -> TALK_TO
+<i>watch</i> (itr) 322: watch -> WATCH
+<i>see</i> (tr) 323: see -> SEE
+<i>bathe</i>18 (itr) 325: bathe -> BATHE
+<i>wash</i> (tr) 326: wash -> WASH
+<i>hear</i> 324: hear -> HEAR
+<i>bite</i> 327: bite -> BITE
+<i>carry (on back)</i> 329: carry (on back) -> CARRY_ON_BACK
+<i>carry (on shoulder)</i>19 328: carry (on shoulder) -> CARRY_ON_SHOULDER
+<i>blow (on fire)</i> 332: blow (on fire) -> BLOW_ON_FIRE
+<i>dig</i> 334: dig -> DIG
+<i>break (across)</i> 333: break (across) -> BREAK_ACROSS
+<i>split</i> 335: split -> SPLIT
+<i>tear</i> 336: tear -> TEAR
+<i>cut (with knife)</i> 338: cut (with knife) -> CUT_WITH_KNIFE
+<i>chop (with axe)</i> 337: chop (with axe) -> CHOP_WITH_AXE
+<i>fell (a tree)</i> 340: fell (a tree) -> FELL_A_TREE
+<i>bury</i> 341: bury -> BURY
+<i>plant</i> 342: plant -> PLANT
+%%%<i>roast (in fire)</i>20 344: roast (in fire) -> ROAST
+<i>boil</i> 345: boil -> BOIL
+<i>burn</i> 346: burn -> BURN
+%%%<i>fill up (water)</i> 347: fill up (water) -> FILL_UP
+<i>buy</i> 343: buy -> BUY
+<i>eat</i> 348: eat -> EAT
+<i>kill</i> 350: kill -> KILL
+<i>fight (hit)</i> 349: fight (hit) -> FIGHT_HIT
+<i>throw (stone)</i> 351: throw (stone) -> THROW_STONE
+<i>shoot</i> 352: shoot -> SHOOT
+<i>look for</i>: look for -> LOOK_FOR
+%%%<i>pour out</i> 357: pour out -> POUR_OUT
+<i>make</i>21 354: make -> MAKE
+<i>work</i>22 255: work -> WORK
+%%%<i>sharpen</i> 355: sharpen -> SHARPEN_A_BOW
+<i>hold</i> 356: hold -> HOLD
+<i>push</i> 359: push -> PUSH
+<i>pull</i> 358: pull -> PULL
+<i>scratch (skin)</i> 361: scratch (skin) -> SCRATCH_SKIN
+<i>put</i> 360: put -> PUT
+<i>smell</i>23 363: smell -> SMELL
+<i>swallow</i>24 364: swallow -> SWALLOW
+<i>tie</i> 366: tie -> TIE
+<i>fasten</i> 366: fasten -> FASTEN
+<i>laugh</i> 369: laugh -> LAUGH
+<i>take</i> 365: take -> TAKE
+<i>call out</i> 367: call out -> CALL_OUT
+<i>cry</i> 368: cry -> CRY
+<i>dance</i> 370: dance -> DANCE
+<i>singsing</i>25 370: singsing -> SINGSING
+<i>turn oneself</i> 371: turn oneself -> TURN_ONESELF
+<i>dream</i> 374: dream -> DREAM
+<i>(be) sick</i> 380: (be) sick -> BE_SICK
+<i>be afraid</i> 375: be afraid -> BE_AFRAID
+<i>cooked</i> 232: cooked -> COOKED
+<i>think</i>26 373: think -> THINK
+<i>thundering</i>26: thundering -> THUNDERING
+<i>lightning</i>: lightning -> LIGHTNING
+
+Parsing zgraggen1980d...
+<i>man</i>³ 1: man -> MAN
+<i>old (of humans)</i>	3: old (of humans) -> OLD_OF_HUMANS
+<i>woman</i>³ 2: woman -> WOMAN
+<i>child</i>	6: child -> CHILD
+<i>boy</i>⁴ 9: boy -> BOY
+<i>father</i>	11: father -> FATHER
+<i>girl</i>⁵ 10: girl -> GIRL
+<i>mother</i>	12: mother -> MOTHER
+<i>sibling (same sex, older) </i>13: sibling (same sex, older)  -> SIBLING_SAME_SEX_OLDER
+%%%<i>sibling (dif. sex, older)</i>	15: sibling (dif. sex, older) -> SIBLING_DIFFERENT_SEX_OLDER
+<i>sibling (same sex, younger)</i> 14: sibling (same sex, younger) -> SIBLING_SAME_SEX_YOUNGER
+%%%<i>sibling (dif. sex, younger)</i>	16: sibling (dif. sex, younger) -> SIBLING_DIFFERENT_SEX_YOUNGER
+<i>I</i> 24: I -> I
+<i>thou</i> 25: thou -> THOU
+<i>he</i> 26: he -> HE
+<i>we</i> 27: we -> WE
+<i>ye</i> 28: ye -> YE
+<i>they</i> 29: they -> THEY
+<i>all</i>: all -> ALL
+<i>head</i> 33: head -> HEAD
+<i>hair</i>7 88: hair -> HAIR
+<i>brains</i> 35: brains -> BRAINS
+<i>face (forehead)</i> 37: face (forehead) -> FACE_FOREHEAD
+<i>eye</i> 39: eye -> EYE
+<i>ear</i> 38: ear -> EAR
+<i>mouth</i> 14: mouth -> MOUTH
+<i>nose</i> 42: nose -> NOSE
+<i>saliva</i> 45: saliva -> SALIVA
+<i>tongue</i> 44: tongue -> TONGUE
+<i>tooth</i> 46: tooth -> TOOTH
+<i>chin</i> 47: chin -> CHIN
+<i>neck</i> 49: neck -> NECK
+<i>nape</i> 51: nape -> NAPE
+<i>throat</i> 50: throat -> THROAT
+<i>back</i> 53: back -> BACK
+<i>arm</i> 55: arm -> ARM
+<i>buttocks</i> 54: buttocks -> BUTTOCKS
+<i>elbow</i> 57: elbow -> ELBOW
+<i>shoulder</i> 58: shoulder -> SHOULDER
+<i>left (arm)</i> 60: left (arm) -> LEFT_ARM
+<i>armpit</i> 59: armpit -> ARMPIT
+<i>right (arm)</i> 61: right (arm) -> RIGHT_ARM
+<i>thumb</i> 65: thumb -> THUMB
+<i>leg</i> 67: leg -> LEG
+<i>fingernail</i> 66: fingernail -> FINGERNAIL
+<i>(upper) leg</i> 68: (upper) leg -> UPPER_LEG
+<i>calf (of leg)</i> 70: calf (of leg) -> CALF_OF_LEG
+<i>belly</i>8 72: belly -> BELLY
+<i>knee</i> 71: knee -> KNEE
+<i>stomach (guts)</i> 73: stomach (guts) -> STOMACH_GUTS
+<i>breast (woman)</i> 74: breast (woman) -> BREAST_WOMAN
+<i>navel</i> 77: navel -> NAVEL
+<i>chest</i> 75: chest -> CHEST
+<i>blood</i> 78: blood -> BLOOD
+<i>vein</i> 79: vein -> VEIN
+<i>liver</i> 81: liver -> LIVER
+<i>heart</i>9 83: heart -> HEART
+<i>lung</i> 82: lung -> LUNG
+<i>bone</i> 84: bone -> BONE
+<i>sweat</i> 86: sweat -> SWEAT
+<i>skin</i> 85: skin -> SKIN
+<i>sore</i> 87: sore -> SORE
+<i>excrement</i> 89: excrement -> EXCREMENT
+<i>penis</i> 91: penis -> PENIS
+<i>urine</i> 90: urine -> URINE
+<i>vulva</i> 95: vulva -> VULVA
+<i>name</i> 93: name -> NAME
+<i>bird</i> 96: bird -> BIRD
+<i>shadow</i> 92: shadow -> SHADOW
+<i>*cassowary</i> 101: *cassowary -> CASSOWARY
+<i>tail (of bird)</i> 99: tail (of bird) -> TAIL_OF_BIRD
+<i>*chicken (tame)</i> 102: *chicken (tame) -> CHICKEN_TAME
+<i>tail (of dog)</i> 106: tail (of dog) -> TAIL_OF_DOG
+<i>*chicken (wild)</i> 103: *chicken (wild) -> CHICKEN_WILD
+<i>dog</i> 104: dog -> DOG
+<i>male</i>10 107: male -> MALE
+<i>egg</i> 100: egg -> EGG
+<i>female</i>11 108: female -> FEMALE
+<i>fly</i> (n) 109: fly -> FLY
+<i>fish</i> 110: fish -> FISH
+<i>louse</i> 112: louse -> LOUSE
+<i>crayfish</i> 111: crayfish -> CRAYFISH
+<i>mosquito</i> 114: mosquito -> MOSQUITO
+<i>meat</i> 116: meat -> MEAT
+<i>*pig</i> 115: *pig -> PIG
+<i>fat</i> 117: fat -> FAT
+<i>crocodile</i> 118: crocodile -> CROCODILE
+<i>frog</i> 120: frog -> FROG
+<i>flying fox</i> 119: flying fox -> FLYING_FOX
+<i>rat</i> 121: rat -> RAT
+<i>snake</i> 122: snake -> SNAKE
+%%%<i>possum</i>12 <i>(tree)</i> 124: possum -> POSSUM_TREE
+<i>wallaby</i> 123: wallaby -> WALLABY
+<i>possum (ground)</i> 125: possum (ground) -> POSSUM_GROUND
+<i>butterfly</i> 126: butterfly -> BUTTERFLY
+<i>*banana</i> 127: *banana -> BANANA
+<i>wing</i> 98: wing -> WING
+<i>*betelnut</i> 128: *betelnut -> BETELNUT
+<i>*betel pepper vine</i> 129: *betel pepper vine -> BETEL_PEPPER_VINE
+<i>alang-alang grass</i> 131: alang-alang grass -> ALANG-ALANG_GRASS
+<i>*lime</i> 130: *lime -> LIME
+<i>*pandanus</i> 132: *pandanus -> PANDANUS
+<i>*potato</i> 133: *potato -> POTATO
+<i>*taro</i> 135: *taro -> TARO
+<i>*sugar cane</i> 134: *sugar cane -> SUGAR_CANE
+%%%<i>*taro singapore</i> 136: *taro singapore -> SINGAPORE_TARO
+<i>*yam</i> 137: *yam -> YAM
+<i>*tobacco</i>13 139: *tobacco -> TOBACCO
+<i>*yam (discorea esculenta)</i> 138: *yam (discorea esculenta) -> YAM_DISCOREA_ESCULENTA
+<i>*sago</i> 140: *sago -> SAGO
+<i>*coconut (tree)</i> 141: *coconut (tree) -> COCONUT_TREE
+<i>*ripe coconut</i> 142: *ripe coconut -> RIPE_COCONUT
+<i>*green coconut</i> 143: *green coconut -> GREEN_COCONUT
+<i>tree</i> 144: tree -> TREE
+<i>sap</i> 149: sap -> SAP
+<i>fruit</i> 148: fruit -> FRUIT
+%%%<i>stump</i> 150: stump -> STUMP_OF_TREE
+%%%<i>top</i> 151: top -> TOP_OF_TREE
+%%%<i>root</i> 153: root -> ROOT_OF_TREE
+%%%<i>trunk</i> 152: trunk -> TRUNK_OF_TREE
+<i>piece of wood</i> 154: piece of wood -> PIECE_OF_WOOD
+<i>cane</i> 156: cane -> CANE
+<i>bamboo</i> 158: bamboo -> BAMBOO
+<i>stick</i> 157: stick -> STICK
+<i>bean</i> 159: bean -> BEAN
+%%%<i>shrub</i> 161: shrub -> SHRUB_TANGET
+<i>fire</i> 162: fire -> FIRE
+<i>vine</i> 160: vine -> VINE
+<i>light (of fire)</i> 163: light (of fire) -> LIGHT_OF_FIRE
+<i>smoke</i> 165: smoke -> SMOKE
+<i>garden</i> 166: garden -> GARDEN
+<i>ashes</i> 164: ashes -> ASHES
+<i>*fence</i> 167: *fence -> FENCE
+<i>ground</i> 168: ground -> GROUND
+<i>moon</i> 173: moon -> MOON
+<i>house</i> 169: house -> HOUSE
+<i>mountain</i> 174: mountain -> MOUNTAIN
+<i>path</i> 175: path -> PATH
+<i>shore</i> 177: shore -> SHORE
+<i>sea</i> 176: sea -> SEA
+<i>sand</i> 178: sand -> SAND
+<i>sky</i> 180: sky -> SKY
+<i>fog</i> 182: fog -> FOG
+<i>cloud</i> 181: cloud -> CLOUD
+<i>*salt</i> 183: *salt -> SALT
+<i>stone</i> 184: stone -> STONE
+<i>sun</i> 186: sun -> SUN
+<i>star</i> 185: star -> STAR
+<i>village</i> 188: village -> VILLAGE
+<i>woods</i> 189: woods -> WOODS
+<i>water</i> 190: water -> WATER
+<i>wind</i> 194: wind -> WIND
+<i>rain</i> 191: rain -> RAIN
+%%%<i>*arrow</i>14 196a: *arrow -> ARROW_A
+%%%<i>*arrow</i> 196c: *arrow -> ARROW_C
+%%%<i>*arrow</i> 196d: *arrow -> ARROW_D
+%%%<i>*arrow</i> 196b: *arrow -> ARROW_B
+<i>*spear</i> 197: *spear -> SPEAR
+<i>*axe (stone)</i> 198a: *axe (stone) -> AXE_STONE
+<i>*axe (iron)</i> 198b: *axe (iron) -> AXE_IRON
+<i>*bow</i> 199: *bow -> BOW
+<i>*comb</i> 203: *comb -> COMB
+<i>*rope (of bow)</i> 200: *rope (of bow) -> ROPE_OF_BOW
+<i>*grass skirt</i> 204: *grass skirt -> GRASS_SKIRT
+<i>*G-string</i> 205: *G-string -> G-STRING
+<i>*basket</i> 214: *basket -> BASKET
+<i>*loincloth</i> 213: *loincloth -> LOINCLOTH
+<i>*hand drum</i> 206: *hand drum -> HAND_DRUM
+<i>*wooden plate</i> 209: *wooden plate -> WOODEN_PLATE
+<i>*signal drum</i> 207: *signal drum -> SIGNAL_DRUM
+<i>*saucepan (clay pot)</i> 210: *saucepan (clay pot) -> SAUCEPAN_CLAY_POT
+<i>*knife</i> 208: *knife -> KNIFE
+<i>one</i> 215: one -> ONE
+<i>*netbag</i> 212: *netbag -> NETBAG
+<i>two</i> 216: two -> TWO
+<i>bad</i> 221: bad -> BAD
+<i>big</i> 224: big -> BIG
+<i>good</i> 220: good -> GOOD
+<i>small</i> 225: small -> SMALL
+<i>dirty</i> 222: dirty -> DIRTY
+<i>red</i> 227: red -> RED
+<i>black</i> 226: black -> BLACK
+<i>white</i> 228: white -> WHITE
+<i>yellow</i> 229: yellow -> YELLOW
+<i>full</i> 234: full -> FULL
+<i>green</i> 230: green -> GREEN
+<i>empty</i> 235: empty -> EMPTY
+<i>hot</i> 236: hot -> HOT
+<i>sharp</i> 248: sharp -> SHARP
+<i>cold</i> 237: cold -> COLD
+<i>heavy</i> 238: heavy -> HEAVY
+<i>long</i> 240: long -> LONG
+<i>many</i> 242: many -> MANY
+<i>short</i> 241: short -> SHORT
+<i>few</i> 243: few -> FEW
+<i>new</i> 244: new -> NEW
+<i>straight</i> 250: straight -> STRAIGHT
+<i>old (of objects)</i> 245: old (of objects) -> OLD_OF_OBJECTS
+<i>crooked</i> 251: crooked -> CROOKED
+<i>wet</i>15 252: wet -> WET
+<i>ripe</i> 246: ripe -> RIPE
+<i>dry</i> 253: dry -> DRY
+<i>hungry</i> 260: hungry -> HUNGRY
+<i>this</i>16 261: this -> THIS
+<i>who</i> 263: who -> WHO
+<i>that</i> 262: that -> THAT
+<i>what</i> 264: what -> WHAT
+<i>where</i> 265: where -> WHERE
+<i>morning</i> 268a: morning -> MORNING
+<i>how many</i> 266: how many -> HOW_MANY
+<i>day break</i> 268b: day break -> DAY_BREAK
+<i>afternoon</i> 270: afternoon -> AFTERNOON
+<i>yesterday</i> 275: yesterday -> YESTERDAY
+<i>night</i> 271: night -> NIGHT
+<i>tomorrow</i> 278: tomorrow -> TOMORROW
+<i>day before yesterday</i> 276: day before yesterday -> DAY_BEFORE_YESTERDAY
+<i>before</i> 277: before -> BEFORE
+<i>day after tomorrow</i> 279: day after tomorrow -> DAY_AFTER_TOMORROW
+<i>afterwards</i> 280: afterwards -> AFTERWARDS
+<i>now</i> 274: now -> NOW
+<i>there</i>16 282: there -> THERE
+<i>here</i> 281: here -> HERE
+<i>near</i> 287: near -> NEAR
+<i>quickly</i> 289: quickly -> QUICKLY
+<i>far</i> 288: far -> FAR
+<i>slowly</i> 290: slowly -> SLOWLY
+<i>yes</i> 291: yes -> YES
+<i>always</i> 293: always -> ALWAYS
+<i>no</i> 292: no -> NO
+<i>inside (the house)</i> 285: inside (the house) -> INSIDE_THE_HOUSE
+<i>be</i> 296: be -> BE
+<i>cough</i> 301: cough -> COUGH
+<i>sleep</i> 297: sleep -> SLEEP
+<i>sit down</i> 298: sit down -> SIT_DOWN
+<i>stand</i> 299: stand -> STAND
+<i>die</i> 302: die -> DIE
+<i>stand up</i> 300: stand up -> STAND_UP
+<i>come</i> 303: come -> COME
+<i>go</i> 304: go -> GO
+<i>go up</i> 305: go up -> GO_UP
+<i>walk</i> 310: walk -> WALK
+<i>go down</i> 306: go down -> GO_DOWN
+<i>run</i> 309: run -> RUN
+%%%<i>fly</i> (v) 315: fly -> TO_FLY
+<i>fall over (tree)</i> 313: fall over (tree) -> FALL_OVER_TREE
+<i>jump</i> 316: jump -> JUMP
+<i>swell up (skin)</i> 317: swell up (skin) -> SWELL_UP_SKIN
+<i>give</i>17 319: give -> GIVE
+<i>vomit</i> 318: vomit -> VOMIT
+<i>talk</i> (intr) 320: talk -> TALK
+<i>watch</i> (intr) 322: watch -> WATCH
+%%%<i>talk</i> (tr) 321: talk -> TALK_TO
+<i>see</i> (tr) 323: see -> SEE
+<i>bathe</i>18 (intr) 325: bathe -> BATHE
+<i>hear</i> 324: hear -> HEAR
+<i>wash</i> (tr) 326: wash -> WASH
+<i>bite</i> 327: bite -> BITE
+<i>carry (on back)</i> 329: carry (on back) -> CARRY_ON_BACK
+<i>blow on (fire)</i> 332: blow on (fire) -> BLOW_ON_FIRE
+<i>carry (on shoulder)</i>19 328: carry (on shoulder) -> CARRY_ON_SHOULDER
+<i>dig</i> 334: dig -> DIG
+%%%<i>break (across the grain)</i> 333: break (across the grain) -> BREAK_ACROSS
+<i>tear</i> 336: tear -> TEAR
+<i>split</i> 335: split -> SPLIT
+<i>cut (with knife)</i> 338: cut (with knife) -> CUT_WITH_KNIFE
+%%%<i>chop</i> 337: chop -> CHOP_WITH_AXE
+<i>bury</i> 341: bury -> BURY
+<i>fell (a tree)</i> 340: fell (a tree) -> FELL_A_TREE
+<i>plant</i> (v) 342: plant -> PLANT
+<i>roast</i> 344: roast -> ROAST
+<i>burn</i>20 (tr) 346: burn -> BURN
+<i>boil</i> 345: boil -> BOIL
+%%%<i>fill up (liquid)</i> 347: fill up (liquid) -> FILL_UP
+<i>buy</i> 343: buy -> BUY
+<i>kill</i> 350: kill -> KILL
+<i>eat</i> 348: eat -> EAT
+<i>fight (hit)</i> 349: fight (hit) -> FIGHT_HIT
+<i>throw (stone)</i> 351: throw (stone) -> THROW_STONE
+<i>look for</i> 353: look for -> LOOK_FOR
+<i>shoot</i> 352: shoot -> SHOOT
+%%%<i>pour out (liquid)</i> 357: pour out (liquid) -> POUR_OUT
+<i>make</i> 354: make -> MAKE
+<i>sharpen (a bow)</i> 355b: sharpen (a bow) -> SHARPEN_A_BOW
+<i>work</i> (v) 355: work -> WORK
+<i>hold</i> 356: hold -> HOLD
+<i>push</i> 359: push -> PUSH
+%%%<i>scratch</i> 361: scratch -> SCRATCH_SKIN
+<i>pull</i> 358: pull -> PULL
+<i>put</i> 360: put -> PUT
+<i>smell</i> (tr) 363: smell -> SMELL
+<i>tie</i> 366: tie -> TIE
+<i>swallow</i> 364: swallow -> SWALLOW
+<i>fasten</i> 366b: fasten -> FASTEN
+<i>take</i> 365: take -> TAKE
+<i>call out</i> 367: call out -> CALL_OUT
+<i>laugh</i> 369: laugh -> LAUGH
+<i>cry</i> 368: cry -> CRY
+<i>singsing</i>21 370a: singsing -> SINGSING
+<i>turn (oneself)</i> 371: turn (oneself) -> TURN_ONESELF
+<i>dance</i> 370b: dance -> DANCE
+<i>dream</i> 374: dream -> DREAM
+<i>be sick</i> 380: be sick -> BE_SICK
+<i>cooked</i> 232: cooked -> COOKED
+<i>be afraid</i> 375: be afraid -> BE_AFRAID
+<i>think</i>22 373: think -> THINK
+<i>thundering</i>23 318b: thundering -> THUNDERING
+<i>lightning</i> 318c: lightning -> LIGHTNING

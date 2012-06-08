@@ -316,8 +316,10 @@ def main(argv):
     book = importfunctions.insert_book_to_db(Session, wordlistbookdata)
 
     wordlistdata = {}
+    languages_iso = {}
     for data in wordlistbookdata['wordlistdata']:
         d = importfunctions.insert_wordlistdata_to_db(Session, data, book)
+        languages_iso[data['language_bookname']] = data['language_name']
         wordlistdata[data['language_bookname']] = d
 
     wordlistfile = open(os.path.join(dictdata_path, wordlistbookdata['file']), 'r')
@@ -365,7 +367,7 @@ def main(argv):
                             if a['type'] == "pagelayout":
                                 annotation["giacone"].append(a)
                         pos_on_page = pos_on_page + 1
-                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages)
+                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages, languages_iso)
                 number = re.sub(u'[\[\]]', '', l)
                 page = int(number)
                 line_in_page = 1

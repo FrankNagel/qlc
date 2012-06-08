@@ -223,7 +223,7 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        print "Processing %s - %s dictdata..." %(dictdata.src_language.langcode, dictdata.tgt_language.langcode)
+        #print "Processing %s - %s dictdata..." %(dictdata.src_language.langcode, dictdata.tgt_language.langcode)
 
         # manual deletes
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=154).all()

@@ -25,6 +25,11 @@ def delete_book_from_db(Session, bibtex_key):
                     Session.delete(a)
                 Session.delete(entry)
                 Session.commit()
+            if book.type == 'dictionary':
+                for l in data.src_languages:
+                    Session.delete(l)
+                for l in data.tgt_languages:
+                    Session.delete(l)
             Session.delete(data)
 
         for data in book.nondictdata:
@@ -46,6 +51,13 @@ def insert_book_to_db(Session, bookdata):
     Session.commit()
     return book
 
+def insert_language_bookname_to_db(Session, language_bookname):
+    language = model.LanguageBookname()
+    language.name = language_bookname;
+    Session.add(language)
+    Session.commit()
+    return language
+    
 def insert_language_to_db(Session, languagedata):
     language = model.Language()
     language.name = languagedata['name']
@@ -57,26 +69,31 @@ def insert_language_to_db(Session, languagedata):
     return language
 
 def insert_wordlistdata_to_db(Session, data, book):
-    wordlistdata = Session.query(model.Wordlistdata).filter_by(book_id=book.id, language_bookname=data['language_bookname'], startpage=data['startpage'], endpage=data['endpage']).first()
-    if wordlistdata == None:
-        wordlistdata = model.Wordlistdata()
-        wordlistdata.startpage = data['startpage']
-        wordlistdata.endpage = data['endpage']
-        wordlistdata.language_bookname = data['language_bookname']
-        wordlistdata.book = book
-    
-    if data['language_name'] != "":
-        language = Session.query(model.Language).filter_by(name=data['language_name']).first()
-        if language == None:
-            #log.warn("Language " + b['src_language_name'] + " not found, inserting book " + b['title'].encode('ascii', errors='ingore') + " without source language." )
-            print("Language %s not found, inserting book without source language." % data['language_name'])
-        wordlistdata.language = language
-    
+    wordlistdata = model.Wordlistdata()
+    wordlistdata.startpage = data['startpage']
+    wordlistdata.endpage = data['endpage']
+    #wordlistdata.language_bookname = []
+    #wordlistdata.language_iso = []
+    wordlistdata.book = book
+
     if data['component'] != '':
         component = Session.query(model.Component).filter_by(name=data['component']).first()
         if component == None:
-            log.warn("Component not found, inserting dictdata without component." )
+            log.warn("Component not found, inserting dictdata without component.")
         wordlistdata.component = component
+    
+    if data['language_name'] != "":
+        language_iso = Session.query(model.LanguageIso).filter_by(name=data['language_name']).first()
+        if language_iso == None:
+            #log.warn("Language " + b['src_language_name'] + " not found, inserting book " + b['title'].encode('ascii', errors='ingore') + " without source language." )
+            print("Language %s not found, inserting book without source language." % data['language_name'])
+        wordlistdata.language_iso = language_iso
+
+    if data['language_bookname'] != "":
+        language_bookname = Session.query(model.LanguageBookname).filter_by(name=data['language_bookname']).first()
+        if language_bookname == None:
+            language_bookname = insert_language_bookname_to_db(Session, data['language_bookname'])
+        wordlistdata.language_bookname = language_bookname
     
     Session.add(wordlistdata)
     Session.commit()
@@ -215,7 +232,7 @@ def insert_nondictdata_to_db(Session, data, book, filename):
 
     component = Session.query(model.Component).filter_by(name=data['component']).first()
     if component == None:
-        log.warn("Component not found, inserting nondictdata without component." )
+        print "Warning: Component {0} not found, inserting nondictdata without component.".format(data['component'])
     nondictdata.component = component
 
     Session.add(nondictdata)
@@ -223,42 +240,88 @@ def insert_nondictdata_to_db(Session, data, book, filename):
     return nondictdata
 
 def insert_dictdata_to_db(Session, data, book):
+
+    if type(data['src_language_name']) is not list:
+        src_languages = [data['src_language_name']]
+        src_languages_booknames = [data['src_language_bookname']]
+    else:
+        src_languages = data['src_language_name']
+        src_languages_booknames = data['src_language_bookname']
+    if type(data['tgt_language_name']) is not list:
+        tgt_languages = [data['tgt_language_name']]
+        tgt_languages_booknames = [data['tgt_language_bookname']]
+    else:
+        tgt_languages = data['tgt_language_name']
+        tgt_languages_booknames = data['src_language_bookname']
+    
+    # Init Dictdata object
     dictdata = model.Dictdata()
     dictdata.startpage = data['startpage']
     dictdata.endpage = data['endpage']
-    dictdata.src_language_bookname = data['src_language_bookname']
-    dictdata.tgt_language_bookname = data['tgt_language_bookname']
+
+    dictdata.src_languages = []
+    dictdata.tgt_languages = []
+    dictdata.src_languages_booknames = []
+    dictdata.tgt_languages_booknames = []
+    # Add languages
+    for i, src_language_name in enumerate(src_languages):
+        #print "Inserting src language " + src_language_name
+        srclanguage_iso = Session.query(model.LanguageIso).filter_by(name=src_language_name).first()
+        if srclanguage_iso == None:
+            print("Language %s not found, inserting book without source language." % src_language_name)
+        #dictdata.src_languages.append(srclanguage)
+            
+        srclanguage_bookname = Session.query(model.LanguageBookname).filter_by(name=src_languages_booknames[i]).first()
+        if srclanguage_bookname == None:
+            srclanguage_bookname = insert_language_bookname_to_db(Session, src_languages_booknames[i])
+        #dictdata.src_languages_booknames.append(srclanguage_bookname)
+        
+        srclanguage = model.LanguageSrc()
+        srclanguage.language_iso = srclanguage_iso
+        srclanguage.language_bookname = srclanguage_bookname
+        dictdata.src_languages.append(srclanguage)
+
+    for j, tgt_language_name in enumerate(tgt_languages):
+        #print "Inserting tgt language " + tgt_language_name
+        tgtlanguage_iso = Session.query(model.LanguageIso).filter_by(name=tgt_language_name).first()
+        if tgtlanguage_iso == None:
+            print("Language %s not found, inserting book without target language." % tgt_language_name)
+        #dictdata.tgt_languages.append(tgtlanguage)
+        
+        tgtlanguage_bookname = Session.query(model.LanguageBookname).filter_by(name=tgt_languages_booknames[j]).first()
+        if tgtlanguage_bookname == None:
+            tgtlanguage_bookname = insert_language_bookname_to_db(Session, tgt_languages_booknames[i])
+        #dictdata.tgt_languages_booknames.append(tgtlanguage_bookname)
+
+        tgtlanguage = model.LanguageTgt()
+        tgtlanguage.language_iso = tgtlanguage_iso
+        tgtlanguage.language_bookname = tgtlanguage_bookname
+        
+        dictdata.tgt_languages.append(tgtlanguage)
+
+    #dictdata.src_language_bookname = src_languages_booknames[i]
+    #dictdata.tgt_language_bookname = tgt_languages_booknames[j]
     dictdata.book = book
-    
-    srclanguage = Session.query(model.Language).filter_by(name=data['src_language_name']).first()
-    if srclanguage == None:
-        #log.warn("Language " + b['src_language_name'] + " not found, inserting book " + b['title'].encode('ascii', errors='ingore') + " without source language." )
-        print("Language %s not found, inserting book  without source language." % data['src_language_name'])
-    dictdata.src_language = srclanguage
-    
-    tgtlanguage = Session.query(model.Language).filter_by(name=data['tgt_language_name']).first()
-    if tgtlanguage == None:
-        #log.warn("Language " + b['tgt_language_name'] + " not found, inserting book " + b['title'] + " without target language." )
-        print("Language %s not found, inserting book without target language." % data['tgt_language_name'])
-    dictdata.tgt_language = tgtlanguage
 
     component = Session.query(model.Component).filter_by(name=data['component']).first()
     if component == None:
         print("Component not found, inserting dictdata without component.")
     dictdata.component = component
-    
+
     Session.add(dictdata)
     Session.commit()
+
     return dictdata
 
-def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages):
+def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages, languages_iso):
     for lang in iter(entry):
         #entry_db = model.WordlistEntry()
         entry_db = process_line(entry[lang]["fullentry"], "wordlist")
         
         language_bookname = languages[lang]
+        language_iso = languages_iso[language_bookname]
         entry_db.wordlistdata = wordlistdata[language_bookname]
-        entry_db.language = wordlistdata[language_bookname].language
+        #entry_db.language_bookname = wordlistdata[language_bookname].language
         #entry_db.fullentry = entry[lang]['fullentry']
         entry_db.pos_on_page = entry[lang]['pos_on_page']
         entry_db.startpage = page
@@ -281,6 +344,9 @@ def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept
             for a in annotation[lang]:
                 if a['string'] not in inserted:
                     entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
+                    if a['value'] == 'counterpart':
+                        entry_db.append_annotation(a['start'], a['end'], u'language_sourcename', u'dictinterpretation', language_bookname)                        
+                        entry_db.append_annotation(a['start'], a['end'], u'language', u'dictinterpretation', language_iso)
                     inserted.append(a['string'])
                 
         
