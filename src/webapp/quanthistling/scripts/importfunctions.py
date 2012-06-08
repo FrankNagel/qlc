@@ -345,8 +345,8 @@ def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept
                 if a['string'] not in inserted:
                     entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
                     if a['value'] == 'counterpart':
-                        entry_db.append_annotation(a['start'], a['end'], u'language_sourcename', u'dictinterpretation', language_bookname)                        
-                        entry_db.append_annotation(a['start'], a['end'], u'language', u'dictinterpretation', language_iso)
+                        entry_db.append_annotation(a['start'], a['end'], u'doculect', u'dictinterpretation', language_bookname)                        
+                        entry_db.append_annotation(a['start'], a['end'], u'iso639-3', u'dictinterpretation', language_iso)
                     inserted.append(a['string'])
                 
         
