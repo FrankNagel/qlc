@@ -56,10 +56,22 @@ class BookController(BaseController):
                 if not c.dictdata:
                     abort(404)
                 else:
-                    #c.srclanguage = c.dictdata.src_language.langcode
-                    #c.tgtlanguage = c.dictdata.tgt_language.langcode
-                    c.srclanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.src_languages ])
-                    c.tgtlanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.tgt_languages ])
+                    srclanguages = []
+                    for l in c.dictdata.src_languages:
+                        if l.language_iso:
+                            srclanguages.append(l.language_iso.langcode)
+                        else:
+                            srclangages.append("n/a")
+                    c.srclanguage = ", ".join(srclanguages)
+
+                    tgtlanguages = []
+                    for l in c.dictdata.tgt_languages:
+                        if l.language_iso:
+                            tgtlanguages.append(l.language_iso.langcode)
+                        else:
+                            tgtlanguages.append("n/a")
+                    c.tgtlanguage = ", ".join(tgtlanguages)
+
                     c.startpage = c.dictdata.startpage
                     c.endpage = c.dictdata.endpage
             elif c.book.type == "wordlist":
@@ -71,10 +83,23 @@ class BookController(BaseController):
             if not c.dictdata:
                 abort(404)
             else:
-                #c.srclanguage = c.dictdata.src_language.langcode
-                #c.tgtlanguage = c.dictdata.tgt_language.langcode
-                c.srclanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.src_languages ])
-                c.tgtlanguage = ", ".join([ l.language_iso.langcode for l in c.dictdata.tgt_languages ])
+
+                srclanguages = []
+                for l in c.dictdata.src_languages:
+                    if l.language_iso:
+                        srclanguages.append(l.language_iso.langcode)
+                    else:
+                        srclanguages.append("n/a")
+                c.srclanguage = ", ".join(srclanguages)
+
+                tgtlanguages = []
+                for l in c.dictdata.tgt_languages:
+                    if l.language_iso:
+                        tgtlanguages.append(l.language_iso.langcode)
+                    else:
+                        tgtlanguages.append("n/a")
+                c.tgtlanguage = ", ".join(tgtlanguages)
+
                 c.startpage = int(startpage)
                 c.endpage = int(endpage)
 

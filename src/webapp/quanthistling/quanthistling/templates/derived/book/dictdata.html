@@ -15,11 +15,19 @@ ${component.bookinfo()}
         </a>
         &nbsp;( Approximate ISO 639-3 identification:
         % for l in dictdata.src_languages:
-            ${l.language_iso.langcode}&nbsp;
+            % if l.language_iso:
+                ${l.language_iso.langcode}&nbsp;
+            % else:
+                n/a&nbsp;
+            % endif
         % endfor
         -
         % for l in dictdata.tgt_languages:
-            &nbsp;${l.language_iso.langcode}
+            % if l.language_iso:
+                &nbsp;${l.language_iso.langcode}
+            % else:
+                &nbsp;n/a
+            % endif
         % endfor
         )
         </li>
