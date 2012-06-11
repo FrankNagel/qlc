@@ -36,9 +36,9 @@ def main(argv):
     
     # update languages
     for l in quanthistling.dictdata.languages.list:
-        db_lang = Session.query(model.Language).filter_by(name=l['name']).first()
+        db_lang = Session.query(model.LanguageIso).filter_by(name=l['name']).first()
         if db_lang == None:
-            language = model.Language()
+            language = model.LanguageIso()
             language.name = l['name']
             language.langcode = l['langcode']
             language.description = l['description']
