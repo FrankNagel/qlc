@@ -86,11 +86,22 @@ def annotate_everything(entry):
                 start = match.start(1) + match_head.end(0)
             
             start = match.start(3)
-            for match_trans in re.finditer(r"(?:, ?|$)", entry.fullentry[match.start(3):match.end(3)]):
-                end = match.start(3) + match_trans.start(0)
-                translation_starts.append(start)
-                translation_ends.append(end)
-                start = match.start(3) + match_trans.end(0)
+            print start, match.end(3)
+            match_sc = re.search(u';', entry.fullentry[match.start(3):match.end(3)])
+            if match_sc:
+                t_end = match_sc.end() + start
+                print t_end
+                for match_trans in re.finditer(r"(?:, ?|$)", entry.fullentry[match.start(3):t_end]):
+                    end = match.start(3) + match_trans.start(0)
+                    translation_starts.append(start)
+                    translation_ends.append(end)
+                    start = match.start(3) + match_trans.end(0)
+            else:
+                for match_trans in re.finditer(r"(?:, ?|$)", entry.fullentry[match.start(3):match.end(3)]):
+                    end = match.start(3) + match_trans.start(0)
+                    translation_starts.append(start)
+                    translation_ends.append(end)
+                    start = match.start(3) + match_trans.end(0)
             if len(match.group(2)) > 0:
                 entry.append_annotation(match.start(2), match.end(2), u'pos', u'dictinterpretation')
         else:
@@ -140,8 +151,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=877,pos_on_page=24).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=797,pos_on_page=20).all()
 
         startletters = set()
     
