@@ -174,8 +174,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=338,pos_on_page=10).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=338,pos_on_page=10).all()
 
         startletters = set()
     
