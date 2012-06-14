@@ -52,7 +52,7 @@ def annotate_everything(entry):
             head = entry.fullentry[h_start:h_end]
             functions.insert_head(entry, h_start, h_end)
             
-            t_start = tab_annotations[j+1].start + 1
+            t_start = tab_annotations[j+1].start
             if j + 2 < len(tab_annotations):
                 t_end = newline_annotations[i].start
                 substr = entry.fullentry[t_start:t_end]
