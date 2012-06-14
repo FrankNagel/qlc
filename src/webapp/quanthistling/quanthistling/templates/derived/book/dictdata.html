@@ -10,7 +10,7 @@ ${component.bookinfo()}
 
     % for dictdata in c.book.dictdata:
         <li>
-        <a href="${h.url_for(controller='book', action='view', bibtexkey=c.book.bibtex_key, startpage=dictdata.startpage, endpage=dictdata.endpage, format='html')}">
+        <a href="${h.url_for(controller='book', action='dictdata', bibtexkey=c.book.bibtex_key, startpage=dictdata.startpage, endpage=dictdata.endpage, format='html')}">
             Dictionary (pp. ${dictdata.startpage} - ${dictdata.endpage})
         </a>
         &nbsp;( Approximate ISO 639-3 identification:
