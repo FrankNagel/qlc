@@ -1835,4 +1835,35 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Vocabulario chayahuita',
+        'author' : u'Hart, George, Hart, Helen',
+        'year' : 1975,
+        'bibtex_key' : u'hart1975',
+        'pages' : 92,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 50,
+                'src_language_name' : u'Chayahuita',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Chayahuita',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'other/hart1975_dictdata_1_50.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/hart1975_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+        ]
+    },
 ]
