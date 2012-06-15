@@ -1348,4 +1348,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cbt'
     },
+    {
+        'name' : u'Yanesha’',
+        'langcode': u'ame',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ame'
+    },
 ]
