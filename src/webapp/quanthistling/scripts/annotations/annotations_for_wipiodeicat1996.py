@@ -70,17 +70,12 @@ def annotate_head(entry):
     if head_end_pos > -1:
         start = head_start_pos
         substr = entry.fullentry[head_start_pos:head_end_pos]
-        i = 0
         for match in re.finditer(r'(?:, ?|$)', substr):
             end = match.start(0) + head_start_pos
             inserted_heads = insert_head(entry, start, end)
             #entry.append_annotation(start, end, u'head', u'dictinterpretation')
             heads.extend(inserted_heads)
             start = match.end(0) + head_start_pos
-        end = head_end_pos
-        inserted_heads = insert_head(entry, start, end)
-        #entry.append_annotation(start, end, u'head', u'dictinterpretation')
-        heads.extend(inserted_heads)
     else:
         if entry.fullentry[0] == u"║" and entry.is_subentry():
             head_annotations_mainentry = [ a for a in entry.mainentry().annotations if a.value=='head']
@@ -166,7 +161,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=36,pos_on_page=27).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=40,pos_on_page=41).all()
 
         startletters = set()
     
