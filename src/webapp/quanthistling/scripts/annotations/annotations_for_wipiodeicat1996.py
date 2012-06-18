@@ -43,8 +43,8 @@ def insert_head(entry, start, end):
     match = re.search(r"(?! )(\()(.*?)\)", substr)
     if match:
         heads = []
-        head_base = entry.fullentry[start:match.start(1)]
-        entry.append_annotation(start, match.start(1), u"head", u"dictinterpretation")
+        head_base = entry.fullentry[start:start+match.start(1)]
+        entry.append_annotation(start, start + match.start(1), u"head", u"dictinterpretation")
         heads.append(head_base)
         entry.append_annotation(start, end, u"head", u"dictinterpretation", head_base + match.group(2))
         heads.append(head_base + match.group(2))
@@ -70,7 +70,8 @@ def annotate_head(entry):
     if head_end_pos > -1:
         start = head_start_pos
         substr = entry.fullentry[head_start_pos:head_end_pos]
-        for match in re.finditer(r', ?', substr):
+        i = 0
+        for match in re.finditer(r'(?:, ?|$)', substr):
             end = match.start(0) + head_start_pos
             inserted_heads = insert_head(entry, start, end)
             #entry.append_annotation(start, end, u'head', u'dictinterpretation')
@@ -86,8 +87,9 @@ def annotate_head(entry):
             for a in head_annotations_mainentry:
                 entry.append_annotation(0, 1, "head", "dictinterpretation", a.string)
         else:
-            print "no head"
-            print entry.fullentry.encode('utf-8')
+            functions.print_error_in_entry(entry, "No head found.")
+            #print "no head"
+            #print entry.fullentry.encode('utf-8')
         
     return heads
 
@@ -164,7 +166,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=109,pos_on_page=18).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=36,pos_on_page=27).all()
 
         startletters = set()
     

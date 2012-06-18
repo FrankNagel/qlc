@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "¡máh tyan tyáhaan! – ¡déjelo, no más! ¡no se preocupe!",
     "startpage" : 117,
-    "pos_on_page" : 21,
+    "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "métek nintímtikratin s. unificador.",
+    "startpage" : 188,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "métek nintímtikratin",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "unificador",
+                "start" : 25,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "métek nintímtikratin",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 23,
+                "end" : 25
+            },
+    ]
+})

@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "awártu (C) (vea awaríntu).",
+    "startpage" : 105,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awártu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Dialecto del río Corrientes",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "awaríntu",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awártu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awaríntu",
+                "start" : 17,
+                "end" : 26
+            },
+    ]
+})

@@ -14,8 +14,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "trampa para coger una paloma, fohxáánco",
+                "string" : "trampa para coger una paloma",
                 "start" : 15,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fohxáánco",
+                "start" : 45,
                 "end" : 56
             },
             {

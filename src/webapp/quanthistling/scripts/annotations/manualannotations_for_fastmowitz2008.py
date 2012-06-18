@@ -4,6 +4,78 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "atáshu áishmangkri gallo.",
+    "startpage" : 102,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atáshu áishmangkri",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gallo",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "atáshu áishmangkri",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "atáshu mukútspari ácaro de gallina.",
+    "startpage" : 102,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atáshu mukútspari",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ácaro de gallina",
+                "start" : 20,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "atáshu mukútspari",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "áwai v.i. hay [3a ps.sg. presente del v. átin].",
     "startpage" : 104,
     "pos_on_page" : 26,
@@ -70,6 +142,49 @@ manual_entries.append({
                 "string" : "",
                 "start" : 42,
                 "end" : 42
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "awártu (C) (vea awaríntu).",
+    "startpage" : 105,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "awártu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Dialecto del río Corrientes",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "awaríntu",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awártu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "awaríntu",
+                "start" : 17,
+                "end" : 26
             },
     ]
 })
@@ -273,6 +388,49 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "charúrmau adj. cortado.",
+    "startpage" : 110,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "charúrmau",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortado",
+                "start" : 15,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "charúrmau",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 11,
+                "end" : 15
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "chípia s. 1. planta cuya resina se aplica a las vasijas de barro; de la familia Burseraceae’. 2. barniz vegetal, resina transparente que se aplica a las vasijas de barro.",
     "startpage" : 114,
     "pos_on_page" : 17,
@@ -437,6 +595,494 @@ manual_entries.append({
                 "string" : "Burseraceae’",
                 "start" : 81,
                 "end" : 93
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "esákrachau adj. que no muerde.",
+    "startpage" : 122,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esákrachau",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "que no muerde",
+                "start" : 16,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "esákrachau",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 12,
+                "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "esákratin, sákratin, esáitin v.t. morder. Jéencham uchín pe esáyi. El murciélago muerde mucho a los niños.",
+    "startpage" : 122,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esákratin",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sákratin",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esáitin",
+                "start" : 23,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.t.",
+                "start" : 32,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "morder",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jéencham uchín pe esáyi.",
+                "start" : 45,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El murciélago muerde mucho a los niños.",
+                "start" : 72,
+                "end" : 114
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "esákratin, sákratin, esáitin",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.t.",
+                "start" : 32,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Jéencham uchín pe esáyi.",
+                "start" : 45,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "erékar s. árboles chicos en una chacra nueva.",
+    "startpage" : 122,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "erékar",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "árboles chicos en una chacra nueva",
+                "start" : 10,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "erékar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "etsérkatin v.t. 1. proclamar, notificar, declarar, anunciar, comunicar avisar, informar. 2. predicar. 3. relatar. (sinón. ujáktin).",
+    "startpage" : 123,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "etsérkatin",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.t.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "proclamar",
+                "start" : 19,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "notificar",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "declarar",
+                "start" : 42,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anunciar",
+                "start" : 52,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "comunicar avisar",
+                "start" : 62,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "informar",
+                "start" : 80,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "predicar",
+                "start" : 92,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "relatar",
+                "start" : 105,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ujáktin",
+                "start" : 124,
+                "end" : 132
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "etsérkatin",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.t.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ujáktin",
+                "start" : 124,
+                "end" : 132
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ichái, chaj interj. ¡ay!",
+    "startpage" : 124,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ichái",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chaj",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ay",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ichái, chaj",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "interj.",
+                "start" : 13,
+                "end" : 20
             },
     ]
 })
@@ -1121,6 +1767,225 @@ manual_entries.append({
                 "string" : "",
                 "start" : 38,
                 "end" : 38
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kuínap, kuínpa kuínip s. huaman-samana (esp. de jacarandá que se usa para hacer tablas y como remedio contra el pián), Jacaranda copaia y J. glabra, Bignoniaceae.",
+    "startpage" : 170,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuínap",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuínpa kuínip",
+                "start" : 9,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 25,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "huaman-samana (esp. de jacarandá que se usa para hacer tablas y como remedio contra el pián)",
+                "start" : 27,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Jacaranda copaia y J glabra",
+                "start" : 124,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bignoniaceae",
+                "start" : 154,
+                "end" : 167
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kuínap, kuínpa kuínip",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 25,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Jacaranda copaia",
+                "start" : 124,
+                "end" : 140
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "J. glabra, Bignoniaceae.",
+                "start" : 143,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kuntúj s. cuello, pescuezo.",
+    "startpage" : 173,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuntúj",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuello",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescuezo",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kuntúj",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 8,
+                "end" : 10
             },
     ]
 })
@@ -1932,6 +2797,267 @@ manual_entries.append({
                 "string" : "",
                 "start" : 74,
                 "end" : 74
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "métek nintímtikratin s. unificador.",
+    "startpage" : 188,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "métek nintímtikratin",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "unificador",
+                "start" : 25,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "métek nintímtikratin",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 23,
+                "end" : 25
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "mijáartin, mijámratin v.r. aliviarse, calmarse (dolor). Aints núkap najáimiayat yamáikia mijáari. Aunque el hombre tenía mucho dolor, ahora se ha calmado. (sinón. nanteártin, nenteártin).",
+    "startpage" : 189,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mijáartin",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mijámratin",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.r.",
+                "start" : 24,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aliviarse",
+                "start" : 28,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "calmarse (dolor)",
+                "start" : 40,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Aints núkap najáimiayat yamáikia mijáari.",
+                "start" : 58,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Aunque el hombre tenía mucho dolor, ahora se ha calmado.",
+                "start" : 103,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "nanteártin",
+                "start" : 171,
+                "end" : 182
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "nenteártin",
+                "start" : 184,
+                "end" : 195
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mijáartin, mijámratin",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.r.",
+                "start" : 24,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Aints núkap",
+                "start" : 58,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "najáimiayat yamáikia mijáari.",
+                "start" : 71,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nanteártin, nenteártin",
+                "start" : 171,
+                "end" : 195
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 140,
+                "end" : 140
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 141,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 141,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 170,
+                "end" : 170
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
             },
     ]
 })

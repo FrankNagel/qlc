@@ -2,7 +2,7 @@ set QUANTHISTLINGPATH=c:\Users\pbouda\Projects\svn-googlecode\qlc\src\webapp\qua
 set PATH=%PATH%;c:\Program Files (x86)\PostgreSQL\8.4\bin;c:\Program Files (x86)\PuTTY;c:\Program Files\7-Zip
 
 cd %QUANTHISTLINGPATH%
-rem python scripts/export_all_static_data_daily.py development.ini
+python scripts/export_all_static_data_daily.py development.ini
 call scripts/exportcsv.bat
 
 cd %QUANTHISTLINGPATH%\quanthistling\public\downloads

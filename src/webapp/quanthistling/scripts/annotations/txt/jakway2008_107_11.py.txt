@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "umai, umain 1) hermano (de mujer); hermana (de hombre). 2) primo (de mujer – hijo del tío paterno o de la tía materna); prima (de hombre – hija del tío paterno o de la tía materna).",
+    "startpage" : 107,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umai",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umain",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermano (de mujer)",
+                "start" : 15,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermana (de hombre)",
+                "start" : 35,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "primo (de mujer – hijo del tío paterno o de la tía materna)",
+                "start" : 59,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "prima (de hombre – hija del tío paterno o de la tía materna)",
+                "start" : 122,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "umai, umain",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

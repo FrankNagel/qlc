@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "atáshu mukútspari ácaro de gallina.",
+    "startpage" : 102,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atáshu mukútspari",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ácaro de gallina",
+                "start" : 20,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "atáshu mukútspari",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

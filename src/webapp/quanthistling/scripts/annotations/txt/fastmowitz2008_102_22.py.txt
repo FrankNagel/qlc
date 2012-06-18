@@ -1,0 +1,36 @@
+
+manual_entries.append({
+    "fullentry" : "atáshu áishmangkri gallo.",
+    "startpage" : 102,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atáshu áishmangkri",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gallo",
+                "start" : 21,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "atáshu áishmangkri",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

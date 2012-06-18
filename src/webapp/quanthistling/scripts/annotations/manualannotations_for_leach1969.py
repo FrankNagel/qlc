@@ -1540,53 +1540,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "llíoovu – cacacocán (C)",
-    "startpage" : 117,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "llíoovu",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cacacocán (C)",
-                "start" : 11,
-                "end" : 25
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tucán (ave)",
-    "startpage" : 117,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tucán (ave)",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "llíoovuñ̈onh (pl.)",
     "startpage" : 117,
-    "pos_on_page" : 19,
+    "pos_on_page" : 18,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -1615,7 +1571,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "¡máh tyan tyáhaan! – ¡déjelo, no más! ¡no se preocupe!",
     "startpage" : 117,
-    "pos_on_page" : 21,
+    "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

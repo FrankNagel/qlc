@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "sai, sain 1) cuñado de hombre. 2) primo (de hombre – hijo del tío materno).",
+    "startpage" : 81,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sain",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuñado de hombre",
+                "start" : 13,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "primo (de hombre – hijo del tío materno)",
+                "start" : 35,
+                "end" : 77
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sai, sain",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

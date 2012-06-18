@@ -15,6 +15,7 @@ __all__ =  [
     "annotations_for_loos1998",
     "annotations_for_loos2008",
     "annotations_for_loriot1993",
+    "annotations_for_metzger2000",
     "annotations_for_minor1971",
     "annotations_for_minor1987",
     "annotations_for_montag2008",
