@@ -1866,4 +1866,66 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'DICCIONARIO Yanesha\' (Amuesha)—Castellano',
+        'author' : u'Duff-Tripp, Martha',
+        'year' : 1998,
+        'bibtex_key' : u'tripp1998',
+        'pages' : 688,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 41,
+                'endpage' : 396,
+                'src_language_name' : u'Yanesha’',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Yanesha\' (Amuesha)',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/tripp1998_dictdata_41_396.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 40,
+                'title': u'Start pages',
+                'file' : 'arawak/tripp1998_nondictdata_0_40.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Vocabulario Piapoco-Español',
+        'author' : u'Pharris de Klumpp, Deloris A.',
+        'year' : 1995,
+        'bibtex_key' : u'klumpp1995',
+        'pages' : 190,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 3,
+                'endpage' : 103,
+                'src_language_name' : u'Piapoco',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Piapoco',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'arawak/klumpp1995_dictdata_3_103.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 2,
+                'title': u'Start pages',
+                'file' : 'arawak/klumpp1995_nondictdata_0_2.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
 ]
