@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "monhxoh – a ustedes; para ustedes (m.d.)",
     "startpage" : 121,
-    "pos_on_page" : 11,
+    "pos_on_page" : 9,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

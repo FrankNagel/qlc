@@ -2118,151 +2118,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "monhx__ / monh__ / monhxo – ustedes (m.d.)",
-    "startpage" : 121,
-    "pos_on_page" : 10,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "monhx",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "boundary",
-                "string" : "morpheme-boundary",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "monh",
-                "start" : 10,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "boundary",
-                "string" : "morpheme-boundary",
-                "start" : 14,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "monhxo",
-                "start" : 19,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ustedes",
-                "start" : 28,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "m.d.",
-                "start" : 36,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 25,
-                "end" : 25
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 26,
-                "end" : 26
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 26,
-                "end" : 26
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "monhxoh – a ustedes; para ustedes (m.d.)",
-    "startpage" : 121,
-    "pos_on_page" : 11,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "monhxoh",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "a ustedes",
-                "start" : 10,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "para ustedes",
-                "start" : 21,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "m.d.",
-                "start" : 34,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 20,
-                "end" : 20
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 21,
-                "end" : 21
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 21,
-                "end" : 21
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "moñaan̈ájinh – arriera, curuhuinse (P) (hormigas)",
     "startpage" : 121,
-    "pos_on_page" : 26,
+    "pos_on_page" : 24,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -2340,7 +2198,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "móónhsa (pl.)",
     "startpage" : 121,
-    "pos_on_page" : 46,
+    "pos_on_page" : 44,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -2369,8 +2227,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "moonno – agutí pequeño, punchana (P) (roedor)",
     "startpage" : 121,
-    "pos_on_page" : 50,
-    "annotations" : [
+    "pos_on_page" : 48, "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
@@ -2426,7 +2283,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "monnoo (pl.)",
     "startpage" : 121,
-    "pos_on_page" : 51,
+    "pos_on_page" : 49,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -2455,7 +2312,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "monhto / mon__ – ustedes",
     "startpage" : 121,
-    "pos_on_page" : 6,
+    "pos_on_page" : 5,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -2484,6 +2341,148 @@ manual_entries.append({
                 "string" : "ustedes",
                 "start" : 17,
                 "end" : 24
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "monhx__ / monh__ / monhxo – ustedes (m.d.)",
+    "startpage" : 121,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monhx",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monh",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme-boundary",
+                "start" : 14,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monhxo",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ustedes",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.d.",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "monhxoh – a ustedes; para ustedes (m.d.)",
+    "startpage" : 121,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "monhxoh",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a ustedes",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "para ustedes",
+                "start" : 21,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.d.",
+                "start" : 34,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
             },
     ]
 })
@@ -10598,8 +10597,15 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "trampa para coger una paloma, fohxáánco",
+                "string" : "trampa para coger una paloma",
                 "start" : 15,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fohxáánco",
+                "start" : 45,
                 "end" : 56
             },
             {

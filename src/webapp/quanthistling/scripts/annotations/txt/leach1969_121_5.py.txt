@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "monhto / mon__ – ustedes",
     "startpage" : 121,
-    "pos_on_page" : 6,
+    "pos_on_page" : 5,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

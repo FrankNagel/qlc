@@ -2,8 +2,7 @@
 manual_entries.append({
     "fullentry" : "moonno – agutí pequeño, punchana (P) (roedor)",
     "startpage" : 121,
-    "pos_on_page" : 50,
-    "annotations" : [
+    "pos_on_page" : 48, "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",

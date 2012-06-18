@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "monhx__ / monh__ / monhxo – ustedes (m.d.)",
     "startpage" : 121,
-    "pos_on_page" : 10,
+    "pos_on_page" : 8,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

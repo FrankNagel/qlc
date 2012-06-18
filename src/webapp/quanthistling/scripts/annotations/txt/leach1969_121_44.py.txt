@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "móónhsa (pl.)",
     "startpage" : 121,
-    "pos_on_page" : 46,
+    "pos_on_page" : 44,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

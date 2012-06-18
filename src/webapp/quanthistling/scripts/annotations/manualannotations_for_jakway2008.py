@@ -154,6 +154,63 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "umai, umain 1) hermano (de mujer); hermana (de hombre). 2) primo (de mujer – hijo del tío paterno o de la tía materna); prima (de hombre – hija del tío paterno o de la tía materna).",
+    "startpage" : 107,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umai",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "umain",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermano (de mujer)",
+                "start" : 15,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hermana (de hombre)",
+                "start" : 35,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "primo (de mujer – hijo del tío paterno o de la tía materna)",
+                "start" : 59,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "prima (de hombre – hija del tío paterno o de la tía materna)",
+                "start" : 122,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "umai, umain",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "abrir cosas como maleta, libro, puerta, etc. uraitsa, uraimu, urat.",
     "startpage" : 129,
     "pos_on_page" : 20,
@@ -4079,6 +4136,49 @@ manual_entries.append({
                 "string" : "kuchamrattsa, kuchameamu, kuchamat",
                 "start" : 0,
                 "end" : 34
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "sai, sain 1) cuñado de hombre. 2) primo (de hombre – hijo del tío materno).",
+    "startpage" : 81,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sain",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuñado de hombre",
+                "start" : 13,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "primo (de hombre – hijo del tío materno)",
+                "start" : 35,
+                "end" : 77
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sai, sain",
+                "start" : 0,
+                "end" : 9
             },
     ]
 })

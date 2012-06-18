@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "monnoo (pl.)",
     "startpage" : 121,
-    "pos_on_page" : 51,
+    "pos_on_page" : 49,
     "annotations" : [
             {
                 "type" : "dictinterpretation",

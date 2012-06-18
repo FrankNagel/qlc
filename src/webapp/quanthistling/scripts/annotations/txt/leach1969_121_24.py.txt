@@ -2,7 +2,7 @@
 manual_entries.append({
     "fullentry" : "moñaan̈ájinh – arriera, curuhuinse (P) (hormigas)",
     "startpage" : 121,
-    "pos_on_page" : 26,
+    "pos_on_page" : 24,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
