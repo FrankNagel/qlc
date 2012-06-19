@@ -1928,4 +1928,73 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'DICCIONARIO Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
+        'author' : u'Hart, Helen',
+        'year' : 1988,
+        'bibtex_key' : u'hart1988',
+        'pages' : 495,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 21,
+                'endpage' : 253,
+                'src_language_name' : u'Chayahuita',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Chayahuita',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'other/hart1988_dictdata_21_253.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 20,
+                'title': u'Start pages',
+                'file' : 'other/hart1988_nondictdata_1_20.htm',
+                'component' : 'Other'
+            },
+        ]
+    },
+    {
+        'title' : u'Diccionario ashéninca ~ castellano',
+        'author' : u'Payne, David',
+        'year' : 1980,
+        'bibtex_key' : u'payne1980',
+        'pages' : 164,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 33,
+                'endpage' : 151,
+                'src_language_name' : u'Ashéninka, Pichis',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Ashéninca',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/payne1980_dictdata_33_151.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 32,
+                'title': u'Start pages',
+                'file' : 'arawak/payne1980_nondictdata_1_32.htm',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 152,
+                'endpage' : 164,
+                'title': u'Appendix',
+                'file' : 'arawak/payne1980_nondictdata_152_164.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
 ]
