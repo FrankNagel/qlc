@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "takiártin v.i. 1. salir cogollo de plátano, caña de azúcar, caña brava, maíz, etc. 2. salir el pollo del huevo.",
+    "startpage" : 264,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "takiártin",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salir cogollo de plátano",
+                "start" : 18,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salir cogollo de caña de azúcar",
+                "start" : 19,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salir cogollo de caña brava",
+                "start" : 19,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salir cogollo de maíz etc",
+                "start" : 19,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salir el pollo del huevo",
+                "start" : 91,
+                "end" : 117
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "takiártin",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.i.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+    ]
+})
