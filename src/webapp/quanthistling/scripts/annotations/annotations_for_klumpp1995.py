@@ -39,7 +39,7 @@ def annotate_everything(entry):
     for c in re.finditer(r',', head_tmp):
         comma = True
         for mb in re.finditer(u'\(.*?\)', head_tmp):
-            if c.start() > mb.start() and c.start < mb.end():
+            if c.start() > mb.start() and c.start() < mb.end():
                 comma = False
         if comma:
             sep_list.append(c.start())
