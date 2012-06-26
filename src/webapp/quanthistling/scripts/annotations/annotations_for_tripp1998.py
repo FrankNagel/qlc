@@ -89,74 +89,83 @@ def annotate_everything(entry):
     if pos_se:
         pos = entry.fullentry[pos_se[0]:pos_se[1]]
         comma = False
-        for com in re.finditer(r',', pos):
+        for com in re.finditer(r',|\+ ', pos):
             comma = True
             if comma:
                 p1_end = com.start() + pos_se[0]
                 functions.insert_pos(entry, pos_se[0], p1_end)
                 p2_start = com.end() + pos_se[0]
                 functions.insert_pos(entry, p2_start, pos_se[1])
-        if not comma:        
+        if not comma:
             functions.insert_pos(entry, pos_se[0], pos_se[1])
+        
         t_start = pos_se[1] + 1
+        
+        # for forms pos + <i>pos.</i>  
+        substr = entry.fullentry[pos_se[1] + 1:]
+        sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
+        sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
+        if len(sorted_annotations) == 2:
+            for m in re.finditer(u'\+ (pos\.)', substr):
+                if m.start(1) + pos_se[1] + 1 == sorted_annotations[1].start:
+                    functions.insert_pos(entry, sorted_annotations[1].start, sorted_annotations[1].end)
+                    t_start = sorted_annotations[1].end + 1
     else:
         t_start = head_end_tmp + 1
       
     # translations
     if not crossref:
+        substr = entry.fullentry[t_start:]
         dot_list = []
-        for d in re.finditer(u'\.(?!\.|\w)', entry.fullentry):
+        for d in re.finditer(u'\.(?!\.|\w)', substr):
             dot = True
-            for match_bracket in re.finditer(u'\(.*?\)', entry.fullentry):
+            for match_bracket in re.finditer(u'\(.*?\)', substr):
                 if d.start() > match_bracket.start() and d.start() < match_bracket.end():
                     dot = False
             if dot:
-                dot_list.append(d.start())
+                dot_list.append(d.start() + t_start)
         
-        dot_list_bpe = []
         if dot_list:
-            dot_list_bpe = [a for a in dot_list if a > t_start]
-        
-        if dot_list_bpe:
-            t_end_tmp = dot_list_bpe[0]
+            t_end_tmp = dot_list[0]
         else:
             t_end_tmp = len(entry.fullentry)
         
         comma_list = []
-        for com in re.finditer(r'(,|;)', entry.fullentry):
+        tr_tmp = entry.fullentry[t_start:t_end_tmp]
+        for com in re.finditer(r'(,|;)', tr_tmp):
             comma = True
-            for match_bracket in re.finditer(u'\(.*?\)', entry.fullentry):
+            for match_bracket in re.finditer(u'\(.*?\)', tr_tmp):
                 if com.start() > match_bracket.start() and com.start() < match_bracket.end():
                     comma = False
             if comma:
-                comma_list.append(com.start())
+                comma_list.append(com.start() + t_start)
         
-        comma_list_bpe = []
-        if comma_list:
-            comma_list_bpe = [a for a in comma_list if a > t_start and a < t_end_tmp]
-        
+        numbers = False
+        counter = 0
         num_list = []
-        for n in re.finditer(r' \d.', entry.fullentry):
-            num_list.append(n.end())
+        for n in re.finditer(r'\d\.', substr):
+            if counter == 0:
+                if n.start() + t_start == t_start:
+                    numbers = True
+            counter += 1
+            
+            if numbers:
+                num_list.append(n.end() + t_start)
         
-        num_list_bpe = []
-        if num_list:
-            num_list_bpe = [a for a in num_list if a > t_start]
-    
         num_dot_list = []
-        if num_list_bpe:
-            for v in num_list_bpe:
-                if v - 1 in dot_list_bpe:
+        if num_list:
+            for v in num_list:
+                if v - 1 in dot_list:
                     try:
                         num_dot_list.append(dot_list[dot_list.index(v - 1) + 1])
                     except:
                         print 'Cannot make numbers dot list', functions.print_error_in_entry(entry)
             
-            if len(num_list_bpe) != len(num_dot_list):
+            if len(num_list) != len(num_dot_list):
                 print 'number of numbers and dots unequal, ', functions.print_error_in_entry(entry)
             else:
-                for i in range(len(num_list_bpe)):
-                    start = num_list_bpe[i] + 1
+                for i in range(len(num_list)):
+                    start = num_list[i] + 1
                     end = num_dot_list[i]
                     num_comma_list = [ a for a in comma_list if a < end and a > start]
                     if num_comma_list:
@@ -181,28 +190,28 @@ def annotate_everything(entry):
                                 else:
                                     functions.insert_translation(entry, trans_s, num_dot_list[i])
                     else:
-                        trans_s = num_list_bpe[i] + 1
+                        trans_s = num_list[i] + 1
                         trans_e = num_dot_list[i]
                         functions.insert_translation(entry, trans_s, trans_e)
                   
             
-        elif comma_list_bpe and not num_list_bpe:
-            for i in range(len(comma_list_bpe)):
+        elif comma_list and not num_list:
+            for i in range(len(comma_list)):
                 if i == 0:
-                    trans_e = comma_list_bpe[i]
+                    trans_e = comma_list[i]
                     functions.insert_translation(entry, t_start, trans_e)
                     
-                    trans2_s = comma_list_bpe[0] + 2
-                    if i + 1 < len(comma_list_bpe):
-                        trans2_e = comma_list_bpe[i+1]
+                    trans2_s = comma_list[0] + 2
+                    if i + 1 < len(comma_list):
+                        trans2_e = comma_list[i+1]
                         functions.insert_translation(entry, trans2_s, trans2_e)
                     else:
                         functions.insert_translation(entry, trans2_s, t_end_tmp)
                         
                 else:
-                    trans_s = comma_list_bpe[i] + 2
-                    if i + 1 < len(comma_list_bpe):
-                        trans_e = comma_list_bpe[i+1]
+                    trans_s = comma_list[i] + 2
+                    if i + 1 < len(comma_list):
+                        trans_e = comma_list[i+1]
                         functions.insert_translation(entry, trans_s, trans_e)
                     else:
                         functions.insert_translation(entry, trans_s, t_end_tmp)  
@@ -234,7 +243,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=42,pos_on_page=15).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=66,pos_on_page=10).all()
 
         startletters = set()
     
