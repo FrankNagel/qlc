@@ -225,10 +225,10 @@ def annotate_translations_and_examples(entry, manual_examples_dict):
     for i in range(len(translation_starts)):
         match_first_dot = False
         translation_ends_dot = translation_ends[i]
-        for match_dot in re.finditer(r'\.(?!\))', entry.fullentry[translation_starts[i]:translation_ends[i]]):
+        for match_dot in re.finditer(r'\. ?[^)( ]', entry.fullentry[translation_starts[i]:translation_ends[i]]):
             inbracket = False
             for m in re.finditer(r'\(.*?\)', entry.fullentry[translation_starts[i]:translation_ends[i]]):
-                if match_dot.start(0) >= m.start(0) and match_dot.end(0) <= m.end(0):
+                if match_dot.start(0) > m.start(0) and match_dot.end(0) < m.end(0):
                     inbracket = True
             if not inbracket and not match_first_dot:
                 match_first_dot = match_dot
@@ -244,9 +244,7 @@ def annotate_translations_and_examples(entry, manual_examples_dict):
             mybreak = False
             # are we in a bracket?
             for m in re.finditer(r'\(.*?\)', substr):
-                #print m.start(0)
-                #print match.start(0)
-                if match.start(0) >= m.start(0) and match.end(0) <= m.end(0):
+                if match.start(0) > m.start(0) and match.end(0) < m.end(0):
                     mybreak = True
                 
             if not mybreak:
@@ -294,9 +292,29 @@ def annotate_translations_and_examples(entry, manual_examples_dict):
         if not (entry.startpage, entry.pos_on_page) in manual_examples_dict:
             if match_first_dot:
                 re_ex = re.compile(r'(?<=\.) ?(.*?[\.\!\?]) ?(.*?[\.\!\?])')
-                for match_ex in re_ex.finditer(entry.fullentry, translation_starts[i]+match_first_dot.start(0), translation_ends[i]):
-                    entry.append_annotation(match_ex.start(1), match_ex.end(1), u'example-src', u'dictinterpretation')
-                    entry.append_annotation(match_ex.start(2), match_ex.end(2), u'example-tgt', u'dictinterpretation')       
+                ex_start = translation_starts[i]+match_first_dot.start(0) + 1
+                dots = []
+                for match_dot in re.finditer(r'\.', entry.fullentry[ex_start:translation_ends[i]]):
+                #for match_ex in re_ex.finditer(entry.fullentry, translation_starts[i]+match_first_dot.start(0), translation_ends[i]):
+                    mybreak = False
+                    # are we in a bracket?
+                    for m in re.finditer(r'\(.*?\)', entry.fullentry[ex_start:translation_ends[i]]):
+                        if match_dot.start(0) > m.start(0) and match_dot.end(0) < m.end(0):
+                            mybreak = True
+                        
+                    if not mybreak:
+                        dots.append(match_dot.end(0))
+                        
+                if len(dots)%2 == 0:
+                    start = ex_start
+                    for j, dot in enumerate(dots):
+                        if j%2 == 0:
+                            entry.append_annotation(start, ex_start + dot, u'example-src', u'dictinterpretation')
+                        else:
+                            entry.append_annotation(start, ex_start + dot, u'example-tgt', u'dictinterpretation')
+                        start = ex_start + dot
+                else:
+                    functions.print_error_in_entry(entry, "could not parse examples")
 
     if (entry.startpage, entry.pos_on_page) in manual_examples_dict:
         re_hashes = re.compile("#([^#]*)#")
@@ -378,7 +396,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=86,pos_on_page=9).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=137,pos_on_page=6).all()
 
         startletters = set()
     
