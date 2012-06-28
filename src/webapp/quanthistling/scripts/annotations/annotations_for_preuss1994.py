@@ -85,6 +85,7 @@ def annotate_everything(entry):
                 head_ends.append(end)
                 start = match.start(1) + match_head.end(0)
             
+            #Match position on translations
             start = match.start(3)
             print start, match.end(3)
             match_sc = re.search(u';', entry.fullentry[match.start(3):match.end(3)])
@@ -151,8 +152,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=797,pos_on_page=20).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=797,pos_on_page=20).all()
 
         startletters = set()
     
