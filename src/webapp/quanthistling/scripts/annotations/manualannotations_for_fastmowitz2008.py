@@ -2999,7 +2999,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido de cortar la cabeza la mano o el pie sin separarlos del cuerpo",
+                "string" : "sonido de cortar la cabeza o el pie sin separarlos del cuerpo",
+                "start" : 10,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido de cortar la mano o el pie sin separarlos del cuerpo",
                 "start" : 10,
                 "end" : 80
             },
@@ -5727,6 +5734,98 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "séer, séeriau onom. oliendo a perro, sangre, pescado, carne.",
+    "startpage" : 248,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "séer",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "séeriau",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oliendo a perro",
+                "start" : 21,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oliendo a sangre",
+                "start" : 22,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oliendo a pescado",
+                "start" : 22,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oliendo a carne",
+                "start" : 22,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "séer, séeriau",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "tájai v.t. yo digo [del v. títin decir].",
     "startpage" : 262,
     "pos_on_page" : 23,
@@ -6981,6 +7080,105 @@ manual_entries.append({
                 "string" : "",
                 "start" : 27,
                 "end" : 27
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tuntúyatin v.t. tocar, hacer sonar un instrumento musical con cuerdas o teclas, o un radio.",
+    "startpage" : 280,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuntúyatin",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.t.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tocar",
+                "start" : 16,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer sonar un instrumento musical con cuerdas o teclas",
+                "start" : 24,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer sonar un radio",
+                "start" : 24,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tuntúyatin",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.t.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
             },
     ]
 })
@@ -8323,6 +8521,182 @@ manual_entries.append({
                 "string" : "",
                 "start" : 66,
                 "end" : 66
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsékea tsékea, tsek tsek onom. expresa la acción de ir brincando brincando, saltando saltando. Uchi tsékea tsékea wéawai. El niño se va saltando saltando.",
+    "startpage" : 291,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsékea tsékea",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsek tsek",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "expresa la acción de ir brincando",
+                "start" : 33,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "expresa la acción de ir saltando",
+                "start" : 33,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Uchi tsékea tsékea wéawai.",
+                "start" : 98,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El niño se va saltando saltando.",
+                "start" : 127,
+                "end" : 161
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsékea tsékea, tsek tsek",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Uchi tsékea",
+                "start" : 98,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsékea wéawai.",
+                "start" : 111,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
             },
     ]
 })

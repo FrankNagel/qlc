@@ -212,7 +212,7 @@ def remove_parts(entry, s, e):
     
     return (start, end, string)
 
-def insert_head(entry, s, e, string = None):
+def insert_head(entry, s, e, string = None, lang_iso = None, lang_doculect = None):
     start = s
     end = e
     string_new = string
@@ -220,17 +220,45 @@ def insert_head(entry, s, e, string = None):
         (start, end, string_new) = remove_parts(entry, start, end)
     if not re.match(r" *$", string_new):
         string_new = re.sub(u"ɨ́", u"í̵", string_new.lower())
+        
+        src_languages = entry.dictdata.src_languages
+        if lang_iso == None:
+            if len(src_languages) == 1:
+                lang_iso = src_languages[0].language_iso.langcode
+        if lang_iso != None:
+            insert_annotation(entry, s, e, u"iso-639-3", lang_iso)
+
+        if lang_doculect == None:
+            if len(src_languages) == 1:
+                lang_doculect = src_languages[0].language_bookname.name
+        if lang_doculect != None:
+            insert_annotation(entry, s, e, u"doculect", lang_doculect)
+        
         return insert_annotation(entry, s, e, u"head", string_new)
     else:
         return None
 
-def insert_translation(entry, s, e, string = None):
+def insert_translation(entry, s, e, string = None, lang_iso = None, lang_doculect = None):
     start = s
     end = e
     string_new = string
     if string == None:
         (start, end, string_new) = remove_parts(entry, start, end)
     if not re.match(r" *$", string_new):
+
+        tgt_languages = entry.dictdata.tgt_languages
+        if lang_iso == None:
+            if len(tgt_languages) == 1:
+                lang_iso = tgt_languages[0].language_iso.langcode
+        if lang_iso != None:
+            insert_annotation(entry, s, e, u"iso-639-3", lang_iso)
+
+        if lang_doculect == None:
+            if len(tgt_languages) == 1:
+                lang_doculect = tgt_languages[0].language_bookname.name
+        if lang_doculect != None:
+            insert_annotation(entry, s, e, u"doculect", lang_doculect)
+
         return insert_annotation(entry, s, e, u"translation", string_new.lower())
     else:
         return None

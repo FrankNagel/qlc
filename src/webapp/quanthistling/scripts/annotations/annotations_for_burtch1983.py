@@ -291,10 +291,10 @@ def annotate_translations_and_examples(entry, manual_examples_dict):
         # insert examples
         if not (entry.startpage, entry.pos_on_page) in manual_examples_dict:
             if match_first_dot:
-                re_ex = re.compile(r'(?<=\.) ?(.*?[\.\!\?]) ?(.*?[\.\!\?])')
+                #re_ex = re.compile(r'(?<=\.) ?(.*?[\.\!\?]) ?(.*?[\.\!\?])')
                 ex_start = translation_starts[i]+match_first_dot.start(0) + 1
                 dots = []
-                for match_dot in re.finditer(r'\.', entry.fullentry[ex_start:translation_ends[i]]):
+                for match_dot in re.finditer(r'[\.\!\?]', entry.fullentry[ex_start:translation_ends[i]]):
                 #for match_ex in re_ex.finditer(entry.fullentry, translation_starts[i]+match_first_dot.start(0), translation_ends[i]):
                     mybreak = False
                     # are we in a bracket?
@@ -396,7 +396,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=137,pos_on_page=6).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=215,pos_on_page=17).all()
 
         startletters = set()
     

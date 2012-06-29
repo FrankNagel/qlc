@@ -22,9 +22,33 @@ from paste.deploy import appconfig
 
 import functions
 
+def find_language(entry, start):
+    match_lang = re.search(r"\(([ONW]).?\)", entry.fullentry[start:])
+    if match_lang:
+        if match_lang.group(1) == "O":
+            return (u"oca", u"Okáina")
+        elif match_lang.group(1) == "W":
+            return (u"huu", u"Witóto")
+        elif match_lang.group(1) == "N":
+            return (u"noj", u"Nonuya")
+    return None
+            
+def insert_translation(entry, start, end):
+    if not re.match("^ *$", entry.fullentry[start:end]):
+        lang = find_language(entry, start)
+        match_lang = re.search("\([ONW].?\) *$", entry.fullentry[start:end])
+        if match_lang:
+            end = end - len(match_lang.group(0))
+        if lang:
+            functions.insert_translation(entry, start, end, lang_iso = lang[0], lang_doculect = lang[1])
+        else:
+            functions.print_error_in_entry(entry, "could not find language")            
+            functions.insert_translation(entry, start, end)
+    
+
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation']
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in annotations:
         Session.delete(a)
     
@@ -104,7 +128,7 @@ def annotate_everything(entry):
                             italic = True
                             break
                 if italic:
-                    functions.insert_translation(entry, t_start, trans_e)
+                    insert_translation(entry, t_start, trans_e)
                 else:            
                     functions.insert_head(entry, t_start, trans_e)
                         
@@ -120,11 +144,11 @@ def annotate_everything(entry):
                                 italic = True
                                 break
                     if italic:
-                        functions.insert_translation(entry, trans2_s, trans2_e)
+                        insert_translation(entry, trans2_s, trans2_e)
                     else:            
                         functions.insert_head(entry, trans2_s, trans2_e)
                 else:
-                    functions.insert_translation(entry, trans2_s, t_end)
+                    insert_translation(entry, trans2_s, t_end)
                     c_list = []
             else:
                 trans_s = c_list[i] + 2
@@ -139,14 +163,14 @@ def annotate_everything(entry):
                                 italic = True
                                 break
                     if italic:
-                        functions.insert_translation(entry, trans_s, trans_e)
+                        insert_translation(entry, trans_s, trans_e)
                     else:
                         functions.insert_head(entry, trans_s, trans_e)
                 else:
-                    functions.insert_translation(entry, trans_s, t_end)
+                    insert_translation(entry, trans_s, t_end)
                     c_list = []
     else:
-        functions.insert_translation(entry, t_start, t_end)
+        insert_translation(entry, t_start, t_end)
    
     return heads
 
@@ -174,8 +198,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=338,pos_on_page=10).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=338,pos_on_page=10).all()
 
         startletters = set()
     
