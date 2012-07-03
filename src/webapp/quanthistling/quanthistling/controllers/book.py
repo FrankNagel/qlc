@@ -61,7 +61,7 @@ class BookController(BaseController):
                         if l.language_iso:
                             srclanguages.append(l.language_iso.langcode)
                         else:
-                            srclangages.append("n/a")
+                            srclanguages.append("n/a")
                     c.srclanguage = ", ".join(srclanguages)
 
                     tgtlanguages = []
