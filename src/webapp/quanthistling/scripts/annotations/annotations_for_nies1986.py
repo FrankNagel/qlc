@@ -24,7 +24,7 @@ import functions
 
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation']
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in annotations:
         Session.delete(a)
     
@@ -60,106 +60,114 @@ def annotate_everything(entry):
                     c_list = []
     else:
         functions.insert_head(entry, h_start, h_end, head)
-        
+   
     # pos
-    p_start_tmp = h_end
+    pos = False
+    p_start_tmp = h_end + 1
     substr = entry.fullentry[p_start_tmp:]
     match_pos = re.search(u'\((.*?)\)', substr)
     if match_pos:
-        p_start = match_pos.start(1) + h_end
-        p_end = match_pos.end(1) + h_end
+        if not re.search(u'Vea ', match_pos.group(1)):
+            pos = True
+    if pos:
+        p_start = match_pos.start(1) + p_start_tmp
+        p_end = match_pos.end(1) + p_start_tmp
         substr = entry.fullentry[p_start:p_end]
         match_c = re.search(u',', substr)
         if match_c:
-            p1_end = match_c.start() + h_end + 2
-            functions.insert_pos(entry, p_start, p1_end)
+            p1_end = match_c.start() + p_start_tmp + 1
+            substr = entry.fullentry[p_start:p1_end]
+            match_dot = re.search(u'(\.|\d)$', substr)
+            if match_dot:
+                functions.insert_pos(entry, p_start, p1_end)
             p2_start = p1_end + 1
             substr = entry.fullentry[p2_start:p_end]
-            match_dot = re.search(u'\.', substr)
+            match_dot = re.search(u'(\.|\d)$', substr)
             if match_dot:
                 functions.insert_pos(entry, p2_start, p_end)
         else:
-            functions.insert_pos(entry, p_start, p_end)
+            match_dot = re.search(u'(\.|\d)$', substr)
+            if match_dot:
+                functions.insert_pos(entry, p_start, p_end)
         
-        t_start = p_end +  1
-        pos = True
+        t_start = p_end +  2
     else:
         t_start = h_end + 1
         pos = False
     
-    # translations
-    
+    # cross-references
+    crossref = False
     substr = entry.fullentry[t_start:]
+    if re.search(u'\(Vea .*?\)', substr):
+        crossref = True
+        for match_vea in re.finditer(u'\(Vea (.*?)\)', substr):
+            cref_start = match_vea.start(1) + t_start
+            cref_end = match_vea.end(1) + t_start
+            substr = entry.fullentry[cref_start:cref_end]
+            for match in re.finditer(u', ?', substr):
+                end = match.start(0) + cref_start
+                entry.append_annotation(cref_start, end, u'crossreference', u'dictinterpretation')
+                cref_start = match.end(0) + cref_start
+            entry.append_annotation(cref_start, cref_end, u'crossreference', u'dictinterpretation')
     
-    # Any numbers in front of translations?
-    numbers = []
-    for n in re.finditer(u'(?<!\(\w\. )\d\)', substr):
-        numbers.append(n.end() + t_start)
-    
-    num_list_bpe = []
-    if numbers and pos:
-        num_list_bpe = [a for a in numbers if a > p_end]
-    else:
-        num_list_bpe = [a for a in numbers if a > h_end]
-         
-    dot_list = []
-    for d in re.finditer(u'\.(?!\.|\w)', entry.fullentry):
-        dot = True
-        for match_bracket in re.finditer(u'\(.*?\)', entry.fullentry):
-            if d.start() > match_bracket.start() and d.start() < match_bracket.end():
-                dot = False
-        if dot:
-            dot_list.append(d.start())
-    
-    #print dot_list
-    
-    if dot_list and pos:
-        dot_list_bpe = [a for a in dot_list if a > p_end]
-    else:
-        dot_list_bpe = [a for a in dot_list if a > h_end]
-    
-    if dot_list_bpe:
-        trans_end = dot_list_bpe[0]
-    else:
-        trans_end = len(entry.fullentry)
-    
-    comma_list = []
-    for com in re.finditer(r'(,|;)', entry.fullentry):
-        comma = True
-        for match_bracket in re.finditer(u'\(.*?\)', entry.fullentry):
-            if com.start() > match_bracket.start() and com.start() < match_bracket.end():
-                comma = False
-        if comma:
-            comma_list.append(com.start())
-    
-    comma_list_bpe = []
-    if comma_list and pos:
-        comma_list_bpe = [a for a in comma_list if a > p_end and a < trans_end]
-    else:
-        comma_list_bpe = [a for a in comma_list if a > h_end and a < trans_end]
-    
-    num_dot_list = []
-    
-    if num_list_bpe:
-        prev = 0
-        for x in num_list_bpe:
-            for y in dot_list_bpe:
-                if x < y and x > prev:
-                    prev = y
-                    num_dot_list.append(prev) 
-    
-    #print num_list_bpe, dot_list_bpe, num_dot_list
-    
-    num_comma_list = []
-    
-    if len(num_list_bpe) != len(num_dot_list):
-        print 'number of numbers and dots unequal, ', functions.print_error_in_entry(entry)
+    # translations
+    if not crossref:
+        substr = entry.fullentry[t_start:]
         
-    elif num_list_bpe:
-            for i in range(len(num_list_bpe)):
-                start = num_list_bpe[i]
+        # Any numbers in front of translations?
+        numbers = []
+        for n in re.finditer(u'(?<!\(\w\. )\d\)', substr):
+            numbers.append(n.end() + t_start)
+        
+        dot_list = []
+        for d in re.finditer(u'\.(?!\.|\w)', substr):
+            dot = True
+            for match_bracket in re.finditer(u'\(.*?\)', substr):
+                if d.start() > match_bracket.start() and d.start() < match_bracket.end():
+                    dot = False
+            if dot:
+                dot_list.append(d.start() + t_start)
+        
+        if dot_list:
+            t_end = dot_list[0]
+        else:
+            t_end = len(entry.fullentry)
+        
+        substr = entry.fullentry[t_start:t_end]
+        comma_list = []
+        for com in re.finditer(r'(,|;)', substr):
+            comma = True
+            for match_bracket in re.finditer(u'\(.*?\)', substr):
+                if com.start() > match_bracket.start() and com.start() < match_bracket.end():
+                    comma = False
+            if comma:
+                comma_list.append(com.start() + t_start)
+        
+        num_dot_list = []
+        if numbers:
+            prev = 0
+            for x in numbers:
+                for y in dot_list:
+                    if x < y and x > prev:
+                        prev = y
+                        num_dot_list.append(prev) 
+        
+        if len(numbers) != len(num_dot_list):
+            print 'Number of numbers and dots unequal, ', functions.print_error_in_entry(entry)
+        
+        elif numbers:
+            for i in range(len(numbers)):
+                start = numbers[i]
                 end = num_dot_list[i]
-                num_comma_list = [ a for a in comma_list if a < end and a > start]
+                substr = entry.fullentry[start:end]
+                num_comma_list = []
+                for com in re.finditer(r'(,|;)', substr):
+                    comma = True
+                    for match_bracket in re.finditer(u'\(.*?\)', substr):
+                        if com.start() > match_bracket.start() and com.start() < match_bracket.end():
+                            comma = False
+                    if comma:
+                        num_comma_list.append(com.start() + start)
                 if num_comma_list:
                     for j in range(len(num_comma_list)):
                         if j == 0:
@@ -182,44 +190,33 @@ def annotate_everything(entry):
                             else:
                                 functions.insert_translation(entry, trans_s, num_dot_list[i])
                 else:
-                    trans_s = num_list_bpe[i] + 1
+                    trans_s = numbers[i] + 1
                     trans_e = num_dot_list[i]
                     functions.insert_translation(entry, trans_s, trans_e)
-                  
-    elif comma_list_bpe and not num_list_bpe:
-        for i in range(len(comma_list_bpe)):
-            if i == 0:
-                if pos:
-                    trans_s = p_end + 1
+                      
+        elif comma_list and not numbers:
+            for i in range(len(comma_list)):
+                if i == 0:
+                    trans_e = comma_list[i]
+                    functions.insert_translation(entry, t_start, trans_e)
+                    
+                    trans2_s = comma_list[0] + 2
+                    if i + 1 < len(comma_list):
+                        trans2_e = comma_list[i+1]
+                        functions.insert_translation(entry, trans2_s, trans2_e)
+                    else:
+                        functions.insert_translation(entry, trans2_s, t_end)
                 else:
-                    trans_s = h_end + 1
-                trans_e = comma_list_bpe[i]
-                functions.insert_translation(entry, trans_s, trans_e)
-                
-                trans2_s = comma_list_bpe[0] + 2
-                if i + 1 < len(comma_list_bpe):
-                    trans2_e = comma_list_bpe[i+1]
-                    functions.insert_translation(entry, trans2_s, trans2_e)
-                else:
-                    functions.insert_translation(entry, trans2_s, trans_end)
-            else:
-                trans_s = comma_list_bpe[i] + 2
-                if i + 1 < len(comma_list_bpe):
-                    trans_e = comma_list_bpe[i+1]
-                    functions.insert_translation(entry, trans_s, trans_e)
-                else:
-                    functions.insert_translation(entry, trans_s, trans_end)
-    else:
-        if pos:
-            translation = entry.fullentry[p_end + 1:trans_end]
-            functions.insert_translation(entry, p_end + 1, trans_end, translation)   
+                    trans_s = comma_list[i] + 2
+                    if i + 1 < len(comma_list):
+                        trans_e = comma_list[i+1]
+                        functions.insert_translation(entry, trans_s, trans_e)
+                    else:
+                        functions.insert_translation(entry, trans_s, t_end)
         else:
-            translation = entry.fullentry[h_end + 1:trans_end]
-            functions.insert_translation(entry, h_end + 1, trans_end, translation)
-      
+            functions.insert_translation(entry, t_start, t_end)
+          
     return heads
-
-    
  
 def main(argv):
 
@@ -244,7 +241,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=58,pos_on_page=8).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=200,pos_on_page=10).all()
 
         startletters = set()
     
