@@ -25,7 +25,7 @@ from manualannotations_for_aguiar1994 import manual_entries
 
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation' or a.value=='pos' or a.value=='phonology' ]
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation' or a.value=='pos' or a.value=='phonology' or a.value=='doculect' or a.value=='iso-639-3']
     for a in annotations:
         Session.delete(a)
 

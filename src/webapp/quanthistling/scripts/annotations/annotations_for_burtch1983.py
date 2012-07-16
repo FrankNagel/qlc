@@ -44,8 +44,8 @@ def find_head_end(entry, valid_pos_arr):
 
 
 def find_pos(entry, valid_pos_arr):
-    starts = []
-    ends = []
+    starts = set()
+    ends = set()
     for match_bracket in re.finditer(u"\(([^)]*)\)", entry.fullentry):
         pos = match_bracket.group(0)
         #print pos.encode("utf-8")
@@ -56,8 +56,8 @@ def find_pos(entry, valid_pos_arr):
             if re_pos.search(pos):
                 start = match_bracket.start(1)
                 end = match_bracket.end(1)
-                starts.append(start)
-                ends.append(end)
+                starts.add(start)
+                ends.add(end)
     return (starts, ends)
 
 def annotate_crossrefs(entry):
@@ -98,7 +98,7 @@ def annotate_dialect(entry):
 
 def annotate_head(entry, manual_heads_dict, valid_pos_arr):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='boundary']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='boundary' or a.value=='doculect' or a.value=='iso-639-3']
     for a in head_annotations:
         Session.delete(a)
 
@@ -179,11 +179,7 @@ def annotate_pos(entry, valid_pos_arr):
 
     (pos_starts, pos_ends) = find_pos(entry, valid_pos_arr)
     if len(pos_starts) > 0:
-        #print len(pos_starts)
-        i = 0
-        for pos_start in pos_starts:
-            # print i
-            pos_end = pos_ends[i]
+        for pos_start, pos_end in zip(pos_starts, pos_ends):
             substr = entry.fullentry[pos_start:pos_end]
             start = pos_start
             for match_comma in re.finditer(r', ?', substr):
@@ -192,7 +188,6 @@ def annotate_pos(entry, valid_pos_arr):
                 start = match_comma.end(0) + pos_start
             end = pos_end
             entry.append_annotation(start, end, u'pos', u'dictinterpretation')
-            i = i + 1
             
 
 def annotate_translations_and_examples(entry, manual_examples_dict):
@@ -396,7 +391,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=215,pos_on_page=17).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=35,pos_on_page=12).all()
 
         startletters = set()
     

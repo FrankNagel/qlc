@@ -147,8 +147,8 @@ def create_concepts_mapping():
         elif re.match("%%%", l):
             l = l.rstrip()
             match_parts = re.search("^%%%([^:]*): ([^-]*)->(.*)$", l)
-            line = match_parts.group(1)
-            concept = match_parts.group(3)
+            line = match_parts.group(1).strip()
+            concept = match_parts.group(3).strip()
             #print line.encode("utf-8")
             #print u"  {0}".format(concept).encode("utf-8")
             if line == None or concept == None or book == None:

@@ -224,13 +224,15 @@ def insert_head(entry, s, e, string = None, lang_iso = None, lang_doculect = Non
         src_languages = entry.dictdata.src_languages
         if lang_iso == None:
             if len(src_languages) == 1:
-                lang_iso = src_languages[0].language_iso.langcode
+                if src_languages[0].language_iso:
+                    lang_iso = src_languages[0].language_iso.langcode
         if lang_iso != None:
             insert_annotation(entry, s, e, u"iso-639-3", lang_iso)
 
         if lang_doculect == None:
             if len(src_languages) == 1:
-                lang_doculect = src_languages[0].language_bookname.name
+                if src_languages[0].language_bookname:
+                    lang_doculect = src_languages[0].language_bookname.name
         if lang_doculect != None:
             insert_annotation(entry, s, e, u"doculect", lang_doculect)
         

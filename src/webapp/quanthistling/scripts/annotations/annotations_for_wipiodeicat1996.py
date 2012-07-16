@@ -99,7 +99,7 @@ def insert_head(entry, start, end):
 
     substr = entry.fullentry[start:end]
 
-    match = re.search(r"(?! )(\()(.*?)\)$", substr)
+    match = re.search(r"(?<! )(\()(.*?)\)$", substr)
     if match:
         heads = []
         head_base = entry.fullentry[start:start+match.start(1)]
@@ -157,7 +157,7 @@ def insert_translation(entry, start, end):
 
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='doculect' or a.value=='iso-639-3']
     for a in head_annotations:
         Session.delete(a)
 
@@ -173,11 +173,18 @@ def annotate_head(entry):
         start = head_start_pos
         substr = entry.fullentry[head_start_pos:head_end_pos]
         for match in re.finditer(r'(?:, ?|$)', substr):
-            end = match.start(0) + head_start_pos
-            inserted_heads = insert_head(entry, start, end)
-            #entry.append_annotation(start, end, u'head', u'dictinterpretation')
-            heads.extend(inserted_heads)
-            start = match.end(0) + head_start_pos
+            mybreak = False
+            # are we in a bracket?
+            for m in re.finditer(r'\(.*?\)', substr):
+                if match.start(0) >= m.start(0) and match.end(0) < m.end(0):
+                    mybreak = True
+                
+            if not mybreak:
+                end = match.start(0) + head_start_pos
+                inserted_heads = insert_head(entry, start, end)
+                #entry.append_annotation(start, end, u'head', u'dictinterpretation')
+                heads.extend(inserted_heads)
+                start = match.end(0) + head_start_pos
     else:
         if entry.fullentry[0] == u"║" and entry.is_subentry():
             head_annotations_mainentry = [ a for a in entry.mainentry().annotations if a.value=='head']
@@ -273,7 +280,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=271,pos_on_page=53).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=50,pos_on_page=40).all()
 
         startletters = set()
     

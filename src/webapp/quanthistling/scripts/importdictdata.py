@@ -21,6 +21,8 @@ from paste.deploy import appconfig
 import importbook
 import importhuber1992
 import importzgraggen1980
+import importtoolboxfile
+
 from annotations import *
 
 def ann(ini_file, bibtex_key):
@@ -112,6 +114,7 @@ def main(argv):
     #for b in quanthistling.dictdata.wordlistbooks.list:
     importhuber1992.main(['importhuber1992.py', ini_file])
     importzgraggen1980.main(['importhuber1992.py', ini_file])
+    importtoolboxfile.main(['all', ini_file])
 
 if __name__ == "__main__":
     main(sys.argv)
