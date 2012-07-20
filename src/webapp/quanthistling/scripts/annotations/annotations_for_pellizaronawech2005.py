@@ -24,7 +24,7 @@ import functions
     
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=="head"]
+    head_annotations = [ a for a in entry.annotations if a.value=="head" or a.value=='doculect' or a.value=='iso-639-3']
     for a in head_annotations:
         Session.delete(a)
     
@@ -185,7 +185,15 @@ def annotate_translations(entry):
             match_nombre = re.match(u"nombre de [^(]+ \((?:= )?([^)]+)\)", translation)
             if match_nombre:
                 translation = match_nombre.group(1)
-            functions.insert_translation(entry, start, end, translation)
+                
+            match_ending = re.search(r"/(a|o|as|do)\b", translation)
+            if match_ending:
+                translation2 = translation[:match_ending.start(0)] + translation[match_ending.end(0):]
+                functions.insert_translation(entry, start, end, translation2)
+                translation2 = translation[:match_ending.start(0)-len(match_ending.group(1))] + match_ending.group(1) + translation[match_ending.end(0):]
+                functions.insert_translation(entry, start, end, translation2)
+            else:
+                functions.insert_translation(entry, start, end, translation)
             start = match.end(0) + trans_start
 
 def annotate_examples(entry): 
@@ -247,7 +255,7 @@ def main(argv):
 
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=380,pos_on_page=4).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=162,pos_on_page=25).all()
         
         startletters = set()
         for e in entries:

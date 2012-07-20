@@ -1,0 +1,22 @@
+
+manual_entries.append({
+    "fullentry" : "alzar la ropa en las piernas – datamát",
+    "startpage" : 112,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "alzar la ropa en las piernas",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "datamát",
+                "start" : 31,
+                "end" : 39
+            },
+    ]
+})
