@@ -8,6 +8,76 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 65,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 107,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 130,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 65,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 107,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 130,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "naa",
                 "start" : 0,

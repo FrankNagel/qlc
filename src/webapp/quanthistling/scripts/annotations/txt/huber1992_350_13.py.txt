@@ -8,6 +8,76 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 87,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 115,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 145,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 87,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 115,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 145,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kútti",
                 "start" : 0,

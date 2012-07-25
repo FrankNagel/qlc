@@ -2,8 +2,36 @@
 manual_entries.append({
     "fullentry" : "chaj ichái interj. ¡ay! expresión de asombro o de remordimiento.",
     "startpage" : 108,
-    "pos_on_page" : 25,
+    "pos_on_page" : 24,
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "acu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Achuar-Shiwiar",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 20,
+                "end" : 65
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",

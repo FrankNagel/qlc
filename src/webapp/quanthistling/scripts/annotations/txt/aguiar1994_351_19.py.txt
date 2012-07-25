@@ -6,6 +6,27 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Katukina",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 11,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 11,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "rixkiai ",
                 "start" : 0,

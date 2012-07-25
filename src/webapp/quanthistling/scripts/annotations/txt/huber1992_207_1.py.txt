@@ -8,6 +8,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sus manos",
                 "start" : 0,

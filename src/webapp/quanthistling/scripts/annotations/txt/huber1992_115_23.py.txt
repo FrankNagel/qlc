@@ -8,6 +8,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sájnu",
                 "start" : 0,

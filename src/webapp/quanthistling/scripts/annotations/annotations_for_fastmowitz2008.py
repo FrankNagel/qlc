@@ -129,7 +129,8 @@ def annotate_head(entry):
             match_dialect = re.search(u"\((?:HUI|AN|C|HUA|P)\) ?$", entry.fullentry[start:end])
             if match_dialect:
                 end = start + match_dialect.start(0)
-            entry.append_annotation(start, end, u'head', u'dictinterpretation')
+            functions.insert_head(entry, start, end)
+            #entry.append_annotation(start, end, u'head', u'dictinterpretation')
             heads.append(entry.fullentry[start:end])
             start = match.end(0)
         

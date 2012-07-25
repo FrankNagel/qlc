@@ -8,6 +8,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "desano",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "desano",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ẽrã́",
                 "start" : 0,

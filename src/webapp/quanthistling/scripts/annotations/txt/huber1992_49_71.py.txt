@@ -8,6 +8,13 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "uúni hannúpoa",
                 "start" : 19,

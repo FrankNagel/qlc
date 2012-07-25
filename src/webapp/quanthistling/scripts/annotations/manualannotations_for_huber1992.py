@@ -12,6 +12,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "alku",
                 "start" : 0,
@@ -34,6 +48,34 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "VENADO_DEER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 8,
+                "end" : 15
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -74,6 +116,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "níiβi̵gai",
                 "start" : 0,
@@ -110,6 +180,48 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "MURCIÉLAGO_BAT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 29,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 29,
+                "end" : 39
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -157,6 +269,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kaminə",
                 "start" : 0,
@@ -179,6 +305,34 @@ manual_entries.append({
     "language_bookname" : "carijona",
     "concept" : "OSO HORMIGUERO_ANTEATER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbd",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbd",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "carijona",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "carijona",
+                "start" : 42,
+                "end" : 49
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -219,6 +373,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "arókamɨ",
                 "start" : 0,
@@ -255,6 +437,48 @@ manual_entries.append({
     "language_bookname" : "sáliba",
     "concept" : "CAIMÁN_CAYMAN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 49,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 49,
+                "end" : 53
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -302,6 +526,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "níʔiba",
                 "start" : 0,
@@ -340,6 +592,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 7,
+                "end" : 31
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 7,
+                "end" : 31
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "úú",
                 "start" : 0,
@@ -362,6 +642,20 @@ manual_entries.append({
     "language_bookname" : "witoto murui",
     "concept" : "TORTUGA_TORTOISE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 0,
+                "end" : 6
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -393,6 +687,34 @@ manual_entries.append({
     "language_bookname" : "kakua",
     "concept" : "TORTUGA, MOTELO_RIVER TURTLE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 8,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 8,
+                "end" : 19
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -433,6 +755,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sájnu",
                 "start" : 0,
@@ -455,6 +805,48 @@ manual_entries.append({
     "language_bookname" : "chimila",
     "concept" : "GATO_CAT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 21,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 21,
+                "end" : 24
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -502,6 +894,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kum pampa",
                 "start" : 0,
@@ -524,6 +930,20 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "MENTÓN_CHIN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 49,
+                "end" : 80
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -555,6 +975,48 @@ manual_entries.append({
     "language_bookname" : "chimila",
     "concept" : "RATÓN_MOUSE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 21,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 21,
+                "end" : 24
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -602,6 +1064,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "poɾosã́i",
                 "start" : 0,
@@ -638,6 +1128,48 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "COLA_TAIL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 6,
+                "end" : 16
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -685,6 +1217,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yui",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yurutí",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pĩ́kõ",
                 "start" : 0,
@@ -700,6 +1246,34 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "SERPIENTE, CULEBRA_SNAKE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 12,
+                "end" : 16
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -740,6 +1314,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbp",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "dí̵mɨna",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "coráru ",
                 "start" : 0,
@@ -778,6 +1366,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 12,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 12,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sápu ",
                 "start" : 0,
@@ -809,6 +1425,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bĩ́dĩ́",
                 "start" : 0,
@@ -838,6 +1468,34 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "GUACAMAYO_MACAW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 39,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 39,
+                "end" : 49
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -878,6 +1536,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "iɾakˣáɾa",
                 "start" : 0,
@@ -894,6 +1566,34 @@ manual_entries.append({
     "concept" : "BARBA_BEARD",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 10,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 10,
+                "end" : 19
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "póʔtame",
@@ -919,6 +1619,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "paliton ",
                 "start" : 0,
@@ -941,6 +1655,34 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "PERICO, PIHUICHO_PARAKEET",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 34,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 34,
+                "end" : 47
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -979,6 +1721,76 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "LECHUZA, BUHO_OWL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 62,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 77,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 102,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 62,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 77,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 102,
+                "end" : 109
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1040,6 +1852,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ˈʧikbədirə",
                 "start" : 0,
@@ -1064,6 +1890,13 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "karaka",
                 "start" : 12,
@@ -1086,6 +1919,34 @@ manual_entries.append({
     "language_bookname" : "kogui",
     "concept" : "PESCADO_FISH",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kog",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kog",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kogui",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kogui",
+                "start" : 14,
+                "end" : 19
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1133,6 +1994,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbd",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "carijona",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "βereβere",
                 "start" : 0,
@@ -1149,6 +2024,34 @@ manual_entries.append({
     "concept" : "ARAÑA_SPIDER",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 13,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 13,
+                "end" : 19
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "aráɲa ",
@@ -1181,6 +2084,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dúuli",
                 "start" : 0,
@@ -1204,6 +2121,34 @@ manual_entries.append({
     "concept" : "CERRO, LOMA_HILL",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 9
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "búro",
@@ -1229,6 +2174,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ĩ̵bĩ̵ tĩ̵tɨ",
                 "start" : 0,
@@ -1251,6 +2210,62 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "CERRO, LOMA_HILL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 46,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 58,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 46,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 58,
+                "end" : 69
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1305,6 +2320,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 8,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 8,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sɨpána",
                 "start" : 0,
@@ -1334,6 +2391,34 @@ manual_entries.append({
     "language_bookname" : "piapoco",
     "concept" : "FLOR_FLOWER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 31,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 31,
+                "end" : 38
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1374,6 +2459,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mẽtiwápe",
                 "start" : 0,
@@ -1412,6 +2525,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kʰorosipaʔpaβa",
                 "start" : 0,
@@ -1448,6 +2589,76 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "FRUTA_FRUIT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 33,
+                "end" : 38
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1509,6 +2720,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "óbáxákímaxe",
                 "start" : 0,
@@ -1554,6 +2793,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hux",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hux",
+                "start" : 32,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto nɨpode",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto nɨpode",
+                "start" : 32,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ihi",
                 "start" : 0,
@@ -1590,6 +2857,34 @@ manual_entries.append({
     "language_bookname" : "achagua",
     "concept" : "RAÍZ_ROOT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 57,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 57,
+                "end" : 64
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1630,6 +2925,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "í̵iriná",
                 "start" : 0,
@@ -1668,6 +2991,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 5,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 5,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "nekʰára",
                 "start" : 0,
@@ -1690,6 +3041,34 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "RAÍZ_ROOT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 18,
+                "end" : 34
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1730,6 +3109,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 7,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 7,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sɨʔí̵",
                 "start" : 0,
@@ -1754,6 +3161,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "womans breasts",
                 "start" : 0,
@@ -1769,6 +3190,48 @@ manual_entries.append({
     "language_bookname" : "witoto mɨnɨca",
     "concept" : "PALO_STICK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 18,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 18,
+                "end" : 24
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1816,6 +3279,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pɨí̵βa",
                 "start" : 0,
@@ -1852,6 +3343,48 @@ manual_entries.append({
     "language_bookname" : "witoto murui",
     "concept" : "YUCA_MANIOC",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 67,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 67,
+                "end" : 91
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1906,6 +3439,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dumáʃi",
                 "start" : 0,
@@ -1928,6 +3475,62 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "CALABAZO PORO_GOURD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 19,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 58,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 19,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 58,
+                "end" : 94
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -1982,6 +3585,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 12,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 12,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "okʰopɨ",
                 "start" : 0,
@@ -2020,6 +3651,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʃajnʃirə",
                 "start" : 0,
@@ -2035,6 +3680,34 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "ÑAME_YAM",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 13,
+                "end" : 17
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2082,6 +3755,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔnoɾirə",
                 "start" : 0,
@@ -2104,6 +3791,20 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "AJAHUASCA, JAJÉ_BANISTERIUM",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 9
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2129,6 +3830,34 @@ manual_entries.append({
     "concept" : "PLÁTANO_PLANTAIN",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 11,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 11,
+                "end" : 14
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "plad ",
@@ -2159,6 +3888,34 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "CHONTA_CHONTA PALM",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 32,
+                "end" : 44
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2199,6 +3956,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "néépʰáhyɯpa",
                 "start" : 0,
@@ -2214,6 +3985,13 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "CAÑA BRAVA_CANE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 19
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2254,6 +4032,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tɕe",
                 "start" : 0,
@@ -2270,6 +4062,20 @@ manual_entries.append({
     "concept" : "SAL_SALT",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "emp",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Darién",
+                "start" : 0,
+                "end" : 4
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tʰã",
@@ -2288,6 +4094,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "teiʔ³paʔ¹",
                 "start" : 0,
@@ -2304,6 +4124,20 @@ manual_entries.append({
     "concept" : "CINCO_FIVE",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 9
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "æp depũh",
@@ -2322,6 +4156,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʧɛne¹ teiʔ¹",
                 "start" : 0,
@@ -2339,6 +4187,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 24
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 24
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pʰaʔóxtsʰí̵kʰɯ́neβa",
                 "start" : 0,
@@ -2354,6 +4216,20 @@ manual_entries.append({
     "language_bookname" : "cubeo",
     "concept" : "PRIMERO_FIRST",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 0,
+                "end" : 24
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2387,6 +4263,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guo",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guayabero",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "matxóel páton",
                 "start" : 0,
@@ -2416,6 +4306,34 @@ manual_entries.append({
     "language_bookname" : "wanano",
     "concept" : "ÚLTIMO_LAST",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 48,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 48,
+                "end" : 55
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2456,6 +4374,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pir",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pir",
+                "start" : 49,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piratapuyo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piratapuyo",
+                "start" : 49,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bato ti",
                 "start" : 0,
@@ -2494,6 +4440,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 12,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 12,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "búmba ",
                 "start" : 0,
@@ -2523,6 +4497,20 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "TAMBOR_DRUM",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 11
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2563,6 +4551,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "rásu ",
                 "start" : 0,
@@ -2601,6 +4603,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dʲɯxááβɯ",
                 "start" : 0,
@@ -2616,6 +4632,20 @@ manual_entries.append({
     "language_bookname" : "miraña",
     "concept" : "MÁSCARA_MASK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 0,
+                "end" : 10
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2640,6 +4670,13 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "CURANDERO_SHAMAN, FOLK HEALER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 18
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2673,6 +4710,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 16,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 16,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kʰapithá ",
                 "start" : 0,
@@ -2704,6 +4769,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cof",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cof",
+                "start" : 8,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tsafiqui pila",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tsafiqui pila",
+                "start" : 8,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "la ",
                 "start" : 0,
@@ -2726,6 +4819,20 @@ manual_entries.append({
     "language_bookname" : "embera Darién",
     "concept" : "YO_I",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "emp",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Darién",
+                "start" : 0,
+                "end" : 2
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2759,6 +4866,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mɨ",
                 "start" : 0,
@@ -2788,6 +4909,20 @@ manual_entries.append({
     "language_bookname" : "embera chamí",
     "concept" : "YO_I",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 2
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2821,6 +4956,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mɨ",
                 "start" : 0,
@@ -2850,6 +4999,20 @@ manual_entries.append({
     "language_bookname" : "epena Saija",
     "concept" : "YO_I",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 2
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2883,6 +5046,13 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena basurudó",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mɨ",
                 "start" : 0,
@@ -2912,6 +5082,20 @@ manual_entries.append({
     "language_bookname" : "wounaan",
     "concept" : "YO_I",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 2
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -2945,6 +5129,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "you",
                 "start" : 0,
@@ -2960,6 +5158,34 @@ manual_entries.append({
     "language_bookname" : "piapoco",
     "concept" : "ÉL_HE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 20,
+                "end" : 23
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3000,6 +5226,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "iʔki",
                 "start" : 0,
@@ -3038,6 +5292,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 2
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 2
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔi",
                 "start" : 0,
@@ -3053,6 +5321,34 @@ manual_entries.append({
     "language_bookname" : "piapoco",
     "concept" : "ELLO_IT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 20,
+                "end" : 23
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3093,6 +5389,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 7,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 7,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 7,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 7,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wajée",
                 "start" : 0,
@@ -3124,6 +5462,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "you",
                 "start" : 0,
@@ -3140,6 +5492,20 @@ manual_entries.append({
     "concept" : "USTEDES_YOU (PLURAL)",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 5
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "páin",
@@ -3158,6 +5524,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tidã",
                 "start" : 0,
@@ -3174,6 +5554,20 @@ manual_entries.append({
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pir",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piratapuyo",
+                "start" : 0,
+                "end" : 9
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tikidã",
@@ -3192,6 +5586,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kĩ̵́hã",
                 "start" : 0,
@@ -3208,6 +5616,20 @@ manual_entries.append({
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 9
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kĩ̵́hã",
@@ -3226,6 +5648,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tue",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tuyuca",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kĩ̵́ã",
                 "start" : 0,
@@ -3243,6 +5679,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yui",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yurutí",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kĩ̵́hã",
                 "start" : 0,
@@ -3259,6 +5709,34 @@ manual_entries.append({
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 9,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "desano",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "desano",
+                "start" : 9,
+                "end" : 16
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ẽrã́",
@@ -3284,6 +5762,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sri",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "siriano",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ĩgĩ̵́sã",
                 "start" : 0,
@@ -3300,6 +5792,34 @@ manual_entries.append({
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tav",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tav",
+                "start" : 7,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tatuyo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tatuyo",
+                "start" : 7,
+                "end" : 11
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dã́",
@@ -3325,6 +5845,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbc",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "carapana",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dã́ã́",
                 "start" : 0,
@@ -3342,6 +5876,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ĩʔrã",
                 "start" : 0,
@@ -3358,6 +5906,34 @@ manual_entries.append({
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 12,
+                "end" : 21
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 12,
+                "end" : 21
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kʰãʔana",
@@ -3383,6 +5959,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sey",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "secoya",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hãõ waʔj",
                 "start" : 0,
@@ -3398,6 +5988,34 @@ manual_entries.append({
     "language_bookname" : "orejón",
     "concept" : "ELLOS_THEY",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 27,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 27,
+                "end" : 38
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3438,6 +6056,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbd",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "carijona",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "namoro",
                 "start" : 0,
@@ -3460,6 +6092,48 @@ manual_entries.append({
     "language_bookname" : "cuiba",
     "concept" : "ELLOS_THEY",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 34,
+                "end" : 42
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3505,6 +6179,62 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "ELLOS_THEY",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 30,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 55,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 30,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 55,
+                "end" : 65
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3573,6 +6303,90 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 44,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 72,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 85,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 44,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 72,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 85,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "aátʰʲe",
                 "start" : 0,
@@ -3639,6 +6453,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jɨ wãbõ bãkã",
                 "start" : 0,
@@ -3654,6 +6482,34 @@ manual_entries.append({
     "language_bookname" : "piratapuyo",
     "concept" : "MI MANO_MY HAND",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pir",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pir",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piratapuyo",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piratapuyo",
+                "start" : 19,
+                "end" : 31
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3694,6 +6550,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jí̵ ã́ˈbṍ",
                 "start" : 0,
@@ -3710,6 +6580,20 @@ manual_entries.append({
     "concept" : "MI MANO_MY HAND",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 10
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jaaãbõ",
@@ -3728,6 +6612,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tue",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tuyuca",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jáawãbõ",
                 "start" : 0,
@@ -3743,6 +6641,34 @@ manual_entries.append({
     "language_bookname" : "páez",
     "concept" : "TU MANO_YOUR HAND",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 22,
+                "end" : 32
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3783,6 +6709,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ne kwal",
                 "start" : 0,
@@ -3805,6 +6759,34 @@ manual_entries.append({
     "language_bookname" : "kakua",
     "concept" : "SU MANO_HIS HAND",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 18,
+                "end" : 29
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -3852,6 +6834,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 25,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 25,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ĩ̵hã́jaãbõrĩ",
                 "start" : 0,
@@ -3897,6 +6907,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 39,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 39,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wahakóbe",
                 "start" : 0,
@@ -3935,6 +6973,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "your hands",
                 "start" : 0,
@@ -3951,6 +7003,34 @@ manual_entries.append({
     "concept" : "VUESTRAS MANOS_YOUR (PLUR.) HANDS",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 23
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 23
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mɨsanɨkho hĩ̵ɲ̥a",
@@ -3976,6 +7056,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sus manos",
                 "start" : 0,
@@ -3993,6 +7087,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "your bow",
                 "start" : 0,
@@ -4009,6 +7117,34 @@ manual_entries.append({
     "concept" : "BRAZO SUPERIOR_UPPER ARM",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 12,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 12,
+                "end" : 20
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɲúdu ",
@@ -4039,6 +7175,34 @@ manual_entries.append({
     "language_bookname" : "piapoco",
     "concept" : "SU ARCO - DE ÉL_HIS BOW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 15,
+                "end" : 26
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4079,6 +7243,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sã ja bɨeri dẽtẽ",
                 "start" : 0,
@@ -4117,6 +7309,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "your bow",
                 "start" : 0,
@@ -4133,6 +7339,34 @@ manual_entries.append({
     "concept" : "SU ARCO DE USTEDES_YOUR (PLUR.) BOW",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 30
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 30
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bĩ̵sã bɨeri dẽtẽ",
@@ -4158,6 +7392,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kĩ̵́hãjatebũbeto",
                 "start" : 0,
@@ -4180,6 +7428,34 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "GRANDE_BIG",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 14,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 14,
+                "end" : 26
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4218,6 +7494,48 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "GRANDE_BIG",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 33,
+                "end" : 42
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4272,6 +7590,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 24,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 24,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bõhṍgĩ̵",
                 "start" : 0,
@@ -4324,6 +7684,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "maβaʔɨ",
                 "start" : 0,
@@ -4353,6 +7727,34 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "PEQUEÑO_SMALL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 16,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 16,
+                "end" : 32
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4391,6 +7793,62 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "PEQUEÑO_SMALL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 30,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 30,
+                "end" : 35
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4445,6 +7903,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tsetik",
                 "start" : 0,
@@ -4467,6 +7953,20 @@ manual_entries.append({
     "language_bookname" : "nukak",
     "concept" : "CALIENTE_HOT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 5
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4493,6 +7993,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 6
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 6
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dʲóʔo",
                 "start" : 0,
@@ -4510,6 +8024,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɸṍhɯ̃",
                 "start" : 0,
@@ -4526,6 +8054,34 @@ manual_entries.append({
     "concept" : "BUENO_GOOD",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 9
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ími",
@@ -4551,6 +8107,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "rgr",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "resígaro",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "matsʰíβaʔnúʔ",
                 "start" : 0,
@@ -4567,6 +8137,48 @@ manual_entries.append({
     "concept" : "MALO_BAD",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 19,
+                "end" : 35
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 19,
+                "end" : 35
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jãìjãìrihe",
@@ -4597,6 +8209,34 @@ manual_entries.append({
     "language_bookname" : "kakua",
     "concept" : "MALO_BAD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 19,
+                "end" : 23
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4637,6 +8277,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 12,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 12,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɲúdu ",
                 "start" : 0,
@@ -4668,6 +8336,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "botí",
                 "start" : 0,
@@ -4692,6 +8388,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kéʔsiri",
                 "start" : 0,
@@ -4707,6 +8417,34 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "NEGRO_BLACK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 16,
+                "end" : 24
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4747,6 +8485,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jĩì",
                 "start" : 0,
@@ -4771,6 +8537,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "korówʧe",
                 "start" : 0,
@@ -4788,6 +8568,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hɛ̃lẽ⁴",
                 "start" : 0,
@@ -4803,6 +8597,62 @@ manual_entries.append({
     "language_bookname" : "waimaja",
     "concept" : "VAYA, VE_GO",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 48,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 69,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 48,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 69,
+                "end" : 82
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4864,6 +8714,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wáagɨ",
                 "start" : 0,
@@ -4909,6 +8801,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hã́ã́ɯ̃",
                 "start" : 0,
@@ -4925,6 +8831,34 @@ manual_entries.append({
     "concept" : "VEN_COME",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tuf",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tuf",
+                "start" : 9,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tunebo central",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tunebo central",
+                "start" : 9,
+                "end" : 15
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ráw̃i",
@@ -4948,6 +8882,48 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "VEN_COME",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 28,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 28,
+                "end" : 37
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -4995,6 +8971,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dæ̃d",
                 "start" : 0,
@@ -5010,6 +9000,34 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "DUERME_SLEEP",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 11,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 11,
+                "end" : 27
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5050,6 +9068,62 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "boɾo pʰãɾĩ́sũ",
                 "start" : 0,
@@ -5088,6 +9162,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 18
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "guhí riohoaje",
                 "start" : 0,
@@ -5105,6 +9193,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "Adams apple",
                 "start" : 0,
@@ -5120,6 +9222,20 @@ manual_entries.append({
     "language_bookname" : "barí",
     "concept" : "ESPALDA, PARTE SUPERIOR_UPPER BACK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 10
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5144,6 +9260,34 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "LA PIERNA INFERIOR_LOWER LEG",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 34,
+                "end" : 42
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5182,6 +9326,48 @@ manual_entries.append({
     "language_bookname" : "witoto murui",
     "concept" : "VIEJITA_OLD WOMAN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 23,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 23,
+                "end" : 34
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5243,6 +9429,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "waɲiisik",
                 "start" : 0,
@@ -5258,6 +9458,48 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "NUBES QUIETAS_CLOUDS AT REST",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 30,
+                "end" : 41
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5312,6 +9554,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "βaaɯ́meítʰjɯ́ne oxtsʰo",
                 "start" : 0,
@@ -5350,6 +9606,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pui",
+                "start" : 0,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "puinave",
+                "start" : 0,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mo hĩ̵mka huɺe",
                 "start" : 0,
@@ -5365,6 +9635,13 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "SEMENTERA DE MAÍZ_CORN FIELD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 25
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5391,6 +9668,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "máarutíkkui",
                 "start" : 0,
@@ -5413,6 +9718,34 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "TROCHA_PATH",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 8,
+                "end" : 18
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5453,6 +9786,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kog",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kogui",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "təŋkuá",
                 "start" : 0,
@@ -5468,6 +9815,20 @@ manual_entries.append({
     "language_bookname" : "barí",
     "concept" : "ESTE_THIS",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 9
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5492,6 +9853,48 @@ manual_entries.append({
     "language_bookname" : "achagua",
     "concept" : "ESTE_THIS",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 42,
+                "end" : 49
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5539,6 +9942,27 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 61,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 74,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 87,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ahi",
                 "start" : 61,
@@ -5584,6 +10008,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gvc",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wanano",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dõã",
                 "start" : 0,
@@ -5620,6 +10072,48 @@ manual_entries.append({
     "language_bookname" : "macuna",
     "concept" : "QUIÉN_WHO",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "myy",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "myy",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "myy",
+                "start" : 47,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "macuna",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "macuna",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "macuna",
+                "start" : 47,
+                "end" : 52
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5665,6 +10159,62 @@ manual_entries.append({
     "language_bookname" : "barasana",
     "concept" : "QUIÉN_WHO",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 11,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 11,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 69,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 11,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 11,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 69,
+                "end" : 75
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5719,6 +10269,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 50,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 50,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bãki",
                 "start" : 0,
@@ -5762,6 +10354,62 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "QUIÉN_WHO",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 54,
+                "end" : 61
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5816,6 +10464,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "nóho",
                 "start" : 0,
@@ -5861,6 +10551,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 9,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 9,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tsɨstɨ",
                 "start" : 0,
@@ -5883,6 +10601,34 @@ manual_entries.append({
     "language_bookname" : "bará",
     "concept" : "TODOS_ALL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 18,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 18,
+                "end" : 31
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -5923,6 +10669,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 16,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 16,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jãhedíro",
                 "start" : 0,
@@ -5961,6 +10735,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mucho",
                 "start" : 0,
@@ -5985,6 +10787,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "jóa",
                 "start" : 0,
@@ -6007,6 +10837,76 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "CORTEZA_BARK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 19,
+                "end" : 35
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6068,6 +10968,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɯ́méʔe mí̵í̵ʔe",
                 "start" : 0,
@@ -6092,6 +11006,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arh",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arh",
+                "start" : 11,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ika",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ika",
+                "start" : 11,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "məntékɨ",
                 "start" : 1,
@@ -6115,6 +11057,27 @@ manual_entries.append({
     "concept" : "HUEVO_EGG",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 31,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 80,
+                "end" : 133
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "lidiéve",
@@ -6147,6 +11110,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gob",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "playero",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pemátʔtéto",
                 "start" : 0,
@@ -6169,6 +11146,20 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "CUERNO_HORN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 9
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6209,6 +11200,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kbh",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kamsá",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "plumɨbxuá",
                 "start" : 0,
@@ -6231,6 +11236,62 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "PLUMA_FEATHER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 37,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 78,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 37,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 78,
+                "end" : 81
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6285,6 +11346,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbd",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "carijona",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ihotɯ",
                 "start" : 0,
@@ -6307,6 +11382,48 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "PLUMA_FEATHER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 30,
+                "end" : 39
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6361,6 +11478,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "púipipáʧʰale",
                 "start" : 0,
@@ -6392,6 +11523,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "omáʃeru",
                 "start" : 0,
@@ -6407,6 +11552,34 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "BARRIGA_BELLY",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 8,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 8,
+                "end" : 21
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6445,6 +11618,48 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "VER_SEE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 27,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 27,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 42,
+                "end" : 47
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6499,6 +11714,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʃidɨrikbajkajnə",
                 "start" : 0,
@@ -6521,6 +11750,34 @@ manual_entries.append({
     "language_bookname" : "cubeo",
     "concept" : "MATAR_KILL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 44,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 44,
+                "end" : 64
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6559,6 +11816,104 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "MATAR_KILL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 32,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 45,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 64,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 80,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 95,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 32,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 45,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 64,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 80,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 95,
+                "end" : 107
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6641,6 +11996,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 50,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 50,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "katí̵naa",
                 "start" : 0,
@@ -6679,6 +12062,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "niát",
                 "start" : 0,
@@ -6695,6 +12092,20 @@ manual_entries.append({
     "concept" : "ANDAR_WALK",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 3
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 3
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "nir",
@@ -6713,6 +12124,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dæ̃dæ̃j",
                 "start" : 0,
@@ -6728,6 +12153,34 @@ manual_entries.append({
     "language_bookname" : "embera Tadó",
     "concept" : "ACOSTARSE_LIE DOWN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 21
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6768,6 +12221,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hẽɾãbée",
                 "start" : 0,
@@ -6804,6 +12285,34 @@ manual_entries.append({
     "language_bookname" : "embera chamí",
     "concept" : "SENTARSE, SENTADO_SIT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 14
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6844,6 +12353,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "suʔakʰuɓá",
                 "start" : 0,
@@ -6880,6 +12417,34 @@ manual_entries.append({
     "language_bookname" : "epena Saija",
     "concept" : "SENTARSE, SENTADO_SIT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 18
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6920,6 +12485,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hiɾadí̵",
                 "start" : 0,
@@ -6956,6 +12549,34 @@ manual_entries.append({
     "language_bookname" : "embera Tadó",
     "concept" : "PONERSE EN PIE, DE PIE_STAND",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tdc",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Tadó",
+                "start" : 0,
+                "end" : 15
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -6996,6 +12617,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pʰiɾabái",
                 "start" : 0,
@@ -7034,6 +12683,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 16,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 16,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dɔ̃ʔɔ̃j",
                 "start" : 0,
@@ -7065,6 +12756,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dɔ̃j",
                 "start" : 0,
@@ -7081,6 +12786,34 @@ manual_entries.append({
     "concept" : "DECIR_SAY",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 6,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 6,
+                "end" : 10
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɯ̃ɯ̃",
@@ -7104,6 +12837,76 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "ARDER_BURN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 16,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 33,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 58,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 16,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 33,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 58,
+                "end" : 71
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7165,6 +12968,27 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 34,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 51,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ijápa",
                 "start" : 12,
@@ -7210,6 +13034,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dadá",
                 "start" : 0,
@@ -7248,6 +13100,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "buɾuninə",
                 "start" : 0,
@@ -7265,6 +13131,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mot",
+                "start" : 0,
+                "end" : 6
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barí",
+                "start" : 0,
+                "end" : 6
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔəəbəʔ",
                 "start" : 0,
@@ -7280,6 +13160,62 @@ manual_entries.append({
     "language_bookname" : "achagua",
     "concept" : "COMO_HOW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 32,
+                "end" : 37
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7341,6 +13277,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 17,
+                "end" : 25
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 17,
+                "end" : 25
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dõõ",
                 "start" : 0,
@@ -7372,6 +13350,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bãrãkãʔã",
                 "start" : 0,
@@ -7394,6 +13386,76 @@ manual_entries.append({
     "language_bookname" : "achagua",
     "concept" : "CUANDO_WHEN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 65,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 107,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 130,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 65,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 107,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 130,
+                "end" : 140
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7469,6 +13531,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kɨtáwotk",
                 "start" : 0,
@@ -7498,6 +13574,34 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "CUANDO_WHEN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 9,
+                "end" : 15
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7531,6 +13635,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ãdṍ",
                 "start" : 0,
@@ -7554,6 +13686,48 @@ manual_entries.append({
     "concept" : "ALLÍ_THERE",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 13,
+                "end" : 25
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 13,
+                "end" : 25
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tóópí̵",
@@ -7586,6 +13760,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "õõ",
                 "start" : 0,
@@ -7608,6 +13810,34 @@ manual_entries.append({
     "language_bookname" : "yucuna",
     "concept" : "OTRO_OTHER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ycn",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ycn",
+                "start" : 18,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yucuna",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yucuna",
+                "start" : 18,
+                "end" : 28
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7646,6 +13876,34 @@ manual_entries.append({
     "language_bookname" : "desano",
     "concept" : "OTRO_OTHER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "desano",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "desano",
+                "start" : 11,
+                "end" : 20
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7691,6 +13949,62 @@ manual_entries.append({
     "language_bookname" : "sáliba",
     "concept" : "OTRO_OTHER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 16,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 51,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 96,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 16,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 51,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 96,
+                "end" : 119
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7745,6 +14059,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hɯáɯ",
                 "start" : 0,
@@ -7769,6 +14111,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hux",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hux",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto nɨpode",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto nɨpode",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hɯáɯ",
                 "start" : 0,
@@ -7791,6 +14161,20 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "OTRO_OTHER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 66,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 82,
+                "end" : 88
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7829,6 +14213,48 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "POCO_FEW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 61,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 61,
+                "end" : 70
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7876,6 +14302,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "móŋŋaʔ",
                 "start" : 0,
@@ -7900,6 +14354,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 4
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "nóp",
                 "start" : 0,
@@ -7915,6 +14383,34 @@ manual_entries.append({
     "language_bookname" : "waimaja",
     "concept" : "FLUIR_FLOW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 12,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 12,
+                "end" : 26
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -7962,6 +14458,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "sja",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena Saija",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pɨi",
                 "start" : 0,
@@ -7998,6 +14508,90 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "MOJADO_WET",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 49,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 49,
+                "end" : 58
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8066,6 +14660,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 11,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 11,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "majlʲáj",
                 "start" : 0,
@@ -8088,6 +14710,20 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "ALA_WING",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 58,
+                "end" : 69
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8119,6 +14755,48 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "PIEL PELUDA_FUR",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 63,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 63,
+                "end" : 71
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8164,6 +14842,62 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "SALIVA_SALIVA",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 39,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 39,
+                "end" : 50
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8218,6 +14952,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guo",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guayabero",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "peh ʔalmín",
                 "start" : 0,
@@ -8233,6 +14981,48 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "EN, LUGAR DEFINIDO_AT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 8,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 25,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 8,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 25,
+                "end" : 31
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8273,6 +15063,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dakégɨ",
                 "start" : 0,
@@ -8295,6 +15113,34 @@ manual_entries.append({
     "language_bookname" : "cubeo",
     "concept" : "NIÑO_CHILD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 21,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 21,
+                "end" : 31
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8333,6 +15179,34 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "NIÑO_CHILD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 35,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 57,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 82,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 141,
+                "end" : 149
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8387,6 +15261,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 22,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 22,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔmí̵í̵ʔeé",
                 "start" : 0,
@@ -8439,6 +15355,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 18,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "liija",
                 "start" : 18,
@@ -8468,6 +15398,20 @@ manual_entries.append({
     "language_bookname" : "tariano",
     "concept" : "CORTAR_CUT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 0,
+                "end" : 13
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8501,6 +15445,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "maãʔkapɨ",
                 "start" : 0,
@@ -8516,6 +15474,34 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "LEJOS_FAR",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 14,
+                "end" : 24
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8561,6 +15547,76 @@ manual_entries.append({
     "language_bookname" : "achagua",
     "concept" : "DELGADO_THIN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 21,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 37,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 55,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 21,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 37,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 55,
+                "end" : 68
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8622,6 +15678,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cub",
+                "start" : 26,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cubeo",
+                "start" : 26,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "hiákɨbekɨ",
                 "start" : 0,
@@ -8660,6 +15744,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "matʰiripɨ",
                 "start" : 0,
@@ -8676,6 +15774,20 @@ manual_entries.append({
     "concept" : "CORTO_SHORT",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 9
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "moʧokɨtan",
@@ -8694,6 +15806,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "marĩirɨ",
                 "start" : 0,
@@ -8711,6 +15837,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʤɨɨp²ka¹",
                 "start" : 0,
@@ -8726,6 +15866,34 @@ manual_entries.append({
     "language_bookname" : "kakua",
     "concept" : "CORTO_SHORT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbv",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kakua",
+                "start" : 11,
+                "end" : 20
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8766,6 +15934,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 12
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɕokapesatan",
                 "start" : 0,
@@ -8782,6 +15964,34 @@ manual_entries.append({
     "concept" : "EMBOTADO_DULL",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yui",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yui",
+                "start" : 14,
+                "end" : 25
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yurutí",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yurutí",
+                "start" : 14,
+                "end" : 25
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kõã́rige",
@@ -8807,6 +16017,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔɛʔ⁴ka¹",
                 "start" : 0,
@@ -8822,6 +16046,34 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "PODRIDO_ROTTEN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 9,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 9,
+                "end" : 20
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8860,6 +16112,48 @@ manual_entries.append({
     "language_bookname" : "orejón",
     "concept" : "PODRIDO_ROTTEN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 102,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 102,
+                "end" : 113
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8907,6 +16201,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "maʧapélipénha",
                 "start" : 4,
@@ -8936,6 +16244,34 @@ manual_entries.append({
     "language_bookname" : "playero",
     "concept" : "VIEJO_OLD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gob",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "gob",
+                "start" : 55,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "playero",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "playero",
+                "start" : 55,
+                "end" : 67
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -8976,6 +16312,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guo",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guo",
+                "start" : 46,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guayabero",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guayabero",
+                "start" : 46,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "patíʔin",
                 "start" : 0,
@@ -9012,6 +16376,62 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "VIEJO_OLD",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 19,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 50,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 102,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 19,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 50,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 102,
+                "end" : 110
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9066,6 +16486,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 50,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 68,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pedália",
                 "start" : 50,
@@ -9104,6 +16538,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 22,
+                "end" : 27
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 22,
+                "end" : 27
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "gosío",
                 "start" : 0,
@@ -9133,6 +16609,20 @@ manual_entries.append({
     "language_bookname" : "tariano",
     "concept" : "JALAR, HALAR_PULL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 4,
+                "end" : 17
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9166,6 +16656,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sĩe",
                 "start" : 0,
@@ -9188,6 +16706,48 @@ manual_entries.append({
     "language_bookname" : "witoto mɨnɨca",
     "concept" : "BOTAR, TIRAR_THROW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 24,
+                "end" : 31
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9235,6 +16795,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 47,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɸíkúʔi",
                 "start" : 0,
@@ -9280,6 +16882,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "baɾ",
                 "start" : 0,
@@ -9302,6 +16932,76 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "GOLPEAR_HIT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 36,
+                "end" : 45
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9361,6 +17061,90 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "GOLPEAR_HIT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 12,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 39,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 58,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 67,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 12,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 39,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 58,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 67,
+                "end" : 88
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9429,6 +17213,62 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 20,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 37,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 78,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 20,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 37,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 78,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wokóta",
                 "start" : 0,
@@ -9481,6 +17321,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "káɸátʲí̵kɨʔi",
                 "start" : 0,
@@ -9512,6 +17366,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "su",
                 "start" : 0,
@@ -9536,6 +17418,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tɕɨɕɨp",
                 "start" : 0,
@@ -9551,6 +17447,20 @@ manual_entries.append({
     "language_bookname" : "inga",
     "concept" : "CORAZÓN_HEART",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 13
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9589,6 +17499,76 @@ manual_entries.append({
     "language_bookname" : "chimila",
     "concept" : "CAER_FALL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 87,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 115,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 145,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 87,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 115,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 145,
+                "end" : 153
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9650,6 +17630,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 10,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 10,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "peɲip",
                 "start" : 0,
@@ -9688,6 +17696,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "snn",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "snn",
+                "start" : 39,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "siona",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "siona",
+                "start" : 39,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tãĩhi",
                 "start" : 0,
@@ -9724,6 +17760,48 @@ manual_entries.append({
     "language_bookname" : "guahibo",
     "concept" : "CAER_FALL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 26,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 26,
+                "end" : 37
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9771,6 +17849,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 13,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bará",
+                "start" : 13,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tĩ̵gẽjã",
                 "start" : 0,
@@ -9793,6 +17899,34 @@ manual_entries.append({
     "language_bookname" : "yukpa",
     "concept" : "PENSAR_THINK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 8,
+                "end" : 17
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9824,6 +17958,34 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "PENSAR_THINK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 17,
+                "end" : 23
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9862,6 +18024,48 @@ manual_entries.append({
     "language_bookname" : "inga",
     "concept" : "CANTAR_SING",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 25,
+                "end" : 34
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -9909,6 +18113,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto murui",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "haʤede",
                 "start" : 0,
@@ -9945,6 +18177,104 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "OLER_SMELL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 25,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 41,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 58,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 69,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 76,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 25,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 41,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 58,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 69,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 76,
+                "end" : 93
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10020,6 +18350,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 50,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 50,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "nakába",
                 "start" : 0,
@@ -10058,6 +18416,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ttk",
+                "start" : 0,
+                "end" : 6
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "totoró",
+                "start" : 0,
+                "end" : 6
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sorpeʔ",
                 "start" : 0,
@@ -10073,6 +18445,34 @@ manual_entries.append({
     "language_bookname" : "tanimuca",
     "concept" : "CHUPAR_SUCK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 13,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 13,
+                "end" : 26
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10113,6 +18513,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guh",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guahibo",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tsutsúne",
                 "start" : 0,
@@ -10149,6 +18577,76 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "CHUPAR_SUCK",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 63,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 109,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 117,
+                "end" : 186
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 63,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 109,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 117,
+                "end" : 186
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10210,6 +18708,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 10,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 10,
+                "end" : 16
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "uwí",
                 "start" : 0,
@@ -10232,6 +18758,48 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "PULMONES_LUNGS",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 34,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 34,
+                "end" : 47
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10279,6 +18847,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guayabero",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "beʔk",
                 "start" : 0,
@@ -10317,6 +18899,13 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "uauika",
                 "start" : 12,
@@ -10348,6 +18937,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kog",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kogui",
+                "start" : 0,
+                "end" : 8
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "zéglde",
                 "start" : 0,
@@ -10363,6 +18966,48 @@ manual_entries.append({
     "language_bookname" : "barasana",
     "concept" : "POLVO_DUST",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "barasana",
+                "start" : 15,
+                "end" : 21
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10417,6 +19062,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 34,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 34,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tóolo",
                 "start" : 0,
@@ -10455,6 +19128,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɯ̃́i.iθa",
                 "start" : 0,
@@ -10485,6 +19172,20 @@ manual_entries.append({
     "language_bookname" : "embera Darién",
     "concept" : "LABIO_LIP",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "emp",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera Darién",
+                "start" : 0,
+                "end" : 13
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10518,6 +19219,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbr",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "nukak",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "paan²at¹ nii¹",
                 "start" : 0,
@@ -10535,6 +19250,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tuf",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tunebo central",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wiw̃ara",
                 "start" : 0,
@@ -10550,6 +19279,20 @@ manual_entries.append({
     "language_bookname" : "jupda",
     "concept" : "MARIDO, ESPOSO_HUSBAND",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 8
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10583,6 +19326,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔdɨ̃hõ̀",
                 "start" : 0,
@@ -10598,6 +19355,20 @@ manual_entries.append({
     "language_bookname" : "jupda",
     "concept" : "ESPOSA_WIFE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jupda",
+                "start" : 0,
+                "end" : 9
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10631,6 +19402,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "mɯ̃ʔtõ",
                 "start" : 0,
@@ -10647,6 +19432,34 @@ manual_entries.append({
     "concept" : "PADRE_FATHER",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 6,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 6,
+                "end" : 17
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "waʃí",
@@ -10672,6 +19485,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+              "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 10,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+              "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 10,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "núaniri",
                 "start" : 0,
@@ -10696,6 +19537,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 11,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 11,
+                "end" : 19
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kʷaʔáro",
                 "start" : 0,
@@ -10718,6 +19587,20 @@ manual_entries.append({
     "language_bookname" : "epena basurudó",
     "concept" : "CRIATURA_BABY, INFANT",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena basurudó",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "epena basurudó",
+                "start" : 1,
+                "end" : 19
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10756,6 +19639,48 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "VIEJO_OLD MAN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 34,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 34,
+                "end" : 43
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10803,6 +19728,13 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "pedália",
                 "start" : 12,
@@ -10827,6 +19759,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kbh",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kbh",
+                "start" : 9,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kamsá",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "kamsá",
+                "start" : 9,
+                "end" : 17
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "bújeʃe",
                 "start" : 0,
@@ -10849,6 +19809,34 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "AGUA_WATER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 11
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10889,6 +19877,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "yup",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "yukpa",
+                "start" : 0,
+                "end" : 5
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kúna",
                 "start" : 0,
@@ -10904,6 +19906,13 @@ manual_entries.append({
     "language_bookname" : "giacone",
     "concept" : "RÍO_RIVER",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "giacone",
+                "start" : 19,
+                "end" : 35
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -10929,6 +19938,48 @@ manual_entries.append({
     "concept" : "RÍO_RIVER",
     "annotations" : [
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noa",
+                "start" : 12,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wounaan",
+                "start" : 12,
+                "end" : 14
+            },
+    {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dʊsĩg",
@@ -10961,6 +20012,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wáwan",
                 "start" : 0,
@@ -10985,6 +20050,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 6,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 6,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "oʔxu",
                 "start" : 0,
@@ -11007,6 +20100,48 @@ manual_entries.append({
     "language_bookname" : "catío",
     "concept" : "PANTANO_SWAMP",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 18
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11052,6 +20187,48 @@ manual_entries.append({
     "language_bookname" : "ocaina",
     "concept" : "PANTANO_SWAMP",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 17,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 30,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 17,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 30,
+                "end" : 43
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11106,6 +20283,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 13
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ókó hope",
                 "start" : 0,
@@ -11128,6 +20333,20 @@ manual_entries.append({
     "language_bookname" : "jitnu",
     "concept" : "CAÍDA DE AGUA_WATERFALL",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 8
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11175,6 +20394,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "dʲahiiʔi",
                 "start" : 0,
@@ -11211,6 +20458,104 @@ manual_entries.append({
     "language_bookname" : "wayuu",
     "concept" : "CANDELA, FUEGO_FIRE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 88,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guc",
+                "start" : 95,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 29,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 88,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "wayuu",
+                "start" : 95,
+                "end" : 107
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11286,6 +20631,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pbb",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "páez",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "sielu ",
                 "start" : 0,
@@ -11329,6 +20702,48 @@ manual_entries.append({
     "language_bookname" : "cuiba",
     "concept" : "CIELO_SKY",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cui",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "cuiba",
+                "start" : 21,
+                "end" : 30
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11376,6 +20791,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ocaina",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ɲõõ",
                 "start" : 0,
@@ -11412,6 +20855,34 @@ manual_entries.append({
     "language_bookname" : "miraña",
     "concept" : "SOL_SUN",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 9,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 9,
+                "end" : 30
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11459,6 +20930,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 22
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 22
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "nɯʔpa pʰéxkʰóexpʰi",
                 "start" : 0,
@@ -11475,6 +20960,20 @@ manual_entries.append({
     "language_bookname" : "tariano",
     "concept" : "ESTRELLA_STAR",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 0,
+                "end" : 12
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11508,6 +21007,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "witoto mɨnɨca",
+                "start" : 0,
+                "end" : 9
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "náɯɯo",
                 "start" : 0,
@@ -11532,6 +21059,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cto",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "catío",
+                "start" : 0,
+                "end" : 14
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "baa pʰuɾewá",
                 "start" : 0,
@@ -11554,6 +21109,34 @@ manual_entries.append({
     "language_bookname" : "piapoco",
     "concept" : "TIERRA_EARTH",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 42,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 42,
+                "end" : 48
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11601,6 +21184,48 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "juwírikáro",
                 "start" : 0,
@@ -11646,6 +21271,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kí̵gaíixe",
                 "start" : 0,
@@ -11684,6 +21337,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "inb",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "inga",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kanúa",
                 "start" : 0,
@@ -11715,6 +21396,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tae",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tariano",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ʔita",
                 "start" : 0,
@@ -11739,6 +21434,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbn",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "jitnu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kaná",
                 "start" : 0,
@@ -11761,6 +21470,34 @@ manual_entries.append({
     "language_bookname" : "embera chamí",
     "concept" : "REMO_PADDLE",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 12
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11799,6 +21536,62 @@ manual_entries.append({
     "language_bookname" : "waimaja",
     "concept" : "PORRA, MACANA_CLUB",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bao",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 37,
+                "end" : 53
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11853,6 +21646,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "coe",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "koreguaje",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "saokʰupupɨ",
                 "start" : 0,
@@ -11891,6 +21712,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "guo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "guayabero",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "búja",
                 "start" : 0,
@@ -11913,6 +21748,62 @@ manual_entries.append({
     "language_bookname" : "muinane",
     "concept" : "FLECHA_ARROW",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 75,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bmr",
+                "start" : 111,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 75,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "muinane",
+                "start" : 111,
+                "end" : 117
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -11967,6 +21858,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbg",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "chimila",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "kahmbúɾu ",
                 "start" : 0,
@@ -12003,6 +21908,20 @@ manual_entries.append({
     "language_bookname" : "achagua",
     "concept" : "DANTA_TAPIR",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "aca",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "achagua",
+                "start" : 0,
+                "end" : 12
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
@@ -12043,6 +21962,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ore",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "orejón",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "békí̵",
                 "start" : 0,
@@ -12079,6 +22026,34 @@ manual_entries.append({
     "language_bookname" : "bora",
     "concept" : "TIGRE_JAGUAR",
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 14,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 14,
+                "end" : 30
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",

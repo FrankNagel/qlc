@@ -8,6 +8,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "slc",
+                "start" : 6,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "sáliba",
+                "start" : 6,
+                "end" : 11
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "oʔxu",
                 "start" : 0,

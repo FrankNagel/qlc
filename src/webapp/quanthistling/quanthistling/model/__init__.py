@@ -31,6 +31,7 @@ entry_table = schema.Table('entry', meta.metadata,
     schema.Column('startcolumn', types.Integer),
     schema.Column('endcolumn', types.Integer),
     schema.Column('pos_on_page', types.Integer),
+    #schema.Column('volume', types.Integer),
     schema.Column('has_manual_annotations', types.Boolean, default=False)
 )
 
@@ -156,6 +157,7 @@ wordlist_entry_table = schema.Table('wordlist_entry', meta.metadata,
     schema.Column('startcolumn', types.Integer),
     schema.Column('endcolumn', types.Integer),
     schema.Column('pos_on_page', types.Integer),
+    #schema.Column('volume', types.Integer),
     schema.Column('concept_id', types.Integer, schema.ForeignKey('wordlist_concept.id')),
     schema.Column('wordlistdata_id', types.Integer, schema.ForeignKey('wordlistdata.id')),
     schema.Column('has_manual_annotations', types.Boolean, default=False)

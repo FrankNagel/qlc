@@ -8,6 +8,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tuf",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tuf",
+                "start" : 9,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tunebo central",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tunebo central",
+                "start" : 9,
+                "end" : 15
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ráw̃i",
                 "start" : 0,

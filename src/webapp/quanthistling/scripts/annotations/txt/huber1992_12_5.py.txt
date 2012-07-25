@@ -8,6 +8,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cmi",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "embera chamí",
+                "start" : 0,
+                "end" : 10
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "iɾakˣáɾa",
                 "start" : 0,

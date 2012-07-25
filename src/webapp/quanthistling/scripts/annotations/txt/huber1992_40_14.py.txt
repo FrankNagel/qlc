@@ -8,6 +8,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tuf",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tunebo central",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "wiw̃ara",
                 "start" : 0,

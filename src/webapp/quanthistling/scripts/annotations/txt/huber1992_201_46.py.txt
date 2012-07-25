@@ -8,6 +8,20 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "tnc",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "tanimuca",
+                "start" : 0,
+                "end" : 7
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "ĩʔrã",
                 "start" : 0,

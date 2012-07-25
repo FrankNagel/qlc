@@ -8,6 +8,34 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+              "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 10,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+              "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "piapoco",
+                "start" : 10,
+                "end" : 20
+            },
+    {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "núaniri",
                 "start" : 0,
