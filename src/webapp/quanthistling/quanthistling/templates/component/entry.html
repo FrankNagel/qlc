@@ -53,6 +53,9 @@ else:
             % endif
         </td>
         <td class="entry-source">
+            % if entry.volume:
+                Volume: ${entry.volume}, 
+            % endif
             % if entry.startpage != entry.endpage:
                 <p><nobr>
                 Page: ${entry.startpage} / ${entry.endpage},
@@ -98,6 +101,10 @@ else:
             % endif
         </td>
         <td class="entry-source">
+            % if entry.volume:
+                Volume: ${entry.volume}, 
+            % endif
+
             % if entry.startpage != entry.endpage:
                 <p><nobr>
                 Page: ${entry.startpage} / ${entry.endpage},

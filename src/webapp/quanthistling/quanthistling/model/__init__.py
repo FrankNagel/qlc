@@ -31,8 +31,8 @@ entry_table = schema.Table('entry', meta.metadata,
     schema.Column('startcolumn', types.Integer),
     schema.Column('endcolumn', types.Integer),
     schema.Column('pos_on_page', types.Integer),
-    #schema.Column('volume', types.Integer),
-    schema.Column('has_manual_annotations', types.Boolean, default=False)
+    schema.Column('has_manual_annotations', types.Boolean, default=False),
+    schema.Column('volume', types.Integer)
 )
 
 book_table = schema.Table('book', meta.metadata,
@@ -48,6 +48,7 @@ book_table = schema.Table('book', meta.metadata,
     schema.Column('origfilepath', types.Unicode(255)),
     schema.Column('type', types.Unicode(255)), # one of: 'dictionary', 'wordlist', 'text'
     schema.Column('is_ready', types.Boolean, default=False),
+    schema.Column('has_changed', types.Boolean, default=True)
 )
 
 dictdata_table = schema.Table('dictdata', meta.metadata,
@@ -157,10 +158,10 @@ wordlist_entry_table = schema.Table('wordlist_entry', meta.metadata,
     schema.Column('startcolumn', types.Integer),
     schema.Column('endcolumn', types.Integer),
     schema.Column('pos_on_page', types.Integer),
-    #schema.Column('volume', types.Integer),
     schema.Column('concept_id', types.Integer, schema.ForeignKey('wordlist_concept.id')),
     schema.Column('wordlistdata_id', types.Integer, schema.ForeignKey('wordlistdata.id')),
-    schema.Column('has_manual_annotations', types.Boolean, default=False)
+    schema.Column('has_manual_annotations', types.Boolean, default=False),
+    schema.Column('volume', types.Integer)
 )
 
 wordlist_concept_table = schema.Table('wordlist_concept', meta.metadata,

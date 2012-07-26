@@ -313,7 +313,7 @@ def insert_dictdata_to_db(Session, data, book):
 
     return dictdata
 
-def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages, languages_iso):
+def insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column, concept_id, wordlistdata, languages, languages_iso):
     for lang in iter(entry):
         #entry_db = model.WordlistEntry()
         entry_db = process_line(entry[lang]["fullentry"], "wordlist")
@@ -328,6 +328,8 @@ def insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept
         entry_db.endpage = page
         entry_db.startcolumn = column
         entry_db.endcolumn = column
+        if volume:
+            entry_db.volume = volume
         
         concept_db =  model.meta.Session.query(model.WordlistConcept).filter_by(concept=concept_id).first()
         if concept_db == None:

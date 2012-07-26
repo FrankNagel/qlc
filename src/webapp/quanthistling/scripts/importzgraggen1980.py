@@ -188,9 +188,21 @@ def main(argv):
     concept_ids = collections.defaultdict(int)
     
     wordlistdata = {}
+    
 
     for book_bibtex_key in bibtex_keys_in_file:
         print "Parsing {0}...".format(book_bibtex_key)
+        
+        volume = None
+        if book_bibtex_key == "zgraggen1980":
+            volume = 1
+        elif book_bibtex_key == "zgraggen1980b":
+            volume = 2
+        elif book_bibtex_key == "zgraggen1980c":
+            volume = 3
+        elif book_bibtex_key == "zgraggen1980d":
+            volume = 4
+        
         wordlistbook = {}
         #book_bibtex_key = argv[1].decode("utf-8")
     
@@ -269,7 +281,7 @@ def main(argv):
                             del(entry['English'])
                             if entry.has_key('Spanish'):
                                 del(entry['Spanish'])
-                        importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages, languages_iso)
+                        importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column, concept_id, wordlistdata, languages, languages_iso)
                     annotation = {}
                     entry = {}
                     page = page_new

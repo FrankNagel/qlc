@@ -91,7 +91,7 @@ def annotate_head(entry):
                     e = e - 1
                     
                 # remove hyphens
-                head = re.sub(u"[¿?¡!]", u"", entry.fullentry[s:e])
+                head = re.sub(u"[¿?¡!']", u"", entry.fullentry[s:e])
                 #head = re.sub(u"[\-\-]", u"", entry.fullentry[s:e])
                 inserted_head = functions.insert_head(entry, s, e, head)
                 if inserted_head != None:
