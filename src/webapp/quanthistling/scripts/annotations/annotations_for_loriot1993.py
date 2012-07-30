@@ -26,7 +26,7 @@ import functions
 
 def get_max_head_end(entry):
     max_head_end = -1
-    for match_max_head_end in re.finditer(u"(?<!^)[-:–]", entry.fullentry):
+    for match_max_head_end in re.finditer(u" [-:–] ", entry.fullentry):
         #print match_max_head_end.start(0)
         if re.search(u"\[[^\]]+\]", entry.fullentry):
             for bracket in re.finditer(u"\[[^\]]+\]", entry.fullentry):
@@ -37,9 +37,17 @@ def get_max_head_end(entry):
             max_head_end = match_max_head_end.start(0)
     return max_head_end
     
+#def get_max_head_end(entry):
+#    examples_start = entry.fullentry.find("‹")
+#    if examples_start == -1:
+#        examples_start = len(entry.fullentry)
+#        
+#    head_end = functions.get_last_bold_end_in_range(entry, 0, examples_start)
+    
+    
 def annotate_heads_and_crossrefs(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='crossreference']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='crossreference' or a.value=='doculect' or a.value=='iso-639-3']
     for a in head_annotations:
         Session.delete(a)
         
@@ -159,7 +167,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=439,pos_on_page=1).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=300,pos_on_page=8).all()
         #entries = []
         
         startletters = set()
