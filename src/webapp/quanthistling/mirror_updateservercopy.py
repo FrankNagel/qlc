@@ -1,5 +1,7 @@
 #from zipfile import ZipFile
 from subprocess import call 
+import re
+import os
 
 call(["svn", "update"])
 
