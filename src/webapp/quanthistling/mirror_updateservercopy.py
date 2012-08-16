@@ -1,12 +1,14 @@
-from zipfile import ZipFile
+#from zipfile import ZipFile
 from subprocess import call 
 
 call(["svn", "update"])
 
-print("Extracting dump file...")
-myzip = ZipFile("/var/www/quanthistling-new/quanthistling/public/downloads/pgdump_quanthistling.zip", "r")
-myzip.extractall("/var/www/quanthistling-new/quanthistling/public/downloads/")
-myzip.close()
+#print("Extracting dump file...")
+#myzip = ZipFile("/var/www/quanthistling-new/quanthistling/public/downloads/pgdump_quanthistling.zip", "r")
+#myzip.extractall("/var/www/quanthistling-new/quanthistling/public/downloads/")
+#myzip.close()
+
+call(["unzip", "-fo", "/var/www/quanthistling-new/quanthistling/public/downloads/pgdump_quanthistling.zip", "-d", "/var/www/quanthistling-new/quanthistling/public/downloads/"])
 
 r = re.compile("pbouda")
 in_file = codecs.open("/var/www/quanthistling-new/quanthistling/public/downloads/pgdump_quanthistling.sql", "r", "utf-8")
