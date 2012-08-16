@@ -1,0 +1,267 @@
+
+manual_entries.append({
+    "fullentry" : "gãjigã 1 an. cangrejo ej. Gãjigã sũagʉ̃ ãñare bayijʉ. Dicen que el cangrejo rojo se alimenta de culebras. 2 inan. levantador de techo: dos palitos/támaras atadas en forma de X para levantar una hilera del techo ej. Mujiti tumʉora sẽro ñacʉ gãjigã. Se usa el “gãjigã” para levantar las hileras del techo.",
+    "startpage" : 39,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "gãjigã",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cangrejo",
+                "start" : 15,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Gãjigã sũagʉ̃ ãñare bayijʉ.",
+                "start" : 28,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Dicen que el cangrejo rojo se alimenta de culebras.",
+                "start" : 61,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 115,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "levantador de techo",
+                "start" : 121,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dos palitos atadas en forma de X para levantar una hilera del techo",
+                "start" : 142,
+                "end" : 218
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dos támaras atadas en forma de X para levantar una hilera del techo",
+                "start" : 142,
+                "end" : 218
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Mujiti tumʉora sẽro ñacʉ gãjigã.",
+                "start" : 223,
+                "end" : 259
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Se usa el “gãjigã” para levantar las hileras del techo.",
+                "start" : 260,
+                "end" : 317
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gãjigã 1",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cangrejo",
+                "start" : 15,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 24,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Dicen que el cangrejo rojo se alimenta de culebras.",
+                "start" : 61,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 113,
+                "end" : 114
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 115,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "levantador de techo:",
+                "start" : 121,
+                "end" : 141
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 219,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Se usa el “gãjigã” para levantar las hileras del techo.",
+                "start" : 260,
+                "end" : 317
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 222,
+                "end" : 222
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 260,
+                "end" : 260
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 260,
+                "end" : 260
+            },
+    ]
+})

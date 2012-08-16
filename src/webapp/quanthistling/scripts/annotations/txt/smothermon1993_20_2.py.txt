@@ -1,0 +1,267 @@
+
+manual_entries.append({
+    "fullentry" : "bia 1 inan. (pl. s.plural) un fruto de ají 2 inan., f.n.esp. ají ej. Bʉto jũnirise ña bia. Wai sotʉ sã baja quẽna. El ají es picante. Es bueno echar ají en la olla del pescado. biaga inan. (pl. biagari) unas frutas de ají",
+    "startpage" : 20,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bia",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan. (pl. s.plural)",
+                "start" : 6,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un fruto de ají",
+                "start" : 27,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 46,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 53,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ají",
+                "start" : 62,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Bʉto jũnirise ña bia. Wai sotʉ sã baja quẽna.",
+                "start" : 71,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El ají es picante. Es bueno echar ají en la olla del pescado.",
+                "start" : 121,
+                "end" : 184
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "biaga",
+                "start" : 185,
+                "end" : 190
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 191,
+                "end" : 196
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "unas frutas de ají",
+                "start" : 211,
+                "end" : 230
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bia 1",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan. (pl.",
+                "start" : 6,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "un fruto de ají",
+                "start" : 27,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 44,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan., f.n.esp.",
+                "start" : 46,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ají",
+                "start" : 62,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 67,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El ají es picante. Es bueno echar ají en la olla del",
+                "start" : 121,
+                "end" : 175
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pescado.",
+                "start" : 176,
+                "end" : 184
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biaga",
+                "start" : 185,
+                "end" : 190
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan. (pl.",
+                "start" : 191,
+                "end" : 201
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "unas frutas de ají",
+                "start" : 211,
+                "end" : 230
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 175,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 184,
+                "end" : 184
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 185,
+                "end" : 185
+            },
+    ]
+})
