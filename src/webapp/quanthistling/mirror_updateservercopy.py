@@ -1,7 +1,7 @@
 from zipfile import ZipFile
 from subprocess import call 
 
-call("svn", "update")
+call(["svn", "update"])
 
 print("Extracting dump file...")
 myzip = ZipFile("/var/www/quanthistling-new/quanthistling/public/downloads/pgdump_quanthistling.zip", "r")
