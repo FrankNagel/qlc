@@ -107,6 +107,9 @@ def main(argv):
                     file_src = open(os.path.join(temppath, "examples-src_%s_%s_%s.txt" % ( b['bibtex_key'], dictdata.startpage, dictdata.endpage )), "w")
                     file_tgt = open(os.path.join(temppath, "examples-tgt_%s_%s_%s.txt" % ( b['bibtex_key'], dictdata.startpage, dictdata.endpage )), "w")
                     for i in range(0,len(examples_src)):
+                        if len(examples_tgt) > i:
+                            break
+
                         src = examples_src[i].string.strip()
                         tgt = examples_tgt[i].string.strip()
                         if examples_src[i].entry.is_subentry:
