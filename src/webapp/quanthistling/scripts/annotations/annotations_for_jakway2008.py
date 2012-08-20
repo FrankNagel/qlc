@@ -88,7 +88,7 @@ def annotate_head(entry):
 
 def annotate_head_without_comma(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in head_annotations:
         Session.delete(a)
 

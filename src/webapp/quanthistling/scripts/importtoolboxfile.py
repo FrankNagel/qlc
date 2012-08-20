@@ -148,6 +148,7 @@ def main(argv):
                         entry.endcolumn               = 1
                         entry.pos_on_page             = i
                         entry.dictdata                = dictdata
+                        entry.book                    = book
                         entry.is_subentry             = False
                         entry.is_subentry_of_entry_id = None
                         Session.add(entry)
@@ -166,6 +167,7 @@ def main(argv):
                             subentry.endcolumn               = 1
                             subentry.pos_on_page             = i
                             subentry.dictdata                = dictdata
+                            entry.book                       = book
                             subentry.is_subentry             = True
                             subentry.is_subentry_of_entry_id = entry.id
                             Session.add(subentry)
