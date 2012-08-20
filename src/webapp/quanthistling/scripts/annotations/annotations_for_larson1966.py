@@ -60,7 +60,7 @@ def annotate_translations(entry):
         functions.insert_translation(entry, start, end)
 
 def main(argv):
-    bibtex_key = u"larson1996"
+    bibtex_key = u"larson1966"
     
     if len(argv) < 2:
         print "call: annotations_for%s.py ini_file" % bibtex_key
