@@ -1,0 +1,295 @@
+
+manual_entries.append({
+    "fullentry" : "tere 1 s.v.inan., te- v.t. odiar; tener aversión; no querer ej. Yʉre teami jaibicʉacã. El bebé me odia. ej. ¿Yʉ rãca wa tegʉ ito yiyijari ĩ? ¿El dijo eso, porqué no quiso ir conmigo? gram. ‘tere’ es un verbo que casi siempre va después de otros verbos en infinitivo. 2 s.v.inan. aversión",
+    "startpage" : 93,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tere",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 7,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "odiar",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener aversión",
+                "start" : 34,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no querer",
+                "start" : 51,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yʉre teami jaibicʉacã.",
+                "start" : 65,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El bebé me odia.",
+                "start" : 89,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Yʉ rãca wa tegʉ ito yiyijari ĩ?",
+                "start" : 111,
+                "end" : 145
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿El dijo eso, porqué no quiso ir conmigo?",
+                "start" : 146,
+                "end" : 188
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 276,
+                "end" : 285
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aversión",
+                "start" : 286,
+                "end" : 295
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tere 1",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., te- v.t.",
+                "start" : 7,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "odiar; tener aversión; no querer",
+                "start" : 27,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 61,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El bebé me odia.",
+                "start" : 89,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 107,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿El dijo eso, porqué no quiso ir conmigo?",
+                "start" : 146,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gram.",
+                "start" : 189,
+                "end" : 194
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 274,
+                "end" : 275
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 276,
+                "end" : 285
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aversión",
+                "start" : 286,
+                "end" : 295
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 188,
+                "end" : 188
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 189,
+                "end" : 189
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 251,
+                "end" : 251
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 252,
+                "end" : 252
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 252,
+                "end" : 252
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+    ]
+})

@@ -1,0 +1,218 @@
+
+manual_entries.append({
+    "fullentry" : "tʉore 1 s.v.inan., tʉo- v.t. oír ej. Wʉtirica iti ruyurise tʉobea yʉ. No oigo el ruido del avión. 2 obedecer ej. Yʉ macʉ quẽno yʉre tʉoami. Mi hijo me obedece bien.",
+    "startpage" : 96,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tʉore",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oír",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wʉtirica iti ruyurise tʉobea yʉ.",
+                "start" : 38,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "No oigo el ruido del avión.",
+                "start" : 71,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "obedecer",
+                "start" : 102,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yʉ macʉ quẽno yʉre tʉoami.",
+                "start" : 115,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Mi hijo me obedece bien.",
+                "start" : 143,
+                "end" : 167
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tʉore 1",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., tʉo- v.t.",
+                "start" : 8,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "oír",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "No oigo el ruido del avión.",
+                "start" : 71,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2 obedecer",
+                "start" : 100,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 111,
+                "end" : 114
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mi hijo me obedece bien.",
+                "start" : 143,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 100,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+    ]
+})

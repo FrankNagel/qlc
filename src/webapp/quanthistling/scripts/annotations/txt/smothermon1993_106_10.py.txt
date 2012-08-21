@@ -1,0 +1,225 @@
+
+manual_entries.append({
+    "fullentry" : "wãnʉ quẽnare 1 s.v.inan., wãnʉ quẽna- v.i. tener alegría; (estar) contento, ta ej. Wãnʉ quẽna ñami ĩ, babitibojagʉti. Aunque él no está comiendo, está contento. 2 s.v.inan. alegría",
+    "startpage" : 106,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wãnʉ quẽnare",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener alegría",
+                "start" : 47,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar contento",
+                "start" : 64,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar contenta",
+                "start" : 64,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "contento",
+                "start" : 71,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "contenta",
+                "start" : 71,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wãnʉ quẽna ñami ĩ, babitibojagʉti.",
+                "start" : 88,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Aunque él no está comiendo, está contento.",
+                "start" : 127,
+                "end" : 172
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 175,
+                "end" : 184
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alegría",
+                "start" : 185,
+                "end" : 193
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wãnʉ quẽnare 1",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., wãnʉ quẽna- v.i.",
+                "start" : 17,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tener alegría;",
+                "start" : 47,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(estar) contento, ta",
+                "start" : 63,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 84,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Aunque él no está comiendo, está contento.",
+                "start" : 127,
+                "end" : 172
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 173,
+                "end" : 174
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 175,
+                "end" : 184
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "alegría",
+                "start" : 185,
+                "end" : 193
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+    ]
+})

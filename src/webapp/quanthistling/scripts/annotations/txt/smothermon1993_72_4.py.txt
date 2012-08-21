@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "ojo tĩgã (R, Y) mano (de banano) V. ojorica tĩgã (E, I, S, T)",
+    "startpage" : 72,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ojo tĩgã",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "roea masa",
+                "start" : 12,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "yiba masa",
+                "start" : 15,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mano (de banano)",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ojorica tĩgã",
+                "start" : 38,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ojo tĩgã (R, Y) mano (de banano)",
+                "start" : 0,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "V.",
+                "start" : 35,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})

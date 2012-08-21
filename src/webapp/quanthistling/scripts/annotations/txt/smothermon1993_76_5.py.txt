@@ -1,0 +1,337 @@
+
+manual_entries.append({
+    "fullentry" : "rãjua 1 an. (pl. s.plural) lombrices; gusanos ej. Rãjuana jocã bodecare. Al guaracu se pesca con lombrices. rãjuamʉ an. (pl. rãjua) lombriz 2 inan. corteza de árbol ej. Rãjuana wʉocã ĩna ririre bʉtijaro yirona. Ellos mezclan con corteza de árbol el barro para que endurezca.",
+    "startpage" : 76,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rãjua",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an. (pl. s.plural)",
+                "start" : 9,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lombrices",
+                "start" : 28,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gusanos",
+                "start" : 39,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Rãjuana jocã bodecare.",
+                "start" : 51,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Al guaracu se pesca con lombrices.",
+                "start" : 76,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rãjuamʉ",
+                "start" : 111,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an. (pl. rãjua)",
+                "start" : 120,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lombriz",
+                "start" : 137,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 147,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "corteza de árbol",
+                "start" : 153,
+                "end" : 170
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Rãjuana wʉocã ĩna ririre bʉtijaro yirona.",
+                "start" : 175,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ellos mezclan con corteza de árbol el barro para que endurezca.",
+                "start" : 220,
+                "end" : 284
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rãjua 1",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an. (pl.",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lombrices; gusanos",
+                "start" : 28,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 47,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Al guaracu se pesca con lombrices.",
+                "start" : 76,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rãjuamʉ",
+                "start" : 111,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an. (pl.",
+                "start" : 120,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lombriz",
+                "start" : 137,
+                "end" : 144
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 145,
+                "end" : 146
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 147,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "corteza de árbol",
+                "start" : 153,
+                "end" : 170
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 171,
+                "end" : 174
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ellos mezclan con corteza de árbol el barro para que",
+                "start" : 220,
+                "end" : 273
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "endurezca.",
+                "start" : 274,
+                "end" : 284
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 170,
+                "end" : 170
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 220,
+                "end" : 220
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 220,
+                "end" : 220
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+    ]
+})

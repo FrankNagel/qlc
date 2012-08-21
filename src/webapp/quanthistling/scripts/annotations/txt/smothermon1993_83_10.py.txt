@@ -1,0 +1,274 @@
+
+manual_entries.append({
+    "fullentry" : "rʉ̃gõre 1 s.v.inan., rʉ̃gõ- v.caus. hacer parar; colocar ej. Adi gojere yucʉgʉ ju rʉ̃gõña. Coloque el poste en el hueco. 2 v.i. estar de pie; (estar) parado, da ej. Yoari ti rʉ̃gõcʉ yʉ, yucʉ ĩna yijeja tigʉ̃. Estuve parado un largo rato observándolos aserrar madera.",
+    "startpage" : 83,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rʉ̃gõre",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer parar",
+                "start" : 38,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "colocar",
+                "start" : 51,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Adi gojere yucʉgʉ ju rʉ̃gõña.",
+                "start" : 63,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Coloque el poste en el hueco.",
+                "start" : 95,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 127,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar de pie",
+                "start" : 132,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar parado",
+                "start" : 147,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar parada",
+                "start" : 147,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parado",
+                "start" : 154,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parada",
+                "start" : 154,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yoari ti rʉ̃gõcʉ yʉ, yucʉ ĩna yijeja tigʉ̃.",
+                "start" : 169,
+                "end" : 214
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estuve parado un largo rato observándolos aserrar madera.",
+                "start" : 215,
+                "end" : 273
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rʉ̃gõre 1",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., rʉ̃gõ- v.caus.",
+                "start" : 11,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hacer parar; colocar",
+                "start" : 38,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 59,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Coloque el poste en el hueco.",
+                "start" : 95,
+                "end" : 124
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 125,
+                "end" : 126
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.i.",
+                "start" : 127,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "estar de pie; (estar) parado, da",
+                "start" : 132,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 165,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Estuve parado un largo rato observándolos aserrar madera.",
+                "start" : 215,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 164,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 168,
+                "end" : 168
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 215,
+                "end" : 215
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 215,
+                "end" : 215
+            },
+    ]
+})

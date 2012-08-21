@@ -290,8 +290,8 @@ list = [
     {
         'title' : u'Vocabulario Aguaruna de Amazonas',
         'author' : u'Larson, Mildred L.',
-        'year' : 1996,
-        'bibtex_key' : u'larson1996',
+        'year' : 1966,
+        'bibtex_key' : u'larson1966',
         'pages' : 211,
         'columns' : 2,
 	'is_ready' : False,
@@ -305,7 +305,7 @@ list = [
                 'src_language_bookname' : u'Aguaruna',
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
-                'file' : 'jivaroan/larson1996_dictdata_1_90.xml',
+                'file' : 'jivaroan/larson1966_dictdata_1_90.xml',
 		'component' : 'Jivaroan'
             },
             {
@@ -316,7 +316,7 @@ list = [
                 'src_language_bookname' : u'Castellano',
                 'tgt_language_bookname' : u'Aguaruna',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
-                'file' : 'jivaroan/larson1996_dictdata_107_199.xml',
+                'file' : 'jivaroan/larson1966_dictdata_107_199.xml',
 		'component' : 'Jivaroan'
             },
         ],
@@ -325,21 +325,21 @@ list = [
                 'startpage' : 0,
                 'endpage' : 0,
                 'title': u'Start pages',
-                'file' : 'jivaroan/larson1996_nondictdata_i_iv.html',
+                'file' : 'jivaroan/larson1966_nondictdata_i_iv.html',
 		'component' : 'Jivaroan'
             },
             {
                 'startpage' : 91,
                 'endpage' : 105,
                 'title': u'Apendices',
-                'file' : 'jivaroan/larson1996_nondictdata_91_105.html',
+                'file' : 'jivaroan/larson1966_nondictdata_91_105.html',
 		'component' : 'Jivaroan'
             },
             {
                 'startpage' : 201,
                 'endpage' : 211,
                 'title': u'Apendices',
-                'file' : 'jivaroan/larson1996_nondictdata_201_211.html',
+                'file' : 'jivaroan/larson1966_nondictdata_201_211.html',
 		'component' : 'Jivaroan'
             },
         ]

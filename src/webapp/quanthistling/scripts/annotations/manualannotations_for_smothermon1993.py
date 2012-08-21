@@ -4,6 +4,723 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "wai 1 an. pez; pescado 2 an., f.n.esp. pez, peces; pescado, pescados ej. “Jogabe”, yirona moa tuama ĩna waire. Ellos le colocan sal al pescado para que no se pudra.",
+    "startpage" : 103,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pez",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescado",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an.",
+                "start" : 25,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pez",
+                "start" : 39,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "peces",
+                "start" : 44,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescado",
+                "start" : 51,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescados",
+                "start" : 60,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "“Jogabe”, yirona moa tuama ĩna waire.",
+                "start" : 73,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ellos le colocan sal al pescado para que no se pudra.",
+                "start" : 112,
+                "end" : 165
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wai 1",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pez; pescado",
+                "start" : 10,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 23,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an., f.n.esp.",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pez, peces; pescado, pescados",
+                "start" : 39,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 69,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ellos le colocan sal al pescado para que no se pudra.",
+                "start" : 112,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wãnʉ quẽnare 1 s.v.inan., wãnʉ quẽna- v.i. tener alegría; (estar) contento, ta ej. Wãnʉ quẽna ñami ĩ, babitibojagʉti. Aunque él no está comiendo, está contento. 2 s.v.inan. alegría",
+    "startpage" : 106,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wãnʉ quẽnare",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener alegría",
+                "start" : 47,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar contento",
+                "start" : 64,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar contenta",
+                "start" : 64,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "contento",
+                "start" : 71,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "contenta",
+                "start" : 71,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wãnʉ quẽna ñami ĩ, babitibojagʉti.",
+                "start" : 88,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Aunque él no está comiendo, está contento.",
+                "start" : 127,
+                "end" : 172
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 175,
+                "end" : 184
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alegría",
+                "start" : 185,
+                "end" : 193
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wãnʉ quẽnare 1",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., wãnʉ quẽna- v.i.",
+                "start" : 17,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tener alegría;",
+                "start" : 47,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(estar) contento, ta",
+                "start" : 63,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 84,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Aunque él no está comiendo, está contento.",
+                "start" : 127,
+                "end" : 172
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 173,
+                "end" : 174
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 175,
+                "end" : 184
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "alegría",
+                "start" : 185,
+                "end" : 193
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "yuare 1 s.v.inan., yua- v.t. echar; vaciar; derramar ej. ¡Yʉ bije coerise yuaya! Vacie el veneno de jugo de manioc que yo exprimí. sin. jiore 2 v.i. derramarse ej. Yuacõami. El derramó (la chicha).",
+    "startpage" : 114,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yuare",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "echar",
+                "start" : 29,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vaciar",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derramar",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¡Yʉ bije coerise yuaya!",
+                "start" : 57,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Vacie el veneno de jugo de manioc que yo exprimí.",
+                "start" : 81,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jiore",
+                "start" : 137,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 145,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derramarse",
+                "start" : 150,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yuacõami.",
+                "start" : 165,
+                "end" : 175
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El derramó (la chicha).",
+                "start" : 176,
+                "end" : 0
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yuare 1",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., yua- v.t.",
+                "start" : 8,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "echar; vaciar; derramar",
+                "start" : 29,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 53,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Vacie el veneno de jugo de manioc que yo exprimí.",
+                "start" : 81,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "sin.",
+                "start" : 132,
+                "end" : 136
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 143,
+                "end" : 144
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.i.",
+                "start" : 145,
+                "end" : 149
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "derramarse",
+                "start" : 150,
+                "end" : 160
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 161,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El derramó (la chicha).",
+                "start" : 176,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 131,
+                "end" : 131
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 132,
+                "end" : 132
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 164,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 175,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "ajere 1 s.v.inan., aje- v.i. jugar ej. Boraga ajerã yama ĩna. Ellos están jugando con una pelota. 2 s.v.inan., f.n.esp. pelota, pelotas ajeraga s.v.inan. pelota ej. ¡Mʉ ya ajeraga yʉre wasoaya! ¡Préstame tu pelota! V. boraga",
     "startpage" : 14,
     "pos_on_page" : 2,
@@ -3218,6 +3935,1840 @@ manual_entries.append({
                 "string" : "",
                 "start" : 161,
                 "end" : 161
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ojo tĩgã (R, Y) mano (de banano) V. ojorica tĩgã (E, I, S, T)",
+    "startpage" : 72,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ojo tĩgã",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "roea masa",
+                "start" : 12,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "yiba masa",
+                "start" : 15,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mano (de banano)",
+                "start" : 18,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ojorica tĩgã",
+                "start" : 38,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ojo tĩgã (R, Y) mano (de banano)",
+                "start" : 0,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "V.",
+                "start" : 35,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "rãjua 1 an. (pl. s.plural) lombrices; gusanos ej. Rãjuana jocã bodecare. Al guaracu se pesca con lombrices. rãjuamʉ an. (pl. rãjua) lombriz 2 inan. corteza de árbol ej. Rãjuana wʉocã ĩna ririre bʉtijaro yirona. Ellos mezclan con corteza de árbol el barro para que endurezca.",
+    "startpage" : 76,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rãjua",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an. (pl. s.plural)",
+                "start" : 9,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lombrices",
+                "start" : 28,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gusanos",
+                "start" : 39,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Rãjuana jocã bodecare.",
+                "start" : 51,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Al guaracu se pesca con lombrices.",
+                "start" : 76,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rãjuamʉ",
+                "start" : 111,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an. (pl. rãjua)",
+                "start" : 120,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lombriz",
+                "start" : 137,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 147,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "corteza de árbol",
+                "start" : 153,
+                "end" : 170
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Rãjuana wʉocã ĩna ririre bʉtijaro yirona.",
+                "start" : 175,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ellos mezclan con corteza de árbol el barro para que endurezca.",
+                "start" : 220,
+                "end" : 284
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rãjua 1",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an. (pl.",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lombrices; gusanos",
+                "start" : 28,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 47,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Al guaracu se pesca con lombrices.",
+                "start" : 76,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rãjuamʉ",
+                "start" : 111,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an. (pl.",
+                "start" : 120,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lombriz",
+                "start" : 137,
+                "end" : 144
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 145,
+                "end" : 146
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 147,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "corteza de árbol",
+                "start" : 153,
+                "end" : 170
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 171,
+                "end" : 174
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ellos mezclan con corteza de árbol el barro para que",
+                "start" : 220,
+                "end" : 273
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "endurezca.",
+                "start" : 274,
+                "end" : 284
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 170,
+                "end" : 170
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 174,
+                "end" : 174
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 220,
+                "end" : 220
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 220,
+                "end" : 220
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "rica 1 inan. brazo ej. Joa jairi rica ña, Jaime ya rica. El brazo de Jaime es muy velludo. 2 inan. un fruto; una fruta 3 inan., f.n.esp. fruta, s; fruto, s ej. Wacaricaño ñacʉ õ ĩna rica bariño. Rasea bacã iti ñore. Allá había una palma de “wacarica”. Esta palma produce frutos que comen los tucanos.",
+    "startpage" : 78,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rica",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brazo",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Joa jairi rica ña, Jaime ya rica.",
+                "start" : 23,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El brazo de Jaime es muy velludo.",
+                "start" : 58,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 94,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un fruto",
+                "start" : 100,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una fruta",
+                "start" : 110,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 122,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 129,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fruta",
+                "start" : 138,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frutas",
+                "start" : 138,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fruto",
+                "start" : 148,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frutos",
+                "start" : 148,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wacaricaño ñacʉ õ ĩna rica bariño. Rasea bacã iti ñore.",
+                "start" : 161,
+                "end" : 223
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Allá había una palma de “wacarica”. Esta palma produce frutos que comen los tucanos.",
+                "start" : 224,
+                "end" : 310
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rica 1",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "brazo",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El brazo de Jaime es muy velludo.",
+                "start" : 58,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 92,
+                "end" : 93
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 94,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "un fruto; una fruta",
+                "start" : 100,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3",
+                "start" : 120,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan., f.n.esp.",
+                "start" : 122,
+                "end" : 137
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "fruta, s; fruto, s",
+                "start" : 138,
+                "end" : 156
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 157,
+                "end" : 160
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Allá había una palma de “wacarica”. Esta palma produce",
+                "start" : 224,
+                "end" : 280
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "frutos que comen los tucanos.",
+                "start" : 281,
+                "end" : 310
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 223,
+                "end" : 223
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 280,
+                "end" : 280
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "rʉ̃gõre 1 s.v.inan., rʉ̃gõ- v.caus. hacer parar; colocar ej. Adi gojere yucʉgʉ ju rʉ̃gõña. Coloque el poste en el hueco. 2 v.i. estar de pie; (estar) parado, da ej. Yoari ti rʉ̃gõcʉ yʉ, yucʉ ĩna yijeja tigʉ̃. Estuve parado un largo rato observándolos aserrar madera.",
+    "startpage" : 83,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rʉ̃gõre",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer parar",
+                "start" : 38,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "colocar",
+                "start" : 51,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Adi gojere yucʉgʉ ju rʉ̃gõña.",
+                "start" : 63,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Coloque el poste en el hueco.",
+                "start" : 95,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 127,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar de pie",
+                "start" : 132,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar parado",
+                "start" : 147,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar parada",
+                "start" : 147,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parado",
+                "start" : 154,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parada",
+                "start" : 154,
+                "end" : 164
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yoari ti rʉ̃gõcʉ yʉ, yucʉ ĩna yijeja tigʉ̃.",
+                "start" : 169,
+                "end" : 214
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estuve parado un largo rato observándolos aserrar madera.",
+                "start" : 215,
+                "end" : 273
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rʉ̃gõre 1",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., rʉ̃gõ- v.caus.",
+                "start" : 11,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hacer parar; colocar",
+                "start" : 38,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 59,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Coloque el poste en el hueco.",
+                "start" : 95,
+                "end" : 124
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 125,
+                "end" : 126
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.i.",
+                "start" : 127,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "estar de pie; (estar) parado, da",
+                "start" : 132,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 165,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Estuve parado un largo rato observándolos aserrar madera.",
+                "start" : 215,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 125,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 164,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 168,
+                "end" : 168
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 215,
+                "end" : 215
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 215,
+                "end" : 215
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "sʉtirise 1 s.v.inan., sʉti- v.i. oler ej. Bʉto sʉtia. Huele muy feo. V. ʉ̃nire 2 s.v.inan. desodorante ej. Sʉtirica coga ãmoa yʉ. Quiero un desodorante.",
+    "startpage" : 91,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sʉtirise",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oler",
+                "start" : 33,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Bʉto sʉtia.",
+                "start" : 42,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Huele muy feo.",
+                "start" : 54,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ʉ̃nire",
+                "start" : 72,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "desodorante",
+                "start" : 91,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Sʉtirica coga ãmoa yʉ.",
+                "start" : 107,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Quiero un desodorante.",
+                "start" : 131,
+                "end" : 153
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sʉtirise 1",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., sʉti- v.i.",
+                "start" : 11,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "oler",
+                "start" : 33,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 38,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Huele muy feo.",
+                "start" : 54,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "V.",
+                "start" : 69,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 79,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "desodorante",
+                "start" : 91,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 103,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Quiero un desodorante.",
+                "start" : 131,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 131,
+                "end" : 131
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 131,
+                "end" : 131
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tere 1 s.v.inan., te- v.t. odiar; tener aversión; no querer ej. Yʉre teami jaibicʉacã. El bebé me odia. ej. ¿Yʉ rãca wa tegʉ ito yiyijari ĩ? ¿El dijo eso, porqué no quiso ir conmigo? gram. ‘tere’ es un verbo que casi siempre va después de otros verbos en infinitivo. 2 s.v.inan. aversión",
+    "startpage" : 93,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tere",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 7,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "odiar",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener aversión",
+                "start" : 34,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no querer",
+                "start" : 51,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yʉre teami jaibicʉacã.",
+                "start" : 65,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El bebé me odia.",
+                "start" : 89,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Yʉ rãca wa tegʉ ito yiyijari ĩ?",
+                "start" : 111,
+                "end" : 145
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿El dijo eso, porqué no quiso ir conmigo?",
+                "start" : 146,
+                "end" : 188
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 276,
+                "end" : 285
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aversión",
+                "start" : 286,
+                "end" : 295
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tere 1",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., te- v.t.",
+                "start" : 7,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "odiar; tener aversión; no querer",
+                "start" : 27,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 61,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El bebé me odia.",
+                "start" : 89,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 107,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿El dijo eso, porqué no quiso ir conmigo?",
+                "start" : 146,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gram.",
+                "start" : 189,
+                "end" : 194
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 274,
+                "end" : 275
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 276,
+                "end" : 285
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aversión",
+                "start" : 286,
+                "end" : 295
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 188,
+                "end" : 188
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 189,
+                "end" : 189
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 251,
+                "end" : 251
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 252,
+                "end" : 252
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 252,
+                "end" : 252
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tʉore 1 s.v.inan., tʉo- v.t. oír ej. Wʉtirica iti ruyurise tʉobea yʉ. No oigo el ruido del avión. 2 obedecer ej. Yʉ macʉ quẽno yʉre tʉoami. Mi hijo me obedece bien.",
+    "startpage" : 96,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tʉore",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 8,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "oír",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wʉtirica iti ruyurise tʉobea yʉ.",
+                "start" : 38,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "No oigo el ruido del avión.",
+                "start" : 71,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "obedecer",
+                "start" : 102,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yʉ macʉ quẽno yʉre tʉoami.",
+                "start" : 115,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Mi hijo me obedece bien.",
+                "start" : 143,
+                "end" : 167
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tʉore 1",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., tʉo- v.t.",
+                "start" : 8,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "oír",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "No oigo el ruido del avión.",
+                "start" : 71,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2 obedecer",
+                "start" : 100,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 111,
+                "end" : 114
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mi hijo me obedece bien.",
+                "start" : 143,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 100,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
             },
     ]
 })

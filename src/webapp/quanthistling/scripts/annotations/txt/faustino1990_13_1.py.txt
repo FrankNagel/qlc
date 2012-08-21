@@ -1,0 +1,239 @@
+
+manual_entries.append({
+    "fullentry" : "abase s.v.inan., aba- v.i. (se/estar) suave; (ser/estar) blando, da ej. Naju mame usagajanorema abacajʉ. El casabe recién tostado está suave.",
+    "startpage" : 13,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Barasana y taibano",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "abase",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 6,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 27,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 27,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser suave",
+                "start" : 28,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar suave",
+                "start" : 31,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "suave",
+                "start" : 38,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 45,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 45,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser blanda",
+                "start" : 46,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser blando",
+                "start" : 46,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar blanda",
+                "start" : 50,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar blando",
+                "start" : 50,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "blanda",
+                "start" : 57,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "blando",
+                "start" : 57,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Naju mame usagajanorema abacajʉ.",
+                "start" : 72,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El casabe recién tostado está suave.",
+                "start" : 105,
+                "end" : 143
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "abase",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., aba- v.i.",
+                "start" : 6,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(se/estar) suave; (ser/estar) blando,",
+                "start" : 27,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "da",
+                "start" : 65,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 68,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El casabe recién tostado está suave.",
+                "start" : 105,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 65,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+    ]
+})

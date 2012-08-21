@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "wai 1 an. pez; pescado 2 an., f.n.esp. pez, peces; pescado, pescados ej. “Jogabe”, yirona moa tuama ĩna waire. Ellos le colocan sal al pescado para que no se pudra.",
+    "startpage" : 103,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pez",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescado",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "an.",
+                "start" : 25,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 30,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pez",
+                "start" : 39,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "peces",
+                "start" : 44,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescado",
+                "start" : 51,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescados",
+                "start" : 60,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "“Jogabe”, yirona moa tuama ĩna waire.",
+                "start" : 73,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ellos le colocan sal al pescado para que no se pudra.",
+                "start" : 112,
+                "end" : 165
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wai 1",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an.",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pez; pescado",
+                "start" : 10,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 23,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an., f.n.esp.",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pez, peces; pescado, pescados",
+                "start" : 39,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 69,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ellos le colocan sal al pescado para que no se pudra.",
+                "start" : 112,
+                "end" : 165
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+    ]
+})

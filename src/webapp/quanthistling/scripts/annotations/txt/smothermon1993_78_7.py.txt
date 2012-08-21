@@ -1,0 +1,358 @@
+
+manual_entries.append({
+    "fullentry" : "rica 1 inan. brazo ej. Joa jairi rica ña, Jaime ya rica. El brazo de Jaime es muy velludo. 2 inan. un fruto; una fruta 3 inan., f.n.esp. fruta, s; fruto, s ej. Wacaricaño ñacʉ õ ĩna rica bariño. Rasea bacã iti ñore. Allá había una palma de “wacarica”. Esta palma produce frutos que comen los tucanos.",
+    "startpage" : 78,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rica",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brazo",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Joa jairi rica ña, Jaime ya rica.",
+                "start" : 23,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El brazo de Jaime es muy velludo.",
+                "start" : 58,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 94,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "un fruto",
+                "start" : 100,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una fruta",
+                "start" : 110,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 122,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 129,
+                "end" : 137
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fruta",
+                "start" : 138,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frutas",
+                "start" : 138,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fruto",
+                "start" : 148,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frutos",
+                "start" : 148,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wacaricaño ñacʉ õ ĩna rica bariño. Rasea bacã iti ñore.",
+                "start" : 161,
+                "end" : 223
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Allá había una palma de “wacarica”. Esta palma produce frutos que comen los tucanos.",
+                "start" : 224,
+                "end" : 310
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rica 1",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "brazo",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "El brazo de Jaime es muy velludo.",
+                "start" : 58,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 92,
+                "end" : 93
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 94,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "un fruto; una fruta",
+                "start" : 100,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3",
+                "start" : 120,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan., f.n.esp.",
+                "start" : 122,
+                "end" : 137
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "fruta, s; fruto, s",
+                "start" : 138,
+                "end" : 156
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 157,
+                "end" : 160
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Allá había una palma de “wacarica”. Esta palma produce",
+                "start" : 224,
+                "end" : 280
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "frutos que comen los tucanos.",
+                "start" : 281,
+                "end" : 310
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 223,
+                "end" : 223
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 280,
+                "end" : 280
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 281,
+                "end" : 281
+            },
+    ]
+})
