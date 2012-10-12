@@ -204,6 +204,8 @@ def annotate_translations(entry):
         #print a.string
         Session.delete(a)
 
+    italic_annotations = functions.get_list_italic_ranges(entry)
+
     head_and_pos_end = 0
     pos_annotations = [ a for a in entry.annotations if a.value=='pos']
     if (len(pos_annotations) > 0):
@@ -255,7 +257,7 @@ def annotate_translations(entry):
         current_start = translation_starts[i]
         current_end = 0
 
-        for match in re.finditer(r'[;,] ?', substr):
+        for match in re.finditer(r'(?:; ?|, ?|$)', substr):
             mybreak = False
             #print "match in " + substr
             # are we in a bracket?
@@ -266,15 +268,17 @@ def annotate_translations(entry):
             if not mybreak:
                 current_end = match.start(0) + translation_starts[i]
                 subsubstr = entry.fullentry[current_start:current_end]
-                if not(re.match(r"\s*$", subsubstr)):
+                insert = True
+                if subsubstr:
+                    for a in italic_annotations:
+                        if (a[0] - 1) <= current_start and (a[1] + 1) >= current_end:
+                            insert = False
+                else:
+                    insert = False
+                if insert:
                     functions.insert_translation(entry, current_start, current_end)
                     
                 current_start = match.end(0) + translation_starts[i]
-        current_end = end
-        subsubstr = entry.fullentry[current_start:current_end]
-        #print "after post: " + subsubstr.encode('utf-8')
-        if not(re.match(r"\s*$", subsubstr)):
-            functions.insert_translation(entry, current_start, current_end)
             
 
 def main(argv):
@@ -300,9 +304,9 @@ def main(argv):
 
         #print "Processing %s - %s dictdata..." %(dictdata.src_language.langcode, dictdata.tgt_language.langcode)
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        print len(entries)
+        #print len(entries)
         
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=300,pos_on_page=12).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=343,pos_on_page=3).all()
         #entries = []
         
         startletters = set()

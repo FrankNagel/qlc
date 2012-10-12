@@ -1,0 +1,722 @@
+
+manual_entries.append({
+    "fullentry" : "cũmu 1 m. shamán; hechicero; brujo ej. Cũmu ñari, ĩabʉjaya manire cõamasiami. Puesto que él es un brujo, es capaz de enviar cosas invisibles. 2 inan., f.n.esp. canoa, canoas ej. Cũmu rãca ejayujarã ĩna. Dicen que ellos llegaron en canoas. 3 banco, bancos ej. Cũmu quẽnocama ĩna. Ellos hicieron bancos. cũmua inan. canoa ej. Tirʉ̃mʉre cũmua yugʉadicami Lucas, Gʉ̃taveyajʉ. Ese día Lucas bajó, trayendo la canoa por el Caño Piedra. cũmuro inan. banco ej. Sãja ejarʉ̃gʉ̃ yʉ bajirone, cũmuro yʉre rojo, sẽnicami ĩ. Cuando yo llegué y entré a la casa, él me saludó y colocó un banco para que yo me sentara.",
+    "startpage" : 31,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Barasana y taibano",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cũmu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "shamán",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hechicero",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "brujo",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cũmu ñari, ĩabʉjaya manire cõamasiami.",
+                "start" : 41,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Puesto que él es un brujo, es capaz de enviar cosas invisibles.",
+                "start" : 84,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 151,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 158,
+                "end" : 166
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "canoa",
+                "start" : 167,
+                "end" : 172
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "canoas",
+                "start" : 174,
+                "end" : 180
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cũmu rãca ejayujarã ĩna.",
+                "start" : 185,
+                "end" : 213
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Dicen que ellos llegaron en canoas.",
+                "start" : 214,
+                "end" : 249
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 252,
+                "end" : 265
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 252,
+                "end" : 265
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "banco",
+                "start" : 252,
+                "end" : 257
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bancos",
+                "start" : 259,
+                "end" : 265
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Cũmu quẽnocama ĩna.",
+                "start" : 270,
+                "end" : 292
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ellos hicieron bancos.",
+                "start" : 293,
+                "end" : 315
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cũmua",
+                "start" : 316,
+                "end" : 322
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 323,
+                "end" : 328
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "canoa",
+                "start" : 329,
+                "end" : 334
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tirʉ̃mʉre cũmua yugʉadicami Lucas, Gʉ̃taveyajʉ.",
+                "start" : 339,
+                "end" : 387
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ese día Lucas bajó, trayendo la canoa por el Caño Piedra.",
+                "start" : 388,
+                "end" : 448
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cũmuro",
+                "start" : 449,
+                "end" : 456
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 457,
+                "end" : 462
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "banco",
+                "start" : 463,
+                "end" : 468
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Sãja ejarʉ̃gʉ̃ yʉ bajirone, cũmuro yʉre rojo, sẽnicami ĩ.",
+                "start" : 473,
+                "end" : 534
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Cuando yo llegué y entré a la casa, él me saludó y colocó un banco para que yo me sentara.",
+                "start" : 535,
+                "end" : 630
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cũmu 1",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m.",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "shamán; hechicero; brujo",
+                "start" : 11,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 37,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Puesto que él es un brujo, es capaz de enviar cosas",
+                "start" : 84,
+                "end" : 136
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "invisibles.",
+                "start" : 137,
+                "end" : 148
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 149,
+                "end" : 150
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan., f.n.esp.",
+                "start" : 151,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "canoa, canoas",
+                "start" : 167,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 181,
+                "end" : 184
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Dicen que ellos llegaron en canoas.",
+                "start" : 214,
+                "end" : 249
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3 banco, bancos",
+                "start" : 250,
+                "end" : 265
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 266,
+                "end" : 269
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ellos hicieron bancos.",
+                "start" : 293,
+                "end" : 315
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cũmua",
+                "start" : 316,
+                "end" : 322
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 323,
+                "end" : 328
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "canoa",
+                "start" : 329,
+                "end" : 334
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 335,
+                "end" : 338
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ese día Lucas bajó, trayendo la canoa por el Caño Piedra.",
+                "start" : 388,
+                "end" : 448
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cũmuro",
+                "start" : 449,
+                "end" : 456
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 457,
+                "end" : 462
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "banco",
+                "start" : 463,
+                "end" : 468
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 469,
+                "end" : 472
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Cuando yo llegué y entré a la casa, él me saludó y colocó un",
+                "start" : 535,
+                "end" : 600
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "banco para que yo me sentara.",
+                "start" : 601,
+                "end" : 630
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 148,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 184,
+                "end" : 184
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 213,
+                "end" : 213
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 249,
+                "end" : 249
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 250,
+                "end" : 250
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 265,
+                "end" : 265
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 266,
+                "end" : 266
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 269,
+                "end" : 269
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 292,
+                "end" : 292
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 293,
+                "end" : 293
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 293,
+                "end" : 293
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 315,
+                "end" : 315
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 334,
+                "end" : 334
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 335,
+                "end" : 335
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 338,
+                "end" : 338
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 387,
+                "end" : 387
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 388,
+                "end" : 388
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 388,
+                "end" : 388
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 448,
+                "end" : 448
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 449,
+                "end" : 449
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 468,
+                "end" : 468
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 469,
+                "end" : 469
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 472,
+                "end" : 472
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 534,
+                "end" : 534
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 535,
+                "end" : 535
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 535,
+                "end" : 535
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 600,
+                "end" : 600
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 601,
+                "end" : 601
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 601,
+                "end" : 601
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 601,
+                "end" : 601
+            },
+    ]
+})

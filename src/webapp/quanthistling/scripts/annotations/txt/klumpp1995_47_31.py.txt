@@ -1,0 +1,274 @@
+
+manual_entries.append({
+    "fullentry" : "machacànita 1. adv. de una manera correcta o directa. Ej. Nàyaca machacànita. Viven de una manera correcta. Ej. Napìanícawa machacànita. Corrían en línea recta. 2. adv. fiel. Ej. Iwàwacutá asìali ìyaca machacànita yàacawéetúa yáapichawa. Un hombre debe vivir correctamente con (ser fiel a) su esposa.",
+    "startpage" : 47,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Piapoco",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "machacànita",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 16,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de una manera correcta o directa",
+                "start" : 21,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 172,
+                "end" : 175
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 172,
+                "end" : 175
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 172,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fiel",
+                "start" : 177,
+                "end" : 181
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "machacànita",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 16,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. Nàyaca",
+                "start" : 55,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "machacànita.",
+                "start" : 67,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. Napìanícawa",
+                "start" : 111,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "machacànita.",
+                "start" : 129,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 172,
+                "end" : 176
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. Iwàwacutá asìali",
+                "start" : 183,
+                "end" : 206
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ìyaca machacànita yàacawéetúa",
+                "start" : 207,
+                "end" : 241
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yáapichawa.",
+                "start" : 242,
+                "end" : 254
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 100,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 129,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 168,
+                "end" : 168
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 206,
+                "end" : 206
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 241,
+                "end" : 241
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 242,
+                "end" : 242
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 275,
+                "end" : 275
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 276,
+                "end" : 276
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 309,
+                "end" : 309
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 310,
+                "end" : 310
+            },
+    ]
+})

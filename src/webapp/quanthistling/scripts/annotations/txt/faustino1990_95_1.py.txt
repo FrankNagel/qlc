@@ -1,0 +1,337 @@
+
+manual_entries.append({
+    "fullentry" : "vai vejere 1 s.v.inan., vai veje- v.t. pescar (con caña) ej. Vai vejegʉ vaboacajʉ yʉ. Cũmua manicajʉ ti. Yo iba a pescar pero no había canoa (disponible). 2 s.v.inan., f.n.esp. anzuelo, anzuelos vai vejeria s.v.inan. anzuelo ej. Vai vejere botisema quẽnabetibʉsaaja ti. Los anzuelos plateados no son tan buenos (como los otros).",
+    "startpage" : 95,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Barasana y taibano",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "vai vejere",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pescar (con caña)",
+                "start" : 39,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Vai vejegʉ vaboacajʉ yʉ. Cũmua manicajʉ ti.",
+                "start" : 62,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Yo iba a pescar pero no había canoa (disponible).",
+                "start" : 107,
+                "end" : 157
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 160,
+                "end" : 169
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 171,
+                "end" : 179
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anzuelo",
+                "start" : 180,
+                "end" : 187
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anzuelos",
+                "start" : 189,
+                "end" : 197
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "vai vejeria",
+                "start" : 198,
+                "end" : 209
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 210,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anzuelo",
+                "start" : 220,
+                "end" : 227
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Vai vejere botisema quẽnabetibʉsaaja ti.",
+                "start" : 232,
+                "end" : 273
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Los anzuelos plateados no son tan buenos (como los otros).",
+                "start" : 274,
+                "end" : 0
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "vai vejere 1",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., vai veje- v.t.",
+                "start" : 13,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pescar",
+                "start" : 39,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 58,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Yo iba a pescar pero no había canoa (disponible).",
+                "start" : 107,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 158,
+                "end" : 159
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., f.n.esp.",
+                "start" : 160,
+                "end" : 179
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "anzuelo, anzuelos",
+                "start" : 180,
+                "end" : 197
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "vai vejeria",
+                "start" : 198,
+                "end" : 209
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 210,
+                "end" : 219
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "anzuelo",
+                "start" : 220,
+                "end" : 227
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 228,
+                "end" : 231
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Los anzuelos plateados no son tan buenos (como los otros).",
+                "start" : 274,
+                "end" : 332
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 158,
+                "end" : 158
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 198,
+                "end" : 198
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 227,
+                "end" : 227
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 228,
+                "end" : 228
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+    ]
+})

@@ -1,0 +1,379 @@
+
+manual_entries.append({
+    "fullentry" : "¿cawiná? 1. pron.interrog. ¿quién?; ¿qué?; ¿cuál? (Véase ¿càiná?). Ej. ¿Cawiná íibaida chìquichìqui píapicha? ¿Quién procesó fibra contigo? Ej. ¿Cawiná náawa peedá náicha? ¿Cuál vestido obtuviste de ellos? Ej. ¿Cawiná yàawa píapicha? ¿Quién fue contigo? Ej. ¿Cawiná píimacájá? ¿Qué dirás? (saludo) 2. adv. interrog. ¿cómo? Ej. ¿Cawiná wachàwidàa cubái? ¿Cómo flechamos peces? Ej. ¿Cawiná wamàni machúca? ¿Cómo hacemos fariña?",
+    "startpage" : 21,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pio",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Piapoco",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cawiná",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interrog.",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "qué",
+                "start" : 38,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuál",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "càiná",
+                "start" : 54,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 330,
+                "end" : 333
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 330,
+                "end" : 333
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv. interrog.",
+                "start" : 330,
+                "end" : 344
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cómo",
+                "start" : 345,
+                "end" : 352
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¿cawiná?",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interrog.",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¿càiná?",
+                "start" : 62,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. ¿Cawiná íibaida chìquichìqui",
+                "start" : 74,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "píapicha?",
+                "start" : 111,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. ¿Cawiná náawa peedá",
+                "start" : 154,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "náicha?",
+                "start" : 181,
+                "end" : 189
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. ¿Cawiná yàawa píapicha?",
+                "start" : 225,
+                "end" : 255
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. ¿Cawiná",
+                "start" : 277,
+                "end" : 289
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "píimacájá?",
+                "start" : 290,
+                "end" : 303
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv. interrog.",
+                "start" : 330,
+                "end" : 344
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. ¿Cawiná",
+                "start" : 353,
+                "end" : 365
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wachàwidàa cubái?",
+                "start" : 366,
+                "end" : 386
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ej. ¿Cawiná",
+                "start" : 411,
+                "end" : 423
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wamàni machúca?",
+                "start" : 424,
+                "end" : 441
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 217,
+                "end" : 217
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 255,
+                "end" : 255
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 256,
+                "end" : 256
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 289,
+                "end" : 289
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 290,
+                "end" : 290
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 326,
+                "end" : 326
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 327,
+                "end" : 327
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 365,
+                "end" : 365
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 366,
+                "end" : 366
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 393,
+                "end" : 393
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 394,
+                "end" : 394
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 423,
+                "end" : 423
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 424,
+                "end" : 424
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 456,
+                "end" : 456
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 457,
+                "end" : 457
+            },
+    ]
+})

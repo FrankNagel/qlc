@@ -65,7 +65,7 @@ def remove_parts_translation(str, s, e):
 
 def annotate_head_and_pos(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in head_annotations:
         Session.delete(a)
 

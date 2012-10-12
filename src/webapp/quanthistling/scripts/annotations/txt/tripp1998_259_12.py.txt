@@ -1,0 +1,435 @@
+
+manual_entries.append({
+    "fullentry" : "onoteñets [onoht-] vr. 1. ser media mañana (más o menos a las 9). 2. ser media tarde (más o menos a las 3). Onota'muena. Ya es media mañana. Onotena. Ya es media tarde. Onotenerr o'ch yerratuer ema'. Más o menos a las 9 de la mañana vamos a dar comida al bebé. ǁ onotap̃señets, onotpeñets vi. dar a alguien la media mañana. Yo'notap̃sa'muen. Nos dio la media mañana (en la chacra). Onotpenerr ontapo. Le dio la media mañana en el río. (Véase ono)",
+    "startpage" : 259,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ame",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yanesha' (Amuesha)",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ame",
+                "start" : 271,
+                "end" : 285
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yanesha' (Amuesha)",
+                "start" : 271,
+                "end" : 285
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ame",
+                "start" : 287,
+                "end" : 298
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yanesha' (Amuesha)",
+                "start" : 287,
+                "end" : 298
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 27,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 27,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 72,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 72,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 303,
+                "end" : 333
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 303,
+                "end" : 333
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "onoteñets",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vr",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser media mañana (más o menos a las 9)",
+                "start" : 27,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser media tarde (más o menos a las 3)",
+                "start" : 72,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "onotap̃señets",
+                "start" : 271,
+                "end" : 285
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "onotpeñets",
+                "start" : 287,
+                "end" : 298
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 299,
+                "end" : 302
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar a alguien la media mañana",
+                "start" : 303,
+                "end" : 333
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "onoteñets",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vr.",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Onota'muena.",
+                "start" : 112,
+                "end" : 124
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Onotena.",
+                "start" : 146,
+                "end" : 154
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Onote",
+                "start" : 174,
+                "end" : 179
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nerr o'ch yerratuer ema'.",
+                "start" : 179,
+                "end" : 204
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "onotap̃señets, onotpeñets",
+                "start" : 271,
+                "end" : 298
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 299,
+                "end" : 302
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yo'notap̃",
+                "start" : 335,
+                "end" : 344
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sa'muen.",
+                "start" : 344,
+                "end" : 352
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Onotpenerr ontapo.",
+                "start" : 394,
+                "end" : 412
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ono",
+                "start" : 457,
+                "end" : 460
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 179,
+                "end" : 179
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 179,
+                "end" : 179
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 179,
+                "end" : 179
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 214,
+                "end" : 214
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 251,
+                "end" : 251
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 252,
+                "end" : 252
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 268,
+                "end" : 268
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 308,
+                "end" : 308
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 309,
+                "end" : 309
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 344,
+                "end" : 344
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 344,
+                "end" : 344
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 344,
+                "end" : 344
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 377,
+                "end" : 377
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 378,
+                "end" : 378
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 412,
+                "end" : 412
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 413,
+                "end" : 413
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 448,
+                "end" : 448
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 449,
+                "end" : 449
+            },
+    ]
+})

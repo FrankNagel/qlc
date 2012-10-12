@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "ngui̵shã ndi̵bi̵ n. jicharama de \"cabeza de mono\".",
+    "startpage" : 58,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "srq",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Siriono",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ngui̵shã ndi̵bi̵",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n.",
+                "start" : 18,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "jicharama de cabeza de mono",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ngui̵shã ndi̵bi̵",
+                "start" : 0,
+                "end" : 17
+            },
+    ]
+})

@@ -543,17 +543,17 @@ list = [
                 'file' : 'panoan/shell1987_dictdata_19_65.xml',
                 'component' : 'Panoan'
             },
-            {
-                'startpage' : 69,
-                'endpage' : 105,
-                'src_language_name' : u'Spanish',
-                'tgt_language_name' : u'Cashibo-Cacataibo',
-                'src_language_bookname' : u'Castellano',
-                'tgt_language_bookname' : u'Cashibo-Cacataibo',
-                're_letter_only': u'^<b>\w+</b>\s*$',
-                'file' : 'panoan/shell1987_dictdata_69_105.xml',
-                'component' : 'Panoan'
-            },
+            # {
+            #     'startpage' : 69,
+            #     'endpage' : 105,
+            #     'src_language_name' : u'Spanish',
+            #     'tgt_language_name' : u'Cashibo-Cacataibo',
+            #     'src_language_bookname' : u'Castellano',
+            #     'tgt_language_bookname' : u'Cashibo-Cacataibo',
+            #     're_letter_only': u'^<b>\w+</b>\s*$',
+            #     'file' : 'panoan/shell1987_dictdata_69_105.xml',
+            #     'component' : 'Panoan'
+            # },
         ],
         'nondictdata' : [
             {

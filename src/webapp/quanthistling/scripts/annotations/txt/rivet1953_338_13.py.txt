@@ -1,0 +1,323 @@
+
+manual_entries.append({
+    "fullentry" : "avec: deux1 femmes2 partiront3 avec4 eux5, müynahama1 momüy(hĭ),2 idʐ̌etsatsahə4-5 tsanohotsǝ̆3 (N), anahiko1 dʐ̌oko2 hahaghia3 hōhi4-5 (O), nayme4-5 dekaayte3 mena1 neño2 (W),",
+    "startpage" : 338,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "avec",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 6,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 6,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "deux femmes partiront avec eux",
+                "start" : 6,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 43,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 43,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "müynahama momüyhĭ idʐ̌etsatsahə tsanohotsǝ̆",
+                "start" : 43,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "müynahama momüy idʐ̌etsatsahə tsanohotsǝ̆",
+                "start" : 43,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 68,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 68,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 99,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 104,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 104,
+                "end" : 140
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anahiko dʐ̌oko hahaghia hōhi",
+                "start" : 104,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 140,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 145,
+                "end" : 177
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 145,
+                "end" : 177
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nayme dekaayte mena neño",
+                "start" : 145,
+                "end" : 175
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 177,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "müynahama",
+                "start" : 43,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "momüy",
+                "start" : 55,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hĭ",
+                "start" : 62,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "idʐ̌etsatsahə",
+                "start" : 69,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tsanohotsǝ̆",
+                "start" : 86,
+                "end" : 97
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "anahiko",
+                "start" : 104,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dʐ̌oko",
+                "start" : 113,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hahaghia",
+                "start" : 121,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hōhi",
+                "start" : 131,
+                "end" : 136
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nayme",
+                "start" : 145,
+                "end" : 150
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dekaayte",
+                "start" : 154,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mena",
+                "start" : 164,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "neño",
+                "start" : 170,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 145,
+                "end" : 145
+            },
+    ]
+})

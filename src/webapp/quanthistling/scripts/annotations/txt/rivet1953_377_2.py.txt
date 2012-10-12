@@ -1,0 +1,302 @@
+
+manual_entries.append({
+    "fullentry" : "deux1 hommes2 partiront3 demain4: müynahāmǎ1okonama2 nohōrˆˆə3 mōná4 (N), ə(ü)rˆˆo4 harāma1 oiñu2 hāg(h)i3 (O), ukore4 mena1 mu(h)e2 ayt(i)3 (W),",
+    "startpage" : 377,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "deux hommes partiront demain",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 34,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 34,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "müynahāmǎ okonama nohōrˆˆə mōná",
+                "start" : 34,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 75,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 80,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 80,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "əürˆˆo harāma oiñu hāghi",
+                "start" : 80,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ərˆˆo harāma oiñu hāgi",
+                "start" : 80,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 117,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 122,
+                "end" : 151
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 122,
+                "end" : 151
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ukore mena muhe ayti",
+                "start" : 122,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ukore mena mue ayt",
+                "start" : 122,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 151,
+                "end" : 154
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "müynahāmǎ",
+                "start" : 34,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "okonama",
+                "start" : 47,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nohōrˆˆə",
+                "start" : 56,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mōná",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ə",
+                "start" : 80,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ü",
+                "start" : 82,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "rˆˆo",
+                "start" : 85,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "harāma",
+                "start" : 91,
+                "end" : 98
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "oiñu",
+                "start" : 100,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hāg",
+                "start" : 107,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "h",
+                "start" : 112,
+                "end" : 113
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "i",
+                "start" : 114,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ukore",
+                "start" : 122,
+                "end" : 127
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mena",
+                "start" : 129,
+                "end" : 133
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mu",
+                "start" : 135,
+                "end" : 137
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "h",
+                "start" : 138,
+                "end" : 139
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "e",
+                "start" : 140,
+                "end" : 141
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ayt",
+                "start" : 143,
+                "end" : 146
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "i",
+                "start" : 147,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+    ]
+})

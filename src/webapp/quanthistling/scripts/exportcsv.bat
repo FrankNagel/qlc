@@ -1,4 +1,5 @@
-set QUANTHISTLINGPATH=c:\Users\pbouda\Projects\svn-googlecode\qlc\src\webapp\quanthistling
+REM set QUANTHISTLINGPATH=c:\Users\pbouda\Projects\svn-googlecode\qlc\src\webapp\quanthistling
+set QUANTHISTLINGPATH=h:\ProjectsWin\svn-googlecode\qlc\src\webapp\quanthistling\
 set PATH=%PATH%;c:\Program Files (x86)\PostgreSQL\8.4\bin;c:\Program Files\7-Zip
 call psql -U postgres -c "copy (select * from entry) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\entry.csv
 call psql -U postgres -c "copy (select * from annotation) to STDOUT DELIMITER AS E'\t' CSV HEADER;" quanthistling > %QUANTHISTLINGPATH%\tmp\csv\annotation.csv

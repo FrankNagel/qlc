@@ -1,0 +1,1093 @@
+
+manual_entries.append({
+    "fullentry" : "epa [ehpa] adj.,s. dos; pat̃err, epa, ma'pa uno, dos, tres; epa anets dos pueblos. Eñall epa. Hay dos. epacma siempre dos. epameñ sólo quedan dos. epanesha', epuesha' gemelos, mellizos. epa'tets de dos en dos, un par. eppahua dos casas. epllom̃a dos semillas. epmeta dos pedazos de yuca cocinados. epm̃a dos meses, bimestre; dos huevos o dos unidades de cualquier cosa redonda. epoch, epoche'tats dos veces, doble. epo'mar los dos, ambos. epomuet, epamat dos días. epota'ra dos paredes. epuechm̃a dos paquetes de chaquira. epp̃a dos agujas. eprec̈ha dos hilos. eprracra'pan hoja partida en dos. eprroga dos ollas. epsheña dos personas, pareja. epsheña pot̃apor bígamo. epta dos canoas. eptalla dos monedas. epta'tatsen dos cosas muy cercanas. epta'ra dos grupos de plátanos. eptotanta dos grupos. epuoye' dos cosas a la vez. puepañ su segundo. puepmeñ su segundo mes. puepomtañ su segundo día. puepocheñ su segunda vez. epoch c̈harra' veinte (lit. 10 por 2 veces).",
+    "startpage" : 190,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ame",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yanesha' (Amuesha)",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "epa",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s",
+                "start" : 16,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dos",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epa",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.,s.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pat̃err, epa,",
+                "start" : 24,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma'pa",
+                "start" : 38,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epa anets",
+                "start" : 60,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Eñall epa.",
+                "start" : 83,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epacma",
+                "start" : 104,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epameñ",
+                "start" : 124,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epanesha', epuesha'",
+                "start" : 150,
+                "end" : 169
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epa'tets",
+                "start" : 189,
+                "end" : 197
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eppahua",
+                "start" : 221,
+                "end" : 228
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epllom̃a",
+                "start" : 240,
+                "end" : 248
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epmeta",
+                "start" : 263,
+                "end" : 269
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epm̃a",
+                "start" : 301,
+                "end" : 306
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epoch, epoche'tats",
+                "start" : 381,
+                "end" : 399
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epo'mar",
+                "start" : 418,
+                "end" : 425
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epomuet, epamat",
+                "start" : 442,
+                "end" : 457
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epota'ra",
+                "start" : 469,
+                "end" : 477
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epuechm̃a",
+                "start" : 491,
+                "end" : 500
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epp̃a",
+                "start" : 527,
+                "end" : 532
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eprec̈ha",
+                "start" : 545,
+                "end" : 553
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eprracra'pan",
+                "start" : 565,
+                "end" : 577
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eprroga",
+                "start" : 599,
+                "end" : 606
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epsheña",
+                "start" : 618,
+                "end" : 626
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epsheña pot̃apor",
+                "start" : 649,
+                "end" : 666
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epta",
+                "start" : 676,
+                "end" : 680
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eptalla",
+                "start" : 693,
+                "end" : 700
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epta'tatsen",
+                "start" : 714,
+                "end" : 725
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epta'ra",
+                "start" : 750,
+                "end" : 757
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eptotanta",
+                "start" : 783,
+                "end" : 792
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epuoye'",
+                "start" : 805,
+                "end" : 812
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "puepañ",
+                "start" : 833,
+                "end" : 840
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "puepmeñ",
+                "start" : 853,
+                "end" : 861
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "puepomtañ",
+                "start" : 878,
+                "end" : 888
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "puepocheñ",
+                "start" : 906,
+                "end" : 916
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epoch c̈harra'",
+                "start" : 933,
+                "end" : 947
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 103,
+                "end" : 103
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 104,
+                "end" : 104
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 188,
+                "end" : 188
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 189,
+                "end" : 189
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 189,
+                "end" : 189
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 220,
+                "end" : 220
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 239,
+                "end" : 239
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 240,
+                "end" : 240
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 240,
+                "end" : 240
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 262,
+                "end" : 262
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 263,
+                "end" : 263
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 263,
+                "end" : 263
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 294,
+                "end" : 294
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 294,
+                "end" : 294
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 294,
+                "end" : 294
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 300,
+                "end" : 300
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 301,
+                "end" : 301
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 301,
+                "end" : 301
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 335,
+                "end" : 335
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 335,
+                "end" : 335
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 335,
+                "end" : 335
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 371,
+                "end" : 371
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 372,
+                "end" : 372
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 380,
+                "end" : 380
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 381,
+                "end" : 381
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 381,
+                "end" : 381
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 413,
+                "end" : 413
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 413,
+                "end" : 413
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 413,
+                "end" : 413
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 417,
+                "end" : 417
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 418,
+                "end" : 418
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 418,
+                "end" : 418
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 441,
+                "end" : 441
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 442,
+                "end" : 442
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 442,
+                "end" : 442
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 468,
+                "end" : 468
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 469,
+                "end" : 469
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 469,
+                "end" : 469
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 490,
+                "end" : 490
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 491,
+                "end" : 491
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 491,
+                "end" : 491
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 526,
+                "end" : 526
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 527,
+                "end" : 527
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 527,
+                "end" : 527
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 544,
+                "end" : 544
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 545,
+                "end" : 545
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 545,
+                "end" : 545
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 545,
+                "end" : 545
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 564,
+                "end" : 564
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 565,
+                "end" : 565
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 565,
+                "end" : 565
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 598,
+                "end" : 598
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 599,
+                "end" : 599
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 599,
+                "end" : 599
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 617,
+                "end" : 617
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 618,
+                "end" : 618
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 618,
+                "end" : 618
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 648,
+                "end" : 648
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 649,
+                "end" : 649
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 649,
+                "end" : 649
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 675,
+                "end" : 675
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 676,
+                "end" : 676
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 676,
+                "end" : 676
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 692,
+                "end" : 692
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 693,
+                "end" : 693
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 693,
+                "end" : 693
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 713,
+                "end" : 713
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 714,
+                "end" : 714
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 714,
+                "end" : 714
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 749,
+                "end" : 749
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 750,
+                "end" : 750
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 750,
+                "end" : 750
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 782,
+                "end" : 782
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 783,
+                "end" : 783
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 783,
+                "end" : 783
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 804,
+                "end" : 804
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 805,
+                "end" : 805
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 805,
+                "end" : 805
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 832,
+                "end" : 832
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 833,
+                "end" : 833
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 833,
+                "end" : 833
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 852,
+                "end" : 852
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 853,
+                "end" : 853
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 853,
+                "end" : 853
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 877,
+                "end" : 877
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 878,
+                "end" : 878
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 878,
+                "end" : 878
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 905,
+                "end" : 905
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 906,
+                "end" : 906
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 906,
+                "end" : 906
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 932,
+                "end" : 932
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 933,
+                "end" : 933
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 933,
+                "end" : 933
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 969,
+                "end" : 969
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 970,
+                "end" : 970
+            },
+    ]
+})

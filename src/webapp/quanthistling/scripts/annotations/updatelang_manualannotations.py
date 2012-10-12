@@ -34,7 +34,7 @@ def main(argv):
         #book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
 
         print b["bibtex_key"]
-        files = glob.glob("scripts/annotations/txt/%s_[0-9]*_[0-9]*.py.txt"%b["bibtex_key"])
+        files = glob.glob("scripts/annotations/txt/tbd/%s_[0-9]*_[0-9]*.py.txt"%b["bibtex_key"])
         if len(files) > 0:
 
             for file in files:
@@ -89,7 +89,7 @@ def main(argv):
                             lines2 += a2
 
                 lines2 += lines[match_a.end(0):]
-                output = open(os.path.join("scripts/annotations/txt/lang", os.path.basename(file)), "w")
+                output = open(os.path.join("scripts/annotations/txt/tbd/lang", os.path.basename(file)), "w")
                 output.write(lines2.encode("utf-8"))
                 output.close()
             

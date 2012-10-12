@@ -1,0 +1,981 @@
+
+manual_entries.append({
+    "fullentry" : "venir: il vient, noniñōtsi (N), hahāghĭ (O), neyme-bit(ə) (W), il est venu, itsatefeatana (N), biro-hafārakhă (O), un1 homme2 est venu3 hier4, bof(w)üfe4 oka2 ifeatana3 (N), ə(ü)to4 hāfarāka3 tiāāma1-2 (O), nabuyri4 rid3 dakhe1 hema2 (W), une1 femme2 est venue3 ce matin4, itĭəˆˆəfe4 mōōhm(wü)1-2 ifeatana3 (N), tiaiko1-2 aima4 afaraka3 (O), ayw(h)ehīti4 dañeño1-2 bite3 (W),",
+    "startpage" : 374,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "venir",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "il vient",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "noniñōtsi",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 29,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 34,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 34,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hahāghĭ",
+                "start" : 34,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 44,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 49,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 49,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "neyme bitə",
+                "start" : 49,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "neyme bit",
+                "start" : 49,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 54,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 62,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "il est venu",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 80,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 80,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "itsatefeatana",
+                "start" : 80,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 94,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 99,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 99,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "biro hafārakhă",
+                "start" : 99,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 103,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 116,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 121,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 121,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "un homme est venu hier",
+                "start" : 121,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 149,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 149,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bofwüfe oka ifeatana",
+                "start" : 149,
+                "end" : 174
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bofüfe oka ifeatana",
+                "start" : 149,
+                "end" : 174
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 176,
+                "end" : 179
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 181,
+                "end" : 214
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 181,
+                "end" : 214
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "əüto hāfarāka tiāāma",
+                "start" : 181,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "əto hāfarāka tiāāma",
+                "start" : 181,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 214,
+                "end" : 217
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 219,
+                "end" : 246
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 219,
+                "end" : 246
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nabuyri rid dakhe hema",
+                "start" : 219,
+                "end" : 244
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 246,
+                "end" : 249
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 251,
+                "end" : 283
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 251,
+                "end" : 283
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "une femme est venue ce matin",
+                "start" : 251,
+                "end" : 282
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 285,
+                "end" : 323
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 285,
+                "end" : 323
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "itĭəˆˆəfe mōōhmwü ifeatana",
+                "start" : 285,
+                "end" : 321
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "itĭəˆˆəfe mōōhm ifeatana",
+                "start" : 285,
+                "end" : 321
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 323,
+                "end" : 326
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 328,
+                "end" : 353
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 328,
+                "end" : 353
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tiaiko aima afaraka",
+                "start" : 328,
+                "end" : 351
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 353,
+                "end" : 356
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 358,
+                "end" : 390
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 358,
+                "end" : 390
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aywhehīti dañeño bite",
+                "start" : 358,
+                "end" : 388
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aywehīti dañeño bite",
+                "start" : 358,
+                "end" : 388
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 390,
+                "end" : 393
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "noniñōtsi",
+                "start" : 17,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hahāghĭ",
+                "start" : 34,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "neyme-bit",
+                "start" : 49,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ə",
+                "start" : 59,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "itsatefeatana",
+                "start" : 80,
+                "end" : 93
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biro-hafārakhă",
+                "start" : 99,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bof",
+                "start" : 149,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "w",
+                "start" : 153,
+                "end" : 154
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "üfe",
+                "start" : 155,
+                "end" : 159
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "oka",
+                "start" : 161,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ifeatana",
+                "start" : 166,
+                "end" : 174
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ə",
+                "start" : 181,
+                "end" : 182
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ü",
+                "start" : 183,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "to",
+                "start" : 186,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hāfarāka",
+                "start" : 190,
+                "end" : 200
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tiāāma",
+                "start" : 202,
+                "end" : 210
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nabuyri",
+                "start" : 219,
+                "end" : 226
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "rid",
+                "start" : 228,
+                "end" : 231
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dakhe",
+                "start" : 233,
+                "end" : 238
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hema",
+                "start" : 240,
+                "end" : 244
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "itĭəˆˆəfe",
+                "start" : 285,
+                "end" : 295
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mōōhm",
+                "start" : 297,
+                "end" : 304
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wü",
+                "start" : 305,
+                "end" : 308
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ifeatana",
+                "start" : 313,
+                "end" : 321
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tiaiko",
+                "start" : 328,
+                "end" : 334
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aima",
+                "start" : 338,
+                "end" : 342
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "afaraka",
+                "start" : 344,
+                "end" : 351
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ayw",
+                "start" : 358,
+                "end" : 361
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "h",
+                "start" : 362,
+                "end" : 363
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ehīti",
+                "start" : 364,
+                "end" : 370
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dañeño",
+                "start" : 372,
+                "end" : 380
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bite",
+                "start" : 384,
+                "end" : 388
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 98,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 219,
+                "end" : 219
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 250,
+                "end" : 250
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 251,
+                "end" : 251
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 327,
+                "end" : 327
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 328,
+                "end" : 328
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 328,
+                "end" : 328
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 328,
+                "end" : 328
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 328,
+                "end" : 328
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 328,
+                "end" : 328
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 358,
+                "end" : 358
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 358,
+                "end" : 358
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 358,
+                "end" : 358
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 358,
+                "end" : 358
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 358,
+                "end" : 358
+            },
+    ]
+})

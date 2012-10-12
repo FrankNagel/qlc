@@ -1,0 +1,1282 @@
+
+manual_entries.append({
+    "fullentry" : "manger: il mange, o-kútsi (N), ha-hōkokǝ̆ (O), neyme-g(i)oyt(e) (W), il a mangé, nokeokütsi (N), miro-tia-hokoh (O), me-gwite (W), mange1 ce pain2! ökha2 okhoñu1 (O), mangez1 ces fruits2! fo(h)ohə(ü)2 ə(ü)kara1 (O), je mange, kwe w(u)ite (W), j’ai mangé, g(wu)iga (W), j’ai déjà mangé, ay kwe gw(u)ite, ay ke g(wui)te (W), mange! gw(ui), gw(u)iño (W), manger maintenant, gw(u)ite (W), qui a mangé? vu g(wu)iga (W),",
+    "startpage" : 358,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "manger",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "il mange",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 18,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 18,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "o kútsi",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 19,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 27,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ha hōkokǝ̆",
+                "start" : 32,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 34,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 44,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 49,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 49,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "neyme gioyte",
+                "start" : 49,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "neyme goyt",
+                "start" : 49,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 54,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 66,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 71,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 71,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "il a mangé",
+                "start" : 71,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 84,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 84,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nokeokütsi",
+                "start" : 84,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 96,
+                "end" : 99
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 101,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 101,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "miro tia hokoh",
+                "start" : 101,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 105,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 109,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 116,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 121,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 121,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "me gwite",
+                "start" : 121,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 123,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 130,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 135,
+                "end" : 150
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 135,
+                "end" : 150
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mange ce pain",
+                "start" : 135,
+                "end" : 149
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 152,
+                "end" : 168
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 152,
+                "end" : 168
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ökha okhoñu",
+                "start" : 152,
+                "end" : 166
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 168,
+                "end" : 171
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 173,
+                "end" : 192
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 173,
+                "end" : 192
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mangez ces fruits",
+                "start" : 173,
+                "end" : 191
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 194,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 194,
+                "end" : 219
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fohohəü əükara",
+                "start" : 194,
+                "end" : 217
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "foohə əkara",
+                "start" : 194,
+                "end" : 217
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 219,
+                "end" : 222
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 224,
+                "end" : 232
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 224,
+                "end" : 232
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "je mange",
+                "start" : 224,
+                "end" : 232
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 234,
+                "end" : 246
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 234,
+                "end" : 246
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kwe wuite",
+                "start" : 234,
+                "end" : 245
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kwe wite",
+                "start" : 234,
+                "end" : 245
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 246,
+                "end" : 249
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 251,
+                "end" : 262
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 251,
+                "end" : 262
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "j’ai mangé",
+                "start" : 251,
+                "end" : 262
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 264,
+                "end" : 273
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 264,
+                "end" : 273
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gwuiga",
+                "start" : 264,
+                "end" : 272
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "giga",
+                "start" : 264,
+                "end" : 272
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 273,
+                "end" : 276
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 278,
+                "end" : 296
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 278,
+                "end" : 296
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "j’ai déjà mangé",
+                "start" : 278,
+                "end" : 296
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 298,
+                "end" : 313
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 298,
+                "end" : 313
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ay kwe gwuite",
+                "start" : 298,
+                "end" : 313
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ay kwe gwite",
+                "start" : 298,
+                "end" : 313
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 315,
+                "end" : 330
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 315,
+                "end" : 330
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ay ke gwuite",
+                "start" : 315,
+                "end" : 329
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ay ke gte",
+                "start" : 315,
+                "end" : 329
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 330,
+                "end" : 333
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 335,
+                "end" : 340
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 335,
+                "end" : 340
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mange",
+                "start" : 335,
+                "end" : 340
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 342,
+                "end" : 348
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 342,
+                "end" : 348
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gwui",
+                "start" : 342,
+                "end" : 348
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gw",
+                "start" : 342,
+                "end" : 348
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 350,
+                "end" : 360
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 350,
+                "end" : 360
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gwuiño",
+                "start" : 350,
+                "end" : 359
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gwiño",
+                "start" : 350,
+                "end" : 359
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 360,
+                "end" : 363
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 365,
+                "end" : 382
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 365,
+                "end" : 382
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "manger maintenant",
+                "start" : 365,
+                "end" : 382
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 384,
+                "end" : 393
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 384,
+                "end" : 393
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gwuite",
+                "start" : 384,
+                "end" : 392
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gwite",
+                "start" : 384,
+                "end" : 392
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 393,
+                "end" : 396
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 398,
+                "end" : 424
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 398,
+                "end" : 424
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "qui a mangé",
+                "start" : 398,
+                "end" : 410
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vu gwuiga",
+                "start" : 412,
+                "end" : 423
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "vu giga",
+                "start" : 412,
+                "end" : 423
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 424,
+                "end" : 427
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "o-kútsi",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ha-hōkokǝ̆",
+                "start" : 32,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "neyme-g",
+                "start" : 49,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "i",
+                "start" : 57,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "oyt",
+                "start" : 59,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "e",
+                "start" : 63,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nokeokütsi",
+                "start" : 84,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "miro-tia-hokoh",
+                "start" : 101,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-gwite",
+                "start" : 121,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ökha",
+                "start" : 152,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "okhoñu",
+                "start" : 159,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "fo",
+                "start" : 194,
+                "end" : 196
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "h",
+                "start" : 197,
+                "end" : 198
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ohə",
+                "start" : 199,
+                "end" : 202
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ü",
+                "start" : 203,
+                "end" : 205
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ə",
+                "start" : 208,
+                "end" : 209
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ü",
+                "start" : 210,
+                "end" : 212
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kara",
+                "start" : 213,
+                "end" : 217
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kwe w",
+                "start" : 234,
+                "end" : 239
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u",
+                "start" : 240,
+                "end" : 241
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ite",
+                "start" : 242,
+                "end" : 245
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "g",
+                "start" : 264,
+                "end" : 265
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wu",
+                "start" : 266,
+                "end" : 268
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iga",
+                "start" : 269,
+                "end" : 272
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ay kwe gw",
+                "start" : 298,
+                "end" : 307
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u",
+                "start" : 308,
+                "end" : 309
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ite, ay ke g",
+                "start" : 310,
+                "end" : 322
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wui",
+                "start" : 323,
+                "end" : 326
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "te",
+                "start" : 327,
+                "end" : 329
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gw",
+                "start" : 342,
+                "end" : 344
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui",
+                "start" : 345,
+                "end" : 347
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gw",
+                "start" : 350,
+                "end" : 352
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u",
+                "start" : 353,
+                "end" : 354
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iño",
+                "start" : 355,
+                "end" : 359
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gw",
+                "start" : 384,
+                "end" : 386
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u",
+                "start" : 387,
+                "end" : 388
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ite",
+                "start" : 389,
+                "end" : 392
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vu g",
+                "start" : 412,
+                "end" : 416
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wu",
+                "start" : 417,
+                "end" : 419
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iga",
+                "start" : 420,
+                "end" : 423
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 100,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 134,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 223,
+                "end" : 223
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 250,
+                "end" : 250
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 251,
+                "end" : 251
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 277,
+                "end" : 277
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 334,
+                "end" : 334
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 335,
+                "end" : 335
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 364,
+                "end" : 364
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 365,
+                "end" : 365
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 397,
+                "end" : 397
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 398,
+                "end" : 398
+            },
+    ]
+})

@@ -1,0 +1,428 @@
+
+manual_entries.append({
+    "fullentry" : "dʉreare 1 s.v.inan., dʉrea- v.t. enrollar ej. Dʉrea, dʉrea, yicõari, bu gujia tucama ĩna. Después de enrollar (la cerbatana), ellos le colocaron un colmillo de guara. 2 s.v.inan., f.n.esp. cerbatana enrollada, cerbatanas enrolladas dʉrearia s.v.inan. cerbatana enrollada ej. Yucʉ bujua ñaaja ti, dʉrearia. La cerbatana enrollada es de madera. V. buju",
+    "startpage" : 33,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "bsn",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Barasana y taibano",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dʉreare",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 33,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "enrollar",
+                "start" : 33,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Dʉrea, dʉrea, yicõari, bu gujia tucama ĩna.",
+                "start" : 46,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Después de enrollar (la cerbatana), ellos le colocaron un colmillo de guara.",
+                "start" : 92,
+                "end" : 169
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 172,
+                "end" : 181
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.n.esp.",
+                "start" : 183,
+                "end" : 191
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cerbatana enrollada",
+                "start" : 192,
+                "end" : 211
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cerbatanas enrolladas",
+                "start" : 213,
+                "end" : 234
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dʉrearia",
+                "start" : 235,
+                "end" : 243
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 244,
+                "end" : 253
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cerbatana enrollada",
+                "start" : 254,
+                "end" : 273
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Yucʉ bujua ñaaja ti, dʉrearia.",
+                "start" : 278,
+                "end" : 309
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La cerbatana enrollada es de madera.",
+                "start" : 310,
+                "end" : 346
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "buju",
+                "start" : 350,
+                "end" : 354
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dʉreare 1",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., dʉrea- v.t.",
+                "start" : 10,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "enrollar",
+                "start" : 33,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 42,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Después de enrollar (la cerbatana), ellos le colocaron un",
+                "start" : 92,
+                "end" : 150
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "colmillo de guara.",
+                "start" : 151,
+                "end" : 169
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 170,
+                "end" : 171
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan., f.n.esp.",
+                "start" : 172,
+                "end" : 191
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cerbatana enrollada, cerbatanas",
+                "start" : 192,
+                "end" : 223
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "enrolladas",
+                "start" : 224,
+                "end" : 234
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dʉrearia",
+                "start" : 235,
+                "end" : 243
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 244,
+                "end" : 253
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cerbatana enrollada",
+                "start" : 254,
+                "end" : 273
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 274,
+                "end" : 277
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "La cerbatana enrollada es de madera.",
+                "start" : 310,
+                "end" : 346
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "V.",
+                "start" : 347,
+                "end" : 349
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 151,
+                "end" : 151
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 151,
+                "end" : 151
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 151,
+                "end" : 151
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 170,
+                "end" : 170
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 223,
+                "end" : 223
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 234,
+                "end" : 234
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 235,
+                "end" : 235
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 273,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 274,
+                "end" : 274
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 277,
+                "end" : 277
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 309,
+                "end" : 309
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 310,
+                "end" : 310
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 310,
+                "end" : 310
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 346,
+                "end" : 346
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 347,
+                "end" : 347
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 349,
+                "end" : 349
+            },
+    ]
+})

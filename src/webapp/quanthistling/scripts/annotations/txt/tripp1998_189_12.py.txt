@@ -1,0 +1,414 @@
+
+manual_entries.append({
+    "fullentry" : "eñt̃teñets vr. 1.estar decorado, estar adornado. Eñt̃tena pa'paquëll. Su casa está decorada. 2. estar capacitado para desempeñar un cargo. ǁ eñt̃tateñets vt. 1. decorar, adornar, embellecer. Tse'llamets ñam̃a cho'llerrmats ñeñt̃ eñt̃tatene' coyanesha' po'cashe'm. Las bandas y los adornos son las cosas que decoran la cushma de las mujeres. 2. mostrar capacidad para desempeñar un cargo.",
+    "startpage" : 189,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ame",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yanesha' (Amuesha)",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ame",
+                "start" : 147,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yanesha' (Amuesha)",
+                "start" : 147,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 101,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 101,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 169,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 169,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 178,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 178,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 187,
+                "end" : 197
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 187,
+                "end" : 197
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 356,
+                "end" : 399
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 356,
+                "end" : 399
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eñt̃teñets",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vr",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar decorado",
+                "start" : 19,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar adornado",
+                "start" : 35,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar capacitado para desempeñar un cargo",
+                "start" : 101,
+                "end" : 143
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eñt̃tateñets",
+                "start" : 147,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 162,
+                "end" : 165
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "decorar",
+                "start" : 169,
+                "end" : 176
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "adornar",
+                "start" : 178,
+                "end" : 185
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "embellecer",
+                "start" : 187,
+                "end" : 197
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mostrar capacidad para desempeñar un cargo",
+                "start" : 356,
+                "end" : 399
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eñt̃teñets",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vr.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Eñt̃tena pa'paquëll.",
+                "start" : 51,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eñt̃tateñets",
+                "start" : 147,
+                "end" : 161
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 162,
+                "end" : 165
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tse'llamets ñam̃a cho'",
+                "start" : 199,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "llerrmats ñeñt̃ eñt̃tatene' coyanesha'",
+                "start" : 222,
+                "end" : 263
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "po'cashe'm.",
+                "start" : 264,
+                "end" : 275
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 186,
+                "end" : 186
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 187,
+                "end" : 187
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 222,
+                "end" : 222
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 222,
+                "end" : 222
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 222,
+                "end" : 222
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 263,
+                "end" : 263
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 264,
+                "end" : 264
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 300,
+                "end" : 300
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 301,
+                "end" : 301
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 336,
+                "end" : 336
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 337,
+                "end" : 337
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 373,
+                "end" : 373
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 374,
+                "end" : 374
+            },
+    ]
+})
