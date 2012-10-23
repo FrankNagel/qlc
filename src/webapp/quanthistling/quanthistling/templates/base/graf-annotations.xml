@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+        	% if c.annotationname == "dictinterpretation":
+    	        <labelUsage label="head" />
+    	        <labelUsage label="translation" />
+    	        <labelUsage label="pos" />
+    	        <labelUsage label="crossreference" />
+    	        <labelUsage label="counterpart" />
+    	        <labelUsage label="footnote" />
+    	        <labelUsage label="stratum" />
+    	        <labelUsage label="phonology" />
+    	        <labelUsage label="boundary" />
+    	        <labelUsage label="dialectidentification" />
+    	        <labelUsage label="headorth" />
+    	        <labelUsage label="typo" />
+           	% else:
+    	        <labelUsage label="tab" />
+    	        <labelUsage label="newline" />
+    	        <labelUsage label="bold" />
+    	        <labelUsage label="italic" />
+    	        <labelUsage label="underline" />
+    	        <labelUsage label="superscript" />
+    	        <labelUsage label="smallcaps" />
+    	        <labelUsage label="hyphen" />
+    	        <labelUsage label="pagebreak" />
+   	       	% endif
+        </labelsDecl>
+        <dependencies>
+            <dependsOn f.id="seg${c.annotationname}"/>
+        </dependencies>
+        <annotationSpaces>
+            <annotationSpace as.id="${c.annotationname}"/>
+        </annotationSpaces>
+    </graphHeader>
+
+<% i = 0 %>
+% for e in c.entries:
+	% for a in e.annotations_sorted_by_type_and_start(c.annotationtypes):
+	    <node xml:id="${c.annotationname}-${i}">
+	        <link targets="seg-a-${c.annotationname}-${i}"/>
+	    </node>
+	    <a xml:id="a-${c.annotationname}-${i}" label="${a.value}" ref="${c.annotationname}-${i}" as="${c.annotationname}" /> <% i += 1 %>
+	% endfor
+% endfor
+
+</graph>
