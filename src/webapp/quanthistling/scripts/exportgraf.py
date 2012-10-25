@@ -47,17 +47,15 @@ def main(argv):
     # template_entries_seg
     mylookup = TemplateLookup(directories=config['pylons.paths']['templates'])
     template_entries = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-entries.txt')).read()    
-    template_entries_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-entries-seg.xml')).read()
+    template_entries_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-entries.xml')).read()
     template_annotations = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-annotations.xml')).read()
-    template_annotations_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-annotations-seg.xml')).read()        
+    #template_annotations_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-annotations-seg.xml')).read()        
          
     #http://www.cidles.eu/quanthistling/book/minor1987/hto/spa?format=xml
     for b in quanthistling.dictdata.books.list:
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if c.book:
-            if b['bibtex_key'] != "thiesen1998":
-                continue
 
             print "Exporting XML data for %s..." % b['bibtex_key']
             
@@ -67,38 +65,38 @@ def main(argv):
             for c.dictdata in c.book.dictdata:
     
                 c.heading = c.book.bookinfo()
-                c.entries = model.meta.Session.query(model.Entry).filter(and_(model.Entry.dictdata_id==c.dictdata.id, model.Entry.is_subentry==False)).all()
+                c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
                 #xml =  render('/derived/book/dictdata.xml')
                 #xml = literal(template.render_unicode(c))
 
-                # write entry file
+                # write base data file
                 xml = Template(template_entries, lookup=mylookup).render_unicode(c=c)
                 oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i.txt" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
                 oFile.write(xml.encode("utf-8"))
                 oFile.close
     
-                # write entry segmentation file
+                # write entry file
                 xml = Template(template_entries_seg, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-segentries.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-entries.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
                 oFile.write(xml.encode("utf-8"))
                 oFile.close
 
                 # export annotation data
-                c.heading = c.book.bookinfo() + ", Annotations"
-                c.ces_doc_url = 'http://www.cidles.eu/quanthistling' + url_for(controller='book', action='create_xml_dictdata', bibtexkey=b['bibtex_key'], startpage=c.dictdata.startpage, endpage=c.dictdata.endpage, format='xml')
-                print c.ces_doc_url
+                #c.heading = c.book.bookinfo() + ", Annotations"
+                #c.ces_doc_url = 'http://www.cidles.eu/quanthistling' + url_for(controller='book', action='create_xml_dictdata', bibtexkey=b['bibtex_key'], startpage=c.dictdata.startpage, endpage=c.dictdata.endpage, format='xml')
+                #print c.ces_doc_url
                 
                 print "  formatting annotations..."
                 c.annotationtypes = [ "pagelayout", "formatting" ]
                 c.annotationname = "formatting"
 
-                xml = Template(template_annotations_seg, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-segformatting.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
-                oFile.write(xml.encode("utf-8"))
-                oFile.close            
+                #xml = Template(template_annotations_seg, lookup=mylookup).render_unicode(c=c)
+                #oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-segformatting.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                #oFile.write(xml.encode("utf-8"))
+                #oFile.close            
             
                 xml = Template(template_annotations, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-aformatting.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-formatting.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
                 oFile.write(xml.encode("utf-8"))
                 oFile.close            
 
@@ -106,13 +104,13 @@ def main(argv):
                 c.annotationtypes = [ "dictinterpretation", "orthographicinterpretation", "errata" ]
                 c.annotationname = "dictinterpretation"
 
-                xml = Template(template_annotations_seg, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-segdictinterpretation.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
-                oFile.write(xml.encode("utf-8"))
-                oFile.close            
+                #xml = Template(template_annotations_seg, lookup=mylookup).render_unicode(c=c)
+                #oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-segdictinterpretation.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                #oFile.write(xml.encode("utf-8"))
+                #oFile.close            
 
                 xml = Template(template_annotations, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-adictinterpretation.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-dictinterpretation.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
                 oFile.write(xml.encode("utf-8"))
             
 #            mysock = urllib.urlopen("http://localhost:5000/source/%s/create_xml_dictdata/dictionary-%i-%i.xml" % (b['bibtex_key'], data["startpage"], data["endpage"]))

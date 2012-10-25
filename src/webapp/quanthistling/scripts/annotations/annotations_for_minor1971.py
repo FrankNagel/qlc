@@ -23,7 +23,7 @@ import functions
     
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in head_annotations:
         Session.delete(a)
     
@@ -54,10 +54,13 @@ def annotate_head(entry):
             head = entry.fullentry[head_start:match.start(0)]
             heads.append(head)
             heads.append(head + match.group(1))
-            entry.append_annotation(head_start, match.start(0), u'head', u'dictinterpretation')
-            entry.append_annotation(head_start, head_end, u'head', u'dictinterpretation', head + match.group(1))
+            functions.insert_head(entry, head_start, match.start(0))
+            #entry.append_annotation(head_start, match.start(0), u'head', u'dictinterpretation')
+            functions.insert_head(entry, head_start, head_end)
+            #entry.append_annotation(head_start, head_end, u'head', u'dictinterpretation', head + match.group(1))
         else:
-            entry.append_annotation(head_start, head_end, u'head', u'dictinterpretation')
+            functions.insert_head(entry, head_start, head_end)
+            #entry.append_annotation(head_start, head_end, u'head', u'dictinterpretation')
             heads.append(entry.fullentry[head_start:head_end])
             
     return heads

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+	        <labelUsage label="entry" />
+        </labelsDecl>
+        <annotationSpaces>
+            <annotationSpace as.id="entries"/>
+        </annotationSpaces>
+    </graphHeader>
+
+<% offset = 0 %>
+% for i, e in enumerate(c.entries):
+	<region xml:id="seg-entry-${e.startpage}-${e.pos_on_page}" anchors="${offset} ${offset + len(e.fullentry)}" />
+    <node xml:id="entry-${e.startpage}-${e.pos_on_page}">
+        <link targets="seg-entry-${e.startpage}-${e.pos_on_page}" />
+    </node>
+    <a xml:id="a-entry-${e.startpage}-${e.pos_on_page}" label="entry" ref="entry-${e.startpage}-${e.pos_on_page}" as="entries">
+	    <fs>
+	        <f name="startpage">${e.startpage}</f>
+	        <f name="endpage">${e.endpage}</f>
+	        <f name="startcolumn">${e.startcolumn}</f>
+	        <f name="endcolumn">${e.endcolumn}</f>
+	        <f name="pos_on_page">${e.pos_on_page}</f>
+	        <f name="manually_corrected">${e.has_manual_annotations}</f>
+	        <f name="volume">${e.volume}</f>
+	        <f name="is_subentry">${e.is_subentry}</f>
+	    </fs>
+	</a>
+	<% offset = offset + len(e.fullentry) + 1 %>
+% endfor
+
+</graph>

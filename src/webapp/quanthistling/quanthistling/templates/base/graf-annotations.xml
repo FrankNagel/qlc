@@ -27,21 +27,30 @@
    	       	% endif
         </labelsDecl>
         <dependencies>
-            <dependsOn f.id="seg${c.annotationname}"/>
+            <dependsOn f.id="entries"/>
         </dependencies>
         <annotationSpaces>
             <annotationSpace as.id="${c.annotationname}"/>
         </annotationSpaces>
     </graphHeader>
 
-<% i = 0 %>
+<% offset = 0 ; i = 0 %>
 % for e in c.entries:
 	% for a in e.annotations_sorted_by_type_and_start(c.annotationtypes):
+        <region xml:id="seg-a-${c.annotationname}-${i}" anchors="${offset + a.start} ${offset + a.end}"/>
 	    <node xml:id="${c.annotationname}-${i}">
 	        <link targets="seg-a-${c.annotationname}-${i}"/>
 	    </node>
-	    <a xml:id="a-${c.annotationname}-${i}" label="${a.value}" ref="${c.annotationname}-${i}" as="${c.annotationname}" /> <% i += 1 %>
+	    <a xml:id="a-${c.annotationname}-${i}" label="${a.value}" ref="${c.annotationname}-${i}" as="${c.annotationname}">
+            <fs>
+                <f name="substring">${a.string}</f>
+            </fs>
+        </a>
+        <edge xml:id="edge-${c.annotationname}-${i}" from="entry-${e.startpage}-${e.pos_on_page}" to="${c.annotationname}-${i}" />
+        <a xml:id="a-edge-${c.annotationname}-${i}" label="${a.value}" ref="edge-${c.annotationname}-${i}" as="${c.annotationname}" />
+        <% i += 1 %>
 	% endfor
+    <% offset += len(e.fullentry) + 1 %>
 % endfor
 
 </graph>
