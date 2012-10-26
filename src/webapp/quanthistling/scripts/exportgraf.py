@@ -3,6 +3,8 @@
 import sys, os
 sys.path.append(os.path.abspath('.'))
 
+import collections
+
 import urllib
 
 import logging
@@ -42,10 +44,11 @@ def main(argv):
     pylons.tmpl_context._push_object(c)
     c.corpushistory = model.meta.Session.query(model.Corpusversion).all()
     c.corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
-    c.iso_time = c.corpusversion.updated.strftime("%Y-%m-%dT%H:%M:%S")
+    c.iso_time = c.corpusversion.updated.strftime("%Y-%m-%d")
     
     # template_entries_seg
     mylookup = TemplateLookup(directories=config['pylons.paths']['templates'])
+    template_header = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-header.hdr')).read()    
     template_entries = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-entries.txt')).read()    
     template_entries_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-entries.xml')).read()
     template_annotations = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-annotations.xml')).read()
@@ -53,6 +56,9 @@ def main(argv):
          
     #http://www.cidles.eu/quanthistling/book/minor1987/hto/spa?format=xml
     for b in quanthistling.dictdata.books.list:
+        #if b['bibtex_key'] != "thiesen1998":
+        #    continue
+
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if c.book:
@@ -63,29 +69,57 @@ def main(argv):
             
 
             for c.dictdata in c.book.dictdata:
+                print "  header..."
     
-                c.heading = c.book.bookinfo()
+                c.url_for = url_for
+                c.base_url = "http://www.quanthistling.info/data"
+                #c.relative_url = url_for(controller='book', action='dictdata', bibtexkey=c.book.bibtex_key, startpage=c.dictdata.startpage, endpage=c.dictdata.endpage, format='html')
+
+                #c.heading = c.book.bookinfo()
+                c.basename = "dict-%s-%i-%i" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)
                 c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
+
+                annotations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
+                c.annotations = collections.defaultdict(list)
+                for a in annotations:
+                    c.annotations[a.entry_id].append(a)
+
+                c.count_heads = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"head").count()
+                c.count_translations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"translation").count()
+                c.count_pos = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"pos").count()
+                c.count_examples_src = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"example-src").count()
+                c.count_examples_tgt = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"example-tgt").count()
+                c.count_manually_corrected = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Entry.has_manual_annotations==True).count()
+
                 #xml =  render('/derived/book/dictdata.xml')
                 #xml = literal(template.render_unicode(c))
 
+                # write header
+                xml = Template(template_header, lookup=mylookup).render_unicode(c=c)
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s.hdr" % c.basename),'wb')
+                oFile.write(xml.encode("utf-8"))
+                oFile.close
+
+                print "  base data..."
+
                 # write base data file
                 xml = Template(template_entries, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i.txt" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s.txt" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
                 oFile.close
     
+                print "  entries..."
+
                 # write entry file
                 xml = Template(template_entries_seg, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-entries.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s-entries.xml" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
                 oFile.close
 
                 # export annotation data
                 #c.heading = c.book.bookinfo() + ", Annotations"
-                #c.ces_doc_url = 'http://www.cidles.eu/quanthistling' + url_for(controller='book', action='create_xml_dictdata', bibtexkey=b['bibtex_key'], startpage=c.dictdata.startpage, endpage=c.dictdata.endpage, format='xml')
                 #print c.ces_doc_url
-                
+
                 print "  formatting annotations..."
                 c.annotationtypes = [ "pagelayout", "formatting" ]
                 c.annotationname = "formatting"
@@ -96,7 +130,7 @@ def main(argv):
                 #oFile.close            
             
                 xml = Template(template_annotations, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-formatting.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s-formatting.xml" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
                 oFile.close            
 
@@ -110,7 +144,7 @@ def main(argv):
                 #oFile.close            
 
                 xml = Template(template_annotations, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i-dictinterpretation.xml" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)),'wb')
+                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s-dictinterpretation.xml" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
             
 #            mysock = urllib.urlopen("http://localhost:5000/source/%s/create_xml_dictdata/dictionary-%i-%i.xml" % (b['bibtex_key'], data["startpage"], data["endpage"]))

@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "diíju, diíju. gallina de piel obscura",
+    "startpage" : 37,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 16,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 16,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "diíju",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "diíju",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gallina de piel obscura",
+                "start" : 16,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "diíju, diíju.",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

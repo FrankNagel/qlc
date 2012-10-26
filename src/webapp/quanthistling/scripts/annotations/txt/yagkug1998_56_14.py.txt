@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "iyájtatus (véase ímut)",
+    "startpage" : 56,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iyájtatus",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ímut",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iyájtatus (véase ímut)",
+                "start" : 0,
+                "end" : 25
+            },
+    ]
+})

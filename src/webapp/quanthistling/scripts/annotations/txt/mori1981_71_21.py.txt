@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "wajúupa Interr. ¿Cuánto? áme yátsum, wajúupa awa 'Tus hermanos ¿Cuántos hay?",
+    "startpage" : 71,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wajúupa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Interr.",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Cuánto",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "áme yátsum, wajúupa awa",
+                "start" : 27,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "'Tus hermanos ¿Cuántos hay?",
+                "start" : 54,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+    ]
+})

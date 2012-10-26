@@ -24,6 +24,7 @@
 	        <f name="manually_corrected">${e.has_manual_annotations}</f>
 	        <f name="volume">${e.volume}</f>
 	        <f name="is_subentry">${e.is_subentry}</f>
+	        <f name="url">${c.base_url}${c.url_for(controller='book', action='entryid', bibtexkey=c.book.bibtex_key, pagenr=e.startpage, pos_on_page=e.pos_on_page, format='html')}</f>
 	    </fs>
 	</a>
 	<% offset = offset + len(e.fullentry) + 1 %>

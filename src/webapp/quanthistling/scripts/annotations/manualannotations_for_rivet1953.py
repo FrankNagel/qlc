@@ -636,6 +636,189 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "dieu: tohóta (N), aməˉ(ü)hǐo [cf. tonnerre], hotengoma (O), hō̱",
+    "startpage" : 346,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dieu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tohóta",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 19,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 19,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aməˉühǐo",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aməˉhǐo",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "tonnerre",
+                "start" : 37,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hotengoma",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hō̱",
+                "start" : 63,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tohóta",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aməˉ",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ü",
+                "start" : 24,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hǐo",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hotengoma",
+                "start" : 48,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hō̱",
+                "start" : 63,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "femme: mō(h)om(üý) (N), ma(h)ami (O), mötõṅ (O1), reyña (W), cf. [femelle], les femmes, dʐ̌oko(h)ə,hōhokə (O), une1 femme2 est venue3 ce matin4: itǐərˆˆəfe4 mōōhm(wü)2 ifeatana3 (N), tiaiko2 aima4 afaraka3 (O), ayw(h)ehīti4 dañeño1-2 bite3 (W), deux1 femmes2 partiront3 avec4 eux5: müynahama1 momüy(hǐ)2 idʐ̌etsatsahə4-5 tsanohotsəˇ3 (N), anahiko1 dʐ̌oko2 hahaghia3 hōhi4-5 (O), nayme4-5 dekaayte3 mena1 neño2 (W),",
     "startpage" : 350,
     "pos_on_page" : 5,
@@ -4845,6 +5028,287 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "téter: il tette, nokehĭnowidʐ̌ (N), kuñuh(an)ghi (O), naymi-hirad (W), il a tété, habihī-ñokŭd [cf. soif],",
+    "startpage" : 373,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "téter",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "il tette",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nokehĭnowidʐ̌",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 38,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 38,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kuñuhanghi",
+                "start" : 38,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kuñuhghi",
+                "start" : 38,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "naymi hirad",
+                "start" : 57,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 62,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 74,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 74,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "il a tété",
+                "start" : 74,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "habihī ñokŭd",
+                "start" : 87,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "compound word boundary",
+                "start" : 94,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "soif",
+                "start" : 108,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nokehĭnowidʐ̌",
+                "start" : 18,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kuñuh",
+                "start" : 38,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "an",
+                "start" : 45,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ghi",
+                "start" : 48,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "naymi-hirad",
+                "start" : 57,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "habihī-ñokŭd",
+                "start" : 87,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "venir: il vient, noniñōtsi (N), hahāghĭ (O), neyme-bit(ə) (W), il est venu, itsatefeatana (N), biro-hafārakhă (O), un1 homme2 est venu3 hier4, bof(w)üfe4 oka2 ifeatana3 (N), ə(ü)to4 hāfarāka3 tiāāma1-2 (O), nabuyri4 rid3 dakhe1 hema2 (W), une1 femme2 est venue3 ce matin4, itĭəˆˆəfe4 mōōhm(wü)1-2 ifeatana3 (N), tiaiko1-2 aima4 afaraka3 (O), ayw(h)ehīti4 dañeño1-2 bite3 (W),",
     "startpage" : 374,
     "pos_on_page" : 13,
@@ -6123,6 +6587,259 @@ manual_entries.append({
                 "string" : "",
                 "start" : 122,
                 "end" : 122
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "deux1 femmes2 partiront3 avec4 eux5: müynahama1 momüy(hĭ)2 idʐ̌etsatsahə4-5 tsanohotsǝ̆3 (N), anahiko1 dʐ̌oko2 hahaghia3 hōhi4-5 (O), nayme4-5 dekaayte3 mena1 neño2 (W),",
+    "startpage" : 377,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "deux femmes partiront avec eux",
+                "start" : 0,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 37,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 37,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "müynahama momüyhĭ idʐ̌etsatsahə tsanohotsǝ̆",
+                "start" : 37,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "müynahama momüy idʐ̌etsatsahə tsanohotsǝ̆",
+                "start" : 37,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Nonuya",
+                "start" : 92,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 97,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 97,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "anahiko dʐ̌oko hahaghia hōhi",
+                "start" : 97,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Okáina",
+                "start" : 133,
+                "end" : 136
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 138,
+                "end" : 170
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Witóto",
+                "start" : 138,
+                "end" : 170
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nayme dekaayte mena neño",
+                "start" : 138,
+                "end" : 168
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "dialectidentification",
+                "string" : "Witóto",
+                "start" : 170,
+                "end" : 173
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "müynahama",
+                "start" : 37,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "momüy",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hĭ",
+                "start" : 56,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "idʐ̌etsatsahə",
+                "start" : 62,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tsanohotsǝ̆",
+                "start" : 79,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "anahiko",
+                "start" : 97,
+                "end" : 104
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dʐ̌oko",
+                "start" : 106,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hahaghia",
+                "start" : 114,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hōhi",
+                "start" : 124,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nayme",
+                "start" : 138,
+                "end" : 143
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dekaayte",
+                "start" : 147,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mena",
+                "start" : 157,
+                "end" : 161
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "neño",
+                "start" : 163,
+                "end" : 168
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 96,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 97,
+                "end" : 97
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 137,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
             },
     ]
 })

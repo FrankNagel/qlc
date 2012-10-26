@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "wá Interj. ¡Caramba! wá! Dekátsmek 'Cómo ¡Caramba! ¿No lo sabes? wá píshskkai '¡Qué cosa! ¡Es un pájaro!",
+    "startpage" : 70,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wá",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Interj.",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¡Caramba! wá! Dekátsmek",
+                "start" : 12,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Caramba",
+                "start" : 13,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "'Cómo ¡Caramba! ¿No lo sabes?",
+                "start" : 38,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "wá píshskkai",
+                "start" : 69,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "'¡Qué cosa! ¡Es un pájaro!",
+                "start" : 84,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+    ]
+})

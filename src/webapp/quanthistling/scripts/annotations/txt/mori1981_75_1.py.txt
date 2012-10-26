@@ -1,0 +1,176 @@
+
+manual_entries.append({
+    "fullentry" : "yáa Interr. ¿Quién? yáãjãĩ ¿Con quién? yáanau ¿De quién? yáa mináwa ¿Quién viene? yáa takákua ¿Quién la tiene?",
+    "startpage" : 75,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yáa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Interr.",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Quién",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yáãjãĩ",
+                "start" : 22,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Con quién?",
+                "start" : 33,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yáanau",
+                "start" : 46,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿De quién?",
+                "start" : 54,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yáa mináwa",
+                "start" : 66,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Quién viene?",
+                "start" : 79,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yáa takákua",
+                "start" : 94,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Quién la tiene?",
+                "start" : 108,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 22,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 65,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 93,
+                "end" : 93
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+    ]
+})

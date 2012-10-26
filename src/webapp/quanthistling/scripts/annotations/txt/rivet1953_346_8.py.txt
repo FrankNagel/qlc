@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "dieu: tohóta (N), aməˉ(ü)hǐo [cf. tonnerre], hotengoma (O), hō̱",
+    "startpage" : 346,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "fra",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Français",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dieu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "noj",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nonuya",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tohóta",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 19,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 19,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aməˉühǐo",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aməˉhǐo",
+                "start" : 19,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "tonnerre",
+                "start" : 37,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oca",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Okáina",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hotengoma",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hō̱",
+                "start" : 63,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tohóta",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aməˉ",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ü",
+                "start" : 24,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hǐo",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hotengoma",
+                "start" : 48,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hō̱",
+                "start" : 63,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})

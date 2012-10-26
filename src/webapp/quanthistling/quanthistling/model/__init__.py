@@ -2,6 +2,8 @@
 
 import re
 import pickle
+import codecs
+import os
 
 """The application's model objects"""
 from quanthistling.model.meta import Session, metadata
@@ -12,6 +14,21 @@ from sqlalchemy import and_
 from webhelpers.html import literal
 from operator import attrgetter
 from pylons import config
+
+from nltk.stem.snowball import SpanishStemmer
+stemmer = SpanishStemmer(True)
+
+# load swadesh list
+swadesh_file = codecs.open(os.path.join(os.path.dirname(
+    os.path.realpath(
+        __file__)), "spa.txt"), "r", "utf-8")
+
+swadesh_list = []
+for line in swadesh_file:
+    line = line.strip()
+    for e in line.split(","):
+        stem = stemmer.stem(e)
+        swadesh_list.append(stem)
 
 def init_model(engine):
     """Call me before using any of the tables or classes in the model"""
@@ -191,6 +208,18 @@ corpusversion_table = schema.Table('corpusversion', meta.metadata,
 
 class Entry(object):
     
+    def is_filtered():
+        if config['filtered']:
+            for a in self.annotations:
+                if a.value == "translation":
+                    translation = a.string
+                    if not " " in translation:
+                        stem = stemmer.stem(translation)
+                        if stem in swadesh_list:
+                            return False
+            return True
+        return False
+
     def append_annotation(self, start, end, value, type, string=None):
         annotation = Annotation()
         
@@ -452,6 +481,7 @@ class WordlistConcept(object):
 
 class WordlistAnnotation(object):
     pass
+
 
 orm.mapper(Entry, entry_table, properties={
    'annotations':orm.relation(Annotation, backref='entry')
