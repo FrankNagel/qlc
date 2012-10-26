@@ -41,9 +41,7 @@ if current_page != None:
     <div id="booknavigation">
     
     <p class="export-button">
-        <a class="export-button" href="${h.url_for(controller='book', action='dictdata', bibtexkey=c.book.bibtex_key, startpage=c.startpage, endpage=c.endpage, format='xml')}">Dictionary XML</a><br/>
-        <a class="export-button" href="${h.url_for(controller='book', action='annotations_for_dictdata', bibtexkey=c.book.bibtex_key, startpage=c.startpage, endpage=c.endpage, annotationtype='formatting', format='xml')}">Dictionary formatting XML</a><br/>
-        <a class="export-button" href="${h.url_for(controller='book', action='annotations_for_dictdata', bibtexkey=c.book.bibtex_key, startpage=c.startpage, endpage=c.endpage, annotationtype='dictinterpretation', format='xml')}">Dictionary interpretation XML</a><br/>
+        <a class="export-button" href="${h.url_for('/downloads/xml/dict-%s-%i-%-i.zip' % (str(c.book.bibtex_key.encode('us-ascii')), c.startpage, c.endpage))}">Dictionary GrAF package</a><br/>
         <a class="export-button" href="${h.url_for('/downloads/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
     </p>
     

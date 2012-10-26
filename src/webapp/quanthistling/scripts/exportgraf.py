@@ -4,6 +4,10 @@ import sys, os
 sys.path.append(os.path.abspath('.'))
 
 import collections
+import tempfile
+import glob
+import zipfile
+import shutil
 
 import urllib
 
@@ -64,9 +68,7 @@ def main(argv):
         if c.book:
 
             print "Exporting XML data for %s..." % b['bibtex_key']
-            
-            #c = pylons.tmpl_context
-            
+            temppath = tempfile.mkdtemp()
 
             for c.dictdata in c.book.dictdata:
                 print "  header..."
@@ -96,25 +98,25 @@ def main(argv):
 
                 # write header
                 xml = Template(template_header, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s.hdr" % c.basename),'wb')
+                oFile = open(os.path.join(temppath, "%s.hdr" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
-                oFile.close
+                oFile.close()
 
                 print "  base data..."
 
                 # write base data file
                 xml = Template(template_entries, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s.txt" % c.basename),'wb')
+                oFile = open(os.path.join(temppath, "%s.txt" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
-                oFile.close
+                oFile.close()
     
                 print "  entries..."
 
                 # write entry file
                 xml = Template(template_entries_seg, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s-entries.xml" % c.basename),'wb')
+                oFile = open(os.path.join(temppath, "%s-entries.xml" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
-                oFile.close
+                oFile.close()
 
                 # export annotation data
                 #c.heading = c.book.bookinfo() + ", Annotations"
@@ -130,9 +132,9 @@ def main(argv):
                 #oFile.close            
             
                 xml = Template(template_annotations, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s-formatting.xml" % c.basename),'wb')
+                oFile = open(os.path.join(temppath, "%s-formatting.xml" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
-                oFile.close            
+                oFile.close()          
 
                 print "  dictinterpretation annotations..."
                 c.annotationtypes = [ "dictinterpretation", "orthographicinterpretation", "errata" ]
@@ -144,9 +146,17 @@ def main(argv):
                 #oFile.close            
 
                 xml = Template(template_annotations, lookup=mylookup).render_unicode(c=c)
-                oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "%s-dictinterpretation.xml" % c.basename),'wb')
+                oFile = open(os.path.join(temppath, "%s-dictinterpretation.xml" % c.basename),'wb')
                 oFile.write(xml.encode("utf-8"))
-            
+                oFile.close()
+
+            # create archive
+            myzip = zipfile.ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', '%s.zip' % c.basename), 'w', zipfile.ZIP_DEFLATED)
+            for file in glob.glob(os.path.join(temppath, "*.*")):
+                myzip.write(file, os.path.basename(file))
+            myzip.close()
+        
+            shutil.rmtree(temppath)
 #            mysock = urllib.urlopen("http://localhost:5000/source/%s/create_xml_dictdata/dictionary-%i-%i.xml" % (b['bibtex_key'], data["startpage"], data["endpage"]))
 #            fileToSave = mysock.read()
 #            oFile = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%i-%i.xml" % (b['bibtex_key'], data["startpage"], data["endpage"])),'wb')

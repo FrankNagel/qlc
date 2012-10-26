@@ -65,9 +65,8 @@ def main(argv):
 
                 # database queries for heads
                 heads = model.meta.Session.query(model.Annotation).join(
-                        (model.Entry, model.Annotation.entry_id==model.Entry.id),
-                        (model.Dictdata, model.Entry.dictdata_id==model.Dictdata.id)
-                    ).filter(model.Dictdata.id==dictdata.id).filter(model.Annotation.value==u"head").all()
+                        (model.Entry, model.Annotation.entry_id==model.Entry.id)
+                    ).filter(model.Entry.dictdata_id==dictdata.id).filter(model.Annotation.value==u"head").all()
                 
                 # write heads to file
                 if len(heads) > 0:
@@ -87,13 +86,11 @@ def main(argv):
 
                 # database queries for examples
                 examples_src = model.meta.Session.query(model.Annotation).join(
-                        (model.Entry, model.Annotation.entry_id==model.Entry.id),
-                        (model.Dictdata, model.Entry.dictdata_id==model.Dictdata.id)
-                    ).filter(model.Dictdata.id==dictdata.id).filter(model.Annotation.value==u"example-src").all()
+                        (model.Entry, model.Annotation.entry_id==model.Entry.id)
+                    ).filter(model.Entry.dictdata_id==dictdata.id).filter(model.Annotation.value==u"example-src").all()
                 examples_tgt = model.meta.Session.query(model.Annotation).join(
                         (model.Entry, model.Annotation.entry_id==model.Entry.id),
-                        (model.Dictdata, model.Entry.dictdata_id==model.Dictdata.id)
-                    ).filter(model.Dictdata.id==dictdata.id).filter(model.Annotation.value==u"example-tgt").all()
+                    ).filter(model.Entry.dictdata_id==dictdata.id).filter(model.Annotation.value==u"example-tgt").all()
                 
                 # print error if mismatch
                 if len(examples_src) != len(examples_tgt):
@@ -126,8 +123,7 @@ def main(argv):
                 # database queries for pos
                 pos = model.meta.Session.query(model.Annotation).join(
                         (model.Entry, model.Annotation.entry_id==model.Entry.id),
-                        (model.Dictdata, model.Entry.dictdata_id==model.Dictdata.id)
-                    ).filter(model.Dictdata.id==dictdata.id).filter(model.Annotation.value==u"pos").all()
+                    ).filter(model.Entry.dictdata_id==dictdata.id).filter(model.Annotation.value==u"pos").all()
                 
                 # write heads to file
                 if len(pos) > 0:
@@ -144,8 +140,7 @@ def main(argv):
                 # database queries for translations
                 translations = model.meta.Session.query(model.Annotation).join(
                         (model.Entry, model.Annotation.entry_id==model.Entry.id),
-                        (model.Dictdata, model.Entry.dictdata_id==model.Dictdata.id)
-                    ).filter(model.Dictdata.id==dictdata.id).filter(model.Annotation.value==u"translation").all()
+                    ).filter(model.Entry.dictdata_id==dictdata.id).filter(model.Annotation.value==u"translation").all()
                 
                 # write translations to file
                 if len(translations) > 0:
@@ -194,7 +189,7 @@ def main(argv):
 
             # create archive
             file_counterparts.close()
-            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w')
+            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
             for file in glob.glob(os.path.join(temppath, "*.txt")):
                 myzip.write(file, os.path.basename(file))
             myzip.close()

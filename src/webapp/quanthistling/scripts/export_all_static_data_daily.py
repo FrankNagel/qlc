@@ -1,4 +1,5 @@
 import exportbookdata
+import exportgraf
 import sys
 
 def main(argv):
@@ -9,6 +10,7 @@ def main(argv):
 
     ini_file = argv[1]
     
+    exportgraf.main(["exportgraf.py", ini_file])
     exportbookdata.main(["exportbookdata.py", ini_file])
 
 if __name__ == "__main__":
