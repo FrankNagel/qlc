@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "néépʰáhyɯpa",
     "startpage" : 176,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "CAÑA BRAVA_CANE",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 14
             },

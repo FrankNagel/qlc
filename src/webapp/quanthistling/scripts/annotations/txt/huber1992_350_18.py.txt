@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "peˈɲip† + kɨˈtɕɨmarɨp ‘hacer caer’ (‘make fall (?)’)",
     "startpage" : 350,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "CAER_FALL",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 10,
                 "end" : 21
             },

@@ -25,7 +25,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 19
             },
@@ -39,7 +39,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 21,
                 "end" : 26
             },
@@ -124,7 +124,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 28
             },
@@ -209,7 +209,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 21
             },
@@ -294,7 +294,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 31
             },
@@ -372,7 +372,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 32
             },
@@ -450,7 +450,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 26
             },
@@ -535,7 +535,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 20
             },
@@ -613,7 +613,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 27
             },
@@ -691,7 +691,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 29
             },
@@ -769,7 +769,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 28
             },
@@ -847,7 +847,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 11
             },
@@ -861,7 +861,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 20
             },
@@ -946,7 +946,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 16,
                 "end" : 36
             },
@@ -1024,7 +1024,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 17,
                 "end" : 27
             },
@@ -1102,7 +1102,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 23
             },
@@ -1180,7 +1180,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 24
             },
@@ -1258,7 +1258,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 22
             },
@@ -1336,7 +1336,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 23,
                 "end" : 26
             },
@@ -1414,7 +1414,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 14
             },
@@ -1499,7 +1499,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 18,
                 "end" : 30
             },
@@ -1577,7 +1577,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 13
             },
@@ -1591,7 +1591,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 20
             },
@@ -1676,7 +1676,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 11
             },
@@ -1690,7 +1690,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 15
             },
@@ -1775,7 +1775,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 13
             },
@@ -1789,7 +1789,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 16
             },
@@ -1874,7 +1874,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 29
             },
@@ -1952,7 +1952,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 16,
                 "end" : 21
             },
@@ -2037,7 +2037,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 26
             },
@@ -2115,7 +2115,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 30
             },
@@ -2193,7 +2193,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 25
             },
@@ -2271,7 +2271,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 14,
                 "end" : 28
             },
@@ -2349,7 +2349,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 10,
                 "end" : 16
             },
@@ -2363,7 +2363,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 17,
                 "end" : 19
             },
@@ -2448,7 +2448,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 22,
                 "end" : 35
             },
@@ -2533,7 +2533,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 22
             },
@@ -2611,7 +2611,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 21
             },
@@ -2689,7 +2689,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 24
             },
@@ -2774,7 +2774,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 17,
                 "end" : 37
             },
@@ -2852,7 +2852,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 28
             },
@@ -2930,7 +2930,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 29
             },
@@ -3008,7 +3008,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 24
             },
@@ -3086,7 +3086,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 21
             },
@@ -3164,7 +3164,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 6,
                 "end" : 10
             },
@@ -3178,7 +3178,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 18
             },
@@ -3263,7 +3263,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 7,
                 "end" : 12
             },
@@ -3277,7 +3277,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 14,
                 "end" : 19
             },
@@ -3362,7 +3362,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 27
             },
@@ -3440,7 +3440,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 9,
                 "end" : 23
             },
@@ -3518,7 +3518,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 15
             },
@@ -3532,7 +3532,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 17,
                 "end" : 21
             },
@@ -3617,7 +3617,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 14,
                 "end" : 28
             },
@@ -3695,7 +3695,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 8,
                 "end" : 20
             },

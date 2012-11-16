@@ -10,11 +10,11 @@
 
 <% offset = 0 %>
 % for i, e in enumerate(c.entries):
-	<region xml:id="seg-entry-${e.startpage}-${e.pos_on_page}" anchors="${offset} ${offset + len(e.fullentry)}" />
-    <node xml:id="entry-${e.startpage}-${e.pos_on_page}">
-        <link targets="seg-entry-${e.startpage}-${e.pos_on_page}" />
+	<region xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry/region" anchors="${offset} ${offset + len(e.fullentry)}" />
+    <node xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry">
+        <link targets="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry/region" />
     </node>
-    <a xml:id="a-entry-${e.startpage}-${e.pos_on_page}" label="entry" ref="entry-${e.startpage}-${e.pos_on_page}" as="entries">
+    <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry/features" label="entry" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry" as="entries">
 	    <fs>
 	        <f name="startpage">${e.startpage}</f>
 	        <f name="endpage">${e.endpage}</f>

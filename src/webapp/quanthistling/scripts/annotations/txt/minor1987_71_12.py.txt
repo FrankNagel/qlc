@@ -28,7 +28,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 33,
                 "end" : 42
             },
@@ -42,7 +42,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 44,
                 "end" : 54
             },
@@ -56,7 +56,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 56,
                 "end" : 68
             },

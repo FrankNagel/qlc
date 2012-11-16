@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "plad (SP), tlu",
     "startpage" : 174,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "PLÁTANO_PLANTAIN",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 11,
                 "end" : 14
             },

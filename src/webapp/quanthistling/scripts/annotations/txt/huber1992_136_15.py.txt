@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ˈʧɩkbədirə",
     "startpage" : 136,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "PAVA DE MONTE_GUAN",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 10
             },

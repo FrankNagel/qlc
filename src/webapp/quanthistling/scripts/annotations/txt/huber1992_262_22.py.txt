@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "plumɨ-bxuá (SP)",
     "startpage" : 262,
     "pos_on_page" : 22,
-    "language_bookname" : "kamsá",
+    "language_bookname" : "kamsá",
     "concept" : "PLUMA_FEATHER",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "kamsá",
+                "string" : "kamsá",
                 "start" : 0,
                 "end" : 10
             },

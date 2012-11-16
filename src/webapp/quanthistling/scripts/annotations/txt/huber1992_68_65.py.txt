@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "náɯ.(ɯ)o",
     "startpage" : 68,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "NOCHE_NIGHT",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },

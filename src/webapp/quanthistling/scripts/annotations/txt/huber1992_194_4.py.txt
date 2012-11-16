@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "YO_I",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 2
             },

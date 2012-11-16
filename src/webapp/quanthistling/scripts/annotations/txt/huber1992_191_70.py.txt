@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "maʔníumi̵",
     "startpage" : 191,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "MÁSCARA_MASK",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 10
             },

@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "(e(goɾo)ba) sosóa ‘tierra blanda’ (‘soft ground’)",
     "startpage" : 52,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "PANTANO_SWAMP",
     "annotations" : [
             {
@@ -30,21 +30,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 18
             },

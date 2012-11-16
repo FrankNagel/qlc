@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "kum ˈ pampa",
     "startpage" : 11,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "MENTÓN_CHIN",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 11
             },

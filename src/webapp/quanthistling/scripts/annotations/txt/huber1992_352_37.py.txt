@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "tĩ̵gẽjã / wãˈkũ",
     "startpage" : 352,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "PENSAR_THINK",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 13,
                 "end" : 20
             },

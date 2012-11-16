@@ -36,7 +36,7 @@ list = [
     },
 
     {
-        'name' : u'Huitoto Nüpode',
+        'name' : u'Huitoto Nüpode',
         'langcode': u'hux',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=hux'
@@ -106,7 +106,7 @@ list = [
     },
     
     {
-        'name' : u'Barí',
+        'name' : u'Barí',
         'langcode': u'mot',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mot'
@@ -134,7 +134,7 @@ list = [
     },
     
     {
-        'name' : u'Cabiyarí',
+        'name' : u'Cabiyarí',
         'langcode': u'cbb',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cbb'
@@ -169,7 +169,7 @@ list = [
     },
     
     {
-        'name' : u'Emberá-Chamí',
+        'name' : u'Emberá-Chamí',
         'langcode': u'cmi',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cmi'
@@ -190,7 +190,7 @@ list = [
     },
     
     {
-        'name' : u'Emberá-Catío',
+        'name' : u'Emberá-Catío',
         'langcode': u'cto',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cto'
@@ -218,7 +218,7 @@ list = [
     },
     
     {
-        'name' : u'Emberá, Northern',
+        'name' : u'Emberá, Northern',
         'langcode': u'emp',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=emp'
@@ -267,14 +267,14 @@ list = [
     },
     
     {
-        'name' : u'Hupdë',
+        'name' : u'Hupdë',
         'langcode': u'jup',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=jup'
     },
     
     {
-        'name' : u'Macaguán',
+        'name' : u'Macaguán',
         'langcode': u'mbn',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mbn'
@@ -302,7 +302,7 @@ list = [
     },
     
     {
-        'name' : u'Camsá',
+        'name' : u'Camsá',
         'langcode': u'kbh',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=kbh'
@@ -316,21 +316,21 @@ list = [
     },
     
     {
-        'name' : u'Nukak Makú',
+        'name' : u'Nukak Makú',
         'langcode': u'mbr',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mbr'
     },
     
     {
-        'name' : u'Orejón',
+        'name' : u'Orejón',
         'langcode': u'ore',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=ore'
     },
     
     {
-        'name' : u'Páez',
+        'name' : u'Páez',
         'langcode': u'pbb',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=pbb'
@@ -365,7 +365,7 @@ list = [
     },
 
     {
-        'name' : u'Resígaro',
+        'name' : u'Resígaro',
         'langcode': u'rgr',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=rgr'
@@ -386,7 +386,7 @@ list = [
     },
 
     {
-        'name' : u'Sáliba',
+        'name' : u'Sáliba',
         'langcode': u'slc',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=slc'
@@ -414,14 +414,14 @@ list = [
     },
 
     {
-        'name' : u'Emberá-Tadó',
+        'name' : u'Emberá-Tadó',
         'langcode': u'tdc',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=tdc'
     },
 
     {
-        'name' : u'Tanimuca-Retuarã',
+        'name' : u'Tanimuca-Retuarã',
         'langcode': u'tnc',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=tnc'
@@ -512,7 +512,7 @@ list = [
     },
 
     {
-        'name' : u'Záparo',
+        'name' : u'Záparo',
         'langcode': u'zro',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=zro'
@@ -526,7 +526,7 @@ list = [
     },
 
     {
-        'name' : u'Kaxararí',
+        'name' : u'Kaxararí',
         'langcode': u'ktx',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=ktx'
@@ -540,7 +540,7 @@ list = [
     },
 
     {
-        'name' : u'Matsés',
+        'name' : u'Matsés',
         'langcode': u'mcf',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mcf'
@@ -1289,19 +1289,19 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=pno'
     },
     {
-        'name' : u'Sirionó',
+        'name' : u'Sirionó',
         'langcode': u'srq',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=srq'
     },
     {
-        'name' : u'Matís',
+        'name' : u'Matís',
         'langcode': u'mpq',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mpq'
     },
     {
-        'name' : u'Chácobo',
+        'name' : u'Chácobo',
         'langcode': u'cao',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cao'
@@ -1319,7 +1319,7 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mcd'
     },
     {
-        'name' : u'Ashéninka, Pichis',
+        'name' : u'Ashéninka, Pichis',
         'langcode': u'cpu',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=cpu'
@@ -1331,7 +1331,7 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=pib'
     },
     {
-        'name' : u'Iñapari',
+        'name' : u'Iñapari',
         'langcode': u'inp',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=inp'

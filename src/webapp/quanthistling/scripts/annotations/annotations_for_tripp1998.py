@@ -24,7 +24,7 @@ import functions
 
 def annotate_everything(entry):
     # delete annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference']
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in annotations:
         Session.delete(a)
         

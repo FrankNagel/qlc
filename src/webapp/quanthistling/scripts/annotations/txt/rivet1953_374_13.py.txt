@@ -14,7 +14,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 0,
                 "end" : 5
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 7,
                 "end" : 15
             },
@@ -84,7 +84,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 34,
                 "end" : 44
             },
@@ -112,7 +112,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Witóto",
+                "string" : "Witóto",
                 "start" : 49,
                 "end" : 62
             },
@@ -154,7 +154,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 67,
                 "end" : 78
             },
@@ -196,7 +196,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 99,
                 "end" : 116
             },
@@ -238,7 +238,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 121,
                 "end" : 147
             },
@@ -294,7 +294,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 181,
                 "end" : 214
             },
@@ -329,7 +329,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Witóto",
+                "string" : "Witóto",
                 "start" : 219,
                 "end" : 246
             },
@@ -357,7 +357,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 251,
                 "end" : 283
             },
@@ -413,7 +413,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 328,
                 "end" : 353
             },
@@ -441,7 +441,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Witóto",
+                "string" : "Witóto",
                 "start" : 358,
                 "end" : 390
             },

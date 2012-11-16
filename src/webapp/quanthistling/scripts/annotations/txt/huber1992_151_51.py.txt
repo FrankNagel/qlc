@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ĩ̵bĩ̵ tĩ̵tɨ ‘high clilf’",
     "startpage" : 151,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "CERRO, LOMA_HILL",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 14
             },

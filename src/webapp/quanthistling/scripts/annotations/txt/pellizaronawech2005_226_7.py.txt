@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "jeáshik (neáshik, sánkat), na. (jeáshkir,ram,ri) = goterón de la casa. Is. jea.",
+    "startpage" : 226,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jeáshik",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "neáshik",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sánkat",
+                "start" : 20,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 30,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "goterón de la casa",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jea",
+                "start" : 80,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jeáshik (neáshik, sánkat),",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (jeáshkir,ram,ri)",
+                "start" : 30,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. jea.",
+                "start" : 76,
+                "end" : 84
+            },
+    ]
+})

@@ -14,7 +14,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 0,
                 "end" : 6
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 8,
                 "end" : 40
             },
@@ -84,7 +84,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 89,
                 "end" : 126
             },
@@ -119,7 +119,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Witóto",
+                "string" : "Witóto",
                 "start" : 131,
                 "end" : 160
             },
@@ -154,7 +154,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 165,
                 "end" : 200
             },
@@ -210,7 +210,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 262,
                 "end" : 311
             },
@@ -238,7 +238,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Witóto",
+                "string" : "Witóto",
                 "start" : 316,
                 "end" : 348
             },

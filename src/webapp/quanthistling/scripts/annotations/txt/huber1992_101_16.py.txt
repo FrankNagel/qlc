@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "alku (QU)",
     "startpage" : 101,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "PERRO_DOG",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 4
             },

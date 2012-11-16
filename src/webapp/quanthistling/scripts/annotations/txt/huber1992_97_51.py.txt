@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "békí̵† + hai-ko, una especie grande (a larger species)",
     "startpage" : 97,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "DANTA_TAPIR",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 11,
                 "end" : 17
             },

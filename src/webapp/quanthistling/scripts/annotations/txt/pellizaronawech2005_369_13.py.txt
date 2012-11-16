@@ -1,0 +1,302 @@
+
+manual_entries.append({
+    "fullentry" : "sumpé-ar (sempé-ar, sumpé-nk, sempé-nk), m. (para: ntr-ur,ntram-ra, nt-ra) = encogerse, tullirse, atrofiarse, entumecerse, acalambrarse, paralizarse. Tarach' sumpearái = el vestido tarach' se encogió. Napi sumpearái = la culebra se encogió (enroscándose). Aents sumpénku tepáwai = está acostada una persona encogida (tullida, paralizada).",
+    "startpage" : 369,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sumpéar",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sempéar",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 17,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sumpénk",
+                "start" : 22,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 28,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sempénk",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 39,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 45,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "encogerse",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tullirse",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atrofiarse",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 114,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 114,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entumecerse",
+                "start" : 114,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 127,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 127,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acalambrarse",
+                "start" : 127,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 141,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 141,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paralizarse",
+                "start" : 141,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tarach' sumpearái",
+                "start" : 154,
+                "end" : 172
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el vestido tarach' se encogió",
+                "start" : 175,
+                "end" : 205
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "napi sumpearái",
+                "start" : 207,
+                "end" : 222
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la culebra se encogió (enroscándose)",
+                "start" : 225,
+                "end" : 263
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "aents sumpénku tepáwai",
+                "start" : 265,
+                "end" : 289
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "está acostada una persona encogida (tullida, paralizada)",
+                "start" : 292,
+                "end" : 349
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sumpé-ar (sempé-ar, sumpé-nk, sempé-nk),",
+                "start" : 0,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: ntr-ur,ntram-ra,",
+                "start" : 45,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nt-ra)",
+                "start" : 72,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+    ]
+})

@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "dĩˈĩ́-oeti-ra + dīpeˈtí-rã, posible pero raro (possible but uncommon) anim. plur.",
     "startpage" : 254,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "TODOS_ALL",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 18,
                 "end" : 31
             },

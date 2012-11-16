@@ -227,6 +227,7 @@ def insert_nondictdata_to_db(Session, data, book, filename):
         html = re.sub(u"#003", u"-̀", html)
         html = re.sub(u"#004", u"-́", html)
     html = unicodedata.normalize("NFD", html)
+    html = unicodedata.normalize_stroke(html)
     nondictdata.data = html
     nondictdata.book = book
 
@@ -252,7 +253,7 @@ def insert_dictdata_to_db(Session, data, book):
         tgt_languages_booknames = [data['tgt_language_bookname']]
     else:
         tgt_languages = data['tgt_language_name']
-        tgt_languages_booknames = data['src_language_bookname']
+        tgt_languages_booknames = data['tgt_language_bookname']
     
     # Init Dictdata object
     dictdata = model.Dictdata()
@@ -290,7 +291,7 @@ def insert_dictdata_to_db(Session, data, book):
         
         tgtlanguage_bookname = Session.query(model.LanguageBookname).filter_by(name=tgt_languages_booknames[j]).first()
         if tgtlanguage_bookname == None:
-            tgtlanguage_bookname = insert_language_bookname_to_db(Session, tgt_languages_booknames[i])
+            tgtlanguage_bookname = insert_language_bookname_to_db(Session, tgt_languages_booknames[j])
         #dictdata.tgt_languages_booknames.append(tgtlanguage_bookname)
 
         tgtlanguage = model.LanguageTgt()
@@ -344,6 +345,7 @@ def insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column,
         if lang in annotation:
             inserted = []
             for a in annotation[lang]:
+                a['string'] = a['string'].strip()
                 if a['string'] not in inserted:
                     entry_db.append_annotation(a['start'], a['end'], a['value'], a['type'], a['string'])
                     if a['value'] == 'counterpart':

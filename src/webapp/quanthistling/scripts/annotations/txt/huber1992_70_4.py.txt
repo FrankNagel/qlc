@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "baa pʰu(ɾ)ewá",
     "startpage" : 70,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "RELÁMPAGO_LIGHTNING",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 14
             },

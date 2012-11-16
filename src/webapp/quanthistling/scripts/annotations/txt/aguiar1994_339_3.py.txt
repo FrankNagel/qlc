@@ -21,7 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 16,
                 "end" : 36
             },

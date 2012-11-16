@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "nɯʔpa† + kʰoóhí̵chpʰí nɯʔpa",
     "startpage" : 64,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "SOL_SUN",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 9,
                 "end" : 30
             },

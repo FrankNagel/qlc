@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "hɯ.áɯ(.ɯe)",
     "startpage" : 299,
     "pos_on_page" : 66,
-    "language_bookname" : "witoto nɨpode",
+    "language_bookname" : "witoto ni̵pode",
     "concept" : "OTRO_OTHER",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 0,
                 "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 0,
                 "end" : 11
             },

@@ -7,7 +7,7 @@ manual_entries.append({
     "fullentry" : "alku (QU)",
     "startpage" : 101,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "PERRO_DOG",
     "annotations" : [
             {
@@ -20,7 +20,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 4
             },
@@ -264,7 +264,7 @@ manual_entries.append({
     "fullentry" : "ˈkamɩnə",
     "startpage" : 106,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "MONO AULLADOR_HOWLER MONKEY",
     "annotations" : [
             {
@@ -277,7 +277,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 7
             },
@@ -434,7 +434,7 @@ manual_entries.append({
     "fullentry" : "kupo† + kuʧikuʧi, negro y grande (large, black), kupe, blanco (white)",
     "startpage" : 111,
     "pos_on_page" : 59,
-    "language_bookname" : "sáliba",
+    "language_bookname" : "sáliba",
     "concept" : "CAIMÁN_CAYMAN",
     "annotations" : [
             {
@@ -461,21 +461,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 8,
                 "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 49,
                 "end" : 53
             },
@@ -889,7 +889,7 @@ manual_entries.append({
     "fullentry" : "kum ˈ pampa",
     "startpage" : 11,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "MENTÓN_CHIN",
     "annotations" : [
             {
@@ -902,7 +902,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 11
             },
@@ -1212,7 +1212,7 @@ manual_entries.append({
     "fullentry" : "ˈpĩ́kõ",
     "startpage" : 121,
     "pos_on_page" : 39,
-    "language_bookname" : "yurutí",
+    "language_bookname" : "yurutí",
     "concept" : "COLA_TAIL",
     "annotations" : [
             {
@@ -1225,7 +1225,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 0,
                 "end" : 8
             },
@@ -1309,7 +1309,7 @@ manual_entries.append({
     "fullentry" : "coráru (SP)† = geʔ guma",
     "startpage" : 125,
     "pos_on_page" : 12,
-    "language_bookname" : "dí̵mɨna",
+    "language_bookname" : "dí̵mi̵na",
     "concept" : "CORAL_CORAL SNAKE",
     "annotations" : [
             {
@@ -1322,7 +1322,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "dí̵mɨna",
+                "string" : "dí̵mi̵na",
                 "start" : 0,
                 "end" : 12
             },
@@ -1531,7 +1531,7 @@ manual_entries.append({
     "fullentry" : "iɾakˣáɾa",
     "startpage" : 12,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "BARBA_BEARD",
     "annotations" : [
             {
@@ -1544,7 +1544,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 10
             },
@@ -1847,7 +1847,7 @@ manual_entries.append({
     "fullentry" : "ˈʧɩkbədirə",
     "startpage" : 136,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "PAVA DE MONTE_GUAN",
     "annotations" : [
             {
@@ -1860,7 +1860,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 10
             },
@@ -2169,7 +2169,7 @@ manual_entries.append({
     "fullentry" : "ĩ̵bĩ̵ tĩ̵tɨ ‘high clilf’",
     "startpage" : 151,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "CERRO, LOMA_HILL",
     "annotations" : [
             {
@@ -2182,7 +2182,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 14
             },
@@ -2788,7 +2788,7 @@ manual_entries.append({
     "fullentry" : "ihi† = ‘líquido’ (‘liquid’), + dahéme, 2 words: da heme = ‘su brea’ (‘it’s resin’)",
     "startpage" : 157,
     "pos_on_page" : 66,
-    "language_bookname" : "witoto nɨpode",
+    "language_bookname" : "witoto ni̵pode",
     "concept" : "SAVIA_SAP",
     "annotations" : [
             {
@@ -2808,14 +2808,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 0,
                 "end" : 3
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 32,
                 "end" : 39
             },
@@ -2986,7 +2986,7 @@ manual_entries.append({
     "fullentry" : "(ne-)kʰára",
     "startpage" : 158,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "RAÍZ_ROOT",
     "annotations" : [
             {
@@ -3006,14 +3006,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 5,
                 "end" : 11
             },
@@ -3187,7 +3187,7 @@ manual_entries.append({
     "fullentry" : "ráda, radóθi† + aména, Véase (See) 152",
     "startpage" : 160,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "PALO_STICK",
     "annotations" : [
             {
@@ -3214,21 +3214,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 7,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 18,
                 "end" : 24
             },
@@ -3646,7 +3646,7 @@ manual_entries.append({
     "fullentry" : "ʃajnʃirə (?)",
     "startpage" : 168,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "ÑAME_YAM",
     "annotations" : [
             {
@@ -3659,7 +3659,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 8
             },
@@ -3750,7 +3750,7 @@ manual_entries.append({
     "fullentry" : "ˈʔnoɾɩrə",
     "startpage" : 171,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "AJÍ_CHILI PEPPER",
     "annotations" : [
             {
@@ -3763,7 +3763,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 8
             },
@@ -3826,7 +3826,7 @@ manual_entries.append({
     "fullentry" : "plad (SP), tlu",
     "startpage" : 174,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "PLÁTANO_PLANTAIN",
     "annotations" : [
             {
@@ -3846,14 +3846,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 11,
                 "end" : 14
             },
@@ -3951,7 +3951,7 @@ manual_entries.append({
     "fullentry" : "néépʰáhyɯpa",
     "startpage" : 176,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "CAÑA BRAVA_CANE",
     "annotations" : [
             {
@@ -3964,7 +3964,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 14
             },
@@ -4027,7 +4027,7 @@ manual_entries.append({
     "fullentry" : "tɕe",
     "startpage" : 177,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "SAL_SALT",
     "annotations" : [
             {
@@ -4040,7 +4040,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 3
             },
@@ -4058,7 +4058,7 @@ manual_entries.append({
     "fullentry" : "tʰã",
     "startpage" : 177,
     "pos_on_page" : 3,
-    "language_bookname" : "embera Darién",
+    "language_bookname" : "embera Darién",
     "concept" : "SAL_SALT",
     "annotations" : [
             {
@@ -4071,7 +4071,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Darién",
+                "string" : "embera Darién",
                 "start" : 0,
                 "end" : 4
             },
@@ -4629,7 +4629,7 @@ manual_entries.append({
     "fullentry" : "maʔníumi̵",
     "startpage" : 191,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "MÁSCARA_MASK",
     "annotations" : [
             {
@@ -4642,7 +4642,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 10
             },
@@ -4816,7 +4816,7 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 3,
-    "language_bookname" : "embera Darién",
+    "language_bookname" : "embera Darién",
     "concept" : "YO_I",
     "annotations" : [
             {
@@ -4829,7 +4829,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Darién",
+                "string" : "embera Darién",
                 "start" : 0,
                 "end" : 2
             },
@@ -4861,7 +4861,7 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "YO_I",
     "annotations" : [
             {
@@ -4874,7 +4874,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 2
             },
@@ -4906,7 +4906,7 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "YO_I",
     "annotations" : [
             {
@@ -4919,7 +4919,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 2
             },
@@ -4951,7 +4951,7 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 6,
-    "language_bookname" : "embera Tadó",
+    "language_bookname" : "embera Tadó",
     "concept" : "YO_I",
     "annotations" : [
             {
@@ -4964,7 +4964,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 2
             },
@@ -5041,13 +5041,13 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 8,
-    "language_bookname" : "epena basurudó",
+    "language_bookname" : "epena basurudó",
     "concept" : "YO_I",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "epena basurudó",
+                "string" : "epena basurudó",
                 "start" : 0,
                 "end" : 2
             },
@@ -5287,7 +5287,7 @@ manual_entries.append({
     "fullentry" : "ʔi (?)",
     "startpage" : 198,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "ELLO_IT",
     "annotations" : [
             {
@@ -5300,7 +5300,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 2
             },
@@ -5612,7 +5612,7 @@ manual_entries.append({
     "fullentry" : "ˈkĩ̵́hã",
     "startpage" : 201,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
@@ -5625,7 +5625,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 9
             },
@@ -5674,7 +5674,7 @@ manual_entries.append({
     "fullentry" : "ˈkĩ̵́hã",
     "startpage" : 201,
     "pos_on_page" : 39,
-    "language_bookname" : "yurutí",
+    "language_bookname" : "yurutí",
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
@@ -5687,7 +5687,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 0,
                 "end" : 9
             },
@@ -5985,7 +5985,7 @@ manual_entries.append({
     "fullentry" : "ĩ̵-ki̵-dã† masc. plur., + ĩ̵-ko-dã (fem. plur.)",
     "startpage" : 201,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
@@ -6005,14 +6005,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 27,
                 "end" : 38
             },
@@ -6576,7 +6576,7 @@ manual_entries.append({
     "fullentry" : "ˈjaa-ãbõ",
     "startpage" : 202,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "MI MANO_MY HAND",
     "annotations" : [
             {
@@ -6589,7 +6589,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 10
             },
@@ -6638,7 +6638,7 @@ manual_entries.append({
     "fullentry" : "iidʲ kuse† (masc.), + iʔkwc kuse (fem.)",
     "startpage" : 203,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "TU MANO_YOUR HAND",
     "annotations" : [
             {
@@ -6658,14 +6658,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 22,
                 "end" : 32
             },
@@ -6704,7 +6704,7 @@ manual_entries.append({
     "fullentry" : "ne(n) kwal",
     "startpage" : 204,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "SU MANO_HIS HAND",
     "annotations" : [
             {
@@ -6724,14 +6724,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 10
             },
@@ -6829,7 +6829,7 @@ manual_entries.append({
     "fullentry" : "ĩ̵ˈhã́-ja-ãbõ-rĩ† + bãˈdĩ́-ja-ãbõ-rĩ, exclusivo (exclusive) exclusivo (exclusive)",
     "startpage" : 205,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "NUESTRAS MANOS_OUR HANDS",
     "annotations" : [
             {
@@ -6849,14 +6849,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 21
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 25,
                 "end" : 46
             },
@@ -7051,7 +7051,7 @@ manual_entries.append({
     "fullentry" : "sus manos (de ellos)",
     "startpage" : 207,
     "pos_on_page" : 1,
-    "language_bookname" : "Español",
+    "language_bookname" : "Español",
     "concept" : "SUS MANOS (DE ELLOS)_THEIR HANDS",
     "annotations" : [
             {
@@ -7064,7 +7064,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 0,
                 "end" : 9
             },
@@ -7387,7 +7387,7 @@ manual_entries.append({
     "fullentry" : "ˈ kĩ̵́hã-ja-tebũ-beto",
     "startpage" : 213,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "SU ARCO - DE ELLOS_THEIR BOW",
     "annotations" : [
             {
@@ -7400,7 +7400,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 24
             },
@@ -7898,7 +7898,7 @@ manual_entries.append({
     "fullentry" : "(tse) ˈtik (?)",
     "startpage" : 216,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "FRÍO_COLD",
     "annotations" : [
             {
@@ -7918,14 +7918,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 10
             },
@@ -8102,7 +8102,7 @@ manual_entries.append({
     "fullentry" : "matsʰíβaʔnúʔ",
     "startpage" : 219,
     "pos_on_page" : 32,
-    "language_bookname" : "resígaro",
+    "language_bookname" : "resígaro",
     "concept" : "MALO_BAD",
     "annotations" : [
             {
@@ -8115,7 +8115,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "resígaro",
+                "string" : "resígaro",
                 "start" : 0,
                 "end" : 14
             },
@@ -8709,7 +8709,7 @@ manual_entries.append({
     "fullentry" : "ˈwáa-gɨ/(o)-ha mase. sing.",
     "startpage" : 222,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "VAYA, VE_GO",
     "annotations" : [
             {
@@ -8736,21 +8736,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 9,
                 "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 13,
                 "end" : 15
             },
@@ -9063,7 +9063,7 @@ manual_entries.append({
     "fullentry" : "(boɾo) pʰã(ɾ)ĩ́sũ",
     "startpage" : 227,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "CORONA_CROWN OF HEAD",
     "annotations" : [
             {
@@ -9097,28 +9097,28 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
@@ -9219,7 +9219,7 @@ manual_entries.append({
     "fullentry" : "tsɩˈdobarə",
     "startpage" : 233,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "ESPALDA, PARTE SUPERIOR_UPPER BACK",
     "annotations" : [
             {
@@ -9232,7 +9232,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 10
             },
@@ -9424,7 +9424,7 @@ manual_entries.append({
     "fullentry" : "waˈɲiisik (?)",
     "startpage" : 241,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "NUBES QUIETAS_CLOUDS AT REST",
     "annotations" : [
             {
@@ -9437,7 +9437,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 9
             },
@@ -9812,7 +9812,7 @@ manual_entries.append({
     "fullentry" : "ɩdəˈbajnə",
     "startpage" : 249,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "ESTE_THIS",
     "annotations" : [
             {
@@ -9825,7 +9825,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 9
             },
@@ -10546,7 +10546,7 @@ manual_entries.append({
     "fullentry" : "ˈtsɨstɨ, tɕɨstɨ (?)",
     "startpage" : 254,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "TODOS_ALL",
     "annotations" : [
             {
@@ -10566,14 +10566,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 9,
                 "end" : 15
             },
@@ -10598,7 +10598,7 @@ manual_entries.append({
     "fullentry" : "dĩˈĩ́-oeti-ra + dīpeˈtí-rã, posible pero raro (possible but uncommon) anim. plur.",
     "startpage" : 254,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "TODOS_ALL",
     "annotations" : [
             {
@@ -10618,14 +10618,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 18,
                 "end" : 31
             },
@@ -10730,7 +10730,7 @@ manual_entries.append({
     "fullentry" : "mucho(s)",
     "startpage" : 255,
     "pos_on_page" : 1,
-    "language_bookname" : "Español",
+    "language_bookname" : "Español",
     "concept" : "MUCHO(S)_MANY",
     "annotations" : [
             {
@@ -10750,14 +10750,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 0,
                 "end" : 8
             },
@@ -10963,7 +10963,7 @@ manual_entries.append({
     "fullentry" : "ɯ́méʔc mí̵í̵ʔe",
     "startpage" : 257,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "CORTEZA_BARK",
     "annotations" : [
             {
@@ -10976,7 +10976,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 17
             },
@@ -11195,7 +11195,7 @@ manual_entries.append({
     "fullentry" : "plumɨ-bxuá (SP)",
     "startpage" : 262,
     "pos_on_page" : 22,
-    "language_bookname" : "kamsá",
+    "language_bookname" : "kamsá",
     "concept" : "PLUMA_FEATHER",
     "annotations" : [
             {
@@ -11208,7 +11208,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "kamsá",
+                "string" : "kamsá",
                 "start" : 0,
                 "end" : 10
             },
@@ -11709,7 +11709,7 @@ manual_entries.append({
     "fullentry" : "ʃidɨrɩkbajkajnə",
     "startpage" : 273,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "MORIR_DIE",
     "annotations" : [
             {
@@ -11722,7 +11722,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 15
             },
@@ -12150,7 +12150,7 @@ manual_entries.append({
     "fullentry" : "hẽɾã-ɓé(-si heɗá) = ‘acostarse’ (‘lie down’)",
     "startpage" : 279,
     "pos_on_page" : 6,
-    "language_bookname" : "embera Tadó",
+    "language_bookname" : "embera Tadó",
     "concept" : "ACOSTARSE_LIE DOWN",
     "annotations" : [
             {
@@ -12170,14 +12170,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 21
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 21
             },
@@ -12282,7 +12282,7 @@ manual_entries.append({
     "fullentry" : "akʰa-bói(-se)† = ‘siéntase!’ (‘sit down!’)",
     "startpage" : 280,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "SENTARSE, SENTADO_SIT",
     "annotations" : [
             {
@@ -12302,14 +12302,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 14
             },
@@ -12348,7 +12348,7 @@ manual_entries.append({
     "fullentry" : "su-ʔakʰuɓá(-si)† = ‘siéntase!’ (‘sit down!’)",
     "startpage" : 280,
     "pos_on_page" : 6,
-    "language_bookname" : "embera Tadó",
+    "language_bookname" : "embera Tadó",
     "concept" : "SENTARSE, SENTADO_SIT",
     "annotations" : [
             {
@@ -12368,14 +12368,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 16
             },
@@ -12480,7 +12480,7 @@ manual_entries.append({
     "fullentry" : "hiɾadí̵(-se)† imp. sing.",
     "startpage" : 281,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "PONERSE EN PIE, DE PIE_STAND",
     "annotations" : [
             {
@@ -12500,14 +12500,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 13
             },
@@ -12546,7 +12546,7 @@ manual_entries.append({
     "fullentry" : "pʰiɾaɓaɾí(-si)† imp. sing.",
     "startpage" : 281,
     "pos_on_page" : 6,
-    "language_bookname" : "embera Tadó",
+    "language_bookname" : "embera Tadó",
     "concept" : "PONERSE EN PIE, DE PIE_STAND",
     "annotations" : [
             {
@@ -12566,14 +12566,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 15
             },
@@ -13029,7 +13029,7 @@ manual_entries.append({
     "fullentry" : "daˈdá / jaˈpí ‘cosa llena, estómago lleno’ (‘full thing, full stomach’)",
     "startpage" : 289,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "LLENO_FULL",
     "annotations" : [
             {
@@ -13049,14 +13049,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 9,
                 "end" : 15
             },
@@ -13095,7 +13095,7 @@ manual_entries.append({
     "fullentry" : "buˈɾuninə",
     "startpage" : 292,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "SECO_DRY",
     "annotations" : [
             {
@@ -13108,7 +13108,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 5
             },
@@ -13126,7 +13126,7 @@ manual_entries.append({
     "fullentry" : "ʔəəbəʔ (?)",
     "startpage" : 294,
     "pos_on_page" : 15,
-    "language_bookname" : "barí",
+    "language_bookname" : "barí",
     "concept" : "COMO_HOW",
     "annotations" : [
             {
@@ -13139,7 +13139,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "barí",
+                "string" : "barí",
                 "start" : 0,
                 "end" : 6
             },
@@ -13755,7 +13755,7 @@ manual_entries.append({
     "fullentry" : "õˈõ(-pɨ)",
     "startpage" : 298,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "ALLÍ_THERE",
     "annotations" : [
             {
@@ -13775,14 +13775,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 10
             },
@@ -13946,7 +13946,7 @@ manual_entries.append({
     "fullentry" : "hoʔdi† anim., + hoʔde ‘cosa plana’ (‘flat thing’), hoʔʤe ‘casabe, plato, torta’ (‘round food’), hoʔte ‘trozo’ (‘piece’)",
     "startpage" : 299,
     "pos_on_page" : 59,
-    "language_bookname" : "sáliba",
+    "language_bookname" : "sáliba",
     "concept" : "OTRO_OTHER",
     "annotations" : [
             {
@@ -13980,28 +13980,28 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 16,
                 "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 51,
                 "end" : 56
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 96,
                 "end" : 119
             },
@@ -14054,7 +14054,7 @@ manual_entries.append({
     "fullentry" : "hɯ.áɯ(.e)",
     "startpage" : 299,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "OTRO_OTHER",
     "annotations" : [
             {
@@ -14074,14 +14074,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 10
             },
@@ -14106,7 +14106,7 @@ manual_entries.append({
     "fullentry" : "hɯ.áɯ(.ɯe)",
     "startpage" : 299,
     "pos_on_page" : 66,
-    "language_bookname" : "witoto nɨpode",
+    "language_bookname" : "witoto ni̵pode",
     "concept" : "OTRO_OTHER",
     "annotations" : [
             {
@@ -14126,14 +14126,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 0,
                 "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 0,
                 "end" : 11
             },
@@ -15770,7 +15770,7 @@ manual_entries.append({
     "fullentry" : "moʧokɨtan (?)",
     "startpage" : 328,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "CORTO_SHORT",
     "annotations" : [
             {
@@ -15783,7 +15783,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 9
             },
@@ -15929,7 +15929,7 @@ manual_entries.append({
     "fullentry" : "ɕoˈkapesatan (?)",
     "startpage" : 329,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "PESADO_HEAVY",
     "annotations" : [
             {
@@ -15942,7 +15942,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 12
             },
@@ -15960,7 +15960,7 @@ manual_entries.append({
     "fullentry" : "kõˈã́-ri-ge,ɨˈséjo-eri",
     "startpage" : 330,
     "pos_on_page" : 39,
-    "language_bookname" : "yurutí",
+    "language_bookname" : "yurutí",
     "concept" : "EMBOTADO_DULL",
     "annotations" : [
             {
@@ -15980,14 +15980,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 0,
                 "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 14,
                 "end" : 25
             },
@@ -16109,7 +16109,7 @@ manual_entries.append({
     "fullentry" : "pĩ̵ka-hĩ† = ‘(árbol) podrido’ (‘rotten (tree)’), + kõʧi-hĩ̵ ‘(earne) podrida’ (‘rotten (meat)’), bẽtu-hĩ̵ ‘(fruta) podrida’ (‘rotten (fruit)’)",
     "startpage" : 333,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "PODRIDO_ROTTEN",
     "annotations" : [
             {
@@ -16136,21 +16136,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 54,
                 "end" : 64
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 102,
                 "end" : 113
             },
@@ -16703,7 +16703,7 @@ manual_entries.append({
     "fullentry" : "bɯ-tá-de, ba-tá-de† + ɲáɯ-te ‘descartar’ (‘push aside, throw down’)",
     "startpage" : 343,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "BOTAR, TIRAR_THROW",
     "annotations" : [
             {
@@ -16730,21 +16730,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 11,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 24,
                 "end" : 31
             },
@@ -17413,7 +17413,7 @@ manual_entries.append({
     "fullentry" : "ˈtɕɨɕɨp (?)",
     "startpage" : 349,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "COSER_SEW",
     "annotations" : [
             {
@@ -17426,7 +17426,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 7
             },
@@ -17625,7 +17625,7 @@ manual_entries.append({
     "fullentry" : "peˈɲip† + kɨˈtɕɨmarɨp ‘hacer caer’ (‘make fall (?)’)",
     "startpage" : 350,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "CAER_FALL",
     "annotations" : [
             {
@@ -17645,14 +17645,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 10,
                 "end" : 21
             },
@@ -17844,7 +17844,7 @@ manual_entries.append({
     "fullentry" : "tĩ̵gẽjã / wãˈkũ",
     "startpage" : 352,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "PENSAR_THINK",
     "annotations" : [
             {
@@ -17864,14 +17864,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 13,
                 "end" : 20
             },
@@ -18411,7 +18411,7 @@ manual_entries.append({
     "fullentry" : "sorpeʔ(?)",
     "startpage" : 356,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "CHUPAR_SUCK",
     "annotations" : [
             {
@@ -18424,7 +18424,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 6
             },
@@ -19123,7 +19123,7 @@ manual_entries.append({
     "fullentry" : "ɯ̃́i.i-θa = niño, muchacho (‘boy’)",
     "startpage" : 39,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "VARÓN_MALE",
     "annotations" : [
             {
@@ -19136,7 +19136,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },
@@ -19169,7 +19169,7 @@ manual_entries.append({
     "fullentry" : "ipʰi̵rí̵kʰa = ‘labio, borde, orilla’ (‘lip, border or edge’)",
     "startpage" : 3,
     "pos_on_page" : 3,
-    "language_bookname" : "embera Darién",
+    "language_bookname" : "embera Darién",
     "concept" : "LABIO_LIP",
     "annotations" : [
             {
@@ -19182,7 +19182,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Darién",
+                "string" : "embera Darién",
                 "start" : 0,
                 "end" : 13
             },
@@ -19321,7 +19321,7 @@ manual_entries.append({
     "fullentry" : "ʔdɨ̃hõ̀",
     "startpage" : 43,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "ESPOSA_WIFE",
     "annotations" : [
             {
@@ -19334,7 +19334,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 9
             },
@@ -19584,20 +19584,20 @@ manual_entries.append({
     "fullentry" : "(ɨmɨkʰĩrã) ʧe espec.: ‘niño’ (‘baby boy’)",
     "startpage" : 46,
     "pos_on_page" : 8,
-    "language_bookname" : "epena basurudó",
+    "language_bookname" : "epena basurudó",
     "concept" : "CRIATURA_BABY, INFANT",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "epena basurudó",
+                "string" : "epena basurudó",
                 "start" : 0,
                 "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "epena basurudó",
+                "string" : "epena basurudó",
                 "start" : 1,
                 "end" : 19
             },
@@ -19754,7 +19754,7 @@ manual_entries.append({
     "fullentry" : "bújeʃe, béxa-je",
     "startpage" : 48,
     "pos_on_page" : 22,
-    "language_bookname" : "kamsá",
+    "language_bookname" : "kamsá",
     "concept" : "AGUA_WATER",
     "annotations" : [
             {
@@ -19774,14 +19774,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "kamsá",
+                "string" : "kamsá",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "kamsá",
+                "string" : "kamsá",
                 "start" : 9,
                 "end" : 17
             },
@@ -20045,7 +20045,7 @@ manual_entries.append({
     "fullentry" : "oʔxu, oiʔxu (plur.)",
     "startpage" : 4,
     "pos_on_page" : 59,
-    "language_bookname" : "sáliba",
+    "language_bookname" : "sáliba",
     "concept" : "DIENTE_TOOTH",
     "annotations" : [
             {
@@ -20065,14 +20065,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 6,
                 "end" : 11
             },
@@ -20097,7 +20097,7 @@ manual_entries.append({
     "fullentry" : "(e(goɾo)ba) sosóa ‘tierra blanda’ (‘soft ground’)",
     "startpage" : 52,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "PANTANO_SWAMP",
     "annotations" : [
             {
@@ -20124,21 +20124,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 18
             },
@@ -20626,7 +20626,7 @@ manual_entries.append({
     "fullentry" : "sielu (SP), ẽẽ tsẽj† = ‘arriba azul’ (‘blue above’)",
     "startpage" : 61,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "CIELO_SKY",
     "annotations" : [
             {
@@ -20646,14 +20646,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 12,
                 "end" : 22
             },
@@ -20852,7 +20852,7 @@ manual_entries.append({
     "fullentry" : "nɯʔpa† + kʰoóhí̵chpʰí nɯʔpa",
     "startpage" : 64,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "SOL_SUN",
     "annotations" : [
             {
@@ -20872,14 +20872,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 9,
                 "end" : 30
             },
@@ -21002,7 +21002,7 @@ manual_entries.append({
     "fullentry" : "náɯ.(ɯ)o",
     "startpage" : 68,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "NOCHE_NIGHT",
     "annotations" : [
             {
@@ -21022,14 +21022,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },
@@ -21054,7 +21054,7 @@ manual_entries.append({
     "fullentry" : "baa pʰu(ɾ)ewá",
     "startpage" : 70,
     "pos_on_page" : 4,
-    "language_bookname" : "catío",
+    "language_bookname" : "catío",
     "concept" : "RELÁMPAGO_LIGHTNING",
     "annotations" : [
             {
@@ -21074,14 +21074,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "catío",
+                "string" : "catío",
                 "start" : 0,
                 "end" : 14
             },
@@ -21467,7 +21467,7 @@ manual_entries.append({
     "fullentry" : "do-wi(-baɾi) = ‘canalete’ (‘paddle’)",
     "startpage" : 91,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "REMO_PADDLE",
     "annotations" : [
             {
@@ -21487,14 +21487,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 12
             },
@@ -21957,7 +21957,7 @@ manual_entries.append({
     "fullentry" : "békí̵† + hai-ko, una especie grande (a larger species)",
     "startpage" : 97,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "DANTA_TAPIR",
     "annotations" : [
             {
@@ -21977,14 +21977,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 11,
                 "end" : 17
             },

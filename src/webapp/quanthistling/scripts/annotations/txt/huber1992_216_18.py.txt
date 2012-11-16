@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "(tse) ˈtik (?)",
     "startpage" : 216,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "FRÍO_COLD",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 10
             },

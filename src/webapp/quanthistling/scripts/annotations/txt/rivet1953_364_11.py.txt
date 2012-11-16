@@ -14,7 +14,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Français",
+                "string" : "Français",
                 "start" : 0,
                 "end" : 16
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Okáina",
+                "string" : "Okáina",
                 "start" : 18,
                 "end" : 34
             },

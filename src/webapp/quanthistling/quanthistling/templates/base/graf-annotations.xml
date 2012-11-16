@@ -38,19 +38,19 @@
 % for e in c.entries:
 	% for a in c.annotations[e.id]:
         % if a.annotationtype.type in c.annotationtypes:
-            <region xml:id="seg-a-${c.annotationname}-${i}" anchors="${offset + a.start} ${offset + a.end}"/>
-    	    <node xml:id="${c.annotationname}-${i}">
-    	        <link targets="seg-a-${c.annotationname}-${i}"/>
+            <region xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/region" anchors="${offset + a.start} ${offset + a.end}"/>
+    	    <node xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}">
+    	        <link targets="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/region"/>
     	    </node>
-    	    <a xml:id="a-${c.annotationname}-${i}" label="${a.value}" ref="${c.annotationname}-${i}" as="${c.annotationname}">
+    	    <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/features" label="${a.value}" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}" as="${c.annotationname}">
                 <fs>
                     <f name="substring">${a.string}</f>
                 </fs>
             </a>
-            <edge xml:id="edge-${c.annotationname}-${i}" from="entry-${e.startpage}-${e.pos_on_page}" to="${c.annotationname}-${i}" />
-            <a xml:id="a-edge-${c.annotationname}-${i}" label="${a.value}" ref="edge-${c.annotationname}-${i}" as="${c.annotationname}" />
-            <% i += 1 %>
+            <edge xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}" from="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry" to="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}" />
+            <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}/annotation" label="${a.value}" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}" as="${c.annotationname}" />
         % endif
+        <% i += 1 %>
 	% endfor
     <% offset += len(e.fullentry) + 1 %>
 % endfor

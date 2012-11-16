@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "hɯ.áɯ(.e)",
     "startpage" : 299,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "OTRO_OTHER",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 10
             },

@@ -1,10 +1,7 @@
-#import exportheads
-#import exportheads_with_translation
-#import exportpos
-#import exporttranslations
-#import exportexamples
-import exportxmldata2
+import exportgraf
 import exportbookdata
+import exportcsv_books
+import exportcsv_wordlists
 import sys
 
 def main(argv):
@@ -15,7 +12,9 @@ def main(argv):
 
     ini_file = argv[1]
     
-    exportbookdata.main(["exportgraf.py", ini_file])
+    exportcsv_books.main(["exportcsv_books.py", ini_file])
+    exportcsv_wordlists.main(["exportcsv_wordlists.py", ini_file])
+    exportgraf.main(["exportgraf.py", ini_file])
     exportbookdata.main(["exportbookdata.py", ini_file])
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 list = [
     {
-        'title' : u'VOCABULARIO COMPARATIVO - Palabras Selectas de Lenguas Indígenas de Colombia',
+        'title' : u'VOCABULARIO COMPARATIVO - Palabras Selectas de Lenguas Indígenas de Colombia',
         'author' : u'Huber, Randall Q. & Reed, Robert B.',
         'year' : 1992,  
         'bibtex_key' : u'huber1992',
@@ -16,22 +16,22 @@ list = [
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Spanish',
-                'language_bookname' : u'Español',
-		'component' : ''
+                'language_bookname' : u'Español',
+		        'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'English',
                 'language_bookname' : u'English',
-		'component' : ''
+		        'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Achagua',
                 'language_bookname' : u'achagua',
-		'component' : ''
+		        'component' : ''
             },
             {
                 'startpage' : 1,
@@ -43,22 +43,22 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'',
-                'language_bookname' : u'epena basurudó',
+                'language_name' : u'Epena',
+                'language_bookname' : u'epena basurudó',
 		'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'',
+                'language_name' : u'Tariana',
                 'language_bookname' : u'giacone',
 		'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Barí',
-                'language_bookname' : u'barí',
+                'language_name' : u'Barí',
+                'language_bookname' : u'barí',
 		'component' : ''
             },
             {
@@ -79,7 +79,7 @@ list = [
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Waimaha',
-                'language_bookname' : u'bará',
+                'language_bookname' : u'bará',
 		'component' : ''
             },
             {
@@ -92,8 +92,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Cabiyarí',
-                'language_bookname' : u'cabiyarí',
+                'language_name' : u'Cabiyarí',
+                'language_bookname' : u'cabiyarí',
 		'component' : ''
             },
             {
@@ -127,8 +127,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Emberá-Chamí',
-                'language_bookname' : u'embera chamí',
+                'language_name' : u'Emberá-Chamí',
+                'language_bookname' : u'embera chamí',
 		'component' : ''
             },
             {
@@ -148,8 +148,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Emberá-Catío',
-                'language_bookname' : u'catío',
+                'language_name' : u'Emberá-Catío',
+                'language_bookname' : u'catío',
 		'component' : ''
             },
             {
@@ -170,14 +170,14 @@ list = [
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Malayo',
-                'language_bookname' : u'dí̵mɨna',
+                'language_bookname' : u'dí̵mi̵na',
 		'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Emberá, Northern',
-                'language_bookname' : u'embera Darién',
+                'language_name' : u'Emberá, Northern',
+                'language_bookname' : u'embera Darién',
 		'component' : ''
             },
             {
@@ -225,14 +225,14 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Hupdë',
+                'language_name' : u'Hupdë',
                 'language_bookname' : u'jupda',
 		'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Macaguán',
+                'language_name' : u'Macaguán',
                 'language_bookname' : u'jitnu',
 		'component' : ''
             },
@@ -260,8 +260,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Camsá',
-                'language_bookname' : u'kamsá',
+                'language_name' : u'Camsá',
+                'language_bookname' : u'kamsá',
 		'component' : ''
             },
             {
@@ -274,7 +274,7 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Nukak Makú',
+                'language_name' : u'Nukak Makú',
                 'language_bookname' : u'nukak',
 		'component' : ''
             },
@@ -282,14 +282,14 @@ list = [
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Huitoto Minica',
-                'language_bookname' : u'witoto mɨnɨca',
+                'language_bookname' : u'witoto mi̵ni̵ca',
 		'component' : 'Witotoan'
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Bora',
-                'language_bookname' : u'miraña',
+                'language_bookname' : u'miraña',
 		'component' : 'Witotoan'
             },
             {
@@ -309,8 +309,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Huitoto Nüpode',
-                'language_bookname' : u'witoto nɨpode',
+                'language_name' : u'Huitoto Nüpode',
+                'language_bookname' : u'witoto ni̵pode',
 		'component' : 'Witotoan'
             },
             {
@@ -323,15 +323,15 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Orejón',
-                'language_bookname' : u'orejón',
+                'language_name' : u'Orejón',
+                'language_bookname' : u'orejón',
 		'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Páez',
-                'language_bookname' : u'páez',
+                'language_name' : u'Páez',
+                'language_bookname' : u'páez',
 		'component' : ''
             },
             {
@@ -365,8 +365,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Resígaro',
-                'language_bookname' : u'resígaro',
+                'language_name' : u'Resígaro',
+                'language_bookname' : u'resígaro',
 		'component' : ''
             },
             {
@@ -386,8 +386,8 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Sáliba',
-                'language_bookname' : u'sáliba',
+                'language_name' : u'Sáliba',
+                'language_bookname' : u'sáliba',
 		'component' : ''
             },
             {
@@ -414,14 +414,14 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Emberá-Tadó',
-                'language_bookname' : u'embera Tadó',
+                'language_name' : u'Emberá-Tadó',
+                'language_bookname' : u'embera Tadó',
 		'component' : ''
             },
             {
                 'startpage' : 1,
                 'endpage' : 367,
-                'language_name' : u'Tanimuca-Retuarã',
+                'language_name' : u'Tanimuca-Retuarã',
                 'language_bookname' : u'tanimuca',
 		'component' : ''
             },
@@ -450,7 +450,7 @@ list = [
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Totoro',
-                'language_bookname' : u'totoró',
+                'language_bookname' : u'totoró',
 		'component' : ''
             },
             {
@@ -506,7 +506,7 @@ list = [
                 'startpage' : 1,
                 'endpage' : 367,
                 'language_name' : u'Wajiara',
-                'language_bookname' : u'yurutí',
+                'language_bookname' : u'yurutí',
 		'component' : ''
             },
         ]

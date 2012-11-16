@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 3,
-    "language_bookname" : "embera Darién",
+    "language_bookname" : "embera Darién",
     "concept" : "YO_I",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Darién",
+                "string" : "embera Darién",
                 "start" : 0,
                 "end" : 2
             },

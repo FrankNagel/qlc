@@ -3,20 +3,20 @@ manual_entries.append({
     "fullentry" : "(ɨmɨkʰĩrã) ʧe espec.: ‘niño’ (‘baby boy’)",
     "startpage" : 46,
     "pos_on_page" : 8,
-    "language_bookname" : "epena basurudó",
+    "language_bookname" : "epena basurudó",
     "concept" : "CRIATURA_BABY, INFANT",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "epena basurudó",
+                "string" : "epena basurudó",
                 "start" : 0,
                 "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "epena basurudó",
+                "string" : "epena basurudó",
                 "start" : 1,
                 "end" : 19
             },

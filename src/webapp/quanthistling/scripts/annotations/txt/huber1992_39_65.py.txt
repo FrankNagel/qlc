@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ɯ̃́i.i-θa = niño, muchacho (‘boy’)",
     "startpage" : 39,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "VARÓN_MALE",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 9
             },

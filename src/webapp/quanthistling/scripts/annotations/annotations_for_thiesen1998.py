@@ -153,7 +153,7 @@ def annotate_orthography_old(entry):
 
 def annotate_head(entry):
     # delete pos annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in head_annotations:
         Session.delete(a)
         
@@ -234,7 +234,8 @@ def annotate_head(entry):
                         head_base = head[:(start_sub-end_sub)]
                     else:
                         head_base = head
-                    entry.append_annotation(head_starts[i], head_ends[i], u'head', u'dictinterpretation', head_base + entry.fullentry[start_sub:end_sub])
+                    functions.insert_head(entry, head_starts[i], head_ends[i], head_base + entry.fullentry[start_sub:end_sub])
+                    #entry.append_annotation(head_starts[i], head_ends[i], u'head', u'dictinterpretation', head_base + entry.fullentry[start_sub:end_sub])
                     heads.append(head_base + entry.fullentry[start_sub:end_sub])
                     start_sub = head_starts[i]+match.start(2)+match_slash.end(0)
                 end_sub = head_starts[i]+match.end(2)
@@ -244,7 +245,8 @@ def annotate_head(entry):
                     head_base = head[:(start_sub-end_sub)]
                 else:
                     head_base = head
-                entry.append_annotation(head_starts[i], head_ends[i], u'head', u'dictinterpretation', head_base + entry.fullentry[start_sub:end_sub])
+                functions.insert_head(entry, head_starts[i], head_ends[i], head_base + entry.fullentry[start_sub:end_sub])
+                #entry.append_annotation(head_starts[i], head_ends[i], u'head', u'dictinterpretation', head_base + entry.fullentry[start_sub:end_sub])
                 heads.append(head_base + entry.fullentry[start_sub:end_sub])
             else:
                 #entry.append_annotation(head_starts[i], head_ends[i], u'head', u'dictinterpretation')

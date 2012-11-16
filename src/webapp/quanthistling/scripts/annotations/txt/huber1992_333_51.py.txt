@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "pĩ̵ka-hĩ† = ‘(árbol) podrido’ (‘rotten (tree)’), + kõʧi-hĩ̵ ‘(earne) podrida’ (‘rotten (meat)’), bẽtu-hĩ̵ ‘(fruta) podrida’ (‘rotten (fruit)’)",
     "startpage" : 333,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "PODRIDO_ROTTEN",
     "annotations" : [
             {
@@ -30,21 +30,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 54,
                 "end" : 64
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 102,
                 "end" : 113
             },

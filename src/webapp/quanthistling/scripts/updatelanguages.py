@@ -38,6 +38,9 @@ def main(argv):
     for l in quanthistling.dictdata.languages.list:
         db_lang = Session.query(model.LanguageIso).filter_by(name=l['name']).first()
         if db_lang == None:
+            lname = l['name']
+            #lname = importfunctions.normalize_stroke(lname)
+            #lname = unicodedata.normalize("NFD", lname)
             language = model.LanguageIso()
             language.name = l['name']
             language.langcode = l['langcode']

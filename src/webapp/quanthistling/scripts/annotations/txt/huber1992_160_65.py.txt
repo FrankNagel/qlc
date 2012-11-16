@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ráda, radóθi† + aména, Véase (See) 152",
     "startpage" : 160,
     "pos_on_page" : 65,
-    "language_bookname" : "witoto mɨnɨca",
+    "language_bookname" : "witoto mi̵ni̵ca",
     "concept" : "PALO_STICK",
     "annotations" : [
             {
@@ -30,21 +30,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 7,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto mɨnɨca",
+                "string" : "witoto mi̵ni̵ca",
                 "start" : 18,
                 "end" : 24
             },

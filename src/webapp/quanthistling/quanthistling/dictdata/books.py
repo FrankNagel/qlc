@@ -41,7 +41,7 @@ list = [
         ]
     },
     {
-        'title' : u'Vocabulario Bilingüe Huitoto - Español y Español - Huitoto',
+        'title' : u'Vocabulario Bilingüe Huitoto - Español y Español - Huitoto',
         'author' : u'Minor, Eugen E. & Minor, Dorothy A.',
         'year' : 1987,
         'bibtex_key' : u'minor1987',
@@ -56,7 +56,7 @@ list = [
                 'src_language_name' : u'Huitoto Minica',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Huitoto',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 're_letter_only': u'^<b>\w\w?</b>\s*$',
                 'file' : 'witotoan/minor1987_dictdata_1_126.xml',
 		'component' : 'Witotoan'
@@ -184,7 +184,7 @@ list = [
     },
     
     {
-        'title' : u'Diccionario Bilingüe Muinane-Español Español-Muinane',
+        'title' : u'Diccionario Bilingüe Muinane-Español Español-Muinane',
         'author' : u'Walton, James W. & Walton, Janice P. & de Buenaventure, Clementina Pakky',
         'year' : 1997,
         'bibtex_key' : u'walton1997',
@@ -199,8 +199,8 @@ list = [
                 'src_language_name' : u'Muinane',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Muinane',
-                'tgt_language_bookname' : u'Español',
-                're_letter_only': u'^<b>(?:\w\w?|Ñ|Ɨ)</b>$',
+                'tgt_language_bookname' : u'Español',
+                're_letter_only': u'^<b>(?:\w\w?|Ñ|I̵)</b>$',
                 'file' : 'witotoan/walton1997_dictdata_7_120.xml',
                 'component' : 'Witotoan'
             },
@@ -210,7 +210,7 @@ list = [
     },
 
     {
-        'title' : u'Diccionario Uitoto-Español',
+        'title' : u'Diccionario Uitoto-Español',
         'author' : u'Preuss, Konrad Theodor',
         'year' : 1994,
         'bibtex_key' : u'preuss1994',
@@ -225,8 +225,8 @@ list = [
                 'src_language_name' : u'Huitoto Murui',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Uitoto',
-                'tgt_language_bookname' : u'Español',
-                #'re_letter_only': u'^(?:<i><b>)?(?:\w+|Ɨ|Ñ)(?:</b></i>)?$',
+                'tgt_language_bookname' : u'Español',
+                #'re_letter_only': u'^(?:<i><b>)?(?:\w+|I̵|Ñ)(?:</b></i>)?$',
                 'file' : 'witotoan/preuss1994_dictdata_797_912.xml',
                 'component' : 'Witotoan'
             },
@@ -235,7 +235,7 @@ list = [
             {
                 'startpage' : 791,
                 'endpage' : 795,
-                'title': u'Presentación',
+                'title': u'Presentación',
                 'file' : 'witotoan/preuss1994_nondictdata_791_795.html',
 		'component' : 'Witotoan'
             },
@@ -398,7 +398,7 @@ list = [
 
     {
         'title' : u'Chicham Diccionario Shuar-Castellano',
-        'author' : u'Pellizaro, P. Siro M. & Náwech, Fausto Oswaldo',
+        'author' : u'Pellizaro, P. Siro M. & Náwech, Fausto Oswaldo',
         'year' : 2005,
         'bibtex_key' : u'pellizaronawech2005',
         'pages' : 556,
@@ -497,8 +497,8 @@ list = [
 ##################################### Panoan
 
     {
-        'title' : u'Análise descritiva e teórica do Katukino-Pano',
-        'author' : u'de Aguiar, Maria Suelí',
+        'title' : u'Análise descritiva e teórica do Katukino-Pano',
+        'author' : u'de Aguiar, Maria Suelí',
         'year' : 1994,
         'bibtex_key' : u'aguiar1994',
         'pages' : 45,
@@ -512,7 +512,7 @@ list = [
                 'src_language_name' : u'Katukina',
                 'tgt_language_name' : u'Portuguese',
                 'src_language_bookname' : u'Katukina',
-                'tgt_language_bookname' : u'Português',
+                'tgt_language_bookname' : u'Português',
                 're_letter_only': u'^<b>"\w+"</b>\s*$',
                 'file' : 'panoan/aguiar1994_dictdata_1_41.xml',
                 'component' : 'Panoan'
@@ -567,7 +567,7 @@ list = [
     },
 
     {
-        'title' : u'Aspectos da Fonologia da Língua Kaxarari',
+        'title' : u'Aspectos da Fonologia da Língua Kaxarari',
         'author' : u'Sousa, Gladys Cavalcante',
         'year' : 2004,
         'bibtex_key' : u'sousa2004',
@@ -580,7 +580,7 @@ list = [
                 'startpage' : 115,
                 'endpage' : 132,
                 'src_language_name' : u'Portuguese',
-                'tgt_language_name' : u'Kaxararí',
+                'tgt_language_name' : u'Kaxararí',
                 'src_language_bookname' : u'Portuguese',
                 'tgt_language_bookname' : u'Kaxarari',
                 're_letter_only': u'^<b>\w+</b>\s*$',
@@ -663,7 +663,7 @@ list = [
             {
                 'startpage' : 205,
                 'endpage' : 245,
-                'src_language_name' : u'Matsés',
+                'src_language_name' : u'Matsés',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Mayoruna',
                 'tgt_language_bookname' : u'Spanish',
@@ -779,7 +779,7 @@ list = [
     },
 ##################################### Zaparoan
     {
-        'title' : u'La Lengua Zápara del Ecuador',
+        'title' : u'La Lengua Zápara del Ecuador',
         'author' : u'Stark, Louisa R.',
         'year' : 1976,
         'bibtex_key' : u'stark1976',
@@ -791,9 +791,9 @@ list = [
             {
                 'startpage' : 30,
                 'endpage' : 57,
-                'src_language_name' : u'Záparo',
+                'src_language_name' : u'Záparo',
                 'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Záparo',
+                'src_language_bookname' : u'Záparo',
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': u'^<b>\w+</b>\s*$',
                 'file' : 'zaparoan/stark1976_dictdata_30_57.xml',
@@ -813,7 +813,7 @@ list = [
 ################################# Tucanoan
     {
         'title' : u'Mi Primer Diccionario',	
-        'author' : u'César Tamayo L.',
+        'author' : u'César Tamayo L.',
         'year' : 1988,
         'bibtex_key' : u'tamayo1988',
         'pages' : 190,
@@ -826,7 +826,7 @@ list = [
                 'endpage' : 145,
                 'src_language_name' : u'Spanish',
                 'tgt_language_name' : u'Tuyuca',
-                'src_language_bookname' : u'Español',
+                'src_language_bookname' : u'Español',
                 'tgt_language_bookname' : u'Tuyuca',
                 're_letter_only': u'^\w, \ws*$',
                 'file' : 'tucanoan/tamayo1988_dictdata_3_145.xml',
@@ -838,7 +838,7 @@ list = [
     },
 
     {
-        'title' : u'Vocabulario Siriano y Español',	
+        'title' : u'Vocabulario Siriano y Español',	
         'author' : u'Trujillo, Olga',
         'year' : 1980,
         'bibtex_key' : u'trujillo1980',
@@ -852,7 +852,7 @@ list = [
                 'endpage' : 125,
                 'src_language_name' : u'Spanish',
                 'tgt_language_name' : u'Siriano',
-                'src_language_bookname' : u'Español',
+                'src_language_bookname' : u'Español',
                 'tgt_language_bookname' : u'Siriano',
                 're_letter_only': u'^\w, \ws*$',
                 'file' : 'tucanoan/trujillo1980_dictdata_1_125.xml',
@@ -864,7 +864,7 @@ list = [
     },
     
     {
-        'title' : u'Marĩ Yaye Mena Carapana, Yaia Yaye Mena Español Macãrĩcã Tuti',
+        'title' : u'Marĩ Yaye Mena Carapana, Yaia Yaye Mena Español Macãrĩcã Tuti',
         'author' : u'Metzger, Ronald G.',
         'year' : 2000,
         'bibtex_key' : u'metzger2000',
@@ -879,7 +879,7 @@ list = [
                 'src_language_name' : u'Carapana',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Carapana',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 #'re_letter_only': u'^<b>\w+|Ã|Ẽ|Ĩ|Ñ|Õ|Ũ|U̶|Ũ̶</b>\s*$',
                 'file' : 'tucanoan/metzger2000_dictdata_11_97.xml',
                 'component' : 'Tucanoan'
@@ -889,7 +889,7 @@ list = [
             #    'endpage' : 137,
             #    'src_language_name' : u'Spanish',
             #    'tgt_language_name' : u'Carapana',
-            #    'src_language_bookname' : u'Español',
+            #    'src_language_bookname' : u'Español',
             #    'tgt_language_bookname' : u'Carapana',
             #    're_letter_only': u'^<b>\w+</b>\s*$',
             #    'file' : 'tucanoan/metzger2000_dictdata_115_137.xml',
@@ -928,7 +928,7 @@ list = [
         ]
     },
     {
-        'title' : u'A Língua Dos Índios Yawanawá Do Acre',
+        'title' : u'A Língua Dos Índios Yawanawá Do Acre',
         'author' : u'Paula, Aldir Santos de',
         'year' : 2004,
         'bibtex_key' : u'paula2004',
@@ -942,8 +942,8 @@ list = [
                 'endpage' : 266,
                 'src_language_name' : u'Yawanawa',
                 'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'Yawanawá',
-                'tgt_language_bookname' : u'Português',
+                'src_language_bookname' : u'Yawanawá',
+                'tgt_language_bookname' : u'Português',
                 #'re_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
                 'file' : 'panoan/paula2004_dictdata_242_266.xml',
                 'component' : 'Panoan'
@@ -953,8 +953,8 @@ list = [
             #    'endpage' : 288,
             #    'src_language_name' : u'Yawanawa',
             #    'tgt_language_name' : u'Portuguese',
-            #    'src_language_bookname' : u'Yawanawá',
-            #    'tgt_language_bookname' : u'Português',
+            #    'src_language_bookname' : u'Yawanawá',
+            #    'tgt_language_bookname' : u'Português',
             #    're_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
             #    'file' : 'panoan/paula2004_dictdata_267_288.xml',
             #    'component' : 'Panoan'
@@ -971,7 +971,7 @@ list = [
         ]
     },
     {
-        'title' : u'Les Nonuya et Les Okáina',
+        'title' : u'Les Nonuya et Les Okáina',
         'author' : u'Rivet, Paul & Wavrin, Robert de',
         'year' : 1953,
         'bibtex_key' : u'rivet1953',
@@ -985,8 +985,8 @@ list = [
                 'endpage' : 377,
                 'src_language_name' : u'French',
                 'tgt_language_name' : [ u'Nonuya', u'Ocaina', u'Huitoto Murui' ],
-                'src_language_bookname' : u'Français',
-                'tgt_language_bookname' : [ u'Nonuya', u'Okáina', u'Witóto' ],
+                'src_language_bookname' : u'Français',
+                'tgt_language_bookname' : [ u'Nonuya', u'Okáina', u'Witóto' ],
                 're_letter_only': u'^\w+\s*$',
                 'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
                 'component' : 'Witotoan'
@@ -996,8 +996,8 @@ list = [
             #    'endpage' : 377,
             #    'src_language_name' : u'French',
             #    'tgt_language_name' : u'Ocaina',
-            #    'src_language_bookname' : u'Français',
-            #    'tgt_language_bookname' : u'Okáina',
+            #    'src_language_bookname' : u'Français',
+            #    'tgt_language_bookname' : u'Okáina',
             #    're_letter_only': u'^\w+\s*$',
             #    'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
             #    'component' : 'Witotoan'
@@ -1007,8 +1007,8 @@ list = [
             #    'endpage' : 377,
             #    'src_language_name' : u'French',
             #    'tgt_language_name' : u'Huitoto Murui',
-            #    'src_language_bookname' : u'Français',
-            #    'tgt_language_bookname' : u'Witóto',
+            #    'src_language_bookname' : u'Français',
+            #    'tgt_language_bookname' : u'Witóto',
             #    're_letter_only': u'^\w+\s*$',
             #    'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
             #    'component' : 'Witotoan'
@@ -1119,8 +1119,8 @@ list = [
             
     },
     {
-        'title' : u'Wirã ya, Peamasa ya wererituri',
-        'author' : u'Tulio Alemán M., Reinaldo López H., Marion Miller',
+        'title' : u'Wirã ya, Peamasa ya wererituri',
+        'author' : u'Tulio Alemán M., Reinaldo López H., Marion Miller',
         'year' : 2000,
         'bibtex_key' : u'aleman2000',
         'pages' : 133,
@@ -1134,7 +1134,7 @@ list = [
                 'src_language_name' : u'Desano',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Desano',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'tucanoan/aleman2000_dictdata_9_69.xml',
                 'component' : 'Tucanoan'
             },
@@ -1165,7 +1165,7 @@ list = [
             
     },
     {
-        'title' : u'DICCIONARIO BILINGÜE',
+        'title' : u'DICCIONARIO BILINGÜE',
         'author' : u'Waltz, Nathan E.',
         'year' : 2007,
         'bibtex_key' : u'waltz2007',
@@ -1180,7 +1180,7 @@ list = [
                 'src_language_name' : u'Guanano',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Wanano o Guanano',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'tucanoan/waltz2007_dictdata_13_337.xml',
                 'component' : 'Tucanoan'
             },
@@ -1204,7 +1204,7 @@ list = [
             
     },
     {
-        'title' : u'Diccionario Ilustrado Bilingüe',
+        'title' : u'Diccionario Ilustrado Bilingüe',
         'author' : u'Morse, Nancy L., Salser, Jay K., Neva de Salser, Jr. y',
         'year' : 1999,
         'bibtex_key' : u'morse1999',
@@ -1219,7 +1219,7 @@ list = [
                 'src_language_name' : u'Cubeo',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Cubeo',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'tucanoan/morse1999_dictdata_19_328.xml',
                 'component' : 'Tucanoan'
             },
@@ -1250,7 +1250,7 @@ list = [
             
     },
     {
-        'title' : u'Diccionario Bilingüe',
+        'title' : u'Diccionario Bilingüe',
         'author' : u'Cook, Dorothy M., Gralow, Frances L.',
         'year' : 2001,
         'bibtex_key' : u'cook2001',
@@ -1265,7 +1265,7 @@ list = [
                 'src_language_name' : u'Koreguaje',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Koreguaje',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'tucanoan/cook2001_dictdata_29_128.xml',
                 'component' : 'Tucanoan'
             },
@@ -1289,7 +1289,7 @@ list = [
             
     },
     {
-        'title' : u'MASA YE, GAWA YE RÃCA ÃMARA TUTI',
+        'title' : u'MASA YE, GAWA YE RÃCA ÃMARA TUTI',
         'author' : u'Jeffrey R., Smothermon, Josephine H.',
         'year' : 1993,
         'bibtex_key' : u'smothermon1993',
@@ -1304,7 +1304,7 @@ list = [
                 'src_language_name' : u'Macuna',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Macuna',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'tucanoan/smothermon1993_dictdata_13_116.xml',
                 'component' : 'Tucanoan'
             },
@@ -1335,8 +1335,8 @@ list = [
             
     },
     {
-        'title' : u'MASA YE, GAVA YE RÃCA MACARIATUTI',
-        'author' : u'Faustino Benjamín L., John Fredy Benjamín L., Wen y Paula Jones, Roberto Marín N., Jaime Reina G. y otros',
+        'title' : u'MASA YE, GAVA YE RÃCA MACARIATUTI',
+        'author' : u'Faustino Benjamín L., John Fredy Benjamín L., Wen y Paula Jones, Roberto Marín N., Jaime Reina G. y otros',
         'year' : 1990,
         'bibtex_key' : u'faustino1990',
         'pages' : 107,
@@ -1350,7 +1350,7 @@ list = [
                 'src_language_name' : u'Barasana-Eduria',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Barasana y taibano',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'tucanoan/faustino1990_dictdata_13_107.xml',
                 'component' : 'Tucanoan'
             },
@@ -1379,7 +1379,7 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 93,
-                'src_language_name' : u'Sirionó',
+                'src_language_name' : u'Sirionó',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Siriono',
                 'tgt_language_bookname' : u'Castellano',
@@ -1399,8 +1399,8 @@ list = [
             
     },
     {
-        'title' : u'ESTUDO LEXICAL DA LÍNGUA MATIS SUBSÍDIOS PARA UM DICIONÁRIO BILÍNGÜE',
-        'author' : u'Ferreira, Vitória Regina Spanghero',
+        'title' : u'ESTUDO LEXICAL DA LÍNGUA MATIS SUBSÍDIOS PARA UM DICIONÁRIO BILÍNGÜE',
+        'author' : u'Ferreira, Vitória Regina Spanghero',
         'year' : 2005,
         'bibtex_key' : u'ferreira2005',
         'pages' : 211,
@@ -1411,10 +1411,10 @@ list = [
             {
                 'startpage' : 115,
                 'endpage' : 193,
-                'src_language_name' : u'Matís',
+                'src_language_name' : u'Matís',
                 'tgt_language_name' : u'Portuguese',
                 'src_language_bookname' : u'Matis',
-                'tgt_language_bookname' : u'Português',
+                'tgt_language_bookname' : u'Português',
                 'file' : 'Panoan/ferreira2005_dictdata_115_193.xml',
                 'component' : 'Panoan'
             },
@@ -1457,7 +1457,7 @@ list = [
             {
                 'startpage' : 45,
                 'endpage' : 310,
-                'src_language_name' : u'Chácobo',
+                'src_language_name' : u'Chácobo',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Chacobo',
                 'tgt_language_bookname' : u'Castellano',
@@ -1640,7 +1640,7 @@ list = [
             
     },
     {
-        'title' : u'Un Léxico Nɨpode Uitoto - Español - Inglés',
+        'title' : u'Un Léxico Ni̵pode Uitoto - Español - Inglés',
         'author' : u'Griffiths, Thomas, Coleman, John, Morales, Misael',
         'year' : 2001,
         'bibtex_key' : u'griffiths2001',
@@ -1652,20 +1652,20 @@ list = [
             {
                 'startpage' : 79,
                 'endpage' : 199,
-                'src_language_name' : u'Huitoto Nüpode',
+                'src_language_name' : u'Huitoto Nüpode',
                 'tgt_language_name' : [ u'Spanish', u'English' ],
-                'src_language_bookname' : u'Nɨpode Uitoto',
-                'tgt_language_bookname' : [ u'Español', u'Inglés' ],
+                'src_language_bookname' : u'Ni̵pode Uitoto',
+                'tgt_language_bookname' : [ u'Español', u'Inglés' ],
                 'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
                 'component' : 'Witotoan'
             },
             #{
             #    'startpage' : 79,
             #    'endpage' : 199,
-            #    'src_language_name' : u'Huitoto Nüpode',
+            #    'src_language_name' : u'Huitoto Nüpode',
             #    'tgt_language_name' : u'English',
-            #    'src_language_bookname' : u'Nɨpode Uitoto',
-            #    'tgt_language_bookname' : u'Español - Inglés',
+            #    'src_language_bookname' : u'Ni̵pode Uitoto',
+            #    'tgt_language_bookname' : u'Español - Inglés',
             #    'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
             #    'component' : 'Witotoan'
             #},
@@ -1681,7 +1681,7 @@ list = [
         ]
     },
     {
-        'title' : u'DICCIONARIO BÁSICO ILUSTRADO WAYUUNAIKI-ESPAÑOL ESPAÑOL-WAYUUNAIKI',
+        'title' : u'DICCIONARIO BÁSICO ILUSTRADO WAYUUNAIKI-ESPAÑOL ESPAÑOL-WAYUUNAIKI',
         'author' : u'Captain, David M., Captain, Linda B.',
         'year' : 2005,
         'bibtex_key' : u'captain2005',
@@ -1696,7 +1696,7 @@ list = [
                 'src_language_name' : u'Wayuu',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Wayuunaiki',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'arawak/captain2005_dictdata_13_49.xml',
                 'component' : 'Arawak'
             },
@@ -1712,7 +1712,7 @@ list = [
         ]
     },
     {
-        'title' : u'Lecciones para el apredizaje del idioma ashéninca',
+        'title' : u'Lecciones para el apredizaje del idioma ashéninca',
         'author' : u'Payne, Judith',
         'year' : 1989,
         'bibtex_key' : u'payne1989',
@@ -1724,9 +1724,9 @@ list = [
             {
                 'startpage' : 363,
                 'endpage' : 471,
-                'src_language_name' : u'Ashéninka, Pichis',
+                'src_language_name' : u'Ashéninka, Pichis',
                 'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Ashéninca',
+                'src_language_bookname' : u'Ashéninca',
                 'tgt_language_bookname' : u'Castellano',
                 'file' : 'arawak/payne1989_dictdata_363_471.xml',
                 'component' : 'Arawak'
@@ -1774,7 +1774,7 @@ list = [
         ]
     },
     {
-        'title' : u'Datos de la lengua iñapari',
+        'title' : u'Datos de la lengua iñapari',
         'author' : u'Parker, Stephen',
         'year' : 1995,
         'bibtex_key' : u'parker1995',
@@ -1787,9 +1787,9 @@ list = [
                 'startpage' : 25,
                 'endpage' : 71,
                 'src_language_name' : u'Spanish',
-                'tgt_language_name' : u'Iñapari',
+                'tgt_language_name' : u'Iñapari',
                 'src_language_bookname' : u'Castellano',
-                'tgt_language_bookname' : u'Iñapari',
+                'tgt_language_bookname' : u'Iñapari',
                 'file' : 'arawak/parker1995_dictdata_25_71.xml',
                 'component' : 'Arawak'
             },
@@ -1805,7 +1805,7 @@ list = [
         ]
     },
     {
-        'title' : u'Pequeño diccionario machiguenga ~ castellano',
+        'title' : u'Pequeño diccionario machiguenga ~ castellano',
         'author' : u'Snell, Betty',
         'year' : 1998,
         'bibtex_key' : u'snell1998',
@@ -1851,7 +1851,7 @@ list = [
                 'src_language_name' : u'Chayahuita',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Chayahuita',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'other/hart1975_dictdata_1_50.xml',
                 'component' : 'Other'
             },
@@ -1898,7 +1898,7 @@ list = [
         ]
     },
     {
-        'title' : u'Vocabulario Piapoco-Español',
+        'title' : u'Vocabulario Piapoco-Español',
         'author' : u'Pharris de Klumpp, Deloris A.',
         'year' : 1995,
         'bibtex_key' : u'klumpp1995',
@@ -1913,7 +1913,7 @@ list = [
                 'src_language_name' : u'Piapoco',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Piapoco',
-                'tgt_language_bookname' : u'Español',
+                'tgt_language_bookname' : u'Español',
                 'file' : 'arawak/klumpp1995_dictdata_3_103.xml',
                 'component' : 'Arawak'
             },
@@ -1929,7 +1929,7 @@ list = [
         ]
     },
     {
-        'title' : u'DICCIONARIO Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
+        'title' : u'DICCIONARIO Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
         'author' : u'Hart, Helen',
         'year' : 1988,
         'bibtex_key' : u'hart1988',
@@ -1960,7 +1960,7 @@ list = [
         ]
     },
     {
-        'title' : u'Diccionario ashéninca ~ castellano',
+        'title' : u'Diccionario ashéninca ~ castellano',
         'author' : u'Payne, David',
         'year' : 1980,
         'bibtex_key' : u'payne1980',
@@ -1972,9 +1972,9 @@ list = [
             {
                 'startpage' : 33,
                 'endpage' : 151,
-                'src_language_name' : u'Ashéninka, Pichis',
+                'src_language_name' : u'Ashéninka, Pichis',
                 'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Ashéninca',
+                'src_language_bookname' : u'Ashéninca',
                 'tgt_language_bookname' : u'Castellano',
                 'file' : 'arawak/payne1980_dictdata_33_151.xml',
                 'component' : 'Arawak'

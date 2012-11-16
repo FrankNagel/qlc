@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "(boɾo) pʰã(ɾ)ĩ́sũ",
     "startpage" : 227,
     "pos_on_page" : 5,
-    "language_bookname" : "embera chamí",
+    "language_bookname" : "embera chamí",
     "concept" : "CORONA_CROWN OF HEAD",
     "annotations" : [
             {
@@ -37,28 +37,28 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera chamí",
+                "string" : "embera chamí",
                 "start" : 0,
                 "end" : 20
             },

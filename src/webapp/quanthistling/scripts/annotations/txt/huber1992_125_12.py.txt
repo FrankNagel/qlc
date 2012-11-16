@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "coráru (SP)† = geʔ guma",
     "startpage" : 125,
     "pos_on_page" : 12,
-    "language_bookname" : "dí̵mɨna",
+    "language_bookname" : "dí̵mi̵na",
     "concept" : "CORAL_CORAL SNAKE",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "dí̵mɨna",
+                "string" : "dí̵mi̵na",
                 "start" : 0,
                 "end" : 12
             },

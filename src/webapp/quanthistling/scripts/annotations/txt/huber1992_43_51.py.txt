@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ʔdɨ̃hõ̀",
     "startpage" : 43,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "ESPOSA_WIFE",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 9
             },

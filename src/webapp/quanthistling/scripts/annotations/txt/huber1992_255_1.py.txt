@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "mucho(s)",
     "startpage" : 255,
     "pos_on_page" : 1,
-    "language_bookname" : "Español",
+    "language_bookname" : "Español",
     "concept" : "MUCHO(S)_MANY",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 0,
                 "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Español",
+                "string" : "Español",
                 "start" : 0,
                 "end" : 8
             },

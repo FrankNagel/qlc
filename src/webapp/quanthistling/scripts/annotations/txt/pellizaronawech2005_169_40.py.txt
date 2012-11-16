@@ -1,0 +1,302 @@
+
+manual_entries.append({
+    "fullentry" : "ete-nk (ate-nk, ese-nk, ase-nk, ete-as, ate-as, ese-as, ase-as), u. (a: nt-ka,ntma-k,-) = intercalar, interponer, introducir, alternar, interpolar. Kayánam eténtkatá = ponme entre las piedras.",
+    "startpage" : 169,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "etenk",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 3,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 8,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 8,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atenk",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 11,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esenk",
+                "start" : 16,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 19,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "asenk",
+                "start" : 24,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 27,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eteas",
+                "start" : 32,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 35,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ateas",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 43,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eseas",
+                "start" : 48,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 51,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aseas",
+                "start" : 56,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 59,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 65,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 90,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 90,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "intercalar",
+                "start" : 90,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "interponer",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 114,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 114,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "introducir",
+                "start" : 114,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alternar",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 136,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 136,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "interpolar",
+                "start" : 136,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "kayánam eténtkatá",
+                "start" : 148,
+                "end" : 168
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "ponme entre las piedras",
+                "start" : 171,
+                "end" : 194
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ete-nk (ate-nk, ese-nk, ase-nk, ete-as, ate-as, ese-as, ase-as),",
+                "start" : 0,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: nt-ka,ntma-k,-)",
+                "start" : 65,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+    ]
+})

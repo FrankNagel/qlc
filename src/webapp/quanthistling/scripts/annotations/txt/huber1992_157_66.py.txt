@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ihi† = ‘líquido’ (‘liquid’), + dahéme, 2 words: da heme = ‘su brea’ (‘it’s resin’)",
     "startpage" : 157,
     "pos_on_page" : 66,
-    "language_bookname" : "witoto nɨpode",
+    "language_bookname" : "witoto ni̵pode",
     "concept" : "SAVIA_SAP",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 0,
                 "end" : 3
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "witoto nɨpode",
+                "string" : "witoto ni̵pode",
                 "start" : 32,
                 "end" : 39
             },

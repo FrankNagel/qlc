@@ -3,13 +3,13 @@ manual_entries.append({
     "fullentry" : "mɨ + ‘yo, mi’ (‘I, me, my’)",
     "startpage" : 194,
     "pos_on_page" : 8,
-    "language_bookname" : "epena basurudó",
+    "language_bookname" : "epena basurudó",
     "concept" : "YO_I",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "epena basurudó",
+                "string" : "epena basurudó",
                 "start" : 0,
                 "end" : 2
             },

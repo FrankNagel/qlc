@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "sielu (SP), ẽẽ tsẽj† = ‘arriba azul’ (‘blue above’)",
     "startpage" : 61,
     "pos_on_page" : 16,
-    "language_bookname" : "páez",
+    "language_bookname" : "páez",
     "concept" : "CIELO_SKY",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "páez",
+                "string" : "páez",
                 "start" : 12,
                 "end" : 22
             },

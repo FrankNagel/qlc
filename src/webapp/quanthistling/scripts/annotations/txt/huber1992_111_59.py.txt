@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "kupo† + kuʧikuʧi, negro y grande (large, black), kupe, blanco (white)",
     "startpage" : 111,
     "pos_on_page" : 59,
-    "language_bookname" : "sáliba",
+    "language_bookname" : "sáliba",
     "concept" : "CAIMÁN_CAYMAN",
     "annotations" : [
             {
@@ -30,21 +30,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 8,
                 "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 49,
                 "end" : 53
             },

@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "su-ʔakʰuɓá(-si)† = ‘siéntase!’ (‘sit down!’)",
     "startpage" : 280,
     "pos_on_page" : 6,
-    "language_bookname" : "embera Tadó",
+    "language_bookname" : "embera Tadó",
     "concept" : "SENTARSE, SENTADO_SIT",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 16
             },

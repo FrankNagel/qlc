@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ɯ́méʔc mí̵í̵ʔe",
     "startpage" : 257,
     "pos_on_page" : 70,
-    "language_bookname" : "miraña",
+    "language_bookname" : "miraña",
     "concept" : "CORTEZA_BARK",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "miraña",
+                "string" : "miraña",
                 "start" : 0,
                 "end" : 17
             },

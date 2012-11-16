@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "bújeʃe, béxa-je",
     "startpage" : 48,
     "pos_on_page" : 22,
-    "language_bookname" : "kamsá",
+    "language_bookname" : "kamsá",
     "concept" : "AGUA_WATER",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "kamsá",
+                "string" : "kamsá",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "kamsá",
+                "string" : "kamsá",
                 "start" : 9,
                 "end" : 17
             },

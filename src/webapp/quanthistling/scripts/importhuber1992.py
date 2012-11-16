@@ -3,26 +3,26 @@
 languages = {
     'AC' : u'achagua',
     'AW' : u'awa',
-    'BA' : u'epena basurudó',
+    'BA' : u'epena basurudó',
     'giacone' : u'giacone',
-    'BI' : u'barí',
+    'BI' : u'barí',
     'BN' : u'baniva',
     'BO' : u'bora',
-    'BR' : u'bará',
+    'BR' : u'bará',
     'BS' : u'barasana',
-    'CA' : u'cabiyarí',
+    'CA' : u'cabiyarí',
     'CH' : u'cha\'palaachi',
     'CI' : u'cuiba',
     'CJ' : u'carijona',
     'CL' : u'chimila',
-    'CM' : u'embera chamí',
+    'CM' : u'embera chamí',
     'CP' : u'carapana',
     'CR' : u'curripaco',
-    'CT' : u'catío',
+    'CT' : u'catío',
     'CU' : u'cubeo',
     'DE' : u'desano',
-    'DM' : u'dí̵mɨna',
-    'DR' : u'embera Darién',
+    'DM' : u'dí̵mi̵na',
+    'DR' : u'embera Darién',
     'EP' : u'epena Saija',
     'GH' : u'guahibo',
     'GU' : u'guambiano',
@@ -34,34 +34,34 @@ languages = {
     'KG' : u'koreguaje',
     'KK' : u'kakua',
     'KO' : u'kogui',
-    'KS' : u'kamsá',
+    'KS' : u'kamsá',
     'MA' : u'macuna',
     'NK' : u'nukak',
-    'MN' : u'witoto mɨnɨca',
-    u'MÑ' : u'miraña',
+    'MN' : u'witoto mi̵ni̵ca',
+    u'MÑ' : u'miraña',
     'MR' : u'witoto murui',
     'MU' : u'muinane',
-    'NP' : u'witoto nɨpode',
+    'NP' : u'witoto ni̵pode',
     'OC' : u'ocaina',
-    'OR' : u'orejón',
-    'PA' : u'páez',
+    'OR' : u'orejón',
+    'PA' : u'páez',
     'PL' : u'playero',
     'PP' : u'piapoco',
     'PU' : u'puinave',
     'PY' : u'piratapuyo',
-    'RE' : u'resígaro',
+    'RE' : u'resígaro',
     'SE' : u'secoya',
     'SI' : u'siona',
-    'SL' : u'sáliba',
+    'SL' : u'sáliba',
     'SR' : u'siriano',
     'TA' : u'tatuyo',
     'TC' : u'tucano',
-    'TD' : u'embera Tadó',
+    'TD' : u'embera Tadó',
     'TM' : u'tanimuca',
     'TN' : u'tunebo central',
     'TO' : u'tariano',
     'TP' : u'tsafiqui pila',
-    'TR' : u'totoró',
+    'TR' : u'totoró',
     'TY' : u'tuyuca',
     'WA' : u'waimaja',
     'WM' : u'wounaan',
@@ -69,21 +69,21 @@ languages = {
     'WY' : u'wayuu',
     'YC' : u'yucuna',
     'YK' : u'yukpa',
-    'YR' : u'yurutí',
+    'YR' : u'yurutí',
     'English' : 'English',
     'INGLES' : 'English',
-    u'Español' : u'Español',
-    u'ESPAÑOL' : u'Español'
+    u'Español' : u'Español',
+    u'ESPAÑOL' : u'Español'
 }
 
 families = {
     'CHOCO' : {
-        'DR' : u'embera Darién',
-        'CT' : u'catío',
-        'CM' : u'embera chamí',
-        'TD' : u'embera Tadó',
+        'DR' : u'embera Darién',
+        'CT' : u'catío',
+        'CM' : u'embera chamí',
+        'TD' : u'embera Tadó',
         'EP' : u'epena Saija',
-        'BA' : u'epena basurudó',
+        'BA' : u'epena basurudó',
         'WM' : u'wounaan',        
     },
     'TUCANO' : {
@@ -91,9 +91,9 @@ families = {
         'WN' : u'wanano',
         'PY' : u'piratapuyo',
         'WA' : u'waimaja',
-        'BR' : u'bará',
+        'BR' : u'bará',
         'TY' : u'tuyuca',
-        'YR' : u'yurutí',
+        'YR' : u'yurutí',
         'DE' : u'desano',
         'SR' : u'siriano',
         'TA' : u'tatuyo',
@@ -105,7 +105,7 @@ families = {
         'KG' : u'koreguaje',
         'SE' : u'secoya',
         'SI' : u'siona',
-        'OR' : u'orejón',        
+        'OR' : u'orejón',        
     },
     'ARAWAK' : {
         'WY' : u'wayuu',
@@ -114,9 +114,9 @@ families = {
         'PP' : u'piapoco',
         'YC' : u'yucuna',
         'TO' : u'tariano',
-        'CA' : u'cabiyarí',
+        'CA' : u'cabiyarí',
         'BN' : u'baniva',
-        'RE' : u'resígaro',        
+        'RE' : u'resígaro',        
     },
     'GUAHIBO' : {
         'PL' : u'playero',
@@ -127,12 +127,12 @@ families = {
     },
     'WITOTO' : {
         'MR' : u'witoto murui',
-        'MN' : u'witoto mɨnɨca',
-        'NP' : u'witoto nɨpode',
+        'MN' : u'witoto mi̵ni̵ca',
+        'NP' : u'witoto ni̵pode',
         'OC' : u'ocaina',
         'MU' : u'muinane',
         'BO' : u'bora',
-        u'MÑ' : u'miraña',        
+        u'MÑ' : u'miraña',        
     }
 }
 
@@ -367,7 +367,7 @@ def main(argv):
                             if a['type'] == "pagelayout":
                                 annotation["giacone"].append(a)
                         pos_on_page = pos_on_page + 1
-                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, page, column, concept_id, wordlistdata, languages, languages_iso)
+                    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, 1, page, column, concept_id, wordlistdata, languages, languages_iso)
                 number = re.sub(u'[\[\]]', '', l)
                 page = int(number)
                 line_in_page = 1
@@ -379,10 +379,10 @@ def main(argv):
             elif line_in_page == 3:
                 meaning_spanish = re.sub(u'(?:</?b>|†)', '', l)
                 print "  Spanish: %s" % meaning_spanish.encode("utf-8")
-                entry[u'Español'] = {}
-                entry[u'Español']['fullentry'] = meaning_spanish
-                entry[u'Español']['pos_on_page'] = pos_on_page
-                annotation[u'Español'] = []
+                entry[u'Español'] = {}
+                entry[u'Español']['fullentry'] = meaning_spanish
+                entry[u'Español']['pos_on_page'] = pos_on_page
+                annotation[u'Español'] = []
                 
                 meaning_spanish = re.sub(u"!", "", meaning_spanish)
                 start = 0
@@ -395,7 +395,7 @@ def main(argv):
                     a['value'] = 'counterpart'
                     a['type'] = 'dictinterpretation'
                     a['string'] = meaning_spanish[start:end]
-                    annotation[u'Español'].append(a)
+                    annotation[u'Español'].append(a)
                     start = match.end(0)
                     
                 pos_on_page = pos_on_page + 1
@@ -455,7 +455,7 @@ def main(argv):
                                     a_s = create_annotation(len_entry, len(entry[l]['fullentry']), "footnote", "pagelayout", match.group(2))
                                     annotation[l].extend(a_s)
                             elif re.match(u"\d+$", language):
-                                for l in ( u'Español', 'English' ):
+                                for l in ( u'Español', 'English' ):
 
                                     a_newline = { 'start' : len(entry[l]['fullentry']), 'end' : len(entry[l]['fullentry']), 'value' : 'newline', 'type' : 'pagelayout', 'string' : '' }
                                     annotation[l].append(a_newline)
@@ -474,7 +474,7 @@ def main(argv):
                             elif language in languages:
                                 l = language
                                 if language == u"ESPAÑOL":
-                                    l = u'Español'
+                                    l = u'Español'
                                 elif language == "INGLES":
                                     l = 'English'
 

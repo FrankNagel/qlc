@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "matsʰíβaʔnúʔ",
     "startpage" : 219,
     "pos_on_page" : 32,
-    "language_bookname" : "resígaro",
+    "language_bookname" : "resígaro",
     "concept" : "MALO_BAD",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "resígaro",
+                "string" : "resígaro",
                 "start" : 0,
                 "end" : 14
             },

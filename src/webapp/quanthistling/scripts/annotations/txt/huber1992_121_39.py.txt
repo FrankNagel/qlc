@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ˈpĩ́kõ",
     "startpage" : 121,
     "pos_on_page" : 39,
-    "language_bookname" : "yurutí",
+    "language_bookname" : "yurutí",
     "concept" : "COLA_TAIL",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 0,
                 "end" : 8
             },

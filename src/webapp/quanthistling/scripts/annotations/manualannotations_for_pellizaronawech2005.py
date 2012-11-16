@@ -2694,6 +2694,140 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "achur-a, (achir-a), u. (a: t-ua,tam-a,-) = asar. Is. awí. Namank achíratá = asa la carne.",
+    "startpage" : 146,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "achura",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 5,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "achira",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 15,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 43,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 43,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "asar",
+                "start" : 43,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "awí",
+                "start" : 53,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Namank achíratá",
+                "start" : 59,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "asa la carne",
+                "start" : 79,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "achur-a, (achir-a),",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: t-ua,tam-a,-)",
+                "start" : 20,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is.",
+                "start" : 49,
+                "end" : 52
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ tak-ús, m. = tener, poseer",
     "startpage" : 148,
     "pos_on_page" : 21,
@@ -5655,6 +5789,308 @@ manual_entries.append({
                 "string" : "y. uk.",
                 "start" : 12,
                 "end" : 18
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ete-nk (ate-nk, ese-nk, ase-nk, ete-as, ate-as, ese-as, ase-as), u. (a: nt-ka,ntma-k,-) = intercalar, interponer, introducir, alternar, interpolar. Kayánam eténtkatá = ponme entre las piedras.",
+    "startpage" : 169,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "etenk",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 3,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 8,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 8,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "atenk",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 11,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "esenk",
+                "start" : 16,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 19,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "asenk",
+                "start" : 24,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 27,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eteas",
+                "start" : 32,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 35,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ateas",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 43,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eseas",
+                "start" : 48,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 51,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aseas",
+                "start" : 56,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 59,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "u.",
+                "start" : 65,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 90,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 90,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "intercalar",
+                "start" : 90,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "interponer",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 114,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 114,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "introducir",
+                "start" : 114,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alternar",
+                "start" : 126,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 136,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 136,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "interpolar",
+                "start" : 136,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "kayánam eténtkatá",
+                "start" : 148,
+                "end" : 168
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "ponme entre las piedras",
+                "start" : 171,
+                "end" : 194
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ete-nk (ate-nk, ese-nk, ase-nk, ete-as, ate-as, ese-as, ase-as),",
+                "start" : 0,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u. (a: nt-ka,ntma-k,-)",
+                "start" : 65,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
             },
     ]
 })
@@ -11081,6 +11517,119 @@ manual_entries.append({
                 "string" : "sala de las mujeres reservada a la familia (cocina, dormitorio de las parejas)",
                 "start" : 10,
                 "end" : 89
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jeáshik (neáshik, sánkat), na. (jeáshkir,ram,ri) = goterón de la casa. Is. jea.",
+    "startpage" : 226,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jeáshik",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "neáshik",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sánkat",
+                "start" : 20,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 30,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "goterón de la casa",
+                "start" : 55,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "jea",
+                "start" : 80,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jeáshik (neáshik, sánkat),",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (jeáshkir,ram,ri)",
+                "start" : 30,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. jea.",
+                "start" : 76,
+                "end" : 84
             },
     ]
 })
@@ -16724,6 +17273,140 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "núnik (nunis, nunin), ni. = como, igual. Aentsua núnik ajásmiayi = se hizo como persona.",
+    "startpage" : 324,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "núnik",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nunis",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nunin",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ni.",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "como",
+                "start" : 29,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "igual",
+                "start" : 35,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "aentsua núnik ajásmiayi",
+                "start" : 42,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "se hizo como persona",
+                "start" : 70,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "núnik (nunis, nunin),",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni.",
+                "start" : 23,
+                "end" : 26
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Nunkuich', na. = nombre de mujer (= pequeña Nunkui).",
     "startpage" : 325,
     "pos_on_page" : 3,
@@ -17573,6 +18256,161 @@ manual_entries.append({
                 "value" : "italic",
                 "string" : "u. (a: tra,tma-r,-)",
                 "start" : 34,
+                "end" : 53
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pachín-kia, (pachíniak), m. (tiur-ka,tiurmak,t-iuk) = incluirse, inmiscuirse, intervenir. Pachiniáyi = intervino, se incluyó.",
+    "startpage" : 338,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pachínkia",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 7,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 13,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 13,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pachíniak",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 27,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 56,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 56,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "incluirse",
+                "start" : 56,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "inmiscuirse",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 80,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 80,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "intervenir",
+                "start" : 80,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "pachiniáyi",
+                "start" : 92,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "intervino, se incluyó",
+                "start" : 106,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pachín-kia, (pachíniak),",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (tiur-ka,tiurmak,t-iuk)",
+                "start" : 27,
                 "end" : 53
             },
     ]
@@ -18987,6 +19825,308 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "sumpé-ar (sempé-ar, sumpé-nk, sempé-nk), m. (para: ntr-ur,ntram-ra, nt-ra) = encogerse, tullirse, atrofiarse, entumecerse, acalambrarse, paralizarse. Tarach' sumpearái = el vestido tarach' se encogió. Napi sumpearái = la culebra se encogió (enroscándose). Aents sumpénku tepáwai = está acostada una persona encogida (tullida, paralizada).",
+    "startpage" : 369,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sumpéar",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sempéar",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 17,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sumpénk",
+                "start" : 22,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 28,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sempénk",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 39,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 45,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "encogerse",
+                "start" : 81,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tullirse",
+                "start" : 92,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atrofiarse",
+                "start" : 102,
+                "end" : 112
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 114,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 114,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entumecerse",
+                "start" : 114,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 127,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 127,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acalambrarse",
+                "start" : 127,
+                "end" : 139
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 141,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 141,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paralizarse",
+                "start" : 141,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "tarach' sumpearái",
+                "start" : 154,
+                "end" : 172
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el vestido tarach' se encogió",
+                "start" : 175,
+                "end" : 205
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "napi sumpearái",
+                "start" : 207,
+                "end" : 222
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la culebra se encogió (enroscándose)",
+                "start" : 225,
+                "end" : 263
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "aents sumpénku tepáwai",
+                "start" : 265,
+                "end" : 289
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "está acostada una persona encogida (tullida, paralizada)",
+                "start" : 292,
+                "end" : 349
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sumpé-ar (sempé-ar, sumpé-nk, sempé-nk),",
+                "start" : 0,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "m. (para: ntr-ur,ntram-ra,",
+                "start" : 45,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nt-ra)",
+                "start" : 72,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "* jíipiar = falta de respiración, dolores intercostálicos.",
     "startpage" : 370,
     "pos_on_page" : 24,
@@ -19138,6 +20278,119 @@ manual_entries.append({
                 "string" : "Hepatitis (sífilis?)",
                 "start" : 26,
                 "end" : 46
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "súrua súrua (surut, suruká), ui. = junto. Surut yukúnkmia = junto tiró ceniza.",
+    "startpage" : 372,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "súrua súrua",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "surut",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suruká",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ui.",
+                "start" : 32,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 38,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 38,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "junto",
+                "start" : 38,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "surut yukúnkmia",
+                "start" : 45,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "junto tiró ceniza",
+                "start" : 64,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "súrua súrua (surut, suruká),",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ui.",
+                "start" : 32,
+                "end" : 35
             },
     ]
 })
@@ -19920,6 +21173,105 @@ manual_entries.append({
                 "string" : "conducto aferente",
                 "start" : 12,
                 "end" : 29
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "shurá, (pii), mch. = voz del tapir y del caballo.",
+    "startpage" : 381,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shurá",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pii",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mch.",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 22,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 22,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "voz del tapir y del caballo",
+                "start" : 22,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "shurá",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(pii),",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mch.",
+                "start" : 15,
+                "end" : 19
             },
     ]
 })
@@ -21005,6 +22357,126 @@ manual_entries.append({
                 "string" : "Is. chuwa!",
                 "start" : 6,
                 "end" : 16
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "churúnak (chirúnak, kaúnak), na. (chirúnka-r,ram,ri) = hojas secas, paja.",
+    "startpage" : 401,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "churúnak",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 11,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 11,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chirúnak",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kaúnak",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 32,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 59,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 59,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hojas secas",
+                "start" : 59,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 72,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 72,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paja",
+                "start" : 72,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "churúnak (chirúnak, kaúnak),",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (chirúnka-r,ram,ri)",
+                "start" : 32,
+                "end" : 56
             },
     ]
 })

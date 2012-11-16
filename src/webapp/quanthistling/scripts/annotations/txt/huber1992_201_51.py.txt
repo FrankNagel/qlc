@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ĩ̵-ki̵-dã† masc. plur., + ĩ̵-ko-dã (fem. plur.)",
     "startpage" : 201,
     "pos_on_page" : 51,
-    "language_bookname" : "orejón",
+    "language_bookname" : "orejón",
     "concept" : "ELLOS_THEY",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 0,
                 "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "orejón",
+                "string" : "orejón",
                 "start" : 27,
                 "end" : 38
             },

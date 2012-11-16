@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "kõˈã́-ri-ge,ɨˈséjo-eri",
     "startpage" : 330,
     "pos_on_page" : 39,
-    "language_bookname" : "yurutí",
+    "language_bookname" : "yurutí",
     "concept" : "EMBOTADO_DULL",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 0,
                 "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "yurutí",
+                "string" : "yurutí",
                 "start" : 14,
                 "end" : 25
             },

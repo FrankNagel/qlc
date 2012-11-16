@@ -49,7 +49,8 @@ entry_table = schema.Table('entry', meta.metadata,
     schema.Column('endcolumn', types.Integer),
     schema.Column('pos_on_page', types.Integer),
     schema.Column('has_manual_annotations', types.Boolean, default=False),
-    schema.Column('volume', types.Integer)
+    schema.Column('volume', types.Integer),
+    schema.Column('filtered', types.Boolean, default=True)
 )
 
 book_table = schema.Table('book', meta.metadata,

@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "pʰiɾaɓaɾí(-si)† imp. sing.",
     "startpage" : 281,
     "pos_on_page" : 6,
-    "language_bookname" : "embera Tadó",
+    "language_bookname" : "embera Tadó",
     "concept" : "PONERSE EN PIE, DE PIE_STAND",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "embera Tadó",
+                "string" : "embera Tadó",
                 "start" : 0,
                 "end" : 15
             },

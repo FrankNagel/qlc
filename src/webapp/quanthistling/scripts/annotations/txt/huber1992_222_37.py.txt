@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ˈwáa-gɨ/(o)-ha mase. sing.",
     "startpage" : 222,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "VAYA, VE_GO",
     "annotations" : [
             {
@@ -30,21 +30,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 9,
                 "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 13,
                 "end" : 15
             },

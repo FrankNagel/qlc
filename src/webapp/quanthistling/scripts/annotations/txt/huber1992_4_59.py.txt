@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "oʔxu, oiʔxu (plur.)",
     "startpage" : 4,
     "pos_on_page" : 59,
-    "language_bookname" : "sáliba",
+    "language_bookname" : "sáliba",
     "concept" : "DIENTE_TOOTH",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "sáliba",
+                "string" : "sáliba",
                 "start" : 6,
                 "end" : 11
             },

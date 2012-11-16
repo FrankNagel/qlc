@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ˈjaa-ãbõ",
     "startpage" : 202,
     "pos_on_page" : 37,
-    "language_bookname" : "bará",
+    "language_bookname" : "bará",
     "concept" : "MI MANO_MY HAND",
     "annotations" : [
             {
@@ -16,7 +16,7 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "bará",
+                "string" : "bará",
                 "start" : 0,
                 "end" : 10
             },

@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "ˈtsɨstɨ, tɕɨstɨ (?)",
     "startpage" : 254,
     "pos_on_page" : 18,
-    "language_bookname" : "totoró",
+    "language_bookname" : "totoró",
     "concept" : "TODOS_ALL",
     "annotations" : [
             {
@@ -23,14 +23,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "totoró",
+                "string" : "totoró",
                 "start" : 9,
                 "end" : 15
             },
