@@ -227,7 +227,7 @@ def insert_nondictdata_to_db(Session, data, book, filename):
         html = re.sub(u"#003", u"-̀", html)
         html = re.sub(u"#004", u"-́", html)
     html = unicodedata.normalize("NFD", html)
-    html = unicodedata.normalize_stroke(html)
+    html = normalize_stroke(html)
     nondictdata.data = html
     nondictdata.book = book
 

@@ -4798,14 +4798,14 @@ manual_entries.append({
     {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "la ",
+                "string" : "la",
                 "start" : 0,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "tsike ",
+                "string" : "tsike",
                 "start" : 8,
                 "end" : 17
             },

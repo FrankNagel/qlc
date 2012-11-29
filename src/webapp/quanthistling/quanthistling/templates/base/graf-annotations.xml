@@ -34,8 +34,9 @@
         </annotationSpaces>
     </graphHeader>
 
-<% offset = 0 ; i = 0 %>
+<% offset = 0 %>
 % for e in c.entries:
+    <% i = 0 %>
 	% for a in c.annotations[e.id]:
         % if a.annotationtype.type in c.annotationtypes:
             <region xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/region" anchors="${offset + a.start} ${offset + a.end}"/>

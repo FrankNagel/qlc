@@ -9,6 +9,7 @@ import shutil
 import socket
 socket.setdefaulttimeout(1000000)
 
+import zipfile
 from zipfile import ZipFile
 
 # add path to script
@@ -155,7 +156,7 @@ def main(argv):
                     file_translations.close()
 
             # create archive
-            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w')
+            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
             for file in glob.glob(os.path.join(temppath, "*.txt")):
                 myzip.write(file, os.path.basename(file))
             myzip.close()
