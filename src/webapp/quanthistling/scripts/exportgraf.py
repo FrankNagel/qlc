@@ -60,7 +60,7 @@ def main(argv):
          
     #http://www.cidles.eu/quanthistling/book/minor1987/hto/spa?format=xml
     for b in quanthistling.dictdata.books.list:
-        #if b['bibtex_key'] != "thiesen1998":
+        #if b['bibtex_key'] != "leach1969":
         #    continue
 
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
@@ -83,9 +83,11 @@ def main(argv):
                 c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
 
                 annotations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
-                c.annotations = collections.defaultdict(list)
+                c.annotations = collections.defaultdict(dict)
                 for a in annotations:
-                    c.annotations[a.entry_id].append(a)
+                    if not c.annotations[a.entry_id]:
+                        c.annotations[a.entry_id] = collections.defaultdict(list)
+                    c.annotations[a.entry_id][(a.start, a.end)].append(a)
 
                 c.count_heads = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"head").count()
                 c.count_translations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"translation").count()

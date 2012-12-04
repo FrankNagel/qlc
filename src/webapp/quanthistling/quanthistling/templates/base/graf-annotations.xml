@@ -37,21 +37,36 @@
 <% offset = 0 %>
 % for e in c.entries:
     <% i = 0 %>
-	% for a in c.annotations[e.id]:
-        % if a.annotationtype.type in c.annotationtypes:
-            <region xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/region" anchors="${offset + a.start} ${offset + a.end}"/>
-    	    <node xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}">
-    	        <link targets="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/region"/>
-    	    </node>
-    	    <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/features" label="${a.value}" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}" as="${c.annotationname}">
-                <fs>
-                    <f name="substring">${a.string}</f>
-                </fs>
-            </a>
-            <edge xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}" from="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry" to="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}" />
-            <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}/annotation" label="${a.value}" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}" as="${c.annotationname}" />
+    <% j = 0 %>
+	% for region in c.annotations[e.id]:
+        <% ann_in_region = [a for a in c.annotations[e.id][region] if a.annotationtype.type in c.annotationtypes] %>
+        <% doculect = [a for a in ann_in_region if a.value == "doculect"] %>
+        <% iso = [a for a in ann_in_region if a.value == "iso-639-3"] %>
+        % if len(ann_in_region) > 0:
+            <region xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${j}/region" anchors="${offset + region[0]} ${offset + region[1]}"/>
+            % for a in c.annotations[e.id][region]:
+                % if a.annotationtype.type in c.annotationtypes:
+            	    <node xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}">
+            	        <link targets="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${j}/region"/>
+            	    </node>
+            	    <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}/features" label="${a.value}" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}" as="${c.annotationname}">
+                        <fs>
+                            <f name="substring">${a.string}</f>
+                            % if a.value != "iso-639-3" and a.value != "doculect" and len(iso) > 0:
+                            <f name="iso-639-3">${iso[0].string}</f>
+                            % endif
+                            % if a.value != "iso-639-3" and a.value != "doculect" and len(doculect) > 0:
+                            <f name="doculect">${doculect[0].string}</f>
+                            % endif
+                        </fs>
+                    </a>
+                    <edge xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}" from="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/entry" to="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/annotation/${i}" />
+                    <a xml:id="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}/annotation" label="${a.value}" ref="${c.book.bibtex_key}/${e.startpage}/${e.pos_on_page}/edge/${i}" as="${c.annotationname}" />
+                % endif
+                <% i += 1 %>
+            % endfor
+            <% j += 1 %>
         % endif
-        <% i += 1 %>
 	% endfor
     <% offset += len(e.fullentry) + 1 %>
 % endfor

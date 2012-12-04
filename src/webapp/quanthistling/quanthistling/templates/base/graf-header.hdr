@@ -16,6 +16,7 @@
          <author>${c.book.author}</author>
          <pubDate>${c.book.year}</pubDate>
          <idno type="ISBN">${c.book.isbn}</idno>
+         <component>${c.dictdata.component.name}</component>
       </sourceDesc>
    </fileDesc>
    <profileDesc>
