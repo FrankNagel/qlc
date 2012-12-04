@@ -65,8 +65,7 @@ def main(argv):
 
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
-        if False:
-        #if c.book:
+        if c.book:
 
             print "Exporting XML data for %s..." % b['bibtex_key']
             #temppath = tempfile.mkdtemp()
