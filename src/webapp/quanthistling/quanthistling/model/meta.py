@@ -5,6 +5,10 @@ from sqlalchemy.orm import scoped_session, sessionmaker, Query
 __all__ = ['Session', 'metadata']
 
 filtered = False
+c = open("development.ini", "r")
+if "filtered = true" in c.read():
+    filtered = True
+c.close()
 
 class CustomQuery(Query):
     def __new__(cls, *args, **kwargs):

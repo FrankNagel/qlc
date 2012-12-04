@@ -1,7 +1,36 @@
 <%inherit file="/base/index.html"/>
 <p>
-    <a href="${h.url_for(controller='search', action='index')}">Search</a>
+This page presents the data digitized and processed by the <a href="http://www.quanthistling.info/">QuantHistLing project</a>
+at the Philips University in Marburg.
 </p>
+
+% if config['filtered'] == "true":
+<h2>Description</h2>
 <p>
-    <a href="${h.url_for(controller='book', action='index')}">Booklist</a>
+This is the <b>filtered</b> version of the corpus. Due to copyright restrictions we are not allowed to publish the whole dataset.
+This version comprises all dictionary and wordlist entries that contain at maximum one word which has a stem that belongs to one
+of the words in the Spanish swadesh list. We used the entries of the
+<a href="http://en.wiktionary.org/wiki/Appendix:Spanish_Swadesh_list">Wikipedia swadesh list</a> to filter our data. Each entry of
+the swadesh list and each entry of our sources was stemmed using the <a href="http://nltk.org/_modules/nltk/stem/snowball.html">
+Snowball stemmer of the NLTK</a> and then compared the the swadesh stem. In case of equality the entry is included in the data you
+will find here.
 </p>
+
+<h2>License</h2>
+<p>
+???
+</p>
+
+<h2>Downloads</h2>
+<p>
+There are two download packages that contain the data from the whole corpus. One contain CSV files and only includes heads and translations in
+the case of the dictionary sources, or concepts and counterparts in the case of wordlist sources. You may uses this data in combination
+with the <a href="http://lingulist.de/lingpy/">lingpy libary</a>, for example. The other packages contains all the basic data and all the annotations that we
+added encoded as <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=37326">ISO 24612</a> (GrAF/XML files). These files
+can be parsed and accesed with the <a href="https://github.com/cidles/graf-python">graf-python library</a>, for example. The download links are:
+<ul>
+<li>CSV files: <a href=""></a></li>
+<li>GrAF/XML files: <a href=""></a></li>
+</ul>
+</p>
+% endif

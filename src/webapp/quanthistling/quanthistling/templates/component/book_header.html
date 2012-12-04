@@ -41,7 +41,7 @@ if current_page != None:
     <div id="booknavigation">
     
     <p class="export-button">
-        <a class="export-button" href="${h.url_for('/downloads/xml/dict-%s-%i-%-i.zip' % (str(c.book.bibtex_key.encode('us-ascii')), c.startpage, c.endpage))}">Dictionary GrAF package</a><br/>
+        <a class="export-button" href="${h.url_for('/downloads/xml/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary GrAF package</a><br/>
         <a class="export-button" href="${h.url_for('/downloads/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
     </p>
     

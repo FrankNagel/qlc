@@ -16,7 +16,7 @@ from quanthistling import model
 class PagesController(BaseController):
 
     def index(self):
-        c.heading = 'Start page'
+        c.heading = 'QuantHistLing Data'
         return render('/derived/pages/index.html')
 
     def dbdump_date(self):

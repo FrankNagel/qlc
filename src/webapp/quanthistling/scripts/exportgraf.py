@@ -65,10 +65,18 @@ def main(argv):
 
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
-        if c.book:
+        if False:
+        #if c.book:
 
             print "Exporting XML data for %s..." % b['bibtex_key']
-            temppath = tempfile.mkdtemp()
+            #temppath = tempfile.mkdtemp()
+            temppath = os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', b['bibtex_key'])
+            if not os.path.exists(temppath):
+                os.mkdir(temppath)
+            else:
+                files = glob.glob(os.path.join(temppath, "*"))
+                for f in files:
+                    os.remove(f)
 
             for c.dictdata in c.book.dictdata:
                 
@@ -142,12 +150,19 @@ def main(argv):
                 oFile.close()
 
             # create archive
-            myzip = zipfile.ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', '%s.zip' % c.basename), 'w', zipfile.ZIP_DEFLATED)
+            myzip = zipfile.ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
             for file in glob.glob(os.path.join(temppath, "*.*")):
                 myzip.write(file, os.path.basename(file))
             myzip.close()
+            #shutil.rmtree(temppath)
         
-            shutil.rmtree(temppath)
+    myzip = zipfile.ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', 'data.zip'), 'w', zipfile.ZIP_DEFLATED)
+    graf_dirs = [d for d in glob.glob(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "*")) if os.path.isdir(d)]
+    for d in graf_dirs:
+        bibtex_key = d[d.rfind(os.sep)+1:]
+        for f in glob.glob(os.path.join(d, "*.*")):
+            myzip.write(f, os.path.join(bibtex_key, os.path.basename(f)))
+    myzip.close()
 
 
     pylons.tmpl_context._pop_object() 
