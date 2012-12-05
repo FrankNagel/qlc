@@ -13,7 +13,8 @@ of the words in the Spanish swadesh list. We used the entries of the
 <a href="http://en.wiktionary.org/wiki/Appendix:Spanish_Swadesh_list">Wikipedia swadesh list</a> to filter our data. Each entry of
 the swadesh list and each entry of our sources was stemmed using the <a href="http://nltk.org/_modules/nltk/stem/snowball.html">
 Snowball stemmer of the NLTK</a>. In case of equality the entry is included in the data you will find here. The Python script that we
-used to filter the entries is available <a href="">here</a>.
+used to filter the entries is available <a href="http://code.google.com/p/qlc/source/browse/trunk/src/webapp/quanthistling/scripts/filter_entries.py">here</a>
+(the filter algorithm starts around line 67).
 </p>
 <p>
 In addition we included one of the sources without any filter, so you have full access to the complete data of the following source:
@@ -32,7 +33,7 @@ There are two download packages that contain the data from the whole corpus. One
 the case of the dictionary sources, or concepts and counterparts in the case of wordlist sources. You may uses this data in combination
 with the <a href="http://lingulist.de/lingpy/">lingpy libary</a>, for example. The other packages contains the complete basic data and annotations
 encoded as <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=37326">ISO 24612</a> (GrAF/XML files). These files
-can be parsed and accesed with the <a href="https://github.com/cidles/graf-python">graf-python library</a>, for example. The download links are:
+may be parsed and accesed with the <a href="https://github.com/cidles/graf-python">graf-python library</a>, for example. The download links are:
 <ul>
 <li>CSV files: <a href="http://www.quanthistling.info/data/downloads/csv/data.zip">http://www.quanthistling.info/data/downloads/csv/data.zip</a></li>
 <li>GrAF/XML files: <a href="http://www.quanthistling.info/data/downloads/xml/data.zip">http://www.quanthistling.info/data/downloads/xml/data.zip</a></li>
