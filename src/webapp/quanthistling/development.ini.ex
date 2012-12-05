@@ -9,6 +9,7 @@ debug = true
 #email_to = pbouda@cidles.eu
 smtp_server = cidles.eu
 error_email_from = paste@localhost
+filtered = false
 
 mail.on = true
 mail.manager = immediate
