@@ -38,9 +38,12 @@ def annotate_everything(entry):
     head_end = functions.get_last_bold_pos_at_start(entry)
 
     com_heads = []
+    match_bracket = re.search(u"\([^)]*\)\.", entry.fullentry) # remove parenthesis and content in heads
+    if match_bracket:
+        head_end = head_end - len(match_bracket.group(0))
     for com in re.finditer(r'(,|;)', entry.fullentry):
         com_heads.append(com.start())
-    
+            
     comma_heads = [ a for a in com_heads if a < head_end ] 
     
     if comma_heads:
@@ -105,9 +108,15 @@ def annotate_everything(entry):
         # translations
         t_start = p_end + 1
         t_end = len(entry.fullentry)
+        print t_end
         
         comma_list = []
-        for com in re.finditer(r'(,|;)', entry.fullentry):
+        match_example = re.search(u",\s\(?ejm\..*", entry.fullentry) # remove parenthesis and content in trans
+        print match_example
+        if match_example:
+            t_end = t_end - len(match_example.group(0))
+            print t_end
+        for com in re.finditer(r'(,|;)', entry.fullentry[t_start:t_end]):
             comma_list.append(com.start())
         
         comma_list_ap = [ a for a in comma_list if a > p_end ] 
@@ -161,7 +170,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=25,pos_on_page=20).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=16,pos_on_page=22).all()
 
         startletters = set()
     
