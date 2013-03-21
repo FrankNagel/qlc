@@ -13511,11 +13511,26 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 55,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 55,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "igualar",
                 "start" : 55,
                 "end" : 61
-            },{
+            },
+            {
                 "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "emparejar",

@@ -80,7 +80,7 @@ def main(argv):
 
             print "  data..."
 
-            data_file.write(u"ID\tCONCEPT\tCOUNTERPART\tCOUNTERPART_DOCULECT\n")
+            data_file.write(u"QLCID\tCONCEPT\tCOUNTERPART\tCOUNTERPART_DOCULECT\n")
 
             for wordlistdata in book.wordlistdata:
 

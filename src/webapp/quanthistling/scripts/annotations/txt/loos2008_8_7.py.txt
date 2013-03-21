@@ -1,0 +1,29 @@
+
+manual_entries.append({
+    "fullentry" : "167. nó?õ yóra / nṍ?õ káihʷo",
+    "startpage" : 8,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nó?õ yóra",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nṍ?õ káihʷo",
+                "start" : 20,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

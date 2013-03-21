@@ -8,6 +8,7 @@ import tempfile
 import glob
 import zipfile
 import shutil
+import codecs
 
 import urllib
 
@@ -57,6 +58,9 @@ def main(argv):
     template_entries_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-entries.xml')).read()
     template_annotations = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-annotations.xml')).read()
     #template_annotations_seg = open(os.path.join(config['pylons.paths']['templates'][0], 'base', 'graf-annotations-seg.xml')).read()        
+
+    metadata_file = codecs.open(os.path.join(config['pylons.paths']['static_files'], 'downloads', "xml", "sources.csv"), "w", "utf-8")
+    metadata_file.write("ID\tTYPE\tLANGUAGES\tIS_READY\tTITLE\tCOMPONENT\n")
          
     #http://www.cidles.eu/quanthistling/book/minor1987/hto/spa?format=xml
     for b in quanthistling.dictdata.books.list:
@@ -66,6 +70,11 @@ def main(argv):
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if c.book:
+
+            # collect book data
+            languages = [ l.language_iso.langcode for dictdata in c.book.dictdata for l in dictdata.src_languages + dictdata.tgt_languages if l.language_iso]
+            components = [ dictdata.component.name for dictdata in c.book.dictdata ]
+            metadata_file.write(u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(c.book.bibtex_key, "dictionary", ",".join(languages), c.book.is_ready, c.book.bookinfo(), ",".join(components)))
 
             print "Exporting XML data for %s..." % b['bibtex_key']
             #temppath = tempfile.mkdtemp()
@@ -154,7 +163,8 @@ def main(argv):
                 myzip.write(file, os.path.basename(file))
             myzip.close()
             #shutil.rmtree(temppath)
-        
+
+    metadata_file.close()
     myzip = zipfile.ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', 'data.zip'), 'w', zipfile.ZIP_DEFLATED)
     graf_dirs = [d for d in glob.glob(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "*")) if os.path.isdir(d)]
     for d in graf_dirs:

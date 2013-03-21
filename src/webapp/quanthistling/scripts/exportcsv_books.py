@@ -40,7 +40,7 @@ def main(argv):
     books = dict()
 
     metadata_file = codecs.open(os.path.join(config['pylons.paths']['static_files'], 'downloads', "csv", "sources.csv"), "w", "utf-8")
-    metadata_file.write("ID\tTYPE\tLANGUAGES\tIS_READY\tTITLE\tCOMPONENT\n")
+    metadata_file.write("QLCID\tTYPE\tLANGUAGES\tIS_READY\tTITLE\tCOMPONENT\n")
 
     for b in quanthistling.dictdata.books.list:
         #if b['bibtex_key'] != "thiesen1998":
