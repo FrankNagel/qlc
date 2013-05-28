@@ -88,7 +88,7 @@ def main(argv):
                     doculect2 = l.language_bookname.name
     
                 print "  data..."
-                data_file.write(u"ID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\n")
+                data_file.write(u"QLCID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\n")
 
                 #c.url_for = url_for
                 #c.base_url = "http://www.quanthistling.info/data"
