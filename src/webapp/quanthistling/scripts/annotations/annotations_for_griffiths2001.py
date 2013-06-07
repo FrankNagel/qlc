@@ -89,8 +89,8 @@ def annotate_everything(entry):
             t_ends.append(spa_t_end)
             t_ends.append(eng_t_end)
             t_lang = [
-                ('spa', 'Spanish'),
-                ('eng', 'English')
+                ('spa', 'Español'),
+                ('eng', 'Inglés')
             ]
             
             for x in range(len(t_starts)):
