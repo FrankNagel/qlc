@@ -22,6 +22,12 @@ from paste.deploy import appconfig
 
 import functions
 
+def insert_head(entry, head_start, head_end):
+    match_star = re.search("\*\s*$", entry.fullentry[head_start:head_end])
+    if match_star:
+        head_end = head_start + match_star.start()
+    functions.insert_head(entry, head_start, head_end)
+
 def annotate_everything(entry):
     # delete head annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -50,25 +56,25 @@ def annotate_everything(entry):
             for i in range(len(c_list)):
                 if i == 0:
                     head_end = c_list[i]
-                    functions.insert_head(entry, h_start, head_end)
+                    insert_head(entry, h_start, head_end)
                 
                     head2_start = c_list[0] + 2
                     if i + 1 < len(c_list):
                         head2_end = c_list[i+1]
-                        functions.insert_head(entry, head2_start, head2_end)
+                        insert_head(entry, head2_start, head2_end)
                     else:
-                        functions.insert_head(entry, head2_start, h_end)
+                        insert_head(entry, head2_start, h_end)
                         c_list = []
                 else:
                     head_start = c_list[i] + 2
                     if i + 1 < len(c_list):
                         head_end = c_list[i+1]
-                        functions.insert_head(entry, head_start, head_end)
+                        insert_head(entry, head_start, head_end)
                     else:
-                        functions.insert_head(entry, head_start, h_end)
+                        insert_head(entry, head_start, h_end)
                         c_list = []
         else:
-            functions.insert_head(entry, h_start, h_end, head)
+            insert_head(entry, h_start, h_end)
         
         # translations
         

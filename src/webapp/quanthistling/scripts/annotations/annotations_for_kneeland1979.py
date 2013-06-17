@@ -23,6 +23,45 @@ from paste.deploy import appconfig
 import functions
 #from manualannotations_for_kneeland1979 import manual_entries
 
+POS = [
+'acomp.',
+'adj.',
+'ANP',
+'ante.',
+'conj.',
+'contr.',
+'cuan.',
+'dec.',
+'des.',
+'dim.',
+'énf.',
+'enf.',
+'excl.',
+'frust.',
+'inten.',
+'intens.',
+'inter.',
+'intr.',
+'n.',
+'neg.',
+'nom.',
+'pas.',
+'pos.',
+'pres.',
+'refl.',
+'recip.',
+'recte.',
+'redun.',
+'refl.',
+'sim.',
+'super.',
+'tr.',
+'1era',
+'3era'
+]
+
+re_pos = re.compile("\,? ({0}) ?$".format('|'.join(POS)), re.I)
+
 def annotate_everything(entry):
     # delete head annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation' or a.value=='pos' or a.value=='example-src' or a.value=='example-tgt' or a.value=='doculect' or a.value=='iso-639-3']
@@ -64,7 +103,7 @@ def annotate_everything(entry):
     
     translation_start = tab_annotations[2]
     translation_end = line_end
-    translation = entry.fullentry[tab_annotations[2]:line_end]
+    translation = entry.fullentry[translation_start:translation_end]
     
     line_start = line_end
     for line_end in newline_positions[1:]:
@@ -97,15 +136,25 @@ def annotate_everything(entry):
     inserted_head = functions.insert_head(entry, head_start, head_end)
     heads.append(inserted_head)
     
-    match_pos = re.search(r"\,? ([Tt]r\.|[Ii]ntr\.|[Tt]r\./[Ii]ntr\.|[Ii]ntr\./[Tt]r\.) ?$", entry.fullentry[translation_start:translation_end])
+    match_pos = re_pos.search(entry.fullentry[translation_start:translation_end])
     if match_pos:
         entry.append_annotation(translation_start + match_pos.start(1), translation_start + match_pos.end(1), u'pos', u'dictinterpretation')
         translation_end = translation_end - len(match_pos.group(0))
-        translation = translation[:-len(match_pos.group(0))]
-    else:
-        translation = re.sub(u"\. ?$", "", translation)
+        #translation = translation[:-len(match_pos.group(0))]
+    #else:
+    #    period_end = re.search("\. ?$", translation)
+    #    if period_end:
+    #        translation_end -= len(period_end.group(0))
+        #translation = re.sub(u"\. ?$", "", translation)
         
-    functions.insert_translation(entry, translation_start, translation_end, translation)
+    # TODO: split translation at comma
+    t_s = 0
+    translation = entry.fullentry[translation_start:translation_end]
+    for match in re.finditer("(?:,\s*|\.? ?$)", translation):
+        t = entry.fullentry[translation_start + t_s:translation_start + match.start(0)]
+        functions.insert_translation(entry, translation_start + t_s, translation_start + match.start(0), t)
+        t_s = match.end(0)
+
     if example_tgt != "":
         entry.append_annotation(example_src_start, example_src_end, u'example-src', u'dictinterpretation')
         entry.append_annotation(example_tgt_start, example_tgt_end, u'example-tgt', u'dictinterpretation')
@@ -135,7 +184,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=214,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=211,pos_on_page=6).all()
         
         startletters = set()
     

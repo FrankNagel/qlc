@@ -118,8 +118,8 @@ list = [
         'bibtex_key' : u'burtch1983',
         'pages' : 262,
         'columns' : 2,
-	'is_ready' : True,
-	'type' : 'dictionary',
+        'is_ready' : False,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 19,
@@ -139,7 +139,7 @@ list = [
                 'endpage' : 18,
                 'title': u'Start pages',
                 'file' : 'witotoan/burtch1983_nondictdata_1_18.html',
-		'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ]
     },
@@ -150,8 +150,8 @@ list = [
         'bibtex_key' : u'leach1969',
         'pages' : 176,
         'columns' : 2,
-	'is_ready' : True,
-	'type' : 'dictionary',
+        'is_ready' : True,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 67,
