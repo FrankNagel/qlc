@@ -1997,4 +1997,36 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Diccionario Nomatsiguenga ~ Castellano',
+        'author' : u'Shaver, Harold',
+        'year' : 1996,
+        'bibtex_key' : u'shaver1996',
+        'pages' : 327,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 73,
+                'endpage' : 218,
+                'src_language_name' : u'Nomatsiguenga',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Nomatsiguenga',
+                'tgt_language_bookname' : u'Castellano',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arawak/shaver1996_dictdata_73_218.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 72,
+                'title': u'Start pages',
+                'file' : 'arawak/shaver1996_nondictdata_1_72.html',
+                'component' : 'Arawak'
+            },
+        ]
+    }
 ]

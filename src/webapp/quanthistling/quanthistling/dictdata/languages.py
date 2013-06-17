@@ -1354,4 +1354,11 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=ame'
     },
+    
+    {
+        'name' : u'Nomatsiguenga',
+        'langcode': u'not',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=not'
+    },
 ]
