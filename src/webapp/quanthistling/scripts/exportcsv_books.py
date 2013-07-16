@@ -79,12 +79,14 @@ def main(argv):
                     if l.language_iso:
                         iso = l.language_iso.langcode
                     data_file.write(u"@doculect: {0}, {1}, {2}, {3}\n".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
+                    data_file.write(u"@head_iso: {0}\n".format(iso))
                     doculect1 = l.language_bookname.name
                 for l in dictdata.tgt_languages:
                     iso = "n/a"
                     if l.language_iso:
                         iso = l.language_iso.langcode
                     data_file.write(u"@doculect: {0}, {1}, {2}, {3}\n".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
+                    data_file.write(u"@translation_iso: {0}\n".format(iso))
                     doculect2 = l.language_bookname.name
     
                 print "  data..."

@@ -88,7 +88,6 @@ def main(argv):
 
             for c.dictdata in c.book.dictdata:
                 
-                print "  header..."
     
                 c.url_for = url_for
                 c.base_url = "http://www.quanthistling.info/data"
@@ -96,8 +95,13 @@ def main(argv):
 
                 #c.heading = c.book.bookinfo()
                 c.basename = "dict-%s-%i-%i" % (b['bibtex_key'], c.dictdata.startpage, c.dictdata.endpage)
+
+                print "  getting entries..."
+                
                 c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
 
+                print "  getting annotations..."
+                
                 annotations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).order_by("startpage", "pos_on_page").all()
                 c.annotations = collections.defaultdict(dict)
                 for a in annotations:
@@ -105,6 +109,8 @@ def main(argv):
                         c.annotations[a.entry_id] = collections.defaultdict(list)
                     c.annotations[a.entry_id][(a.start, a.end)].append(a)
 
+                print "  getting counts..."
+                
                 c.count_heads = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"head").count()
                 c.count_translations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"translation").count()
                 c.count_pos = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"pos").count()
@@ -114,6 +120,8 @@ def main(argv):
 
                 #xml =  render('/derived/book/dictdata.xml')
                 #xml = literal(template.render_unicode(c))
+
+                print "  header..."
 
                 # write header
                 xml = Template(template_header, lookup=mylookup).render_unicode(c=c)
