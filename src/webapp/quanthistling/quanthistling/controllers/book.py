@@ -12,6 +12,7 @@ from BeautifulSoup import BeautifulSoup
 from pylons import request, response, session, tmpl_context as c, url
 from pylons import config
 from pylons.controllers.util import abort, redirect
+from pylons.decorators.cache import beaker_cache
 
 from quanthistling.lib.base import BaseController, render
 from quanthistling import model
@@ -43,9 +44,10 @@ class BookController(BaseController):
             c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=bibtexkey).first()
             if not c.book:
                 abort(404)
-            c.corpushistory = model.meta.Session.query(model.Corpusversion).all()
-            c.corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
-            c.iso_time = c.corpusversion.updated.strftime("%Y-%m-%dT%H:%M:%S")
+            corpushistory = model.meta.Session.query(model.Corpusversion).all()
+            corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
+            c.iso_time = corpusversion.updated.strftime("%Y-%m-%dT%H:%M:%S")
+            c.version_number = "{0}.{1}".format(corpusversion.version, corpusversion.revision)
             c.bibtexkey = bibtexkey
             if c.book.type == "wordlist":
                 c.startpage = c.book.wordlistdata_startpage()
@@ -103,18 +105,21 @@ class BookController(BaseController):
                 c.startpage = int(startpage)
                 c.endpage = int(endpage)
 
+    @beaker_cache()
     def index(self):
         c.heading = 'List of Books'
         c.books = model.meta.Session.query(model.Book).order_by(model.Book.bibtex_key).all()
         #c.components = model.meta.Session.query(model.Component)
         return render('/derived/book/index.html')
 
+    @beaker_cache()
     def wordlists(self):
         c.heading = 'List of Wordlist Books'
         c.books = model.meta.Session.query(model.Book).filter_by(type='wordlist').order_by(model.Book.bibtex_key).all()
         #c.components = model.meta.Session.query(model.Component)
         return render('/derived/book/wordlists.html')
 
+    @beaker_cache()
     def view(self, bibtexkey):
         c.heading = c.book.bookinfo_with_status()
         #c.wikicontent = h.get_trac_wiki_book_article(bibtex_key)
@@ -124,6 +129,7 @@ class BookController(BaseController):
         elif c.book.type == 'wordlist':
             return render('/derived/book/view_wordlist.html')
     
+    @beaker_cache()
     def dictdata(self, bibtexkey, startpage, endpage, format):
         c.heading = ""
         if c.book:
@@ -143,19 +149,20 @@ class BookController(BaseController):
         else:
             abort(404)
 
-    def create_xml_dictdata(self, bibtexkey, startpage, endpage, format):
-        c.heading = c.book.bookinfo()
-        if c.book:
-            if format == 'xml':
-                c.entries = model.meta.Session.query(model.Entry).filter(and_(model.Entry.dictdata_id==c.dictdata.id, model.Entry.is_subentry==False)).all()
-                response.headers['content-type'] = 'text/xml; charset=utf-8'
-                response.headers['content-disposition'] = 'attachment; filename=dictionary-%s-%s-%s.xml' % (bibtexkey, startpage, endpage)
-                return render('/derived/book/dictdata.xml')
-            else:
-                abort(404)
-        else:
-            abort(404)
+    # def create_xml_dictdata(self, bibtexkey, startpage, endpage, format):
+    #     c.heading = c.book.bookinfo()
+    #     if c.book:
+    #         if format == 'xml':
+    #             c.entries = model.meta.Session.query(model.Entry).filter(and_(model.Entry.dictdata_id==c.dictdata.id, model.Entry.is_subentry==False)).all()
+    #             response.headers['content-type'] = 'text/xml; charset=utf-8'
+    #             response.headers['content-disposition'] = 'attachment; filename=dictionary-%s-%s-%s.xml' % (bibtexkey, startpage, endpage)
+    #             return render('/derived/book/dictdata.xml')
+    #         else:
+    #             abort(404)
+    #     else:
+    #         abort(404)
             
+    @beaker_cache()
     def nondictdata(self, bibtexkey, title, startpage, endpage):
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=bibtexkey).first()
         nondictdata = model.meta.Session.query(model.Nondictdata).filter_by(book_id=c.book.id, startpage=int(startpage), endpage=int(endpage)).first()
@@ -169,42 +176,43 @@ class BookController(BaseController):
         else:
             abort(404)
 
-    def annotations_for_dictdata(self, bibtexkey, startpage, endpage, annotationtype, format):
-        c.heading = ""
-        if c.book:
-            if format == 'xml':
-                c.heading = c.book.bookinfo() + ", Annotations"
-                #c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).all()
-                xml_file = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%s-%s-%s-annotations.xml" % (bibtexkey, startpage, endpage, annotationtype)),'rb')
-                data = xml_file.read()
-                xml_file.close()
-                response.headers['content-type'] = 'text/xml; charset=utf-8'
-                response.headers['content-disposition'] = 'attachment; filename=dictionary-%s-%s-%s-%s-annotations.xml' % (bibtexkey, startpage, endpage, annotationtype)
-                return data
-            else:
-                c.heading = c.book.bookinfo_with_status() + ", Annotations"
-                return render('/derived/book/view.html')
-        else:
-            abort(404)
+    # def annotations_for_dictdata(self, bibtexkey, startpage, endpage, annotationtype, format):
+    #     c.heading = ""
+    #     if c.book:
+    #         if format == 'xml':
+    #             c.heading = c.book.bookinfo() + ", Annotations"
+    #             #c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).all()
+    #             xml_file = open(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', "dictionary-%s-%s-%s-%s-annotations.xml" % (bibtexkey, startpage, endpage, annotationtype)),'rb')
+    #             data = xml_file.read()
+    #             xml_file.close()
+    #             response.headers['content-type'] = 'text/xml; charset=utf-8'
+    #             response.headers['content-disposition'] = 'attachment; filename=dictionary-%s-%s-%s-%s-annotations.xml' % (bibtexkey, startpage, endpage, annotationtype)
+    #             return data
+    #         else:
+    #             c.heading = c.book.bookinfo_with_status() + ", Annotations"
+    #             return render('/derived/book/view.html')
+    #     else:
+    #         abort(404)
         
-    def create_xml_annotations_for_dictdata(self, bibtexkey, startpage, endpage, annotationtype, format):
-        c.heading = c.book.bookinfo() + ", Annotations"
-        c.ces_doc_url = url_for(controller='book', action='create_xml_dictdata', bibtexkey=bibtexkey, startpage=startpage, endpage=endpage, format='xml', qualified=True)
-        if c.book:
-            if format == 'xml':
-                c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).all()
-                if annotationtype == "formatting":
-                    c.annotationtypes = [ "pagelayout", "formatting" ]
-                elif annotationtype == "dictinterpretation":
-                    c.annotationtypes = [ "dictinterpretation", "orthographicinterpretation", "errata" ]
-                response.headers['content-type'] = 'text/xml; charset=utf-8'
-                response.headers['content-disposition'] = 'attachment; filename=dictionary-%s-%s-%s-%s-annotations.xml' % (bibtexkey, startpage, endpage, annotationtype)
-                return render('/derived/book/annotations_for_dictdata.xml')
-            else:
-                abort(404)
-        else:
-            abort(404)
+    # def create_xml_annotations_for_dictdata(self, bibtexkey, startpage, endpage, annotationtype, format):
+    #     c.heading = c.book.bookinfo() + ", Annotations"
+    #     c.ces_doc_url = url_for(controller='book', action='create_xml_dictdata', bibtexkey=bibtexkey, startpage=startpage, endpage=endpage, format='xml', qualified=True)
+    #     if c.book:
+    #         if format == 'xml':
+    #             c.entries = model.meta.Session.query(model.Entry).filter(model.Entry.dictdata_id==c.dictdata.id).all()
+    #             if annotationtype == "formatting":
+    #                 c.annotationtypes = [ "pagelayout", "formatting" ]
+    #             elif annotationtype == "dictinterpretation":
+    #                 c.annotationtypes = [ "dictinterpretation", "orthographicinterpretation", "errata" ]
+    #             response.headers['content-type'] = 'text/xml; charset=utf-8'
+    #             response.headers['content-disposition'] = 'attachment; filename=dictionary-%s-%s-%s-%s-annotations.xml' % (bibtexkey, startpage, endpage, annotationtype)
+    #             return render('/derived/book/annotations_for_dictdata.xml')
+    #         else:
+    #             abort(404)
+    #     else:
+    #         abort(404)
 
+    @beaker_cache()
     def page_with_layout(self, bibtexkey, pagenr):
         c.heading = c.book.bookinfo_with_status() + ", Page " + pagenr
         c.pagenr = pagenr
@@ -218,13 +226,14 @@ class BookController(BaseController):
         else:
             abort(404)
         
+    @beaker_cache()
     def page(self, bibtexkey, pagenr):
         c.heading = c.book.bookinfo_with_status() + ", Page " + pagenr
         c.pagenr = pagenr
         c.entries = []
         if c.book:
             if c.book.type == "dictionary":
-                c.entries = model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr))
+                c.entries = model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).order_by(model.Entry.pos_on_page)
                 return render('/derived/book/page.html')
             elif c.book.type  == "wordlist":
                 c.entries = model.meta.Session.query(model.WordlistEntry).join(
@@ -235,6 +244,7 @@ class BookController(BaseController):
         else:
             abort(404)
         
+    @beaker_cache()
     def letter(self, bibtexkey, startpage, endpage, startletter):
         c.heading = c.book.bookinfo_with_status() + ", Letter " + startletter
         c.entries = []
@@ -262,6 +272,7 @@ class BookController(BaseController):
         else:
             abort(404)
 
+    @beaker_cache()
     def concept_wordlist(self, bibtexkey, concept):
         c.heading = c.book.bookinfo_with_status() + ", Concept " + concept
         c.concept = concept
@@ -273,12 +284,13 @@ class BookController(BaseController):
                     (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
                 ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.WordlistConcept.concept==concept).first()
                 c.entries = concept_db.entries
-                print "!!!!!!!!!!!!!!!!!"
-                print c.entries
+                #print "!!!!!!!!!!!!!!!!!"
+                #print c.entries
                 return render('/derived/book/page_wordlist.html')                
         else:
             abort(404)
 
+    @beaker_cache()
     def language_wordlist(self, bibtexkey, language_bookname, format):
         c.heading = c.book.bookinfo_with_status() + ", Language " + language_bookname
         c.language_bookname = language_bookname

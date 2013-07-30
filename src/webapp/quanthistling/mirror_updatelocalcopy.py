@@ -7,7 +7,7 @@ import codecs
 from zipfile import ZipFile
 from subprocess import call 
 
-POSTGRES_BIN_PATH = "C:\\Program Files\\PostgreSQL\\9.2\\bin"
+POSTGRES_BIN_PATH = "C:\\Program Files (x86)\\PostgreSQL\\8.4\\bin"
 #POSTGRES_BIN_PATH = "/usr/local/bin"
 
 print("Downloading dump file...")

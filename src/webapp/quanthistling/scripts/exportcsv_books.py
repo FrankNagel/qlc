@@ -90,7 +90,7 @@ def main(argv):
                     doculect2 = l.language_bookname.name
     
                 print "  data..."
-                data_file.write(u"QLCID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\n")
+                data_file.write(u"QLCID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\tPOS\n")
 
                 #c.url_for = url_for
                 #c.base_url = "http://www.quanthistling.info/data"
@@ -108,6 +108,7 @@ def main(argv):
                 for e in entries:
                     heads = []
                     translations = []
+                    pos = []
                     doculects_heads = []
                     doculects_translations = []
                     entry_id = "{0}/{1}/{2}".format(book.bibtex_key, e.startpage, e.pos_on_page)
@@ -133,10 +134,14 @@ def main(argv):
                                 doculect = doculect2
                             doculects_translations.append(doculect)
 
+
+                        elif a.value == "pos":
+                            pos.append(a.string)
+
                     for i, head in enumerate(heads):
                         for j, translation in enumerate(translations):
-                            data_file.write(u"{0}\t{1}\t{2}\t{3}\t{4}\n".format(
-                                entry_id, head, doculects_heads[i], translation, doculects_translations[j]
+                            data_file.write(u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
+                                entry_id, head, doculects_heads[i], translation, doculects_translations[j], "|".join(pos)
                             ))
 
 

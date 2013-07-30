@@ -15,7 +15,7 @@ def main(argv):
     exportcsv_books.main(["exportcsv_books.py", ini_file])
     exportcsv_wordlists.main(["exportcsv_wordlists.py", ini_file])
     exportgraf.main(["exportgraf.py", ini_file])
-    exportbookdata.main(["exportbookdata.py", ini_file])
+    #exportbookdata.main(["exportbookdata.py", ini_file])
 
 if __name__ == "__main__":
     main(sys.argv)

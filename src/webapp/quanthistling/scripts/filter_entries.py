@@ -79,10 +79,8 @@ def main(argv):
                                             stem = stemmer.stem(phrase)
                                             if stem in swadesh_entries:
                                                 e.filtered = False
-                                        #for word in phrase.split(" "):
-                                        #    stem = stemmer.stem(word)
-                                        #    if stem in swadesh_entries:
-                                        #        e.filtered = False
+#                                                if e.is_subentry:
+#                                                    e.mainentry().filtered = False
 
                 Session.commit()
 

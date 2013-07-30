@@ -20,5 +20,5 @@ class PagesController(BaseController):
         return render('/derived/pages/index.html')
 
     def dbdump_date(self):
-        stats = os.stat(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'csv.zip'))
+        stats = os.stat(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'csv', 'data.zip'))
         return time.strftime("%Y/%m/%d %H:%M:%S", time.localtime(stats[8]))

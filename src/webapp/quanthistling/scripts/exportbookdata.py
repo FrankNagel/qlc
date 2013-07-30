@@ -6,8 +6,8 @@ import re
 import tempfile
 import shutil
 
-import socket
-socket.setdefaulttimeout(1000000)
+#import socket
+#socket.setdefaulttimeout(1000000)
 
 import zipfile
 from zipfile import ZipFile
@@ -79,7 +79,7 @@ def main(argv):
                             if mainentry:
                                 url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=mainentry.startpage, pos_on_page=mainentry.pos_on_page, format='html')
                             else:
-                                print "nio main entry found for sub entry on page %i pos on page %i." % (heads[i].entry.startpage, heads[i].entry.pos_on_page)
+                                print u"no main entry found for sub entry on page %i pos on page %i." % (heads[i].entry.startpage, heads[i].entry.pos_on_page)
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=heads[i].entry.startpage, pos_on_page=heads[i].entry.pos_on_page, format='html')
                         file_heads.write(head.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")

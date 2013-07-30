@@ -47,9 +47,11 @@ def main(argv):
     py_obj = PylonsContext() 
     py_obj.tmpl_context = c
     pylons.tmpl_context._push_object(c)
-    c.corpushistory = model.meta.Session.query(model.Corpusversion).all()
-    c.corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
-    c.iso_time = c.corpusversion.updated.strftime("%Y-%m-%d")
+    #corpushistory = model.meta.Session.query(model.Corpusversion).all()
+    corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
+    c.iso_time = corpusversion.updated.strftime("%Y-%m-%d")
+    c.version_number = "{0}.{1}".format(corpusversion.version, corpusversion.revision)
+
     
     # template_entries_seg
     mylookup = TemplateLookup(directories=config['pylons.paths']['templates'])
