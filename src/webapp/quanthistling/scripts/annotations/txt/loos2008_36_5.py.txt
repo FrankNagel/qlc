@@ -1,0 +1,43 @@
+
+manual_entries.append({
+    "fullentry" : "837. He cogido \"tonon\". mĩ̵w̃ĩ̵ ri̵boṣ̀a p̵ía  / rí̵boṣ̀a mĩ̵ p̵ía",
+    "startpage" : 36,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "He cogido tonon",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mĩ̵w̃ĩ̵ ri̵boṣ̀a p̵ía  / rí̵boṣ̀a mĩ̵ p̵ía",
+                "start" : 24,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+    ]
+})
