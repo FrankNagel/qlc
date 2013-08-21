@@ -20,6 +20,13 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cólli̵hi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "bmr",
                 "start" : 15,
@@ -31,48 +38,6 @@ manual_entries.append({
                 "string" : "Muinane",
                 "start" : 15,
                 "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 39,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 39,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 51,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 51,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cólli̵hi",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vd.",
-                "start" : 11,
-                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
@@ -90,10 +55,38 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 39,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "Por qué",
                 "start" : 39,
                 "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 51,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 51,
+                "end" : 60
             },
             {
                 "type" : "dictinterpretation",

@@ -20,76 +20,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 43,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 43,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 56,
-                "end" : 66
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 56,
-                "end" : 66
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 68,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 68,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 83,
-                "end" : 95
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 83,
-                "end" : 95
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 97,
-                "end" : 233
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 97,
-                "end" : 233
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "raìllano",
                 "start" : 0,
@@ -98,9 +28,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "v. con suf. desinencial -llano",
+                "string" : "v.",
                 "start" : 11,
-                "end" : 41
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 43,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 43,
+                "end" : 54
             },
             {
                 "type" : "dictinterpretation",
@@ -111,10 +55,38 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 56,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 56,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "no sea que",
                 "start" : 56,
                 "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 68,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 68,
+                "end" : 81
             },
             {
                 "type" : "dictinterpretation",
@@ -125,6 +97,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 83,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 83,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "por miedo de",
                 "start" : 83,
@@ -132,10 +118,24 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "a fin de que (Ocurre con el imperativo de otro verbo, o con una forma de otro verbo que consiste del imperativo más la vocal i o -ji.)",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 97,
                 "end" : 233
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 97,
+                "end" : 233
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "a fin de que",
+                "start" : 97,
+                "end" : 109
             },
             {
                 "type" : "dictinterpretation",

@@ -10255,38 +10255,24 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 18,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 18,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "xo",
                 "start" : 0,
                 "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 5,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
@@ -10297,10 +10283,17 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "objeto",
-                "start" : 8,
-                "end" : 16
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 18,
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
@@ -10312,9 +10305,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "m.d. sujeto",
-                "start" : 27,
-                "end" : 42
+                "string" : "m.d.",
+                "start" : 28,
+                "end" : 32
             },
             {
                 "type" : "pagelayout",

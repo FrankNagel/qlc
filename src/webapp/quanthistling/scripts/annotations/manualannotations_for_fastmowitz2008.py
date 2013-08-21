@@ -134,7 +134,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "áwai v.i. hay [3a ps.sg. presente del v. átin].",
     "startpage" : 104,
-    "pos_on_page" : 26,
+    "pos_on_page" : 25,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -233,7 +233,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "awártu (C) (vea awaríntu).",
     "startpage" : 105,
-    "pos_on_page" : 16,
+    "pos_on_page" : 13,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -1381,308 +1381,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "etsérkatin v.t. 1. proclamar, notificar, declarar, anunciar, comunicar avisar, informar. 2. predicar. 3. relatar. (sinón. ujáktin).",
-    "startpage" : 123,
-    "pos_on_page" : 21,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 42,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 42,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 52,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 52,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 62,
-                "end" : 78
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 62,
-                "end" : 78
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 80,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 80,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 92,
-                "end" : 103
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 92,
-                "end" : 103
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 105,
-                "end" : 115
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 105,
-                "end" : 115
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "etsérkatin",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v.t.",
-                "start" : 12,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "proclamar",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "notificar",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "declarar",
-                "start" : 42,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "anunciar",
-                "start" : 52,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "comunicar avisar",
-                "start" : 62,
-                "end" : 78
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "informar",
-                "start" : 80,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "predicar",
-                "start" : 92,
-                "end" : 103
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "relatar",
-                "start" : 105,
-                "end" : 115
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "ujáktin",
-                "start" : 124,
-                "end" : 132
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "etsérkatin",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "v.t.",
-                "start" : 12,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "ujáktin",
-                "start" : 124,
-                "end" : 132
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 114,
-                "end" : 114
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "ichái, chaj interj. ¡ay!",
     "startpage" : 124,
     "pos_on_page" : 5,
@@ -1777,7 +1475,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "ijúkratin s. animal, insecto, o pez que pica.",
     "startpage" : 125,
-    "pos_on_page" : 31,
+    "pos_on_page" : 29,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -1869,7 +1567,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "itúr, itiúr adv. cómo [el adv. itúr, itiúr varía según la persona]. ¿Itúra nekápeame̱? ¿Cómo te sientes? ¿Itúr nekáatjak? ¿Cómo lo voy a saber?/¿Qué sé yo? ¿Itúrkamnawaita? ¿Cómo se puede hacerlo? ¿Itúrkatjak? ¿Qué voy a hacer? Itiúrtaintia/¿Itiúrtaingki? ¿Para qué sirve? (vea Notas gramaticales 5.5).",
     "startpage" : 134,
-    "pos_on_page" : 30,
+    "pos_on_page" : 26,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -2988,7 +2686,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "Kurín, Kurínt s. el río Corrientes.",
     "startpage" : 174,
-    "pos_on_page" : 35,
+    "pos_on_page" : 31,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -4501,7 +4199,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "métek nintímtikratin s. unificador.",
     "startpage" : 188,
-    "pos_on_page" : 10,
+    "pos_on_page" : 9,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -4938,7 +4636,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "mujú̱u̱, s. sanguijuela, callo callo.",
     "startpage" : 192,
-    "pos_on_page" : 25,
+    "pos_on_page" : 24,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -5037,436 +4735,6 @@ manual_entries.append({
                 "string" : "s.",
                 "start" : 10,
                 "end" : 12
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "nántu tantéenkayi la luna tiene un círculo. 2. mes.",
-    "startpage" : 202,
-    "pos_on_page" : 14,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 20,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 20,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 49,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 49,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "nántu tantéenkayi",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "la luna tiene un círculo",
-                "start" : 20,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "mes",
-                "start" : 49,
-                "end" : 54
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "nántu tantéenkayi",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 46,
-                "end" : 46
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "nántu yántumui/nántu nántumui cuarto creciente (lit. la luna se ha puesto de un lado).",
-    "startpage" : 202,
-    "pos_on_page" : 5,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 17,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 17,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 33,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 33,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "nántu yántumui",
-                "start" : 0,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "nántu nántumui",
-                "start" : 17,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cuarto creciente (lit. la luna se ha puesto de un lado)",
-                "start" : 33,
-                "end" : 90
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "nántu yántumui/nántu nántumui",
-                "start" : 0,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "Aviónka kakármari mutúra kakármari nángkamasketai. La fuerza del avión es mayor que la fuerza del motor. 2. después de.",
-    "startpage" : 203,
-    "pos_on_page" : 4,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 56,
-                "end" : 110
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 56,
-                "end" : 110
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 113,
-                "end" : 126
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 113,
-                "end" : 126
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "Aviónka kakármari mutúra kakármari nángkamasketai.",
-                "start" : 0,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "La fuerza del avión es mayor que la fuerza del motor.",
-                "start" : 56,
-                "end" : 110
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "después de",
-                "start" : 113,
-                "end" : 126
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Aviónka kakármari mutúra",
-                "start" : 0,
-                "end" : 27
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "kakármari nángkamasketai.",
-                "start" : 28,
-                "end" : 55
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 27,
-                "end" : 27
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 28,
-                "end" : 28
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 28,
-                "end" : 28
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 58,
-                "end" : 58
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 59,
-                "end" : 59
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 59,
-                "end" : 59
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 92,
-                "end" : 92
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 93,
-                "end" : 93
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 93,
-                "end" : 93
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 110,
-                "end" : 110
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 111,
-                "end" : 111
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 111,
-                "end" : 111
             },
     ]
 })
@@ -5671,7 +4939,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "natík s. arpón para cazar charapas, lagartos, gamitanas, súngaros, etc. (sinón. tucháng).",
     "startpage" : 205,
-    "pos_on_page" : 31,
+    "pos_on_page" : 30,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -6002,161 +5270,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 37,
                 "end" : 37
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "nayáp juké diseño que se hace en las cintas tejidas. 2. nombre de hombre.",
-    "startpage" : 207,
-    "pos_on_page" : 12,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 13,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 13,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 58,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 58,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "nayáp juké",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "diseño que se hace en las cintas tejidas",
-                "start" : 13,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nombre de hombre",
-                "start" : 58,
-                "end" : 76
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "nayáp juké",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 24,
-                "end" : 24
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 25,
-                "end" : 25
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 25,
-                "end" : 25
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 55,
-                "end" : 55
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 56,
-                "end" : 56
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 56,
-                "end" : 56
             },
     ]
 })
@@ -6685,7 +5798,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "núka najántramu crisneja (lit. hojas tejidas).",
     "startpage" : 216,
-    "pos_on_page" : 7,
+    "pos_on_page" : 6,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -6770,7 +5883,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "-numia suf. de, procedente de; oriundo de. Aints ikiámnumia wináwai. El hombre viene del monte.",
     "startpage" : 217,
-    "pos_on_page" : 11,
+    "pos_on_page" : 3,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -7383,7 +6496,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "pitách s. tamo, paja menuda del arroz, el maní, el frijol, etc.",
     "startpage" : 236,
-    "pos_on_page" : 38,
+    "pos_on_page" : 35,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -7735,7 +6848,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "putʰ onom. sonido de romperse una cinta magnetofónica.",
     "startpage" : 241,
-    "pos_on_page" : 20,
+    "pos_on_page" : 19,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -12708,389 +11821,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "tséntsak mesértin hacer virotes para pucunas. 3. “dardo” con el que los brujos causan dolores. Tséntsak kutáyi. He sido embrujado (lit. un virote me ha herido).",
-    "startpage" : 292,
-    "pos_on_page" : 2,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 20,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 20,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 51,
-                "end" : 95
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 51,
-                "end" : 95
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tséntsak mesértin",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "hacer virotes para pucunas",
-                "start" : 20,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "dardo con el que los brujos causan dolores",
-                "start" : 51,
-                "end" : 95
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Tséntsak kutáyi.",
-                "start" : 97,
-                "end" : 115
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "He sido embrujado (lit. un virote me ha herido).",
-                "start" : 115,
-                "end" : 164
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tséntsak mesértin",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Tséntsak kutáyi.",
-                "start" : 97,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 48,
-                "end" : 48
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 48,
-                "end" : 48
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 155,
-                "end" : 155
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 156,
-                "end" : 156
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 156,
-                "end" : 156
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "numpé jíinkit túsar tsentsármau sangría de árboles. 2. línea, raya.",
-    "startpage" : 292,
-    "pos_on_page" : 4,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 60,
-                "end" : 67
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 60,
-                "end" : 67
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 69,
-                "end" : 74
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 69,
-                "end" : 74
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "numpé jíinkit túsar tsentsármau",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sangría de árboles",
-                "start" : 36,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "línea",
-                "start" : 60,
-                "end" : 67
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "raya",
-                "start" : 69,
-                "end" : 74
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "numpé jíinkit túsar tsentsármau",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 57,
-                "end" : 57
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 58,
-                "end" : 58
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 58,
-                "end" : 58
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "tsuk ͪ onom. sonido de destapar una botella.",
     "startpage" : 293,
-    "pos_on_page" : 30,
+    "pos_on_page" : 29,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -13187,157 +11920,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "mésrai tíri nap wáinkatin conservar, preservar. 5. conocer.",
-    "startpage" : 310,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 29,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 29,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 40,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 40,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "mésrai tíri nap wáinkatin",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "conservar",
-                "start" : 29,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "preservar",
-                "start" : 40,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "conocer",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "mésrai tíri nap wáinkatin",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 50,
-                "end" : 50
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "wáitnasmau [pasado], wáit wajámu, wáit wajákmau, wáitjakmau, wáitnati [futuro] s. aflicción, sufrimiento, tribulación, padecimiento.",
     "startpage" : 311,
-    "pos_on_page" : 24,
+    "pos_on_page" : 23,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -13639,70 +12224,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 106,
                 "end" : 106
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "wínaruitai es mío.",
-    "startpage" : 325,
-    "pos_on_page" : 26,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 12,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 12,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wínaruitai",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "es mío",
-                "start" : 12,
-                "end" : 19
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "wínaruitai",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
             },
     ]
 })
@@ -14020,210 +12541,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 0,
                 "end" : 0
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "yasúch chícham castellano. (sinón. wíakach chícham, wiákcha chicháme̱). 2. nuca, cerviz, cogote.",
-    "startpage" : 337,
-    "pos_on_page" : 21,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 0,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 0,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 88,
-                "end" : 94
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 88,
-                "end" : 94
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 96,
-                "end" : 102
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 96,
-                "end" : 102
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "yasúch chícham",
-                "start" : 0,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "castellano",
-                "start" : 17,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "wíakach chícham",
-                "start" : 38,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "wiákcha chicháme̱",
-                "start" : 57,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cerviz",
-                "start" : 88,
-                "end" : 94
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cogote",
-                "start" : 96,
-                "end" : 102
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "yasúch chícham",
-                "start" : 0,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "wíakach chícham, wiákcha",
-                "start" : 38,
-                "end" : 65
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "chichám",
-                "start" : 66,
-                "end" : 74
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "e̱",
-                "start" : 74,
-                "end" : 76
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 65,
-                "end" : 65
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 66,
-                "end" : 66
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 66,
-                "end" : 66
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 78,
-                "end" : 78
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 79,
-                "end" : 79
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 79,
-                "end" : 79
             },
     ]
 })
@@ -16732,438 +15049,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "bajar frutos de los árboles akáktin; para otras personas akárkatin; para uno mismo akármaktin.",
-    "startpage" : 371,
-    "pos_on_page" : 32,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 28,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 28,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "bajar frutos de los árboles",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "akáktin",
-                "start" : 28,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "para otras personas",
-                "start" : 39,
-                "end" : 58
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "akárkatin",
-                "start" : 59,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "para uno mismo",
-                "start" : 71,
-                "end" : 85
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "akármaktin",
-                "start" : 86,
-                "end" : 97
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "bajar frutos de los árboles",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "para otras personas",
-                "start" : 39,
-                "end" : 58
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "para",
-                "start" : 71,
-                "end" : 75
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "uno mismo",
-                "start" : 76,
-                "end" : 85
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 76,
-                "end" : 76
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 76,
-                "end" : 76
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "bajar algo con las manos kuáktin, itártin. 2. (rebajar). majátatin, majátmamtikiatin, majámtikiatin. (sinón. abaratar).",
-    "startpage" : 371,
-    "pos_on_page" : 33,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 49,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 49,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 25,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 25,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 35,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 35,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 59,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 59,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 71,
-                "end" : 88
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 71,
-                "end" : 88
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 90,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 90,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "bajar algo con las manos",
-                "start" : 0,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "kuáktin",
-                "start" : 25,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "itártin",
-                "start" : 35,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "rebajar",
-                "start" : 49,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "majátatin",
-                "start" : 59,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "majátmamtikiatin",
-                "start" : 71,
-                "end" : 88
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "majámtikiatin",
-                "start" : 90,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "abaratar",
-                "start" : 115,
-                "end" : 123
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "bajar algo con las manos",
-                "start" : 0,
-                "end" : 24
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(rebajar).",
-                "start" : 48,
-                "end" : 58
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "abaratar",
-                "start" : 115,
-                "end" : 123
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 44,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 45,
-                "end" : 45
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 45,
-                "end" : 45
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 105,
-                "end" : 105
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 106,
-                "end" : 106
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 106,
-                "end" : 106
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "baldío ’ adj.",
     "startpage" : 371,
-    "pos_on_page" : 40,
+    "pos_on_page" : 31,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -18186,84 +16074,6 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "con prep. 1. -ja̱i̱.",
-    "startpage" : 389,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 13,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 13,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "con",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "prep.",
-                "start" : 4,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ja̱i̱",
-                "start" : 13,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "boundary",
-                "string" : "morpheme-boundary",
-                "start" : 13,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "con",
-                "start" : 0,
-                "end" : 3
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "prep.",
-                "start" : 4,
-                "end" : 9
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "cortar aletas de un árbol kampú̱wa̱/kampú̱a kánmitin.",
     "startpage" : 393,
     "pos_on_page" : 2,
@@ -18767,7 +16577,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "de prep. -nia, -maya, -ya, -numía. de allá áunia, nunía; de arriba yakíiya; de la chacra ajánmaya; del monte ikiámnumia.",
     "startpage" : 397,
-    "pos_on_page" : 16,
+    "pos_on_page" : 14,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -19090,7 +16900,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "defecar v.i. sáaratin, sáarutin. tsáamartin, ijátpartin, ijátmartin. (sinón. evacuar).",
     "startpage" : 397,
-    "pos_on_page" : 42,
+    "pos_on_page" : 40,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -19301,7 +17111,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "dentro adv. -nam, -num, -nmak, -numak.",
     "startpage" : 398,
-    "pos_on_page" : 46,
+    "pos_on_page" : 38,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -20068,7 +17878,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "su eco máyai engkémak wakétmauri/wakétkimuri.",
     "startpage" : 408,
-    "pos_on_page" : 26,
+    "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -20174,7 +17984,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "él pron. ni [ausente]; áu [presente].",
     "startpage" : 408,
-    "pos_on_page" : 38,
+    "pos_on_page" : 32,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -20266,7 +18076,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "con él, ella áuja̱i̱ [presente].",
     "startpage" : 408,
-    "pos_on_page" : 39,
+    "pos_on_page" : 33,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -20351,7 +18161,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "con él, ella níja̱i̱ [ausente].",
     "startpage" : 408,
-    "pos_on_page" : 40,
+    "pos_on_page" : 34,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -20436,7 +18246,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "ella pron. ni [ausente]; áu [presente].",
     "startpage" : 408,
-    "pos_on_page" : 53,
+    "pos_on_page" : 47,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -24341,7 +22151,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "junto adv. ayáamas, yáamas, ayáamak, ayámrus [3a ps.sg.].",
     "startpage" : 441,
-    "pos_on_page" : 30,
+    "pos_on_page" : 29,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -24722,7 +22532,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "su llegada tatáiri; támauri [pasado]; tátintri [futuro].",
     "startpage" : 445,
-    "pos_on_page" : 22,
+    "pos_on_page" : 21,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -24849,7 +22659,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "lleno adj. kak piáku/piyáku, pínkamu, chumpímiau, chumpímiamu.",
     "startpage" : 445,
-    "pos_on_page" : 34,
+    "pos_on_page" : 32,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -25025,7 +22835,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "llorón m. y adj. neánch, áyut, júutin.",
     "startpage" : 446,
-    "pos_on_page" : 9,
+    "pos_on_page" : 7,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -26283,7 +24093,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "su muerte jakámuri [pasado]; jákatniuri [futuro].",
     "startpage" : 457,
-    "pos_on_page" : 41,
+    "pos_on_page" : 39,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -27878,7 +25688,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "a partir de esta fecha nu kínta nángkamsang [3a ps.sg.].",
     "startpage" : 466,
-    "pos_on_page" : 33,
+    "pos_on_page" : 30,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -27963,7 +25773,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "pelucón m. y adj. intáship.",
     "startpage" : 468,
-    "pos_on_page" : 30,
+    "pos_on_page" : 28,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -29825,7 +27635,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "¡presente! ¡wíitjai! ¡pujájai!",
     "startpage" : 476,
-    "pos_on_page" : 16,
+    "pos_on_page" : 15,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -29910,7 +27720,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "¡date prisa! ¡wári!/¡wáritai!",
     "startpage" : 476,
-    "pos_on_page" : 46,
+    "pos_on_page" : 45,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -30704,249 +28514,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "¡quédate! (despedida del que sale) ¡pujústa!/¡pujúta!/¡pujúumata!",
-    "startpage" : 480,
-    "pos_on_page" : 10,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 47,
-                "end" : 57
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 47,
-                "end" : 57
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 57,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 57,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "quédate (despedida del que sale)",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "pujústa",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "pujúta",
-                "start" : 47,
-                "end" : 57
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "pujúumata",
-                "start" : 57,
-                "end" : 69
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "¡quédate! (despedida del que sale)",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "¡quédate! (orden) ¡juwákta! 2. (retener).",
-    "startpage" : 480,
-    "pos_on_page" : 11,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "quédate (orden)",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "juwákta",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "retener",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "¡quédate! (orden)",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(retener).",
-                "start" : 33,
-                "end" : 43
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "¡quieto! ¡chichátsuk asáta!/¡titú!",
     "startpage" : 480,
-    "pos_on_page" : 37,
+    "pos_on_page" : 26,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -31024,147 +28594,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 0,
                 "end" : 0
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "quedarse v.r. 1. (permanecer) pujústin, juwáktin.",
-    "startpage" : 480,
-    "pos_on_page" : 5,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 18,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 18,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 30,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 30,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 41,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 41,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "quedarse",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v.r.",
-                "start" : 9,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "permanecer",
-                "start" : 18,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "pujústin",
-                "start" : 30,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "juwáktin",
-                "start" : 41,
-                "end" : 51
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "quedarse",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "v.r.",
-                "start" : 9,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(permanecer)",
-                "start" : 17,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
             },
     ]
 })
@@ -31398,7 +28827,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "regañón m. y adj. jiyákmin. (sinón. altercador, gruñón).",
     "startpage" : 484,
-    "pos_on_page" : 21,
+    "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -31523,9 +28952,136 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "reducir v.t. tiúpich/túupich najánatin. (sinón. achicar).",
+    "startpage" : 484,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "acu",
+                "start" : 13,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Achuar-Shiwiar",
+                "start" : 13,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "acu",
+                "start" : 22,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Achuar-Shiwiar",
+                "start" : 22,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "reducir",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.t.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tiúpich najánatin",
+                "start" : 13,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "túupich najánatin",
+                "start" : 22,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "achicar",
+                "start" : 52,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "reducir",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.t.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "achicar",
+                "start" : 52,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "regreso (ir) al lugar de origen wakétkimuri [pasado]; wakétkitniuri [futuro]. (sinón. vuelta).",
     "startpage" : 484,
-    "pos_on_page" : 35,
+    "pos_on_page" : 34,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -31666,7 +29222,7 @@ manual_entries.append({
 manual_entries.append({
     "fullentry" : "regreso (venir) al lugar de origen támauri [pasado]; tátintri, tatáiri [futuro]. (sinón. llegada).",
     "startpage" : 484,
-    "pos_on_page" : 36,
+    "pos_on_page" : 35,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -31821,133 +29377,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 74,
                 "end" : 74
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "reducir v.t. tiúpich/túupich najánatin. (sinón. achicar).",
-    "startpage" : 484,
-    "pos_on_page" : 4,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 13,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 13,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 22,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 22,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "reducir",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v.t.",
-                "start" : 8,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tiúpich najánatin",
-                "start" : 13,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "túupich najánatin",
-                "start" : 22,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "achicar",
-                "start" : 52,
-                "end" : 59
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "reducir",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "v.t.",
-                "start" : 8,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "achicar",
-                "start" : 52,
-                "end" : 59
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 43,
-                "end" : 43
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 43,
-                "end" : 43
             },
     ]
 })
@@ -32767,967 +30196,6 @@ manual_entries.append({
                 "string" : "f.",
                 "start" : 10,
                 "end" : 12
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar v.t. 1. (extraer).",
-    "startpage" : 491,
-    "pos_on_page" : 22,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 15,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 15,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v.t.",
-                "start" : 6,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "extraer",
-                "start" : 15,
-                "end" : 22
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "v.t.",
-                "start" : 6,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(extraer).",
-                "start" : 14,
-                "end" : 24
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar (algo de debajo de las uñas, la piel o de entre los lientes) wintíitin.",
-    "startpage" : 491,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 67
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 67
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 67,
-                "end" : 79
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 67,
-                "end" : 79
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar (algo de debajo de las uñas, la piel o de entre los lientes)",
-                "start" : 0,
-                "end" : 67
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wintíitin",
-                "start" : 67,
-                "end" : 79
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar (algo de debajo de las uñas, la",
-                "start" : 0,
-                "end" : 38
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "piel o de entre los lientes)",
-                "start" : 39,
-                "end" : 67
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar (algo de los ojos, de un cuarto o de una canoa, sacar suris, miel de abeja) ashíitin.",
-    "startpage" : 491,
-    "pos_on_page" : 24,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 81,
-                "end" : 92
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 81,
-                "end" : 92
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar (algo de los ojos, de un cuarto o de una canoa, sacar suris, miel de abeja)",
-                "start" : 0,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ashíitin",
-                "start" : 81,
-                "end" : 92
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar (algo de los ojos, de un cuarto",
-                "start" : 0,
-                "end" : 37
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "o de una canoa, sacar suris, miel",
-                "start" : 38,
-                "end" : 71
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "de abeja)",
-                "start" : 72,
-                "end" : 81
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 72,
-                "end" : 72
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 72,
-                "end" : 72
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar (clavos de madera, palos de la tierra) kuínkatin, ukuínkatin.",
-    "startpage" : 491,
-    "pos_on_page" : 25,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 44,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 44,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 57,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 57,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar (clavos de madera, palos de la tierra)",
-                "start" : 0,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "kuínkatin",
-                "start" : 44,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ukuínkatin",
-                "start" : 57,
-                "end" : 69
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar (clavos de madera, palos de la",
-                "start" : 0,
-                "end" : 36
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tierra)",
-                "start" : 37,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar de la tierra (yuca, hierba o maní) uwéetin.",
-    "startpage" : 491,
-    "pos_on_page" : 27,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 41,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 41,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar de la tierra (yuca, hierba o maní)",
-                "start" : 0,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "uwéetin",
-                "start" : 41,
-                "end" : 51
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar de la tierra (yuca, hierba o",
-                "start" : 0,
-                "end" : 34
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "maní)",
-                "start" : 35,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar (fibras de chambira, corteza de árboles) achíitin.",
-    "startpage" : 491,
-    "pos_on_page" : 30,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 47,
-                "end" : 58
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 47,
-                "end" : 58
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar (fibras de chambira, corteza de árboles)",
-                "start" : 0,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "achíitin",
-                "start" : 47,
-                "end" : 58
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar (fibras de chambira, corteza",
-                "start" : 0,
-                "end" : 34
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "de árboles)",
-                "start" : 35,
-                "end" : 47
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar agua del río shikíktin. 2. (hacer salir) jíiktin.",
-    "startpage" : 491,
-    "pos_on_page" : 31,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 20,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 20,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 49,
-                "end" : 58
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 49,
-                "end" : 58
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar agua del río",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "shikíktin",
-                "start" : 20,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "hacer salir",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "jíiktin",
-                "start" : 49,
-                "end" : 58
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar agua del río",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(hacer salir)",
-                "start" : 35,
-                "end" : 48
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar afuera áanum jíiktin. 3. (conseguir, obtener).",
-    "startpage" : 491,
-    "pos_on_page" : 33,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 34,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 34,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 45,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 45,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 13,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 13,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar afuera",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "áanum jíiktin",
-                "start" : 13,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "conseguir",
-                "start" : 34,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "obtener",
-                "start" : 45,
-                "end" : 52
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar afuera",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(conseguir, obtener).",
-                "start" : 33,
-                "end" : 54
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "sacar fotos wakán kuínkatin/kuímiamkatin.",
-    "startpage" : 491,
-    "pos_on_page" : 34,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 12,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 12,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 12,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 12,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "sacar fotos",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wakán kuínkatin",
-                "start" : 12,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wakán kuímiamkatin",
-                "start" : 12,
-                "end" : 43
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "sacar fotos",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 18,
-                "end" : 18
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 19,
-                "end" : 19
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 19,
-                "end" : 19
             },
     ]
 })
@@ -38623,662 +35091,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 43,
                 "end" : 43
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "vuelta f. 1. (movimiento giratorio) téenkamu.",
-    "startpage" : 515,
-    "pos_on_page" : 15,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 14,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 36,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 36,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "vuelta",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "f.",
-                "start" : 7,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "movimiento giratorio",
-                "start" : 14,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "téenkamu",
-                "start" : 36,
-                "end" : 46
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "vuelta",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "f.",
-                "start" : 7,
-                "end" : 9
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(movimiento giratorio)",
-                "start" : 13,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "dar vueltas en el aire (aves) wincháintratin. 2. (curvatura).",
-    "startpage" : 515,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 51,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 51,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 30,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 30,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dar vueltas en el aire (aves)",
-                "start" : 0,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wincháintratin",
-                "start" : 30,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "curvatura",
-                "start" : 51,
-                "end" : 60
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dar vueltas en el aire (aves)",
-                "start" : 0,
-                "end" : 29
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(curvatura).",
-                "start" : 50,
-                "end" : 62
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 46,
-                "end" : 46
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "vuelta del río tuníakmari, túnik. (sinón. recodo del río). 3. (regreso).",
-    "startpage" : 515,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 68,
-                "end" : 75
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 68,
-                "end" : 75
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 16,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 16,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 29,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 29,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "vuelta del río",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tuníakmari",
-                "start" : 16,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "túnik",
-                "start" : 29,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "recodo del río",
-                "start" : 46,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "regreso",
-                "start" : 68,
-                "end" : 75
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "vuelta del río",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "recodo del río",
-                "start" : 46,
-                "end" : 61
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "(regreso).",
-                "start" : 67,
-                "end" : 77
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 63,
-                "end" : 63
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 64,
-                "end" : 64
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 64,
-                "end" : 64
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "vuelta (ir) al lugar de origen wakétkimuri [pasado]; wakétkitniuri [futuro].",
-    "startpage" : 515,
-    "pos_on_page" : 19,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 31,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 31,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 54,
-                "end" : 77
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 54,
-                "end" : 77
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "vuelta (ir) al lugar de origen",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wakétkimuri",
-                "start" : 31,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wakétkitniuri",
-                "start" : 54,
-                "end" : 77
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "vuelta (ir) al lugar de origen",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 68,
-                "end" : 68
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 69,
-                "end" : 69
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 69,
-                "end" : 69
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "vuelta (venir) al lugar de origen támauri [pasado]; tátintri [futuro].",
-    "startpage" : 515,
-    "pos_on_page" : 20,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 34,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 34,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 53,
-                "end" : 71
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 53,
-                "end" : 71
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "vuelta (venir) al lugar de origen",
-                "start" : 0,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "támauri",
-                "start" : 34,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tátintri",
-                "start" : 53,
-                "end" : 71
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "vuelta (venir) al lugar de origen",
-                "start" : 0,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
             },
     ]
 })

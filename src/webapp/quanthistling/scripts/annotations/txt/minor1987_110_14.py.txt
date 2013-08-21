@@ -20,34 +20,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 44,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 44,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "uái iri",
                 "start" : 0,
@@ -56,23 +28,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "v.",
-                "start" : 23,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v., imper.",
+                "string" : "v. imper.",
                 "start" : 23,
                 "end" : 33
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "imper.",
-                "start" : 27,
-                "end" : 33
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 34,
+                "end" : 41
             },
             {
                 "type" : "dictinterpretation",
@@ -80,6 +52,20 @@ manual_entries.append({
                 "string" : "calma",
                 "start" : 34,
                 "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 44,
+                "end" : 52
             },
             {
                 "type" : "dictinterpretation",
@@ -122,6 +108,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 44,
                 "end" : 44
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "v. imper.",
+                "start" : 23,
+                "end" : 33
             },
     ]
 })

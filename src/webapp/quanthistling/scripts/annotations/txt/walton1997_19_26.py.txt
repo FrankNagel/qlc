@@ -20,6 +20,27 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "búhúgáávócáfétehi",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 25,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "voz pasiva",
+                "start" : 31,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 116,
@@ -31,20 +52,6 @@ manual_entries.append({
                 "string" : "Español",
                 "start" : 116,
                 "end" : 126
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "búhúgáávócáfétehi",
-                "start" : 0,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v.i. (voz pasiva)",
-                "start" : 25,
-                "end" : 42
             },
             {
                 "type" : "dictinterpretation",

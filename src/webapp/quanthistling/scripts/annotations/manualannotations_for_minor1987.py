@@ -539,34 +539,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 34,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 44,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 44,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "uái iri",
                 "start" : 0,
@@ -575,23 +547,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "v.",
-                "start" : 23,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v., imper.",
+                "string" : "v. imper.",
                 "start" : 23,
                 "end" : 33
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "imper.",
-                "start" : 27,
-                "end" : 33
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 34,
+                "end" : 41
             },
             {
                 "type" : "dictinterpretation",
@@ -599,6 +571,20 @@ manual_entries.append({
                 "string" : "calma",
                 "start" : 34,
                 "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 44,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 44,
+                "end" : 52
             },
             {
                 "type" : "dictinterpretation",
@@ -641,6 +627,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 44,
                 "end" : 44
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "v. imper.",
+                "start" : 23,
+                "end" : 33
             },
     ]
 })
@@ -3180,6 +3173,210 @@ manual_entries.append({
 
 
 manual_entries.append({
+    "fullentry" : "caifo afaide (cái-fo a-fái-de) v: Sentarse con cabeza inclinada hacia atrás, mirar arriba. (Ej. Da come caifo afaide. Una persona está mirando arriba.)",
+    "startpage" : 2,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Huitoto",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "caifo afaide",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 33,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 36,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sentarse con cabeza inclinada hacia atrás",
+                "start" : 36,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 80,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 80,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mirar arriba",
+                "start" : 80,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Da come caifo afaide.",
+                "start" : 99,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Una persona está mirando arriba.",
+                "start" : 121,
+                "end" : 154
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "caifo afaide",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v:",
+                "start" : 33,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 139,
+                "end" : 139
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 139,
+                "end" : 139
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "v.",
+                "start" : 33,
+                "end" : 35
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "afe (á-fe) pron. Éste, quien, lo cual. (Ej. Cue eedo baɨilla. Afe jenódɨcue. Mi aguja cae. Ésta la busco.)",
     "startpage" : 2,
     "pos_on_page" : 4,
@@ -3546,6 +3743,84 @@ manual_entries.append({
     ]
 })
 
+
+manual_entries.append({
+    "fullentry" : "enai (é-nai) s.voc. Sobrino.",
+    "startpage" : 30,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Huitoto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "enai",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s. voc.",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sobrino",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "enai",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.voc.",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "s. voc.",
+                "start" : 14,
+                "end" : 20
+            },
+    ]
+})
 
 manual_entries.append({
     "fullentry" : "étɨaɨcaide (é-tɨ-aɨ-cai-de) v. Salir dejando un camino rojo. (Ej. Iodo étɨaɨcaide mero dorítajamona. Por el camino el cerdillo se fue botando sangre después de que le dispararon. Ameo llairilla étɨaɨcaide. El rayo brilla bien rojo.)",
@@ -7115,6 +7390,105 @@ manual_entries.append({
                 "string" : "",
                 "start" : 0,
                 "end" : 0
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "miai̵bi (mi-ái̵-bi) v. Imper. Venga a lamer (tabaco, etc.).",
+    "startpage" : 80,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Huitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "miai̵bi",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. imper.",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 31,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 31,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "venga a lamer",
+                "start" : 31,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "miai̵bi",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. Imper.",
+                "start" : 21,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "v. imper.",
+                "start" : 21,
+                "end" : 30
             },
     ]
 })

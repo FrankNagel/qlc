@@ -20,6 +20,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fáájahi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.dit.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 18,
@@ -31,20 +45,6 @@ manual_entries.append({
                 "string" : "Español",
                 "start" : 18,
                 "end" : 148
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "fáájahi",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v. dit.",
-                "start" : 10,
-                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
@@ -276,6 +276,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 237,
                 "end" : 237
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "v.dit.",
+                "start" : 10,
+                "end" : 17
             },
     ]
 })

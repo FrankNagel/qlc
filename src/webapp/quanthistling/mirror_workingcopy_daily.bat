@@ -2,6 +2,7 @@ set QUANTHISTLINGPATH=h:\ProjectsWin\svn-googlecode\qlc\src\webapp\quanthistling
 set PATH=%PATH%;c:\Program Files (x86)\PostgreSQL\8.4\bin;c:\Program Files (x86)\PuTTY;c:\Program Files\7-Zip
 
 cd %QUANTHISTLINGPATH%
+c:\python27-64\python.exe scripts/filter_entries.py development.ini
 c:\python27-64\python.exe scripts/export_all_static_data.py development.ini
 
 cd %QUANTHISTLINGPATH%\quanthistling\public\downloads

@@ -33,8 +33,8 @@ def main(argv):
     metadata.create_all(bind=Session.bind)
 
     for book in quanthistling.dictdata.books.list:
-    #for book in []:
-        #print book["bibtex_key"]
+        #if book["bibtex_key"] != 'fastmowitz2008':
+        #    continue
         
         try:
             exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
