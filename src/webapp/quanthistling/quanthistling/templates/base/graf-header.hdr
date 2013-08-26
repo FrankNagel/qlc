@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><documentHeader xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/" docId="${c.basename}" creator="pbouda" date.created="2012-10-26" date.updated="${c.iso_time}" version="${c.version_number}" type="dictionary">
    <fileDesc>
       <titleStmt>
-         <title>QuantHistLing digitization of: ${c.book.bookinfo()}</title>
+         <title>QuantHistLing digitization of: ${c.bookinfo}</title>
          <url>${c.base_url}${c.url_for(controller='book', action='dictdata', bibtexkey=c.book.bibtex_key, startpage=c.dictdata.startpage, endpage=c.dictdata.endpage, format='html')}</url>
       </titleStmt>
       <extent count="${len(c.entries)}" unit="entries"/>
@@ -12,8 +12,8 @@
       <extent count="${c.count_examples_tgt}" unit="example-tgt"/>
       <extent count="${c.count_manually_corrected}" unit="manually_corrected"/>
       <sourceDesc>
-         <title>${c.book.title}</title>
-         <author>${c.book.author}</author>
+         <title>${c.book_title}</title>
+         <author>${c.book_author}</author>
          <pubDate>${c.book.year}</pubDate>
          <idno type="ISBN">${c.book.isbn}</idno>
          <component>${c.dictdata.component.name}</component>

@@ -14,6 +14,8 @@ import urllib
 
 import logging
 
+from xml.sax.saxutils import escape
+
 import pylons.test
 
 from pylons.util import ContextObj, PylonsContext
@@ -72,6 +74,11 @@ def main(argv):
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if c.book:
+
+            # escape characters for XML
+            c.bookinfo = escape(c.book.bookinfo())
+            c.book_title = escape(c.book.title)
+            c.book_author = escape(c.book.author)
 
             # collect book data
             languages = [ l.language_iso.langcode for dictdata in c.book.dictdata for l in dictdata.src_languages + dictdata.tgt_languages if l.language_iso]

@@ -7,6 +7,7 @@ import codecs
 import collections
 import zipfile
 import glob
+import time
 
 import logging
 
@@ -34,8 +35,8 @@ def main(argv):
     #metadata.create_all(bind=Session.bind)
 
     #c.corpushistory = model.meta.Session.query(model.Corpusversion).all()
-    corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
-    iso_time = corpusversion.updated.strftime("%Y-%m-%d")
+    #corpusversion = model.meta.Session.query(model.Corpusversion).order_by(model.Corpusversion.updated).first()
+    iso_time = time.strftime("%Y-%m-%d", time.gmtime())
     
     books = dict()
 
@@ -69,26 +70,47 @@ def main(argv):
                 data_file.write(u"@url: http://www.quanthistling.info/data/source/{0}/dictionary-{1}-{2}.html\n".format(book.bibtex_key, dictdata.startpage, dictdata.endpage))
                 data_file.write(u"@source_title: {0}\n".format(book.title))
                 data_file.write(u"@source_author: {0}\n".format(book.author))
-                data_file.write(u"@source_year: {0}\n".format(book.year))
+                data_file.write(u"@source_year: {0}\n\n".format(book.year))
 
                 doculect1 = None
                 doculect2 = None
+                doculects = []
+                iso_src = []
+                iso_tgt = []
                 #data_file.write(u"#\tDOCULECT\tAPPROX_ISO639-3\n")
+
+                # ISO and doculect stuff
                 for l in dictdata.src_languages:
                     iso = "n/a"
                     if l.language_iso:
                         iso = l.language_iso.langcode
-                    data_file.write(u"@doculect: {0}, {1}, {2}, {3}\n".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
-                    data_file.write(u"@head_iso: {0}\n".format(iso))
+                    doculects.append(u"\"{0}, {1}, {2}, {3}\"".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
                     doculect1 = l.language_bookname.name
+                    #data_file.write(u"@head_iso: {0}\n".format(iso))
+                    iso_src.append(u"\"{0}\"".format(iso))
                 for l in dictdata.tgt_languages:
                     iso = "n/a"
                     if l.language_iso:
                         iso = l.language_iso.langcode
-                    data_file.write(u"@doculect: {0}, {1}, {2}, {3}\n".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
-                    data_file.write(u"@translation_iso: {0}\n".format(iso))
+                    doculects.append(u"\"{0}, {1}, {2}, {3}\"".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
                     doculect2 = l.language_bookname.name
-    
+                    iso_tgt.append(u"\"{0}\"".format(iso))
+
+                data_file.write(u"<json>\n{\n    \"doculect\": [\n")
+                doculect_str = ",\n        ".join(doculects)
+                data_file.write(u"        {0}\n".format(doculect_str))
+                data_file.write(u"    ]\n}\n</json>\n\n")
+
+                data_file.write(u"<json>\n{\n    \"head_iso\": [\n")
+                iso_str = ",\n        ".join(iso_src)
+                data_file.write(u"        {0}\n".format(iso_str))
+                data_file.write(u"    ]\n}\n</json>\n\n")
+
+                data_file.write(u"<json>\n{\n    \"translation_iso\": [\n")
+                iso_str = ",\n        ".join(iso_tgt)
+                data_file.write(u"        {0}\n".format(iso_str))
+                data_file.write(u"    ]\n}\n</json>\n\n")
+
                 print "  data..."
                 data_file.write(u"QLCID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\tPOS\n")
 
