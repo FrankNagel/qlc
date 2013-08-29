@@ -1,0 +1,386 @@
+
+manual_entries.append({
+    "fullentry" : "{-ai / - jai / - zai}- Sufv: Lejanía espacio-temporal + Habitual; diaide destripaba, raauaide cazaba; ri̵aide comía, tuaide golpeaba.",
+    "startpage" : 798,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 1,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ai",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jai",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "zai",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Sufv",
+                "start" : 23,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 29,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lejanía espacio",
+                "start" : 29,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lejanía temporal",
+                "start" : 29,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "habitual",
+                "start" : 57,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "diaide",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 73,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 73,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " destripaba",
+                "start" : 73,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "raauaide",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 94,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 94,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " cazaba",
+                "start" : 94,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 103,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 103,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ri̵aide",
+                "start" : 103,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 110,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 110,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " comía",
+                "start" : 110,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 119,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 119,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuaide",
+                "start" : 119,
+                "end" : 125
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 125,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 125,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " golpeaba",
+                "start" : 125,
+                "end" : 134
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "{-ai / - jai / - zai}",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "{-ai / - jai / - zai}",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "diaide",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "diaide",
+                "start" : 67,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "raauaide",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "raauaide",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ri̵aide",
+                "start" : 103,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ri̵aide",
+                "start" : 103,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tuaide",
+                "start" : 119,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tuaide",
+                "start" : 119,
+                "end" : 125
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+    ]
+})

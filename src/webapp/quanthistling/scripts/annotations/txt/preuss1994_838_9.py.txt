@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "jaizi̵yi̵kai̵ - ver jaizi̵rakai̵.",
+    "startpage" : 838,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaizi̵yi̵kai̵",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaizi̵yi̵kai̵",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaizi̵yi̵kai̵",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaizi̵rakai̵",
+                "start" : 20,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaizi̵rakai̵",
+                "start" : 20,
+                "end" : 32
+            },
+    ]
+})

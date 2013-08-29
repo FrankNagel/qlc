@@ -212,7 +212,6 @@ class BookController(BaseController):
     #     else:
     #         abort(404)
 
-    @beaker_cache()
     def page_with_layout(self, bibtexkey, pagenr):
         c.heading = c.book.bookinfo_with_status() + ", Page " + pagenr
         c.pagenr = pagenr
@@ -226,7 +225,6 @@ class BookController(BaseController):
         else:
             abort(404)
         
-    @beaker_cache()
     def page(self, bibtexkey, pagenr):
         c.heading = c.book.bookinfo_with_status() + ", Page " + pagenr
         c.pagenr = pagenr
@@ -244,7 +242,6 @@ class BookController(BaseController):
         else:
             abort(404)
         
-    @beaker_cache()
     def letter(self, bibtexkey, startpage, endpage, startletter):
         c.heading = c.book.bookinfo_with_status() + ", Letter " + startletter
         c.entries = []
@@ -272,7 +269,6 @@ class BookController(BaseController):
         else:
             abort(404)
 
-    @beaker_cache()
     def concept_wordlist(self, bibtexkey, concept):
         c.heading = c.book.bookinfo_with_status() + ", Concept " + concept
         c.concept = concept
@@ -290,7 +286,6 @@ class BookController(BaseController):
         else:
             abort(404)
 
-    @beaker_cache()
     def language_wordlist(self, bibtexkey, language_bookname, format):
         c.heading = c.book.bookinfo_with_status() + ", Language " + language_bookname
         c.language_bookname = language_bookname

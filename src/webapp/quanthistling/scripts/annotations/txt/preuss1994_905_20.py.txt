@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "yi̵tikai̵taide (yi̵tikai̵taiya) - Mod: uuizi̵ yi̵tikai̵taide tener ojos saltones; / 26, 22 /",
+    "startpage" : 905,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yi̵tikai̵taide",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 16,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 16,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yi̵tikai̵taiya",
+                "start" : 16,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 40,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 40,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener ojos saltones",
+                "start" : 61,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yi̵tikai̵taide",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵tikai̵taide",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵tikai̵taiya",
+                "start" : 16,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uuizi̵ yi̵tikai̵taide",
+                "start" : 39,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "uuizi̵ yi̵tikai̵taide",
+                "start" : 39,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "26",
+                "start" : 84,
+                "end" : 86
+            },
+    ]
+})

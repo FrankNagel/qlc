@@ -21,7 +21,13 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-    
+
+def process_head(entry, head, head_s, head_e):
+    for m in re.finditer("-", head):
+        entry.append_annotation(head_s + m.start(0), head_s + m.end(0), u'boundary', u'dictinterpretation', u"morpheme boundary")
+
+    return re.sub("-", "", head)
+
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value=="head" or a.value=='doculect' or a.value=='iso-639-3']
@@ -93,6 +99,7 @@ def annotate_head(entry):
                 # remove hyphens
                 head = re.sub(u"[¿?¡!']", u"", entry.fullentry[s:e])
                 #head = re.sub(u"[\-\-]", u"", entry.fullentry[s:e])
+                head = process_head(entry, head, s, e)
                 inserted_head = functions.insert_head(entry, s, e, head)
                 if inserted_head != None:
                     heads.append(inserted_head)
@@ -255,7 +262,7 @@ def main(argv):
 
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=162,pos_on_page=25).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=112,pos_on_page=3).all()
         
         startletters = set()
         for e in entries:

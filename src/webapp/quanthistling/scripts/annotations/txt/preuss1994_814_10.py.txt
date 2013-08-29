@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "e - Sufv: Pers 3s/ pl; jaaide va / van; ote saca / sacan",
+    "startpage" : 814,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "e",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Sufv",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 10,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaaide",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "va",
+                "start" : 30,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "van",
+                "start" : 35,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 40,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 40,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ote",
+                "start" : 40,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "saca",
+                "start" : 44,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sacan",
+                "start" : 51,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "e",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "e",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaaide",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaaide",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ote",
+                "start" : 40,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ote",
+                "start" : 40,
+                "end" : 43
+            },
+    ]
+})

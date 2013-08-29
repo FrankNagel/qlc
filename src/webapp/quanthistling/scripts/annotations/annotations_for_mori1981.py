@@ -22,6 +22,13 @@ from paste.deploy import appconfig
 
 import functions
 
+def process_head(entry, head_s, head_e):
+    head = entry.fullentry[head_s:head_e]
+    for m in re.finditer("-", head):
+        entry.append_annotation(head_s + m.start(0), head_s + m.end(0), u'boundary', u'dictinterpretation', u"morpheme boundary")
+
+    return re.sub("-", "", head)
+
 def annotate_everything(entry):
     # delete head annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -48,23 +55,35 @@ def annotate_everything(entry):
             for i in range((len(tildes)/2)):
                 if i == 0:
                     head1_end = tildes[i]
-                    inserted_head = functions.insert_head(entry, 0, head1_end)
+                    head_str = process_head(entry, 0, head1_end)
+                    inserted_head = functions.insert_head(entry, 0, head1_end, head_str)
+                    heads.append(inserted_head)
                 
                     head2_start = tildes[i + 1]
                     if i + 1 < len(tildes)/2:
                         head2_end = tildes[i + 2]
-                        inserted_head = functions.insert_head(entry, head2_start, head2_end)
+                        head_str = process_head(entry, head2_start, head2_end)
+                        inserted_head = functions.insert_head(entry, head2_start, head2_end, head_str)
+                        heads.append(inserted_head)
                     else:
-                        inserted_head = functions.insert_head(entry, head2_start, head_end_tmp)
+                        head_str = process_head(entry, head2_start, head_end_tmp)
+                        inserted_head = functions.insert_head(entry, head2_start, head_end_tmp, head_str)
+                        heads.append(inserted_head)
                 else:
                     head_s = tildes[i + 2]
                     if i + 1 < len(tildes)/2:
                         head_e = tildes[i + 3]
-                        inserted_head = functions.insert_head(entry, head_s, head_e)
+                        head_str = process_head(entry, head_s, head_e)
+                        inserted_head = functions.insert_head(entry, head_s, head_e, head_str)
+                        heads.append(inserted_head)
                     else:
-                        inserted_head = functions.insert_head(entry, head_s, head_end_tmp)
+                        head_str = process_head(entry, head_s, head_end_tmp)                        
+                        inserted_head = functions.insert_head(entry, head_s, head_end_tmp, head_str)
+                        heads.append(inserted_head)
         else:
-            inserted_head = functions.insert_head(entry, 0, tab_annotations[0].start, head)
+            head_str = process_head(entry, 0, tab_annotations[0].start)
+            inserted_head = functions.insert_head(entry, 0, tab_annotations[0].start, head_str)
+            heads.append(inserted_head)
     else:
         print 'error in tabs, ', functions.print_error_in_entry(entry)
     
@@ -117,7 +136,6 @@ def annotate_everything(entry):
     
     
     #entry.append_annotation(start, end, u'head', u'dictinterpretation')
-    heads.append(inserted_head)
         
     return heads
 
@@ -146,7 +164,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=7,pos_on_page=23).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=21,pos_on_page=11).all()
 
         startletters = set()
     
