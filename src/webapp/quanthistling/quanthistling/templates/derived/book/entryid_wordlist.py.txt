@@ -3,7 +3,7 @@ manual_entries.append({
     "fullentry" : "${c.entry.fullentry}",
     "startpage" : ${c.entry.startpage},
     "pos_on_page" : ${c.entry.pos_on_page},
-    "language_bookname" : "${c.entry.wordlistdata.language_bookname}",
+    "language_bookname" : "${c.entry.wordlistdata.language_bookname.name}",
     "concept" : "${c.entry.concept.concept}",
     "annotations" : [
             % for a in c.entry.annotations_sorted_by_type_and_start():
