@@ -3918,6 +3918,371 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "lli̱í̱ñe/[hlli̱í̱ñe] loc. 1. lugar debajo de algo o alguién. Táhlliiñe diíbye. El está debajo de mí. 2. (fig.) inferior. Táhlliiñéúré diíbye. El es inferior a mí. 3. (fig.) causa, razón; culpa. Dihllííñéré uu íchihyi. Por tu culpa estás aquí.",
+    "startpage" : 170,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "lli̱í̱ñe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "-hlli̱í̱ñe",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "loc.",
+                "start" : 25,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 32,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 32,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar debajo de algo o alguién",
+                "start" : 32,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táhlliiñe diíbye.",
+                "start" : 66,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El está debajo de mí. ",
+                "start" : 86,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "inferior",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táhlliiñéúré diíbye.",
+                "start" : 131,
+                "end" : 157
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El es inferior a mí. ",
+                "start" : 157,
+                "end" : 180
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 189,
+                "end" : 195
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 189,
+                "end" : 195
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "causa",
+                "start" : 189,
+                "end" : 195
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 197,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 197,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "razón",
+                "start" : 197,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 205,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 205,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "culpa",
+                "start" : 205,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Dihllííñéré uu íchihyi.",
+                "start" : 212,
+                "end" : 241
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Por tu culpa estás aquí.",
+                "start" : 241,
+                "end" : 268
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lli̱í̱ñe/[hlli̱í̱ñe]",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "loc.",
+                "start" : 25,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táhlliiñe diíbye.",
+                "start" : 66,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táh",
+                "start" : 131,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "lliiñéúré diíbye.",
+                "start" : 135,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Dihllíí",
+                "start" : 212,
+                "end" : 221
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ñéré uu íchihyi.",
+                "start" : 221,
+                "end" : 241
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 96,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 179,
+                "end" : 179
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 261,
+                "end" : 261
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 262,
+                "end" : 262
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "-hlli̱í̱ñe",
+                "start" : 12,
+                "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "meé/[me/me-] pron.pers. nosotros; nos (incl.). –Se antepone me- al verbo de las oraciones indicativas e imperativas. Cuando un pronombre dual o plural de primera o segunda persona aparece como sujeto de una oración, también se antepone me- al verbo: Mépeé. Vamos. Muha mépéjucóó. Ya nos vamos. ¡Mépeé! ¡Vayan!",
     "startpage" : 178,
     "pos_on_page" : 14,

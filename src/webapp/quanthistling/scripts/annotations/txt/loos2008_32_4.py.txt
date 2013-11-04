@@ -1,0 +1,35 @@
+
+manual_entries.append({
+    "fullentry" : "751. después de mucho tiempo voy a mi tierra ?íc̀apa óṣ̀atã ĩ̵ baiyado kái",
+    "startpage" : 32,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "después de mucho tiempo voy a mi tierra",
+                "start" : 5,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "?íc̀apa óṣ̀atã ĩ̵ baiyado kái",
+                "start" : 46,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+})

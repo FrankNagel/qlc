@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "uai̵bite - ver ote.",
+    "startpage" : 897,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uai̵bite",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uai̵bite",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "uai̵bite",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ote",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ote",
+                "start" : 15,
+                "end" : 18
+            },
+    ]
+})

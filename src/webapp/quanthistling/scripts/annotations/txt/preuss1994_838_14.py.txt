@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "jai̵e - ver jai̵eniki̵, jai̵enima, jai̵eniño, jai̵eyoki̵.",
+    "startpage" : 838,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jai̵e",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jai̵e",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jai̵e",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jai̵eniki̵, jai̵enima, jai̵eniño, jai̵eyoki̵.",
+                "start" : 12,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jai̵eniki̵, jai̵enima, jai̵eniño, jai̵eyoki̵.",
+                "start" : 12,
+                "end" : 58
+            },
+    ]
+})

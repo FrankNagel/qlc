@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "rerama - ver jifikue rerama.",
+    "startpage" : 889,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rerama",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rerama",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "rerama",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jifikue rerama.",
+                "start" : 13,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jifikue rerama.",
+                "start" : 13,
+                "end" : 28
+            },
+    ]
+})

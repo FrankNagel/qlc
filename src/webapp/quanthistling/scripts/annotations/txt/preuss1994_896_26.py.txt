@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "ua - ver ote.",
+    "startpage" : 896,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ua",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ua",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ua",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ote",
+                "start" : 9,
+                "end" : 12
+            },
+    ]
+})

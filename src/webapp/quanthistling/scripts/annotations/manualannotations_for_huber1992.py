@@ -11627,20 +11627,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 27,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 42,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "bora",
                 "start" : 0,
@@ -11648,22 +11634,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "bora",
-                "start" : 27,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "bora",
-                "start" : 42,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "axtʰʲɯ́mi̵i̵í̵tʰé-kʰɯnɯ",
+                "string" : "axthjɯ́mi̵i̵í̵tʰékʰɯnɯ",
                 "start" : 0,
                 "end" : 25
             },
@@ -11676,10 +11648,38 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 27,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 27,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "counterpart",
                 "string" : "tɯ́xɯɯ́kʰɯnɯ",
                 "start" : 27,
                 "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "bora",
+                "start" : 42,
+                "end" : 47
             },
             {
                 "type" : "dictinterpretation",
