@@ -6445,6 +6445,58 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tiítʰʲe, tiitʰʲétsʰʲ",
+    "startpage" : 201,
+    "pos_on_page" : 70,
+    "language_bookname" : "miraña",
+    "concept" : "ELLOS_THEY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tiítʰʲe",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "miraña",
+                "start" : 10,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Bora",
+                "start" : 10,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tiitʰʲétsʰi",
+                "start" : 10,
+                "end" : 22
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "jɨ wãˈbõ bãˈkã",
     "startpage" : 202,
     "pos_on_page" : 34,
