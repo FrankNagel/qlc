@@ -42,7 +42,7 @@ if current_page != None:
     
     <p class="export-button">
         <a class="export-button" href="${h.url_for('/downloads/xml/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary GrAF package</a><br/>
-        <a class="export-button" href="${h.url_for('/downloads/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
+        <a class="export-button" href="${h.url_for('/downloads/txt/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
     </p>
     
     ${book_letter_navigation()}
@@ -77,7 +77,7 @@ if current_page != None:
     <div id="booknavigation">
 
     <p class="export-button">
-        <a class="export-button" href="${h.url_for('/downloads/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
+        <a class="export-button" href="${h.url_for('/downloads/txt/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
     </p>
 
     % if hasattr(c, 'pagenr'):

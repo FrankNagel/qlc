@@ -156,7 +156,7 @@ def main(argv):
                     file_translations.close()
 
             # create archive
-            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
+            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'txt', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
             for file in glob.glob(os.path.join(temppath, "*.txt")):
                 myzip.write(file, os.path.basename(file))
             myzip.close()
@@ -190,7 +190,7 @@ def main(argv):
 
             # create archive
             file_counterparts.close()
-            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
+            myzip = ZipFile(os.path.join(config['pylons.paths']['static_files'], 'downloads', 'txt', '%s.zip' % b['bibtex_key']), 'w', zipfile.ZIP_DEFLATED)
             for file in glob.glob(os.path.join(temppath, "*.txt")):
                 myzip.write(file, os.path.basename(file))
             myzip.close()

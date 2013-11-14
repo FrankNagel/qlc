@@ -7,6 +7,7 @@ call pscp *.zip Strato2_pbouda:/var/www/quanthistling-new/quanthistling/public/d
 call pscp xml\*.zip Strato2_pbouda:/var/www/quanthistling-new/quanthistling/public/downloads/xml/
 call pscp csv\*.zip Strato2_pbouda:/var/www/quanthistling-new/quanthistling/public/downloads/csv/
 call pscp csv\*.csv Strato2_pbouda:/var/www/quanthistling-new/quanthistling/public/downloads/csv/
+call pscp txt\*.zip Strato2_pbouda:/var/www/quanthistling-new/quanthistling/public/downloads/txt/
 cd %QUANTHISTLINGPATH%
 
-shutdown /s
+rem shutdown /s
