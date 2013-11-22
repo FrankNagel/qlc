@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "ufurina - tronco yadiko; / 74 /",
+    "startpage" : 897,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ufurina",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tronco yadiko",
+                "start" : 10,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ufurina",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ufurina",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yadiko",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "74",
+                "start" : 27,
+                "end" : 29
+            },
+    ]
+})

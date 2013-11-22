@@ -67,7 +67,7 @@ def main(argv):
     metadata_file.write("ID\tTYPE\tLANGUAGES\tIS_READY\tTITLE\tCOMPONENT\n")
          
     #http://www.cidles.eu/quanthistling/book/minor1987/hto/spa?format=xml
-    for b in quanthistling.dictdata.books.list:
+    for b in quanthistling.dictdata.books.list + quanthistling.dictdata.toolboxfiles.list:
         #if b['bibtex_key'] != "leach1969":
         #    continue
 

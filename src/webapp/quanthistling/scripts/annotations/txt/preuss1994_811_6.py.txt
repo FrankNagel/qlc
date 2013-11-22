@@ -1,0 +1,232 @@
+
+manual_entries.append({
+    "fullentry" : "di̵bei - (di̵beiyei̵), Nc, lado, lugar, entorno; / 1, 8 / 6, 162 / 9, 9 / 13, 51 / 16, 72 / 19, 68 / 21, 26 / 24, 27 / 62, 5 /",
+    "startpage" : 811,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "di̵bei",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "di̵beiyei̵",
+                "start" : 9,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Nc",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lado",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entorno",
+                "start" : 40,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 40,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 40,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "di̵bei",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "di̵bei",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "di̵beiyei̵",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1",
+                "start" : 51,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 58,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 67,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 74,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 83,
+                "end" : 85
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "19",
+                "start" : 92,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "21",
+                "start" : 101,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "24",
+                "start" : 110,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "62",
+                "start" : 119,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 90,
+                "end" : 90
+            },
+    ]
+})

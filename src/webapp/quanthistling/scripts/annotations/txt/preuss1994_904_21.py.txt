@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "yi̵fakuai̵ - Mod: yi̵fakuai̵ jaaide caer muchos árboles uno tras otro; / 19, 82 /",
+    "startpage" : 904,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yi̵fakuai̵",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 19,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caer muchos árboles uno tras otro",
+                "start" : 36,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yi̵fakuai̵",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵fakuai̵",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵fakuai̵ jaaide",
+                "start" : 18,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "19",
+                "start" : 74,
+                "end" : 76
+            },
+    ]
+})

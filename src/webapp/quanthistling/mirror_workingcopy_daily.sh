@@ -1,11 +1,12 @@
 #!/bin/bash
+QUANTHISTLINGPATH=/home/pbouda/Projects/svn-googlecode/qlc/src/webapp/quanthistling
 
-cd /media/Daten/Projects/svn-googlecode/qlc/src/webapp/quanthistling
-python scripts/export_all_static_data_daily.py development.ini
-bash scripts/exportcsv.sh
+cd $QUANTHISTLINGPATH
+#python scripts/filter_entries.py development.ini
+python scripts/export_all_static_data.py development.ini
 
-cd /media/Daten/Projects/svn-googlecode/qlc/src/webapp/quanthistling/quanthistling/public/downloads
-pg_dump -h localhost -U postgres -c quanthistling > pgdump_quanthistling.sql
+cd $QUANTHISTLINGPATH/quanthistling/public/downloads
+pg_dump -U postgres -c quanthistling > pgdump_quanthistling.sql
 zip -uj pgdump_quanthistling.zip pgdump_quanthistling.sql
-scp -r *.zip peterbouda.de:/var/www/quanthistling-new/quanthistling/public/downloads/
-#scp -r pgdump_quanthistling.sql peterbouda.de:/var/www/quanthistling-new/quanthistling/public/downloads/
+
+cd $QUANTHISTLINGPATH

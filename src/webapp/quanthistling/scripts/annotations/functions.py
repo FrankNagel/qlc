@@ -51,10 +51,10 @@ def get_dict_bold_ranges(entry):
    
     return dict_br
 
-def get_list_ranges_for_annotation(entry, annotation_value):
+def get_list_ranges_for_annotation(entry, annotation_value, start=0):
     sorted_annotations = [ [a.start, a.end]
         for a in sorted(entry.annotations, key=attrgetter('start'))
-        if a.value==annotation_value ]
+        if a.value==annotation_value and a.start >= start ]
     
     if len(sorted_annotations) == 0:
         return []
@@ -78,10 +78,10 @@ def get_list_bold_ranges(entry):
     #sorted_annotations = sorted(sorted_annotations, key=attrgetter('start')
     return get_list_ranges_for_annotation(entry, "bold")
 
-def get_list_italic_ranges(entry):
+def get_list_italic_ranges(entry, start=0):
     #sorted_annotations = [ a for a in entry.annotations if a.value=='bold' ]
     #sorted_annotations = sorted(sorted_annotations, key=attrgetter('start')
-    return get_list_ranges_for_annotation(entry, "italic")
+    return get_list_ranges_for_annotation(entry, "italic", start)
 
 def get_last_bold_pos_at_start(entry):
     sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
