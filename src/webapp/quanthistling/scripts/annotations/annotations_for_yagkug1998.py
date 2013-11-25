@@ -111,13 +111,15 @@ def annotate_everything(entry):
         print t_end
         
         comma_list = []
-        match_example = re.search(u",\s\(?ejm\..*", entry.fullentry) # remove parenthesis and content in trans
-        print match_example
-        if match_example:
-            t_end = t_end - len(match_example.group(0))
-            print t_end
-        for com in re.finditer(r'(,|;)', entry.fullentry[t_start:t_end]):
+        for com in re.finditer(r'(,|;)', entry.fullentry):
             comma_list.append(com.start())
+        #match_example = re.search(u",\s\(?ejm\..*", entry.fullentry) # remove parenthesis and content in trans
+        #print match_example
+        #if match_example:
+            #t_end = t_end - len(match_example.group(0))
+            #print t_end
+        #for com in re.finditer(r'(,|;)', entry.fullentry[t_start:t_end]):
+            #comma_list.append(com.start())
         
         comma_list_ap = [ a for a in comma_list if a > p_end ] 
     
@@ -170,7 +172,8 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=16,pos_on_page=22).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=114,pos_on_page=32).all()
+        
 
         startletters = set()
     
