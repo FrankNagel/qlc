@@ -21,6 +21,7 @@ from quanthistling import model
 from paste.deploy import appconfig
 
 import quanthistling.dictdata.books
+import quanthistling.dictdata.toolboxfiles
 
 def main(argv):
     log = logging.getLogger()
@@ -65,7 +66,11 @@ def main(argv):
                 data_file = codecs.open(os.path.join(
                     config['pylons.paths']['static_files'], 'downloads', "csv", "{0}-{1}-{2}.csv".format(
                         book.bibtex_key, dictdata.startpage, dictdata.endpage)), "w", "utf-8")
+                data_file2 = codecs.open(os.path.join(
+                    config['pylons.paths']['static_files'], 'downloads', "datapackages", book.bibtex_key, "head_translation-{0}-{1}.csv".format(
+                        dictdata.startpage, dictdata.endpage)), "w", "utf-8")
 
+                # Header for data file 1
                 data_file.write(u"@date: {0}\n".format(iso_time))
                 data_file.write(u"@url: http://www.quanthistling.info/data/source/{0}/dictionary-{1}-{2}.html\n".format(book.bibtex_key, dictdata.startpage, dictdata.endpage))
                 data_file.write(u"@source_title: {0}\n".format(book.title))
@@ -111,8 +116,42 @@ def main(argv):
                 data_file.write(u"        {0}\n".format(iso_str))
                 data_file.write(u"    ]\n}\n</json>\n\n")
 
+
+                # Header for data file 2
+                data_file2.write(u"# date: {0}\n".format(iso_time))
+                data_file2.write(u"# url: http://www.quanthistling.info/data-full/source/{0}/dictionary-{1}-{2}.html\n".format(book.bibtex_key, dictdata.startpage, dictdata.endpage))
+                data_file2.write(u"# source_title: {0}\n".format(book.title))
+                data_file2.write(u"# source_author: {0}\n".format(book.author))
+                data_file2.write(u"# source_year: {0}\n\n".format(book.year))
+
+                #data_file.write(u"#\tDOCULECT\tAPPROX_ISO639-3\n")
+
+                # ISO and doculect stuff
+                for l in dictdata.src_languages:
+                    iso = "n/a"
+                    if l.language_iso:
+                        iso = l.language_iso.langcode
+                    data_file2.write(u"# doculect: {0}, {1}, {2}, {3}\n".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
+                    #doculects.append(u"\"{0}, {1}, {2}, {3}\"".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
+                    #doculect1 = l.language_bookname.name
+                    data_file2.write(u"# head_iso: {0}\n".format(iso))
+                    #iso_src.append(u"\"{0}\"".format(iso))
+                for l in dictdata.tgt_languages:
+                    iso = "n/a"
+                    if l.language_iso:
+                        iso = l.language_iso.langcode
+                    data_file2.write(u"# doculect: {0}, {1}, {2}, {3}\n".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
+                    #doculects.append(u"\"{0}, {1}, {2}, {3}\"".format(l.language_bookname.name, iso, l.language_bookname.name.encode('ascii','ignore'), dictdata.component.name))
+                    #doculect2 = l.language_bookname.name
+                    data_file2.write(u"# translation_iso: {0}\n".format(iso))
+                    #iso_tgt.append(u"\"{0}\"".format(iso))
+
+                data_file2.write(u"\n")
+
+                # Data
                 print "  data..."
                 data_file.write(u"QLCID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\tPOS\n")
+                data_file2.write(u"QLCID\tHEAD\tHEAD_DOCULECT\tTRANSLATION\tTRANSLATION_DOCULECT\tPOS\n")
 
                 #c.url_for = url_for
                 #c.base_url = "http://www.quanthistling.info/data"
@@ -165,9 +204,13 @@ def main(argv):
                             data_file.write(u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
                                 entry_id, head, doculects_heads[i], translation, doculects_translations[j], "|".join(pos)
                             ))
+                            data_file2.write(u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
+                                entry_id, head, doculects_heads[i], translation, doculects_translations[j], "|".join(pos)
+                            ))
 
 
                 data_file.close()
+                data_file2.close()
 
                 #c.count_heads = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"head").count()
                 #c.count_translations = model.meta.Session.query(model.Annotation).join(model.Entry, model.Annotation.entry_id==model.Entry.id).filter(model.Entry.dictdata_id==c.dictdata.id).filter(model.Annotation.value==u"translation").count()
