@@ -82,7 +82,7 @@ def main(argv):
                                 print u"no main entry found for sub entry on page %i pos on page %i." % (heads[i].entry.startpage, heads[i].entry.pos_on_page)
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=heads[i].entry.startpage, pos_on_page=heads[i].entry.pos_on_page, format='html')
-                        file_heads.write(head.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                        file_heads.write(head.strip().encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
                     file_heads.close()
 
                 # database queries for examples
@@ -116,8 +116,8 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=examples_src[i].entry.startpage, pos_on_page=examples_src[i].entry.pos_on_page, format='html')
                         #print tgt.encode('utf-8')
                         if (len(src) > 0 and len(tgt) > 0):
-                            file_src.write(src.encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
-                            file_tgt.write(tgt.encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                            file_src.write(src.encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
+                            file_tgt.write(tgt.encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
                     file_src.close()
                     file_tgt.close()
 
@@ -135,7 +135,7 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=pos[i].entry.mainentry().startpage, pos_on_page=pos[i].entry.mainentry().pos_on_page, format='html')
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=pos[i].entry.startpage, pos_on_page=pos[i].entry.pos_on_page, format='html')
-                        file_heads.write(p.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                        file_heads.write(p.strip().encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
                     file_heads.close()
 
                 # database queries for translations
@@ -152,7 +152,7 @@ def main(argv):
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=translations[i].entry.mainentry().startpage, pos_on_page=translations[i].entry.mainentry().pos_on_page, format='html')
                         else:
                             url = url_for(controller='book', action='entryid', bibtexkey=b['bibtex_key'], pagenr=translations[i].entry.startpage, pos_on_page=translations[i].entry.pos_on_page, format='html')
-                        file_translations.write(t.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                        file_translations.write(t.strip().encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
                     file_translations.close()
 
             # create archive
@@ -186,7 +186,7 @@ def main(argv):
                     for i in range(0,len(counterparts)):
                         counterpart = counterparts[i].string
                         url = url_for(controller='book', action='entryid_wordlist', bibtexkey=b['bibtex_key'], concept=counterparts[i].entry.concept.concept, language_bookname=wordlistdata.language_bookname, format='html')
-                        file_counterparts.write(counterpart.strip().encode('utf-8') + "\thttp://www.cidles.eu/quanthistling" + url + "\n")
+                        file_counterparts.write(counterpart.strip().encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
 
             # create archive
             file_counterparts.close()

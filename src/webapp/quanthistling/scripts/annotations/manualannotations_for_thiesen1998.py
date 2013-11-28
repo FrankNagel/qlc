@@ -4,636 +4,9 @@ manual_entries = []
 
 
 manual_entries.append({
-    "fullentry" : "chííí/chíj interj. ¡oh!",
-    "startpage" : 100,
-    "pos_on_page" : 13,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 22,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 22,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chííí",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chíj",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "interj.",
-                "start" : 15,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "oh",
-                "start" : 22,
-                "end" : 27
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# ch ííí #",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# ch í j #",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "chííí/chíj",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "interj.",
-                "start" : 15,
-                "end" : 22
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "chooo onom. sonido del agua de una cascada.",
-    "startpage" : 101,
-    "pos_on_page" : 27,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 11,
-                "end" : 42
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 11,
-                "end" : 42
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chooo",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido del agua de una cascada",
-                "start" : 11,
-                "end" : 42
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# ch ooo #",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "chooo",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 27,
-                "end" : 27
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 28,
-                "end" : 28
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "chíhwaá/[chíhwa], chíhwámutsi, chíhwamu s. chicua (especie de pajarito agorero). —Cuando canta che-che-che-che predice algo bueno y cuando canta chíhwaachíhwaa predice algo malo.",
-    "startpage" : 101,
-    "pos_on_page" : 3,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 21,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 21,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 49,
-                "end" : 85
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 49,
-                "end" : 85
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chíhwaá",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chíhwa",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chíhwámutsi",
-                "start" : 21,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chíhwamu",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.",
-                "start" : 46,
-                "end" : 48
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "chicua (especie de pajarito agorero)",
-                "start" : 49,
-                "end" : 85
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# ch í h . w a . á #",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# ch í h . w a #",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# ch í h . w á . m u . ts i #",
-                "start" : 21,
-                "end" : 34
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# ch í h . w a . m u #",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "chíhwaá/[chíhwa], chíhwámutsi, chíh",
-                "start" : 0,
-                "end" : 41
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "wamu",
-                "start" : 41,
-                "end" : 45
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s.",
-                "start" : 46,
-                "end" : 48
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "che-che-che-che",
-                "start" : 101,
-                "end" : 116
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "chíhwaa",
-                "start" : 151,
-                "end" : 159
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "chíhwaa",
-                "start" : 159,
-                "end" : 167
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 76,
-                "end" : 76
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 77,
-                "end" : 77
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 116,
-                "end" : 116
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 117,
-                "end" : 117
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 159,
-                "end" : 159
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 159,
-                "end" : 159
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 159,
-                "end" : 159
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "chuúi abs. acción de... [chuui] vi. salir líquido lentamente por un hueco pequeño.",
-    "startpage" : 103,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 27,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 27,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 13,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 13,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 39,
-                "end" : 86
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 39,
-                "end" : 86
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chuúi",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "abs.",
-                "start" : 7,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "acción de...",
-                "start" : 13,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chuui",
-                "start" : 27,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vi.",
-                "start" : 35,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "salir líquido lentamente por un hueco pequeño.",
-                "start" : 39,
-                "end" : 86
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "ch u ú i ",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "chuúi",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "abs.",
-                "start" : 7,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[chuui]",
-                "start" : 26,
-                "end" : 33
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vi.",
-                "start" : 34,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 25,
-                "end" : 25
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 26,
-                "end" : 26
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 63,
-                "end" : 63
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 64,
-                "end" : 64
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "dááá onom. talán de la campana. Májtsíjyari cajpááná ihjyúvá ‘dááádááá-dááá’. La campana suena talán, talán en la iglesia. (sinón. dyééé, dyúúú)",
-    "startpage" : 103,
-    "pos_on_page" : 6,
+    "fullentry" : "vííí onom. sonido agudo de un silbido. Ócájí hajchi ihjyúcunú ‘vííí’. La cría de una sachavaca silbó.",
+    "startpage" : 305,
+    "pos_on_page" : 8,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -654,19 +27,19 @@ manual_entries.append({
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 13,
-                "end" : 34
+                "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 13,
-                "end" : 34
+                "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "dááá",
+                "string" : "vííí",
                 "start" : 0,
                 "end" : 7
             },
@@ -680,35 +53,35 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "talán de la campana",
+                "string" : "sonido agudo de un silbido",
                 "start" : 13,
-                "end" : 34
+                "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Májtsíjyari cajpááná ihjyúvá dááádááá-dááá.",
-                "start" : 36,
-                "end" : 97
+                "string" : "Ócájí hajchi ihjyúcunú vííí.",
+                "start" : 42,
+                "end" : 80
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : " La campana suena talán, talán en la iglesia. (sinón. dyééé, dyúúú)",
-                "start" : 97,
-                "end" : 173
+                "string" : " La cría de una sachavaca silbó.",
+                "start" : 80,
+                "end" : 114
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorth",
-                "string" : "# d ááá #",
+                "string" : "# v ííí #",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "dááá",
+                "string" : "vííí",
                 "start" : 0,
                 "end" : 7
             },
@@ -722,928 +95,568 @@ manual_entries.append({
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Máj",
-                "start" : 36,
-                "end" : 40
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "tsíjyari cajpááná ihjyúvá ‘dááá",
-                "start" : 40,
-                "end" : 80
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "dááá-dááá’.",
-                "start" : 80,
-                "end" : 97
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dyééé, dyúúú",
-                "start" : 154,
-                "end" : 172
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 80,
+                "string" : "Ócájí hajchi ihjyúcunú ‘vííí’.",
+                "start" : 42,
                 "end" : 80
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 80,
-                "end" : 80
+                "start" : 41,
+                "end" : 41
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 117,
-                "end" : 117
+                "start" : 42,
+                "end" : 42
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 117,
-                "end" : 117
+                "start" : 89,
+                "end" : 89
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 117,
-                "end" : 117
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 153,
-                "end" : 153
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 154,
-                "end" : 154
+                "start" : 90,
+                "end" : 90
             },
     ]
 })
 
 manual_entries.append({
-    "fullentry" : "dyééé onom. talán de la campana. (sinón. dááá, dyúúú)",
-    "startpage" : 105,
+    "fullentry" : "tabítábi onom. expresa la acción de pisotear la tierra de cólera.",
+    "startpage" : 248,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tabítábi",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 12,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "expresa la acción de pisotear la tierra de cólera",
+                "start" : 17,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tabítábi",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 12,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+    ]
+})
+
+
+manual_entries.append({
+    "fullentry" : "[tájɨva] ve. tener esposo, estar casada.",
+    "startpage" : 252,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tájɨva",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ve.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener esposo",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar casada",
+                "start" : 30,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[tájɨva]",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ve.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+    ]
+})
+
+
+manual_entries.append({
+    "fullentry" : "[wáñejco] vi. gritar ñóooo para animar una fiesta. Aatye wáñejcó kijcyó-múnáake. Ellos animan a los bailarines.",
+    "startpage" : 327,
     "pos_on_page" : 17,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 14,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dyééé",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "talán de la campana",
-                "start" : 14,
-                "end" : 35
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# dy ééé #",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dyééé",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dááá, dyúúú",
-                "start" : 46,
-                "end" : 63
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "déju éhnéjcu detrás.",
-    "startpage" : 105,
-    "pos_on_page" : 38,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 23	
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 23	
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "déju éhnéjcu",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "detrás",
-                "start" : 17,
-                "end" : 23	
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "déju éhnéjcu",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-    ]
-})
-
-
-manual_entries.append({
-    "fullentry" : "[dáárɨ̱te] vi. 1. secarse. Tsúúca ó dáárɨté nííjyabáne oke múriúcúne. Ya se secó (mi ropa) mojada por la lluvia. 2. secarse (la garganta). Ɨ́hnáhó o áiúcunúneri tájkye dáárɨté. La garganta se me secó por la fiebre que tuve.",
-    "startpage" : 105,
-    "pos_on_page" : 5,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
                 "start" : 1,
-                "end" : 11
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 1,
-                "end" : 11
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 19,
-                "end" : 27
+                "start" : 16,
+                "end" : 53
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 19,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 132,
-                "end" : 152
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 132,
-                "end" : 152
+                "start" : 16,
+                "end" : 53
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "dáárɨ̱te",
+                "string" : "wáñejco",
                 "start" : 1,
-                "end" : 11
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "vi.",
-                "start" : 13,
-                "end" : 16
+                "start" : 12,
+                "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "secarse",
-                "start" : 19,
-                "end" : 27
+                "string" : "gritar ñóooo para animar una fiesta",
+                "start" : 16,
+                "end" : 53
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Tsúúca ó dáárɨté nííjyabáne oke múriúcúne.",
-                "start" : 29,
-                "end" : 83
+                "string" : "Aatye wáñejcó kijcyó-múnáake.",
+                "start" : 55,
+                "end" : 90
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : " Ya se secó (mi ropa) mojada por la lluvia. ",
-                "start" : 83,
-                "end" : 128
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "secarse (la garganta)",
-                "start" : 132,
-                "end" : 152
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ɨ́hnáhó o áiúcunúneri tájkye dáárɨté.",
-                "start" : 156,
-                "end" : 200
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "La garganta se me secó por la fiebre que tuve.",
-                "start" : 200,
-                "end" : 248
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "d áá r ɨ̱ t e",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[dáárɨ̱te]",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vi.",
-                "start" : 13,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Tsúúca ó",
-                "start" : 29,
-                "end" : 40
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "dáárɨté nííjyabáne oke múriúcúne.",
-                "start" : 41,
-                "end" : 83
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "hnáhó o áiú",
-                "start" : 156,
-                "end" : 171
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "cunúneri tájkye dáárɨté.",
-                "start" : 171,
-                "end" : 200
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 86,
-                "end" : 86
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 87,
-                "end" : 87
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 127,
-                "end" : 127
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 128,
-                "end" : 128
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 171,
-                "end" : 171
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 171,
-                "end" : 171
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 171,
-                "end" : 171
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 212,
-                "end" : 212
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 213,
-                "end" : 213
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "déné-déné-déné-juí-juí-juí onom. imita el canto del trompetero déénehe cuando está contento.",
-    "startpage" : 106,
-    "pos_on_page" : 11,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 42,
-                "end" : 103
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 42,
-                "end" : 103
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "déné-déné-déné-juí-juí-juí",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 36,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "imita el canto del trompetero déénehe cuando está contento",
-                "start" : 42,
-                "end" : 103
+                "string" : " Ellos animan a los bailarines.",
+                "start" : 90,
+                "end" : 121
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorthographic",
-                "string" : "# d é . n é # d é . n é # d é . n é # j u . í # j u . í # j u . í #",
-                "start" : 0,
-                "end" : 35
+                "string" : "# w á . ñ e j . c o #",
+                "start" : 1,
+                "end" : 10
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "déné-déné-déné-juí-juí-juí",
+                "string" : "[wáñejco]",
                 "start" : 0,
-                "end" : 35
+                "end" : 11
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "onom.",
-                "start" : 36,
-                "end" : 41
+                "string" : "vi.",
+                "start" : 12,
+                "end" : 15
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "déénehe",
-                "start" : 72,
-                "end" : 81
+                "string" : "ñóooo",
+                "start" : 23,
+                "end" : 30
             },
             {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Aatye wáñejcó kij",
+                "start" : 55,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cyó-múnáake.",
+                "start" : 75,
+                "end" : 90
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 48,
-                "end" : 48
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
-                "start" : 86,
-                "end" : 86
+                "start" : 39,
+                "end" : 39
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 86,
-                "end" : 86
+                "start" : 39,
+                "end" : 39
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 86,
-                "end" : 86
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
             },
     ]
 })
 
 manual_entries.append({
-    "fullentry" : "diícya (imp.sg. de ijcya)",
-    "startpage" : 106,
+    "fullentry" : "[ávyetétso] vt. agravar. Ɨhtsútáré chéméébeke aíívyé ávyetétsóhi. La fiebre agravó el estado del enfermo.",
+    "startpage" : 46,
     "pos_on_page" : 21,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 0,
-                "end" : 7
+                "start" : 1,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
-                "start" : 0,
-                "end" : 7
+                "start" : 1,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 9,
-                "end" : 26
+                "start" : 17,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 9,
-                "end" : 26
+                "start" : 17,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "diícya",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "(imp.sg. de ijcya)",
-                "start" : 9,
-                "end" : 26
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# d i . í . cy a #",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "diícya",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "ijcya",
-                "start" : 20,
-                "end" : 25
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ijcya",
-                "start" : 20,
-                "end" : 25
-            },
-    ]
-})
-
-
-manual_entries.append({
-    "fullentry" : "di̵í̵ s. col. ají picante.",
-    "startpage" : 107,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "di̵í̵",
-                "start" : 0,
-                "end" : 6
+                "string" : "ávyetétso",
+                "start" : 1,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "s.col.",
-                "start" : 7,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
+                "string" : "vt.",
                 "start" : 14,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 27
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "ají picante",
-                "start" : 14,
-                "end" : 27
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "di̵í̵",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s. col.",
-                "start" : 7,
-                "end" : 14
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "s.col.",
-                "start" : 7,
-                "end" : 14
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "dooo onom. sonido de un viento y lluvia fuertes; sonido prolongado del golpe de una aleta. Kííjyeba ihjyúvá ‘dooo’ úmehééné pañe. El viento está sonando fuertemente entre los árboles.",
-    "startpage" : 111,
-    "pos_on_page" : 19,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 49,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 49,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido de un viento y lluvia fuertes",
-                "start" : 10,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido prolongado del golpe de una aleta",
-                "start" : 49,
-                "end" : 89
+                "string" : "agravar",
+                "start" : 17,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Kííjyeba ihjyúvá dooo úmehééné pañe.",
-                "start" : 91,
-                "end" : 138
+                "string" : "Ɨhtsútáré chéméébeke aíívyé ávyetétsóhi.",
+                "start" : 28,
+                "end" : 79
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : " El viento está sonando fuertemente entre los árboles.",
-                "start" : 138,
-                "end" : 194
+                "string" : " La fiebre agravó el estado del enfermo.",
+                "start" : 79,
+                "end" : 120
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorth",
-                "string" : "# d ooo #",
-                "start" : 0,
-                "end" : 4
+                "string" : "á vy e t é ts o",
+                "start" : 1,
+                "end" : 12
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "dooo",
+                "string" : "[ávyetétso]",
                 "start" : 0,
-                "end" : 4
+                "end" : 13
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
+                "string" : "vt.",
+                "start" : 14,
+                "end" : 17
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Kííjyeba ihjyúvá ‘dooo’",
-                "start" : 91,
-                "end" : 118
+                "string" : "htsútáré",
+                "start" : 28,
+                "end" : 39
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "úmehééné pañe.",
-                "start" : 119,
-                "end" : 138
+                "string" : "chéméébeke aíívyé ávyetétsóhi.",
+                "start" : 40,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
@@ -1663,50 +676,15 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 76,
-                "end" : 76
+                "start" : 82,
+                "end" : 82
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 77,
-                "end" : 77
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 119,
-                "end" : 119
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 160,
-                "end" : 160
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 160,
-                "end" : 160
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 160,
-                "end" : 160
+                "start" : 83,
+                "end" : 83
             },
     ]
 })
@@ -2084,452 +1062,283 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "dyúúú. onom. talán. Uwáábójatu ó lleebó cajpááná ihjyúváne ‘dyuu-dyuudyuu’. Escuché la campana de la escuela sonando talán. (sinón. dááá, dyééé)",
-    "startpage" : 123,
-    "pos_on_page" : 18,
+    "fullentry" : "yóóó onom. canto monótono de la cigarra o chicharra.",
+    "startpage" : 339,
+    "pos_on_page" : 28,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 15,
-                "end" : 22
+                "start" : 13,
+                "end" : 55
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 15,
-                "end" : 22
+                "start" : 13,
+                "end" : 55
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "dyúúú",
+                "string" : "yóóó",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "onom.",
-                "start" : 10,
-                "end" : 15
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "talán",
-                "start" : 15,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Uwáábójatu ó lleebó cajpááná ihjyúváne dyuu-dyuudyuu.",
-                "start" : 24,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Escuché la campana de la escuela sonando talán. (sinón. dááá, dyééé)",
-                "start" : 89,
-                "end" : 167
+                "string" : "canto monótono de la cigarra o chicharra",
+                "start" : 13,
+                "end" : 55
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorth",
-                "string" : "# dy úúú #",
+                "string" : "# y óóó #",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "dyúúú.",
+                "string" : "yóóó",
                 "start" : 0,
-                "end" : 9
+                "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
                 "string" : "onom.",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Uwáábójatu ó llee",
-                "start" : 24,
-                "end" : 45
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "bó cajpááná ihjyúváne ‘dyuu-dyuu",
-                "start" : 45,
-                "end" : 83
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "dyuu’.",
-                "start" : 83,
-                "end" : 89
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dááá,",
-                "start" : 149,
-                "end" : 157
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dyééé",
-                "start" : 158,
-                "end" : 166
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
-                "start" : 45,
-                "end" : 45
+                "start" : 40,
+                "end" : 40
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 45,
-                "end" : 45
+                "start" : 40,
+                "end" : 40
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 45,
-                "end" : 45
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 157,
-                "end" : 157
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 158,
-                "end" : 158
+                "start" : 40,
+                "end" : 40
             },
     ]
 })
 
 manual_entries.append({
-    "fullentry" : "dúwaábó[duwáábo] (imp.sg. de uwáábo)",
-    "startpage" : 125,
-    "pos_on_page" : 14,
+    "fullentry" : "dááá onom. talán de la campana. Májtsíjyari cajpááná ihjyúvá ‘dááádááá-dááá’. La campana suena talán, talán en la iglesia. (sinón. dyééé, dyúúú)",
+    "startpage" : 103,
+    "pos_on_page" : 6,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 10
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 10
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dúwaábó",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "duwáábo",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# d ú . w a . á . b ó #",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# d u . w áá . b o #",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dúwaábó[duwáábo]",
-                "start" : 0,
-                "end" : 21
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "uwáábo",
-                "start" : 34,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
+                "string" : "spa",
+                "start" : 13,
                 "end" : 34
             },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "dsaaa onom. chirrido que produce algo al freirse o cuando se echa agua al fuego. Majchó meenúúbé wáárɨhcóné ihjyúvá ‘dsaaa’. Lo que el cocinero fríe hace ruido.",
-    "startpage" : 125,
-    "pos_on_page" : 15,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 11,
-                "end" : 79
-            },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 11,
-                "end" : 79
+                "start" : 13,
+                "end" : 34
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "dsaaa",
+                "string" : "dááá",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "chirrido que produce algo al freirse o cuando se echa agua al fuego",
-                "start" : 11,
-                "end" : 79
+                "string" : "talán de la campana",
+                "start" : 13,
+                "end" : 34
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Majchó meenúúbé wáárɨhcóné ihjyúvá dsaaa.",
-                "start" : 81,
-                "end" : 134
+                "string" : "Májtsíjyari cajpááná ihjyúvá dááádááá-dááá.",
+                "start" : 36,
+                "end" : 97
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : " Lo que el cocinero fríe hace ruido.",
-                "start" : 134,
-                "end" : 171
+                "string" : " La campana suena talán, talán en la iglesia. (sinón. dyééé, dyúúú)",
+                "start" : 97,
+                "end" : 173
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorth",
-                "string" : "# ds aaa #",
+                "string" : "# d ááá #",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "dsaaa",
+                "string" : "dááá",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
                 "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Majchó meenúúbé wáárɨhcóné",
-                "start" : 81,
-                "end" : 115
+                "string" : "Máj",
+                "start" : 36,
+                "end" : 40
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "ihjyúvá ‘dsaaa’.",
-                "start" : 116,
-                "end" : 134
+                "string" : "tsíjyari cajpááná ihjyúvá ‘dááá",
+                "start" : 40,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dááá-dááá’.",
+                "start" : 80,
+                "end" : 97
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dyééé, dyúúú",
+                "start" : 154,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 40,
+                "end" : 40
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "pagebreak",
-                "string" : "",
-                "start" : 74,
-                "end" : 74
+                "start" : 80,
+                "end" : 80
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 74,
-                "end" : 74
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 115,
-                "end" : 115
+                "start" : 117,
+                "end" : 117
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 116,
-                "end" : 116
+                "start" : 117,
+                "end" : 117
             },
             {
                 "type" : "pagelayout",
@@ -2549,947 +1358,142 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "dseee onom. imita el zumbido de una abeja o el sonido de un aserradero.",
-    "startpage" : 125,
-    "pos_on_page" : 26,
+    "fullentry" : "cátsoówa s. col. especie de avispa grande de color negro que come larvas.",
+    "startpage" : 84,
+    "pos_on_page" : 12,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 11,
-                "end" : 70
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 11,
-                "end" : 70
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dseee",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "imita el zumbido de una abeja o el sonido de un aserradero",
-                "start" : 11,
-                "end" : 70
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# ds eee #",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "dseee",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[ee-/e-] r.l. ése (no muy distante). —Se añaden los sufijos clasificadores para formar pronombres demostrativos que corresponden a ése (ver los apéndices C y D).",
-    "startpage" : 127,
-    "pos_on_page" : 34,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 14,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ee-",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "e-",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "r.l.",
-                "start" : 9,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ése (no muy distante)",
-                "start" : 14,
-                "end" : 36
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# ee #",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# e #",
-                "start" : 5,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[ee-/e-]",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "r.l.",
-                "start" : 9,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ése",
-                "start" : 133,
-                "end" : 137
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 88,
-                "end" : 88
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 89,
-                "end" : 89
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 132,
-                "end" : 132
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 133,
-                "end" : 133
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[eh-] r.l. aquél, aquélla, aquello. —Se añaden los sufijos clasificadores para formar pronombres demostrativos que corresponden a aquél (ver los apéndices C y D).",
-    "startpage" : 128,
-    "pos_on_page" : 9,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 19,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 19,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 29,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 29,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "eh-",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "r.l.",
-                "start" : 6,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "aquél",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "aquélla",
-                "start" : 19,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "aquello",
-                "start" : 29,
-                "end" : 36
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# e h #",
-                "start" : 1,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[eh-]",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "r.l.",
-                "start" : 6,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "aquél",
-                "start" : 133,
-                "end" : 139
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 88,
-                "end" : 88
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 89,
-                "end" : 89
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 132,
-                "end" : 132
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 133,
-                "end" : 133
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "goróójɨ, goróómu s.an. seta, hongo. Especies: gohgójɨ, óóbacyó tájkii, aallúllímujɨ (comestible); téétejɨ (no comestible).",
-    "startpage" : 132,
-    "pos_on_page" : 40,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 26,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 26,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 33,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 33,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "goróójɨ",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "goróómu",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.an.",
-                "start" : 21,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "seta",
-                "start" : 26,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "hongo",
-                "start" : 33,
-                "end" : 38
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# g o . r óó . j ɨ #",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# g o . r óó . m u #",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "goróójɨ, goróómu",
-                "start" : 0,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s.an.",
-                "start" : 21,
-                "end" : 26
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Especies:",
-                "start" : 40,
-                "end" : 49
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "comestible",
-                "start" : 96,
-                "end" : 106
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "no",
-                "start" : 120,
-                "end" : 122
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "comestible",
-                "start" : 123,
-                "end" : 133
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 79,
-                "end" : 79
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 123,
-                "end" : 123
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "guuu onom. gruñido del perro.",
-    "startpage" : 133,
-    "pos_on_page" : 5,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "guuu",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "gruñido del perro",
-                "start" : 10,
-                "end" : 29
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# g uuu #",
+                "value" : "head",
+                "string" : "cátsoówa",
                 "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "guuu",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
                 "end" : 10
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "íñejcúéhójtsɨtu míítyétsií siete (hombres o animales machos).",
-    "startpage" : 145,
-    "pos_on_page" : 31,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 37,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 37,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "íñejcúéhójtsɨtu míítyétsií",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "siete (hombres o animales machos)",
-                "start" : 37,
-                "end" : 69
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "íñejcúéhójtsɨtu míítyétsií",
-                "start" : 0,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-    ]
-})
-
-
-manual_entries.append({
-    "fullentry" : "í̵veekí/[í̵vej] adv.interr. por qué. ¿Ɨ́veekí u péé cóómívuú? ¿Por qué te vas al pueblo? —Se emplea í̵vej como repuesta.",
-    "startpage" : 158,
-    "pos_on_page" : 19,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 30,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "í̵veekí",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "í̵vej",
-                "start" : 11,
-                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "adv.interr.",
-                "start" : 19,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "por qué",
-                "start" : 30,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Ɨ́veekí u péé cóómívuú?",
-                "start" : 41,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¿Por qué te vas al pueblo?",
-                "start" : 73,
-                "end" : 100
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# í̵ . v ee . k í #",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# í̵ . v e j #",
+                "string" : "s.col.",
                 "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "í̵veekí/[í̵vej]",
-                "start" : 0,
                 "end" : 18
             },
             {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 18,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "especie de avispa grande de color negro que come larvas",
+                "start" : 18,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cátsoówa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "adv.interr.",
+                "string" : "s. col.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
                 "start" : 19,
-                "end" : 30
+                "end" : 19
             },
             {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Ɨ́veekí",
-                "start" : 41,
-                "end" : 50
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "u péé cóómívuú?",
-                "start" : 51,
-                "end" : 72
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "í̵vej",
-                "start" : 112,
-                "end" : 118
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 50,
-                "end" : 50
+                "start" : 34,
+                "end" : 34
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 51,
-                "end" : 51
+                "start" : 34,
+                "end" : 34
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 92,
-                "end" : 92
+                "start" : 46,
+                "end" : 46
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 93,
-                "end" : 93
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "s.col.",
+                "start" : 11,
+                "end" : 18
             },
     ]
 })
@@ -3692,6 +1696,2750 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "[wámɨhjúcu, wámɨhco] vt. 1. mover la cabeza de arriba abajo. 2. cabecear, golpear con la cabeza. Ɨ́í̵cú-múnáajpíi wámɨhjúcú peróótau. El jugador golpeó la pelota con la cabeza.",
+    "startpage" : 325,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 30,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 30,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 66,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 66,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 78,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 78,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wámɨhjúcu",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wámɨhco",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 24,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mover la cabeza de arriba abajo",
+                "start" : 30,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cabecear",
+                "start" : 66,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "golpear con la cabeza",
+                "start" : 78,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨ́í̵cú-múnáajpíi wámɨhjúcú peróótau.",
+                "start" : 102,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El jugador golpeó la pelota con la cabeza.",
+                "start" : 148,
+                "end" : 190
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á m ɨ h j ú c u",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á m ɨ h c o",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[wámɨhjúcu, wámɨhco]",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 24,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ɨí̵cú-múnáajpíi wámɨhjúcú peróótau.",
+                "start" : 102,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dseee onom. imita el zumbido de una abeja o el sonido de un aserradero.",
+    "startpage" : 125,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dseee",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "imita el zumbido de una abeja o el sonido de un aserradero",
+                "start" : 11,
+                "end" : 70
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# ds eee #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dseee",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pérejchi s. col. cortadera (especie de yerba de bordes muy afilados).",
+    "startpage" : 230,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pérejchi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.col.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortadera (especie de yerba de bordes muy afilados)",
+                "start" : 17,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pérejchi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s. col.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "s.col.",
+                "start" : 10,
+                "end" : 17
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "íñejcúéhójtsɨtu míítyétsií siete (hombres o animales machos).",
+    "startpage" : 145,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 37,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 37,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "íñejcúéhójtsɨtu míítyétsií",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "siete (hombres o animales machos)",
+                "start" : 37,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "íñejcúéhójtsɨtu míítyétsií",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+    ]
+})
+
+
+manual_entries.append({
+    "fullentry" : "tooo onom. sonido del disparo de un arma de fuego. (sinón. pooo, tuuu)",
+    "startpage" : 264,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido del disparo de un arma de fuego",
+                "start" : 10,
+                "end" : 49
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# t ooo #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pooo, tuuu",
+                "start" : 60,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "píj-píj-píj-píjyoo-píjyoo onom. imita la voz del paujil llamado niimúco cuando se enoja con la gente.",
+    "startpage" : 234,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 36,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "píj-píj-píj-píjyoo-píjyoo",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " imita la voz del paujil llamado niimúco cuando se enoja con la gente",
+                "start" : 36,
+                "end" : 106
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p í j # p í j # p í j # p í . jy oo # p í . jy oo #",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "píj-píj-píj-píjyoo-píjyoo",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "niimúco",
+                "start" : 69,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "déju éhnéjcu detrás.",
+    "startpage" : 105,
+    "pos_on_page" : 38,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 23	
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 23	
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "déju éhnéjcu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "detrás",
+                "start" : 17,
+                "end" : 23	
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "déju éhnéjcu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})
+
+
+manual_entries.append({
+    "fullentry" : "chaaa onom. imita el sonido que produce la caída de algo como lluvia sobre el techo, frutos que caen al suelo o maíz desgranado. Nííjyaba allé ‘chaaa’ tahjyá hallúvu. La lluvia está sonando en el techo de mi casa.",
+    "startpage" : 98,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 86,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 86,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chaaa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "imita el sonido que produce la caída de algo como lluvia sobre el techo",
+                "start" : 11,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "frutos que caen al suelo o maíz desgranado",
+                "start" : 86,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Nííjyaba allé chaaa tahjyá hallúvu.",
+                "start" : 131,
+                "end" : 173
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " La lluvia está sonando en el techo de mi casa.",
+                "start" : 173,
+                "end" : 221
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# ch aaa #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chaaa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Nííjyaba allé",
+                "start" : 131,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "‘chaaa’ tahjyá hallúvu.",
+                "start" : 148,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 112,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 147,
+                "end" : 147
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 148,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 189,
+                "end" : 189
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 190,
+                "end" : 190
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "rooo onom. 1. sonido del vuelo de la chicharra. 2. sonido como de motor o avión.",
+    "startpage" : 245,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 13,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 50,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 50,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido del vuelo de la chicharra",
+                "start" : 13,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido como de motor o avión",
+                "start" : 50,
+                "end" : 80
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# r ooo #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "muúbe/[muubá] pron.interr.m.sg. quién, de quién. —Se emplea muubá para indicar el sujeto: Muubá tsááhií. ¿Quién viene? ¿Muubáha?/¿Muubáhajaj? ¿Quién?",
+    "startpage" : 188,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúbe",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muubá",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.m.sg.",
+                "start" : 16,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de quién",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muubá tsááhií.",
+                "start" : 95,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién viene? ",
+                "start" : 113,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muubáha?/¿Muubáhajaj?",
+                "start" : 129,
+                "end" : 153
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién?",
+                "start" : 153,
+                "end" : 162
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . b e #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . b á #",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúbe/[muubá]",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.m.sg.",
+                "start" : 16,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muubá",
+                "start" : 64,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muubá tsááhií.",
+                "start" : 95,
+                "end" : 113
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muubáha?/¿Muubáhajaj?",
+                "start" : 129,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsiñátsíña onom. describe la característica de ser fácil de descoserse o de desatarse.",
+    "startpage" : 282,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 20,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsiñátsíña",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "describe la característica de ser fácil de descoserse o de desatarse",
+                "start" : 20,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsiñátsíña",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+    ]
+})
+
+
+manual_entries.append({
+    "fullentry" : "déné-déné-déné-juí-juí-juí onom. imita el canto del trompetero déénehe cuando está contento.",
+    "startpage" : 106,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 42,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 42,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "déné-déné-déné-juí-juí-juí",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "imita el canto del trompetero déénehe cuando está contento",
+                "start" : 42,
+                "end" : 103
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# d é . n é # d é . n é # d é . n é # j u . í # j u . í # j u . í #",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "déné-déné-déné-juí-juí-juí",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "déénehe",
+                "start" : 72,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 48,
+                "end" : 48
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[tuhnúmúva̱te] vi. agusanarse, ponerse agusanado con tuhnúmu. Páállaho tuhnúmúvatéhi. La masa de almidón se ha agusanada.",
+    "startpage" : 268,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 20,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 33,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuhnúmúva̱te",
+                "start" : 1,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agusanarse",
+                "start" : 20,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ponerse agusanado con tuhnúmu",
+                "start" : 33,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Páállaho tuhnúmúvatéhi.",
+                "start" : 65,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " La masa de almidón se ha agusanada.",
+                "start" : 93,
+                "end" : 130
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# t u h . n ú . m ú . v a̱ . t e #",
+                "start" : 1,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[tuhnúmúva̱te]",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 17,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tuhnúmu. Páá",
+                "start" : 55,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "llaho tuhnúmúvatéhi.",
+                "start" : 70,
+                "end" : 93
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[áiivye, ááiba] vi. 1. quemarse, consumirse con fuego. Táwajcyóhá ímí áiivyéhi. Mi chacra se quemó bien. Jááhañe ááibá páneeréjuco tsaíjyúre. Todas las casas se quemaron al mismo tiempo. (sinón. ajtye) 2. quemarse superficialmente. Ájchíwu áiivyé cúújúwari. Mi hijo se quemó en la candela. 3. (fig.) tener fiebre. ájchíwu mítyane áiivyéhi. Mi hijo tiene mucha fiebre.",
+    "startpage" : 32,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 36,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 226,
+                "end" : 252
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 226,
+                "end" : 252
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 322,
+                "end" : 342
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 322,
+                "end" : 342
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "áiivye",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ááiba",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quemarse",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "consumirse con fuego",
+                "start" : 36,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táwajcyóhá ímí áiivyéhi.",
+                "start" : 58,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi chacra se quemó bien. ",
+                "start" : 89,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jááhañe ááibá páneeréjuco tsaíjyúre.",
+                "start" : 116,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Todas las casas se quemaron al mismo tiempo.",
+                "start" : 163,
+                "end" : 207
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ajtye",
+                "start" : 217,
+                "end" : 222
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quemarse superficialmente",
+                "start" : 226,
+                "end" : 252
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ájchíwu áiivyé cúújúwari.",
+                "start" : 254,
+                "end" : 286
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi hijo se quemó en la candela. ",
+                "start" : 286,
+                "end" : 320
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(fig.) tener fiebre",
+                "start" : 322,
+                "end" : 342
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ájchíwu mítyane áiivyéhi.",
+                "start" : 344,
+                "end" : 374
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi hijo tiene mucha fiebre.",
+                "start" : 374,
+                "end" : 402
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# á . ii . vy e #",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# áá . i . b a #",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[áiivye, ááiba]",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táwajcyóhá ímí",
+                "start" : 58,
+                "end" : 77
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "áiivyéhi.",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Jááhañe ááibá páneeréjuco tsaíjyúre.",
+                "start" : 116,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ajtye",
+                "start" : 217,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ájchíwu áiivyé cúú",
+                "start" : 254,
+                "end" : 278
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "júwari.",
+                "start" : 278,
+                "end" : 286
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ájchíwu mí",
+                "start" : 344,
+                "end" : 357
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tyane áiivyéhi.",
+                "start" : 357,
+                "end" : 374
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 162,
+                "end" : 162
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 197,
+                "end" : 197
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 235,
+                "end" : 235
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 236,
+                "end" : 236
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 278,
+                "end" : 278
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 357,
+                "end" : 357
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 394,
+                "end" : 394
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 395,
+                "end" : 395
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pooo onom. sonido de un disparo de escopeta. (sinón. tooo)",
+    "startpage" : 242,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido de un disparo de escopeta",
+                "start" : 10,
+                "end" : 43
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# p ooo #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tooo",
+                "start" : 54,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "guuu onom. gruñido del perro.",
+    "startpage" : 133,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "guuu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gruñido del perro",
+                "start" : 10,
+                "end" : 29
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# g uuu #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "guuu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "cówáhomája fibra del árbol áácuhe que sirve para hacer antorchas.",
+    "startpage" : 92,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cówáhomája",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fibra del árbol áácuhe que sirve para hacer antorchas",
+                "start" : 14,
+                "end" : 70
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# c ó . w á . h o . m á . j a #",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cówáhomája",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "áácuhe",
+                "start" : 31,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dsaaa onom. chirrido que produce algo al freirse o cuando se echa agua al fuego. Majchó meenúúbé wáárɨhcóné ihjyúvá ‘dsaaa’. Lo que el cocinero fríe hace ruido.",
+    "startpage" : 125,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dsaaa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chirrido que produce algo al freirse o cuando se echa agua al fuego",
+                "start" : 11,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Majchó meenúúbé wáárɨhcóné ihjyúvá dsaaa.",
+                "start" : 81,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Lo que el cocinero fríe hace ruido.",
+                "start" : 134,
+                "end" : 171
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# ds aaa #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dsaaa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Majchó meenúúbé wáárɨhcóné",
+                "start" : 81,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ihjyúvá ‘dsaaa’.",
+                "start" : 116,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "juuu interj. expresa que se entiende lo que alguien cuenta. —A veces se usa en forma irónica para expresar incredulidad y duda.",
     "startpage" : 160,
     "pos_on_page" : 14,
@@ -3812,479 +4560,8 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "jooo onom. sonido que produce algo arrastrado por el suelo o empujado por el viento.",
-    "startpage" : 160,
-    "pos_on_page" : 8,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 83
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 83
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "jooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido que produce algo arrastrado por el suelo o empujado por el viento",
-                "start" : 10,
-                "end" : 83
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# j ooo #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "jooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 69,
-                "end" : 69
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "lli̱í̱ñe/[hlli̱í̱ñe] loc. 1. lugar debajo de algo o alguién. Táhlliiñe diíbye. El está debajo de mí. 2. (fig.) inferior. Táhlliiñéúré diíbye. El es inferior a mí. 3. (fig.) causa, razón; culpa. Dihllííñéré uu íchihyi. Por tu culpa estás aquí.",
-    "startpage" : 170,
-    "pos_on_page" : 27,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "lli̱í̱ñe",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 12,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 12,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "-hlli̱í̱ñe",
-                "start" : 12,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "loc.",
-                "start" : 25,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 32,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 32,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "lugar debajo de algo o alguién",
-                "start" : 32,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Táhlliiñe diíbye.",
-                "start" : 66,
-                "end" : 86
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " El está debajo de mí. ",
-                "start" : 86,
-                "end" : 111
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 120,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 120,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "inferior",
-                "start" : 120,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Táhlliiñéúré diíbye.",
-                "start" : 131,
-                "end" : 157
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " El es inferior a mí. ",
-                "start" : 157,
-                "end" : 180
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 189,
-                "end" : 195
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 189,
-                "end" : 195
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "causa",
-                "start" : 189,
-                "end" : 195
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 197,
-                "end" : 203
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 197,
-                "end" : 203
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "razón",
-                "start" : 197,
-                "end" : 203
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 205,
-                "end" : 210
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 205,
-                "end" : 210
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "culpa",
-                "start" : 205,
-                "end" : 210
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Dihllííñéré uu íchihyi.",
-                "start" : 212,
-                "end" : 241
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Por tu culpa estás aquí.",
-                "start" : 241,
-                "end" : 268
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "lli̱í̱ñe/[hlli̱í̱ñe]",
-                "start" : 0,
-                "end" : 24
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "loc.",
-                "start" : 25,
-                "end" : 29
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Táhlliiñe diíbye.",
-                "start" : 66,
-                "end" : 86
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Táh",
-                "start" : 131,
-                "end" : 135
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "lliiñéúré diíbye.",
-                "start" : 135,
-                "end" : 157
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Dihllíí",
-                "start" : 212,
-                "end" : 221
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ñéré uu íchihyi.",
-                "start" : 221,
-                "end" : 241
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 95,
-                "end" : 95
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 96,
-                "end" : 96
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 135,
-                "end" : 135
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 135,
-                "end" : 135
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 135,
-                "end" : 135
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 179,
-                "end" : 179
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 180,
-                "end" : 180
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 221,
-                "end" : 221
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 221,
-                "end" : 221
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 221,
-                "end" : 221
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 261,
-                "end" : 261
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 262,
-                "end" : 262
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "-hlli̱í̱ñe",
-                "start" : 12,
-                "end" : 23
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "meé/[me/me-] pron.pers. nosotros; nos (incl.). –Se antepone me- al verbo de las oraciones indicativas e imperativas. Cuando un pronombre dual o plural de primera o segunda persona aparece como sujeto de una oración, también se antepone me- al verbo: Mépeé. Vamos. Muha mépéjucóó. Ya nos vamos. ¡Mépeé! ¡Vayan!",
-    "startpage" : 178,
+    "fullentry" : "dúwaábó[duwáábo] (imp.sg. de uwáábo)",
+    "startpage" : 125,
     "pos_on_page" : 14,
     "annotations" : [
             {
@@ -4292,449 +4569,91 @@ manual_entries.append({
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 4
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 4
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 6,
-                "end" : 8
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
-                "start" : 6,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 9,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 9,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 24,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 24,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 35,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 35,
-                "end" : 46
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "meé",
+                "string" : "dúwaábó",
                 "start" : 0,
-                "end" : 4
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "me",
-                "start" : 6,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "me-",
-                "start" : 9,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pron.pers.",
-                "start" : 14,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nosotros",
-                "start" : 24,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nos (incl.)",
-                "start" : 35,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Mépeé.",
-                "start" : 253,
-                "end" : 261
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Vamos. ",
-                "start" : 261,
-                "end" : 269
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Muha mépéjucóó.",
-                "start" : 269,
-                "end" : 288
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Ya nos vamos. ",
-                "start" : 288,
-                "end" : 303
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¡Mépeé!",
-                "start" : 303,
-                "end" : 312
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " ¡Vayan!",
-                "start" : 312,
-                "end" : 320
+                "string" : "duwáábo",
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m e . é #",
+                "value" : "headorth",
+                "string" : "# d ú . w a . á . b ó #",
                 "start" : 0,
-                "end" : 4
+                "end" : 10
             },
             {
                 "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m e #",
-                "start" : 6,
-                "end" : 8
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m e #",
-                "start" : 9,
-                "end" : 12
+                "value" : "headorth",
+                "string" : "# d u . w áá . b o #",
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "meé/[me/me-]",
+                "string" : "dúwaábó[duwáábo]",
                 "start" : 0,
-                "end" : 13
+                "end" : 21
             },
             {
                 "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron.pers.",
-                "start" : 14,
-                "end" : 24
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "me-",
-                "start" : 61,
-                "end" : 64
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "me-",
-                "start" : 239,
-                "end" : 242
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Mépeé.",
-                "start" : 253,
-                "end" : 261
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Muha mépéjucóó.",
-                "start" : 269,
-                "end" : 288
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¡Mépeé!",
-                "start" : 303,
-                "end" : 312
+                "value" : "bold",
+                "string" : "uwáábo",
+                "start" : 34,
+                "end" : 42
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "pagebreak",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
+                "start" : 33,
+                "end" : 33
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 81,
-                "end" : 81
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 127,
-                "end" : 127
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 128,
-                "end" : 128
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 172,
-                "end" : 172
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 173,
-                "end" : 173
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 217,
-                "end" : 217
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 218,
-                "end" : 218
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 261,
-                "end" : 261
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 262,
-                "end" : 262
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 298,
-                "end" : 298
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 298,
-                "end" : 298
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 298,
-                "end" : 298
+                "start" : 34,
+                "end" : 34
             },
     ]
 })
 
 manual_entries.append({
-    "fullentry" : "méúji̵ba s nuestro (incl.) hombro. (ver úji̵ba)",
-    "startpage" : 181,
-    "pos_on_page" : 34,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "méúji̵ba",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.",
-                "start" : 11,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 12,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 12,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nuestro (incl.) hombro",
-                "start" : 12,
-                "end" : 35
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "méúji̵ba",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s",
-                "start" : 11,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "úji̵ba",
-                "start" : 42,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "pagebreak",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "s.",
-                "start" : 11,
-                "end" : 12
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "mí̵a part. expresa sorpresa ante una verdad. Mí̵a uu ímítyuúbe. De veras eres malo.",
-    "startpage" : 185,
+    "fullentry" : "coí, coííí-coííí onom. imita el gañido de un perro cuando es azotado.",
+    "startpage" : 90,
     "pos_on_page" : 11,
     "annotations" : [
             {
@@ -4742,98 +4661,640 @@ manual_entries.append({
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 6,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 6,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 11,
-                "end" : 44
+                "start" : 29,
+                "end" : 76
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 11,
-                "end" : 44
+                "start" : 29,
+                "end" : 76
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "mí̵a",
+                "string" : "coí",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "coííí-coííí",
+                "start" : 6,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "part.",
-                "start" : 6,
-                "end" : 11
+                "string" : "onom.",
+                "start" : 24,
+                "end" : 29
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "expresa sorpresa ante una verdad",
-                "start" : 11,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Mí̵a uu ímítyuúbe.",
-                "start" : 46,
-                "end" : 68
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " De veras eres malo.",
-                "start" : 68,
-                "end" : 88
+                "string" : "imita el gañido de un perro cuando es azotado",
+                "start" : 29,
+                "end" : 76
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorthographic",
-                "string" : "# m í̵ . a #",
+                "string" : "# c o . í #",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# co . ííí # co . ííí #",
+                "start" : 6,
+                "end" : 23
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "mí̵a",
+                "string" : "coí, coííí-coííí",
                 "start" : 0,
-                "end" : 5
+                "end" : 23
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "part.",
-                "start" : 6,
-                "end" : 11
+                "string" : "onom.",
+                "start" : 24,
+                "end" : 29
             },
             {
                 "type" : "formatting",
-                "value" : "italic",
-                "string" : "M",
-                "start" : 46,
-                "end" : 47
+                "value" : "bold",
+                "string" : "el",
+                "start" : 36,
+                "end" : 38
             },
             {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "a uu ímítyuúbe.",
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
                 "start" : 50,
-                "end" : 68
+                "end" : 50
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[ee-/e-] r.l. ése (no muy distante). —Se añaden los sufijos clasificadores para formar pronombres demostrativos que corresponden a ése (ver los apéndices C y D).",
+    "startpage" : 127,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ee-",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "e-",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "r.l.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ése (no muy distante)",
+                "start" : 14,
+                "end" : 36
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ee #",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# e #",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[ee-/e-]",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "r.l.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ése",
+                "start" : 133,
+                "end" : 137
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 132,
+                "end" : 132
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 133,
+                "end" : 133
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "muhtsi pron.pers. nosotros dos. —Cuando es el sujeto, el verbo lleva el prefijo me-. Muhtsi méɨɨcúhi. Nosotros dos estamos jugando. (ver meé)",
+    "startpage" : 190,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muhtsi",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.pers.",
+                "start" : 7,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " nosotros dos",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muhtsi méɨɨcúhi.",
+                "start" : 85,
+                "end" : 103
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nosotros dos estamos jugando.",
+                "start" : 104,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "meé",
+                "start" : 139,
+                "end" : 143
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u h . ts i #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muhtsi",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.pers.",
+                "start" : 7,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-.",
+                "start" : 80,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muhtsi méɨɨcúhi.",
+                "start" : 85,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meé",
+                "start" : 139,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "chíhwaá/[chíhwa], chíhwámutsi, chíhwamu s. chicua (especie de pajarito agorero). —Cuando canta che-che-che-che predice algo bueno y cuando canta chíhwaachíhwaa predice algo malo.",
+    "startpage" : 101,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 49,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 49,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwaá",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwa",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwámutsi",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíhwamu",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 46,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chicua (especie de pajarito agorero)",
+                "start" : 49,
+                "end" : 85
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w a . á #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w a #",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w á . m u . ts i #",
+                "start" : 21,
+                "end" : 34
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í h . w a . m u #",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chíhwaá/[chíhwa], chíhwámutsi, chíh",
+                "start" : 0,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wamu",
+                "start" : 41,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 46,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "che-che-che-che",
+                "start" : 101,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "chíhwaa",
+                "start" : 151,
+                "end" : 159
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "chíhwaa",
+                "start" : 159,
+                "end" : 167
             },
             {
                 "type" : "pagelayout",
@@ -4860,149 +5321,254 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 82,
-                "end" : 82
+                "start" : 76,
+                "end" : 76
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 83,
-                "end" : 83
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
             },
     ]
 })
 
 manual_entries.append({
-    "fullentry" : "mɨáhmí̵a onom. expresa sorpresa ante un hecho difícil de creer. ‘Mɨáhmí̵á’ áánu añú iyáábeke. ¡Este, por casualidad, baleó a un animal!",
-    "startpage" : 185,
-    "pos_on_page" : 13,
+    "fullentry" : "[wámooháyo, wámóóhañu] vt. 1. hacer desfilar, poner en fila. Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi. El puso a sus hijos en fila en el camino. 2. estirar.",
+    "startpage" : 325,
+    "pos_on_page" : 25,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 0,
-                "end" : 10
+                "start" : 1,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
-                "start" : 0,
-                "end" : 10
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 14,
+                "end" : 27
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 17,
+                "start" : 35,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 52,
                 "end" : 65
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 17,
+                "start" : 52,
                 "end" : 65
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 154,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 154,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "mɨáhmí̵a",
-                "start" : 0,
-                "end" : 10
+                "string" : "wámooháyo",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wámóóhañu",
+                "start" : 14,
+                "end" : 27
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "onom.",
-                "start" : 11,
-                "end" : 16
+                "string" : "vt.",
+                "start" : 29,
+                "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "expresa sorpresa ante un hecho difícil de creer",
-                "start" : 17,
+                "string" : "hacer desfilar",
+                "start" : 35,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner en fila",
+                "start" : 52,
                 "end" : 65
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "‘Mɨáhmí̵á’ áánu añú iyáábeke.",
-                "start" : 67,
-                "end" : 105
+                "string" : "Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi.",
+                "start" : 69,
+                "end" : 109
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : " ¡Este, por casualidad, baleó a un animal!",
-                "start" : 105,
-                "end" : 148
+                "string" : " El puso a sus hijos en fila en el camino. ",
+                "start" : 109,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estirar",
+                "start" : 154,
+                "end" : 162
             },
             {
                 "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m ɨ . á h . m í̵ . a #",
-                "start" : 0,
-                "end" : 10
+                "value" : "headorth",
+                "string" : "w á m oo h á y o",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á m óó h a n ̃ u",
+                "start" : 14,
+                "end" : 27
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "mɨáhmí̵a",
+                "string" : "[wámooháyo, wámóóhañu]",
                 "start" : 0,
-                "end" : 10
+                "end" : 28
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "onom.",
-                "start" : 11,
-                "end" : 16
+                "string" : "vt.",
+                "start" : 29,
+                "end" : 32
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "‘M",
-                "start" : 67,
-                "end" : 69
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "áhm",
-                "start" : 70,
-                "end" : 74
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "á’",
-                "start" : 77,
-                "end" : 80
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "áánu añú iyáábeke.",
-                "start" : 81,
-                "end" : 105
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
+                "string" : "Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi.",
+                "start" : 69,
+                "end" : 109
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 39,
-                "end" : 39
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
             },
             {
                 "type" : "pagelayout",
@@ -5015,29 +5581,606 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 81,
-                "end" : 81
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
+                "start" : 80,
+                "end" : 80
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 122,
-                "end" : 122
+                "start" : 117,
+                "end" : 117
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 122,
-                "end" : 122
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "muúlle/[muullá] pron.interr. quién (mujer o animal hembra). ¿Muúlle? ¿Quién? ¿Múúlleké ú tsivá? ¿A quién has traído? —Se emplea muullá para indicar el sujeto: ¿Muullá tsááhií? ¿Quién (mujer) viene?",
+    "startpage" : 190,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 30,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 30,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúlle",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muullá",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.",
+                "start" : 18,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién (mujer o animal hembra)",
+                "start" : 30,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muúlle?",
+                "start" : 63,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién? ",
+                "start" : 72,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Múúlleké ú tsivá?",
+                "start" : 82,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿A quién has traído?",
+                "start" : 106,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muullá tsááhií?",
+                "start" : 172,
+                "end" : 192
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quién (mujer) viene?",
+                "start" : 192,
+                "end" : 215
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . ll e #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . ll á #",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúlle/[muullá]",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.",
+                "start" : 18,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muúlle?",
+                "start" : 63,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Múúlleké ú tsivá?",
+                "start" : 82,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muullá",
+                "start" : 140,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muullá tsááhií?",
+                "start" : 172,
+                "end" : 192
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 204,
+                "end" : 204
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[cáwaavye, cáhwabya] vt. hacer trampa dahpénéého de hojas de palma para aves terrestres. Tahdíú cáwaavyé íúmɨhé úníutu. Mi abuelo hizo trampa para aves al lado de su chacra.",
+    "startpage" : 87,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 27,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 27,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cáwaavye",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cáhwabya",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacer trampa dahpénéého de hojas de palma para aves terrestres",
+                "start" : 27,
+                "end" : 92
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tahdíú cáwaavyé íúmɨhé úníutu.",
+                "start" : 94,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Mi abuelo hizo trampa para aves al lado de su chacra.",
+                "start" : 133,
+                "end" : 187
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# c á . w aa . vy e #",
+                "start" : 1,
+                "end" : 10
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# c á h . w a . by a #",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[cáwaavye, cáhwabya]",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dahpénéého",
+                "start" : 40,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tahdíú cáwaavyé",
+                "start" : 94,
+                "end" : 113
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "íúmɨhé úníutu.",
+                "start" : 114,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 155,
+                "end" : 155
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsooo onom. sonido de palmeras o árboles movidos por la brisa.",
+    "startpage" : 285,
+    "pos_on_page" : 37,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsooo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido de palmeras o árboles movidos por la brisa",
+                "start" : 11,
+                "end" : 62
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# ts ooo #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsooo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
             },
     ]
 })
@@ -5542,382 +6685,213 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "muúbe/[muubá] pron.interr.m.sg. quién, de quién. —Se emplea muubá para indicar el sujeto: Muubá tsááhií. ¿Quién viene? ¿Muubáha?/¿Muubáhajaj? ¿Quién?",
-    "startpage" : 188,
-    "pos_on_page" : 17,
+    "fullentry" : "[tujkéva] vi. iniciarse, comenzar, empezar. Tsúúca wañéhjí̵ tujkévá. La fiesta ya empezó. (sinón. déjucóóve)",
+    "startpage" : 270,
+    "pos_on_page" : 12,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 0,
-                "end" : 6
+                "start" : 1,
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 8,
-                "end" : 14
+                "start" : 1,
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 33,
-                "end" : 40
+                "start" : 14,
+                "end" : 24
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 33,
-                "end" : 40
+                "start" : 14,
+                "end" : 24
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 42,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 42,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muúbe",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muubá",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pron.interr.m.sg.",
-                "start" : 16,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "quién",
-                "start" : 33,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "de quién",
-                "start" : 42,
-                "end" : 51
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Muubá tsááhií.",
-                "start" : 95,
-                "end" : 113
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " ¿Quién viene? ",
-                "start" : 113,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Muubáha?/¿Muubáhajaj?",
-                "start" : 129,
-                "end" : 153
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " ¿Quién?",
-                "start" : 153,
-                "end" : 162
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m u . ú . b e #",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m uu . b á #",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "muúbe/[muubá]",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron.interr.m.sg.",
-                "start" : 16,
-                "end" : 33
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "muubá",
-                "start" : 64,
-                "end" : 70
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Muubá tsááhií.",
-                "start" : 95,
-                "end" : 113
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Muubáha?/¿Muubáhajaj?",
-                "start" : 129,
-                "end" : 153
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
+                "start" : 26,
                 "end" : 34
             },
             {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 76,
-                "end" : 76
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 153,
-                "end" : 153
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 154,
-                "end" : 154
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "muúbej voc. hermano. —Se emplea muúbej para dirigirse a un hermano, un primo u otro hombre más o menos de la misma edad. (ver nahbe)",
-    "startpage" : 188,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 7
+                "string" : "Castellano",
+                "start" : 26,
+                "end" : 34
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 13,
-                "end" : 20
+                "start" : 36,
+                "end" : 43
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 13,
-                "end" : 20
+                "start" : 36,
+                "end" : 43
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "muúbej",
-                "start" : 0,
-                "end" : 7
+                "string" : "tujkéva",
+                "start" : 1,
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "voc.",
-                "start" : 8,
-                "end" : 12
+                "string" : "vi.",
+                "start" : 11,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "hermano",
-                "start" : 13,
-                "end" : 20
+                "string" : "iniciarse",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "comenzar",
+                "start" : 26,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "empezar",
+                "start" : 36,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsúúca wañéhjí̵ tujkévá.",
+                "start" : 45,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La fiesta ya empezó.",
+                "start" : 77,
+                "end" : 98
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "crossreference",
-                "string" : "nahbe",
-                "start" : 129,
-                "end" : 134
+                "string" : "déjucóóve",
+                "start" : 108,
+                "end" : 120
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorthographic",
-                "string" : "# m u . ú . b e j #",
-                "start" : 0,
-                "end" : 7
+                "string" : "# t u j . k é . v a #",
+                "start" : 1,
+                "end" : 9
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "muúbej",
+                "string" : "[tujkéva]",
                 "start" : 0,
-                "end" : 7
+                "end" : 10
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "voc.",
-                "start" : 8,
-                "end" : 12
+                "string" : "vi.",
+                "start" : 11,
+                "end" : 14
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "muúbej",
-                "start" : 33,
-                "end" : 40
+                "string" : "Tsúúca wañéhjí̵ tujkévá.",
+                "start" : 45,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "e",
+                "start" : 82,
+                "end" : 83
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "nahbe",
-                "start" : 129,
-                "end" : 134
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
+                "string" : "déjucóóve",
+                "start" : 108,
+                "end" : 120
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 85,
-                "end" : 85
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 86,
-                "end" : 86
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 128,
-                "end" : 128
+                "start" : 35,
+                "end" : 35
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 129,
-                "end" : 129
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
             },
     ]
 })
 
 manual_entries.append({
-    "fullentry" : "múha/[mu-] pron.interr. quién; quien. ¿Múha wajtsí̵? ¿Quìén ha llegado? Tsá o wáájácutú múha wákímyeíñe. No sé quién está trabajando. —Se usa mu- con los sufijos de caso y algunos enclíticos:",
-    "startpage" : 188,
-    "pos_on_page" : 23,
+    "fullentry" : "tseee onom. describe una fuga de aire o gas.",
+    "startpage" : 280,
+    "pos_on_page" : 26,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -5936,156 +6910,58 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 7,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 7,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 24,
-                "end" : 31
+                "start" : 11,
+                "end" : 43
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 24,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 33,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 33,
-                "end" : 38
+                "start" : 11,
+                "end" : 43
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "múha",
+                "string" : "tseee",
                 "start" : 0,
                 "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "mu-",
-                "start" : 7,
-                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "pron.interr.",
-                "start" : 12,
-                "end" : 24
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "quién",
-                "start" : 24,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "quien",
-                "start" : 33,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Múha wajtsí̵?",
-                "start" : 40,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " ¿Quìén ha llegado? ",
-                "start" : 56,
-                "end" : 78
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Tsá o wáájácutú múha wákímyeíñe.",
-                "start" : 78,
-                "end" : 120
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "No sé quién está trabajando.",
-                "start" : 121,
-                "end" : 152
+                "string" : "describe una fuga de aire o gas",
+                "start" : 11,
+                "end" : 43
             },
             {
                 "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m ú . h a #",
+                "value" : "headorth",
+                "string" : "# ts eee #",
                 "start" : 0,
                 "end" : 5
             },
             {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m u #",
-                "start" : 7,
-                "end" : 10
-            },
-            {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "múha/[mu-]",
+                "string" : "tseee",
                 "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 6,
                 "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron.interr.",
-                "start" : 12,
-                "end" : 24
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Múha wajtsí̵?",
-                "start" : 40,
-                "end" : 56
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Tsá o wáájácutú múha wákímyeíñe.",
-                "start" : 78,
-                "end" : 120
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "mu-",
-                "start" : 161,
-                "end" : 164
             },
             {
                 "type" : "pagelayout",
@@ -6101,68 +6977,181 @@ manual_entries.append({
                 "start" : 40,
                 "end" : 40
             },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsájcuúve pron indef. una tarde, alguna tarde. Ó imíllé o pééne dihjyávú tsájcuúve. Una de estas tardes quiero ir a tu casa.",
+    "startpage" : 277,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsájcuúve",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.indef.",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una tarde",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alguna tarde",
+                "start" : 35,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ó imíllé o pééne dihjyávú tsájcuúve.",
+                "start" : 49,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Una de estas tardes quiero ir a tu casa.",
+                "start" : 94,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsájcuúve",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron indef.",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ó imíllé o pééne dihjyávú tsáj",
+                "start" : 49,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cuúve.",
+                "start" : 87,
+                "end" : 94
+            },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 77,
-                "end" : 77
+                "start" : 41,
+                "end" : 41
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 78,
-                "end" : 78
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 120,
-                "end" : 120
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 160,
-                "end" : 160
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 161,
-                "end" : 161
+                "start" : 42,
+                "end" : 42
             },
             {
                 "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
-                "start" : 207,
-                "end" : 207
+                "start" : 87,
+                "end" : 87
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 207,
-                "end" : 207
+                "start" : 87,
+                "end" : 87
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 207,
-                "end" : 207
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "pron.indef.",
+                "start" : 12,
+                "end" : 23
             },
     ]
 })
@@ -6325,6 +7314,98 @@ manual_entries.append({
                 "string" : "",
                 "start" : 121,
                 "end" : 121
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "chooo onom. sonido del agua de una cascada.",
+    "startpage" : 101,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chooo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido del agua de una cascada",
+                "start" : 11,
+                "end" : 42
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# ch ooo #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chooo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
             },
     ]
 })
@@ -6534,185 +7615,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "muhtsi pron.pers. nosotros dos. —Cuando es el sujeto, el verbo lleva el prefijo me-. Muhtsi méɨɨcúhi. Nosotros dos estamos jugando. (ver meé)",
-    "startpage" : 190,
-    "pos_on_page" : 2,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muhtsi",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pron.pers.",
-                "start" : 7,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : " nosotros dos",
-                "start" : 17,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Muhtsi méɨɨcúhi.",
-                "start" : 85,
-                "end" : 103
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "Nosotros dos estamos jugando.",
-                "start" : 104,
-                "end" : 133
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "meé",
-                "start" : 139,
-                "end" : 143
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m u h . ts i #",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "muhtsi",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron.pers.",
-                "start" : 7,
-                "end" : 17
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "me-.",
-                "start" : 80,
-                "end" : 84
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Muhtsi méɨɨcúhi.",
-                "start" : 85,
-                "end" : 103
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "meé",
-                "start" : 139,
-                "end" : 143
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 85,
-                "end" : 85
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "muúlle/[muullá] pron.interr. quién (mujer o animal hembra). ¿Muúlle? ¿Quién? ¿Múúlleké ú tsivá? ¿A quién has traído? —Se emplea muullá para indicar el sujeto: ¿Muullá tsááhií? ¿Quién (mujer) viene?",
-    "startpage" : 190,
-    "pos_on_page" : 20,
+    "fullentry" : "óraji̵ s. col. huambe (especie de tamshi que se usa para hacer canastas, etc.).",
+    "startpage" : 214,
+    "pos_on_page" : 23,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -6730,874 +7635,73 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 9,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 9,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 30,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "muúlle",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muullá",
-                "start" : 9,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pron.interr.",
-                "start" : 18,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "quién (mujer o animal hembra)",
-                "start" : 30,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Muúlle?",
-                "start" : 63,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " ¿Quién? ",
-                "start" : 72,
-                "end" : 82
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Múúlleké ú tsivá?",
-                "start" : 82,
-                "end" : 105
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¿A quién has traído?",
-                "start" : 106,
-                "end" : 128
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Muullá tsááhií?",
-                "start" : 172,
-                "end" : 192
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " ¿Quién (mujer) viene?",
-                "start" : 192,
-                "end" : 215
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m u . ú . ll e #",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m uu . ll á #",
-                "start" : 9,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "muúlle/[muullá]",
-                "start" : 0,
-                "end" : 17
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron.interr.",
-                "start" : 18,
-                "end" : 30
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Muúlle?",
-                "start" : 63,
-                "end" : 72
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Múúlleké ú tsivá?",
-                "start" : 82,
-                "end" : 105
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "muullá",
-                "start" : 140,
-                "end" : 147
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Muullá tsááhií?",
-                "start" : 172,
-                "end" : 192
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 72,
-                "end" : 72
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 116,
-                "end" : 116
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 160,
-                "end" : 160
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 161,
-                "end" : 161
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 204,
-                "end" : 204
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 204,
-                "end" : 204
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 204,
-                "end" : 204
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "múúne part. indica cómo se hace algo. —Se añade me- al verbo en el modo indicativo. Íllu múúne núhbakye méímíbajchóhi. Así se arregla un reloj.",
-    "startpage" : 191,
-    "pos_on_page" : 20,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 14,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "múúne",
+                "string" : "óraji̵",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "part.",
+                "string" : "s.col.",
                 "start" : 8,
-                "end" : 13
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 15,
+                "end" : 79
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "indica cómo se hace algo",
-                "start" : 14,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Íllu múúne núhbakye méímíbajchóhi.",
-                "start" : 88,
-                "end" : 130
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Así se arregla un reloj.",
-                "start" : 130,
-                "end" : 156
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m úú . n e #",
-                "start" : 0,
-                "end" : 7
+                "string" : "huambe (especie de tamshi que se usa para hacer canastas, etc.)",
+                "start" : 15,
+                "end" : 79
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "múúne",
+                "string" : "óraji̵",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "part.",
+                "string" : "s. col.",
                 "start" : 8,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "me-",
-                "start" : 52,
-                "end" : 55
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Íllu múúne núhbakye méímíbajchóhi.",
-                "start" : 88,
-                "end" : 130
+                "end" : 15
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
                 "string" : "",
                 "start" : 41,
                 "end" : 41
             },
             {
                 "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 87,
-                "end" : 87
-            },
-            {
-                "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 88,
-                "end" : 88
+                "start" : 42,
+                "end" : 42
             },
             {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 130,
-                "end" : 130
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 131,
-                "end" : 131
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "muurá(h)/[muuré] adv. pues (indica afirmación o credibilidad de una cosa). Muurá tsá dibye pééityú. El no va, pues. —Se usa muuré cuando se añaden sufijos. Muurévá tsá dibye pééityú. Dicen que él no va, pues.",
-    "startpage" : 191,
-    "pos_on_page" : 21,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 23,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 23,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muurá",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muuráh",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muuré",
-                "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "adv.",
-                "start" : 19,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "pues (indica afirmación o credibilidad de una cosa)",
-                "start" : 23,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Muurá tsá dibye pééityú.",
-                "start" : 78,
-                "end" : 107
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "El no va, pues.",
-                "start" : 108,
-                "end" : 123
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Muurévá tsá dibye pééityú.",
-                "start" : 166,
-                "end" : 198
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Dicen que él no va, pues.",
-                "start" : 198,
-                "end" : 225
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m uu . r á #",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m uu . r á h #",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m uu . r é #",
-                "start" : 11,
-                "end" : 17
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "muurá(h)/[muuré]",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "adv.",
-                "start" : 19,
-                "end" : 23
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Muurá tsá dibye pééityú.",
-                "start" : 78,
-                "end" : 107
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "muuré",
-                "start" : 132,
-                "end" : 138
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Muurévá tsá dibye pééityú.",
-                "start" : 166,
-                "end" : 198
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 113,
-                "end" : 113
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 114,
-                "end" : 114
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 156,
-                "end" : 156
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 157,
-                "end" : 157
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 201,
-                "end" : 201
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 201,
-                "end" : 201
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 201,
-                "end" : 201
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "muúte/[muutá] pron.interr.m./f.pl. quiénes. —Se emplea muutá para indicar el sujeto: ¿Muutá tsááhií? ¿Quiénes vienen? ¿Muutáha?/¿Muutáhaja? ¿Quiénes quizás?",
-    "startpage" : 191,
-    "pos_on_page" : 31,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "s.col.",
                 "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muúte",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "muutá",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pron.interr.m./f.pl.",
-                "start" : 16,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : " quiénes",
-                "start" : 36,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Muutá tsááhií?",
-                "start" : 90,
-                "end" : 108
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¿Quiénes vienen?",
-                "start" : 109,
-                "end" : 126
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "¿Muutáha?/¿Muutáhaja?",
-                "start" : 127,
-                "end" : 150
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "¿Quiénes quizás?",
-                "start" : 151,
-                "end" : 169
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m u . ú . t e #",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# m uu . t á #",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "muúte/[muutá]",
-                "start" : 0,
                 "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron.interr.m./f.pl.",
-                "start" : 16,
-                "end" : 36
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "muutá",
-                "start" : 58,
-                "end" : 64
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Muutá tsááhií?",
-                "start" : 89,
-                "end" : 108
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "¿Muutáha?/¿Muutáhaja? ¿Quié",
-                "start" : 127,
-                "end" : 157
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 81,
-                "end" : 81
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 157,
-                "end" : 157
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 157,
-                "end" : 157
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 157,
-                "end" : 157
             },
     ]
 })
@@ -7781,1935 +7885,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 66,
                 "end" : 66
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "óraji̵ s. col. huambe (especie de tamshi que se usa para hacer canastas, etc.).",
-    "startpage" : 214,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "óraji̵",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.col.",
-                "start" : 8,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 15,
-                "end" : 79
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 15,
-                "end" : 79
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "huambe (especie de tamshi que se usa para hacer canastas, etc.)",
-                "start" : 15,
-                "end" : 79
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "óraji̵",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s. col.",
-                "start" : 8,
-                "end" : 15
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "s.col.",
-                "start" : 8,
-                "end" : 15
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "pejcátsi abs. baile en el que las parejas dan saltos con los brazos entrelazados y que se baila en las fiestas báhjaá y llaaríwa. ║ acción de...",
-    "startpage" : 229,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 15,
-                "end" : 132
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 15,
-                "end" : 132
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "pejcátsi",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "abs.",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "baile en el que las parejas dan saltos con los brazos entrelazados y que se baila en las fiestas báhjaá y llaaríwa",
-                "start" : 15,
-                "end" : 132
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# p e j . c á . ts i #",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "pejcátsi",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "abs.",
-                "start" : 9,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "báhjaá",
-                "start" : 112,
-                "end" : 120
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "llaaríwa.",
-                "start" : 123,
-                "end" : 133
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 43,
-                "end" : 43
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 81,
-                "end" : 81
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 82,
-                "end" : 82
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 123,
-                "end" : 123
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "pérejchi s. col. cortadera (especie de yerba de bordes muy afilados).",
-    "startpage" : 230,
-    "pos_on_page" : 7,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "pérejchi",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.col.",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cortadera (especie de yerba de bordes muy afilados)",
-                "start" : 17,
-                "end" : 69
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "pérejchi",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s. col.",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "s.col.",
-                "start" : 10,
-                "end" : 17
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "piímye s.col. hormiga (especies pequeñas como caá, áájaho y machávara).",
-    "startpage" : 234,
-    "pos_on_page" : 32,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 14,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "piímye",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.col.",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : " hormiga (especies pequeñas como caá, áájaho y machávara)",
-                "start" : 14,
-                "end" : 76
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# p i . í . my e #",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "piímye",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s.col.",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "caá, áájaho",
-                "start" : 48,
-                "end" : 62
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "machávara",
-                "start" : 65,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "píj-píj-píj-píjyoo-píjyoo onom. imita la voz del paujil llamado niimúco cuando se enoja con la gente.",
-    "startpage" : 234,
-    "pos_on_page" : 4,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "píj-píj-píj-píjyoo-píjyoo",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 31,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : " imita la voz del paujil llamado niimúco cuando se enoja con la gente",
-                "start" : 36,
-                "end" : 106
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# p í j # p í j # p í j # p í . jy oo # p í . jy oo #",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "píj-píj-píj-píjyoo-píjyoo",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 31,
-                "end" : 36
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "niimúco",
-                "start" : 69,
-                "end" : 78
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 45,
-                "end" : 45
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 46,
-                "end" : 46
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 82,
-                "end" : 82
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 82,
-                "end" : 82
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 82,
-                "end" : 82
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[pɨcábaanu] vt. dar la bebida pí̵í̵caba a los invitados a la fiesta a cambio de lo que han traído. Ó pɨcábaanú níívúwake. Estoy dando pí̵í̵caba a cambio de venado.",
-    "startpage" : 238,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 101
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 101
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "pɨcábaanu",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 13,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "dar la bebida pí̵í̵caba a los invitados a la fiesta a cambio de lo que han traído",
-                "start" : 17,
-                "end" : 101
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ó pɨcábaanú níívúwake.",
-                "start" : 103,
-                "end" : 131
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "Estoy dando pí̵í̵caba a cambio de venado.",
-                "start" : 132,
-                "end" : 175
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# p ɨ . c á . b aa . n u #",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[pɨcábaanu]",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 13,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pí̵í̵caba",
-                "start" : 31,
-                "end" : 42
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Ó pɨcá",
-                "start" : 103,
-                "end" : 111
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "baanú níívúwake.",
-                "start" : 111,
-                "end" : 131
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pí̵í̵caba",
-                "start" : 144,
-                "end" : 156
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 72,
-                "end" : 72
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 111,
-                "end" : 111
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 111,
-                "end" : 111
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 111,
-                "end" : 111
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 143,
-                "end" : 143
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 144,
-                "end" : 144
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "pooo onom. sonido de un disparo de escopeta. (sinón. tooo)",
-    "startpage" : 242,
-    "pos_on_page" : 12,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "pooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido de un disparo de escopeta",
-                "start" : 10,
-                "end" : 43
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# p ooo #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "pooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tooo",
-                "start" : 54,
-                "end" : 58
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "rɨɨɨ onom. sonido débil de un motor.",
-    "startpage" : 245,
-    "pos_on_page" : 14,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "rɨɨɨ",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido débil de un motor",
-                "start" : 10,
-                "end" : 36
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# r ɨɨɨ #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "rɨɨɨ",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "rooo onom. 1. sonido del vuelo de la chicharra. 2. sonido como de motor o avión.",
-    "startpage" : 245,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 13,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 13,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 50,
-                "end" : 80
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 50,
-                "end" : 80
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "rooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido del vuelo de la chicharra",
-                "start" : 13,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido como de motor o avión",
-                "start" : 50,
-                "end" : 80
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# r ooo #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "rooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 73,
-                "end" : 73
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 74,
-                "end" : 74
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "taaa onom. describe la sensación de un sabor en la lengua como el de la sal de monte.",
-    "startpage" : 247,
-    "pos_on_page" : 13,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 85
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 85
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "taaa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "describe la sensación de un sabor en la lengua como el de la sal de monte",
-                "start" : 10,
-                "end" : 85
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# t aaa #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "taaa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 79,
-                "end" : 79
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tabítábi onom. expresa la acción de pisotear la tierra de cólera.",
-    "startpage" : 248,
-    "pos_on_page" : 8,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tabítábi",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 12,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "expresa la acción de pisotear la tierra de cólera",
-                "start" : 17,
-                "end" : 69
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tabítábi",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 12,
-                "end" : 17
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-    ]
-})
-
-
-manual_entries.append({
-    "fullentry" : "[tájɨva] ve. tener esposo, estar casada.",
-    "startpage" : 252,
-    "pos_on_page" : 29,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 15,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 15,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 42
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 30,
-                "end" : 42
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tájɨva",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "ve.",
-                "start" : 12,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tener esposo",
-                "start" : 15,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "estar casada",
-                "start" : 30,
-                "end" : 42
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[tájɨva]",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ve.",
-                "start" : 12,
-                "end" : 15
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-    ]
-})
-
-
-manual_entries.append({
-    "fullentry" : "[táwúujco] vt. hacer sonar la llaaríwa pisándola para que choque con el suelo.",
-    "startpage" : 260,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 81
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "táwúujco",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 13,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "hacer sonar la llaaríwa pisándola para que choque con el suelo",
-                "start" : 17,
-                "end" : 81
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# t á . w ú . u j . c o #",
-                "start" : 1,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[táwúujco]",
-                "start" : 0,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 13,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "llaaríwa",
-                "start" : 32,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 68,
-                "end" : 68
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 69,
-                "end" : 69
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tooo onom. sonido del disparo de un arma de fuego. (sinón. pooo, tuuu)",
-    "startpage" : 264,
-    "pos_on_page" : 20,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido del disparo de un arma de fuego",
-                "start" : 10,
-                "end" : 49
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# t ooo #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tooo",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "pooo, tuuu",
-                "start" : 60,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tuuu onom. sonido del disparo de un arma de fuego. (sinón. pooo, tooo)",
-    "startpage" : 267,
-    "pos_on_page" : 33,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tuuu",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "sonido del disparo de un arma de fuego",
-                "start" : 10,
-                "end" : 49
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# t uuu #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tuuu",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 5,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "pooo, tooo",
-                "start" : 60,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[tuhnúmúva̱te] vi. agusanarse, ponerse agusanado con tuhnúmu. Páállaho tuhnúmúvatéhi. La masa de almidón se ha agusanada.",
-    "startpage" : 268,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 20,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 20,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 33,
-                "end" : 63
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 33,
-                "end" : 63
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tuhnúmúva̱te",
-                "start" : 1,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vi.",
-                "start" : 17,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "agusanarse",
-                "start" : 20,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ponerse agusanado con tuhnúmu",
-                "start" : 33,
-                "end" : 63
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Páállaho tuhnúmúvatéhi.",
-                "start" : 65,
-                "end" : 93
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " La masa de almidón se ha agusanada.",
-                "start" : 93,
-                "end" : 130
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# t u h . n ú . m ú . v a̱ . t e #",
-                "start" : 1,
-                "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[tuhnúmúva̱te]",
-                "start" : 0,
-                "end" : 16
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vi.",
-                "start" : 17,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "tuhnúmu. Páá",
-                "start" : 55,
-                "end" : 70
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "llaho tuhnúmúvatéhi.",
-                "start" : 70,
-                "end" : 93
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 35,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 107,
-                "end" : 107
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 107,
-                "end" : 107
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 107,
-                "end" : 107
             },
     ]
 })
@@ -10199,205 +8374,817 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "[tujkéva] vi. iniciarse, comenzar, empezar. Tsúúca wañéhjí̵ tujkévá. La fiesta ya empezó. (sinón. déjucóóve)",
-    "startpage" : 270,
-    "pos_on_page" : 12,
+    "fullentry" : "mɨáhmí̵a onom. expresa sorpresa ante un hecho difícil de creer. ‘Mɨáhmí̵á’ áánu añú iyáábeke. ¡Este, por casualidad, baleó a un animal!",
+    "startpage" : 185,
+    "pos_on_page" : 13,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 1,
-                "end" : 9
+                "start" : 0,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
-                "start" : 1,
-                "end" : 9
+                "start" : 0,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 14,
-                "end" : 24
+                "start" : 17,
+                "end" : 65
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 14,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 26,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 26,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 43
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 43
+                "start" : 17,
+                "end" : 65
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujkéva",
-                "start" : 1,
-                "end" : 9
+                "string" : "mɨáhmí̵a",
+                "start" : 0,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "vi.",
+                "string" : "onom.",
                 "start" : 11,
-                "end" : 14
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "iniciarse",
-                "start" : 14,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "comenzar",
-                "start" : 26,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "empezar",
-                "start" : 36,
-                "end" : 43
+                "string" : "expresa sorpresa ante un hecho difícil de creer",
+                "start" : 17,
+                "end" : 65
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Tsúúca wañéhjí̵ tujkévá.",
-                "start" : 45,
-                "end" : 76
+                "string" : "‘Mɨáhmí̵á’ áánu añú iyáábeke.",
+                "start" : 67,
+                "end" : 105
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "La fiesta ya empezó.",
-                "start" : 77,
-                "end" : 98
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "déjucóóve",
-                "start" : 108,
-                "end" : 120
+                "string" : " ¡Este, por casualidad, baleó a un animal!",
+                "start" : 105,
+                "end" : 148
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorthographic",
-                "string" : "# t u j . k é . v a #",
-                "start" : 1,
-                "end" : 9
+                "string" : "# m ɨ . á h . m í̵ . a #",
+                "start" : 0,
+                "end" : 10
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "[tujkéva]",
+                "string" : "mɨáhmí̵a",
                 "start" : 0,
                 "end" : 10
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "vi.",
+                "string" : "onom.",
                 "start" : 11,
-                "end" : 14
+                "end" : 16
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Tsúúca wañéhjí̵ tujkévá.",
-                "start" : 45,
-                "end" : 76
+                "string" : "‘M",
+                "start" : 67,
+                "end" : 69
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "e",
-                "start" : 82,
-                "end" : 83
+                "string" : "áhm",
+                "start" : 70,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "á’",
+                "start" : 77,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "áánu añú iyáábeke.",
+                "start" : 81,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "rɨɨɨ onom. sonido débil de un motor.",
+    "startpage" : 245,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rɨɨɨ",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido débil de un motor",
+                "start" : 10,
+                "end" : 36
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# r ɨɨɨ #",
+                "start" : 0,
+                "end" : 4
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "déjucóóve",
-                "start" : 108,
-                "end" : 120
+                "string" : "rɨɨɨ",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "lli̱í̱ñe/[hlli̱í̱ñe] loc. 1. lugar debajo de algo o alguién. Táhlliiñe diíbye. El está debajo de mí. 2. (fig.) inferior. Táhlliiñéúré diíbye. El es inferior a mí. 3. (fig.) causa, razón; culpa. Dihllííñéré uu íchihyi. Por tu culpa estás aquí.",
+    "startpage" : 170,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "lli̱í̱ñe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "-hlli̱í̱ñe",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "loc.",
+                "start" : 25,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 32,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 32,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar debajo de algo o alguién",
+                "start" : 32,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táhlliiñe diíbye.",
+                "start" : 66,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El está debajo de mí. ",
+                "start" : 86,
+                "end" : 111
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "inferior",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Táhlliiñéúré diíbye.",
+                "start" : 131,
+                "end" : 157
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El es inferior a mí. ",
+                "start" : 157,
+                "end" : 180
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 189,
+                "end" : 195
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 189,
+                "end" : 195
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "causa",
+                "start" : 189,
+                "end" : 195
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 197,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 197,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "razón",
+                "start" : 197,
+                "end" : 203
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 205,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 205,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "culpa",
+                "start" : 205,
+                "end" : 210
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Dihllííñéré uu íchihyi.",
+                "start" : 212,
+                "end" : 241
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Por tu culpa estás aquí.",
+                "start" : 241,
+                "end" : 268
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "lli̱í̱ñe/[hlli̱í̱ñe]",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "loc.",
+                "start" : 25,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táhlliiñe diíbye.",
+                "start" : 66,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Táh",
+                "start" : 131,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "lliiñéúré diíbye.",
+                "start" : 135,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Dihllíí",
+                "start" : 212,
+                "end" : 221
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ñéré uu íchihyi.",
+                "start" : 221,
+                "end" : 241
             },
             {
                 "type" : "pagelayout",
-                "value" : "tab",
+                "value" : "hyphen",
                 "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
+                "start" : 51,
+                "end" : 51
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 35,
-                "end" : 35
+                "start" : 51,
+                "end" : 51
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 36,
-                "end" : 36
+                "start" : 51,
+                "end" : 51
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 79,
-                "end" : 79
+                "start" : 95,
+                "end" : 95
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 80,
-                "end" : 80
+                "start" : 96,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 179,
+                "end" : 179
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 221,
+                "end" : 221
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 261,
+                "end" : 261
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 262,
+                "end" : 262
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "-hlli̱í̱ñe",
+                "start" : 12,
+                "end" : 23
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dyúúú. onom. talán. Uwáábójatu ó lleebó cajpááná ihjyúváne ‘dyuu-dyuudyuu’. Escuché la campana de la escuela sonando talán. (sinón. dááá, dyééé)",
+    "startpage" : 123,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dyúúú",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "talán",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Uwáábójatu ó lleebó cajpááná ihjyúváne dyuu-dyuudyuu.",
+                "start" : 24,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Escuché la campana de la escuela sonando talán. (sinón. dááá, dyééé)",
+                "start" : 89,
+                "end" : 167
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# dy úúú #",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dyúúú.",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Uwáábójatu ó llee",
+                "start" : 24,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bó cajpááná ihjyúváne ‘dyuu-dyuu",
+                "start" : 45,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dyuu’.",
+                "start" : 83,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dááá,",
+                "start" : 149,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dyééé",
+                "start" : 158,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 158,
+                "end" : 158
             },
     ]
 })
@@ -10684,567 +9471,192 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "tsájcuúve pron indef. una tarde, alguna tarde. Ó imíllé o pééne dihjyávú tsájcuúve. Una de estas tardes quiero ir a tu casa.",
-    "startpage" : 277,
-    "pos_on_page" : 9,
+    "fullentry" : "chííí/chíj interj. ¡oh!",
+    "startpage" : 100,
+    "pos_on_page" : 13,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 11
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 11
+                "end" : 8
             },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tsájcuúve",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "pron.indef.",
-                "start" : 12,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 23,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 23,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "una tarde",
-                "start" : 23,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 35,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 35,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "alguna tarde",
-                "start" : 35,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ó imíllé o pééne dihjyávú tsájcuúve.",
-                "start" : 49,
-                "end" : 94
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Una de estas tardes quiero ir a tu casa.",
-                "start" : 94,
-                "end" : 135
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tsájcuúve",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "pron indef.",
-                "start" : 12,
-                "end" : 23
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Ó imíllé o pééne dihjyávú tsáj",
-                "start" : 49,
-                "end" : 87
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "cuúve.",
-                "start" : 87,
-                "end" : 94
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 41,
-                "end" : 41
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 87,
-                "end" : 87
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 87,
-                "end" : 87
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 87,
-                "end" : 87
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 126,
-                "end" : 126
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 127,
-                "end" : 127
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "pron.indef.",
-                "start" : 12,
-                "end" : 23
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tseee onom. describe una fuga de aire o gas.",
-    "startpage" : 280,
-    "pos_on_page" : 26,
-    "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 0,
-                "end" : 5
+                "start" : 9,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
-                "start" : 0,
-                "end" : 5
+                "start" : 9,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 11,
-                "end" : 43
+                "start" : 22,
+                "end" : 27
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 11,
-                "end" : 43
+                "start" : 22,
+                "end" : 27
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tseee",
+                "string" : "chííí",
                 "start" : 0,
-                "end" : 5
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chíj",
+                "start" : 9,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "string" : "interj.",
+                "start" : 15,
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "describe una fuga de aire o gas",
-                "start" : 11,
-                "end" : 43
+                "string" : "oh",
+                "start" : 22,
+                "end" : 27
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorth",
-                "string" : "# ts eee #",
+                "string" : "# ch ííí #",
                 "start" : 0,
-                "end" : 5
+                "end" : 8
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# ch í j #",
+                "start" : 9,
+                "end" : 14
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "tseee",
+                "string" : "chííí/chíj",
                 "start" : 0,
-                "end" : 5
+                "end" : 14
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tsíhdyuréjtso abs transformación; transfiguración. ║ acción de...",
-    "startpage" : 281,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tsíhdyuréjtso",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "abs.",
-                "start" : 16,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 19,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 19,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "transformación",
-                "start" : 19,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 37,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 37,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "transfiguración",
-                "start" : 37,
-                "end" : 53
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tsíhdyuréjtso",
-                "start" : 0,
-                "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "abs",
-                "start" : 16,
-                "end" : 19
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tsiñátsíña onom. describe la característica de ser fácil de descoserse o de desatarse.",
-    "startpage" : 282,
-    "pos_on_page" : 23,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 20,
-                "end" : 91
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 20,
-                "end" : 91
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tsiñátsíña",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
+                "string" : "interj.",
                 "start" : 15,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "describe la característica de ser fácil de descoserse o de desatarse",
-                "start" : 20,
-                "end" : 91
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tsiñátsíña",
-                "start" : 0,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 15,
-                "end" : 20
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 44,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 44,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 44,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 84,
-                "end" : 84
+                "end" : 22
             },
     ]
 })
 
-
 manual_entries.append({
-    "fullentry" : "tsooo onom. sonido de palmeras o árboles movidos por la brisa.",
-    "startpage" : 285,
-    "pos_on_page" : 37,
+    "fullentry" : "tuuu onom. sonido del disparo de un arma de fuego. (sinón. pooo, tooo)",
+    "startpage" : 267,
+    "pos_on_page" : 33,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 11,
-                "end" : 62
+                "start" : 10,
+                "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 11,
-                "end" : 62
+                "start" : 10,
+                "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tsooo",
+                "string" : "tuuu",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "start" : 5,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido de palmeras o árboles movidos por la brisa",
-                "start" : 11,
-                "end" : 62
+                "string" : "sonido del disparo de un arma de fuego",
+                "start" : 10,
+                "end" : 49
             },
             {
                 "type" : "orthographicinterpretation",
                 "value" : "headorth",
-                "string" : "# ts ooo #",
+                "string" : "# t uuu #",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "tsooo",
+                "string" : "tuuu",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
                 "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pooo, tooo",
+                "start" : 60,
+                "end" : 70
             },
             {
                 "type" : "pagelayout",
@@ -11386,6 +9798,3153 @@ manual_entries.append({
                 "string" : "abs.",
                 "start" : 21,
                 "end" : 24
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "múha/[mu-] pron.interr. quién; quien. ¿Múha wajtsí̵? ¿Quìén ha llegado? Tsá o wáájácutú múha wákímyeíñe. No sé quién está trabajando. —Se usa mu- con los sufijos de caso y algunos enclíticos:",
+    "startpage" : 188,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "múha",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mu-",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.",
+                "start" : 12,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quién",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quien",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Múha wajtsí̵?",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¿Quìén ha llegado? ",
+                "start" : 56,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsá o wáájácutú múha wákímyeíñe.",
+                "start" : 78,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "No sé quién está trabajando.",
+                "start" : 121,
+                "end" : 152
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m ú . h a #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u #",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "múha/[mu-]",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.",
+                "start" : 12,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Múha wajtsí̵?",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tsá o wáájácutú múha wákímyeíñe.",
+                "start" : 78,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mu-",
+                "start" : 161,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 207,
+                "end" : 207
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "múúne part. indica cómo se hace algo. —Se añade me- al verbo en el modo indicativo. Íllu múúne núhbakye méímíbajchóhi. Así se arregla un reloj.",
+    "startpage" : 191,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "múúne",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "part.",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "indica cómo se hace algo",
+                "start" : 14,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Íllu múúne núhbakye méímíbajchóhi.",
+                "start" : 88,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Así se arregla un reloj.",
+                "start" : 130,
+                "end" : 156
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m úú . n e #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "múúne",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "part.",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-",
+                "start" : 52,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Íllu múúne núhbakye méímíbajchóhi.",
+                "start" : 88,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 130,
+                "end" : 130
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 131,
+                "end" : 131
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "chuúi abs. acción de... [chuui] vi. salir líquido lentamente por un hueco pequeño.",
+    "startpage" : 103,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 27,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 27,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 39,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 39,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chuúi",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acción de...",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "chuui",
+                "start" : 27,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 35,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "salir líquido lentamente por un hueco pequeño.",
+                "start" : 39,
+                "end" : 86
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "ch u ú i ",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "chuúi",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[chuui]",
+                "start" : 26,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "diícya (imp.sg. de ijcya)",
+    "startpage" : 106,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 9,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 9,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "diícya",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(imp.sg. de ijcya)",
+                "start" : 9,
+                "end" : 26
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# d i . í . cy a #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "diícya",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ijcya",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ijcya",
+                "start" : 20,
+                "end" : 25
+            },
+    ]
+})
+
+
+manual_entries.append({
+    "fullentry" : "búhji̵j voc cuñada. (ver tónulle) (sinón. átyónulle)",
+    "startpage" : 61,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "búhji̵j",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "voc.",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuñada",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "búhji̵j",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "voc",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tónulle",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "átyónulle",
+                "start" : 46,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "voc.",
+                "start" : 9,
+                "end" : 12
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "goróójɨ, goróómu s.an. seta, hongo. Especies: gohgójɨ, óóbacyó tájkii, aallúllímujɨ (comestible); téétejɨ (no comestible).",
+    "startpage" : 132,
+    "pos_on_page" : 40,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "goróójɨ",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "goróómu",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.an.",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "seta",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hongo",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# g o . r óó . j ɨ #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# g o . r óó . m u #",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "goróójɨ, goróómu",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.an.",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Especies:",
+                "start" : 40,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "comestible",
+                "start" : 96,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "no",
+                "start" : 120,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "comestible",
+                "start" : 123,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[ávyejújkímye̱i] vr. superarse, engrandecerse, volverse importante. Ɨ́dátsóhrée néhíjcyaabe tsúúca ávyéjújkímyeí náhjí̵heho imyéénúneri. El que era considerado humilde se volvió importante por la bodega que tiene. (sinón. í̵hnahóóve, í̵htsutúúve)",
+    "startpage" : 45,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 50,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 50,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ávyejújkímye̱i",
+                "start" : 1,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vr.",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "superarse",
+                "start" : 23,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "engrandecerse",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "volverse importante",
+                "start" : 50,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨ́dátsóhrée néhíjcyaabe tsúúca ávyéjújkímyeí náhjí̵heho imyéénúneri.",
+                "start" : 72,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El que era considerado humilde se volvió importante por la bodega que tiene. (sinón. í̵hnahóóve, í̵htsutúúve)",
+                "start" : 156,
+                "end" : 274
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "á vy e j ú j k í my e̱ i",
+                "start" : 1,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[ávyejújkímye̱i]",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vr.",
+                "start" : 20,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dátsóhrée néhíjcyaabe tsúúca ávyé",
+                "start" : 73,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jújkímyeí náhjí̵heho imyéénúneri.",
+                "start" : 115,
+                "end" : 156
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "í̵hnahóóve, í̵htsutúúve",
+                "start" : 244,
+                "end" : 273
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 159,
+                "end" : 159
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 194,
+                "end" : 194
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 194,
+                "end" : 194
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 194,
+                "end" : 194
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 231,
+                "end" : 231
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[dáárɨ̱te] vi. 1. secarse. Tsúúca ó dáárɨté nííjyabáne oke múriúcúne. Ya se secó (mi ropa) mojada por la lluvia. 2. secarse (la garganta). Ɨ́hnáhó o áiúcunúneri tájkye dáárɨté. La garganta se me secó por la fiebre que tuve.",
+    "startpage" : 105,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 132,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 132,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dáárɨ̱te",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "secarse",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Tsúúca ó dáárɨté nííjyabáne oke múriúcúne.",
+                "start" : 29,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Ya se secó (mi ropa) mojada por la lluvia. ",
+                "start" : 83,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "secarse (la garganta)",
+                "start" : 132,
+                "end" : 152
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ɨ́hnáhó o áiúcunúneri tájkye dáárɨté.",
+                "start" : 156,
+                "end" : 200
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "La garganta se me secó por la fiebre que tuve.",
+                "start" : 200,
+                "end" : 248
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "d áá r ɨ̱ t e",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[dáárɨ̱te]",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Tsúúca ó",
+                "start" : 29,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dáárɨté nííjyabáne oke múriúcúne.",
+                "start" : 41,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "hnáhó o áiú",
+                "start" : 156,
+                "end" : 171
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cunúneri tájkye dáárɨté.",
+                "start" : 171,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 171,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 212,
+                "end" : 212
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 213,
+                "end" : 213
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "di̵í̵ s. col. ají picante.",
+    "startpage" : 107,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "di̵í̵",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.col.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ají picante",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "di̵í̵",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s. col.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "s.col.",
+                "start" : 7,
+                "end" : 14
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "meé/[me/me-] pron.pers. nosotros; nos (incl.). –Se antepone me- al verbo de las oraciones indicativas e imperativas. Cuando un pronombre dual o plural de primera o segunda persona aparece como sujeto de una oración, también se antepone me- al verbo: Mépeé. Vamos. Muha mépéjucóó. Ya nos vamos. ¡Mépeé! ¡Vayan!",
+    "startpage" : 178,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "meé",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "me",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "me-",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.pers.",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nosotros",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nos (incl.)",
+                "start" : 35,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Mépeé.",
+                "start" : 253,
+                "end" : 261
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Vamos. ",
+                "start" : 261,
+                "end" : 269
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muha mépéjucóó.",
+                "start" : 269,
+                "end" : 288
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Ya nos vamos. ",
+                "start" : 288,
+                "end" : 303
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¡Mépeé!",
+                "start" : 303,
+                "end" : 312
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " ¡Vayan!",
+                "start" : 312,
+                "end" : 320
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m e . é #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m e #",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m e #",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meé/[me/me-]",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.pers.",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-",
+                "start" : 61,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "me-",
+                "start" : 239,
+                "end" : 242
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Mépeé.",
+                "start" : 253,
+                "end" : 261
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muha mépéjucóó.",
+                "start" : 269,
+                "end" : 288
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¡Mépeé!",
+                "start" : 303,
+                "end" : 312
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 217,
+                "end" : 217
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 218,
+                "end" : 218
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 261,
+                "end" : 261
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 262,
+                "end" : 262
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wállúrí̵jɨjcáro, wállúrɨjí̵jco abs. acción de...",
+    "startpage" : 325,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wállúrí̵jɨjcáro",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wálĺrɨjí̵jco",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 39,
+                "end" : 42
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á ll ú r í̵ j ɨ j c á r o",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "w á l l ú r ɨ j í̵ j c o",
+                "start" : 22,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wállúrí̵jɨjcáro, wálĺrɨjí̵jco",
+                "start" : 0,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 39,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[cátí̵í̵tɨjí̵ro, cátí̵í̵tí̵jɨnu] vt. alinear; igualar, emparejar; poner iguales las puntas de algo. Ménɨjí̵ba cátí̵í̵tɨjí̵nú mepícyoíñuki. Iguala las puntas de las fibras de chambira para ponerlas.",
+    "startpage" : 79,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 46,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 46,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 64,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 64,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 75,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 75,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cátí̵í̵tɨjí̵ro",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "cátí̵í̵tí̵jɨnu",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 42,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alinear",
+                "start" : 46,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 55,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 55,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "igualar",
+                "start" : 55,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emparejar",
+                "start" : 64,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "poner iguales las puntas de algo",
+                "start" : 75,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ménɨjí̵ba cátí̵í̵tɨjí̵nú mepícyoíñuki.",
+                "start" : 108,
+                "end" : 156
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Iguala las puntas de las fibras de chambira para ponerlas.",
+                "start" : 156,
+                "end" : 215
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "c á t í̵ í̵ t ɨ j í̵ r o",
+                "start" : 1,
+                "end" : 19
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "c á t í̵ í̵ t í̵ j ɨ n u",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cátí̵í̵tɨjí̵ro",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cátí̵í̵tí̵jɨnu",
+                "start" : 22,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ménɨjí̵ba cátí̵í̵tɨjí̵nú",
+                "start" : 108,
+                "end" : 139
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mepícyoíñuki.",
+                "start" : 140,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 54,
+                "end" : 54
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 139,
+                "end" : 139
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 140,
+                "end" : 140
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "piímye s.col. hormiga (especies pequeñas como caá, áájaho y machávara).",
+    "startpage" : 234,
+    "pos_on_page" : 32,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "piímye",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.col.",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " hormiga (especies pequeñas como caá, áájaho y machávara)",
+                "start" : 14,
+                "end" : 76
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p i . í . my e #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "piímye",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.col.",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "caá, áájaho",
+                "start" : 48,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "machávara",
+                "start" : 65,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "muurá(h)/[muuré] adv. pues (indica afirmación o credibilidad de una cosa). Muurá tsá dibye pééityú. El no va, pues. —Se usa muuré cuando se añaden sufijos. Muurévá tsá dibye pééityú. Dicen que él no va, pues.",
+    "startpage" : 191,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 23,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muurá",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muuráh",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muuré",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pues (indica afirmación o credibilidad de una cosa)",
+                "start" : 23,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muurá tsá dibye pééityú.",
+                "start" : 78,
+                "end" : 107
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "El no va, pues.",
+                "start" : 108,
+                "end" : 123
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muurévá tsá dibye pééityú.",
+                "start" : 166,
+                "end" : 198
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Dicen que él no va, pues.",
+                "start" : 198,
+                "end" : 225
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . r á #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . r á h #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . r é #",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muurá(h)/[muuré]",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 19,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muurá tsá dibye pééityú.",
+                "start" : 78,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muuré",
+                "start" : 132,
+                "end" : 138
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Muurévá tsá dibye pééityú.",
+                "start" : 166,
+                "end" : 198
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 113,
+                "end" : 113
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 114,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 156,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 157,
+                "end" : 157
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "mí̵a part. expresa sorpresa ante una verdad. Mí̵a uu ímítyuúbe. De veras eres malo.",
+    "startpage" : 185,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mí̵a",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "part.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "expresa sorpresa ante una verdad",
+                "start" : 11,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Mí̵a uu ímítyuúbe.",
+                "start" : 46,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " De veras eres malo.",
+                "start" : 68,
+                "end" : 88
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m í̵ . a #",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mí̵a",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "part.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "M",
+                "start" : 46,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "a uu ímítyuúbe.",
+                "start" : 50,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "méúji̵ba s nuestro (incl.) hombro. (ver úji̵ba)",
+    "startpage" : 181,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "méúji̵ba",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 11,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 12,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 12,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nuestro (incl.) hombro",
+                "start" : 12,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "méúji̵ba",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s",
+                "start" : 11,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "úji̵ba",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "s.",
+                "start" : 11,
+                "end" : 12
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wátaaháco, watájco abs. 1. tapa, cubierta (solo con watájco). 2. tapadura, tapamiento, cerramiento. ║ acción de...",
+    "startpage" : 330,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 29,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 36,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 68,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 68,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 79,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 79,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 91,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 91,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wátaaháco",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "watájco",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 22,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tapa",
+                "start" : 29,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cubierta (solo con watájco)",
+                "start" : 36,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tapadura",
+                "start" : 68,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tapamiento",
+                "start" : 79,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cerramiento",
+                "start" : 91,
+                "end" : 102
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# w á . t aa . h á . c o #",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# w a . t á j . c o #",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wátaaháco, watájco",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 22,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "watájco",
+                "start" : 55,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
             },
     ]
 })
@@ -11610,9 +13169,9 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "vííí onom. sonido agudo de un silbido. Ócájí hajchi ihjyúcunú ‘vííí’. La cría de una sachavaca silbó.",
-    "startpage" : 305,
-    "pos_on_page" : 8,
+    "fullentry" : "muúbej voc. hermano. —Se emplea muúbej para dirigirse a un hermano, un primo u otro hombre más o menos de la misma edad. (ver nahbe)",
+    "startpage" : 188,
+    "pos_on_page" : 18,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -11633,105 +13192,1246 @@ manual_entries.append({
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 13,
-                "end" : 40
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 13,
-                "end" : 40
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "vííí",
+                "string" : "muúbej",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "onom.",
+                "string" : "voc.",
                 "start" : 8,
-                "end" : 13
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido agudo de un silbido",
+                "string" : "hermano",
                 "start" : 13,
-                "end" : 40
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ócájí hajchi ihjyúcunú vííí.",
-                "start" : 42,
-                "end" : 80
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " La cría de una sachavaca silbó.",
-                "start" : 80,
-                "end" : 114
+                "value" : "crossreference",
+                "string" : "nahbe",
+                "start" : 129,
+                "end" : 134
             },
             {
                 "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# v ííí #",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . b e j #",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "vííí",
+                "string" : "muúbej",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "onom.",
+                "string" : "voc.",
                 "start" : 8,
-                "end" : 13
+                "end" : 12
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Ócájí hajchi ihjyúcunú ‘vííí’.",
-                "start" : 42,
-                "end" : 80
+                "string" : "muúbej",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nahbe",
+                "start" : 129,
+                "end" : 134
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
                 "string" : "",
                 "start" : 41,
                 "end" : 41
             },
             {
                 "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 42,
-                "end" : 42
+                "start" : 86,
+                "end" : 86
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 89,
-                "end" : 89
+                "start" : 128,
+                "end" : 128
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 90,
-                "end" : 90
+                "start" : 129,
+                "end" : 129
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[pɨcábaanu] vt. dar la bebida pí̵í̵caba a los invitados a la fiesta a cambio de lo que han traído. Ó pɨcábaanú níívúwake. Estoy dando pí̵í̵caba a cambio de venado.",
+    "startpage" : 238,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pɨcábaanu",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar la bebida pí̵í̵caba a los invitados a la fiesta a cambio de lo que han traído",
+                "start" : 17,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ó pɨcábaanú níívúwake.",
+                "start" : 103,
+                "end" : 131
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Estoy dando pí̵í̵caba a cambio de venado.",
+                "start" : 132,
+                "end" : 175
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p ɨ . c á . b aa . n u #",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[pɨcábaanu]",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 13,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pí̵í̵caba",
+                "start" : 31,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ó pɨcá",
+                "start" : 103,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "baanú níívúwake.",
+                "start" : 111,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pí̵í̵caba",
+                "start" : 144,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 111,
+                "end" : 111
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "taaa onom. describe la sensación de un sabor en la lengua como el de la sal de monte.",
+    "startpage" : 247,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taaa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "describe la sensación de un sabor en la lengua como el de la sal de monte",
+                "start" : 10,
+                "end" : 85
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# t aaa #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "taaa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tsíhdyuréjtso abs transformación; transfiguración. ║ acción de...",
+    "startpage" : 281,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsíhdyuréjtso",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 16,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "transformación",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "transfiguración",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsíhdyuréjtso",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs",
+                "start" : 16,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "í̵veekí/[í̵vej] adv.interr. por qué. ¿Ɨ́veekí u péé cóómívuú? ¿Por qué te vas al pueblo? —Se emplea í̵vej como repuesta.",
+    "startpage" : 158,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "í̵veekí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "í̵vej",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.interr.",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por qué",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Ɨ́veekí u péé cóómívuú?",
+                "start" : 41,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Por qué te vas al pueblo?",
+                "start" : 73,
+                "end" : 100
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# í̵ . v ee . k í #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# í̵ . v e j #",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "í̵veekí/[í̵vej]",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.interr.",
+                "start" : 19,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Ɨ́veekí",
+                "start" : 41,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u péé cóómívuú?",
+                "start" : 51,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "í̵vej",
+                "start" : 112,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 92,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 93,
+                "end" : 93
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dooo onom. sonido de un viento y lluvia fuertes; sonido prolongado del golpe de una aleta. Kííjyeba ihjyúvá ‘dooo’ úmehééné pañe. El viento está sonando fuertemente entre los árboles.",
+    "startpage" : 111,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 49,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 49,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido de un viento y lluvia fuertes",
+                "start" : 10,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido prolongado del golpe de una aleta",
+                "start" : 49,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Kííjyeba ihjyúvá dooo úmehééné pañe.",
+                "start" : 91,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " El viento está sonando fuertemente entre los árboles.",
+                "start" : 138,
+                "end" : 194
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# d ooo #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Kííjyeba ihjyúvá ‘dooo’",
+                "start" : 91,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "úmehééné pañe.",
+                "start" : 119,
+                "end" : 138
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[wápɨjco] vt. 1. abonar. Paíjyuváré tabájtsó ó wápí̵cohíjcyáhi. Siempre abono mis plantas. 2. embarrar. Íñahbévajte wápɨjcó ííñuri; áábeke tsɨɨju tsojtsóhi. Sus amigos lo embarraron y su mamá lo tuvo que bañar.",
+    "startpage" : 329,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 105,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 105,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wápɨjco",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vt.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "abonar",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Paíjyuváré tabájtsó ó wápí̵cohíjcyáhi.",
+                "start" : 26,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Siempre abono mis plantas. ",
+                "start" : 74,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "embarrar",
+                "start" : 105,
+                "end" : 113
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Íñahbévajte wápɨjcó ííñuri; áábeke tsɨɨju tsojtsóhi.",
+                "start" : 115,
+                "end" : 178
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : " Sus amigos lo embarraron y su mamá lo tuvo que bañar.",
+                "start" : 178,
+                "end" : 234
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# w á . p ɨ j . c o #",
+                "start" : 1,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[wápɨjco]",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Paíjyuváré",
+                "start" : 26,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tabájtsó ó wápí̵cohíjcyáhi.",
+                "start" : 40,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ñah",
+                "start" : 117,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "bévajte wápɨjcó ííñuri; áábeke tsɨɨju",
+                "start" : 121,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tsojtsóhi.",
+                "start" : 167,
+                "end" : 178
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 167,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 205,
+                "end" : 205
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 206,
+                "end" : 206
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jooo onom. sonido que produce algo arrastrado por el suelo o empujado por el viento.",
+    "startpage" : 160,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sonido que produce algo arrastrado por el suelo o empujado por el viento",
+                "start" : 10,
+                "end" : 83
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# j ooo #",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jooo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
             },
     ]
 })
@@ -12186,170 +14886,354 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "[wámɨhjúcu, wámɨhco] vt. 1. mover la cabeza de arriba abajo. 2. cabecear, golpear con la cabeza. Ɨ́í̵cú-múnáajpíi wámɨhjúcú peróótau. El jugador golpeó la pelota con la cabeza.",
-    "startpage" : 325,
-    "pos_on_page" : 19,
+    "fullentry" : "[eh-] r.l. aquél, aquélla, aquello. —Se añaden los sufijos clasificadores para formar pronombres demostrativos que corresponden a aquél (ver los apéndices C y D).",
+    "startpage" : 128,
+    "pos_on_page" : 9,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
                 "start" : 1,
-                "end" : 12
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
                 "start" : 1,
-                "end" : 12
+                "end" : 4
             },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eh-",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "r.l.",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aquél",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aquélla",
+                "start" : 19,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aquello",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# e h #",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[eh-]",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "r.l.",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aquél",
+                "start" : 133,
+                "end" : 139
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 132,
+                "end" : 132
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 133,
+                "end" : 133
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "dyééé onom. talán de la campana. (sinón. dááá, dyúúú)",
+    "startpage" : 105,
+    "pos_on_page" : 17,
+    "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "boa",
-                "start" : 14,
-                "end" : 22
+                "start" : 0,
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Bora",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 14,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 62
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 30,
-                "end" : 62
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 66,
-                "end" : 75
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 66,
-                "end" : 75
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 78,
-                "end" : 98
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 78,
-                "end" : 98
+                "start" : 14,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "wámɨhjúcu",
+                "string" : "dyééé",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "talán de la campana",
+                "start" : 14,
+                "end" : 35
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# dy ééé #",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dyééé",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dááá, dyúúú",
+                "start" : 46,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "[táwúujco] vt. hacer sonar la llaaríwa pisándola para que choque con el suelo.",
+    "startpage" : 260,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
                 "start" : 1,
-                "end" : 12
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 1,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 81
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "wámɨhco",
-                "start" : 14,
-                "end" : 22
+                "string" : "táwúujco",
+                "start" : 1,
+                "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "vt.",
-                "start" : 24,
-                "end" : 27
+                "start" : 13,
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mover la cabeza de arriba abajo",
-                "start" : 30,
-                "end" : 62
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cabecear",
-                "start" : 66,
-                "end" : 75
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "golpear con la cabeza",
-                "start" : 78,
-                "end" : 98
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ɨ́í̵cú-múnáajpíi wámɨhjúcú peróótau.",
-                "start" : 102,
-                "end" : 146
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "El jugador golpeó la pelota con la cabeza.",
-                "start" : 148,
-                "end" : 190
+                "string" : "hacer sonar la llaaríwa pisándola para que choque con el suelo",
+                "start" : 17,
+                "end" : 81
             },
             {
                 "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "w á m ɨ h j ú c u",
+                "value" : "headorthographic",
+                "string" : "# t á . w ú . u j . c o #",
                 "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "w á m ɨ h c o",
-                "start" : 14,
-                "end" : 22
+                "end" : 11
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "[wámɨhjúcu, wámɨhco]",
+                "string" : "[táwúujco]",
                 "start" : 0,
-                "end" : 23
+                "end" : 12
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
                 "string" : "vt.",
-                "start" : 24,
-                "end" : 27
+                "start" : 13,
+                "end" : 16
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "Ɨí̵cú-múnáajpíi wámɨhjúcú peróótau.",
-                "start" : 102,
-                "end" : 146
+                "string" : "llaaríwa",
+                "start" : 32,
+                "end" : 41
             },
             {
                 "type" : "pagelayout",
@@ -12364,6 +15248,189 @@ manual_entries.append({
                 "string" : "",
                 "start" : 0,
                 "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "muúte/[muutá] pron.interr.m./f.pl. quiénes. —Se emplea muutá para indicar el sujeto: ¿Muutá tsááhií? ¿Quiénes vienen? ¿Muutáha?/¿Muutáhaja? ¿Quiénes quizás?",
+    "startpage" : 191,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muúte",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "muutá",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.interr.m./f.pl.",
+                "start" : 16,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : " quiénes",
+                "start" : 36,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Muutá tsááhií?",
+                "start" : 90,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Quiénes vienen?",
+                "start" : 109,
+                "end" : 126
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "¿Muutáha?/¿Muutáhaja?",
+                "start" : 127,
+                "end" : 150
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "¿Quiénes quizás?",
+                "start" : 151,
+                "end" : 169
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m u . ú . t e #",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# m uu . t á #",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "muúte/[muutá]",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.interr.m./f.pl.",
+                "start" : 16,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muutá",
+                "start" : 58,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muutá tsááhií?",
+                "start" : 89,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¿Muutáha?/¿Muutáhaja? ¿Quié",
+                "start" : 127,
+                "end" : 157
             },
             {
                 "type" : "pagelayout",
@@ -12383,22 +15450,29 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 76,
-                "end" : 76
+                "start" : 80,
+                "end" : 80
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 77,
-                "end" : 77
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 121,
-                "end" : 121
+                "start" : 122,
+                "end" : 122
             },
             {
                 "type" : "pagelayout",
@@ -12411,358 +15485,6 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
-                "start" : 161,
-                "end" : 161
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 161,
-                "end" : 161
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 161,
-                "end" : 161
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "wállúrí̵jɨjcáro, wállúrɨjí̵jco abs. acción de...",
-    "startpage" : 325,
-    "pos_on_page" : 2,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 22,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 22,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wállúrí̵jɨjcáro",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wálĺrɨjí̵jco",
-                "start" : 22,
-                "end" : 37
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "abs.",
-                "start" : 39,
-                "end" : 42
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "w á ll ú r í̵ j ɨ j c á r o",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "w á l l ú r ɨ j í̵ j c o",
-                "start" : 22,
-                "end" : 37
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "wállúrí̵jɨjcáro, wálĺrɨjí̵jco",
-                "start" : 0,
-                "end" : 37
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "abs.",
-                "start" : 39,
-                "end" : 42
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 50,
-                "end" : 50
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 51,
-                "end" : 51
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[wámooháyo, wámóóhañu] vt. 1. hacer desfilar, poner en fila. Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi. El puso a sus hijos en fila en el camino. 2. estirar.",
-    "startpage" : 325,
-    "pos_on_page" : 25,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 14,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 14,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 35,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 35,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 52,
-                "end" : 65
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 52,
-                "end" : 65
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 154,
-                "end" : 162
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 154,
-                "end" : 162
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wámooháyo",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wámóóhañu",
-                "start" : 14,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 29,
-                "end" : 32
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "hacer desfilar",
-                "start" : 35,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "poner en fila",
-                "start" : 52,
-                "end" : 65
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi.",
-                "start" : 69,
-                "end" : 109
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " El puso a sus hijos en fila en el camino. ",
-                "start" : 109,
-                "end" : 152
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "estirar",
-                "start" : 154,
-                "end" : 162
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "w á m oo h á y o",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "w á m óó h a n ̃ u",
-                "start" : 14,
-                "end" : 27
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[wámooháyo, wámóóhañu]",
-                "start" : 0,
-                "end" : 28
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 29,
-                "end" : 32
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Ɨ́í̵tsí̵í̵meke wámooháyoobe juuváyi.",
-                "start" : 69,
-                "end" : 109
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 117,
-                "end" : 117
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
                 "start" : 157,
                 "end" : 157
             },
@@ -12779,2940 +15501,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 157,
                 "end" : 157
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[wáñejco] vi. gritar ñóooo para animar una fiesta. Aatye wáñejcó kijcyó-múnáake. Ellos animan a los bailarines.",
-    "startpage" : 327,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 16,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 16,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wáñejco",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vi.",
-                "start" : 12,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "gritar ñóooo para animar una fiesta",
-                "start" : 16,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Aatye wáñejcó kijcyó-múnáake.",
-                "start" : 55,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Ellos animan a los bailarines.",
-                "start" : 90,
-                "end" : 121
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# w á . ñ e j . c o #",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[wáñejco]",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vi.",
-                "start" : 12,
-                "end" : 15
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ñóooo",
-                "start" : 23,
-                "end" : 30
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Aatye wáñejcó kij",
-                "start" : 55,
-                "end" : 75
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "cyó-múnáake.",
-                "start" : 75,
-                "end" : 90
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 113,
-                "end" : 113
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 113,
-                "end" : 113
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 113,
-                "end" : 113
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[wápɨjco] vt. 1. abonar. Paíjyuváré tabájtsó ó wápí̵cohíjcyáhi. Siempre abono mis plantas. 2. embarrar. Íñahbévajte wápɨjcó ííñuri; áábeke tsɨɨju tsojtsóhi. Sus amigos lo embarraron y su mamá lo tuvo que bañar.",
-    "startpage" : 329,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 105,
-                "end" : 113
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 105,
-                "end" : 113
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wápɨjco",
-                "start" : 1,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 11,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "abonar",
-                "start" : 17,
-                "end" : 24
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Paíjyuváré tabájtsó ó wápí̵cohíjcyáhi.",
-                "start" : 26,
-                "end" : 74
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Siempre abono mis plantas. ",
-                "start" : 74,
-                "end" : 102
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "embarrar",
-                "start" : 105,
-                "end" : 113
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Íñahbévajte wápɨjcó ííñuri; áábeke tsɨɨju tsojtsóhi.",
-                "start" : 115,
-                "end" : 178
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Sus amigos lo embarraron y su mamá lo tuvo que bañar.",
-                "start" : 178,
-                "end" : 234
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# w á . p ɨ j . c o #",
-                "start" : 1,
-                "end" : 9
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[wápɨjco]",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 11,
-                "end" : 14
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Paíjyuváré",
-                "start" : 26,
-                "end" : 39
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "tabájtsó ó wápí̵cohíjcyáhi.",
-                "start" : 40,
-                "end" : 74
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ñah",
-                "start" : 117,
-                "end" : 121
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "bévajte wápɨjcó ííñuri; áábeke tsɨɨju",
-                "start" : 121,
-                "end" : 166
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "tsojtsóhi.",
-                "start" : 167,
-                "end" : 178
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 82,
-                "end" : 82
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 121,
-                "end" : 121
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 166,
-                "end" : 166
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 167,
-                "end" : 167
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 205,
-                "end" : 205
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 206,
-                "end" : 206
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[áiivye, ááiba] vi. 1. quemarse, consumirse con fuego. Táwajcyóhá ímí áiivyéhi. Mi chacra se quemó bien. Jááhañe ááibá páneeréjuco tsaíjyúre. Todas las casas se quemaron al mismo tiempo. (sinón. ajtye) 2. quemarse superficialmente. Ájchíwu áiivyé cúújúwari. Mi hijo se quemó en la candela. 3. (fig.) tener fiebre. ájchíwu mítyane áiivyéhi. Mi hijo tiene mucha fiebre.",
-    "startpage" : 32,
-    "pos_on_page" : 18,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 25,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 25,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 226,
-                "end" : 252
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 226,
-                "end" : 252
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 322,
-                "end" : 342
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 322,
-                "end" : 342
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "áiivye",
-                "start" : 1,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ááiba",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vi.",
-                "start" : 19,
-                "end" : 22
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "quemarse",
-                "start" : 25,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "consumirse con fuego",
-                "start" : 36,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Táwajcyóhá ímí áiivyéhi.",
-                "start" : 58,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Mi chacra se quemó bien. ",
-                "start" : 89,
-                "end" : 116
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Jááhañe ááibá páneeréjuco tsaíjyúre.",
-                "start" : 116,
-                "end" : 162
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : "Todas las casas se quemaron al mismo tiempo.",
-                "start" : 163,
-                "end" : 207
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "ajtye",
-                "start" : 217,
-                "end" : 222
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "quemarse superficialmente",
-                "start" : 226,
-                "end" : 252
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ájchíwu áiivyé cúújúwari.",
-                "start" : 254,
-                "end" : 286
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Mi hijo se quemó en la candela. ",
-                "start" : 286,
-                "end" : 320
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "(fig.) tener fiebre",
-                "start" : 322,
-                "end" : 342
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "ájchíwu mítyane áiivyéhi.",
-                "start" : 344,
-                "end" : 374
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Mi hijo tiene mucha fiebre.",
-                "start" : 374,
-                "end" : 402
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# á . ii . vy e #",
-                "start" : 1,
-                "end" : 8
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# áá . i . b a #",
-                "start" : 10,
-                "end" : 17
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[áiivye, ááiba]",
-                "start" : 0,
-                "end" : 18
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vi.",
-                "start" : 19,
-                "end" : 22
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Táwajcyóhá ímí",
-                "start" : 58,
-                "end" : 77
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "áiivyéhi.",
-                "start" : 78,
-                "end" : 89
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Jááhañe ááibá páneeréjuco tsaíjyúre.",
-                "start" : 116,
-                "end" : 162
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "ajtye",
-                "start" : 217,
-                "end" : 222
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Ájchíwu áiivyé cúú",
-                "start" : 254,
-                "end" : 278
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "júwari.",
-                "start" : 278,
-                "end" : 286
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ájchíwu mí",
-                "start" : 344,
-                "end" : 357
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "tyane áiivyéhi.",
-                "start" : 357,
-                "end" : 374
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 77,
-                "end" : 77
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 78,
-                "end" : 78
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 116,
-                "end" : 116
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 162,
-                "end" : 162
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 163,
-                "end" : 163
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 197,
-                "end" : 197
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 197,
-                "end" : 197
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 197,
-                "end" : 197
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 235,
-                "end" : 235
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 236,
-                "end" : 236
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 278,
-                "end" : 278
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 278,
-                "end" : 278
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 278,
-                "end" : 278
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 316,
-                "end" : 316
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 316,
-                "end" : 316
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 316,
-                "end" : 316
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 357,
-                "end" : 357
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 357,
-                "end" : 357
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 357,
-                "end" : 357
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 394,
-                "end" : 394
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 395,
-                "end" : 395
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "wátaaháco, watájco abs. 1. tapa, cubierta (solo con watájco). 2. tapadura, tapamiento, cerramiento. ║ acción de...",
-    "startpage" : 330,
-    "pos_on_page" : 27,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 13,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 13,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 29,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 29,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 68,
-                "end" : 77
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 68,
-                "end" : 77
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 79,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 79,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 91,
-                "end" : 102
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 91,
-                "end" : 102
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wátaaháco",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "watájco",
-                "start" : 13,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "abs.",
-                "start" : 22,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tapa",
-                "start" : 29,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cubierta (solo con watájco)",
-                "start" : 36,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tapadura",
-                "start" : 68,
-                "end" : 77
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tapamiento",
-                "start" : 79,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cerramiento",
-                "start" : 91,
-                "end" : 102
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# w á . t aa . h á . c o #",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# w a . t á j . c o #",
-                "start" : 13,
-                "end" : 21
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "wátaaháco, watájco",
-                "start" : 0,
-                "end" : 21
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "abs.",
-                "start" : 22,
-                "end" : 26
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "watájco",
-                "start" : 55,
-                "end" : 63
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 44,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 45,
-                "end" : 45
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "wúúú onom. ¡pum!",
-    "startpage" : 339,
-    "pos_on_page" : 15,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 13,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 13,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wúúú",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 8,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "pum",
-                "start" : 13,
-                "end" : 19
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# w úúú #",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "wúúú",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 8,
-                "end" : 13
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "yóóó onom. canto monótono de la cigarra o chicharra.",
-    "startpage" : 339,
-    "pos_on_page" : 28,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 13,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 13,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "yóóó",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 8,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "canto monótono de la cigarra o chicharra",
-                "start" : 13,
-                "end" : 55
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# y óóó #",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "yóóó",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 8,
-                "end" : 13
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[ávyejújkímye̱i] vr. superarse, engrandecerse, volverse importante. Ɨ́dátsóhrée néhíjcyaabe tsúúca ávyéjújkímyeí náhjí̵heho imyéénúneri. El que era considerado humilde se volvió importante por la bodega que tiene. (sinón. í̵hnahóóve, í̵htsutúúve)",
-    "startpage" : 45,
-    "pos_on_page" : 33,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 23,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 23,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 35,
-                "end" : 48
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 35,
-                "end" : 48
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 50,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 50,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ávyejújkímye̱i",
-                "start" : 1,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vr.",
-                "start" : 20,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "superarse",
-                "start" : 23,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "engrandecerse",
-                "start" : 35,
-                "end" : 48
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "volverse importante",
-                "start" : 50,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ɨ́dátsóhrée néhíjcyaabe tsúúca ávyéjújkímyeí náhjí̵heho imyéénúneri.",
-                "start" : 72,
-                "end" : 156
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " El que era considerado humilde se volvió importante por la bodega que tiene. (sinón. í̵hnahóóve, í̵htsutúúve)",
-                "start" : 156,
-                "end" : 274
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "á vy e j ú j k í my e̱ i",
-                "start" : 1,
-                "end" : 18
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[ávyejújkímye̱i]",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vr.",
-                "start" : 20,
-                "end" : 23
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "dátsóhrée néhíjcyaabe tsúúca ávyé",
-                "start" : 73,
-                "end" : 115
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "jújkímyeí náhjí̵heho imyéénúneri.",
-                "start" : 115,
-                "end" : 156
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "í̵hnahóóve, í̵htsutúúve",
-                "start" : 244,
-                "end" : 273
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 115,
-                "end" : 115
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 159,
-                "end" : 159
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 160,
-                "end" : 160
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 194,
-                "end" : 194
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 194,
-                "end" : 194
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 194,
-                "end" : 194
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 231,
-                "end" : 231
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 231,
-                "end" : 231
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 231,
-                "end" : 231
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[ávyetétso] vt. agravar. Ɨhtsútáré chéméébeke aíívyé ávyetétsóhi. La fiebre agravó el estado del enfermo.",
-    "startpage" : 46,
-    "pos_on_page" : 21,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ávyetétso",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 14,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "agravar",
-                "start" : 17,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ɨhtsútáré chéméébeke aíívyé ávyetétsóhi.",
-                "start" : 28,
-                "end" : 79
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " La fiebre agravó el estado del enfermo.",
-                "start" : 79,
-                "end" : 120
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "á vy e t é ts o",
-                "start" : 1,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[ávyetétso]",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 14,
-                "end" : 17
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "htsútáré",
-                "start" : 28,
-                "end" : 39
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "chéméébeke aíívyé ávyetétsóhi.",
-                "start" : 40,
-                "end" : 79
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 82,
-                "end" : 82
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 83,
-                "end" : 83
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "búhji̵j voc cuñada. (ver tónulle) (sinón. átyónulle)",
-    "startpage" : 61,
-    "pos_on_page" : 22,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "búhji̵j",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "voc.",
-                "start" : 9,
-                "end" : 12
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 12,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 12,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cuñada",
-                "start" : 12,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "búhji̵j",
-                "start" : 0,
-                "end" : 8
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "voc",
-                "start" : 9,
-                "end" : 12
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tónulle",
-                "start" : 27,
-                "end" : 35
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "átyónulle",
-                "start" : 46,
-                "end" : 57
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "voc.",
-                "start" : 9,
-                "end" : 12
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[cátí̵í̵tɨjí̵ro, cátí̵í̵tí̵jɨnu] vt. alinear; igualar, emparejar; poner iguales las puntas de algo. Ménɨjí̵ba cátí̵í̵tɨjí̵nú mepícyoíñuki. Iguala las puntas de las fibras de chambira para ponerlas.",
-    "startpage" : 79,
-    "pos_on_page" : 25,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 22,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 22,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 46,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 46,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 64,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 64,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 75,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 75,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cátí̵í̵tɨjí̵ro",
-                "start" : 1,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cátí̵í̵tí̵jɨnu",
-                "start" : 22,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 42,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "alinear",
-                "start" : 46,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 55,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 55,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "igualar",
-                "start" : 55,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "emparejar",
-                "start" : 64,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "poner iguales las puntas de algo",
-                "start" : 75,
-                "end" : 106
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Ménɨjí̵ba cátí̵í̵tɨjí̵nú mepícyoíñuki.",
-                "start" : 108,
-                "end" : 156
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Iguala las puntas de las fibras de chambira para ponerlas.",
-                "start" : 156,
-                "end" : 215
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "c á t í̵ í̵ t ɨ j í̵ r o",
-                "start" : 1,
-                "end" : 19
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "c á t í̵ í̵ t í̵ j ɨ n u",
-                "start" : 22,
-                "end" : 39
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cátí̵í̵tɨjí̵ro",
-                "start" : 0,
-                "end" : 19
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cátí̵í̵tí̵jɨnu",
-                "start" : 22,
-                "end" : 39
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 41,
-                "end" : 44
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Ménɨjí̵ba cátí̵í̵tɨjí̵nú",
-                "start" : 108,
-                "end" : 139
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "mepícyoíñuki.",
-                "start" : 140,
-                "end" : 156
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 53,
-                "end" : 53
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 54,
-                "end" : 54
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 91,
-                "end" : 91
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 92,
-                "end" : 92
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 139,
-                "end" : 139
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 140,
-                "end" : 140
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 181,
-                "end" : 181
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 182,
-                "end" : 182
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "cátsoówa s. col. especie de avispa grande de color negro que come larvas.",
-    "startpage" : 84,
-    "pos_on_page" : 12,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cátsoówa",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.col.",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 18,
-                "end" : 74
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 18,
-                "end" : 74
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "especie de avispa grande de color negro que come larvas",
-                "start" : 18,
-                "end" : 74
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cátsoówa",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s. col.",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 18,
-                "end" : 18
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 19,
-                "end" : 19
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 34,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 46,
-                "end" : 46
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 47,
-                "end" : 47
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 62,
-                "end" : 62
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 63,
-                "end" : 63
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "s.col.",
-                "start" : 11,
-                "end" : 18
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "[cáwaavye, cáhwabya] vt. hacer trampa dahpénéého de hojas de palma para aves terrestres. Tahdíú cáwaavyé íúmɨhé úníutu. Mi abuelo hizo trampa para aves al lado de su chacra.",
-    "startpage" : 87,
-    "pos_on_page" : 5,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 12,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 12,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 27,
-                "end" : 92
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 27,
-                "end" : 92
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cáwaavye",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cáhwabya",
-                "start" : 12,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vt.",
-                "start" : 23,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "hacer trampa dahpénéého de hojas de palma para aves terrestres",
-                "start" : 27,
-                "end" : 92
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Tahdíú cáwaavyé íúmɨhé úníutu.",
-                "start" : 94,
-                "end" : 133
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " Mi abuelo hizo trampa para aves al lado de su chacra.",
-                "start" : 133,
-                "end" : 187
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# c á . w aa . vy e #",
-                "start" : 1,
-                "end" : 10
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# c á h . w a . by a #",
-                "start" : 12,
-                "end" : 21
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "[cáwaavye, cáhwabya]",
-                "start" : 0,
-                "end" : 22
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "vt.",
-                "start" : 23,
-                "end" : 26
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "dahpénéého",
-                "start" : 40,
-                "end" : 53
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Tahdíú cáwaavyé",
-                "start" : 94,
-                "end" : 113
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "íúmɨhé úníutu.",
-                "start" : 114,
-                "end" : 133
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 72,
-                "end" : 72
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 113,
-                "end" : 113
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 114,
-                "end" : 114
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 155,
-                "end" : 155
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 156,
-                "end" : 156
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "coí, coííí-coííí onom. imita el gañido de un perro cuando es azotado.",
-    "startpage" : 90,
-    "pos_on_page" : 11,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 6,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 6,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 29,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 29,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "coí",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "coííí-coííí",
-                "start" : 6,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 24,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "imita el gañido de un perro cuando es azotado",
-                "start" : 29,
-                "end" : 76
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# c o . í #",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# co . ííí # co . ííí #",
-                "start" : 6,
-                "end" : 23
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "coí, coííí-coííí",
-                "start" : 0,
-                "end" : 23
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 24,
-                "end" : 29
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "el",
-                "start" : 36,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 49,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 50,
-                "end" : 50
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "cówáhomája fibra del árbol áácuhe que sirve para hacer antorchas.",
-    "startpage" : 92,
-    "pos_on_page" : 15,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 14,
-                "end" : 70
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 14,
-                "end" : 70
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "cówáhomája",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "fibra del árbol áácuhe que sirve para hacer antorchas",
-                "start" : 14,
-                "end" : 70
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorthographic",
-                "string" : "# c ó . w á . h o . m á . j a #",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cówáhomája",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "áácuhe",
-                "start" : 31,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "chaaa onom. imita el sonido que produce la caída de algo como lluvia sobre el techo, frutos que caen al suelo o maíz desgranado. Nííjyaba allé ‘chaaa’ tahjyá hallúvu. La lluvia está sonando en el techo de mi casa.",
-    "startpage" : 98,
-    "pos_on_page" : 3,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "boa",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Bora",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 11,
-                "end" : 84
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 11,
-                "end" : 84
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 86,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 86,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "chaaa",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "imita el sonido que produce la caída de algo como lluvia sobre el techo",
-                "start" : 11,
-                "end" : 84
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "frutos que caen al suelo o maíz desgranado",
-                "start" : 86,
-                "end" : 129
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-src",
-                "string" : "Nííjyaba allé chaaa tahjyá hallúvu.",
-                "start" : 131,
-                "end" : 173
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "example-tgt",
-                "string" : " La lluvia está sonando en el techo de mi casa.",
-                "start" : 173,
-                "end" : 221
-            },
-            {
-                "type" : "orthographicinterpretation",
-                "value" : "headorth",
-                "string" : "# ch aaa #",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "chaaa",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "Nííjyaba allé",
-                "start" : 131,
-                "end" : 147
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "‘chaaa’ tahjyá hallúvu.",
-                "start" : 148,
-                "end" : 173
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 76,
-                "end" : 76
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 112,
-                "end" : 112
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 113,
-                "end" : 113
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 147,
-                "end" : 147
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 148,
-                "end" : 148
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 189,
-                "end" : 189
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 190,
-                "end" : 190
             },
     ]
 })
@@ -15826,6 +15614,218 @@ manual_entries.append({
                 "string" : "",
                 "start" : 75,
                 "end" : 75
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "wúúú onom. ¡pum!",
+    "startpage" : 339,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wúúú",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "onom.",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pum",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorth",
+                "string" : "# w úúú #",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wúúú",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onom.",
+                "start" : 8,
+                "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "pejcátsi abs. baile en el que las parejas dan saltos con los brazos entrelazados y que se baila en las fiestas báhjaá y llaaríwa. ║ acción de...",
+    "startpage" : 229,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "boa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bora",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 15,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pejcátsi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "abs.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "baile en el que las parejas dan saltos con los brazos entrelazados y que se baila en las fiestas báhjaá y llaaríwa",
+                "start" : 15,
+                "end" : 132
+            },
+            {
+                "type" : "orthographicinterpretation",
+                "value" : "headorthographic",
+                "string" : "# p e j . c á . ts i #",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pejcátsi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abs.",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "báhjaá",
+                "start" : 112,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "llaaríwa.",
+                "start" : 123,
+                "end" : 133
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
             },
     ]
 })

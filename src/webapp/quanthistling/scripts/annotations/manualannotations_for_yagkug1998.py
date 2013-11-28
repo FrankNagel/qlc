@@ -4,6 +4,49 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "iyáktasa (véase ímut)",
+    "startpage" : 56,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iyáktasa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ímut",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iyáktasa (véase ímut)",
+                "start" : 0,
+                "end" : 24
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "diíju, diíju. gallina de piel obscura",
     "startpage" : 37,
     "pos_on_page" : 28,
@@ -120,49 +163,6 @@ manual_entries.append({
                 "string" : "iyájtatus (véase ímut)",
                 "start" : 0,
                 "end" : 25
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "iyáktasa (véase ímut)",
-    "startpage" : 56,
-    "pos_on_page" : 16,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "iyáktasa",
-                "start" : 0,
-                "end" : 9
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "ímut",
-                "start" : 10,
-                "end" : 24
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "iyáktasa (véase ímut)",
-                "start" : 0,
-                "end" : 24
             },
     ]
 })

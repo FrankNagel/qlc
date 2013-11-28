@@ -4,6 +4,35 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "167. nó?õ yóra / nṍ?õ káihʷo",
+    "startpage" : 8,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nó?õ yóra",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nṍ?õ káihʷo",
+                "start" : 20,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "751. después de mucho tiempo voy a mi tierra ?íc̀apa óṣ̀atã ĩ̵ baiyado kái",
     "startpage" : 32,
     "pos_on_page" : 4,
@@ -39,23 +68,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "799. Hay lombrices pequeñas nṍĩ i̵wapábais̀ta",
-    "startpage" : 34,
-    "pos_on_page" : 8,
+    "fullentry" : "857. El alma conversa yos̀i ¢ãĩ?í hʷoa",
+    "startpage" : 37,
+    "pos_on_page" : 6,
     "annotations" : [
-            {
+             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "Hay lombrices pequeñas",
+                "string" : "El alma conversa",
                 "start" : 5,
-                "end" : 28
+                "end" : 21
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nṍĩ i̵wapábais̀ta",
-                "start" : 29,
-                "end" : 49
+                "string" : "yos̀i ¢ãĩ?í hʷoa",
+                "start" : 22,
+                "end" : 41
             },
             {
                 "type" : "pagelayout",
@@ -68,22 +97,8 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 28,
-                "end" : 28
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
+                "start" : 21,
+                "end" : 21
             },
     ]
 })
@@ -132,23 +147,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "857. El alma conversa yos̀i ¢ãĩ?í hʷoa",
-    "startpage" : 37,
-    "pos_on_page" : 6,
+    "fullentry" : "799. Hay lombrices pequeñas nṍĩ i̵wapábais̀ta",
+    "startpage" : 34,
+    "pos_on_page" : 8,
     "annotations" : [
-             {
+            {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "El alma conversa",
+                "string" : "Hay lombrices pequeñas",
                 "start" : 5,
-                "end" : 21
+                "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "yos̀i ¢ãĩ?í hʷoa",
-                "start" : 22,
-                "end" : 41
+                "string" : "nṍĩ i̵wapábais̀ta",
+                "start" : 29,
+                "end" : 49
             },
             {
                 "type" : "pagelayout",
@@ -161,8 +176,22 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 21,
-                "end" : 21
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
             },
     ]
 })
@@ -227,35 +256,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 15,
                 "end" : 15
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "167. nó?õ yóra / nṍ?õ káihʷo",
-    "startpage" : 8,
-    "pos_on_page" : 7,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nó?õ yóra",
-                "start" : 5,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nṍ?õ káihʷo",
-                "start" : 20,
-                "end" : 35
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 4,
-                "end" : 4
             },
     ]
 })

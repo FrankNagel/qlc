@@ -4,30 +4,37 @@ manual_entries = []
 
 
 manual_entries.append({
-    "fullentry" : "jaroxco- / jaroxcohaina (itr) cepillar los dientes [Gonzalo-Moreno ax tsi no jaroxcohi jabiniquë = en Gonzalo-Moreno aprendimos a cepillarnos los dientes].",
-    "startpage" : 128,
-    "pos_on_page" : 4,
+    "fullentry" : "ca- / cahaina (itr); (3era pers. pl. = bocanaina) = ir [nami mërahi caqui noa = nos vamos a cazar; nëama tsi boyamacahuë = no se vayan lejos].",
+    "startpage" : 79,
+    "pos_on_page" : 6,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "jaroxcohaina",
+                "string" : "cahaina",
                 "start" : 0,
-                "end" : 23
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "itr",
-                "start" : 24,
-                "end" : 29
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "3era pers. pl. = bocanaina",
+                "start" : 21,
+                "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cepillar los dientes",
-                "start" : 30,
-                "end" : 50
+                "string" : "ir",
+                "start" : 52,
+                "end" : 54
             },
             {
                 "type" : "pagelayout",
@@ -47,263 +54,29 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 76,
-                "end" : 76
+                "start" : 78,
+                "end" : 78
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 77,
-                "end" : 77
+                "start" : 79,
+                "end" : 79
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 117,
-                "end" : 117
+                "start" : 123,
+                "end" : 123
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "riribaja- / riribajahaina (itr) [coqui tsi xo riribaja-riribajahaina noyahi na = el curucusí enciende y apaga su luz volando].",
-    "startpage" : 241,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "riribajahaina",
-                "start" : 0,
-                "end" : 25
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "itr",
-                "start" : 26,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 80,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 81,
-                "end" : 81
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 117,
-                "end" : 117
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "tiji- / tijihaina (itr) llegar hasta el tope [tsayati papi bo tsi xo cajó mapasti qui tijihaina = los libros llegan hasta la tapa del cajón].",
-    "startpage" : 278,
-    "pos_on_page" : 12,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "tijihaina",
-                "start" : 0,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "itr",
-                "start" : 18,
-                "end" : 23
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "llegar hasta el tope",
-                "start" : 24,
-                "end" : 44
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 74,
-                "end" : 74
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 75,
-                "end" : 75
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 116,
-                "end" : 116
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 117,
-                "end" : 117
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "xatërabë- / xatërabëhaina (itr); xatërabëhuahaina (tr) cortar por la mitad [tsoboxo tsi jahuë raiti ja xatërabëhuaquë = después de quitarse la ropa, él la rasgó en dos].",
-    "startpage" : 296,
-    "pos_on_page" : 11,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "xatërabëhaina",
-                "start" : 0,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "itr",
-                "start" : 30,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "xatërabëhuahaina",
-                "start" : 37,
-                "end" : 55
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "tr",
-                "start" : 56,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "cortar por la mitad",
-                "start" : 61,
-                "end" : 80
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 36,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 37,
-                "end" : 37
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 71,
-                "end" : 71
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 72,
-                "end" : 72
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 109,
-                "end" : 109
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 110,
-                "end" : 110
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 153,
-                "end" : 153
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 154,
-                "end" : 154
+                "start" : 124,
+                "end" : 124
             },
     ]
 })
@@ -507,37 +280,23 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "ca- / cahaina (itr); (3era pers. pl. = bocanaina) = ir [nami mërahi caqui noa = nos vamos a cazar; nëama tsi boyamacahuë = no se vayan lejos].",
-    "startpage" : 79,
-    "pos_on_page" : 6,
+    "fullentry" : "riribaja- / riribajahaina (itr) [coqui tsi xo riribaja-riribajahaina noyahi na = el curucusí enciende y apaga su luz volando].",
+    "startpage" : 241,
+    "pos_on_page" : 1,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "cahaina",
+                "string" : "riribajahaina",
                 "start" : 0,
-                "end" : 13
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "itr",
-                "start" : 14,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "3era pers. pl. = bocanaina",
-                "start" : 21,
-                "end" : 49
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "ir",
-                "start" : 52,
-                "end" : 54
+                "start" : 26,
+                "end" : 31
             },
             {
                 "type" : "pagelayout",
@@ -557,29 +316,270 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 78,
-                "end" : 78
+                "start" : 80,
+                "end" : 80
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 79,
-                "end" : 79
+                "start" : 81,
+                "end" : 81
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 123,
-                "end" : 123
+                "start" : 117,
+                "end" : 117
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 124,
-                "end" : 124
+                "start" : 118,
+                "end" : 118
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "tiji- / tijihaina (itr) llegar hasta el tope [tsayati papi bo tsi xo cajó mapasti qui tijihaina = los libros llegan hasta la tapa del cajón].",
+    "startpage" : 278,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tijihaina",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "itr",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llegar hasta el tope",
+                "start" : 24,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "jaroxco- / jaroxcohaina (itr) cepillar los dientes [Gonzalo-Moreno ax tsi no jaroxcohi jabiniquë = en Gonzalo-Moreno aprendimos a cepillarnos los dientes].",
+    "startpage" : 128,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jaroxcohaina",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "itr",
+                "start" : 24,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cepillar los dientes",
+                "start" : 30,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "xatërabë- / xatërabëhaina (itr); xatërabëhuahaina (tr) cortar por la mitad [tsoboxo tsi jahuë raiti ja xatërabëhuaquë = después de quitarse la ropa, él la rasgó en dos].",
+    "startpage" : 296,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xatërabëhaina",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "itr",
+                "start" : 30,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xatërabëhuahaina",
+                "start" : 37,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "tr",
+                "start" : 56,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortar por la mitad",
+                "start" : 61,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
             },
     ]
 })

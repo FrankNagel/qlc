@@ -4,77 +4,6 @@ manual_entries = []
 
 
 manual_entries.append({
-    "fullentry" : "bóti, boá Véase bajo cáti",
-    "startpage" : 128,
-    "pos_on_page" : 12,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "shp",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Shipibo",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "shp",
-                "start" : 7,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Shipibo",
-                "start" : 7,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "bóti",
-                "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "boá",
-                "start" : 7,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "crossreference",
-                "string" : "bajo cáti",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "bóti, boá",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cáti",
-                "start" : 24,
-                "end" : 29
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "méques̈heeya coni. méques̈hoya s. méques̈heeyanin coni. méques̈heeyaton, méques̈hoyan [del ship. me– en la pata delantera + ques̈hé cosido + –ee sf. refi. + –ya con] : especie de largatija considerada venenosa que tiene pliegues membranosos entre los dedos : *salamandra : *salamanca ‹Méques̈heeyara natés̈hmisma iqui; icás̈hbira jahuen mequénhain itan taénco mócaya iqui. La salamanca no muerde, pero tiene veneno en sus patas.› ‹Méques̈hoyara s̈hánbo jisáribi iqui; icás̈hbi jahuen jína nenquéma iqui. La salamandra es muy parecida a una *lagartija pero de cola corta.› ‹Cacónconia aínbora méques̈hoyan réteque. Una mujer de †Caco fue muerta por una salamanca.› sinón. née",
     "startpage" : 262,
     "pos_on_page" : 6,
@@ -764,6 +693,77 @@ manual_entries.append({
                 "string" : "",
                 "start" : 686,
                 "end" : 686
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "bóti, boá Véase bajo cáti",
+    "startpage" : 128,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "shp",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shipibo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "shp",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shipibo",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bóti",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "boá",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "bajo cáti",
+                "start" : 19,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bóti, boá",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cáti",
+                "start" : 24,
+                "end" : 29
             },
     ]
 })

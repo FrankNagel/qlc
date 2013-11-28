@@ -2,6 +2,7 @@ __all__ =  [
     "annotations_for_aguiar1994",
     "annotations_for_aleman2000",
     "annotations_for_burtch1983",
+    "annotations_for_captain2005",
     "annotations_for_cook2001",
     "annotations_for_fastmowitz2008",
     "annotations_for_faustino1990",

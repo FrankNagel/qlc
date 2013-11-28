@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "-bi̵ - C1N: Líquido espeso; jai̵gabi̵ cahuana, yerabi̵ ambil, ekabi̵te repartir ambil",
+    "startpage" : 805,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bi̵",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C1N",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Líquido espeso",
+                "start" : 12,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-bi̵",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-bi̵",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jai̵gabi̵",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jai̵gabi̵",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yerabi̵",
+                "start" : 48,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yerabi̵",
+                "start" : 48,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ekabi̵te",
+                "start" : 63,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ekabi̵te",
+                "start" : 63,
+                "end" : 71
+            },
+    ]
+})

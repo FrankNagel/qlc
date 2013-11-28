@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "-bairo - C1N: Objeto ancho y plano; iyubairode ser temible un objeto ancho y plano, omabairo cola de caimán",
+    "startpage" : 802,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bairo",
+                "start" : 1,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C1N",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Objeto ancho y plano",
+                "start" : 14,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-bairo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-bairo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iyubairode",
+                "start" : 36,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iyubairode",
+                "start" : 36,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "omabairo",
+                "start" : 84,
+                "end" : 92
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "omabairo",
+                "start" : 84,
+                "end" : 92
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+    ]
+})

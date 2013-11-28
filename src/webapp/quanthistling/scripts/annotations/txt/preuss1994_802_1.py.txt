@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "-baiki̵ - C1N: Objeto adherido o encogido; nibaiki̵taide estar pegado o adherid (llaga), ibaiki̵ puño.",
+    "startpage" : 802,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "baiki̵",
+                "start" : 1,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 8,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 8,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "C1N",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Objeto adherido o encogido",
+                "start" : 15,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-baiki̵",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-baiki̵",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nibaiki̵taide",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nibaiki̵taide",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ibaiki̵",
+                "start" : 89,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ibaiki̵",
+                "start" : 89,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+    ]
+})
