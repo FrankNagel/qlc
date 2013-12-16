@@ -2028,5 +2028,62 @@ list = [
                 'component' : 'Arawak'
             },
         ]
+    },
+    {
+        'title' : u'DICIONÁRIO da LÍNGUA KADIWÉU',
+        'author' : u'Griffiths, Glyn',
+        'year' : 2002,
+        'bibtex_key' : u'griffiths2002',
+        'pages' : 343,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 5,
+                'endpage' : 170,
+                'src_language_name' : u'Kadiwéu',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Kadiwéu',
+                'tgt_language_bookname' : u'Portuguese',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'guaicuruan/griffiths2002_dictdata_5_170.xml',
+                'component' : 'Guaicuruan'
+            },
+            {
+                'startpage' : 173,
+                'endpage' : 234,
+                'src_language_name' : u'Kadiwéu',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Kadiwéu',
+                'tgt_language_bookname' : u'Portuguese',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'guaicuruan/griffiths2002_dictdata_173_234.xml',
+                'component' : 'Guaicuruan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 4,
+                'title': u'Start pages',
+                'file' : 'guaicuruan/griffiths2002_nondictdata_0_4.html',
+                'component' : 'Guaicuruan'
+            },
+	    {
+                'startpage' : 171,
+                'endpage' : 172,
+                'title': u'Forma e Interpretação',
+                'file' : 'guaicuruan/griffiths2002_nondictdata_171_172.html',
+                'component' : 'Guaicuruan'
+            },
+            {
+                'startpage' : 236,
+                'endpage' : 343,
+                'title': u'Apêndices',
+                'file' : 'guaicuruan/griffiths2002_nondictdata_236_343.html',
+                'component' : 'Guaicuruan'
+            },
+        ]
     }
 ]

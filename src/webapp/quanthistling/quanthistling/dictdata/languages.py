@@ -1361,4 +1361,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=not'
     },
+    {
+        'name' : u'Kadiwéu',
+        'langcode': u'kbc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kbc'
+    },
 ]
