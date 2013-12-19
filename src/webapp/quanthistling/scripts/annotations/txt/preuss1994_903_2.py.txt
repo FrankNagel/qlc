@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "yenevaji / yeneji - no está; / 58 / 59 / 60 /",
+    "startpage" : 903,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yenevaji",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " yeneji",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "no está",
+                "start" : 20,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 26,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yenevaji / yeneji",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yenevaji / yeneji",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "58",
+                "start" : 32,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "59",
+                "start" : 37,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "60",
+                "start" : 42,
+                "end" : 44
+            },
+    ]
+})

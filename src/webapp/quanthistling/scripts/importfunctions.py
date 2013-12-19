@@ -219,6 +219,8 @@ def insert_nondictdata_to_db(Session, data, book, filename):
         html = text.decode('windows-1252')
     elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=utf-8\">", text):
         html = text.decode('utf-8')
+    elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=macintosh\">", text):
+        html = text.decode('latin1')
         
     if book.bibtex_key == 'burtch1983':
         html = re.sub(u"#001", u"ɨ", html)

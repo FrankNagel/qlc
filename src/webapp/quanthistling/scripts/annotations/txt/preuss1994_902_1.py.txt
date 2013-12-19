@@ -1,0 +1,176 @@
+
+manual_entries.append({
+    "fullentry" : "yaña / yaiña / yaiñai̵ei̵ - exclamaciones que aparecen en los cantos; / 65 / 66 / 67 / 69 / 72 / 73 / 81 / 91 /",
+    "startpage" : 902,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yaña",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " yaiña",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " yaiñai̵ei̵",
+                "start" : 16,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 16,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 16,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamaciones que aparecen en los cantos",
+                "start" : 31,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 37,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 37,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yaña / yaiña / yaiñai̵ei̵",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yaña / yaiña / yaiñai̵ei̵",
+                "start" : 0,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "65",
+                "start" : 75,
+                "end" : 77
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "66",
+                "start" : 80,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "67",
+                "start" : 85,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "69",
+                "start" : 90,
+                "end" : 92
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "72",
+                "start" : 95,
+                "end" : 97
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "73",
+                "start" : 100,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "81",
+                "start" : 105,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "91",
+                "start" : 110,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+    ]
+})

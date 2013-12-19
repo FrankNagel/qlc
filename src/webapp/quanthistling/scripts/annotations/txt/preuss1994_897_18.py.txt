@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "-ui - Lex lig: Día; biui este día, hoy; dauirie un día de por medio; iui ese día; ji̵ai̵ui otro día, el día siguiente.",
+    "startpage" : 897,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ui",
+                "start" : 1,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Lex",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "lig",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Día",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "biui",
+                "start" : 21,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "este día",
+                "start" : 26,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "hoy",
+                "start" : 37,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "dauirie",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "un día de por medio",
+                "start" : 50,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "iui",
+                "start" : 72,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "ese día",
+                "start" : 76,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ji̵ai̵ui",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "otro día",
+                "start" : 95,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el día siguiente",
+                "start" : 106,
+                "end" : 123
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-ui",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-ui",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "biui",
+                "start" : 21,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "biui",
+                "start" : 21,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dauirie",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dauirie",
+                "start" : 42,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iui",
+                "start" : 72,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iui",
+                "start" : 72,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ji̵ai̵ui",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ji̵ai̵ui",
+                "start" : 86,
+                "end" : 94
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+    ]
+})

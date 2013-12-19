@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "yi̵ri̵jima - nombre que recibe la avispa en los cantos; / 45 /",
+    "startpage" : 905,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yi̵ri̵jima",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre que recibe la avispa en los cantos",
+                "start" : 13,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 20,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yi̵ri̵jima",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵ri̵jima",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "45",
+                "start" : 58,
+                "end" : 60
+            },
+    ]
+})

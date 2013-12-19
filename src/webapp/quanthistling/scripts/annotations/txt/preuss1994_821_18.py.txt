@@ -1,0 +1,176 @@
+
+manual_entries.append({
+    "fullentry" : "fejede (fejia) - Vintr; 1) comenzar; / 25, 1 /; 2) inflamarse; / 7, 2 /; 3) perforarse, romperse; cf. fete; / 25, 53 /",
+    "startpage" : 821,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fejede",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "fejia",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vintr",
+                "start" : 17,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 24,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "comenzar",
+                "start" : 27,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "inflamarse",
+                "start" : 51,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "perforarse",
+                "start" : 76,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "romperse",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "fete",
+                "start" : 102,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "fejede",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "fejede",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "fejia",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 39,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 65,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "fete",
+                "start" : 102,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "fete",
+                "start" : 102,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 110,
+                "end" : 112
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})

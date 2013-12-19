@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "kurevayi̵ / kuyireva - exclamaciones que aparecen en los cantos; / 81 / 99 /",
+    "startpage" : 863,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kurevayi̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " kuyireva",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamaciones que aparecen en los cantos",
+                "start" : 23,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 29,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kurevayi̵ / kuyireva",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kurevayi̵ / kuyireva",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "81",
+                "start" : 67,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "99",
+                "start" : 72,
+                "end" : 74
+            },
+    ]
+})

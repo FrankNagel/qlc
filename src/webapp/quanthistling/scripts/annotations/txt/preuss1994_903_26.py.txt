@@ -1,0 +1,197 @@
+
+manual_entries.append({
+    "fullentry" : "yiki̵de (yiki̵a, yiki̵ka) - Mod: komeki̵na yiki̵de estar preocupado; sinón. komeki̵ yiki̵daite; / 14, 25 /",
+    "startpage" : 903,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yiki̵de",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yiki̵a",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " yiki̵ka",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 28,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "komeki̵na yiki̵de",
+                "start" : 33,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 34,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 34,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "estar preocupado",
+                "start" : 51,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "sinón",
+                "start" : 69,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yiki̵de",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yiki̵de",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yiki̵a, yiki̵ka",
+                "start" : 9,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "komeki̵na yiki̵de",
+                "start" : 33,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "komeki̵na yiki̵de",
+                "start" : 33,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "komeki̵",
+                "start" : 77,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "komeki̵",
+                "start" : 77,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yiki̵daite",
+                "start" : 85,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yiki̵daite",
+                "start" : 85,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "14",
+                "start" : 99,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+    ]
+})

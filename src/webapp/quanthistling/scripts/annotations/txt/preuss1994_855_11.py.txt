@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "kabide - colgar; / 82 /",
+    "startpage" : 855,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kabide",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "colgar",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kabide",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kabide",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "82",
+                "start" : 19,
+                "end" : 21
+            },
+    ]
+})

@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "mayaridi̵va - yuca (palabra usada en los cantos); / 49 /",
+    "startpage" : 865,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mayaridi̵va",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yuca",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palabra usada en los cantos",
+                "start" : 20,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 20,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mayaridi̵va",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mayaridi̵va",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "49",
+                "start" : 52,
+                "end" : 54
+            },
+    ]
+})

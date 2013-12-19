@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "yobiji - armadillo; / 67 /",
+    "startpage" : 905,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yobiji",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yobiji",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yobiji",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "67",
+                "start" : 22,
+                "end" : 24
+            },
+    ]
+})

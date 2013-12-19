@@ -1,0 +1,155 @@
+
+manual_entries.append({
+    "fullentry" : "yarei̵ei̵ - estantillos de maloca; / 35 / 37 / 38 / 40 / 41 / 42 / 43 / 45 / 47 / 63 /82 /",
+    "startpage" : 902,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yarei̵ei̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estantillos de maloca",
+                "start" : 12,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yarei̵ei̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yarei̵ei̵",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "35",
+                "start" : 37,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "37",
+                "start" : 42,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "38",
+                "start" : 47,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "40",
+                "start" : 52,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "41",
+                "start" : 57,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "42",
+                "start" : 62,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "43",
+                "start" : 67,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "45",
+                "start" : 72,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "47",
+                "start" : 77,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "63",
+                "start" : 82,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "82",
+                "start" : 86,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+    ]
+})

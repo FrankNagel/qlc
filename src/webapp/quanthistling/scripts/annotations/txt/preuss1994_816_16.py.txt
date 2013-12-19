@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "eiyomani - río grande; cf. imani; / 96 /",
+    "startpage" : 816,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "eiyomani",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "río grande",
+                "start" : 11,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 17,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "imani",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "eiyomani",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "eiyomani",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "imani",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "imani",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "96",
+                "start" : 37,
+                "end" : 39
+            },
+    ]
+})

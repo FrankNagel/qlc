@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "jií - exclamación que aparece en los cantos; / 83 / 86 / 87 / 88 / 89 / 90 / 91 / 92 / 93 / 94 / 100 / 109 /",
+    "startpage" : 843,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jií",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación que aparece en los cantos",
+                "start" : 7,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jií",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jií",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "83",
+                "start" : 49,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "86",
+                "start" : 54,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "87",
+                "start" : 59,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "88",
+                "start" : 64,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "89",
+                "start" : 69,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "90",
+                "start" : 74,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "91",
+                "start" : 79,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "92",
+                "start" : 84,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "93",
+                "start" : 89,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "94",
+                "start" : 94,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "100",
+                "start" : 99,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "109",
+                "start" : 105,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+    ]
+})

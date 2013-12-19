@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "zegei - exclamación derivada de mooizegeide: no tener nalgas; / 25, 34 /",
+    "startpage" : 909,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "zegei",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación derivada de mooizegeide: no tener nalgas",
+                "start" : 8,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 14,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "zegei",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "zegei",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mooizegeide",
+                "start" : 33,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 65,
+                "end" : 67
+            },
+    ]
+})

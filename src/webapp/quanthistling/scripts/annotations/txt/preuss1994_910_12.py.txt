@@ -1,0 +1,141 @@
+
+manual_entries.append({
+    "fullentry" : "-zie - Lex lig: Grupo, gente; ji̵ai̵zie otro grupo, naizie aquel grupo.",
+    "startpage" : 910,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "zie",
+                "start" : 1,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Lex",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "lig",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Grupo",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gente",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ji̵ai̵zie",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "otro grupo",
+                "start" : 40,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "naizie",
+                "start" : 52,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "aquel grupo",
+                "start" : 59,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-zie",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-zie",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ji̵ai̵zie",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ji̵ai̵zie",
+                "start" : 30,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "naizie",
+                "start" : 52,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "naizie",
+                "start" : 52,
+                "end" : 58
+            },
+    ]
+})

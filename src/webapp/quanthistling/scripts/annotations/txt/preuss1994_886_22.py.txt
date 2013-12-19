@@ -1,0 +1,155 @@
+
+manual_entries.append({
+    "fullentry" : "raaza - Mod: ie raaza quizá; / 6, 63 / 7, 153 / 9, 8 / 10, 19 / 14, 8 / 20, 53 / 26, 2 /",
+    "startpage" : 886,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "raaza",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ie raaza",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "quizá",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "raaza",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "raaza",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ie raaza",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ie raaza",
+                "start" : 13,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 32,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 40,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 49,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 56,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "14",
+                "start" : 65,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 73,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "26",
+                "start" : 82,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+    ]
+})

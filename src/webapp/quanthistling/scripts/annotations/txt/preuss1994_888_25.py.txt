@@ -1,0 +1,148 @@
+
+manual_entries.append({
+    "fullentry" : "ravaji / ravajie / rayaji - exclamaciónes que aparecen en los cantos de la fiesta yadiko; / 66 / 69 / 72 / 82 /",
+    "startpage" : 888,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ravaji",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " ravajie",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 8,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " rayaji",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamaciónes que aparecen en los cantos de la fiesta yadiko",
+                "start" : 28,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 34,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 34,
+                "end" : 89
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ravaji / ravajie / rayaji",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ravaji / ravajie / rayaji",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "66",
+                "start" : 93,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "69",
+                "start" : 98,
+                "end" : 100
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "72",
+                "start" : 103,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "82",
+                "start" : 108,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})

@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "yoño - exclamación que aparece en los cantos de yadiko; / 66 / 72 / 79",
+    "startpage" : 906,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yoño",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación que aparece en los cantos de yadiko",
+                "start" : 8,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 14,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yoño",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yoño",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yadiko",
+                "start" : 50,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "66",
+                "start" : 60,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "72",
+                "start" : 65,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "79",
+                "start" : 70,
+                "end" : 72
+            },
+    ]
+})

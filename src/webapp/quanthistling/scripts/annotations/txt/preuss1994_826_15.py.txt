@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "gi̵reva - retorna; / 29, 1 / 41 / 48 /",
+    "startpage" : 826,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "gi̵reva",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "retorna",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 16,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 16,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gi̵reva",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gi̵reva",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "29",
+                "start" : 21,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "41",
+                "start" : 29,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "48",
+                "start" : 34,
+                "end" : 36
+            },
+    ]
+})

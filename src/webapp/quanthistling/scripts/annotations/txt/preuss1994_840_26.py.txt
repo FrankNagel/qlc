@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "jeedate (jeedaja, jeedaga) - Mod: abi̵ jeedate transformarse; / 5, 7 / 20, 53 / 20, 57 / 22, 18 / 26, 25 /",
+    "startpage" : 840,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jeedate",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jeedaja",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " jeedaga",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 29,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "abi̵ jeedate",
+                "start" : 34,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 35,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "transformarse",
+                "start" : 47,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jeedate",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jeedate",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jeedaja, jeedaga",
+                "start" : 9,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "abi̵ jeedate",
+                "start" : 34,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abi̵ jeedate",
+                "start" : 34,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 64,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 71,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 80,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 89,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "26",
+                "start" : 98,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})

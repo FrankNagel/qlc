@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "-kena - Lex lig: Ocasión; daakena al mismo tiempo, ji̵ai̵kena en otra oportunidad",
+    "startpage" : 858,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kena",
+                "start" : 1,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Lex lig",
+                "start" : 8,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 8,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 8,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Ocasión",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "daakena",
+                "start" : 27,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "al mismo tiempo",
+                "start" : 35,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ji̵ai̵kena",
+                "start" : 52,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "en otra oportunidad",
+                "start" : 63,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-kena",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-kena",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "daakena",
+                "start" : 27,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "daakena",
+                "start" : 27,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ji̵ai̵kena",
+                "start" : 52,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ji̵ai̵kena",
+                "start" : 52,
+                "end" : 62
+            },
+    ]
+})

@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "-mo - Sufn/v: Ubicación espacio-temporal; jofomo a/en la casa, iyemo a/en la quebrada, jaaidemo cuando se fue, ati̵demo cuando trajo.",
+    "startpage" : 868,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mo",
+                "start" : 1,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Sufn",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 11,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Ubicación espacio-temporal",
+                "start" : 14,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jofomo",
+                "start" : 43,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "a/en la casa",
+                "start" : 50,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "iyemo",
+                "start" : 64,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "a/en la quebrada",
+                "start" : 70,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jaaidemo",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cuando se fue",
+                "start" : 97,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ati̵demo",
+                "start" : 112,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cuando trajo",
+                "start" : 121,
+                "end" : 133
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-mo",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-mo",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jofomo",
+                "start" : 43,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jofomo",
+                "start" : 43,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iyemo",
+                "start" : 64,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iyemo",
+                "start" : 64,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaaidemo",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaaidemo",
+                "start" : 88,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ati̵demo",
+                "start" : 112,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ati̵demo",
+                "start" : 112,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+    ]
+})

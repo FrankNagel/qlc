@@ -1,0 +1,155 @@
+
+manual_entries.append({
+    "fullentry" : "ijia / ijie - exclamación que aparece en los cantos; / 64 / 65 / 66 / 68 / 70 / 72 / 73 / 74 /",
+    "startpage" : 829,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ijia",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " ijie",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación que aparece en los cantos",
+                "start" : 14,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 20,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ijia / ijie",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ijia / ijie",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "64",
+                "start" : 56,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "65",
+                "start" : 61,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "66",
+                "start" : 66,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "68",
+                "start" : 71,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "70",
+                "start" : 76,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "72",
+                "start" : 81,
+                "end" : 83
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "73",
+                "start" : 86,
+                "end" : 88
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "74",
+                "start" : 91,
+                "end" : 93
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+    ]
+})

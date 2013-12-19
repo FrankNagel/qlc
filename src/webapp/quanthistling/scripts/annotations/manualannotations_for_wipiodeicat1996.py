@@ -4,6 +4,190 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "accrcarse hacia algo o alguien yunúmtut.",
+    "startpage" : 160,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acercarse hacia algo o alguien",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yunúmtut",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "accrcarse hacia algo o alguien",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "agarrar instantánca o violentamente tapít.",
+    "startpage" : 162,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 36,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 36,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "agarrar instantánea o violentamente",
+                "start" : 0,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tapít",
+                "start" : 36,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "agarrar instantánca o violenta",
+                "start" : 0,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mente",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "agujercado, agujereada adj. tsaáp(a).",
     "startpage" : 162,
     "pos_on_page" : 48,
@@ -117,79 +301,241 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "acción de relampaguer péetut.",
-    "startpage" : 268,
-    "pos_on_page" : 9,
+    "fullentry" : "colgar vi. awágket nénat, nénut(a)/(u), tséet.",
+    "startpage" : 187,
+    "pos_on_page" : 15,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 0,
-                "end" : 22
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 0,
-                "end" : 22
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
-                "start" : 22,
-                "end" : 31
+                "start" : 10,
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
-                "start" : 22,
-                "end" : 31
+                "start" : 10,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 28,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 28,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 43,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 43,
+                "end" : 50
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "acción de relampaguear",
+                "string" : "colgar",
                 "start" : 0,
-                "end" : 22
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "vi.",
+                "start" : 7,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "péetut",
-                "start" : 22,
-                "end" : 31
+                "string" : "awágket nénat",
+                "start" : 10,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nénut",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nénuta",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nénutu",
+                "start" : 28,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tséet",
+                "start" : 43,
+                "end" : 50
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "acción de relampaguer",
+                "string" : "colgar",
                 "start" : 0,
-                "end" : 22
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vi.",
+                "start" : 7,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "hacer beder eméjet.",
+    "startpage" : 222,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 0,
-                "end" : 0
+                "end" : 11
             },
             {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
                 "start" : 0,
-                "end" : 0
+                "end" : 11
             },
             {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "relampaguear",
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
                 "start" : 11,
-                "end" : 22
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer heder",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "eméjet",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hacer beder",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
             },
     ]
 })
@@ -275,621 +621,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 32,
                 "end" : 32
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "niño que se convirtió en una especie de rana (mito) wánip(a).",
-    "startpage" : 266,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 54,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 54,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 54,
-                "end" : 62
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 54,
-                "end" : 62
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "niño que se convirtió en una especie de rana",
-                "start" : 0,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "niño que se convirtió en una especie de rana mito",
-                "start" : 0,
-                "end" : 53
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wánip",
-                "start" : 54,
-                "end" : 60
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "wánipa",
-                "start" : 54,
-                "end" : 62
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "niño que se convirtió en una es",
-                "start" : 0,
-                "end" : 33
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "pecie de rana (mito)",
-                "start" : 33,
-                "end" : 53
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 33,
-                "end" : 33
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "hacer tomar en gotas, o en cucharaditas aúwat.",
-    "startpage" : 283,
-    "pos_on_page" : 46,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 40,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 40,
-                "end" : 46
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "hacer tomar en gotas",
-                "start" : 0,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "hacer tomar en cucharaditas",
-                "start" : 0,
-                "end" : 39
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "aúwat",
-                "start" : 40,
-                "end" : 46
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "hacer tomar en gotas, o en cu",
-                "start" : 0,
-                "end" : 29
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "charaditas aúwat.",
-                "start" : 29,
-                "end" : 47
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 29,
-                "end" : 29
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "ruido que produce el agua al precipitarse por un pongo uj.",
-    "startpage" : 271,
-    "pos_on_page" : 45,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 55,
-                "end" : 57
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 55,
-                "end" : 57
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ruido que produce el agua al precipitarse por un pongo",
-                "start" : 0,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "uj",
-                "start" : 55,
-                "end" : 57
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "ruido que produce el agua al pre",
-                "start" : 0,
-                "end" : 32
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "cipitarse por un pongo uj.",
-                "start" : 32,
-                "end" : 58
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 32,
-                "end" : 32
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "agarrar instantánca o violentamente tapít.",
-    "startpage" : 162,
-    "pos_on_page" : 3,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 36,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 36,
-                "end" : 44
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "agarrar instantánea o violentamente",
-                "start" : 0,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tapít",
-                "start" : 36,
-                "end" : 44
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "agarrar instantánca o violenta",
-                "start" : 0,
-                "end" : 31
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "mente",
-                "start" : 31,
-                "end" : 36
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "hacer beder eméjet.",
-    "startpage" : 222,
-    "pos_on_page" : 30,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "hacer heder",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "eméjet",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "hacer beder",
-                "start" : 0,
-                "end" : 11
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "accrcarse hacia algo o alguien yunúmtut.",
-    "startpage" : 160,
-    "pos_on_page" : 21,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 30,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 30,
-                "end" : 41
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "acercarse hacia algo o alguien",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "yunúmtut",
-                "start" : 30,
-                "end" : 41
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "accrcarse hacia algo o alguien",
-                "start" : 0,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
             },
     ]
 })
@@ -1548,170 +1279,439 @@ manual_entries.append({
 })
 
 manual_entries.append({
-    "fullentry" : "colgar vi. awágket nénat, nénut(a)/(u), tséet.",
-    "startpage" : 187,
-    "pos_on_page" : 15,
+    "fullentry" : "niño que se convirtió en una especie de rana (mito) wánip(a).",
+    "startpage" : 266,
+    "pos_on_page" : 1,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 0,
-                "end" : 6
+                "end" : 47
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 0,
-                "end" : 6
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 53
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
-                "start" : 10,
-                "end" : 26
+                "start" : 54,
+                "end" : 60
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
-                "start" : 10,
-                "end" : 26
+                "start" : 54,
+                "end" : 60
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
-                "start" : 28,
-                "end" : 34
+                "start" : 54,
+                "end" : 62
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
-                "start" : 28,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 28,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 28,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 28,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 28,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "agr",
-                "start" : 43,
-                "end" : 50
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Aguaruna",
-                "start" : 43,
-                "end" : 50
+                "start" : 54,
+                "end" : 62
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "colgar",
+                "string" : "niño que se convirtió en una especie de rana",
                 "start" : 0,
-                "end" : 6
+                "end" : 47
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "vi.",
-                "start" : 7,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "awágket nénat",
-                "start" : 10,
-                "end" : 26
+                "value" : "head",
+                "string" : "niño que se convirtió en una especie de rana mito",
+                "start" : 0,
+                "end" : 53
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nénut",
-                "start" : 28,
-                "end" : 34
+                "string" : "wánip",
+                "start" : 54,
+                "end" : 60
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "nénuta",
-                "start" : 28,
-                "end" : 36
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "nénutu",
-                "start" : 28,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tséet",
-                "start" : 43,
-                "end" : 50
+                "string" : "wánipa",
+                "start" : 54,
+                "end" : 62
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "colgar",
+                "string" : "niño que se convirtió en una es",
                 "start" : 0,
-                "end" : 6
+                "end" : 33
             },
             {
                 "type" : "formatting",
-                "value" : "italic",
-                "string" : "vi.",
-                "start" : 7,
-                "end" : 10
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 42,
-                "end" : 42
+                "value" : "bold",
+                "string" : "pecie de rana (mito)",
+                "start" : 33,
+                "end" : 53
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 43,
-                "end" : 43
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "acción de relampaguer péetut.",
+    "startpage" : 268,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 22,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 22,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "acción de relampaguear",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "péetut",
+                "start" : 22,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "acción de relampaguer",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "relampaguear",
+                "start" : 11,
+                "end" : 22
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "ruido que produce el agua al precipitarse por un pongo uj.",
+    "startpage" : 271,
+    "pos_on_page" : 45,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 55,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 55,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ruido que produce el agua al precipitarse por un pongo",
+                "start" : 0,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "uj",
+                "start" : 55,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ruido que produce el agua al pre",
+                "start" : 0,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "cipitarse por un pongo uj.",
+                "start" : 32,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "hacer tomar en gotas, o en cucharaditas aúwat.",
+    "startpage" : 283,
+    "pos_on_page" : 46,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 0,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 0,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer tomar en gotas",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hacer tomar en cucharaditas",
+                "start" : 0,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aúwat",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hacer tomar en gotas, o en cu",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "charaditas aúwat.",
+                "start" : 29,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
             },
     ]
 })

@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "-na - Sufadv: Procedencia; aana desde arriba, anana desde abajo.",
+    "startpage" : 871,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "na",
+                "start" : 1,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Sufadv",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Procedencia",
+                "start" : 14,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "aana",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "desde arriba",
+                "start" : 32,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "anana",
+                "start" : 46,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "desde abajo",
+                "start" : 52,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-na",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-na",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aana",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aana",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "anana",
+                "start" : 46,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "anana",
+                "start" : 46,
+                "end" : 51
+            },
+    ]
+})

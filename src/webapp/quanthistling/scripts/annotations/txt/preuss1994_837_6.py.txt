@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "jadi̵no - ahí; / 106 /",
+    "startpage" : 837,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jadi̵no",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ahí",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jadi̵no",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jadi̵no",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "106",
+                "start" : 18,
+                "end" : 21
+            },
+    ]
+})

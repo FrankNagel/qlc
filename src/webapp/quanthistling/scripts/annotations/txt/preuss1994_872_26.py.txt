@@ -1,0 +1,218 @@
+
+manual_entries.append({
+    "fullentry" : "nai - Adv?, propio, verdadero, en verdad, realmente; cf. ua; / 6, 172 / 7, 70 / 18, 6 / 22, 33 / 23, 29 / 24, 31 / 25, 6 /",
+    "startpage" : 872,
+    "pos_on_page" : 26,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Adv",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "propio",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "verdadero",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en verdad",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "realmente",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 42,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "cf",
+                "start" : 53,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ua",
+                "start" : 57,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ua",
+                "start" : 57,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 63,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 72,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "18",
+                "start" : 80,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 88,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "23",
+                "start" : 97,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "24",
+                "start" : 106,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 115,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+    ]
+})

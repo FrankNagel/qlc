@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "Origi̵ Buineima - personaje mítico masculino, el ‘Mojarra-Buineima’; / 85, 7 /",
+    "startpage" : 885,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "origi̵ buineima",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "personaje mítico masculino",
+                "start" : 18,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 24,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el mojarra-buineima",
+                "start" : 47,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 47,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 47,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Origi̵ Buineima",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Origi̵ Buineima",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Buineima",
+                "start" : 59,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "85",
+                "start" : 72,
+                "end" : 74
+            },
+    ]
+})

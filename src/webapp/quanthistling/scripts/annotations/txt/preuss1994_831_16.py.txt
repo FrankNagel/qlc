@@ -1,0 +1,50 @@
+
+manual_entries.append({
+    "fullentry" : "iyai̵ - fuerza; / 33 /",
+    "startpage" : 831,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "iyai̵",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fuerza",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iyai̵",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "33",
+                "start" : 18,
+                "end" : 20
+            },
+    ]
+})

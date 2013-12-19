@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "meiyue - en medio; / 37 / 38 / 40 / 41 / 42 / 43 / 63 / 82 /",
+    "startpage" : 866,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "meiyue",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "en medio",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "meiyue",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "meiyue",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "37",
+                "start" : 21,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "38",
+                "start" : 26,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "40",
+                "start" : 31,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "41",
+                "start" : 36,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "42",
+                "start" : 41,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "43",
+                "start" : 46,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "63",
+                "start" : 51,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "82",
+                "start" : 56,
+                "end" : 58
+            },
+    ]
+})

@@ -1,0 +1,232 @@
+
+manual_entries.append({
+    "fullentry" : "joó - exclamación que aparece en los cantos; / 35 / 36 / 37 / 38 / 39 / 40 / 41 / 42 / 43 / 44 / 45 / 46 / 47 / 48 / 49 / 50 / 63 / 67 / 77 / 79 / 81 / 84 /",
+    "startpage" : 851,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "joó",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación que aparece en los cantos",
+                "start" : 7,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "joó",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "joó",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "35",
+                "start" : 49,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "36",
+                "start" : 54,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "37",
+                "start" : 59,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "38",
+                "start" : 64,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "39",
+                "start" : 69,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "40",
+                "start" : 74,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "41",
+                "start" : 79,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "42",
+                "start" : 84,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "43",
+                "start" : 89,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "44",
+                "start" : 94,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "45",
+                "start" : 99,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "46",
+                "start" : 104,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "47",
+                "start" : 109,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "48",
+                "start" : 114,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "49",
+                "start" : 119,
+                "end" : 121
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "50",
+                "start" : 124,
+                "end" : 126
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "63",
+                "start" : 129,
+                "end" : 131
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "67",
+                "start" : 134,
+                "end" : 136
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "77",
+                "start" : 139,
+                "end" : 141
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "79",
+                "start" : 144,
+                "end" : 146
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "81",
+                "start" : 149,
+                "end" : 151
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "84",
+                "start" : 154,
+                "end" : 156
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+    ]
+})

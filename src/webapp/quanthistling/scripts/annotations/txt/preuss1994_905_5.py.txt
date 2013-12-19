@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "yi̵jiai / yi̵i̵ji - exclamaciónes que aparecen en los cantos; / 30 / 45 / 99 /",
+    "startpage" : 905,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yi̵jiai",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " yi̵i̵ji",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamaciónes que aparecen en los cantos",
+                "start" : 20,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 26,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yi̵jiai / yi̵i̵ji",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵jiai / yi̵i̵ji",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "30",
+                "start" : 65,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "45",
+                "start" : 70,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "99",
+                "start" : 75,
+                "end" : 77
+            },
+    ]
+})

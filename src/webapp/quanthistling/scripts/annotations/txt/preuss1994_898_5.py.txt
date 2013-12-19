@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "uii̵yi̵iko - casa del Aguila-Buineima; / 63 /",
+    "startpage" : 898,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uii̵yi̵iko",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "casa del Aguila-Buineima",
+                "start" : 13,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 19,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uii̵yi̵iko",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "uii̵yi̵iko",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Buineima",
+                "start" : 29,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "63",
+                "start" : 41,
+                "end" : 43
+            },
+    ]
+})

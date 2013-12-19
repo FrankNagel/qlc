@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "ji̵ai̵mi̵e - Pp (3s masc), otro (referente animado); / 2, 56 / 7, 166 / 9, 64 / 10, 30 / 11, 6 / 13, 119 / 16, 5 / 17, 2 / 19, 5 / 23, 29 / 25, 3 / 26, 4 /",
+    "startpage" : 846,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ji̵ai̵mi̵e",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Pp",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "3s masc",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "otro",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 27,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 27,
+                "end" : 51
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ji̵ai̵mi̵e",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ji̵ai̵mi̵e",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 55,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 63,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 72,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 80,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "11",
+                "start" : 89,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 97,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 107,
+                "end" : 109
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "17",
+                "start" : 115,
+                "end" : 117
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "19",
+                "start" : 123,
+                "end" : 125
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "23",
+                "start" : 131,
+                "end" : 133
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 140,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "26",
+                "start" : 148,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})

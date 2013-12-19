@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "ni̵bai̵yi̵ / ni̵bai - (var. mi̵ni̵ka) - Interr, ¿por qué?; / 8, 33 / 8, 48 /",
+    "startpage" : 877,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵bai̵yi̵",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " ni̵bai",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 12,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "var",
+                "start" : 23,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 28,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 28,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Interr",
+                "start" : 40,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por qué",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 48,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ni̵bai̵yi̵ / ni̵bai",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ni̵bai̵yi̵ / ni̵bai",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mi̵ni̵ka",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "8",
+                "start" : 62,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "8",
+                "start" : 70,
+                "end" : 71
+            },
+    ]
+})

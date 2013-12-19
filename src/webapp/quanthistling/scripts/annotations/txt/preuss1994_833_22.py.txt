@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "i̵duiga - nombre de un canto del clan I̵duizai̵; / 99 / 100 /",
+    "startpage" : 833,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "i̵duiga",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de un canto del clan",
+                "start" : 10,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 17,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "i̵duiga",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "i̵duiga",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "I̵duizai̵",
+                "start" : 38,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "99",
+                "start" : 51,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "100",
+                "start" : 56,
+                "end" : 59
+            },
+    ]
+})

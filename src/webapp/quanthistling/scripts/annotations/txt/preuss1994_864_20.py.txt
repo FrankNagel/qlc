@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "makakayi̵ji - ambil (palabra usada en los cantos); cf. yera; / 102 /",
+    "startpage" : 864,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "makakayi̵ji",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ambil",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 20,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palabra usada en los cantos",
+                "start" : 21,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "cf",
+                "start" : 51,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "makakayi̵ji",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "makakayi̵ji",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yera",
+                "start" : 55,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yera",
+                "start" : 55,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "102",
+                "start" : 63,
+                "end" : 66
+            },
+    ]
+})

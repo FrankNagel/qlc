@@ -1,0 +1,288 @@
+
+manual_entries.append({
+    "fullentry" : "kai̵ - Pp (1pl), nosotros (tres o más); seguido de un nominal adquiere significado de posesivo: nuestro, nuestra, etc.; / 2, 21 / 3, 16 / 4, 8 / 5, 2 / 6, 17 / 9, 22 / 10, 10 / 11, 5 / 13, 24 / 14, 34 / 15, 3 / 16, 2 / 17, 3 / 18, 1 / 20, 3 / 21, 1 / 22, 1 / 26, 16 / 27, 1 / 31, 1 /",
+    "startpage" : 856,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kai̵",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Pp",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "1pl",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nosotros",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 17,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nuestro",
+                "start" : 97,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nuestra",
+                "start" : 106,
+                "end" : 113
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kai̵",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kai̵",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 123,
+                "end" : 124
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3",
+                "start" : 131,
+                "end" : 132
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "4",
+                "start" : 139,
+                "end" : 140
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 146,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 153,
+                "end" : 154
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 161,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 169,
+                "end" : 171
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "11",
+                "start" : 178,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 186,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "14",
+                "start" : 195,
+                "end" : 197
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "15",
+                "start" : 204,
+                "end" : 206
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 212,
+                "end" : 214
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "17",
+                "start" : 220,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "18",
+                "start" : 228,
+                "end" : 230
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 236,
+                "end" : 238
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "21",
+                "start" : 244,
+                "end" : 246
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 252,
+                "end" : 254
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "26",
+                "start" : 260,
+                "end" : 262
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "27",
+                "start" : 269,
+                "end" : 271
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "31",
+                "start" : 277,
+                "end" : 279
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 241,
+                "end" : 241
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 242,
+                "end" : 242
+            },
+    ]
+})

@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "omi - lanzar; / 34 / 64 /",
+    "startpage" : 884,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "omi",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lanzar",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "omi",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "omi",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "34",
+                "start" : 16,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "64",
+                "start" : 21,
+                "end" : 23
+            },
+    ]
+})

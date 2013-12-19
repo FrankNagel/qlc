@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "nai- - Prefn: Anafórico, naie aquello, naiki̵no aquella historia, naimi̵e él",
+    "startpage" : 872,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nai",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Prefn",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Anafórico",
+                "start" : 14,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "naie",
+                "start" : 26,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 26,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "aquello",
+                "start" : 31,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "naiki̵no",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 40,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 40,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "aquella historia",
+                "start" : 49,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 67,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "él",
+                "start" : 75,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nai-",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nai-",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "naie",
+                "start" : 26,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "naie",
+                "start" : 26,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "naiki̵no",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "naiki̵no",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "naimi̵e",
+                "start" : 67,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "naimi̵e",
+                "start" : 67,
+                "end" : 74
+            },
+    ]
+})

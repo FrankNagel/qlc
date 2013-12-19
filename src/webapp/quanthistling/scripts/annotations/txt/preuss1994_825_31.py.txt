@@ -1,0 +1,169 @@
+
+manual_entries.append({
+    "fullentry" : "-gayi - ClN: Cantidad de hormigas, cucarrones, etc.; jugayitaide haber gran cantidad de hormigas, cucarrones, etc., zogayitaide caer gran cantidad de hormigas, cucarrones, etc.",
+    "startpage" : 825,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "gayi",
+                "start" : 1,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 8,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 8,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ClN",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Cantidad de cucarrones",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Cantidad de hormigas",
+                "start" : 13,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 35,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cucarrones",
+                "start" : 35,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jugayitaide",
+                "start" : 53,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "haber gran cantidad de hormigas",
+                "start" : 65,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "cucarrones",
+                "start" : 98,
+                "end" : 108
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "zogayitaide",
+                "start" : 116,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "caer gran cantidad de hormigas",
+                "start" : 128,
+                "end" : 158
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-gayi",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-gayi",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jugayitaide",
+                "start" : 53,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jugayitaide",
+                "start" : 53,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "zogayitaide",
+                "start" : 116,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+    ]
+})

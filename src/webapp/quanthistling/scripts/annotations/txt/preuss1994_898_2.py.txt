@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "uii̵ / uii̵ji / uii̵yi̵ma - águila (Leucopternis spp.); / 63 /",
+    "startpage" : 898,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uii̵",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " uii̵ji",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " uii̵yi̵ma",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "águila",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 34,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 34,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uii̵ / uii̵ji / uii̵yi̵ma",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Leucopternis spp",
+                "start" : 37,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "63",
+                "start" : 59,
+                "end" : 61
+            },
+    ]
+})

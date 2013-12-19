@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "-ki̵no - Lex lig: Noticia; mi̵kaki̵no ¡qué noticia!, ati̵yi̵ki̵no mensaje que será traído.",
+    "startpage" : 859,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ki̵no",
+                "start" : 1,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Lex lig",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Noticia",
+                "start" : 18,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "mi̵kaki̵no",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "qué noticia",
+                "start" : 39,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ati̵yi̵ki̵no",
+                "start" : 54,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "mensaje que será traído",
+                "start" : 67,
+                "end" : 92
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-ki̵no",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-ki̵no",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mi̵kaki̵no",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mi̵kaki̵no",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ati̵yi̵ki̵no",
+                "start" : 54,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ati̵yi̵ki̵no",
+                "start" : 54,
+                "end" : 66
+            },
+    ]
+})

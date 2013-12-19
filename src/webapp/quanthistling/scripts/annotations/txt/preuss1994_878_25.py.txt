@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "-no - Lex lig: lugar; ino allí (ese lugar), jaaiyino lugar a donde se puede ir, daano el mismo lugar",
+    "startpage" : 878,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "no",
+                "start" : 1,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Lex lig",
+                "start" : 6,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ino",
+                "start" : 22,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "allí",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "ese lugar",
+                "start" : 33,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jaaiyino",
+                "start" : 45,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "lugar a donde se puede ir",
+                "start" : 54,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "daano",
+                "start" : 81,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "el mismo lugar",
+                "start" : 87,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-no",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-no",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ino",
+                "start" : 22,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ino",
+                "start" : 22,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaaiyino",
+                "start" : 45,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaaiyino",
+                "start" : 45,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "daano",
+                "start" : 81,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "daano",
+                "start" : 81,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})

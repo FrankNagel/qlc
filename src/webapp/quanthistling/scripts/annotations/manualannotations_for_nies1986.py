@@ -4,534 +4,6 @@ manual_entries = []
 
 
 manual_entries.append({
-    "fullentry" : "gimtaga (s. 3) 1) (gonu mtaga) extensión de agua de poca profundidad. 2) (gagmuna mtaga) líguido medicinal preparado del líber de un árbol.",
-    "startpage" : 52,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "pib",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Piro",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "gimtaga",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s. 3",
-                "start" : 9,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 18,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 18,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "extensión de agua de poca profundidad",
-                "start" : 31,
-                "end" : 69
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 74,
-                "end" : 142
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 74,
-                "end" : 142
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "líguido medicinal preparado del líber de un árbol",
-                "start" : 90,
-                "end" : 142
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "gimtaga",
-                "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "gonu mtaga",
-                "start" : 19,
-                "end" : 29
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "gagmuna mtaga",
-                "start" : 75,
-                "end" : 88
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 61,
-                "end" : 61
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 61,
-                "end" : 61
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 61,
-                "end" : 61
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 89,
-                "end" : 89
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 90,
-                "end" : 90
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 118,
-                "end" : 118
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 119,
-                "end" : 119
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "rakatsreka 1) (tr.1) lo patea. Wakatsrekanro pelota. Vamos a patear la pelota. 2) (intr.1) juega fútbol. Wakatsrekanu. Vamos a jugar fútbol.",
-    "startpage" : 193,
-    "pos_on_page" : 17,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "pib",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Piro",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "rakatsreka",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "tr.1",
-                "start" : 15,
-                "end" : 19
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "lo patea",
-                "start" : 21,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "intr.1",
-                "start" : 82,
-                "end" : 90
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "juega fútbol",
-                "start" : 91,
-                "end" : 104
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "rakatsreka",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Wakatsrekanro pelota.",
-                "start" : 31,
-                "end" : 52
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Wa",
-                "start" : 106,
-                "end" : 108
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "katsrekanu.",
-                "start" : 108,
-                "end" : 119
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 60,
-                "end" : 60
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 61,
-                "end" : 61
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 78,
-                "end" : 78
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 79,
-                "end" : 79
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 108,
-                "end" : 108
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 108,
-                "end" : 108
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 108,
-                "end" : 108
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 138,
-                "end" : 138
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 138,
-                "end" : 138
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 138,
-                "end" : 138
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "motoro (f.,nmotorote) 1) motor 2) bote motor (canoa o bote de motor). motoro kapjiro bote de motor. motoro tji-mta toldilla (techo de madera de las lanchas).",
-    "startpage" : 151,
-    "pos_on_page" : 14,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "pib",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Piro",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "motoro",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "f",
-                "start" : 8,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "motor",
-                "start" : 25,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "bote de motor",
-                "start" : 34,
-                "end" : 68
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "canoa de motor",
-                "start" : 34,
-                "end" : 68
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "motoro",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "nmotorote",
-                "start" : 11,
-                "end" : 20
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "motoro kapjiro",
-                "start" : 70,
-                "end" : 84
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "motoro tji-mta",
-                "start" : 100,
-                "end" : 114
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 30,
-                "end" : 30
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 31,
-                "end" : 31
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 61,
-                "end" : 61
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 62,
-                "end" : 62
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 69,
-                "end" : 69
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 70,
-                "end" : 70
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 95,
-                "end" : 95
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 95,
-                "end" : 95
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 95,
-                "end" : 95
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 99,
-                "end" : 99
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 100,
-                "end" : 100
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 100,
-                "end" : 100
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 127,
-                "end" : 127
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 127,
-                "end" : 127
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 127,
-                "end" : 127
-            },
-    ]
-})
-
-manual_entries.append({
     "fullentry" : "koseka 1) (intr.) se adelanta, avanza. Tganuru koseka chichiksu ganikachri. Su esposo se adelantó con la escopeta. 2) (tr.2) lo guía. Gatnu gapo gimatachri kosekna pimrine. El que conocía el camino guió a los demás.",
     "startpage" : 127,
     "pos_on_page" : 4,
@@ -736,6 +208,372 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "motoro (f.,nmotorote) 1) motor 2) bote motor (canoa o bote de motor). motoro kapjiro bote de motor. motoro tji-mta toldilla (techo de madera de las lanchas).",
+    "startpage" : 151,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pib",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Piro",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "motoro",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f",
+                "start" : 8,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "motor",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bote de motor",
+                "start" : 34,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "canoa de motor",
+                "start" : 34,
+                "end" : 68
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "motoro",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nmotorote",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "motoro kapjiro",
+                "start" : 70,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "motoro tji-mta",
+                "start" : 100,
+                "end" : 114
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 70,
+                "end" : 70
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 99,
+                "end" : 99
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 100,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 100,
+                "end" : 100
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "rakatsreka 1) (tr.1) lo patea. Wakatsrekanro pelota. Vamos a patear la pelota. 2) (intr.1) juega fútbol. Wakatsrekanu. Vamos a jugar fútbol.",
+    "startpage" : 193,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pib",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Piro",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rakatsreka",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "tr.1",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lo patea",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "intr.1",
+                "start" : 82,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "juega fútbol",
+                "start" : 91,
+                "end" : 104
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rakatsreka",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Wakatsrekanro pelota.",
+                "start" : 31,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Wa",
+                "start" : 106,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "katsrekanu.",
+                "start" : 108,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 138,
+                "end" : 138
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "chijro 1) (f.,voc.) prima (mujer de parentesco desconocido). 2) (fam.,obs.) cuñada de hombre.",
     "startpage" : 26,
     "pos_on_page" : 16,
@@ -837,6 +675,168 @@ manual_entries.append({
                 "string" : "",
                 "start" : 64,
                 "end" : 64
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "gimtaga (s. 3) 1) (gonu mtaga) extensión de agua de poca profundidad. 2) (gagmuna mtaga) líguido medicinal preparado del líber de un árbol.",
+    "startpage" : 52,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pib",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Piro",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "gimtaga",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s. 3",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 18,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "extensión de agua de poca profundidad",
+                "start" : 31,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 74,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 74,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "líguido medicinal preparado del líber de un árbol",
+                "start" : 90,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gimtaga",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gonu mtaga",
+                "start" : 19,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "gagmuna mtaga",
+                "start" : 75,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 90,
+                "end" : 90
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
             },
     ]
 })

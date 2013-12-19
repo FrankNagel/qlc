@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "-mona - Sufn/v: Procedencia espacio-temporal; jofomona de la casa, iyemona de la quebrada, jaaiyamona desde que se fue, ati̵amona desde que trajo.",
+    "startpage" : 868,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mona",
+                "start" : 1,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Sufn",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 13,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Procedencia espacio-temporal",
+                "start" : 16,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jofomona",
+                "start" : 46,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "de la casa",
+                "start" : 55,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "de la casa",
+                "start" : 55,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "de la quebrada",
+                "start" : 75,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jaaiyamona",
+                "start" : 91,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "desde que se fue",
+                "start" : 102,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "ati̵amona",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "desde que trajo",
+                "start" : 130,
+                "end" : 145
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-mona",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-mona",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jofomona",
+                "start" : 46,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jofomona",
+                "start" : 46,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "iyemona",
+                "start" : 67,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "iyemona",
+                "start" : 67,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jaaiyamona",
+                "start" : 91,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jaaiyamona",
+                "start" : 91,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ati̵amona",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ati̵amona",
+                "start" : 120,
+                "end" : 129
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+    ]
+})

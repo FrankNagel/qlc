@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "kodade (kodaja, kodaka) - Vtr 1) entonar y danzar el canto kodabi̵; / 22, 6 /; 2) ahumar; sinón. yi̵ki̵de; / 6, 143 / 7, 23 / 13, 138 / 16, 57 / 21, 16 /",
+    "startpage" : 860,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kodade",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kodaja",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " kodaka",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vtr 1",
+                "start" : 26,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entonar y danzar el canto kodabi̵",
+                "start" : 33,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 33,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 33,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ahumar",
+                "start" : 82,
+                "end" : 88
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "sinón",
+                "start" : 90,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kodade",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kodade",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kodaja, kodaka",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kodabi̵",
+                "start" : 59,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kodabi̵",
+                "start" : 59,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 70,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yi̵ki̵de",
+                "start" : 98,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 110,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 119,
+                "end" : 120
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 127,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 137,
+                "end" : 139
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "21",
+                "start" : 146,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+    ]
+})

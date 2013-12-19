@@ -1,0 +1,176 @@
+
+manual_entries.append({
+    "fullentry" : "jai̵enote (jai̵enua, jai̵enoga) - Mod: abi̵ jai̵enote hacer fuerza, tensionar el cuerpo; / 8, 47 / 9, 48 / 25, 31 /",
+    "startpage" : 838,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jai̵enote",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jai̵enua",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " jai̵enoga",
+                "start" : 20,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 20,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 20,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 34,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "hacer fuerza",
+                "start" : 54,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 68,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 68,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "tensionar el cuerpo",
+                "start" : 68,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jai̵enote",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jai̵enote",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jai̵enua, jai̵enoga",
+                "start" : 11,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "abi̵ jai̵enote",
+                "start" : 39,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abi̵ jai̵enote",
+                "start" : 39,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "8",
+                "start" : 91,
+                "end" : 92
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 99,
+                "end" : 100
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 107,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+    ]
+})

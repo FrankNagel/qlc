@@ -4,6 +4,252 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "mucubiriri 1. v.i. [estar] contento/ta, tener alegría. ej. Bosenʉ árĩcʉ̃ masã árĩpehrerã mucubirima. En las fiestas, toda la gente está contenta. 2. s.v.inan. alegría.",
+    "startpage" : 36,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "des",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Desano",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mucubiriri",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.i.",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar contento",
+                "start" : 19,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar contenta",
+                "start" : 19,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener alegría",
+                "start" : 40,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 157,
+                "end" : 158
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 157,
+                "end" : 158
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.v.inan.",
+                "start" : 157,
+                "end" : 166
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "alegría",
+                "start" : 167,
+                "end" : 175
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mucubiriri 1.",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.i.",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 56,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "En las fiestas, toda la gente está",
+                "start" : 108,
+                "end" : 143
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "contenta.",
+                "start" : 144,
+                "end" : 153
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2.",
+                "start" : 154,
+                "end" : 156
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v.inan.",
+                "start" : 157,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 55,
+                "end" : 55
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 96,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 96,
+                "end" : 96
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 154,
+                "end" : 154
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "pepiri 1. v.i. considerar, pensar. ej. Mari árĩpehrerã masa pepi masia. Todas las personas podemos pensar. 2. v.t. sentir. ej. Mari dorecʉrã pepia pũririñere. Cuando nosotros estamos enfermos sentimos dolor.",
     "startpage" : 46,
     "pos_on_page" : 12,
@@ -259,252 +505,6 @@ manual_entries.append({
                 "string" : "",
                 "start" : 198,
                 "end" : 198
-            },
-    ]
-})
-
-manual_entries.append({
-    "fullentry" : "mucubiriri 1. v.i. [estar] contento/ta, tener alegría. ej. Bosenʉ árĩcʉ̃ masã árĩpehrerã mucubirima. En las fiestas, toda la gente está contenta. 2. s.v.inan. alegría.",
-    "startpage" : 36,
-    "pos_on_page" : 1,
-    "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "des",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Desano",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "mucubiriri",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "v.i.",
-                "start" : 14,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "estar contento",
-                "start" : 19,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "estar contenta",
-                "start" : 19,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "tener alegría",
-                "start" : 40,
-                "end" : 54
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 157,
-                "end" : 158
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 157,
-                "end" : 158
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "s.v.inan.",
-                "start" : 157,
-                "end" : 166
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "alegría",
-                "start" : 167,
-                "end" : 175
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "mucubiriri 1.",
-                "start" : 0,
-                "end" : 13
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "v.i.",
-                "start" : 14,
-                "end" : 18
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "ej.",
-                "start" : 56,
-                "end" : 59
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "En las fiestas, toda la gente está",
-                "start" : 108,
-                "end" : 143
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "contenta.",
-                "start" : 144,
-                "end" : 153
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "2.",
-                "start" : 154,
-                "end" : 156
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "s.v.inan.",
-                "start" : 157,
-                "end" : 166
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 39,
-                "end" : 39
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 40,
-                "end" : 40
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 55,
-                "end" : 55
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 56,
-                "end" : 56
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 59,
-                "end" : 59
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 95,
-                "end" : 95
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 96,
-                "end" : 96
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 96,
-                "end" : 96
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 107,
-                "end" : 107
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 108,
-                "end" : 108
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 108,
-                "end" : 108
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 143,
-                "end" : 143
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 144,
-                "end" : 144
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 144,
-                "end" : 144
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 153,
-                "end" : 153
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 154,
-                "end" : 154
             },
     ]
 })

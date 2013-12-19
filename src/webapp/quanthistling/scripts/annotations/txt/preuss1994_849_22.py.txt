@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "ji̵ruiyiiki̵ - hierba queréme; cf. yiiki̵; / 84 /",
+    "startpage" : 849,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ji̵ruiyiiki̵",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hierba queréme",
+                "start" : 15,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 22,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 22,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "cf",
+                "start" : 32,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "yiiki̵",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ji̵ruiyiiki̵",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ji̵ruiyiiki̵",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yiiki̵",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yiiki̵",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "84",
+                "start" : 46,
+                "end" : 48
+            },
+    ]
+})

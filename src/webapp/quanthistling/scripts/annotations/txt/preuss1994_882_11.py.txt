@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "ñi̵ri̵ko Boyaima - personaje mítico masculino, dueño del caimarón; / 82 /",
+    "startpage" : 882,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ñi̵ri̵ko boyaima",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "personaje mítico masculino",
+                "start" : 20,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 26,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dueño del caimarón",
+                "start" : 49,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 49,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 49,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ñi̵ri̵ko Boyaima",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ñi̵ri̵ko Boyaima",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "82",
+                "start" : 73,
+                "end" : 75
+            },
+    ]
+})

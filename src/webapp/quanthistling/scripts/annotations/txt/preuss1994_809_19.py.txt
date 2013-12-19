@@ -6,8 +6,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "dai̵de",
+                "value" : "iso-639-3",
+                "string" : "huu",
                 "start" : 0,
                 "end" : 6
             },
@@ -20,10 +20,24 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "huu",
+                "value" : "head",
+                "string" : "dai̵de",
                 "start" : 0,
                 "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 8,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 8,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
@@ -34,50 +48,15 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Uitoto",
-                "start" : 8,
-                "end" : 14
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "huu",
-                "start" : 8,
-                "end" : 14
+                "value" : "head",
+                "string" : "mi̵ni̵ka",
+                "start" : 18,
+                "end" : 33
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "var. mi̵ni̵ka",
-                "start" : 19,
-                "end" : 32
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 24,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 24,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "vintr",
-                "start" : 35,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
+                "string" : "Vintr",
                 "start" : 35,
                 "end" : 40
             },
@@ -85,6 +64,13 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
+                "start" : 35,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
                 "start" : 35,
                 "end" : 40
             },
@@ -92,20 +78,6 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "decir",
-                "start" : 42,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 42,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
                 "start" : 42,
                 "end" : 47
             },

@@ -1,0 +1,267 @@
+
+manual_entries.append({
+    "fullentry" : "kue - Pp (1s), yo; seguido de un nominal adquiere significado de posesivo: mi, mis; / 2, 2 / 3, 2 / 4, 2 / 5, 4 / 6, 4 / 7, 4 / 8, 5 / 9, 7 / 10, 1 / 12, 1 / 13, 4 / 14, 22 / 15, 1 / 16, 2 / 17, 3 / 18, 7 / 19, 7 / 22, 2 / 24, 2 /",
+    "startpage" : 863,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kue",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Pp",
+                "start" : 6,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "1s",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 12,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 12,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "yo",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mi",
+                "start" : 75,
+                "end" : 77
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mis",
+                "start" : 79,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kue",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kue",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 86,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3",
+                "start" : 93,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "4",
+                "start" : 100,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 107,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 114,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 121,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "8",
+                "start" : 128,
+                "end" : 129
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 135,
+                "end" : 136
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 142,
+                "end" : 144
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "12",
+                "start" : 150,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 158,
+                "end" : 160
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "14",
+                "start" : 166,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "15",
+                "start" : 175,
+                "end" : 177
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 183,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "17",
+                "start" : 191,
+                "end" : 193
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "18",
+                "start" : 199,
+                "end" : 201
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "19",
+                "start" : 207,
+                "end" : 209
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 215,
+                "end" : 217
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "24",
+                "start" : 223,
+                "end" : 225
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 164,
+                "end" : 164
+            },
+    ]
+})

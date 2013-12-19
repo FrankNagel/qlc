@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "riyi̵ji rayaji - exclamación que aparece en los cantos; / 82 /",
+    "startpage" : 890,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "riyi̵ji rayaji",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamación que aparece en los cantos",
+                "start" : 17,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 23,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "riyi̵ji rayaji",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "riyi̵ji rayaji",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "82",
+                "start" : 59,
+                "end" : 61
+            },
+    ]
+})

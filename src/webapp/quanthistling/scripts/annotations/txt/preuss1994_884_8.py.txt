@@ -1,0 +1,456 @@
+
+manual_entries.append({
+    "fullentry" : "oki̵de (oki̵a, oki̵ka) - Vtr 1) comparar, creer, pensar, tener por; / 2, 25 / 5, 29 / 6, 3 / 7, 31 / 8, 2 / 11, 49 / 12, 16 / 13, 66 / 16, 84 / 19, 12 / 20, 66 / 22, 9 / 24, 5 / 25, 9 / 26, 1 / ; 2) dar nombre, llamar; / 2, 81 / @ 155 / 9, 39 / 10, 27 / 16, 94 / 17, 99 / 18, 3 / 21, 7 /; abi̵ oki̵de autonombrarse; / 20, 54 / 22, 22 /",
+    "startpage" : 884,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "oki̵de",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "oki̵a",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " oki̵ka",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Vtr 1",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "comparar",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 32,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "creer",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pensar",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tener por",
+                "start" : 57,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 57,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 57,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dar nombre",
+                "start" : 199,
+                "end" : 209
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "llamar",
+                "start" : 211,
+                "end" : 217
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "abi̵ oki̵de",
+                "start" : 289,
+                "end" : 300
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "autonombrarse",
+                "start" : 301,
+                "end" : 314
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "oki̵de",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "oki̵de",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "oki̵a, oki̵ka",
+                "start" : 8,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 70,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "5",
+                "start" : 78,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "6",
+                "start" : 86,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "7",
+                "start" : 93,
+                "end" : 94
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "8",
+                "start" : 101,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "11",
+                "start" : 108,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "12",
+                "start" : 117,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "13",
+                "start" : 126,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 135,
+                "end" : 137
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "19",
+                "start" : 144,
+                "end" : 146
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 153,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 162,
+                "end" : 164
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "24",
+                "start" : 170,
+                "end" : 172
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "25",
+                "start" : 178,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "26",
+                "start" : 186,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 221,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "@",
+                "start" : 229,
+                "end" : 230
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "9",
+                "start" : 237,
+                "end" : 238
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "10",
+                "start" : 245,
+                "end" : 247
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "16",
+                "start" : 254,
+                "end" : 256
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "17",
+                "start" : 263,
+                "end" : 265
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "18",
+                "start" : 272,
+                "end" : 274
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "21",
+                "start" : 280,
+                "end" : 282
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "abi̵ oki̵de",
+                "start" : 289,
+                "end" : 300
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "abi̵ oki̵de",
+                "start" : 289,
+                "end" : 300
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "20",
+                "start" : 318,
+                "end" : 320
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "22",
+                "start" : 327,
+                "end" : 329
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 170,
+                "end" : 170
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 248,
+                "end" : 248
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 249,
+                "end" : 249
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 326,
+                "end" : 326
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 327,
+                "end" : 327
+            },
+    ]
+})

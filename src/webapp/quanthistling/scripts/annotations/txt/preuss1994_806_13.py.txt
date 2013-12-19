@@ -6,8 +6,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "bogeiko",
+                "value" : "iso-639-3",
+                "string" : "huu",
                 "start" : 0,
                 "end" : 7
             },
@@ -20,8 +20,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "huu",
+                "value" : "head",
+                "string" : "bogeiko",
                 "start" : 0,
                 "end" : 7
             },
@@ -34,13 +34,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 16,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 16,
@@ -48,14 +41,14 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "cf",
-                "start" : 47,
-                "end" : 49
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 16,
+                "end" : 45
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
+                "value" : "crossreference",
                 "string" : "uieko",
                 "start" : 51,
                 "end" : 56

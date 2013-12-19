@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "reiñokama - (padre) invocado; / 30 / 35 / 36 / 37 / 38 / 39 / 40 / 41 / 42 / 43 / 44 / 45 / 47 / 48 / 49 / 50 / 63 / 77, 2 /",
+    "startpage" : 889,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "reiñokama",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "padre",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 19,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "invocado",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "reiñokama",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "reiñokama",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "30",
+                "start" : 33,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "35",
+                "start" : 38,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "36",
+                "start" : 43,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "37",
+                "start" : 48,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "38",
+                "start" : 53,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "39",
+                "start" : 58,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "40",
+                "start" : 63,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "41",
+                "start" : 68,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "42",
+                "start" : 73,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "43",
+                "start" : 78,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "44",
+                "start" : 83,
+                "end" : 85
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "45",
+                "start" : 88,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "47",
+                "start" : 93,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "48",
+                "start" : 98,
+                "end" : 100
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "49",
+                "start" : 103,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "50",
+                "start" : 108,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "63",
+                "start" : 113,
+                "end" : 115
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "77",
+                "start" : 118,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})

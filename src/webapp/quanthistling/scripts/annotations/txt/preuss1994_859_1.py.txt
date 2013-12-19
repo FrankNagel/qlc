@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "ki̵dairikueni̵ - cahuana; / 110, 2 /",
+    "startpage" : 859,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ki̵dairikueni̵",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cahuana",
+                "start" : 17,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 23,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ki̵dairikueni̵",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ki̵dairikueni̵",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "110",
+                "start" : 28,
+                "end" : 31
+            },
+    ]
+})

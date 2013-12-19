@@ -1,0 +1,148 @@
+
+manual_entries.append({
+    "fullentry" : "-goi̵ - ClN: Objeto tubular, envoltura; fiyigoi̵ vejiga natatoria, jiibigoi̵ pilón para machacar hojas de coca.",
+    "startpage" : 826,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "goi̵",
+                "start" : 1,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ClN",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 8,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 8,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Objeto tubular",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "envoltura",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "fiyigoi̵",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "vejiga natatoria",
+                "start" : 49,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "jiibigoi̵",
+                "start" : 67,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "pilón para machacar hojas de coca",
+                "start" : 77,
+                "end" : 111
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-goi̵",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-goi̵",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "fiyigoi̵",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "fiyigoi̵",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jiibigoi̵",
+                "start" : 67,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "jiibigoi̵",
+                "start" : 67,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+    ]
+})

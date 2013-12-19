@@ -6,8 +6,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "huu",
+                "value" : "head",
+                "string" : "ami̵ko",
                 "start" : 0,
                 "end" : 6
             },
@@ -20,8 +20,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ami̵ko",
+                "value" : "iso-639-3",
+                "string" : "huu",
                 "start" : 0,
                 "end" : 6
             },
@@ -41,13 +41,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 15,
-                "end" : 16
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Español",
                 "start" : 15,
@@ -57,15 +50,8 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 18,
-                "end" : 29
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 18,
-                "end" : 29
+                "start" : 15,
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
@@ -73,6 +59,34 @@ manual_entries.append({
                 "string" : "ustedes dos",
                 "start" : 18,
                 "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "su",
+                "start" : 87,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "de ustedes dos",
+                "start" : 90,
+                "end" : 106
             },
             {
                 "type" : "formatting",

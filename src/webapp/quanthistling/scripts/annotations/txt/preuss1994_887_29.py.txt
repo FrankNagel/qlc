@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "rai̵nanete - trasladar el alma del difunto al cuerpo de una persona viva (palabra usada en los cantos); / 29, 1 / 29, 3 / 30 /",
+    "startpage" : 887,
+    "pos_on_page" : 29,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "rai̵nanete",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "trasladar el alma del difunto al cuerpo de una persona viva",
+                "start" : 13,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 19,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palabra usada en los cantos",
+                "start" : 74,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "rai̵nanete",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "rai̵nanete",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "29",
+                "start" : 106,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "29",
+                "start" : 114,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "30",
+                "start" : 122,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+    ]
+})

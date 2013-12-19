@@ -6,8 +6,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "beimaki̵",
+                "value" : "iso-639-3",
+                "string" : "huu",
                 "start" : 0,
                 "end" : 8
             },
@@ -20,8 +20,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "huu",
+                "value" : "head",
+                "string" : "beimaki̵",
                 "start" : 0,
                 "end" : 8
             },
@@ -34,6 +34,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "3pl",
                 "start" : 17,
@@ -41,29 +55,8 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
-                "start" : 17,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "esos",
-                "start" : 23,
-                "end" : 27
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Español",
+                "string" : "esos (referente animado)",
                 "start" : 23,
                 "end" : 47
             },
@@ -71,6 +64,13 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
+                "start" : 23,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
                 "start" : 23,
                 "end" : 47
             },

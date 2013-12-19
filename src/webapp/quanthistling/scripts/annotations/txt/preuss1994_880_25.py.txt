@@ -1,0 +1,302 @@
+
+manual_entries.append({
+    "fullentry" : "ñaa jiaji / ñaa jiji / ñaaiai / ñaaiyi - exclamaciónes que aparecen en los cantos; / 35 / 36 / 37 / 38 / 39 / 40 / 41 / 42 / 43 / 44 / 46 / 47 / 48 / 49 / 65 / 66 / 68 / 69 / 72 / 74 / 97 /",
+    "startpage" : 880,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ñaa jiaji",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " ñaa jiji",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 12,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " ñaaiai",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : " ñaaiyi",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exclamaciónes que aparecen en los cantos",
+                "start" : 45,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 51,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 51,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ñaa jiaji / ñaa jiji / ñaaiai / ñaaiyi",
+                "start" : 0,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ñaa jiaji / ñaa jiji / ñaaiai / ñaaiyi",
+                "start" : 0,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "35",
+                "start" : 90,
+                "end" : 92
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "36",
+                "start" : 95,
+                "end" : 97
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "37",
+                "start" : 100,
+                "end" : 102
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "38",
+                "start" : 105,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "39",
+                "start" : 110,
+                "end" : 112
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "40",
+                "start" : 115,
+                "end" : 117
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "41",
+                "start" : 120,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "42",
+                "start" : 125,
+                "end" : 127
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "43",
+                "start" : 130,
+                "end" : 132
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "44",
+                "start" : 135,
+                "end" : 137
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "46",
+                "start" : 140,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "47",
+                "start" : 145,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "48",
+                "start" : 150,
+                "end" : 152
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "49",
+                "start" : 155,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "65",
+                "start" : 160,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "66",
+                "start" : 165,
+                "end" : 167
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "68",
+                "start" : 170,
+                "end" : 172
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "69",
+                "start" : 175,
+                "end" : 177
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "72",
+                "start" : 180,
+                "end" : 182
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "74",
+                "start" : 185,
+                "end" : 187
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "97",
+                "start" : 190,
+                "end" : 192
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 164,
+                "end" : 164
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 165,
+                "end" : 165
+            },
+    ]
+})

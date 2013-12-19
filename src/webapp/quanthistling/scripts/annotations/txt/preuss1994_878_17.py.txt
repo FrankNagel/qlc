@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "Ni̵meira Buineima - el ‘Buineima de la Sabiduría’; / 37 /",
+    "startpage" : 878,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ni̵meira buineima",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "el ‘Buineima de la Sabiduría’",
+                "start" : 20,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 26,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Ni̵meira Buineima",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ni̵meira Buineima",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Buineima",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "37",
+                "start" : 54,
+                "end" : 56
+            },
+    ]
+})

@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "-gaife - ClN: Objeto alargado y colgante; yogaifeteide colgar un objeto alargado.",
+    "startpage" : 825,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "gaife",
+                "start" : 1,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 7,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 7,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "ClN",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Objeto alargado y colgante",
+                "start" : 14,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "yogaifeteide",
+                "start" : 42,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "colgar un objeto alargado",
+                "start" : 55,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-gaife",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "-gaife",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yogaifeteide",
+                "start" : 42,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yogaifeteide",
+                "start" : 42,
+                "end" : 54
+            },
+    ]
+})

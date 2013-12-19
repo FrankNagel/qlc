@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "na - - Prefn: Totalidad; nazie todas las tribus, naga todo.",
+    "startpage" : 871,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "na",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Prefn",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Totalidad",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "nazie",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "todas las tribus",
+                "start" : 31,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "naga",
+                "start" : 49,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "todo",
+                "start" : 54,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "na",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nazie",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nazie",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "naga",
+                "start" : 49,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "naga",
+                "start" : 49,
+                "end" : 53
+            },
+    ]
+})

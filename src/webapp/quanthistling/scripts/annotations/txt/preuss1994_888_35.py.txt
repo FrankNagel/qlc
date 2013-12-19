@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "reeiñede - Mod: komi̵e reeiñede caer una persona en el olvido; / 2, 97 /",
+    "startpage" : 888,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "reeiñede",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Uitoto",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "huu",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "Mod",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "komi̵e reeiñede",
+                "start" : 17,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 18,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 18,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "caer una persona en el olvido",
+                "start" : 34,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "reeiñede",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "reeiñede",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "komi̵e reeiñede",
+                "start" : 17,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "komi̵e reeiñede",
+                "start" : 17,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2",
+                "start" : 67,
+                "end" : 68
+            },
+    ]
+})
