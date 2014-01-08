@@ -73,10 +73,10 @@ def get_list_ranges_for_annotation(entry, annotation_value, start=0):
     return return_list
 
 
-def get_list_bold_ranges(entry):
+def get_list_bold_ranges(entry, start=0):
     #sorted_annotations = [ a for a in entry.annotations if a.value=='bold' ]
     #sorted_annotations = sorted(sorted_annotations, key=attrgetter('start')
-    return get_list_ranges_for_annotation(entry, "bold")
+    return get_list_ranges_for_annotation(entry, "bold", start)
 
 def get_list_italic_ranges(entry, start=0):
     #sorted_annotations = [ a for a in entry.annotations if a.value=='bold' ]

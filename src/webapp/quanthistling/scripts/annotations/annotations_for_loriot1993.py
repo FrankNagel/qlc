@@ -92,7 +92,6 @@ def annotate_pos(entry):
             if not mybreak:
                 entry.append_annotation(a.start, a.end, u'pos', u'dictinterpretation')
 
-
 def annotate_translations(entry):
     # delete pos annotations
     trans_annotations = [ a for a in entry.annotations if a.value=='translation']
@@ -123,6 +122,9 @@ def annotate_translations(entry):
             end = match.start(0) + translations_starts[i]
             subsubstr = entry.fullentry[start:end]
             if not(re.match(r"\s*$", subsubstr)):
+                match_star = re.match(" ?\*", subsubstr)
+                if match_star:
+                    start += len(match_star.group(0))
                 functions.insert_translation(entry, start, end)
                 
             start = match.end(0) + translations_starts[i]
@@ -167,7 +169,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=300,pos_on_page=8).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=85,pos_on_page=6).all()
         #entries = []
         
         startletters = set()

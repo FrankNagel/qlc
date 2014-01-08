@@ -34,28 +34,11 @@ def annotate_head(entry):
     
     head_end = functions.get_last_bold_pos_at_start(entry)
     head_all = entry.fullentry[:head_end]
-    head_all = head_all.rstrip()
-    
-    re_slash = re.compile("/") #search "/"
-    match_slash = re_slash.search(head_all) #search in all heads
-    
-    if match_slash:
-        # erster Head
-        head1 = head_all[:match_slash.start()]
-        head = functions.insert_head(entry, 0, head_end, head1)        
-        heads.append(head)
-        
-        # zweiter Head
-        head_suffix = head_all[match_slash.end():]
-        head2 = head1[:-len(head_suffix)] + head_suffix #count length of suffix recursive and add the first part of head1 
-        head = functions.insert_head(entry, 0, head_end, head2)        
-        heads.append(head)
-    else:
-        head = functions.insert_head(entry, 0, head_end)
-        heads.append(head)
+
+    head = functions.insert_head(entry, 0, head_end)
+    heads.append(head)
 
     return heads
-
 
 
 def annotate_translations(entry):
@@ -64,10 +47,29 @@ def annotate_translations(entry):
     for a in trans_annotations:
         Session.delete(a)
 
+    translation_start = functions.get_last_bold_pos_at_start(entry) + 1
+    translation_end = functions.get_first_bold_start_in_range(entry, translation_start, len(entry.fullentry))
+    if translation_end == -1:
+        translation_end = len(entry.fullentry)
+
+    match_bracket = re.search("^ ?\([^\)]*\) ?", entry.fullentry[translation_start:translation_end])
+    if match_bracket:
+        translation_start += len(match_bracket.group(0))
+
+    match_capitals = re.search("^ ?(?:PI|PE) ?", entry.fullentry[translation_start:translation_end])  
+    if match_capitals:
+        translation_start += len(match_capitals.group(0))
+
+    start = translation_start
+    for match_comma in re.finditer("(?:[,;] ?|$)", entry.fullentry[translation_start:translation_end]):
+        end = translation_start + match_comma.start(0)
+        functions.insert_translation(entry, start, end)
+        start = translation_start + match_comma.end(0)
+
  
 def main(argv):
 
-    bibtex_key = u"Insert your bibtex key"
+    bibtex_key = u"payne1989"
     
     if len(argv) < 2:
         print "call: annotations_for%s.py ini_file" % bibtex_key
@@ -88,7 +90,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=105,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=381,pos_on_page=28).all()
 
         startletters = set()
     
