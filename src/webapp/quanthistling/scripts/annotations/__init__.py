@@ -26,6 +26,8 @@ __all__ =  [
     "annotations_for_morse1999",
     "annotations_for_nies1986",
     "annotations_for_parker1992",
+    "annotations_for_parker1995",
+    "annotations_for_payne1980",
     "annotations_for_payne1989",
     "annotations_for_paula2004",
     "annotations_for_pellizaronawech2005",

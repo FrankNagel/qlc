@@ -108,7 +108,6 @@ def annotate_everything(entry):
         # translations
         t_start = p_end + 1
         t_end = len(entry.fullentry)
-        print t_end
         
         comma_list = []
         for com in re.finditer(r'(,|;)', entry.fullentry):
