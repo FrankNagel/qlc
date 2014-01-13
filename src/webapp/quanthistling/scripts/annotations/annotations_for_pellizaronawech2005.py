@@ -30,7 +30,7 @@ def process_head(entry, head, head_s, head_e):
 
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=="head" or a.value=='doculect' or a.value=='iso-639-3']
+    head_annotations = [ a for a in entry.annotations if a.value in ['head', 'doculect', 'iso-639-3', 'boundary'] ]
     for a in head_annotations:
         Session.delete(a)
     
@@ -112,33 +112,41 @@ def annotate_head(entry):
 
 def annotate_pos_and_crossrefs(entry):
     # delete pos annotations
-    pos_annotations = [ a for a in entry.annotations if a.value=='pos' or a.value=="crossref"]
+    pos_annotations = [ a for a in entry.annotations if a.value in ['pos', 'crossref'] ]
     for a in pos_annotations:
         Session.delete(a)
+        entry.annotations.remove(a) #make sure entry.annotations is in sync with db; later i'll check for multi
+                                    #detected crossrefs (italic and between examples)
     
     sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
-    if len(sorted_annotations) > 0:
-        head_end = functions.get_head_end(entry)
-        if sorted_annotations[0].start <= head_end + 3:
-            italic_annotation = sorted_annotations[0]
-            match_crossref = re.match(u" ?[Ii]s\. ", entry.fullentry[italic_annotation.start:italic_annotation.end])
-            if match_crossref:
-                start = italic_annotation.start + len(match_crossref.group(0))
-                for match in re.finditer(u"(?:[;,] ?|$)", entry.fullentry[start:italic_annotation.end]):
-                    end = italic_annotation.start + len(match_crossref.group(0)) + match.start(0)
-                    if entry.fullentry[end-1] == ".":
-                        end = end - 1
+
+    head_end = functions.get_head_end(entry)
+    for italic_annotation in sorted_annotations:
+        match_crossref = re.match(u" ?[Ii]s\.? ", entry.fullentry[italic_annotation.start:italic_annotation.end])
+        if match_crossref:
+            start = italic_annotation.start + len(match_crossref.group(0))
+            for match in re.finditer(u"(?:[;,.] ?|$)", entry.fullentry[start:italic_annotation.end]):
+                end = italic_annotation.start + len(match_crossref.group(0)) + match.start(0)
+                if entry.fullentry[end-1] == ".":
+                    end = end - 1
+                if start < end:
                     entry.append_annotation(start, end, u'crossref', u'dictinterpretation')
-                    start = italic_annotation.start + len(match_crossref.group(0)) + match.end(0)                    
-            else:
-                end = italic_annotation.end
-                match_bracket = re.search(u"\([^)]*\) ?$", entry.fullentry[italic_annotation.start:end])
-                if match_bracket:
-                    end = end - len(match_bracket.group(0))
-                entry.append_annotation(italic_annotation.start, end, u'pos', u'dictinterpretation')
-    else:
-        return
+                start = italic_annotation.start + len(match_crossref.group(0)) + match.end(0)                    
+        elif italic_annotation.start <= head_end + 3:
+            end = italic_annotation.end
+            it_text = entry.fullentry[italic_annotation.start:end]
+            match_bracket = re.search(u"\([^)]*\) ?$", it_text) #central part of the old strategy
+            br_index = it_text.find('(')
+            if br_index != -1:
+                while br_index > -1 and it_text[br_index-1].isspace():
+                    br_index -= 1
+                end = italic_annotation.start + br_index
+                #create Log output for different bracket handling
+                if not match_bracket or br_index != match_bracket.start():
+                    functions.print_error_in_entry(entry, 'INFO: different bracket handling from svn332')
+            entry.append_annotation(italic_annotation.start, end, u'pos', u'dictinterpretation')
+
 
 def annotate_translations(entry):
     # delete pos annotations
@@ -203,18 +211,49 @@ def annotate_translations(entry):
                 functions.insert_translation(entry, start, end, translation)
             start = match.end(0) + trans_start
 
-def annotate_examples(entry): 
+
+def _already_known(annotations, start, end):
+    for a in annotations:
+        upper = min(end, a.end)
+        lower = max(start, a.start)
+        if upper > lower:
+            return True
+    return False
+
+def annotate_examples_and_crossrefs(entry): 
     # delete pos annotations
     ex_annotations = [ a for a in entry.annotations if a.value=='example-src' or a.value=='example-tgt']
     for a in ex_annotations:
         Session.delete(a)
 
     trans_end = functions.get_translation_end(entry)
-    re_ex = re.compile(r'[.!?] ?(.*?) ?\= ?(.*?)(?=[.?!])')
+
+    #crossrefs are sometimes mixed with examples. Crossrefs in italic will be known already.
+    known_crossrefs = [a for a in entry.annotations if a.value == 'crossref']
     
-    for match in re_ex.finditer(entry.fullentry, trans_end):
-        entry.append_annotation(match.start(1), match.end(1), u'example-src', u'dictinterpretation', entry.fullentry[match.start(1):match.end(1)].lower())
-        entry.append_annotation(match.start(2), match.end(2), u'example-tgt', u'dictinterpretation', entry.fullentry[match.start(2):match.end(2)].lower())       
+    #process examples and crossrefs
+    re_ex = re.compile(r'[.!?] ?(.*?) ?\= ?(.*?)(?=[.?!])')
+    re_crossref = re.compile(r'\s*[.!?]?\s*[(]?\s*[Ii]s[.]?\s*([^.]*)\s*[)]?(?=[.])')
+    oldpos = -1
+    pos = trans_end
+    while oldpos != pos:
+        oldpos = pos
+        cr_match = re_crossref.match(entry.fullentry, pos)
+        if cr_match:
+            if not _already_known(known_crossrefs, cr_match.start(1), cr_match.end(1)):
+                entry.append_annotation(cr_match.start(1), cr_match.end(1), u'crossref', u'dictinterpretation')
+            pos = cr_match.end()
+            continue
+        ex_match = re_ex.match(entry.fullentry, pos)
+        if ex_match:
+            match_suspect = re.search(u"[Ii]s\.", entry.fullentry[ex_match.start():ex_match.end()])
+            if match_suspect:
+                functions.print_error_in_entry(entry, "WARN: '[Ii]s' in examples.")
+            entry.append_annotation(ex_match.start(1), ex_match.end(1), u'example-src', u'dictinterpretation',
+                                    entry.fullentry[ex_match.start(1):ex_match.end(1)].lower())
+            entry.append_annotation(ex_match.start(2), ex_match.end(2), u'example-tgt', u'dictinterpretation',
+                                    entry.fullentry[ex_match.start(2):ex_match.end(2)].lower())
+            pos = ex_match.end()
 
 
 def main(argv):
@@ -261,9 +300,9 @@ def main(argv):
         Session.commit()
 
 
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()        
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=112,pos_on_page=3).all()
-        
+
         startletters = set()
         for e in entries:
             heads = annotate_head(e)
@@ -276,7 +315,7 @@ def main(argv):
             annotate_translations(e)
             #annotate_crossrefs(e)
             #annotate_dialect(e)
-            annotate_examples(e)
+            annotate_examples_and_crossrefs(e)
 
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
     
