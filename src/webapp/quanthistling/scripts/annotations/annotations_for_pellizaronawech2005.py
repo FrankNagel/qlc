@@ -123,7 +123,7 @@ def annotate_pos_and_crossrefs(entry):
 
     head_end = functions.get_head_end(entry)
     for italic_annotation in sorted_annotations:
-        match_crossref = re.match(u" ?[Ii]s\.? ", entry.fullentry[italic_annotation.start:italic_annotation.end])
+        match_crossref = re.match(u" ?[Ii]s[., ]+", entry.fullentry[italic_annotation.start:italic_annotation.end])
         if match_crossref:
             start = italic_annotation.start + len(match_crossref.group(0))
             for match in re.finditer(u"(?:[;,.] ?|$)", entry.fullentry[start:italic_annotation.end]):
