@@ -21,7 +21,7 @@ import functions
 def main(argv):
     
     if len(argv) < 2:
-        print "call: insert_manualannotations.py ini_file"
+        print "call: insert_manualannotations.py ini_file [ bibtex_entry ... ]"
         exit(1)
 
     ini_file = argv[1]   
@@ -35,7 +35,9 @@ def main(argv):
     for book in quanthistling.dictdata.books.list:
         #if book["bibtex_key"] != 'fastmowitz2008':
         #    continue
-        
+        if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
+            print "skipping", book["bibtex_key"]
+            continue
         try:
             exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
             print "adding manual annotations for %s" % book["bibtex_key"]
@@ -74,7 +76,9 @@ def main(argv):
 
     for book in quanthistling.dictdata.wordlistbooks.list:
         #print book["bibtex_key"]
-                
+        if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
+            print "skipping", book["bibtex_key"]
+            continue     
         try:
             exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
             print "adding manual annotations for %s" % book["bibtex_key"]
