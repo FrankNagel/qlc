@@ -243,7 +243,7 @@ class Entry(object):
             for a in self.annotations:
                 if a.annotationtype.type == type:
                     ret2.append(a)
-            ret2 = sorted(ret2, key=attrgetter('start'))
+            ret2 = sorted(ret2, key=attrgetter('start', 'value'))
             ret.extend(ret2)
         return ret
         #return sorted(self.annotations, key=attrgetter('annotationtype.type', 'start'))
