@@ -1,0 +1,288 @@
+
+manual_entries.append({
+    "fullentry" : "ũñu inan., f.n.esp. aguacate (esp. de fruto comestible). ej. Cabʉtiro ĩña, tiere tane, ati carecomacã yisewari, ʉgaricaro ãmʉ ũñurẽ. Cuando el árbol está dando fruto, se cogen los aguacates maduros, se parten por la mitad y se comen. ũñua inan. una aguacate. pl. ũñu rupaa.",
+    "startpage" : 79,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ũñu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Carapana",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbc",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan., f.n.esp.",
+                "start" : 6,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aguacate (esp. de fruto comestible)",
+                "start" : 22,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ũñua",
+                "start" : 245,
+                "end" : 251
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ũñua inan",
+                "start" : 245,
+                "end" : 256
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan.",
+                "start" : 252,
+                "end" : 257
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una aguacate",
+                "start" : 258,
+                "end" : 270
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ũñu",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan., f.n.esp.",
+                "start" : 6,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 59,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Cuando el árbol está dando fruto, se",
+                "start" : 142,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "cogen los aguacates maduros, se",
+                "start" : 181,
+                "end" : 212
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "parten por la mitad y se comen.",
+                "start" : 213,
+                "end" : 244
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ũñua",
+                "start" : 245,
+                "end" : 251
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 252,
+                "end" : 257
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pl.",
+                "start" : 272,
+                "end" : 275
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 126,
+                "end" : 126
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 141,
+                "end" : 141
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 142,
+                "end" : 142
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 212,
+                "end" : 212
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 213,
+                "end" : 213
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 213,
+                "end" : 213
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 244,
+                "end" : 244
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 245,
+                "end" : 245
+            },
+    ]
+})

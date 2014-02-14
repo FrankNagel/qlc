@@ -17257,6 +17257,51 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "hũʔ&#39;hẽ-hi espec.: ‘rajar con hacha’ (‘split with an ax’)",
+    "startpage" : 345,
+    "pos_on_page" : 49,
+    "language_bookname" : "siona",
+    "concept" : "HENDER_SPLIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "siona",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Siona",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hũʔhẽhi",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "espec.: ‘rajar con hacha’ (‘split with an ax’)",
+                "start" : 11,
+                "end" : 58
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "wokóta† (sing.), + wokóba (plur.), ukúbaba ‘trozar’ (‘split into pieces’), titíka ‘rasgar, como papel’ (‘tear, like paper’)",
     "startpage" : 345,
     "pos_on_page" : 55,
@@ -18747,6 +18792,72 @@ manual_entries.append({
                 "string" : "",
                 "start" : 9,
                 "end" : 9
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "puˈtí(-), ĩ&#39;ã́pṹũ(-) ‘soplar (una flauta)’ (‘blow (into a flute)’), ‘(el viento) está soplando’ (‘(the wind) is blowing’)",
+    "startpage" : 357,
+    "pos_on_page" : 36,
+    "language_bookname" : "waimaja",
+    "concept" : "SOPLAR_BLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "putí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Waimaha",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "waimaja",
+                "start" : 11,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Waimaha",
+                "start" : 11,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ĩã́pṹũ",
+                "start" : 11,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "footnote",
+                "string" : "‘soplar (una flauta)’ (‘blow (into a flute)’), ‘(el viento) está soplando’ (‘(the wind) is blowing’)",
+                "start" : 26,
+                "end" : 128
             },
     ]
 })

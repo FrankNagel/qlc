@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "tayukunch', na. (iur,rum,ri) (ir,im,i) = pecto-ral (adorno que cuelga del cuello, hecho con los huesos de las piernas de las aves tayu, is. iwiármamtai.",
+    "startpage" : 426,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tayukunch",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 41,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 41,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pectoral (adorno que cuelga del cuello, hecho con los huesos de las piernas de las aves tayu)",
+                "start" : 41,
+                "end" : 134
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tayukunch'",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri) (ir,im,i)",
+                "start" : 12,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. iwiármamtai.",
+                "start" : 136,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})

@@ -1,0 +1,302 @@
+
+manual_entries.append({
+    "fullentry" : "pica inan., f.n.esp. chirimoya(s), guanábana(s) (especie de fruta cultivada, con cáscara espinosa, pulpa blanca y dulce; parecida a la guanábana). ej. “Caaco, pica boticoapʉ,” ĩwĩ Carlo macʉ̃ cʉ̃ pacore. “Mamá, maduró la guanábana,” dijo el hijo de Carlos a su mamá. picaa inan. una fruta de guanábana. pl. pica rupaa.",
+    "startpage" : 63,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pica",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbc",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Carapana",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "inan., f.n.esp.",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chirimoya",
+                "start" : 21,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chirimoyas",
+                "start" : 21,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guanábana (especie de fruta cultivada, con cáscara espinosa, pulpa blanca y dulce; parecida a la guanábana)",
+                "start" : 35,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "guanábanas",
+                "start" : 35,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 123,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 123,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "picaa inan",
+                "start" : 276,
+                "end" : 286
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "una fruta de guanábana",
+                "start" : 288,
+                "end" : 311
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pica",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan., f.n.esp.",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 150,
+                "end" : 153
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "“Mamá, maduró la guanábana,” dijo",
+                "start" : 209,
+                "end" : 245
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "el hijo de Carlos a su mamá.",
+                "start" : 246,
+                "end" : 275
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "picaa",
+                "start" : 276,
+                "end" : 281
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 282,
+                "end" : 287
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pl.",
+                "start" : 313,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 153,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 190,
+                "end" : 190
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 191,
+                "end" : 191
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 191,
+                "end" : 191
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 208,
+                "end" : 208
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 209,
+                "end" : 209
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 209,
+                "end" : 209
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 245,
+                "end" : 245
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 246,
+                "end" : 246
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 246,
+                "end" : 246
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 275,
+                "end" : 275
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 276,
+                "end" : 276
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 312,
+                "end" : 312
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 313,
+                "end" : 313
+            },
+    ]
+})

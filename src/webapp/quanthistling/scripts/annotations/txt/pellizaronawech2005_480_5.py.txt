@@ -6,8 +6,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "jiv",
+                "value" : "head",
+                "string" : "wakerukma",
                 "start" : 0,
                 "end" : 9
             },
@@ -21,77 +21,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 42,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 42,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 54,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 54,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 66,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 66,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 78,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 78,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wakerukma",
+                "string" : "jiv",
                 "start" : 0,
                 "end" : 9
             },
@@ -105,14 +35,56 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "querido/a",
+                "string" : "querida",
                 "start" : 31,
                 "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "deseado/a",
+                "string" : "querido",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "deseada",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "deseado",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 42,
                 "end" : 52
             },
@@ -125,6 +97,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "lo deseado",
                 "start" : 66,
@@ -132,8 +118,36 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "la voluntad",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 78,
                 "end" : 89
             },

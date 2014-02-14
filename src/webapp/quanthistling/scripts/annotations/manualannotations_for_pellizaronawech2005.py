@@ -414,6 +414,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "áya-i, is.aniá-i.",
+    "startpage" : 117,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "áyai",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 4,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "aniái",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "áy",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "a",
+                "start" : 3,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 3,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-i,",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is.aniá-i.",
+                "start" : 8,
+                "end" : 19
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "+ yapa-k, m. = hacerse amargo.",
     "startpage" : 118,
     "pos_on_page" : 10,
@@ -7793,6 +7871,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "íkich', na. (iur,rum,ri) = útero, is. nákich'.",
+    "startpage" : 180,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "íkich",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "útero",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 28,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "nákich'",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "íkich'",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri)",
+                "start" : 9,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. nákich'.",
+                "start" : 36,
+                "end" : 49
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "imínramu, ni.na. (r,ram,ri) = hecho/a ablandar; blandamiento. Mikia imínramu = cera hecha ablandar. Mikian iminrámuri = el ablandamiento de la cera.",
     "startpage" : 182,
     "pos_on_page" : 1,
@@ -8899,6 +9062,147 @@ manual_entries.append({
                 "string" : "Is. numi.",
                 "start" : 264,
                 "end" : 273
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "Yámpia, na. ni. (r.ram,ri) = nombre de varón; ⇨zapán, sibucao (árbol de savia anaranjada); is. ipiak-numi. ⇨color naranjo. Is. puju.",
+    "startpage" : 203,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yámpia",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na. ni.",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre de varón",
+                "start" : 30,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 30,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 30,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "zapán",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 49,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sibucao (árbol de savia anaranjada)",
+                "start" : 57,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 57,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 57,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "ipiaknumi",
+                "start" : 99,
+                "end" : 109
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "puju",
+                "start" : 131,
+                "end" : 135
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yámpia",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. ni. (r.ram,ri)",
+                "start" : 9,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. ipiak-numi.",
+                "start" : 95,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Is. puju.",
+                "start" : 127,
+                "end" : 136
             },
     ]
 })
@@ -12117,6 +12421,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "kayápkat, is mayápkat.",
+    "startpage" : 238,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kayápkat",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "mayápkat",
+                "start" : 14,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kayápkat,",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is mayápkat.",
+                "start" : 11,
+                "end" : 24
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "kakáaram, ni.na.ui. (kakáarma-r,ram,ri) = fortalecido/a, fuerte, duro/a: fortalecimiento, fortaleza, fuerza, dureza. Juank kakáaram = Juank fortalecido. Juánkan kakáarmari = la fortaleza de Juank.",
     "startpage" : 240,
     "pos_on_page" : 27,
@@ -13065,6 +13419,98 @@ manual_entries.append({
                 "string" : "ketséktsek!",
                 "start" : 0,
                 "end" : 13
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "kintia-yais, na. = árbol (maderable), is. yais.",
+    "startpage" : 254,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kintiayais",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "árbol (maderable)",
+                "start" : 19,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "yais",
+                "start" : 43,
+                "end" : 47
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kintia-yais",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. yais.",
+                "start" : 39,
+                "end" : 48
             },
     ]
 })
@@ -20614,202 +21060,6 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "jiv",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Shuar",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "jiv",
-                "start" : 12,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Shuar",
-                "start" : 12,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 54,
-                "end" : 63
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 54,
-                "end" : 63
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 65,
-                "end" : 70
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 65,
-                "end" : 70
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 65,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 65,
-                "end" : 72
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 74,
-                "end" : 78
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 74,
-                "end" : 78
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 74,
-                "end" : 94
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 74,
-                "end" : 94
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 96,
-                "end" : 122
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 96,
-                "end" : 122
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 124,
-                "end" : 132
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 124,
-                "end" : 132
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 134,
-                "end" : 142
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 134,
-                "end" : 142
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 134,
-                "end" : 142
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 134,
-                "end" : 142
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 145,
-                "end" : 155
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 145,
-                "end" : 155
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 145,
-                "end" : 155
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 145,
-                "end" : 155
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "sútarach'",
                 "start" : 0,
@@ -20817,8 +21067,36 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "sútar",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
                 "start" : 12,
                 "end" : 18
             },
@@ -20832,13 +21110,6 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cortito",
-                "start" : 54,
-                "end" : 61
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
                 "string" : "cortita",
                 "start" : 54,
                 "end" : 63
@@ -20846,9 +21117,37 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "corto",
-                "start" : 65,
-                "end" : 70
+                "string" : "cortito",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 54,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 54,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 54,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 54,
+                "end" : 61
             },
             {
                 "type" : "dictinterpretation",
@@ -20860,9 +21159,37 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "bajo",
-                "start" : 74,
-                "end" : 78
+                "string" : "corto",
+                "start" : 65,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 65,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 65,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 65,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 65,
+                "end" : 70
             },
             {
                 "type" : "dictinterpretation",
@@ -20874,7 +21201,56 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
+                "string" : "bajo",
+                "start" : 74,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 74,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 74,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 74,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 74,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
                 "string" : "breve (discurso, función)",
+                "start" : 96,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 96,
+                "end" : 122
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 96,
                 "end" : 122
             },
@@ -20887,6 +21263,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 124,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 124,
+                "end" : 132
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "brevedad",
                 "start" : 134,
@@ -20894,8 +21284,29 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "brevedad",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 134,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 134,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 134,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 134,
                 "end" : 142
             },
@@ -20908,8 +21319,29 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "brevemente",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 145,
+                "end" : 155
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 145,
+                "end" : 155
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 145,
+                "end" : 155
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 145,
                 "end" : 155
             },
@@ -24024,6 +24456,98 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tayukunch', na. (iur,rum,ri) (ir,im,i) = pecto-ral (adorno que cuelga del cuello, hecho con los huesos de las piernas de las aves tayu, is. iwiármamtai.",
+    "startpage" : 426,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tayukunch",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "na.",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 41,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 41,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pectoral (adorno que cuelga del cuello, hecho con los huesos de las piernas de las aves tayu)",
+                "start" : 41,
+                "end" : 134
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tayukunch'",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "na. (iur,rum,ri) (ir,im,i)",
+                "start" : 12,
+                "end" : 38
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "is. iwiármamtai.",
+                "start" : 136,
+                "end" : 153
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "taku, na. /r,ram,ri) = bodoque (hecho con la esponja de una calabaza, para cargar la escopeta y para disparar con la pequeña bodoquera de aire comprimido takétak. ⇨ taco de dinamita; Taku ajúntkatárum = tirad al agua el taco de dinamita. ⇨ calabaza (amarilla, la parte interior esponjosa). Is shiyumi.",
     "startpage" : 428,
     "pos_on_page" : 13,
@@ -26633,8 +27157,8 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "jiv",
+                "value" : "head",
+                "string" : "wakerukma",
                 "start" : 0,
                 "end" : 9
             },
@@ -26648,77 +27172,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 31,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 42,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 42,
-                "end" : 52
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 54,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 54,
-                "end" : 64
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 66,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 66,
-                "end" : 76
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 78,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 78,
-                "end" : 89
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "wakerukma",
+                "string" : "jiv",
                 "start" : 0,
                 "end" : 9
             },
@@ -26732,14 +27186,56 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "querido/a",
+                "string" : "querida",
                 "start" : 31,
                 "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "deseado/a",
+                "string" : "querido",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 31,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "deseada",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "deseado",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 42,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 42,
                 "end" : 52
             },
@@ -26752,6 +27248,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "lo deseado",
                 "start" : 66,
@@ -26759,8 +27269,36 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 66,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "la voluntad",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 78,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
                 "start" : 78,
                 "end" : 89
             },
