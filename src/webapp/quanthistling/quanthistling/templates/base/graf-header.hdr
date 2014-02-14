@@ -31,9 +31,9 @@
       </langUsage>
       <primaryData f.id="text" loc="${c.basename}.txt"/>
       <annotations>
-         <annotation loc="${c.basename}-entries.xml" f.id="f.entries"/>
-         <annotation loc="${c.basename}-dictinterpretation.xml" f.id="f.dictinterpretation"/>
-         <annotation loc="${c.basename}-formatting.xml" f.id="f.formatting"/>         
+         <annotation loc="${c.basename}-entries.xml" f.id="entries"/>
+         <annotation loc="${c.basename}-dictinterpretation.xml" f.id="dictinterpretation"/>
+         <annotation loc="${c.basename}-formatting.xml" f.id="formatting"/>         
       </annotations>
    </profileDesc>
 </documentHeader>

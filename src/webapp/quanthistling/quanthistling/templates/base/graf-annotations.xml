@@ -27,7 +27,7 @@
    	       	% endif
         </labelsDecl>
         <dependencies>
-            <dependsOn f.id="f.entries"/>
+            <dependsOn f.id="entries"/>
         </dependencies>
         <annotationSpaces>
             <annotationSpace as.id="${c.annotationname}"/>
