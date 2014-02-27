@@ -30,6 +30,7 @@ from mako.template import Template
 from mako.lookup import TemplateLookup
 
 import quanthistling.dictdata.books
+import quanthistling.dictdata.toolboxfiles
 from sqlalchemy import and_
 from routes import url_for
 
@@ -188,6 +189,8 @@ def main(argv):
         bibtex_key = d[d.rfind(os.sep)+1:]
         for f in glob.glob(os.path.join(d, "*.*")):
             myzip.write(f, os.path.join(bibtex_key, os.path.basename(f)))
+    f = os.path.join(config['pylons.paths']['static_files'], 'downloads', 'xml', 'sources.csv')
+    myzip.write(f, os.path.basename(f))
     myzip.close()
 
 

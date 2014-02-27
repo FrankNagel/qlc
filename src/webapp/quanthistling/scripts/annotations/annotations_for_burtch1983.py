@@ -220,7 +220,7 @@ def annotate_translations_and_examples(entry, manual_examples_dict):
     for i in range(len(translation_starts)):
         match_first_dot = False
         translation_ends_dot = translation_ends[i]
-        for match_dot in re.finditer(r'\. ?[^)( ]', entry.fullentry[translation_starts[i]:translation_ends[i]]):
+        for match_dot in re.finditer(r'\. ?[^)(]', entry.fullentry[translation_starts[i]:translation_ends[i]]):
             inbracket = False
             for m in re.finditer(r'\(.*?\)', entry.fullentry[translation_starts[i]:translation_ends[i]]):
                 if match_dot.start(0) > m.start(0) and match_dot.end(0) < m.end(0):
@@ -246,7 +246,7 @@ def annotate_translations_and_examples(entry, manual_examples_dict):
                 end = match.start(0) + translation_starts[i]
     
                 substr = entry.fullentry[start:end]
-                match_vea = re.search(r'\(Vea ?(.*?)\) ?$', substr)
+                match_vea = re.search(r'\([Vv]ea[^)]*\) ?$', substr)
                 if match_vea:
                     end = end - len(match_vea.group(0))
                     #entry.append_annotation(start + match_vea.start(0), start + match_vea.end(0), u'crossreference', u'dictinterpretation', substr[match_vea.start(1):match_vea.end(0)])
@@ -391,7 +391,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=35,pos_on_page=12).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=233,pos_on_page=12).all()
 
         startletters = set()
     
