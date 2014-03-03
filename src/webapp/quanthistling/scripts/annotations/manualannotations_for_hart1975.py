@@ -387,6 +387,56 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "a'poninirinin - chirriar",
+    "startpage" : 4,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbt",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Chayahuita",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "a'poninirinin",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 16,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "chirriar",
+                "start" : 16,
+                "end" : 24
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "co'sha co'sha tënin sonido de huevo podrido",
     "startpage" : 8,
     "pos_on_page" : 23,

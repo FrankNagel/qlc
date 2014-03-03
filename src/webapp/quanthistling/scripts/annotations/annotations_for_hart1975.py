@@ -49,20 +49,25 @@ def annotate_everything(entry):
                     head2_start = c_list[0] + 2
                     if i + 1 < len(c_list):
                         head2_end = c_list[i+1]
-                        functions.insert_head(entry, head2_start, head2_end)
+                        head_entry = functions.insert_head(entry, head2_start, head2_end)
+                        heads.append(head_entry)
                     else:
-                        functions.insert_head(entry, head2_start, h_end)
+                        head_entry = functions.insert_head(entry, head2_start, h_end)
+                        heads.append(head_entry)
                         c_list = []
                 else:
                     head_start = c_list[i] + 2
                     if i + 1 < len(c_list):
                         head_end = c_list[i+1]
-                        functions.insert_head(entry, head_start, head_end)
+                        head_entry = functions.insert_head(entry, head_start, head_end)
+                        heads.append(head_entry)
                     else:
-                        functions.insert_head(entry, head_start, h_end)
+                        head_entry = functions.insert_head(entry, head_start, h_end)
+                        heads.append(head_entry)
                         c_list = []
         else:
-            functions.insert_head(entry, h_start, h_end, head)
+            head_entry = functions.insert_head(entry, h_start, h_end, head)
+            heads.append(head_entry)
         
         # translations
         

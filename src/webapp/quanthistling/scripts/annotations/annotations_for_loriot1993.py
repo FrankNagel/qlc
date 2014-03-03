@@ -26,7 +26,7 @@ import functions
 
 def get_max_head_end(entry):
     max_head_end = -1
-    for match_max_head_end in re.finditer(u" [-:–] ", entry.fullentry):
+    for match_max_head_end in re.finditer(u" [-:–][U ]", entry.fullentry):
         #print match_max_head_end.start(0)
         if re.search(u"\[[^\]]+\]", entry.fullentry):
             for bracket in re.finditer(u"\[[^\]]+\]", entry.fullentry):
@@ -47,7 +47,7 @@ def get_max_head_end(entry):
     
 def annotate_heads_and_crossrefs(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='crossreference' or a.value=='doculect' or a.value=='iso-639-3']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='crossreference' or a.value=='boundary' or a.value=='doculect' or a.value=='iso-639-3']
     for a in head_annotations:
         Session.delete(a)
         
@@ -70,8 +70,14 @@ def annotate_heads_and_crossrefs(entry):
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
     
     for a in sorted_annotations:        
-        inserted_head = functions.insert_head(entry, a.start, a.end)
-        heads.append(inserted_head)
+        head = entry.fullentry[a.start:a.end]
+        if head.startswith("-"):
+            inserted_head = functions.insert_head(entry, a.start, a.end, head[1:])
+            entry.append_annotation(a.start, a.start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+            heads.append(inserted_head)
+        else:
+            inserted_head = functions.insert_head(entry, a.start, a.end)
+            heads.append(inserted_head)
     
     return heads
 
@@ -169,7 +175,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=85,pos_on_page=6).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=92,pos_on_page=8).all()
         #entries = []
         
         startletters = set()
