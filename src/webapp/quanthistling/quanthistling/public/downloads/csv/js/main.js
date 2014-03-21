@@ -74,7 +74,9 @@ function processFile(allText) {
         }
     });
     var entriesList = createList();
+    entriesList.clear();
     entriesList.add(items);
+    entriesList.update();
 }
 
 function processFiles(qlcID, allText) {
