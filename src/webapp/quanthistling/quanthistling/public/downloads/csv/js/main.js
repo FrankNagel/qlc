@@ -85,11 +85,11 @@ function processFiles(qlcID, allText) {
     sources.forEach(function (source) {
         if (source[0] == qlcID) {
             files = source[6].split(",")
+            // remove all options
+            var filesSelect = $("select#fileSelector");
+            filesSelect.find('option').remove();
+            filesSelect.append(new Option("...", "None"));
             files.forEach(function (file) {
-                var filesSelect = $("select#fileSelector");
-                // remove all options
-                filesSelect.find('option').remove();
-                filesSelect.append(new Option("...", "None"));
                 filesSelect.append(new Option(file, file));
             });
         }
