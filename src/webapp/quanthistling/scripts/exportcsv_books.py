@@ -42,7 +42,7 @@ def main(argv):
     books = dict()
 
     metadata_file = codecs.open(os.path.join(config['pylons.paths']['static_files'], 'downloads', "csv", "sources.csv"), "w", "utf-8")
-    metadata_file.write("QLCID\tTYPE\tLANGUAGES\tIS_READY\tTITLE\tCOMPONENT\n")
+    metadata_file.write("QLCID\tTYPE\tLANGUAGES\tIS_READY\tTITLE\tCOMPONENT\tFILES\n")
 
     for b in quanthistling.dictdata.books.list + quanthistling.dictdata.toolboxfiles.list:
         #if b['bibtex_key'] != "thiesen1998":
@@ -56,8 +56,19 @@ def main(argv):
 
             # collect book data
             languages = [ l.language_iso.langcode for dictdata in book.dictdata for l in dictdata.src_languages + dictdata.tgt_languages if l.language_iso]
+            files = ["{0}-{1}-{2}.csv".format(
+                        book.bibtex_key, dictdata.startpage, dictdata.endpage)
+                        for dictdata in book.dictdata]
             components = [ dictdata.component.name for dictdata in book.dictdata ]
-            metadata_file.write(u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(book.bibtex_key, "dictionary", ",".join(languages), book.is_ready, book.bookinfo(), ",".join(components)))
+            metadata_file.write(
+                u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\n".format(
+                    book.bibtex_key,
+                    "dictionary",
+                    ",".join(languages),
+                    book.is_ready,
+                    book.bookinfo(),
+                    ",".join(components),
+                    ",".join(files)))
 
             for dictdata in book.dictdata:
 
