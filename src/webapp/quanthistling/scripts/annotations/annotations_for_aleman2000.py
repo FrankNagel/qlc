@@ -101,14 +101,18 @@ def annotate_everything(entry):
         
     dot_list = []
     for d in re.finditer(u'\.', entry.fullentry):
-        #print d.start()
         dot_list.append(d.start())
     
     dot_list_bpe = [a for a in dot_list if a > pos_se[1]]
     
     comma_list = []
     for com in re.finditer(r'(,|;)', entry.fullentry):
-        comma_list.append(com.start())
+        is_in_bracket = False
+        for bracket in re.finditer("\([^)]*\)", entry.fullentry):
+            if bracket.start(0) < com.start(0) and bracket.end(0) > com.start(0):
+                is_in_bracket = True
+        if not is_in_bracket:
+            comma_list.append(com.start())
     
     comma_list_bpe = [a for a in comma_list if a > pos_se[1] and a < dot_list_bpe[0]]
     
@@ -237,7 +241,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=38,pos_on_page=6).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=65,pos_on_page=12).all()
 
         startletters = set()
     
