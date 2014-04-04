@@ -1367,4 +1367,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=kbc'
     },
+    {
+        'name' : u'Chamicuro',
+        'langcode': u'ccc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ccc'
+    },
 ]

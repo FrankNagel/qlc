@@ -1836,6 +1836,44 @@ list = [
         ]
     },
     {
+        'title' : u'Chamicuro data: Swadesh list',
+        'author' : u'Parker, Steve',
+        'year' : 2010,
+        'bibtex_key' : u'parker2010a',
+        'pages' : 26,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 15,
+                'endpage' : 24,
+                'src_language_name' : u'Chamicuro',
+                'tgt_language_name' : [ u'Spanish', u'English' ],
+                'src_language_bookname' : u'Chamicuro',
+                'tgt_language_bookname' : [ u'Spanish', u'English' ],
+                'file' : 'arawak/parker2010a_dictdata_15_24.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 14,
+                'title': u'Start pages',
+                'file' : 'arawak/parker2010a_nondictdata_0_14.html',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 25,
+                'endpage' : 26,
+                'title': u'Bibliography',
+                'file' : 'arawak/parker2010a_nondictdata_25_26.html',
+                'component' : 'Arawak'
+            },
+        ]
+    },    
+    {
         'title' : u'Vocabulario chayahuita',
         'author' : u'Hart, George, Hart, Helen',
         'year' : 1975,
