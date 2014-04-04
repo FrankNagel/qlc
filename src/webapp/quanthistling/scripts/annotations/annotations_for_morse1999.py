@@ -22,6 +22,13 @@ from paste.deploy import appconfig
 
 import functions
 
+def insert_head(entry, start, end):
+    head = entry.fullentry[start:end]
+    head = re.sub("[* ]*$", "", head)
+    head = functions.insert_head(entry, start, end, head)
+    return head
+
+
 def annotate_everything(entry):
     # delete annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -50,25 +57,25 @@ def annotate_everything(entry):
             if i == 0:
                 head_start = 0
                 head_end = sep_list[i]
-                head = functions.insert_head(entry, head_start, head_end)
+                head = insert_head(entry, head_start, head_end)
                 
                 head2_start = sep_list[0] + 2
                 if i + 1 < len(sep_list):
                     head2_end = sep_list[1]
-                    head = functions.insert_head(entry, head2_start, head2_end)
+                    head = insert_head(entry, head2_start, head2_end)
                     i += 1
                 else:
-                    head = functions.insert_head(entry, head2_start, head_end_tmp)
+                    head = insert_head(entry, head2_start, head_end_tmp)
             else:
                 head_start = sep_list[i] + 2
                 if i + 1 < len(sep_list):
                     head_end = sep_list[i+1]
-                    head = functions.insert_head(entry, head_start, head_end)
+                    head = insert_head(entry, head_start, head_end)
                     i += 1
                 else:
-                    head = functions.insert_head(entry, head_start, head_end_tmp)   
+                    head = insert_head(entry, head_start, head_end_tmp)   
     else:
-        head = functions.insert_head(entry, 0, head_end_tmp)
+        head = insert_head(entry, 0, head_end_tmp)
         heads.append(head)  
     
     
@@ -89,7 +96,12 @@ def annotate_everything(entry):
     
     comma_list = []
     for com in re.finditer(r'(,|;)', entry.fullentry):
-        comma_list.append(com.start())
+        is_in_bracket = False
+        for bracket in re.finditer("\([^)]*\)", entry.fullentry):
+            if bracket.start(0) < com.start(0) and bracket.end(0) > com.start(0):
+                is_in_bracket = True
+        if not is_in_bracket:
+            comma_list.append(com.start())
     
     num_comma_list = []
     num_dot_list = []
@@ -277,7 +289,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=20,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=21,pos_on_page=12).all()
 
         startletters = set()
     

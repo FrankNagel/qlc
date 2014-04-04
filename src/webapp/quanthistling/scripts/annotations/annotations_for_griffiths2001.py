@@ -28,6 +28,17 @@ def insert_head(entry, head_start, head_end):
         head_end = head_start + match_star.start()
     functions.insert_head(entry, head_start, head_end)
 
+def insert_translation(entry, start, end, lang_iso = None, lang_doculect = None):
+    match_slash = re.search("(^| )([^ /]*)/([^ /]*)(?=$| )", entry.fullentry[start:end])
+    if match_slash:
+        trans_base = entry.fullentry[start:start+match_slash.start(0)]
+        trans1 = trans_base + match_slash.group(2) + entry.fullentry[start+match_slash.end(0):end]
+        trans2 = trans_base + match_slash.group(3) + entry.fullentry[start+match_slash.end(0):end]
+        functions.insert_translation(entry, start, end, trans1, lang_iso = lang_iso, lang_doculect = lang_doculect)
+        functions.insert_translation(entry, start, end, trans2, lang_iso = lang_iso, lang_doculect = lang_doculect)
+    else:
+        functions.insert_translation(entry, start, end, lang_iso = lang_iso, lang_doculect = lang_doculect)
+
 def annotate_everything(entry):
     # delete head annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -116,25 +127,25 @@ def annotate_everything(entry):
                     for i in range(len(c_list)):
                         if i == 0:
                             trans_e = c_list[i]
-                            functions.insert_translation(entry, t_starts[x], trans_e, lang_iso = lang[0], lang_doculect = lang[1])
+                            insert_translation(entry, t_starts[x], trans_e, lang_iso = lang[0], lang_doculect = lang[1])
                         
                             trans2_s = c_list[0] + 2
                             if i + 1 < len(c_list):
                                 trans2_e = c_list[i+1]
-                                functions.insert_translation(entry, trans2_s, trans2_e, lang_iso = lang[0], lang_doculect = lang[1])
+                                insert_translation(entry, trans2_s, trans2_e, lang_iso = lang[0], lang_doculect = lang[1])
                             else:
-                                functions.insert_translation(entry, trans2_s, t_ends[x], lang_iso = lang[0], lang_doculect = lang[1])
+                                insert_translation(entry, trans2_s, t_ends[x], lang_iso = lang[0], lang_doculect = lang[1])
                                 c_list = []
                         else:
                             trans_s = c_list[i] + 2
                             if i + 1 < len(c_list):
                                 trans_e = c_list[i+1]
-                                functions.insert_translation(entry, trans_s, trans_e, lang_iso = lang[0], lang_doculect = lang[1])
+                                insert_translation(entry, trans_s, trans_e, lang_iso = lang[0], lang_doculect = lang[1])
                             else:
-                                functions.insert_translation(entry, trans_s, t_ends[x], lang_iso = lang[0], lang_doculect = lang[1])
+                                insert_translation(entry, trans_s, t_ends[x], lang_iso = lang[0], lang_doculect = lang[1])
                                 c_list = []
                 else:
-                    functions.insert_translation(entry, t_starts[x], t_ends[x], lang_iso = lang[0], lang_doculect = lang[1])
+                    insert_translation(entry, t_starts[x], t_ends[x], lang_iso = lang[0], lang_doculect = lang[1])
    
     return heads
 
@@ -163,7 +174,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=81,pos_on_page=1).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=109,pos_on_page=11).all()
 
         startletters = set()
     
