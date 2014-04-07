@@ -49,22 +49,29 @@ def annotate_everything(entry):
                 h_s = 0
                 h_e = comma_heads[i]
                 h1 = functions.insert_head(entry, h_s, h_e)
+                heads.append(h1)
                 
                 h2_s = comma_heads[0] + 2
                 if i + 1 < len(comma_heads):
                     h2_e = comma_heads[i+1]
                     h2 = functions.insert_head(entry, h2_s, h2_e)
+                    heads.append(h2)
                 else:
                     h2 = functions.insert_head(entry, h2_s, head_end)
+                    heads.append(h2)
             else:
                 h_s = comma_heads[i] + 2
                 if i + 1 < len(comma_heads):
                     h_e = comma_heads[i+1]
                     head = functions.insert_head(entry, h_s, h_e)
+                    heads.append(head)
+
                 else:
                     head = functions.insert_head(entry, h_s, head_end)
+                    heads.append(head)
     else:
-        functions.insert_head(entry, head_start, head_end)
+        head = functions.insert_head(entry, head_start, head_end)
+        heads.append(head)
     
     # pos
     ir = functions.get_first_italic_range(entry)
@@ -101,8 +108,10 @@ def annotate_everything(entry):
                     if i + 1 < len(pos_spaces):
                         p_e = pos_spaces[i+1]
                         head = functions.insert_head(entry, p_s, p_e)
+                        heads.append(head)
                     else:
                         head = functions.insert_head(entry, p_s, p_end)
+                        heads.append(head)
         else:
             functions.insert_pos(entry, p_start, p_end)
             
