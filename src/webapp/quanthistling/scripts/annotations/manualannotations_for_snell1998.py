@@ -474,6 +474,511 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "tsikyanira interj. ¡cuidado!, ¡ten cuidado! —El verbo que sigue tsikyanira, cuando significa ¡cuidado!, lleva el sufijo de advertencia -kari consecuencial. ¡Tsikyanira, yatsikukari otsiti! ¡Cuidado, te va a morder el perro! || adv. con cuidado. Yagampogiteigiri shintori ikantiri: —Arisanora tsikyanira pinkenanake narokya kenashitakerine aka. Cuando encontraron las huellas de los sajinos le dijo: —Vete con mucho cuidado y yo iré por este lado para matarlos.",
+    "startpage" : 247,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Machiguenga",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tsikyanira",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mcb",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuidado",
+                "start" : 19,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 30,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "Castellano",
+                "start" : 30,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ten cuidado",
+                "start" : 30,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 227,
+                "end" : 231
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 232,
+                "end" : 243
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 232,
+                "end" : 243
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "con cuidado",
+                "start" : 232,
+                "end" : 243
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsikyanira",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "interj.",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsikyanira,",
+                "start" : 64,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "¡cuidado!,",
+                "start" : 93,
+                "end" : 103
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-kari",
+                "start" : 135,
+                "end" : 140
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "consecuencial.",
+                "start" : 141,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¡Tsikya",
+                "start" : 156,
+                "end" : 163
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nira, yatsikukari otsiti!",
+                "start" : 163,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 227,
+                "end" : 231
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yagampogiteigi",
+                "start" : 245,
+                "end" : 259
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ri shintori ikantiri: —Arisanora",
+                "start" : 259,
+                "end" : 291
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tsikyanira pinkenanake narokya",
+                "start" : 292,
+                "end" : 322
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kenashitakerine aka.",
+                "start" : 323,
+                "end" : 343
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 163,
+                "end" : 163
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 198,
+                "end" : 198
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 199,
+                "end" : 199
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 199,
+                "end" : 199
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 223,
+                "end" : 223
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 291,
+                "end" : 291
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 292,
+                "end" : 292
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 292,
+                "end" : 292
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 322,
+                "end" : 322
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 323,
+                "end" : 323
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 323,
+                "end" : 323
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 323,
+                "end" : 323
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 353,
+                "end" : 353
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 353,
+                "end" : 353
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 353,
+                "end" : 353
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 353,
+                "end" : 353
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 389,
+                "end" : 389
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 390,
+                "end" : 390
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 390,
+                "end" : 390
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 422,
+                "end" : 422
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 423,
+                "end" : 423
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 423,
+                "end" : 423
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 457,
+                "end" : 457
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 457,
+                "end" : 457
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 457,
+                "end" : 457
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 457,
+                "end" : 457
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "gagantsi1 {yagakero} vt. 1. casarse, contraer matrimonio. Ogari oketyorira yagaveta Pepe okamapitsatakeri impo pashinikya yagai. La primera (mujer) con quien se casó Pepe se murió, entonces se casó con otra. 2. conseguir. ¿Tyara pagakero pigamisate oga pogagutakarira?, mameritari pashi okyarira. ¿Dónde has conseguido la camisa que tienes puesta?, pues tú no tenías una (camisa) nueva. 3. cosechar, recoger. Maika panikya osampatanakera turigo agakenkanira. Ahora el trigo está casi listo para ser cosechado (lit. cogido). 4. llegar. Opokai agapaakero omaraneku inchapoa otikakero tyampa onkenae. Regresó y llegó a un gran tronco que impedía que pasara (lit. por dónde iba a ir). 5. recibir. —Requiere el sufijo direccional -av receptivo. 6. coger, detener, inmovilizar (p.ej. coger o detener a alguien que está escapándose o moviéndose hacia uno, detener a alguien que quiere irse o se va, coger algo tirado). —Requiere el sufijo direccional -av receptivo. Atsi gavaero. A ver, cógela. Iaigake maganiro imuvageigakerira yantavageigakera ovashi yagaigavairi Perero. Todos se fueron para ayudarle en sus trabajos y lo que resultó es que Pedro los detuvo allá. 7. recuperar algo perdido. —Requiere un sufijo repetitivo o regresivo. Tera nagaero. No la recuperé. 8. ir para traer. Nagutera sekatsi. Voy para traer yuca. Nagaatero noshinto. Voy para traer a mi hija. 9. morir (p.ej. de hambre, cansancio). Panikya aganakena nomire. Casi me muero de sed (lit. casi mi sed me va a coger). 10. morder (culebra). Impogini inti iokagutaka maranke kintaronkeni yagakeri yavuatanakari ikaemakagakeri eeeee ee yogamagakeri. Entonces se encontró con una culebra loro machacuy que lo mordió, se le enroscó, lo hizo gritar eeeee ee y lo mató. || {agaka} vr. 1. llegar una fecha o día. Impogini agaka kutagiteri iripokantaemparira osuraritsite ovetsikake shitea. Entonces llegó el día cuando iba a regresar su marido y ella preparó masato. 2. atajarse o cogerse en algo. —Requiere el sufijo direccional -av receptivo. Yogari notomi itimpatuakero itsagaro agavakara saviaku, tyampa inkantaero. Mi hijo arrancó su anzuelo porque estaba atajado (o enganchado) dentro del agua y no podía sacarlo de allí. Vea gaatagantsi1.",
     "startpage" : 86,
     "pos_on_page" : 3,

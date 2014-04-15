@@ -20,7 +20,25 @@ import quanthistling.dictdata.books
 
 from paste.deploy import appconfig
 
-import functions  
+import functions
+
+def insert_head(entry, start, end):
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith("-"):
+        entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        start += 1
+    if str_head.endswith("-"):
+        entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        end -= 1
+
+    str_head = entry.fullentry[start:end]
+    for match in re.finditer(u"-", str_head):
+        entry.append_annotation(match.start(0), match.end(0), u'boundary', u'dictinterpretation', u"compound boundary")
+
+    str_head = re.sub("-", "", str_head)
+    return functions.insert_head(entry, start, end, str_head)
+
+
 
 def annotate_crossrefs(entry):
     # delete head annotations
@@ -35,7 +53,7 @@ def annotate_crossrefs(entry):
 
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='doculect' or a.value=='iso-639-3']
+    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='doculect' or a.value=='iso-639-3' or a.value=='boundary']
     for a in head_annotations:
         Session.delete(a)
         
@@ -53,7 +71,7 @@ def annotate_head(entry):
     start = head_start_pos
     for match in re.finditer(u"(?:, |$)", entry.fullentry[head_start_pos:head_end_pos]):
         end = head_start_pos + match.start(0)
-        inserted_head = functions.insert_head(entry, start, end)
+        inserted_head = insert_head(entry, start, end)
         heads.append(inserted_head)
         start = head_start_pos + match.end(0)
     
@@ -170,7 +188,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=95,pos_on_page=8).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=73,pos_on_page=8).all()
         #entries = []
         
         startletters = set()

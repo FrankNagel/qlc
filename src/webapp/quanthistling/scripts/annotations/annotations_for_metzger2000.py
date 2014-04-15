@@ -74,13 +74,23 @@ def annotate_everything(entry):
     # translations
     dot_list = []
     for d in re.finditer(r'\.', entry.fullentry):
-        dot_list.append(d.start())
+        in_bracket = False
+        for match_bracket in re.finditer("\([^)]*\)", entry.fullentry):
+            if match_bracket.start(0) < d.start(0) and match_bracket.end(0) > d.end(0):
+                in_bracket = True
+        if not in_bracket:
+            dot_list.append(d.start())
     
     dot_list_bpe = [a for a in dot_list if a > pos_se[1]]
         
     comma_list = []
     for com in re.finditer(r'(,|;)', entry.fullentry):
-        comma_list.append(com.start())
+        in_bracket = False
+        for match_bracket in re.finditer("\([^)]*\)", entry.fullentry):
+            if match_bracket.start(0) < com.start(0) and match_bracket.end(0) > com.end(0):
+                in_bracket = True
+        if not in_bracket:
+            comma_list.append(com.start())
     
     comma_list_bpe = [a for a in comma_list if a > pos_se[1] and a < dot_list_bpe[0]]
     
@@ -123,7 +133,8 @@ def annotate_everything(entry):
         for i in range(len(num_list_bpe)):
             trans_s = num_list_bpe[i] + 1
             trans_e = num_dot_list[i]
-            translation = functions.insert_translation(entry, trans_s, trans_e)
+            for (start, end) in functions.split_entry_at(entry, u"(?:[;,] |$)", trans_s, trans_e):
+                translation = functions.insert_translation(entry, start, end)
     else:    
         translation = entry.fullentry[pos_se[1] + 1:dot_list_bpe[0]]
         functions.insert_translation(entry, pos_se[1] + 1, dot_list_bpe[0], translation)
@@ -154,7 +165,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=59,pos_on_page=15).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=49,pos_on_page=4).all()
 
         startletters = set()
     

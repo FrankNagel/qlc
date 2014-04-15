@@ -2068,6 +2068,45 @@ list = [
         ]
     },
     {
+        'title' : u'Vocabulario resigaro',
+        'author' : u'Allin, Trevor',
+        'year' : 1979,
+        'bibtex_key' : u'allin1979',
+        'pages' : 528,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 382,
+                'endpage' : 458,
+                'src_language_name' : u'Resígaro',
+                'tgt_language_name' : [ u'Spanish', u'English' ],
+                'src_language_bookname' : u'Resígaro',
+                'tgt_language_bookname' : [ u'Castellano', u'Inglés'],
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arawak/allin1979_dictdata_382_458.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 381,
+                'title': u'Start pages',
+                'file' : 'arawak/allin1979_nondictdata_0_381.html',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 493,
+                'endpage' : 528,
+                'title': u'Lista comparativa de palabras and Bibliography',
+                'file' : 'arawak/allin1979_nondictdata_493_528.html',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
         'title' : u'DICIONÁRIO da LÍNGUA KADIWÉU',
         'author' : u'Griffiths, Glyn',
         'year' : 2002,

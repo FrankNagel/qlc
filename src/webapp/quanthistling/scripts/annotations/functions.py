@@ -4,6 +4,20 @@ import re
 from operator import attrgetter
 import unicodedata
 
+def split_entry_at(entry, regex, start, end):
+    local_start = start
+    local_end   = end
+    for match in re.finditer(regex, entry.fullentry[start:end]):
+        # Are we in bracket?
+        in_bracket = False
+        for match_bracket in re.finditer("\([^)]*\)", entry.fullentry[start:end]):
+            if match_bracket.start(0) < match.start(0) and match_bracket.end(0) > match.end(0):
+                in_bracket = True
+        if not in_bracket:
+            local_end = start + match.start(0)
+            yield (local_start, local_end)
+            local_start = start + match.end(0)
+
 def normalize_stroke(string_src):
     string_new = ""
     for char in string_src:
