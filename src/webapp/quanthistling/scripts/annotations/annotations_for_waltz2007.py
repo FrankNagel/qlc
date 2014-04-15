@@ -22,12 +22,20 @@ from paste.deploy import appconfig
 
 import functions
 
+def find_brackets(entry):
+    result = []
+    for match in re.finditer('\([^\)]*\)', entry.fullentry):
+        result.append( (match.start(), match.end()) )
+    return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
+    
+
 def annotate_everything(entry):
     # delete annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
     for a in annotations:
         Session.delete(a)
-    
+
+    in_brackets = find_brackets(entry)
     # heads
     head = None
     heads = []
@@ -143,7 +151,8 @@ def annotate_everything(entry):
             
     comma_list = []
     for com in re.finditer(r'(,|;)', entry.fullentry):
-        comma_list.append(com.start())
+        if not in_brackets(com.start()):
+            comma_list.append(com.start())
     
     comma_list_bpe = []
     if comma_list:
