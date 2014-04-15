@@ -22,6 +22,51 @@ from paste.deploy import appconfig
 
 import functions
 
+
+#this is a copy from functions.py with some additions:
+#1. strip {..} from the end
+#2. strip numbers from the end
+def remove_parts(entry, s, e):
+    start = s
+    end = e
+    string = entry.fullentry[start:end]
+    # remove whitespaces
+    while re.match(r" ", string):
+        start = start + 1
+        string = entry.fullentry[start:end]
+
+    match_period = re.search(r"\.? *$", string)
+    if match_period:
+        end = end - len(match_period.group(0))
+        string = entry.fullentry[start:end]
+
+    if re.match(u"[¿¡]", string):
+        start = start + 1
+        string = entry.fullentry[start:end]
+
+    if re.search(u"[!?]$", string):
+        end = end - 1
+        string = entry.fullentry[start:end]
+
+    if re.match(u"\(", string) and re.search(u"\)$", string) and not re.search(u"[\(\)]", string[1:-1]):
+        start = start + 1
+        end = end - 1
+        
+        string = entry.fullentry[start:end]
+
+    match_brackets = re.search('\s*{[^}]*}\s*$', string)
+    if match_brackets:
+        end = end - len(match_brackets.group(0))
+        string = entry.fullentry[start:end]
+
+    match_numbers = re.search('[0-9]+$', string)
+    if match_numbers:
+        end = end - len(match_numbers.group(0))
+        string = entry.fullentry[start:end]
+
+    return (start, end, string)
+
+
 def annotate_everything(entry):
     # delete annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -50,25 +95,25 @@ def annotate_everything(entry):
             if i == 0:
                 head_start = 0
                 head_end = sep_list[i]
-                functions.insert_head(entry, head_start, head_end)
+                functions.insert_head(entry, *remove_parts(entry, head_start, head_end))
                 
                 head2_start = sep_list[0] + 2
                 if i + 1 < len(sep_list):
                     head2_end = sep_list[1]
-                    functions.insert_head(entry, head2_start, head2_end)
+                    functions.insert_head(entry, *remove_parts(entry, head2_start, head2_end))
                     i += 1
                 else:
-                    functions.insert_head(entry, head2_start, head_end_tmp)
+                    functions.insert_head(entry, *remove_parts(entry, head2_start, head_end_tmp))
             else:
                 head_start = sep_list[i] + 2
                 if i + 1 < len(sep_list):
                     head_end = sep_list[i+1]
-                    functions.insert_head(entry, head_start, head_end)
+                    functions.insert_head(entry, *remove_parts(entry, head_start, head_end))
                     i += 1
                 else:
-                    functions.insert_head(entry, head_start, head_end_tmp)   
+                    functions.insert_head(entry, *remove_parts(entry, head_start, head_end_tmp))
     else:
-        functions.insert_head(entry, 0, head_end_tmp)
+        functions.insert_head(entry, *remove_parts(entry, 0, head_end_tmp))
     
     # part of speech or cross-reference
     crossref = False
