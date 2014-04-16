@@ -1,6 +1,7 @@
 __all__ =  [
     "annotations_for_aguiar1994",
     "annotations_for_aleman2000",
+    "annotations_for_allin1979",
     "annotations_for_burtch1983",
     "annotations_for_captain2005",
     "annotations_for_cook2001",
@@ -13,6 +14,7 @@ __all__ =  [
     "annotations_for_jakway2008",
     "annotations_for_klumpp1995",
     "annotations_for_kneeland1979",
+    "annotations_for_koop2008",
     "annotations_for_larson1966",
     "annotations_for_leach1969",
     "annotations_for_loos1998",

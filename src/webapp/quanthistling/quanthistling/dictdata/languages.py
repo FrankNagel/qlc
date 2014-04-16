@@ -1373,4 +1373,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=ccc'
     },
+    {
+        'name' : u'Dení',
+        'langcode': u'dny',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=dny'
+    },
 ]

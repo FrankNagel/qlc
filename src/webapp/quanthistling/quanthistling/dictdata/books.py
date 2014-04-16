@@ -2201,5 +2201,38 @@ list = [
                 'component' : 'Other'
             },
         ]
+    },
+    {
+        'title' : u'Dicionário Deni-Português',
+        'author' : u'Koop, Gordon and Koop, Lois',
+        'year' : 2008,
+        'bibtex_key' : u'koop2008',
+        'pages' : 149,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 44,
+                'endpage' : 101,
+                'src_language_name' : u'Dení',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Deni',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arauan/koop2008_dictdata_44_101.xml',
+                'component' : 'Arauan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 43,
+                'title': u'Start pages',
+                'file' : 'arauan/koop2008_nondictdata_0_43.htm',
+                'component' : 'Arauan'
+            }
+        ]
     }
+
 ]
