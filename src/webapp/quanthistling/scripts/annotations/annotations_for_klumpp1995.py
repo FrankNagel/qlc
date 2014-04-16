@@ -71,9 +71,19 @@ def insert_translation(entry, intervals):
         #split between '[!?] [¡¿]'
         text = entry.fullentry[start:end]
         text_start = start
-        for match in re.finditer('[!?] [¡¿]|$', text):
-            functions.insert_translation(entry, start, text_start + match.start())
-            start = text_start + match.end() 
+        match = None
+        
+        #special case first; this is very brittle, probably only works for klumpp1995
+        match = re.search('[!?] \(', text)
+        if match:
+            to_insert = (text[:match.start()] + text[match.start()+1:]).strip()
+            if to_insert[0] in u'¡¿':
+                to_insert = to_insert[1:]
+            functions.insert_translation(entry, start, end, to_insert)
+        else:
+            for match in re.finditer('[!?] [¡¿]|$', text):
+                functions.insert_translation(entry, start, text_start + match.start())
+                start = text_start + match.end()
         
 
 def annotate_everything(entry):
