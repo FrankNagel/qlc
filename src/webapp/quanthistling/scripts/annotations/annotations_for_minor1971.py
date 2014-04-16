@@ -20,7 +20,7 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-    
+
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -56,7 +56,7 @@ def annotate_head(entry):
             heads.append(head + match.group(1))
             functions.insert_head(entry, head_start, match.start(0))
             #entry.append_annotation(head_start, match.start(0), u'head', u'dictinterpretation')
-            functions.insert_head(entry, head_start, head_end)
+            functions.insert_head(entry, head_start, head_end, head + match.group(1))
             #entry.append_annotation(head_start, head_end, u'head', u'dictinterpretation', head + match.group(1))
         else:
             functions.insert_head(entry, head_start, head_end)
@@ -163,7 +163,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=64,pos_on_page=35).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=68,pos_on_page=7).all()
         
         startletters = set()
         for e in entries:
