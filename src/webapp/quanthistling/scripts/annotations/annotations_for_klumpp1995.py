@@ -22,6 +22,60 @@ from paste.deploy import appconfig
 
 import functions
 
+
+def search_matching_paran(open_p, close_p, text, run):
+    count = 0
+    while True:
+        if text[run] == open_p:
+            count += 1
+        elif text[run] == close_p:
+            count -= 1
+        run += 1
+        if count == 0:
+            return run
+
+
+def collect_skip_parts(entry):
+    skipping = []
+    for annotation in entry.annotations:
+        if annotation.value != 'italic': continue
+        skipping.append((annotation.start, annotation.end))
+    #for match in re.finditer(u'\([Ll]it\.', entry.fullentry):
+    #    end = search_matching_paran(u'(', u')', entry.fullentry, match.start(0))
+    #    skipping.append((match.start(0), end))
+
+    def subtract_skip_parts(p_start, p_end):
+        candidates = [(p_start, p_end)]
+        for skip_start, skip_end in skipping:
+            for start, end in candidates:
+                new_candidates = []
+            
+                if skip_start <= start and skip_end >= end:
+                    continue
+                if skip_end <= start or skip_start >= end:
+                    new_candidates.append((start, end))
+                    continue
+                if end > skip_end:
+                    new_candidates.append((skip_end, end))
+                if start < skip_start:
+                    new_candidates.append((start, skip_start))
+            candidates = new_candidates
+        return candidates
+    return subtract_skip_parts
+
+        
+def insert_translation(entry, intervals):
+    for start, end in intervals:
+        if end - start <= 0:
+            continue
+        #split between '[!?] [¡¿]'
+        text = entry.fullentry[start:end]
+        text_start = start
+        for match in re.finditer('[!?] [¡¿]|$', text):
+            functions.insert_translation(entry, start, text_start + match.start())
+            start = text_start + match.end() 
+        
+
 def annotate_everything(entry):
     # delete annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -118,6 +172,7 @@ def annotate_everything(entry):
     if num_list:
         num_list_bpe = [a for a in num_list if a > t_start]
 
+    cleaning_func = collect_skip_parts(entry)
     num_dot_list = []
     if num_list_bpe:
         for v in num_list_bpe:
@@ -139,50 +194,46 @@ def annotate_everything(entry):
                         if j == 0:
                             trans_s = start
                             trans_e = num_comma_list[j]
-                            functions.insert_translation(entry, trans_s, trans_e)
+                            insert_translation(entry, cleaning_func(trans_s, trans_e))
                             
                             trans2_s = num_comma_list[0] + 2
                             if j + 1 < len(num_comma_list):
                                 trans2_e = num_comma_list[j+1]
-                                functions.insert_translation(entry, trans2_s, trans2_e)
+                                insert_translation(entry, cleaning_func(trans2_s, trans2_e))
                             else:
-                                functions.insert_translation(entry, trans2_s, num_dot_list[i])
-                            
+                                insert_translation(entry, cleaning_func(trans2_s, num_dot_list[i]))
                         else:
                             trans_s = num_comma_list[j] + 2
                             if j + 1 < len(num_comma_list):
                                 trans_e = num_comma_list[j+1]
-                                functions.insert_translation(entry, trans_s, trans_e)
+                                insert_translation(entry, cleaning_func(trans_s, trans_e))
                             else:
-                                functions.insert_translation(entry, trans_s, num_dot_list[i])
+                                insert_translation(entry, cleaning_func(trans_s, num_dot_list[i]))
                 else:
                     trans_s = num_list_bpe[i] + 1
                     trans_e = num_dot_list[i]
-                    functions.insert_translation(entry, trans_s, trans_e)
-              
-        
+                    insert_translation(entry, cleaning_func(trans_s, trans_e))        
     elif comma_list_bpe and not num_list_bpe:
         for i in range(len(comma_list_bpe)):
             if i == 0:
                 trans_e = comma_list_bpe[i]
-                functions.insert_translation(entry, t_start, trans_e)
+                insert_translation(entry, cleaning_func(t_start, trans_e))
                 
                 trans2_s = comma_list_bpe[0] + 2
                 if i + 1 < len(comma_list_bpe):
                     trans2_e = comma_list_bpe[i+1]
-                    functions.insert_translation(entry, trans2_s, trans2_e)
+                    insert_translation(entry, cleaning_func(trans2_s, trans2_e))
                 else:
-                    functions.insert_translation(entry, trans2_s, t_end_tmp)
-                    
+                    insert_translation(entry, cleaning_func(trans2_s, t_end_tmp))
             else:
                 trans_s = comma_list_bpe[i] + 2
                 if i + 1 < len(comma_list_bpe):
                     trans_e = comma_list_bpe[i+1]
-                    functions.insert_translation(entry, trans_s, trans_e)
+                    insert_translation(entry, cleaning_func(trans_s, trans_e))
                 else:
-                    functions.insert_translation(entry, trans_s, t_end_tmp)  
+                    insert_translation(entry, cleaning_func(trans_s, t_end_tmp))
     else:
-        functions.insert_translation(entry, t_start, t_end_tmp)
+        insert_translation(entry, cleaning_func(t_start, t_end_tmp))
             
     return heads
 
