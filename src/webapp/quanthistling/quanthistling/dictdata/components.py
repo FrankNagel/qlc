@@ -47,6 +47,14 @@ list = [
         'description' : u'',
     },
     {
+        'name' : u'Carib',
+        'description' : u'',
+    },
+    {
+        'name' : u'Macro-Ge',
+        'description' : u'',
+    },
+    {
         'name' : u'Other',
         'description' : u'',
     },

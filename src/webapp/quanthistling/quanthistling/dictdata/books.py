@@ -2265,6 +2265,77 @@ list = [
                 'component' : 'Tupí'
             }
         ]
+    },
+    {
+        'title' : u'Vocabulário Básico, Apalaí-Português',
+        'author' : u'Koehn, Edward Henry and Koehn, Sally Sharp',
+        'year' : 1995,
+        'bibtex_key' : u'koehnkoehn1995',
+        'pages' : 130,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 59,
+                'src_language_name' : u'Apalaí',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Apalaí',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'carib/koehnkoehn1995_dictdata_1_59.xml',
+                'component' : 'Carib'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'carib/koehnkoehn1995_nondictdata_0_0.htm',
+                'component' : 'Carib'
+            }
+        ]
+    },
+    {
+        'title' : u'Pequeno Dicionário Xavante-Português, Português-Xavante',
+        'author' : u'Hall, Joan and McLeod, Ruth Alice and Mitchell, Valerie',
+        'year' : 2004,
+        'bibtex_key' : u'hall2004',
+        'pages' : 343,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 10,
+                'endpage' : 129,
+                'src_language_name' : u'Xavánte',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Xavante',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'macro-ge/hall2004_dictdata_10_129.xml',
+                'component' : 'Macro-Ge'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 9,
+                'title': u'Start pages',
+                'file' : 'macro-ge/hall2004_nondictdata_1_9.htm',
+                'component' : 'Macro-Ge'
+            },
+            {
+                'startpage' : 246,
+                'endpage' : 343,
+                'title': u'Apêndices',
+                'file' : 'macro-ge/hall2004_nondictdata_246_343.htm',
+                'component' : 'Macro-Ge'
+            }
+        ]
     }
 
 ]

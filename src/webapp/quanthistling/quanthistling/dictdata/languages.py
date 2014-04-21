@@ -1383,6 +1383,18 @@ list = [
         'name' : u'Tenharim',
         'langcode': u'pah',
         'description' : u'',
-        'url' : u'http://www.ethnologue.com/show_language.asp?code=dny'
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pah'
+    },
+    {
+        'name' : u'Apalaí',
+        'langcode': u'apy',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=apy'
+    },
+    {
+        'name' : u'Xavánte',
+        'langcode': u'xav',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=xav'
     },
 ]
