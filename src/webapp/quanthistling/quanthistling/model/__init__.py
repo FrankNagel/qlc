@@ -135,7 +135,7 @@ annotation_table = schema.Table('annotation', meta.metadata,
     schema.Column('start', types.Integer, nullable=False),
     schema.Column('end', types.Integer, nullable=False),
     schema.Column('value', types.Unicode(255)),
-    schema.Column('string', types.Unicode(1024)),
+    schema.Column('string', types.Unicode(2500)),
 )
 
 annotationtype_table = schema.Table('annotationtype', meta.metadata,

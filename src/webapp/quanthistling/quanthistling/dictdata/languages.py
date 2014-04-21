@@ -1379,4 +1379,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=dny'
     },
+    {
+        'name' : u'Tenharim',
+        'langcode': u'pah',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=dny'
+    },
 ]

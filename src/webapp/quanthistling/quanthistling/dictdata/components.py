@@ -43,6 +43,10 @@ list = [
         'description' : u'',
     },
     {
+        'name' : u'Tupí',
+        'description' : u'',
+    },
+    {
         'name' : u'Other',
         'description' : u'',
     },

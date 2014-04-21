@@ -2233,6 +2233,38 @@ list = [
                 'component' : 'Arauan'
             }
         ]
+    },
+    {
+        'title' : u'Kagwahiva Dictionary',
+        'author' : u'Betts, LaVera',
+        'year' : 2012,
+        'bibtex_key' : u'betts2012',
+        'pages' : 295,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 17,
+                'endpage' : 295,
+                'src_language_name' : u'Tenharim',
+                'tgt_language_name' : u'English',
+                'src_language_bookname' : u'Kagwahiva',
+                'tgt_language_bookname' : u'English',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/betts2012_dictdata_17_295.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 16,
+                'title': u'Start pages',
+                'file' : 'tupi/betts2012_nondictdata_0_16.htm',
+                'component' : 'Tupí'
+            }
+        ]
     }
 
 ]
