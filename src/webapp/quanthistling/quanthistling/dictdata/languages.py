@@ -1397,4 +1397,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=xav'
     },
+    {
+        'name' : u'Guaraní',
+        'langcode': u'gun',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gun'
+    },
 ]

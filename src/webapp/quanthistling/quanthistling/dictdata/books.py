@@ -2267,6 +2267,31 @@ list = [
         ]
     },
     {
+        'title' : u'Léxico Guarani, dialeto Mbyá',
+        'author' : u'Dooley, Robert A.',
+        'year' : 2006,
+        'bibtex_key' : u'dooley2006',
+        'pages' : 206,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 206,
+                'src_language_name' : u'Guaraní',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Mbyá',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/dooley2006_dictdata_1_206.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
+    {
         'title' : u'Vocabulário Básico, Apalaí-Português',
         'author' : u'Koehn, Edward Henry and Koehn, Sally Sharp',
         'year' : 1995,
