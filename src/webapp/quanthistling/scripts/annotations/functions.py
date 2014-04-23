@@ -223,7 +223,7 @@ def get_last_italic_in_range(entry, s, e):
 
 def insert_annotation(entry, s, e, annotation, string = None):
     if not string:
-        string = entry.fullentry[start:end]
+        string = entry.fullentry[s:e]
     entry.append_annotation(s, e, annotation, u"dictinterpretation", string)
     return string
 
@@ -263,27 +263,27 @@ def insert_head(entry, s, e, string = None, lang_iso = None, lang_doculect = Non
     string_new = string
     if string == None:
         (start, end, string_new) = remove_parts(entry, start, end)
-    if not re.match(r" *$", string_new):
-        string_new = re.sub(u"ɨ́", u"í̵", string_new.lower())
-        
-        src_languages = entry.dictdata.src_languages
-        if lang_iso == None:
-            if len(src_languages) == 1:
-                if src_languages[0].language_iso:
-                    lang_iso = src_languages[0].language_iso.langcode
-        if lang_iso != None:
-            insert_annotation(entry, s, e, u"iso-639-3", lang_iso)
-
-        if lang_doculect == None:
-            if len(src_languages) == 1:
-                if src_languages[0].language_bookname:
-                    lang_doculect = src_languages[0].language_bookname.name
-        if lang_doculect != None:
-            insert_annotation(entry, s, e, u"doculect", lang_doculect)
-        
-        return insert_annotation(entry, s, e, u"head", string_new)
-    else:
+    if not string_new.strip():
         return None
+
+    string_new = re.sub(u"ɨ́", u"í̵", string_new.lower())
+
+    src_languages = entry.dictdata.src_languages
+    if lang_iso == None:
+        if len(src_languages) == 1:
+            if src_languages[0].language_iso:
+                lang_iso = src_languages[0].language_iso.langcode
+    if lang_iso != None:
+        insert_annotation(entry, start, end, u"iso-639-3", lang_iso)
+
+    if lang_doculect == None:
+        if len(src_languages) == 1:
+            if src_languages[0].language_bookname:
+                lang_doculect = src_languages[0].language_bookname.name
+    if lang_doculect != None:
+        insert_annotation(entry, start, end, u"doculect", lang_doculect)
+
+    return insert_annotation(entry, start, end, u"head", string_new)
 
 def insert_translation(entry, s, e, string = None, lang_iso = None, lang_doculect = None):
     start = s
@@ -291,24 +291,23 @@ def insert_translation(entry, s, e, string = None, lang_iso = None, lang_doculec
     string_new = string
     if string == None:
         (start, end, string_new) = remove_parts(entry, start, end)
-    if not re.match(r" *$", string_new):
-
-        tgt_languages = entry.dictdata.tgt_languages
-        if lang_iso == None:
-            if len(tgt_languages) == 1:
-                lang_iso = tgt_languages[0].language_iso.langcode
-        if lang_iso != None:
-            insert_annotation(entry, s, e, u"iso-639-3", lang_iso)
-
-        if lang_doculect == None:
-            if len(tgt_languages) == 1:
-                lang_doculect = tgt_languages[0].language_bookname.name
-        if lang_doculect != None:
-            insert_annotation(entry, s, e, u"doculect", lang_doculect)
-
-        return insert_annotation(entry, s, e, u"translation", string_new.lower())
-    else:
+    if not string_new.strip():
         return None
+ 
+    tgt_languages = entry.dictdata.tgt_languages
+    if lang_iso == None:
+        if len(tgt_languages) == 1:
+            lang_iso = tgt_languages[0].language_iso.langcode
+    if lang_iso != None:
+        insert_annotation(entry, start, end, u"iso-639-3", lang_iso)
+
+    if lang_doculect == None:
+        if len(tgt_languages) == 1:
+            lang_doculect = tgt_languages[0].language_bookname.name
+    if lang_doculect != None:
+        insert_annotation(entry, start, end, u"doculect", lang_doculect)
+
+    return insert_annotation(entry, start, end, u"translation", string_new.lower())
     
 def insert_pos(entry, s, e, string = None):
     start = s
@@ -316,7 +315,7 @@ def insert_pos(entry, s, e, string = None):
     string_new = string
     if string == None:
         (start, end, string_new) = remove_parts(entry, start, end)
-    if not re.match(r" *$", string_new):
-        return insert_annotation(entry, s, e, u"pos", string_new.lower())
+    if string_new.strip():
+        return insert_annotation(entry, start, end, u"pos", string_new.lower())
     else:
         return None
