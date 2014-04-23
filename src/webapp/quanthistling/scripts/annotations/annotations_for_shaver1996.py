@@ -52,24 +52,10 @@ def annotate_pos(entry):
     for a in pos_annotations:
         Session.delete(a)
 
-    # Delete this code and insert your code
-    newline_annotations = [ a for a in entry.annotations if a.value=='newline']
-    newline_annotations = sorted(newline_annotations, key=attrgetter('start'))
-    
-    if len(newline_annotations) < 2:
-        functions.print_error_in_entry(entry)
-        return
-    else:
-        first_newline = newline_annotations[1]
-    
-    first_line = entry.fullentry[:first_newline.start]
-    
-    match_pos = re.search("\(([^)]{1,8})\)", first_line)
-    
-    if match_pos:
-        entry.append_annotation(match_pos.start(1), match_pos.end(1), u"pos", u"dictinterpretation")
-    else:
-        functions.print_error_in_entry(entry)
+    head_end = functions.get_head_end(entry)
+    italic = functions.get_first_italic_in_range(entry, 0, len(entry.fullentry))
+    if italic != -1 and (italic[0]-2) < head_end:
+        entry.append_annotation(italic[0], italic[1], u'pos', u'dictinterpretation')
 
 
 def annotate_translations(entry):
@@ -77,6 +63,28 @@ def annotate_translations(entry):
     trans_annotations = [ a for a in entry.annotations if a.value=='translation']
     for a in trans_annotations:
         Session.delete(a)
+
+    translation_start = functions.get_pos_or_head_end(entry)
+
+    if re.match(" ?\(vea ", entry.fullentry[translation_start:]):
+        return
+
+    if re.search("\d\. ", entry.fullentry[translation_start:]):
+        for match_number in re.finditer("\d\. ", entry.fullentry[translation_start:]):
+            start = translation_start + match_number.end(0)
+            match_translation = re.match("([^\.]*)\.", entry.fullentry[start:])
+            end = len(entry.fullentry)
+            if match_translation:
+                end = start + match_translation.end(1)
+            for s, e in functions.split_entry_at(entry, r"(?:[;,] |$)", start, end):
+                functions.insert_translation(entry, s, e)
+    else:
+        match_translation = re.match("([^\.]*)\.", entry.fullentry[translation_start:])
+        end = len(entry.fullentry)
+        if match_translation:
+            end = translation_start + match_translation.end(1)
+        for s, e in functions.split_entry_at(entry, r"(?:[;,] |$)", translation_start, end):
+            functions.insert_translation(entry, s, e)
 
  
 def main(argv):
@@ -101,8 +109,8 @@ def main(argv):
 
     for dictdata in dictdatas:
 
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=73,pos_on_page=2).all()
+        entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=73,pos_on_page=2).all()
 
         startletters = set()
     
@@ -112,8 +120,8 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            #annotate_pos(e)
-            #annotate_translations(e)
+            annotate_pos(e)
+            annotate_translations(e)
         
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
 

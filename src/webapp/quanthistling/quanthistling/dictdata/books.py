@@ -2314,6 +2314,27 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 10,
+                'title': u'Start pages',
+                'file' : 'tupi/kakumasukakumasu2007_nondictdata_1_10.htm',
+                'component' : 'Tupí'
+            },
+            {
+                'startpage' : 11,
+                'endpage' : 99,
+                'title': u'Dicionário por tópicos',
+                'file' : 'tupi/kakumasukakumasu2007_nondictdata_11_99.htm',
+                'component' : 'Tupí'
+            },
+            {
+                'startpage' : 199,
+                'endpage' : 210,
+                'title': u'Perfil da gramática da língua Kaapor',
+                'file' : 'tupi/kakumasukakumasu2007_nondictdata_199_210.htm',
+                'component' : 'Tupí'
+            }
         ]
     },
     {
