@@ -2292,6 +2292,31 @@ list = [
         ]
     },
     {
+        'title' : u'Dicionário por tópicos Kaapor-Português',
+        'author' : u'Kakumasu, James Y. and Kakumasu, Kiyoko',
+        'year' : 2007,
+        'bibtex_key' : u'kakumasukakumasu2007',
+        'pages' : 210,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 100,
+                'endpage' : 147,
+                'src_language_name' : u'Kaapor',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Kaapor',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/kakumasukakumasu2007_dictdata_100_147.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
+    {
         'title' : u'Vocabulário Básico, Apalaí-Português',
         'author' : u'Koehn, Edward Henry and Koehn, Sally Sharp',
         'year' : 1995,

@@ -1403,4 +1403,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=gun'
     },
+    {
+        'name' : u'Kaapor',
+        'langcode': u'urb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=urb'
+    },
 ]
