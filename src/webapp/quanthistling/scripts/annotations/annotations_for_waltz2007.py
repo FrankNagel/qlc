@@ -27,7 +27,33 @@ def find_brackets(entry):
     for match in re.finditer('\([^\)]*\)', entry.fullentry):
         result.append( (match.start(), match.end()) )
     return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
-    
+
+def is_number_string(s):
+    try:
+        _ = int(s)
+        return True
+    except ValueError:
+        return False
+
+def annotate_heads(entry):
+    heads = []
+    #collect all bold parts up to the first italic part
+    bold = functions.get_list_bold_ranges(entry)
+    italic = functions.get_first_italic_range(entry)
+    bold = [x for x in bold if x[1]<=italic[0]]
+
+    #split bold parts on ',' and insert heads
+    for start, end in bold:
+        part = entry.fullentry[start:end]
+        for match in re.finditer('([^,]*)(,|$)', part):
+            #skip bold numbers
+            if is_number_string(match.group(1)):
+                continue
+            head = functions.insert_head(entry, start+match.start(1), start+match.end(1))
+            if head:
+                heads.append(head)
+    return heads
+
 
 def annotate_everything(entry):
     # delete annotations
@@ -36,90 +62,9 @@ def annotate_everything(entry):
         Session.delete(a)
 
     in_brackets = find_brackets(entry)
-    # heads
-    head = None
-    heads = []
     
-    head_end_tmp = functions.get_last_bold_pos_at_start(entry)
-    head_tmp = entry.fullentry[:head_end_tmp]
-    match = re.match(u'(\w+.*)\d+\.', head_tmp)
-    match_sb = re.finditer(u' \[.*?\], ', entry.fullentry)
-    
-    fi = functions.get_first_italic_range(entry)
-    # fi[0] = italic start position
-    
-    # look for more heads after square brackets
-    if match_sb:
-        for y in match_sb:
-            # look for more bold
-            first_bold = functions.get_first_bold_start_in_range(entry, y.end(0), fi[0])
-            if first_bold != -1:
-                head = entry.fullentry[first_bold:fi[0]]
-                
-                com_list = []
-                for c in re.finditer(r',', entry.fullentry):
-                    com_list.append(c.start())
-                com_list_ab = [ a for a in com_list if a > y.end(0)]
-                
-                if com_list_ab:
-                    for i in range(len(com_list_ab)):
-                        if i == 0:
-                            h_s = first_bold
-                            h_e = com_list_ab[i]
-                            h1 = functions.insert_head(entry, h_s, h_e)
-                            
-                            h2_s = com_list_ab[0] + 2
-                            if i + 1 < len(com_list_ab):
-                                h2_e = com_list_ab[i+1]
-                                h2 = functions.insert_head(entry, h2_s, h2_e)
-                            else:
-                                h2 = functions.insert_head(entry, h2_s, fi[0])
-                        else:
-                            h_s = com_list_ab[i] + 2
-                            if i + 1 < len(com_list_ab):
-                                h_e = com_list_ab[i+1]
-                                head = functions.insert_head(entry, h_s, h_e)
-                            else:
-                                head = functions.insert_head(entry, h_s, fi[0])
-                else:
-                    functions.insert_head(entry, first_bold, fi[0], head)
-    
-    # remove numbers at end of head
-    if match:
-        head_tmp = match.group(1)
-        head_end_tmp = head_end_tmp - 3
-    
-    sep_list = []
-    for c in re.finditer(r',', head_tmp):
-        sep_list.append(c.start())
-    
-    if sep_list:
-        for i in range(len(sep_list)):
-            if i == 0:
-                head_start = 0
-                head_end = sep_list[i]
-                head = functions.insert_head(entry, head_start, head_end)
-                
-                head2_start = sep_list[0] + 2
-                if i + 1 < len(sep_list):
-                    head2_end = sep_list[1]
-                    head = functions.insert_head(entry, head2_start, head2_end)
-                    i += 1
-                else:
-                    head = functions.insert_head(entry, head2_start, head_end_tmp)
-            else:
-                head_start = sep_list[i] + 2
-                if i + 1 < len(sep_list):
-                    head_end = sep_list[i+1]
-                    head = functions.insert_head(entry, head_start, head_end)
-                    i += 1
-                else:
-                    head = functions.insert_head(entry, head_start, head_end_tmp)   
-    else:
-        head = functions.insert_head(entry, 0, head_end_tmp)
-        heads.append(head)  
-    
-    
+    heads = annotate_heads(entry)
+        
     # parts of speech    
     pos_se = functions.get_first_italic_range(entry)
     if pos_se:
