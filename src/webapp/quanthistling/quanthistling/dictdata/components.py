@@ -58,5 +58,9 @@ list = [
         'name' : u'Other',
         'description' : u'',
     },
+    {
+        'name' : u'Nambiquaran',
+        'description' : u'',
+    },
 
 ]

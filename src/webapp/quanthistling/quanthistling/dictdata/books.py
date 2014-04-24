@@ -2407,6 +2407,35 @@ list = [
                 'component' : 'Macro-Ge'
             }
         ]
+    },
+
+##################################### Nambiquaran
+
+    {
+        'title' : u'DICIONÁRIO ESCOLAR BILÍNGUE NAMBIKUARA – PORTUGUÊS PORTUGUÊS – NAMBIKUARA',
+        'author' : u'Kroeker, Menno',
+        'year' : 1996,
+        'bibtex_key' : u'kroeker1996',
+        'pages' : 189,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 10,
+                'endpage' : 92,
+                'src_language_name' : u'Nambikuára, Southern',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'NAMBIKUARA',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'nambiquaran/kroeker1996_dictdata_10_92.xml',
+                'component' : 'Nambiquaran'
+            },
+        ],
+        'nondictdata' : [
+            
+        ]
     }
 
 ]

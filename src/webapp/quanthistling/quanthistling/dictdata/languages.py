@@ -1409,4 +1409,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=urb'
     },
+    {
+        'name' : u'Nambikuára, Southern',
+        'langcode': u'nab',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=nab'
+    },
 ]
