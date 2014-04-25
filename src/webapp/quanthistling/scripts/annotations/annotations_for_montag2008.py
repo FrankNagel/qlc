@@ -22,6 +22,22 @@ from paste.deploy import appconfig
 
 import functions  
 
+def find_brackets(entry):
+    result = []
+    for match in re.finditer('\([^\)]*\)', entry.fullentry):
+        result.append( (match.start(), match.end()) )
+    return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
+
+def remove_parts(entry, start, end):
+    start, end, string = functions.remove_parts(entry, start, end)
+    while string and string[0] == '-':
+        start += 1
+        string = string[1:]
+    while string and string[-1] == '-':
+        end -= 1
+        string = string[:-1]
+    string = string.replace('-', '')
+    return start, end, string
 
 def annotate_head(entry):
     # delete head annotations
@@ -38,10 +54,17 @@ def annotate_head(entry):
     if match_bracket:
         head_end_pos = head_end_pos - len(match_bracket.group(0))
 
-    inserted_head = functions.insert_head(entry, head_start_pos, head_end_pos)
+    head_start_pos, head_end_pos, inserted_head = remove_parts(entry, head_start_pos, head_end_pos)
+    functions.insert_head(entry, head_start_pos, head_end_pos, inserted_head)
     heads.append(inserted_head)
     
     return heads
+
+def find_crossref(entry, start, end):
+    index = entry.fullentry.find('(Vea')
+    if index == -1 or index > end:
+        return end
+    return index
 
 def annotate_translations_and_examples(entry):
     # delete pos annotations
@@ -67,6 +90,7 @@ def annotate_translations_and_examples(entry):
             if end == -1:
                 end = match.end(1)
             start = match.start(1)
+            end = find_crossref(entry, start, end)
             translation_starts.append(start)
             translation_ends.append(end)
             annotate_examples_in_range(entry, match.start(1), match.end(1))
@@ -74,19 +98,24 @@ def annotate_translations_and_examples(entry):
         end = functions.get_first_bold_start_in_range(entry, head_end, len(entry.fullentry))
         if end == -1:
             end = len(entry.fullentry)
+        end = find_crossref(entry, head_end, end)
         translation_starts.append(head_end)
         translation_ends.append(end)
         annotate_examples_in_range(entry, head_end, len(entry.fullentry))
 
+    in_brackets = find_brackets(entry)
     for i in range(len(translation_starts)):
         start = translation_starts[i]
-        for match in re.finditer(u"(?:, |$)", entry.fullentry[translation_starts[i]:translation_ends[i]]):
+        for match in re.finditer(u"(?:; |, |$)", entry.fullentry[translation_starts[i]:translation_ends[i]]):
+            if in_brackets(translation_starts[i] + match.start(0)):
+                continue
             end = translation_starts[i] + match.start(0)
             functions.insert_translation(entry, start, end)
             start = translation_starts[i] + match.end(0)
 
 def annotate_examples_in_range(entry, start, end):
-
+    end = find_crossref(entry, start, end)
+    
     sorted_annotations = [ a for a in entry.annotations if a.value=='bold' and a.start >=start and a.end<=end ]
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
     
@@ -113,6 +142,22 @@ def annotate_examples_in_range(entry, start, end):
                 
         i = i + 1
 
+def annotate_crossrefs(entry):
+    for a in entry.annotations:
+        if a.value=='crossreference':
+            Session.delete(a)
+    for match in re.finditer('\(Vea +(.*)\.\)', entry.fullentry):
+        offset = match.start(1)
+        part = entry.fullentry[offset:match.end(1)]
+        start = offset
+        for sep in re.finditer(', *|$', part):
+            end = offset+sep.start(0)
+            crossref = entry.fullentry[start:end]
+            if crossref.startswith( (u'Apéndice', u'sección') ):
+                continue
+            start, end, crossref = remove_parts(entry, start, end)
+            entry.append_annotation(start, end, u'crossreference', u'dictinterpretation', crossref)
+            start = offset+sep.end(0)
 
 def main(argv):
     bibtex_key = u"montag2008"
@@ -138,7 +183,7 @@ def main(argv):
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=13,pos_on_page=11).all()
         #entries = []
-        
+
         startletters = set()
         for e in entries:
             heads = annotate_head(e)
@@ -146,6 +191,7 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
+            annotate_crossrefs(e)
             annotate_translations_and_examples(e)
 
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
