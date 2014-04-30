@@ -216,8 +216,7 @@ def main(argv):
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=92,pos_on_page=8).all()
         #entries = []
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=166,pos_on_page=9).all()
-        
+    
         startletters = set()
         for e in entries:
             heads = annotate_heads_and_crossrefs(e)
@@ -225,10 +224,9 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            #annotate_pos(e)
-            #annotate_translations(e)
-            #annotate_examples(e)
-            #annotate_crossrefs(e)
+            annotate_pos(e)
+            annotate_translations(e)
+            annotate_examples(e)
 
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
         
