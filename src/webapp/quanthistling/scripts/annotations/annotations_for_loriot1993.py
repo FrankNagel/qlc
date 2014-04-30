@@ -21,8 +21,18 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
-#from manualannotations_for_aguiar1994 import manual_entries
 
+#find end of translation as first occurence of '-Usase'
+usase_regex = re.compile(u'[-–]Usase')
+def find_usase_start(entry, start, end):
+    #when a translation contains only a 'usase' this should be used as translation (including the 'usase')
+    #according to clinares; accordingly don't dismiss this part.
+    #if entry.fullentry[start:].startswith('Usase'): # '-' gets stripped from translation if '-' is in first position
+    #    return start
+    match = usase_regex.search(entry.fullentry, start)
+    if match is None or match.start() >= end:
+        return end
+    return match.start()
 
 def get_max_head_end(entry):
     max_head_end = -1
@@ -56,7 +66,7 @@ def annotate_heads_and_crossrefs(entry):
     max_head_end = get_max_head_end(entry)
     
     if max_head_end == -1:
-        match_crossref = re.search(u"[Vv]éase (.*)", entry.fullentry)
+        match_crossref = re.search(u"[Vv]éase(?: bajo)? (.*)", entry.fullentry)
         if match_crossref:
             entry.append_annotation(match_crossref.start(1), match_crossref.end(1), u'crossreference', u'dictinterpretation')
             max_head_end = match_crossref.start(1)
@@ -65,6 +75,8 @@ def annotate_heads_and_crossrefs(entry):
             print "    Page: %i, Pos: %i" % (entry.startpage, entry.pos_on_page)
             max_head_end = len(entry.fullentry)
             #return heads
+    else:
+        annotate_additional_crossrefs(entry)
 
     sorted_annotations = [ a for a in entry.annotations if a.value=='bold' and a.end < max_head_end ]
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
@@ -81,6 +93,32 @@ def annotate_heads_and_crossrefs(entry):
     
     return heads
 
+def annotate_additional_crossrefs(entry):
+    italic = functions.get_list_ranges_for_annotation(entry, 'italic')
+    for start, end in italic:
+        snip = entry.fullentry[start:end+2].strip()
+        if not snip.startswith(u'sino\u0301n. '):
+            continue
+        start = end+1
+        end = entry.fullentry.find('.', start)
+        if end == -1:
+            end = len(entry.fullentry)
+        cr_start = start
+        pattern = re.compile(u'; |$| sino\u0301n| sinón')
+        for match in pattern.finditer(entry.fullentry, start, end):
+            cr_start, cr_end, cr = functions.remove_parts(entry, cr_start, match.start())
+            for invalid in  (u'Ve\u0301ase bajo ', u'Ve\u0301ase ', u'Vease ', u'Vea\u0301se ', u'Ve\u0301a\u0301se ', u'-'):
+                if cr.startswith(invalid):
+                    cr_start += len(invalid)
+                    cr = cr[len(invalid):]
+            if cr.strip():
+                if len(cr) < 35: #constant derived from data to sift out bogus crossrefs
+                    entry.append_annotation(cr_start, cr_end, u'crossreference', u'dictinterpretation', cr)
+                else:
+                    functions.print_error_in_entry(entry, 'skipping long crossref: ' + cr.encode('utf8'))
+                    break
+            cr_start = match.end()
+            
 def annotate_pos(entry):
     # delete pos annotations
     pos_annotations = [ a for a in entry.annotations if a.value=='pos']
@@ -131,6 +169,7 @@ def annotate_translations(entry):
                 match_star = re.match(" ?\*", subsubstr)
                 if match_star:
                     start += len(match_star.group(0))
+                end = find_usase_start(entry, start, end)
                 functions.insert_translation(entry, start, end)
                 
             start = match.end(0) + translations_starts[i]
@@ -177,6 +216,7 @@ def main(argv):
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=92,pos_on_page=8).all()
         #entries = []
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=166,pos_on_page=9).all()
         
         startletters = set()
         for e in entries:
@@ -185,9 +225,9 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            annotate_pos(e)
-            annotate_translations(e)
-            annotate_examples(e)
+            #annotate_pos(e)
+            #annotate_translations(e)
+            #annotate_examples(e)
             #annotate_crossrefs(e)
 
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
