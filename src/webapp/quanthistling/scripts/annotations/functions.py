@@ -65,10 +65,13 @@ def get_dict_bold_ranges(entry):
    
     return dict_br
 
-def get_list_ranges_for_annotation(entry, annotation_value, start=0):
+def get_list_ranges_for_annotation(entry, annotation_value, start=0, end=-1):
+    if end == -1:
+        end = len(entry.fullentry) - 1
+
     sorted_annotations = [ [a.start, a.end]
         for a in sorted(entry.annotations, key=attrgetter('start'))
-        if a.value==annotation_value and a.start >= start ]
+        if a.value==annotation_value and a.start >= start and a.end <= end ]
     
     if len(sorted_annotations) == 0:
         return []

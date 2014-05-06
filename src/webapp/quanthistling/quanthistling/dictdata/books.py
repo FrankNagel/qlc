@@ -2127,17 +2127,6 @@ list = [
                 'file' : 'guaicuruan/griffiths2002_dictdata_5_170.xml',
                 'component' : 'Guaicuruan'
             },
-            {
-                'startpage' : 173,
-                'endpage' : 234,
-                'src_language_name' : u'Kadiwéu',
-                'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'Kadiwéu',
-                'tgt_language_bookname' : u'Portuguese',
-                're_letter_only': r'^\w\s*$',
-                'file' : 'guaicuruan/griffiths2002_dictdata_173_234.xml',
-                'component' : 'Guaicuruan'
-            },
         ],
         'nondictdata' : [
             {
