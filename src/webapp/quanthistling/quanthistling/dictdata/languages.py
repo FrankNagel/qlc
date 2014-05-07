@@ -1415,4 +1415,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=nab'
     },
+    {
+        'name' : u'Karipuna Creole French',
+        'langcode': u'kmv',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kmv'
+    },
 ]

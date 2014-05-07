@@ -2223,6 +2223,9 @@ list = [
             }
         ]
     },
+
+    ############### Tupí ################
+
     {
         'title' : u'Kagwahiva Dictionary',
         'author' : u'Betts, LaVera',
@@ -2327,6 +2330,48 @@ list = [
         ]
     },
     {
+        'title' : u'Dicionário Crioulo Karípúna/Português Português/Crioulo Karípúna',
+        'author' : u'Tobler, Alfred W.',
+        'year' : 1987,
+        'bibtex_key' : u'tobler1987',
+        'pages' : 79,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 42,
+                'src_language_name' : u'Karipuna Creole French',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Crioulo Karípúna',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/tobler1987_dictdata_1_42.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'tupi/tobler1987_nondictdata_0_0.htm',
+                'component' : 'Tupí'
+            },
+            {
+                'startpage' : 43,
+                'endpage' : 44,
+                'title': u'Apêndice',
+                'file' : 'tupi/tobler1987_nondictdata_43_44.htm',
+                'component' : 'Tupí'
+            }
+        ]
+    },
+
+    ##################### Carib ######################
+
+    {
         'title' : u'Vocabulário Básico, Apalaí-Português',
         'author' : u'Koehn, Edward Henry and Koehn, Sally Sharp',
         'year' : 1995,
@@ -2415,7 +2460,7 @@ list = [
                 'endpage' : 92,
                 'src_language_name' : u'Nambikuára, Southern',
                 'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'NAMBIKUARA',
+                'src_language_bookname' : u'Nambikuara',
                 'tgt_language_bookname' : u'Português',
                 're_letter_only': r'^\w\s*$',
                 'file' : 'nambiquaran/kroeker1996_dictdata_10_92.xml',
