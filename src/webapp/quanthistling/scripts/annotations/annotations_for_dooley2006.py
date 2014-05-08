@@ -22,6 +22,24 @@ from paste.deploy import appconfig
 
 import functions
 
+def insert_head(entry, start, end):
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith(" "):
+        start += 1
+    if str_head.endswith(" "):
+        end -= 1
+
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith("-"):
+        entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        start += 1
+    if str_head.endswith("-"):
+        entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        end -= 1
+
+    return functions.insert_head(entry, start, end)
+
+
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -33,10 +51,8 @@ def annotate_head(entry):
     heads = []
     
     head_end = functions.get_last_bold_pos_at_start(entry)
-    head_all = entry.fullentry[:head_end]
-    head_all = head_all.rstrip()
     
-    head = functions.insert_head(entry, 0, head_end, head_all)        
+    head = insert_head(entry, 0, head_end) 
     heads.append(head)
 
     return heads

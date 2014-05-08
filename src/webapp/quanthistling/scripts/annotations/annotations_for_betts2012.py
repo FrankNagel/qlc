@@ -22,6 +22,28 @@ from paste.deploy import appconfig
 
 import functions
 
+def insert_head(entry, start, end):
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith(" "):
+        start += 1
+    if str_head.endswith(" "):
+        end -= 1
+
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith("-"):
+        entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        start += 1
+    if str_head.endswith("-"):
+        entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        end -= 1
+
+    str_head = entry.fullentry[start:end]
+    for match in re.finditer(u"-", str_head):
+        entry.append_annotation(match.start(0), match.end(0), u'boundary', u'dictinterpretation', u"compound boundary")
+
+    str_head = re.sub("-", "", str_head)
+    return functions.insert_head(entry, start, end, str_head)
+
 
 def annotate_head(entry):
     # delete head annotations
@@ -40,7 +62,7 @@ def annotate_head(entry):
     if "(Tenh)" in head_all or "(K)" in head_all or "(Uru)" in head_all or "(Am)" in head_all:
         return True, []
     
-    head = functions.insert_head(entry, 0, head_end, head_all)        
+    head = insert_head(entry, 0, head_end)
     heads.append(head)
 
     return False, heads
@@ -74,6 +96,10 @@ def annotate_translations(entry):
     bold = functions.get_first_bold_in_range(entry, translation_start, translation_end)
     if bold != -1:
         translation_end = bold[0] - 1
+
+    match_number = re.match(" ?\d\) ?", entry.fullentry[translation_start:translation_end])
+    if match_number:
+        translation_start += len(match_number.group(0))
 
     functions.insert_translation(entry, translation_start, translation_end)
  
