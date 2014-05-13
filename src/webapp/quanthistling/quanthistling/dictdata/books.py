@@ -2368,6 +2368,30 @@ list = [
             }
         ]
     },
+    {
+        'title' : u'DICIONÁRIO POR TÓPICOS nas línguas OIAMPI (WAJAPĨ) -PORTUGUÊS',
+        'author' : u'Olson, Roberta',
+        'year' : 1978,
+        'bibtex_key' : u'olson1978',
+        'pages' : 23,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 7,
+                'endpage' : 23,
+                'src_language_name' : u'Wayampi',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'OIAMPI (WAJAPĨ)',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/olson1978_dictdata_7_23.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : []
+    },
 
     ##################### Carib ######################
 

@@ -1421,4 +1421,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=kmv'
     },
+    {
+        'name' : u'Wayampi',
+        'langcode': u'oym',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=oym'
+    },
 ]
