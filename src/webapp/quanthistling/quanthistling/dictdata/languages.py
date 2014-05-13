@@ -1427,4 +1427,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=oym'
     },
+    {
+        'name' : u'Arabela',
+        'langcode': u'arl',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=arl'
+    },
 ]

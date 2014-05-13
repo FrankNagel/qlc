@@ -777,7 +777,9 @@ list = [
             },
         ]
     },
+
 ##################################### Zaparoan
+
     {
         'title' : u'La Lengua Zápara del Ecuador',
         'author' : u'Stark, Louisa R.',
@@ -810,6 +812,49 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'DICCIONARIO ARABELA-CASTELLANO',
+        'author' : u'Rich, Rolland G.',
+        'year' : 1999,
+        'bibtex_key' : u'rolland1999',
+        'pages' : 643,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 101,
+                'endpage' : 445,
+                'src_language_name' : u'Arabela',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Arabela',
+                'tgt_language_bookname' : u'Castellano',
+                're_letter_only': u'^<b>\w+</b>\s*$',
+                'file' : 'zaparoan/rolland1999_dictdata_101_445.xml',
+                'component' : 'Zaparoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 20,
+                'title': u'Start pages',
+                'file' : 'zaparoan/rolland1999_nondictdata_1_20.htm',
+                'component' : 'Zaparoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 21,
+                'endpage' : 100,
+                'title': u'Notas gramaticales',
+                'file' : 'zaparoan/rolland1999_nondictdata_21_100.htm',
+                'component' : 'Zaparoan'
+            },
+        ]
+    },
+
+
 ################################# Tucanoan
     {
         'title' : u'Mi Primer Diccionario',	
