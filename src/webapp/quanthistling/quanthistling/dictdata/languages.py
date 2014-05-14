@@ -1499,4 +1499,106 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=tan'
     },
+    {
+        'name' : u'Dera',
+        'langcode': u'kna',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kna'
+    },
+    {
+        'name' : u'Miya',
+        'langcode': u'mkf',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mkf'
+    },
+    {
+        'name' : u'Boghom',
+        'langcode': u'bux',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bux'
+    },
+    {
+        'name' : u'Geji',
+        'langcode': u'gji',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gji'
+    },
+    {
+        'name' : u'Polci',
+        'langcode': u'plj',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=plj'
+    },
+    {
+        'name' : u'Saya',
+        'langcode': u'say',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=say'
+    },
+    {
+        'name' : u'Ngizim',
+        'langcode': u'ngi',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ngi'
+    },
+    {
+        'name' : u'Bade',
+        'langcode': u'bde',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bde'
+    },
+    {
+        'name' : u'Hwana',
+        'langcode': u'hwo',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=hwo'
+    },
+    {
+        'name' : u'Ga\'anda',
+        'langcode': u'gqa',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/gqa'
+    },
+    {
+        'name' : u'Boga',
+        'langcode': u'bvw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/bvw'
+    },
+    {
+        'name' : u'Bura-Pabir',
+        'langcode': u'bwr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/bwr'
+    },
+    {
+        'name' : u'Cibak',
+        'langcode': u'ckl',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/ckl'
+    },
+    {
+        'name' : u'Nggwahyi',
+        'langcode': u'ngx',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/ngx'
+    },
+    {
+        'name' : u'Huba',
+        'langcode': u'hbb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/hbb'
+    },
+    {
+        'name' : u'Kamwe',
+        'langcode': u'hig',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/hig'
+    },
+    {
+        'name' : u'Kirya-Konzel',
+        'langcode': u'fkk',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/fkk'
+    },
 ]

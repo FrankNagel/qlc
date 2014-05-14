@@ -1310,7 +1310,7 @@ list = [
         'pages' : 261,
         'columns' : 1,
         'is_ready' : False,
-        'file' : 'comparative_wordlists/zgraggen1980d_wordlistdata_1_159.xml',
+        'file' : 'comparative_wordlists/kraft1981_wordlistdata_1_0_261.xml',
         'type' : 'wordlist',
         'wordlistdata' : [
             {
@@ -1397,6 +1397,83 @@ list = [
                 'language_bookname' : u'Tangale',
                 'component' : 'Chadic'
             },
+            {
+                'startpage' : 131,
+                'endpage' : 136,
+                'language_name' : u'Dera',
+                'language_bookname' : u'Dera',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 145,
+                'endpage' : 150,
+                'language_name' : u'Miya',
+                'language_bookname' : u'Miya',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 158,
+                'endpage' : 163,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Dira',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 171,
+                'endpage' : 176,
+                'language_name' : u'Boghom',
+                'language_bookname' : u'Burma',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 183,
+                'endpage' : 188,
+                'language_name' : u'Geji',
+                'language_bookname' : u'Geji',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 196,
+                'endpage' : 201,
+                'language_name' : u'Polci',
+                'language_bookname' : u'Buli',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 208,
+                'endpage' : 213,
+                'language_name' : u'Saya',
+                'language_bookname' : u'Seya',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 222,
+                'endpage' : 227,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Dwot',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 235,
+                'endpage' : 240,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Pəlci',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 246,
+                'endpage' : 251,
+                'language_name' : u'Ngizim',
+                'language_bookname' : u'Ngizim',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 256,
+                'endpage' : 251,
+                'language_name' : u'Bade',
+                'language_bookname' : u'Bade',
+                'component' : 'Chadic'
+            },
         ],
         'nonwordlistdata' : [
             {
@@ -1476,7 +1553,378 @@ list = [
                 'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_115_119.htm',
                 'component' : 'Chadic'
             },
+            {
+                'startpage' : 126,
+                'endpage' : 130,
+                'title': u'Language: Kanakuru (Dera)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_126_130.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 137,
+                'endpage' : 144,
+                'title': u'Language: Miya',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_137_144.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 151,
+                'endpage' : 157,
+                'title': u'Language: Dira(wa) (Zula(wa) – Zul is 15 miles from Dir Same language.)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_151_157.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 164,
+                'endpage' : 170,
+                'title': u'Language: Burma',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_164_170.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 177,
+                'endpage' : 182,
+                'title': u'Language: Geji',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_177_182.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 189,
+                'endpage' : 195,
+                'title': u'Language: Buli',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_189_195.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 202,
+                'endpage' : 207,
+                'title': u'Language: Seya(wa)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_202_207.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 214,
+                'endpage' : 221,
+                'title': u'Language: Dwot',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_214_221.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 228,
+                'endpage' : 234,
+                'title': u'Language: Pəlci',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_228_234.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 241,
+                'endpage' : 245,
+                'title': u'Language: Ngizim',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_241_245.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 252,
+                'endpage' : 255,
+                'title': u'Language: Bade (dialect of Dəmbari)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_252_255.htm',
+                'component' : 'Chadic'
+            },
         ]
-
-
+    },
+    {
+        'title' : u'Chadic Wordlists',
+        'author' : u'Kraft, Charles H.',
+        'year' : 1981,
+        'bibtex_key' : u'kraft1981-2',
+        'pages' : 196,
+        'columns' : 1,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/kraft1981_wordlistdata_2_0_196.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 4,
+                'endpage' : 9,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Piðimdi',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 14,
+                'endpage' : 19,
+                'language_name' : u'Hwana',
+                'language_bookname' : u'Hwona',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 24,
+                'endpage' : 29,
+                'language_name' : u'Ga\'anda',
+                'language_bookname' : u'Ga?anda',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 33,
+                'endpage' : 38,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Gábin',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 43,
+                'endpage' : 48,
+                'language_name' : u'Boga',
+                'language_bookname' : u'Boka',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 52,
+                'endpage' : 57,
+                'language_name' : u'Bura-Pabir',
+                'language_bookname' : u'Bura',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 62,
+                'endpage' : 67,
+                'language_name' : u'Cibak',
+                'language_bookname' : u'Cibak',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 82,
+                'endpage' : 87,
+                'language_name' : u'Nggwahyi',
+                'language_bookname' : u'Ngwaxi',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 92,
+                'endpage' : 97,
+                'language_name' : u'Huba',
+                'language_bookname' : u'Kilba',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 102,
+                'endpage' : 107,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Hildi',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 112,
+                'endpage' : 117,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Wamdiu',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 121,
+                'endpage' : 126,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Margi',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 131,
+                'endpage' : 136,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Higi Nkafa',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 141,
+                'endpage' : 146,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Higi Baza',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 151,
+                'endpage' : 156,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Higi Kamale',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 161,
+                'endpage' : 166,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Higi Ghye',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 171,
+                'endpage' : 176,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Higi Futu',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 181,
+                'endpage' : 186,
+                'language_name' : u'Kirya-Konzel',
+                'language_bookname' : u'Fali Kiria',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 191,
+                'endpage' : 196,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Fali Gili',
+                'component' : 'Chadic'
+            },
+        ],
+        'nonwordlistdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_0_0.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 1,
+                'endpage' : 3,
+                'title': u'Language: Piðimdi',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_1_3.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 10,
+                'endpage' : 13,
+                'title': u'Language: Hwona ((Tu)ftεra – their name)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_10_13.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 20,
+                'endpage' : 23,
+                'title': u'Language: Ga?anda (Mokar)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_20_23.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 30,
+                'endpage' : 32,
+                'title': u'Language: Gábin',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_30_32.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 39,
+                'endpage' : 42,
+                'title': u'Language: Boka',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_39_42.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 49,
+                'endpage' : 51,
+                'title': u'Language: Bura (Kwojeffa) Malgwi Clan',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_49_51.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 58,
+                'endpage' : 61,
+                'title': u'Language: Cibak',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_58_61.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 68,
+                'endpage' : 71,
+                'title': u'Language: West Margi (Margi Pute)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_68_71.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 78,
+                'endpage' : 81,
+                'title': u'Language: Ngwaxi',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_78_81.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 88,
+                'endpage' : 91,
+                'title': u'Language: Kilba',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_88_91.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 98,
+                'endpage' : 101,
+                'title': u'Language: Hildi (Margi Mbazhuwa--called Margi Tiwurtum by Lassa people)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_98_101.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 108,
+                'endpage' : 111,
+                'title': u'Language: Wamdiu (Wamdiu Margi)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_108_111.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 118,
+                'endpage' : 120,
+                'title': u'Language: Margi (Ngurƚavu)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_118_120.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 127,
+                'endpage' : 130,
+                'title': u'Language: Higi (Nkafa)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_127_130.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 137,
+                'endpage' : 140,
+                'title': u'Language: Higi Baza',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_137_140.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 147,
+                'endpage' : 150,
+                'title': u'Language: Higi Kamale (Kapsiki)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_147_150.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 157,
+                'endpage' : 160,
+                'title': u'Language: Higi (Ghye)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_157_160.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 167,
+                'endpage' : 170,
+                'title': u'Language: Higi Futu',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_167_170.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 177,
+                'endpage' : 180,
+                'title': u'Language: Fali Kiria',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_177_180.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 187,
+                'endpage' : 190,
+                'title': u'Language: Fali Gili',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_2_187_190.htm',
+                'component' : 'Chadic'
+            },
+        ]
+    },
 ]
