@@ -1433,4 +1433,70 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=arl'
     },
+    {
+        'name' : u'Hausa',
+        'langcode': u'hau',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=hau'
+    },
+    {
+        'name' : u'Ngas',
+        'langcode': u'anc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=anc'
+    },
+    {
+        'name' : u'Mwaghavul',
+        'langcode': u'sur',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=sur'
+    },
+    {
+        'name' : u'Miship',
+        'langcode': u'mjs',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mjs'
+    },
+    {
+        'name' : u'Goemai',
+        'langcode': u'ank',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ank'
+    },
+    {
+        'name' : u'Karekare',
+        'langcode': u'kai',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=kai'
+    },
+    {
+        'name' : u'Gera',
+        'langcode': u'gew',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=gew'
+    },
+    {
+        'name' : u'Bole',
+        'langcode': u'bol',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=bol'
+    },
+    {
+        'name' : u'Ngamo',
+        'langcode': u'nbh',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=nbh'
+    },
+    {
+        'name' : u'Pero',
+        'langcode': u'pip',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=pip'
+    },
+    {
+        'name' : u'Tangale',
+        'langcode': u'tan',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=tan'
+    },
 ]

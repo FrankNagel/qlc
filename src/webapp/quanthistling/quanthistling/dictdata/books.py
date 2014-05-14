@@ -2414,7 +2414,7 @@ list = [
         ]
     },
     {
-        'title' : u'DICIONÁRIO POR TÓPICOS nas línguas OIAMPI (WAJAPĨ) -PORTUGUÊS',
+        'title' : u'Dicionária por tópicos nas línguas Oiampi (Wajapĩ) - Português',
         'author' : u'Olson, Roberta',
         'year' : 1978,
         'bibtex_key' : u'olson1978',
@@ -2428,14 +2428,22 @@ list = [
                 'endpage' : 23,
                 'src_language_name' : u'Wayampi',
                 'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'OIAMPI (WAJAPĨ)',
+                'src_language_bookname' : u'Oiampi',
                 'tgt_language_bookname' : u'Português',
                 're_letter_only': r'^\w\s*$',
                 'file' : 'tupi/olson1978_dictdata_7_23.xml',
                 'component' : 'Tupí'
             },
         ],
-        'nondictdata' : []
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 6,
+                'title': u'Start pages',
+                'file' : 'tupi/olson1978_nondicata_1_6.htm',
+                'component' : 'Tupí'
+            },
+        ]
     },
 
     ##################### Carib ######################
@@ -2515,7 +2523,7 @@ list = [
 ##################################### Nambiquaran
 
     {
-        'title' : u'DICIONÁRIO ESCOLAR BILÍNGUE NAMBIKUARA – PORTUGUÊS PORTUGUÊS – NAMBIKUARA',
+        'title' : u'Dicionário escolar bilíngue Nambikuara - Português Português Nambikuara',
         'author' : u'Kroeker, Menno',
         'year' : 1996,
         'bibtex_key' : u'kroeker1996',
@@ -2537,7 +2545,20 @@ list = [
             },
         ],
         'nondictdata' : [
-            
+            {
+                'startpage' : 0,
+                'endpage' : 9,
+                'title': u'Start pages',
+                'file' : 'nambiquaran/kroeker1996_nondictdata_0_9.htm',
+                'component' : 'Nambiquaran'
+            },
+            {
+                'startpage' : 180,
+                'endpage' : 189,
+                'title': u'Observações Gramaticais',
+                'file' : 'nambiquaran/kroeker1996_nondictdata_180_189.htm',
+                'component' : 'Nambiquaran'
+            }            
         ]
     }
 

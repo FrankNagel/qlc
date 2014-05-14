@@ -1,71 +1,71 @@
 
 manual_entries.append({
-    "fullentry" : "837. He cogido \"tonon\". mĩ̵w̃ĩ̵ ri̵boṣ̀a p̵ía  / rí̵boṣ̀a mĩ̵ p̵ía",
-    "startpage" : 36,
-    "pos_on_page" : 5,
+    "fullentry" : "461. palo podrido maíwi páyo?o / *?iwi tara",
+    "startpage" : 20,
+    "pos_on_page" : 10,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 5,
-                "end" : 22
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "He cogido tonon",
+                "string" : "palo podrido",
                 "start" : 5,
-                "end" : 22
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 5,
-                "end" : 22
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Mastanahua",
-                "start" : 24,
-                "end" : 49
+                "start" : 18,
+                "end" : 33
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "mcb",
-                "start" : 24,
-                "end" : 49
+                "string" : "mcd",
+                "start" : 18,
+                "end" : 33
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "mĩ̵w̃ĩ̵ ri̵boṣ̀a p̵ía",
-                "start" : 24,
-                "end" : 49
+                "string" : "maíwi páyo?o",
+                "start" : 18,
+                "end" : 33
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Mastanahua",
-                "start" : 53,
-                "end" : 74
+                "start" : 35,
+                "end" : 45
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "mcb",
-                "start" : 53,
-                "end" : 74
+                "string" : "mcd",
+                "start" : 35,
+                "end" : 45
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "rí̵boṣ̀a mĩ̵ p̵ía",
-                "start" : 53,
-                "end" : 74
+                "string" : "?iwi tara",
+                "start" : 35,
+                "end" : 45
             },
             {
                 "type" : "pagelayout",
@@ -78,15 +78,8 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 23,
-                "end" : 23
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 50,
-                "end" : 50
+                "start" : 17,
+                "end" : 17
             },
     ]
 })

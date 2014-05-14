@@ -62,5 +62,8 @@ list = [
         'name' : u'Nambiquaran',
         'description' : u'',
     },
-
+    {
+        'name' : u'Chadic',
+        'description' : u'',
+    },
 ]

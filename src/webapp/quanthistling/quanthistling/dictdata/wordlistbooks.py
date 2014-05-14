@@ -1301,6 +1301,182 @@ list = [
                 'component' : 'Sogeram'
             },
         ]
-    }
+    },
+    {
+        'title' : u'Chadic Wordlists',
+        'author' : u'Kraft, Charles H.',
+        'year' : 1981,
+        'bibtex_key' : u'kraft1981-1',
+        'pages' : 261,
+        'columns' : 1,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/zgraggen1980d_wordlistdata_1_159.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 6,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 7,
+                'endpage' : 12,
+                'language_name' : u'Hausa',
+                'language_bookname' : u'Hausa',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 18,
+                'endpage' : 23,
+                'language_name' : u'Hausa',
+                'language_bookname' : u'Ngas',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 27,
+                'endpage' : 32,
+                'language_name' : u'Mwaghavul',
+                'language_bookname' : u'Sura',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 39,
+                'endpage' : 44,
+                'language_name' : u'Miship',
+                'language_bookname' : u'Cip',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 51,
+                'endpage' : 56,
+                'language_name' : u'Goemai',
+                'language_bookname' : u'Ankwe',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 60,
+                'endpage' : 65,
+                'language_name' : u'Karekare',
+                'language_bookname' : u'Karekare',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 72,
+                'endpage' : 77,
+                'language_name' : u'Gera',
+                'language_bookname' : u'Gera',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 83,
+                'endpage' : 88,
+                'language_name' : u'Bole',
+                'language_bookname' : u'Bole(wa)',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 93,
+                'endpage' : 98,
+                'language_name' : u'Ngamo',
+                'language_bookname' : u'Ngamo',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 109,
+                'endpage' : 114,
+                'language_name' : u'Pero',
+                'language_bookname' : u'Pero',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 120,
+                'endpage' : 125,
+                'language_name' : u'Tangale',
+                'language_bookname' : u'Tangale',
+                'component' : 'Chadic'
+            },
+        ],
+        'nonwordlistdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_0_0.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 13,
+                'endpage' : 17,
+                'title': u'Language: Angas',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_13_17.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 24,
+                'endpage' : 26,
+                'title': u'Language: Sura',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_24_26.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 33,
+                'endpage' : 38,
+                'title': u'Language: C(h)ip',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_33_38.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 45,
+                'endpage' : 50,
+                'title': u'Language: Ankwe',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_45_50.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 57,
+                'endpage' : 59,
+                'title': u'Language: Karekare',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_57_59.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 66,
+                'endpage' : 71,
+                'title': u'Language: Gera',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_66_71.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 78,
+                'endpage' : 82,
+                'title': u'Language: Bole(wa)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_78_82.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 89,
+                'endpage' : 92,
+                'title': u'Language: Ngamo',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_89_92.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 99,
+                'endpage' : 108,
+                'title': u'Language: Pero',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_99_108.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 115,
+                'endpage' : 119,
+                'title': u'Language: Tangale',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_1_115_119.htm',
+                'component' : 'Chadic'
+            },
+        ]
+
 
 ]
