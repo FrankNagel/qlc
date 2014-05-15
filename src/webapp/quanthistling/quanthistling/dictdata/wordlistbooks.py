@@ -1927,4 +1927,376 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Chadic Wordlists',
+        'author' : u'Kraft, Charles H.',
+        'year' : 1981,
+        'bibtex_key' : u'kraft1981-3',
+        'pages' : 251,
+        'columns' : 1,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/kraft1981_wordlistdata_3_0_251.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 6,
+                'endpage' : 11,
+                'language_name' : u'Zizilivakan',
+                'language_bookname' : u'Fali Jilbu',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 16,
+                'endpage' : 21,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Fali Mucella',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 26,
+                'endpage' : 31,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Fali Ɓwagira',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 36,
+                'endpage' : 41,
+                'language_name' : u'Gude',
+                'language_bookname' : u'Gude',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 46,
+                'endpage' : 51,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Njanye',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 56,
+                'endpage' : 61,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Mwulyen',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 66,
+                'endpage' : 71,
+                'language_name' : u'Bacama',
+                'language_bookname' : u'Bacama',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 76,
+                'endpage' : 81,
+                'language_name' : u'Gudu',
+                'language_bookname' : u'Gudu',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 86,
+                'endpage' : 91,
+                'language_name' : u'Wandala',
+                'language_bookname' : u'Mandara',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 98,
+                'endpage' : 103,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Gələvda',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 111,
+                'endpage' : 116,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Zə̀ɣvana',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 123,
+                'endpage' : 128,
+                'language_name' : u'Guduf-Gava',
+                'language_bookname' : u'Gava',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 135,
+                'endpage' : 140,
+                'language_name' : u'Cineni',
+                'language_bookname' : u'Nakatsa',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 145,
+                'endpage' : 150,
+                'language_name' : u'Mafa',
+                'language_bookname' : u'Matakam',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 156,
+                'endpage' : 161,
+                'language_name' : u'Daba',
+                'language_bookname' : u'Daba',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 166,
+                'endpage' : 171,
+                'language_name' : u'Masana',
+                'language_bookname' : u'Massa',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 178,
+                'endpage' : 183,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Banana',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 186,
+                'endpage' : 191,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Banana (Mouseye)',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 197,
+                'endpage' : 202,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Lame',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 205,
+                'endpage' : 210,
+                'language_name' : u'Pévé',
+                'language_bookname' : u'Lame (Peve)',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 214,
+                'endpage' : 219,
+                'language_name' : u'Mesme',
+                'language_bookname' : u'Misme (Zime)',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 222,
+                'endpage' : 227,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Jaku',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 230,
+                'endpage' : 235,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Jari',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 238,
+                'endpage' : 243,
+                'language_name' : u'Bankal',
+                'language_bookname' : u'Bankala',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 246,
+                'endpage' : 251,
+                'language_name' : u'n/a',
+                'language_bookname' : u'Yingilum',
+                'component' : 'Chadic'
+            },
+        ],
+        'nonwordlistdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_0_0.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 1,
+                'endpage' : 5,
+                'title': u'Language: Fali Jilbu (call their town Màžɨrvùn; call themselves Jilvu)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_1_5.htm',
+                'component' : 'Chadic'
+            },            
+            {
+                'startpage' : 12,
+                'endpage' : 15,
+                'title': u'Language: Fali Mucella',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_12_15.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 22,
+                'endpage' : 26,
+                'title': u'Language: Fali Ɓwagira',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_22_26.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 32,
+                'endpage' : 35,
+                'title': u'Language: Gude',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_32_35.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 42,
+                'endpage' : 45,
+                'title': u'Language: Njanye',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_42_45.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 52,
+                'endpage' : 55,
+                'title': u'Language: Mwulyen',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_52_55.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 62,
+                'endpage' : 65,
+                'title': u'Language: Bacama',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_62_65.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 72,
+                'endpage' : 75,
+                'title': u'Language: Gudu',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_72_75.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 82,
+                'endpage' : 85,
+                'title': u'Language: Mandara (their name ʔugzàrà?)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_82_85.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 92,
+                'endpage' : 97,
+                'title': u'Language: Gələvda',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_92_97.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 104,
+                'endpage' : 110,
+                'title': u'Language: Zə̀ɣvana',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_104_110.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 117,
+                'endpage' : 122,
+                'title': u'Language: Gava',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_117_122.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 129,
+                'endpage' : 134,
+                'title': u'Language: Nàkatsa (Cinèni)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_129_134.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 141,
+                'endpage' : 144,
+                'title': u'Language: Matakam (called Mofa by people)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_141_144.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 151,
+                'endpage' : 155,
+                'title': u'Language: Daba',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_151_155.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 162,
+                'endpage' : 165,
+                'title': u'Language: Massa',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_162_165.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 172,
+                'endpage' : 177,
+                'title': u'Language: Banana',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_172_177.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 184,
+                'endpage' : 186,
+                'title': u'Language: Banana (Mouseye)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_184_186.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 192,
+                'endpage' : 196,
+                'title': u'Language: Lame',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_192_196.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 203,
+                'endpage' : 204,
+                'title': u'Language: Lame (Peve)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_203_204.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 211,
+                'endpage' : 213,
+                'title': u'Language: Misme (Zime)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_211_213.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 220,
+                'endpage' : 221,
+                'title': u'Language: Jaku',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_220_221.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 228,
+                'endpage' : 229,
+                'title': u'Language: Jari (Nakogi)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_228_229.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 236,
+                'endpage' : 237,
+                'title': u'Language: Bankala (intelligible with Jarawa of Dass)',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_236_237.htm',
+                'component' : 'Chadic'
+            },
+            {
+                'startpage' : 244,
+                'endpage' : 245,
+                'title': u'Language: Yingilum',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_244_245.htm',
+                'component' : 'Chadic'
+            },
+        ]
+    },
 ]

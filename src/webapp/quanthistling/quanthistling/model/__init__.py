@@ -119,6 +119,17 @@ wordlistdata_table = schema.Table('wordlistdata', meta.metadata,
     schema.Column('component_id', types.Integer, schema.ForeignKey('component.id')),
 )
 
+nonwordlistdata_table = schema.Table('nonwordlistdata', meta.metadata,
+    schema.Column('id', types.Integer,
+        schema.Sequence('nonwordlistdata_seq_id', optional=True), primary_key=True),
+    schema.Column('title', types.Unicode(255), nullable=False),
+    schema.Column('startpage', types.Integer),
+    schema.Column('endpage', types.Integer),
+    schema.Column('data', types.Text),
+    schema.Column('book_id', types.Integer, schema.ForeignKey('book.id')),
+    schema.Column('component_id', types.Integer, schema.ForeignKey('component.id')),
+)
+
 #language_wordlistdata_table = schema.Table('language_wordlistdata', meta.metadata,
 #    schema.Column('id', types.Integer,
 #        schema.Sequence('language_wordlistdata_seq_id', optional=True), primary_key=True),
@@ -409,6 +420,11 @@ class Nondictdata(object):
     def title_url(self):
         return re.sub(u" ", "_", self.title.lower())
 
+class Nonwordlistdata(object):
+
+    def title_url(self):
+        return re.sub(u" ", "_", self.title.lower())
+
 class Wordlistdata(object):
     pass
         
@@ -574,6 +590,8 @@ orm.mapper(Wordlistdata, wordlistdata_table, properties={
     #'languages':orm.relation(LanguageWordlistdata, backref='wordlistdata'),
     #'languages_booknames':orm.relation(LanguageBookname, secondary=language_wordlistdata_table, backref='wordlistdata'),
 })
+
+orm.mapper(Nonwordlistdata, nonwordlistdata_table)
 
 orm.mapper(WordlistEntry, wordlist_entry_table, properties={
    'annotations':orm.relation(WordlistAnnotation, backref='entry')

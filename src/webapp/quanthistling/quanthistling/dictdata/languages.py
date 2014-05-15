@@ -1601,4 +1601,82 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/fkk'
     },
+    {
+        'name' : u'Zizilivakan',
+        'langcode': u'ziz',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/ziz'
+    },
+    {
+        'name' : u'Gude',
+        'langcode': u'gde',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/gde'
+    },
+    {
+        'name' : u'Bacama',
+        'langcode': u'bcy',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/bcy'
+    },
+    {
+        'name' : u'Gudu',
+        'langcode': u'gdu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/gdu'
+    },
+    {
+        'name' : u'Wandala',
+        'langcode': u'mfi',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mfi'
+    },
+    {
+        'name' : u'Guduf-Gava',
+        'langcode': u'gdf',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/gdf'
+    },
+    {
+        'name' : u'Cineni',
+        'langcode': u'cie',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/cie'
+    },
+    {
+        'name' : u'Mafa',
+        'langcode': u'maf',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/maf'
+    },
+    {
+        'name' : u'Daba',
+        'langcode': u'dbq',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/dbq'
+    },
+    {
+        'name' : u'Masana',
+        'langcode': u'mcn',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mcn'
+    },
+    {
+        'name' : u'Pévé',
+        'langcode': u'lme',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/lme'
+    },
+    {
+        'name' : u'Mesme',
+        'langcode': u'zim',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/zim'
+    },
+    {
+        'name' : u'Bankal',
+        'langcode': u'jjr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/jjr'
+    },
 ]
