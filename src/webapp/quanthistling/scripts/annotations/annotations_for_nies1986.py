@@ -22,18 +22,28 @@ from paste.deploy import appconfig
 
 import functions
 
-def annotate_everything(entry):
-    # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
-    for a in annotations:
-        Session.delete(a)
-    
+def annotate_heads(entry):
     heads = []
     c_list = []
     
     h_start = 0
     h_end = functions.get_last_bold_pos_at_start(entry)
     head = entry.fullentry[h_start:h_end]
+
+    #first try to find infinitive form in round brackets
+    #inf_match = re.search('\((.*?)\)', head)
+    inf_match = re.search('(,\s+-[a-zA-Z]*\s+)?\((.*?)\)', head)
+    if inf_match:
+        infinitive = inf_match.group(2)
+        if head.startswith(infinitive) or inf_match.group(1):
+            head = functions.insert_head(entry, inf_match.start(2), inf_match.end(2))
+            if head:
+                heads.append(head)
+            return heads
+        else:
+            functions.print_error_in_entry(entry, "Suspicious entry in brackets (..)")
+    
+    #try the rest
     for m in re.finditer(u',', head):
         c_list.append(m.start())
         
@@ -41,26 +51,53 @@ def annotate_everything(entry):
         for i in range(len(c_list)):
             if i == 0:
                 head_end = c_list[i]
-                functions.insert_head(entry, h_start, head_end)
+                head = check_insert_head(entry, h_start, head_end)
             
                 head2_start = c_list[0] + 2
                 if i + 1 < len(c_list):
                     head2_end = c_list[i+1]
-                    functions.insert_head(entry, head2_start, head2_end)
+                    head = check_insert_head(entry, head2_start, head2_end)
                 else:
-                    functions.insert_head(entry, head2_start, h_end)
+                    head = check_insert_head(entry, head2_start, h_end)
                     c_list = []
             else:
                 head_start = c_list[i] + 2
                 if i + 1 < len(c_list):
                     head_end = c_list[i+1]
-                    functions.insert_head(entry, head_start, head_end)
+                    head = check_insert_head(entry, head_start, head_end)
                 else:
-                    functions.insert_head(entry, head_start, h_end)
+                    head = check_insert_head(entry, head_start, h_end)
                     c_list = []
+            if head:
+                heads.append(head)
+
     else:
-        functions.insert_head(entry, h_start, h_end, head)
-   
+        head = check_insert_head(entry, h_start, h_end)
+        if head:
+            heads.append(head)
+    return heads
+
+
+suffix_pattern = re.compile('\s*-[a-zA-Z]\s*')
+def check_insert_head(entry, start, end):
+    snip = entry.fullentry[start:end]
+    match = suffix_pattern.match(snip)
+    if match:
+        return None
+    index = snip.find('(')
+    if index != -1:
+        end = index
+    return functions.insert_head(entry, start, end)
+                     
+def annotate_everything(entry):
+    # delete head annotations
+    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
+    for a in annotations:
+        Session.delete(a)
+
+    heads = annotate_heads(entry)
+    h_end = functions.get_last_bold_pos_at_start(entry)
+    
     # pos
     pos = False
     p_start_tmp = h_end + 1
