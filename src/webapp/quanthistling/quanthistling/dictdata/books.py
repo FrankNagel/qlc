@@ -2414,7 +2414,7 @@ list = [
         ]
     },
     {
-        'title' : u'Dicionária por tópicos nas línguas Oiampi (Wajapĩ) - Português',
+        'title' : u'Dicionário por tópicos nas línguas Oiampi (Wajapĩ) - Português',
         'author' : u'Olson, Roberta',
         'year' : 1978,
         'bibtex_key' : u'olson1978',
@@ -2444,6 +2444,30 @@ list = [
                 'component' : 'Tupí'
             },
         ]
+    },
+    {
+        'title' : u'DICIONÁRIO E LÉXICO KARITIANA / PORTUGUÊS',
+        'author' : u'Landin, David',
+        'year' : 1978,
+        'bibtex_key' : u'landin2005',
+        'pages' : 84,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 6,
+                'endpage' : 32,
+                'src_language_name' : u'Karitiâna',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Karitiana',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/landin2005_dictdata_6_32.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : []
     },
 
     ##################### Carib ######################

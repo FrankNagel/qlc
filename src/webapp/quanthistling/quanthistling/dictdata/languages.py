@@ -1679,4 +1679,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/jjr'
     },
+    {
+        'name' : u'Karitiâna',
+        'langcode': u'ktn',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/ktn'
+    },
 ]
