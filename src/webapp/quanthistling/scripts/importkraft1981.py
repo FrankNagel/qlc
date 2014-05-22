@@ -113,7 +113,7 @@ def main(argv):
                                     pos_on_page += 1
 
             # store concepts
-            if data["language_name"] == "English":
+            if data["language_name"] == u"English":
                 for k, v in counterparts.items():
                     concept = v[0][v[1]:].upper()
                     concept = re.sub(u" ", u"_", concept)
@@ -132,7 +132,7 @@ def main(argv):
                         concept_db.concept = concept_id
                         Session.add(concept_db)
                 Session.commit()
-
+                
             entry = {}
             for k, v in counterparts.items():
                 entry_db = importfunctions.process_line(v[0], "wordlist")
@@ -153,15 +153,16 @@ def main(argv):
 
                 s = v[1]
                 e = len(v[0])
-                entry_db.append_annotation(s, e, "counterpart",
-                    "dictinterpretation", v[0][s:e])
-                entry_db.append_annotation(s, e, u'doculect',
-                    u'dictinterpretation', data["language_bookname"])
-                language_iso = Session.query(model.LanguageIso).filter_by(
-                    name=data["language_name"]).first()
-                if language_iso is not None:
-                    entry_db.append_annotation(s, e, u'iso639-3',
-                        u'dictinterpretation', language_iso.langcode)
+                if v[0][s:e].strip() != "":
+                    entry_db.append_annotation(s, e, "counterpart",
+                        "dictinterpretation", v[0][s:e])
+                    entry_db.append_annotation(s, e, u'doculect',
+                        u'dictinterpretation', data["language_bookname"])
+                    language_iso = Session.query(model.LanguageIso).filter_by(
+                        name=data["language_name"]).first()
+                    if language_iso is not None:
+                        entry_db.append_annotation(s, e, u'iso639-3',
+                            u'dictinterpretation', language_iso.langcode)
 
         Session.commit()
 

@@ -1414,7 +1414,7 @@ list = [
             {
                 'startpage' : 158,
                 'endpage' : 163,
-                'language_name' : u'n/a',
+                'language_name' : u'Diri',
                 'language_bookname' : u'Dira',
                 'component' : 'Chadic'
             },

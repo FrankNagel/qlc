@@ -1512,6 +1512,12 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=mkf'
     },
     {
+        'name' : u'Diri',
+        'langcode': u'dwa',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=mkf'
+    },
+    {
         'name' : u'Boghom',
         'langcode': u'bux',
         'description' : u'',
@@ -1620,13 +1626,13 @@ list = [
         'url' : u'http://www.ethnologue.com/language/mrt'
     },
     {
-        'name' : u'Kamwe',
+        'name' : u'Kwame',
         'langcode': u'hig',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/hig'
     },
     {
-        'name' : u'Psikze',
+        'name' : u'Psikye',
         'langcode': u'kvj',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/kvj'

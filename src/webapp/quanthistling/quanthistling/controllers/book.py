@@ -295,11 +295,12 @@ class BookController(BaseController):
         c.entries = []
         if c.book:
             if c.book.type  == "wordlist":
-                concept_db = model.meta.Session.query(model.WordlistConcept).join(
-                    (model.WordlistEntry, model.WordlistEntry.concept_id==model.WordlistConcept.id),
+                print(c.book.id)
+                c.entries = model.meta.Session.query(model.WordlistEntry).join(
+                    (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
                     (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id)
-                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.WordlistConcept.concept==concept).first()
-                c.entries = concept_db.entries
+                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.WordlistConcept.concept==concept).all()
+                #c.entries = concept_db.entries
                 #print "!!!!!!!!!!!!!!!!!"
                 #print c.entries
                 return render('/derived/book/page_wordlist.html')                

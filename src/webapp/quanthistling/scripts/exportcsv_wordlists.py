@@ -46,6 +46,9 @@ def main(argv):
         #if b['bibtex_key'] != "thiesen1998":
         #    continue
 
+        if b['bibtex_key'] == u"kraft1981-1":
+            b["bibtex_key"] = u"kraft1981"
+
         book = model.meta.Session.query(model.Book).filter_by(bibtex_key=b['bibtex_key']).first()
         
         if book:
