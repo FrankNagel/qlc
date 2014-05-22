@@ -1793,4 +1793,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/ktn'
     },
+    {
+        'name' : u'Parecís',
+        'langcode': u'pab',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/pab'
+    },
 ]

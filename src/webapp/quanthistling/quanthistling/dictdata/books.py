@@ -2152,6 +2152,32 @@ list = [
         ]
     },
     {
+        'title' : u'DICIONÁRIO PARESÍ – PORTUGUÊS',
+        'author' : u'Rowan, Orlando',
+        'year' : 2001,
+        'bibtex_key' : u'rowan2001',
+        'pages' : 120,
+        'columns' : 0,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 80,
+                'src_language_name' : u'Parecís',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Paresí',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arawak/rowan2001_dictdata_1_80.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            
+        ]
+    },
+    {
         'title' : u'DICIONÁRIO da LÍNGUA KADIWÉU',
         'author' : u'Griffiths, Glyn',
         'year' : 2002,
