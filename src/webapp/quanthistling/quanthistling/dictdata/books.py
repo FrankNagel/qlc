@@ -2467,7 +2467,22 @@ list = [
                 'component' : 'Tupí'
             },
         ],
-        'nondictdata' : []
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 5,
+                'title': u'Start pages',
+                'file' : 'tupi/landin2005_nondictdata_0_5.htm',
+                'component' : 'Tupí'
+            },
+            {
+                'startpage' : 56,
+                'endpage' : 59,
+                'title': u'Léxico do dicionário',
+                'file' : 'tupi/landin2005_nondictdata_56_59.htm',
+                'component' : 'Tupí'
+            },
+        ]
     },
 
     ##################### Carib ######################

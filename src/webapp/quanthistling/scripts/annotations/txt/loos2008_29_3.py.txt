@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "677. lava tu ropa; está sucia mĩ: ní̵tati pá¢ãw̃ĩ̵, c̀os̀ta",
+    "startpage" : 29,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "lava tu ropa está sucia",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mastanahua",
+                "start" : 31,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mcd",
+                "start" : 31,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mĩ: ní̵tati pá¢ãw̃ĩ̵",
+                "start" : 31,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mastanahua",
+                "start" : 58,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mcd",
+                "start" : 58,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "c̀os̀ta",
+                "start" : 58,
+                "end" : 65
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+    ]
+})

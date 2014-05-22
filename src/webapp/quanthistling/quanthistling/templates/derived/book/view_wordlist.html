@@ -20,11 +20,16 @@ ${component.bookinfo()}
     </ul>
 % endfor
 
-% for nondictdata in c.book.nondictdata:
+
+<h2>Other content</h2>
+% for nondictdata in c.book.nonwordlistdata:
     <ul>
     <li>
-    <a href="${h.url_for(controller='book', action='nondictdata', bibtexkey=c.book.bibtex_key, title=nondictdata.title_url(), startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
-        ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage})
+    <a href="${h.url_for(controller='book', action='nonwordlistdata', bibtexkey=c.book.bibtex_key, title=nondictdata.title_url(), volume=nondictdata.volume, startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
+        ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage}
+        % if nondictdata.volume != None:
+        , Volume ${nondictdata.volume})
+        % endif
     </a>
     </li>
     </ul>

@@ -21,6 +21,23 @@ import quanthistling.dictdata.books
 from paste.deploy import appconfig
 
 import functions
+def insert_head(entry, start, end):
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith(" "):
+        start += 1
+    if str_head.endswith(" "):
+        end -= 1
+
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith("-"):
+        entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        start += 1
+    if str_head.endswith("-"):
+        entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        end -= 1
+
+    return functions.insert_head(entry, start, end)
+
 
 def annotate_everything(entry):
     # delete head annotations
@@ -46,23 +63,23 @@ def annotate_everything(entry):
             if i == 0:
                 h_s = 0
                 h_e = comma_heads[i]
-                h1 = functions.insert_head(entry, h_s, h_e)
+                h1 = insert_head(entry, h_s, h_e)
                 
                 h2_s = comma_heads[0] + 1
                 if i + 1 < len(comma_heads):
                     h2_e = comma_heads[i+1]
-                    h2 = functions.insert_head(entry, h2_s, h2_e)
+                    h2 = insert_head(entry, h2_s, h2_e)
                 else:
-                    h2 = functions.insert_head(entry, h2_s, head_end)
+                    h2 = insert_head(entry, h2_s, head_end)
             else:
                 h_s = comma_heads[i] + 1
                 if i + 1 < len(comma_heads):
                     h_e = comma_heads[i+1]
-                    head = functions.insert_head(entry, h_s, h_e)
+                    head = insert_head(entry, h_s, h_e)
                 else:
-                    head = functions.insert_head(entry, h_s, head_end)
+                    head = insert_head(entry, h_s, head_end)
     else:
-        functions.insert_head(entry, head_start, head_end)
+        insert_head(entry, head_start, head_end)
     
     # pos
     match_cr = re.search(u' Véase (.*)', entry.fullentry)

@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "915. \"shansho\" (pájaro) ⁿdí̵ṣ̀i̵ṣ̀",
+    "startpage" : 39,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "shansho (pájaro)",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mastanahua",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mcd",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ⁿdí̵ṣ̀i̵ṣ̀",
+                "start" : 25,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+    ]
+})

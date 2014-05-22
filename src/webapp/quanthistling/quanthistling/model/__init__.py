@@ -125,6 +125,7 @@ nonwordlistdata_table = schema.Table('nonwordlistdata', meta.metadata,
     schema.Column('title', types.Unicode(255), nullable=False),
     schema.Column('startpage', types.Integer),
     schema.Column('endpage', types.Integer),
+    schema.Column('volume', types.Integer),
     schema.Column('data', types.Text),
     schema.Column('book_id', types.Integer, schema.ForeignKey('book.id')),
     schema.Column('component_id', types.Integer, schema.ForeignKey('component.id')),
@@ -508,7 +509,8 @@ orm.mapper(Book, book_table, properties={
    'entries':orm.relation(Entry, backref='book'),
    'dictdata':orm.relation(Dictdata, backref='book'),
    'nondictdata':orm.relation(Nondictdata, backref='book'),
-   'wordlistdata':orm.relation(Wordlistdata, backref='book')
+   'wordlistdata':orm.relation(Wordlistdata, backref='book'),
+   'nonwordlistdata':orm.relation(Nonwordlistdata, backref='book')
 })
 
 orm.mapper(Component, component_table, properties={

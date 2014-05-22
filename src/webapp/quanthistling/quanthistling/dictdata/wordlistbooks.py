@@ -1330,8 +1330,8 @@ list = [
             {
                 'startpage' : 18,
                 'endpage' : 23,
-                'language_name' : u'Hausa',
-                'language_bookname' : u'Ngas',
+                'language_name' : u'Ngas',
+                'language_bookname' : u'Angas',
                 'component' : 'Chadic'
             },
             {
@@ -1449,14 +1449,14 @@ list = [
             {
                 'startpage' : 222,
                 'endpage' : 227,
-                'language_name' : u'n/a',
+                'language_name' : u'Dass',
                 'language_bookname' : u'Dwot',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 235,
                 'endpage' : 240,
-                'language_name' : u'n/a',
+                'language_name' : u'Polci',
                 'language_bookname' : u'Pəlci',
                 'component' : 'Chadic'
             },
@@ -1646,7 +1646,7 @@ list = [
             {
                 'startpage' : 4,
                 'endpage' : 9,
-                'language_name' : u'n/a',
+                'language_name' : u'Tera',
                 'language_bookname' : u'Piðimdi',
                 'component' : 'Chadic'
             },
@@ -1667,7 +1667,7 @@ list = [
             {
                 'startpage' : 33,
                 'endpage' : 38,
-                'language_name' : u'n/a',
+                'language_name' : u'Ga\'anda',
                 'language_bookname' : u'Gábin',
                 'component' : 'Chadic'
             },
@@ -1693,6 +1693,13 @@ list = [
                 'component' : 'Chadic'
             },
             {
+                'startpage' : 72,
+                'endpage' : 77,
+                'language_name' : u'Putai',
+                'language_bookname' : u'West Margi',
+                'component' : 'Chadic'
+            },
+            {
                 'startpage' : 82,
                 'endpage' : 87,
                 'language_name' : u'Nggwahyi',
@@ -1709,56 +1716,56 @@ list = [
             {
                 'startpage' : 102,
                 'endpage' : 107,
-                'language_name' : u'n/a',
+                'language_name' : u'Margi South',
                 'language_bookname' : u'Hildi',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 112,
                 'endpage' : 117,
-                'language_name' : u'n/a',
+                'language_name' : u'Margi South',
                 'language_bookname' : u'Wamdiu',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 121,
                 'endpage' : 126,
-                'language_name' : u'n/a',
+                'language_name' : u'Margi Central',
                 'language_bookname' : u'Margi',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 131,
                 'endpage' : 136,
-                'language_name' : u'n/a',
+                'language_name' : u'Kwame',
                 'language_bookname' : u'Higi Nkafa',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 141,
                 'endpage' : 146,
-                'language_name' : u'n/a',
+                'language_name' : u'Kwame',
                 'language_bookname' : u'Higi Baza',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 151,
                 'endpage' : 156,
-                'language_name' : u'n/a',
+                'language_name' : u'Psikye',
                 'language_bookname' : u'Higi Kamale',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 161,
                 'endpage' : 166,
-                'language_name' : u'n/a',
+                'language_name' : u'Hya',
                 'language_bookname' : u'Higi Ghye',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 171,
                 'endpage' : 176,
-                'language_name' : u'n/a',
+                'language_name' : u'Kwame',
                 'language_bookname' : u'Higi Futu',
                 'component' : 'Chadic'
             },
@@ -1772,7 +1779,7 @@ list = [
             {
                 'startpage' : 191,
                 'endpage' : 196,
-                'language_name' : u'n/a',
+                'language_name' : u'Bana',
                 'language_bookname' : u'Fali Gili',
                 'component' : 'Chadic'
             },
@@ -1948,14 +1955,14 @@ list = [
             {
                 'startpage' : 16,
                 'endpage' : 21,
-                'language_name' : u'n/a',
+                'language_name' : u'Gude',
                 'language_bookname' : u'Fali Mucella',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 26,
                 'endpage' : 31,
-                'language_name' : u'n/a',
+                'language_name' : u'Fali',
                 'language_bookname' : u'Fali Ɓwagira',
                 'component' : 'Chadic'
             },
@@ -1969,14 +1976,14 @@ list = [
             {
                 'startpage' : 46,
                 'endpage' : 51,
-                'language_name' : u'n/a',
+                'language_name' : u'Nzanyi',
                 'language_bookname' : u'Njanye',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 56,
                 'endpage' : 61,
-                'language_name' : u'n/a',
+                'language_name' : u'Bata',
                 'language_bookname' : u'Mwulyen',
                 'component' : 'Chadic'
             },
@@ -2004,14 +2011,14 @@ list = [
             {
                 'startpage' : 98,
                 'endpage' : 103,
-                'language_name' : u'n/a',
+                'language_name' : u'Glavda',
                 'language_bookname' : u'Gələvda',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 111,
                 'endpage' : 116,
-                'language_name' : u'n/a',
+                'language_name' : u'Dghwede',
                 'language_bookname' : u'Zə̀ɣvana',
                 'component' : 'Chadic'
             },
@@ -2053,21 +2060,21 @@ list = [
             {
                 'startpage' : 178,
                 'endpage' : 183,
-                'language_name' : u'n/a',
+                'language_name' : u'Masana',
                 'language_bookname' : u'Banana',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 186,
                 'endpage' : 191,
-                'language_name' : u'n/a',
+                'language_name' : u'Musey',
                 'language_bookname' : u'Banana (Mouseye)',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 197,
                 'endpage' : 202,
-                'language_name' : u'n/a',
+                'language_name' : u'Lame',
                 'language_bookname' : u'Lame',
                 'component' : 'Chadic'
             },
@@ -2088,14 +2095,14 @@ list = [
             {
                 'startpage' : 222,
                 'endpage' : 227,
-                'language_name' : u'n/a',
+                'language_name' : u'Labir',
                 'language_bookname' : u'Jaku',
                 'component' : 'Chadic'
             },
             {
                 'startpage' : 230,
                 'endpage' : 235,
-                'language_name' : u'n/a',
+                'language_name' : u'Dagaari Dioula',
                 'language_bookname' : u'Jari',
                 'component' : 'Chadic'
             },
@@ -2109,7 +2116,7 @@ list = [
             {
                 'startpage' : 246,
                 'endpage' : 251,
-                'language_name' : u'n/a',
+                'language_name' : u'Fali, North',
                 'language_bookname' : u'Yingilum',
                 'component' : 'Chadic'
             },
@@ -2138,9 +2145,9 @@ list = [
             },
             {
                 'startpage' : 22,
-                'endpage' : 26,
+                'endpage' : 25,
                 'title': u'Language: Fali Ɓwagira',
-                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_22_26.htm',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_22_25.htm',
                 'component' : 'Chadic'
             },
             {
@@ -2243,9 +2250,9 @@ list = [
             },
             {
                 'startpage' : 184,
-                'endpage' : 186,
+                'endpage' : 185,
                 'title': u'Language: Banana (Mouseye)',
-                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_184_186.htm',
+                'file' : 'comparative_wordlists/kraft1981_nonwordlistdata_3_184_185.htm',
                 'component' : 'Chadic'
             },
             {

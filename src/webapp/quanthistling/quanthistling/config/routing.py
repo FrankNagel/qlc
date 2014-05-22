@@ -37,6 +37,7 @@ def make_map(config):
     map.connect('/source/{bibtexkey}/dictionary-{startpage}-{endpage}/{startletter}/index.html', controller='book', action='letter')
     map.connect('/source/{bibtexkey}/dictionary-{startpage}-{endpage}.html', controller='book', action='dictdata', format='html', requirements={'startpage': '\d{1,4}', 'endpage': '\d{1,4}'})
     map.connect('/source/{bibtexkey}/{title}-{startpage}-{endpage}.html', controller='book', action='nondictdata', requirements={'startpage': '\d{1,4}', 'endpage': '\d{1,4}'})
+    map.connect('/source/{bibtexkey}/{title}-{volume}-{startpage}-{endpage}.html', controller='book', action='nonwordlistdata', requirements={'startpage': '\d{1,4}', 'endpage': '\d{1,4}', 'volume': '\d{1,2}'})
     map.connect('/source/{bibtexkey}/index.html', controller='book', action='view', format='html')
     map.connect('/source/index.html', controller='book', action='index')
     

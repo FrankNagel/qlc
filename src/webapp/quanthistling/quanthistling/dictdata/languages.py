@@ -1536,6 +1536,12 @@ list = [
         'url' : u'http://www.ethnologue.com/show_language.asp?code=say'
     },
     {
+        'name' : u'Dass',
+        'langcode': u'dot',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=dot'
+    },
+    {
         'name' : u'Ngizim',
         'langcode': u'ngi',
         'description' : u'',
@@ -1546,6 +1552,12 @@ list = [
         'langcode': u'bde',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/show_language.asp?code=bde'
+    },
+    {
+        'name' : u'Tera',
+        'langcode': u'ttr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/show_language.asp?code=ttr'
     },
     {
         'name' : u'Hwana',
@@ -1578,6 +1590,12 @@ list = [
         'url' : u'http://www.ethnologue.com/language/ckl'
     },
     {
+        'name' : u'Putai',
+        'langcode': u'mfl',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mfl'
+    },
+    {
         'name' : u'Nggwahyi',
         'langcode': u'ngx',
         'description' : u'',
@@ -1590,16 +1608,46 @@ list = [
         'url' : u'http://www.ethnologue.com/language/hbb'
     },
     {
+        'name' : u'Margi South',
+        'langcode': u'mfm',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mfm'
+    },
+    {
+        'name' : u'Margi Central',
+        'langcode': u'mrt',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mrt'
+    },
+    {
         'name' : u'Kamwe',
         'langcode': u'hig',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/hig'
     },
     {
+        'name' : u'Psikze',
+        'langcode': u'kvj',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/kvj'
+    },
+    {
+        'name' : u'Hya',
+        'langcode': u'hya',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/hya'
+    },
+    {
         'name' : u'Kirya-Konzel',
         'langcode': u'fkk',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/fkk'
+    },
+    {
+        'name' : u'Bana',
+        'langcode': u'bcw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/bcw'
     },
     {
         'name' : u'Zizilivakan',
@@ -1612,6 +1660,24 @@ list = [
         'langcode': u'gde',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/gde'
+    },
+    {
+        'name' : u'Fali',
+        'langcode': u'fli',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/fli'
+    },
+    {
+        'name' : u'Nzanyi',
+        'langcode': u'nja',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/nja'
+    },
+    {
+        'name' : u'Bata',
+        'langcode': u'bta',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/bta'
     },
     {
         'name' : u'Bacama',
@@ -1630,6 +1696,18 @@ list = [
         'langcode': u'mfi',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/mfi'
+    },
+    {
+        'name' : u'Glavda',
+        'langcode': u'glw',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/glw'
+    },
+    {
+        'name' : u'Dghwede',
+        'langcode': u'dgh',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/dgh'
     },
     {
         'name' : u'Guduf-Gava',
@@ -1662,6 +1740,18 @@ list = [
         'url' : u'http://www.ethnologue.com/language/mcn'
     },
     {
+        'name' : u'Musey',
+        'langcode': u'mse',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mse'
+    },
+    {
+        'name' : u'Lame',
+        'langcode': u'bma',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/bma'
+    },
+    {
         'name' : u'Pévé',
         'langcode': u'lme',
         'description' : u'',
@@ -1674,10 +1764,28 @@ list = [
         'url' : u'http://www.ethnologue.com/language/zim'
     },
     {
+        'name' : u'Labir',
+        'langcode': u'jku',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/jku'
+    },
+    {
+        'name' : u'Dagaari Dioula',
+        'langcode': u'dgd',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/dgd'
+    },
+    {
         'name' : u'Bankal',
         'langcode': u'jjr',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/jjr'
+    },
+    {
+        'name' : u'Fali, North',
+        'langcode': u'fll',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/fll'
     },
     {
         'name' : u'Karitiâna',

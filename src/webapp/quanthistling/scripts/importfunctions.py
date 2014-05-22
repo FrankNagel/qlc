@@ -34,6 +34,8 @@ def delete_book_from_db(Session, bibtex_key):
 
         for data in book.nondictdata:
             Session.delete(data)
+        for data in book.nonwordlistdata:
+            Session.delete(data)
         Session.delete(book)
         Session.commit()
 
@@ -228,6 +230,37 @@ def insert_nondictdata_to_db(Session, data, book, filename):
     elif book.bibtex_key == 'thiesen1998':
         html = re.sub(u"#003", u"-̀", html)
         html = re.sub(u"#004", u"-́", html)
+    html = unicodedata.normalize("NFD", html)
+    html = normalize_stroke(html)
+    nondictdata.data = html
+    nondictdata.book = book
+
+    component = Session.query(model.Component).filter_by(name=data['component']).first()
+    if component == None:
+        print "Warning: Component {0} not found, inserting nondictdata without component.".format(data['component'])
+    nondictdata.component = component
+
+    Session.add(nondictdata)
+    Session.commit()
+    return nondictdata
+
+def insert_nonwordlistdata_to_db(Session, data, book, filename):
+    nondictdata = model.Nonwordlistdata()
+    nondictdata.startpage = data['startpage']
+    nondictdata.endpage = data['endpage']
+    nondictdata.volume = data['volume']
+    nondictdata.title = data['title']
+    file = open(filename, 'r')
+    text = file.read()
+    file.close()
+
+    if re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=windows-1252\">", text):
+        html = text.decode('windows-1252')
+    elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=utf-8\">", text):
+        html = text.decode('utf-8')
+    elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=macintosh\">", text):
+        html = text.decode('latin1')
+
     html = unicodedata.normalize("NFD", html)
     html = normalize_stroke(html)
     nondictdata.data = html

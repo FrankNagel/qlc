@@ -165,7 +165,27 @@ class BookController(BaseController):
     @beaker_cache()
     def nondictdata(self, bibtexkey, title, startpage, endpage):
         c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=bibtexkey).first()
-        nondictdata = model.meta.Session.query(model.Nondictdata).filter_by(book_id=c.book.id, startpage=int(startpage), endpage=int(endpage)).first()
+        nondictdata = None
+        if c.book.type == "dictionary":
+            nondictdata = model.meta.Session.query(model.Nondictdata).filter_by(book_id=c.book.id, startpage=int(startpage), endpage=int(endpage)).first()
+        elif c.book.type == "wordlist":
+            nondictdata = model.meta.Session.query(model.Nonwordlistdata).filter_by(book_id=c.book.id, startpage=int(startpage), endpage=int(endpage)).first()
+        
+        c.heading = '%s: %s (pp. %i - %i)' % (c.book.title, nondictdata.title, nondictdata.startpage, nondictdata.endpage)
+        c.html = nondictdata.data
+        c.html = re.sub(u"(?is)^.*<body.*?>", "", c.html)
+        c.html = re.sub(r'(?is)</body>.*$', '', c.html)
+        c.html = literal(c.html)
+        if c.book and nondictdata:
+            return render('/derived/book/nondictdata.html')
+        else:
+            abort(404)
+
+    @beaker_cache()
+    def nonwordlistdata(self, bibtexkey, title, volume, startpage, endpage):
+        c.book = model.meta.Session.query(model.Book).filter_by(bibtex_key=bibtexkey).first()
+        nondictdata = model.meta.Session.query(model.Nonwordlistdata).filter_by(book_id=c.book.id, startpage=int(startpage), endpage=int(endpage), volume=int(volume)).first()
+        
         c.heading = '%s: %s (pp. %i - %i)' % (c.book.title, nondictdata.title, nondictdata.startpage, nondictdata.endpage)
         c.html = nondictdata.data
         c.html = re.sub(u"(?is)^.*<body.*?>", "", c.html)
@@ -310,7 +330,7 @@ class BookController(BaseController):
                     (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
                     (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id),
                     (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
-                ).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
+                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
 
             #if format == 'xml':
             #    c.heading = c.book.bookinfo() + ", Entry " + pos_on_page + " on Page " + pagenr
@@ -335,7 +355,7 @@ class BookController(BaseController):
                     (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
                     (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id),
                     (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
-                ).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
+                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
             c.heading = c.book.bookinfo_with_status() + ", Concept " + concept + " in Language " + language_bookname
             c.saveurl = url_for(controller='book', action='save_entryid_wordlist', bibtexkey=c.book.bibtex_key, language_bookname=c.language_bookname, concept=c.concept, format='html')
             return render('/base/edit_entryid.html')
@@ -348,7 +368,7 @@ class BookController(BaseController):
                     (model.WordlistConcept, model.WordlistConcept.id==model.WordlistEntry.concept_id),
                     (model.Wordlistdata, model.Wordlistdata.id==model.WordlistEntry.wordlistdata_id),
                     (model.LanguageBookname, model.LanguageBookname.id==model.Wordlistdata.language_bookname_id)
-                ).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
+                ).filter(model.Wordlistdata.book_id==c.book.id).filter(model.LanguageBookname.name==language_bookname).filter(model.WordlistConcept.concept==concept).first()
             param_annotations = request.params.get("annotations", None)
             param_fullentry = request.params.get("fullentry", None)
             #print param_fullentry
