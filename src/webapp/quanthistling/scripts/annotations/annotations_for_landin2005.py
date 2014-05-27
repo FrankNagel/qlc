@@ -31,49 +31,49 @@ def annotate_head(entry):
     # Delete this code and insert your code
     heads = []
 
-    sorted_annotations = [a for a in entry.annotations if a.value=='tab']
-    sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
+    head_end = functions.get_last_bold_pos_at_start(entry)
 
-    if len(sorted_annotations) > 0:
-        head_end = sorted_annotations[0].start
+    head = functions.insert_head(entry, 0, head_end)
+    if head is None:
+        functions.print_error_in_entry(entry, "head is None")
     else:
-        head_end = 0
-
-    temp_head = entry.fullentry[0:head_end]
-    if not (re.match('\d*', temp_head) and len(temp_head)) == 1:
-        head = functions.insert_head(entry, 0, head_end)
         heads.append(head)
 
     return heads
 
 def annotate_pos(entry):
     #delete pos annotations
-    pos_annotations = [a for a in entry.annotations if a.value=='pos']
+    pos_annotations = [a for a in entry.annotations if a.value==u'pos']
     for a in pos_annotations:
         Session.delete(a)
 
-    start_bracket_pos = entry.fullentry.find('(')
-    end_bracket_pos = entry.fullentry.find(')')
-    if start_bracket_pos != -1 and end_bracket_pos != -1:
-        functions.insert_pos(entry, start_bracket_pos + 1, end_bracket_pos)
+    for match in re.finditer(r'(?<=\()(.*?)(?:\) |$)', entry.fullentry):
+        pos_start = match.regs[1][0]
+        pos_end = match.regs[1][1]
+        entry.append_annotation(pos_start, pos_end, u'pos', u'dictinterpretation')
+
 
 def annotate_translation(entry):
     trans_annotations = [ a for a in entry.annotations if a.value=='translation']
     for a in trans_annotations:
         Session.delete(a)
 
-    end_bracket_pos = entry.fullentry.find(')')
-    if end_bracket_pos != -1:
-        trans_start = end_bracket_pos + 1
-    else:
-        trans_start = 0
+    poses = functions.get_list_ranges_for_annotation(entry, 'pos')
+    poses = [(e[0], e[1]) for e in poses]
+    poses = list(set(poses))
+    for pos in poses:
+        newlines = functions.get_list_ranges_for_annotation(entry, 'newline',
+                                                            pos[1])
+        trans_start = pos[1]+1
+        if len(newlines) > 0:
+            trans_end = newlines[0][0]
+        else:
+            trans_end = len(entry.fullentry)
 
-    trans = entry.fullentry[trans_start:]
-    
-    for split in trans.split(','):
-        trans_end = trans_start + len(split)
-        functions.insert_translation(entry, trans_start, trans_end)
-        trans_start = trans_end + 1
+        for (s, e) in functions.split_entry_at(entry, r"(?:, |$)", trans_start,
+                                               trans_end):
+            functions.insert_translation(entry, s, e)
+
 
 def main(argv):
 
@@ -98,8 +98,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=6,pos_on_page=1).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=6,pos_on_page=2).all()
+        # entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=8,pos_on_page=5).all()
 
         startletters = set()
     
@@ -109,8 +108,8 @@ def main(argv):
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            annotate_translation(e)
             annotate_pos(e)
+            annotate_translation(e)
         
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
 
