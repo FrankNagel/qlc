@@ -1805,4 +1805,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/pab'
     },
+    {
+        'name' : u'Rikbaktsa',
+        'langcode': u'rkb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/rkb'
+    },
 ]

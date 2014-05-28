@@ -2584,6 +2584,32 @@ list = [
             }
         ]
     },
+    {
+        'title' : u'Dicionário Rikbaktsa – Português, Português – Rikbaktsa',
+        'author' : u'Tremaine, Sheila',
+        'year' : 2007,
+        'bibtex_key' : u'tremaine2007',
+        'pages' : 100,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 3,
+                'endpage' : 38,
+                'src_language_name' : u'Rikbaktsa',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Rikbaktsa',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'macro-ge/tremaine2007_dictdata_3_38.xml',
+                'component' : 'Macro-Ge'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
 ##################################### Nambiquaran
 
