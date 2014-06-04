@@ -2651,6 +2651,32 @@ list = [
                 'component' : 'Nambiquaran'
             }            
         ]
-    }
+    },
+##################################### Other
+    {
+        'title' : u'Diccionario Amarakaeri ~ Castellano',
+        'author' : u'Tripp, Robert',
+        'year' : 1995,
+        'bibtex_key' : u'tripp1995',
+        'pages' : 359,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 21,
+                'endpage' : 174,
+                'src_language_name' : u'Amarakaeri’',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Amarakaeri',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'other/tripp1995_dictdata_21_174.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
 ]

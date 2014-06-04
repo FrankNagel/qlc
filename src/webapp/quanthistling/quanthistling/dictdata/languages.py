@@ -1811,4 +1811,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/rkb'
     },
+    {
+        'name' : u'Amarakaeri',
+        'langcode': u'amr',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/amr'
+    },
 ]
