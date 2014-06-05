@@ -2678,5 +2678,30 @@ list = [
 
         ]
     },
+    {
+        'title': u'Vocabulario Candoshi de Loreto',
+        'author': u'Tuggy, John',
+        'year': 1966,
+        'bibtex_key': u'tuggy1966',
+        'pages': 257,
+        'columns': 1,
+        'is_ready': False,
+        'type': 'dictionary',
+        'dictdata': [
+            {
+                'startpage': 1,
+                'endpage': 116,
+                'src_language_name': u'Candoshi-Shapra',
+                'tgt_language_name': u'Spanish',
+                'src_language_bookname': u'CANDOSHI',
+                'tgt_language_bookname': u'Castellano',
+                'file': 'other/tuggy1966_dictdata_1_116.xml',
+                'component': 'Other'
+            },
+        ],
+        'nondictdata': [
+
+        ]
+    },
 
 ]

@@ -1817,4 +1817,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/amr'
     },
+    {
+        'name' : u'Candoshi-Shapra',
+        'langcode': u'cbu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/cbu'
+    },
 ]
