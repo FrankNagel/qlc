@@ -59,7 +59,7 @@ def main(argv):
             files = ["{0}-{1}-{2}.csv".format(
                         book.bibtex_key, dictdata.startpage, dictdata.endpage)
                         for dictdata in book.dictdata]
-            components = [ dictdata.component.name for dictdata in book.dictdata ]
+            components = set([ dictdata.component.name for dictdata in book.dictdata ])
             metadata_file.write(
                 u"{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\n".format(
                     book.bibtex_key,
