@@ -1,34 +1,41 @@
 
 manual_entries.append({
-    "fullentry" : "tsukʰ onom. sonido de destapar una botella.",
-    "startpage" : 293,
-    "pos_on_page" : 29,
+    "fullentry" : "nijś-t Verb. Lavar. ewéj nijantá 'Lava tu mano'. uwéj nijatái 'Lavar la mano'.",
+    "startpage" : 44,
+    "pos_on_page" : 15,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 6
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tsukʰ",
+                "string" : "niját",
                 "start" : 0,
-                "end" : 5
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "acu",
+                "string" : "agr",
                 "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 5,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "onom.",
+                "string" : "verb",
                 "start" : 7,
                 "end" : 12
             },
@@ -37,63 +44,63 @@ manual_entries.append({
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 13,
-                "end" : 43
+                "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 13,
-                "end" : 43
+                "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido de destapar una botella",
+                "string" : "lavar",
                 "start" : 13,
-                "end" : 43
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "tsuk",
-                "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "end" : 19
             },
             {
                 "type" : "pagelayout",
-                "value" : "hyphen",
+                "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 7,
+                "end" : 7
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 20,
+                "end" : 20
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 21,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 52,
+                "end" : 52
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "á",
+                "start" : 3,
+                "end" : 5
             },
     ]
 })

@@ -1,155 +1,148 @@
 
 manual_entries.append({
-    "fullentry" : "úcha, júcha (C) (del quechua) s. maldad, pecado.",
-    "startpage" : 297,
-    "pos_on_page" : 6,
+    "fullentry" : "yákat (del quechua) s. pueblo, población, poblado.",
+    "startpage" : 332,
+    "pos_on_page" : 23,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Achuar-Shiwiar",
                 "start" : 0,
-                "end" : 5
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "úcha",
+                "string" : "yákat",
                 "start" : 0,
-                "end" : 5
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "acu",
                 "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 7,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "júcha",
-                "start" : 7,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 7,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "dialectidentification",
-                "string" : "Dialecto del río Corrientes",
-                "start" : 14,
-                "end" : 17
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "stratum",
                 "string" : "Spanish loanword None",
-                "start" : 18,
-                "end" : 31
+                "start" : 7,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "s.",
+                "start" : 21,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pueblo",
+                "start" : 23,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
                 "start" : 32,
-                "end" : 34
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 34,
-                "end" : 41
+                "end" : 42
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 34,
-                "end" : 41
+                "start" : 32,
+                "end" : 42
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "maldad",
-                "start" : 34,
-                "end" : 41
+                "string" : "población",
+                "start" : 32,
+                "end" : 42
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 43,
-                "end" : 50
+                "start" : 44,
+                "end" : 52
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 43,
-                "end" : 50
+                "start" : 44,
+                "end" : 52
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pecado",
-                "start" : 43,
-                "end" : 50
+                "string" : "poblado",
+                "start" : 44,
+                "end" : 52
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "úcha, júcha",
+                "string" : "yákat",
                 "start" : 0,
-                "end" : 13
+                "end" : 6
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
                 "string" : "s.",
-                "start" : 32,
-                "end" : 34
+                "start" : 21,
+                "end" : 23
             },
             {
                 "type" : "pagelayout",
                 "value" : "hyphen",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 37,
+                "end" : 37
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 37,
+                "end" : 37
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 37,
+                "end" : 37
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 37,
+                "end" : 37
             },
     ]
 })

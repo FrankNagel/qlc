@@ -211,8 +211,8 @@ def get_first_italic_range(entry):
     
     if len(sorted_annotations) != 0:
         return (sorted_annotations[0].start, sorted_annotations[0].end)
-    else:
-        print entry.fullentry.encode("utf-8")
+
+    return -1
 
 def get_last_italic_in_range(entry, s, e):
     sorted_annotations = [ a for a in entry.annotations if a.value=='italic']

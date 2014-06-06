@@ -1,99 +1,92 @@
 
 manual_entries.append({
-    "fullentry" : "tsukʰ onom. sonido de destapar una botella.",
-    "startpage" : 293,
-    "pos_on_page" : 29,
+    "fullentry" : "atáshu namángke asánkau (charúkmau) presa.",
+    "startpage" : 102,
+    "pos_on_page" : 28,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Achuar-Shiwiar",
                 "start" : 0,
-                "end" : 6
+                "end" : 39
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tsukʰ",
+                "string" : "atáshu namángke asánkau",
                 "start" : 0,
-                "end" : 5
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "acu",
                 "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 7,
-                "end" : 12
+                "end" : 39
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 13,
-                "end" : 43
+                "start" : 39,
+                "end" : 46
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 13,
-                "end" : 43
+                "start" : 39,
+                "end" : 46
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido de destapar una botella",
-                "start" : 13,
-                "end" : 43
+                "string" : "presa",
+                "start" : 39,
+                "end" : 46
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "tsuk",
+                "string" : "atáshu namángke asánkau",
                 "start" : 0,
-                "end" : 4
+                "end" : 26
             },
             {
                 "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "value" : "bold",
+                "string" : "(charúkmau)",
+                "start" : 27,
+                "end" : 39
             },
             {
                 "type" : "pagelayout",
-                "value" : "hyphen",
+                "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 26,
+                "end" : 26
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 27,
+                "end" : 27
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 27,
+                "end" : 27
             },
     ]
 })

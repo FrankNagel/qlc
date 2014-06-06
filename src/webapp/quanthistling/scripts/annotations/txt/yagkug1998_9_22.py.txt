@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "aéntsmat, aentsmátasa, aéntsmamu. v. considerar extraño a un familiar (muchas veces los parientes dejan de considerarse tales para enamorarse o para tener relaciones sexuales).",
+    "startpage" : 9,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aéntsmat",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aentsmátasa",
+                "start" : 11,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aéntsmamu",
+                "start" : 25,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v",
+                "start" : 37,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 40,
+                "end" : 180
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 40,
+                "end" : 180
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "considerar extraño a un familiar (muchas veces los parientes dejan de considerarse tales para enamorarse o para tener relaciones sexuales)",
+                "start" : 40,
+                "end" : 180
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aéntsmat, aentsmátasa, aéntsma",
+                "start" : 0,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mu.",
+                "start" : 33,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v.",
+                "start" : 37,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "muchas veces los parientes",
+                "start" : 75,
+                "end" : 101
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dejan de considerarse tales para",
+                "start" : 102,
+                "end" : 134
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "enamorarse o para tener relacio",
+                "start" : 135,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "nes sexuales).",
+                "start" : 166,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 134,
+                "end" : 134
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+    ]
+})

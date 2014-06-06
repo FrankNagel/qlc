@@ -1,155 +1,162 @@
 
 manual_entries.append({
-    "fullentry" : "úcha, júcha (C) (del quechua) s. maldad, pecado.",
-    "startpage" : 297,
-    "pos_on_page" : 6,
+    "fullentry" : "Nujinúwa, Nujinúwa. (Nujinúa) n. mujer de cera, mujer mítica, madre de Nayáp; nombre femenino",
+    "startpage" : 87,
+    "pos_on_page" : 7,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "úcha",
+                "string" : "nujinúwa",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "acu",
+                "string" : "agr",
                 "start" : 0,
-                "end" : 5
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 7,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "júcha",
-                "start" : 7,
-                "end" : 13
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 7,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "dialectidentification",
-                "string" : "Dialecto del río Corrientes",
-                "start" : 14,
-                "end" : 17
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "stratum",
-                "string" : "Spanish loanword None",
-                "start" : 18,
-                "end" : 31
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "s.",
-                "start" : 32,
-                "end" : 34
+                "string" : "n",
+                "start" : 33,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 34,
-                "end" : 41
+                "start" : 36,
+                "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 34,
-                "end" : 41
+                "start" : 36,
+                "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "maldad",
-                "start" : 34,
-                "end" : 41
+                "string" : "mujer de cera",
+                "start" : 36,
+                "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 43,
-                "end" : 50
+                "start" : 51,
+                "end" : 64
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 43,
-                "end" : 50
+                "start" : 51,
+                "end" : 64
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "pecado",
-                "start" : 43,
-                "end" : 50
+                "string" : "mujer mítica",
+                "start" : 51,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 66,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 66,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "madre de nayáp",
+                "start" : 66,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 83,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 83,
+                "end" : 98
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nombre femenino",
+                "start" : 83,
+                "end" : 98
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "úcha, júcha",
+                "string" : "Nujinúwa, Nujinúwa. (Nujinúa)",
                 "start" : 0,
-                "end" : 13
+                "end" : 32
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
-                "string" : "s.",
-                "start" : 32,
-                "end" : 34
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
+                "string" : "n.",
+                "start" : 33,
+                "end" : 35
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 35,
+                "end" : 35
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 72,
+                "end" : 72
             },
     ]
 })

@@ -1,78 +1,64 @@
 
 manual_entries.append({
-    "fullentry" : "tsukʰ onom. sonido de destapar una botella.",
-    "startpage" : 293,
-    "pos_on_page" : 29,
+    "fullentry" : "makín tárach apákmatai (apákmati) máquina de coser.",
+    "startpage" : 181,
+    "pos_on_page" : 20,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Achuar-Shiwiar",
                 "start" : 0,
-                "end" : 6
+                "end" : 37
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tsukʰ",
+                "string" : "makín tárach apákmatai",
                 "start" : 0,
-                "end" : 5
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "acu",
                 "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 7,
-                "end" : 12
+                "end" : 37
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 13,
-                "end" : 43
+                "start" : 37,
+                "end" : 56
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 13,
-                "end" : 43
+                "start" : 37,
+                "end" : 56
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido de destapar una botella",
-                "start" : 13,
-                "end" : 43
+                "string" : "máquina de coser",
+                "start" : 37,
+                "end" : 56
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "tsuk",
+                "string" : "makín tárach apákmatai (apákmati)",
                 "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "end" : 37
             },
             {
                 "type" : "pagelayout",
-                "value" : "hyphen",
+                "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
@@ -85,15 +71,15 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 38,
+                "end" : 38
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 38,
+                "end" : 38
             },
     ]
 })

@@ -22,11 +22,20 @@ from paste.deploy import appconfig
 
 import functions
 
-def process_head(entry, head, head_s, head_e):
-    for m in re.finditer("-", head):
+def insert_head(entry, head_s, head_e):
+    for m in re.finditer("-", entry.fullentry[head_s:head_e]):
         entry.append_annotation(head_s + m.start(0), head_s + m.end(0), u'boundary', u'dictinterpretation', u"morpheme boundary")
 
-    return re.sub("-", "", head)
+    heads = []
+    for (s, e) in functions.split_entry_at(entry, r"(?:, |$)", head_s, head_e):
+        head = entry.fullentry[s:e]
+        head = re.sub(u"[¿?¡!\(\)\-\.]", u"", entry.fullentry[s:e])
+        head = re.sub("[-\.]", "", head)
+        inserted_head = functions.insert_head(entry, s, e, head)
+        if inserted_head is not None:
+            heads.append(inserted_head)
+
+    return heads
 
 def annotate_head(entry):
     # delete head annotations
@@ -96,13 +105,9 @@ def annotate_head(entry):
                     s = s + 1
                     e = e - 1
                     
-                # remove hyphens
-                head = re.sub(u"[¿?¡!']", u"", entry.fullentry[s:e])
-                #head = re.sub(u"[\-\-]", u"", entry.fullentry[s:e])
-                head = process_head(entry, head, s, e)
-                inserted_head = functions.insert_head(entry, s, e, head)
-                if inserted_head != None:
-                    heads.append(inserted_head)
+                inserted_heads = insert_head(entry, s, e)
+                if len(inserted_heads) > 0:
+                    heads += inserted_heads
                 s = start + match.end(0)
 
     if len(heads) == 0:
@@ -143,8 +148,8 @@ def annotate_pos_and_crossrefs(entry):
                     br_index -= 1
                 end = italic_annotation.start + br_index
                 #create Log output for different bracket handling
-                if not match_bracket or br_index != match_bracket.start():
-                    functions.print_error_in_entry(entry, 'INFO: different bracket handling from svn332')
+                #if not match_bracket or br_index != match_bracket.start():
+                #    functions.print_error_in_entry(entry, 'INFO: different bracket handling from svn332')
             entry.append_annotation(italic_annotation.start, end, u'pos', u'dictinterpretation')
 
 
@@ -301,7 +306,7 @@ def main(argv):
 
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=112,pos_on_page=3).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=194,pos_on_page=5).all()
 
         startletters = set()
         for e in entries:

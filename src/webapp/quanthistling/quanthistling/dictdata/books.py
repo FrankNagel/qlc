@@ -2174,7 +2174,13 @@ list = [
             },
         ],
         'nondictdata' : [
-            
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'arawak/rowan2001_nondictdata_0_0.htm',
+                'component' : 'Arawak'
+            }            
         ]
     },
     {
@@ -2675,7 +2681,20 @@ list = [
             },
         ],
         'nondictdata' : [
-
+            {
+                'startpage' : 0,
+                'endpage' : 20,
+                'title': u'Start pages',
+                'file' : 'other/tripp1995_nondictdata_0_20.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 175,
+                'endpage' : 226,
+                'title': u'Appendices',
+                'file' : 'other/tripp1995_nondictdata_175_226.htm',
+                'component' : 'Other'
+            }            
         ]
     },
     {
@@ -2693,14 +2712,27 @@ list = [
                 'endpage': 116,
                 'src_language_name': u'Candoshi-Shapra',
                 'tgt_language_name': u'Spanish',
-                'src_language_bookname': u'CANDOSHI',
+                'src_language_bookname': u'Candoshi',
                 'tgt_language_bookname': u'Castellano',
                 'file': 'other/tuggy1966_dictdata_1_116.xml',
                 'component': 'Other'
             },
         ],
-        'nondictdata': [
-
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/tuggy1966_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 232,
+                'endpage' : 258,
+                'title': u'Appendices',
+                'file' : 'other/tuggy1966_nondictdata_232_258.htm',
+                'component' : 'Other'
+            }            
         ]
     },
 

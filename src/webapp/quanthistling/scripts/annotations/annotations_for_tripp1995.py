@@ -49,7 +49,7 @@ def annotate_pos(entry):
         Session.delete(a)
 
     italic = functions.get_first_italic_range(entry)
-    if italic is not None:
+    if italic != -1:
         (pos_start, pos_end) = italic
         start = pos_start
         for match_comma in re.finditer("(?:, ?|$)", entry.fullentry[pos_start:pos_end]):

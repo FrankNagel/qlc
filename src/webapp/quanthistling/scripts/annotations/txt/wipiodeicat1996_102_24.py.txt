@@ -1,78 +1,78 @@
 
 manual_entries.append({
-    "fullentry" : "tsukʰ onom. sonido de destapar una botella.",
-    "startpage" : 293,
-    "pos_on_page" : 29,
+    "fullentry" : "ipáj pítu (shíig pítu) especie de árbol silvestre que produce pan de árbol.",
+    "startpage" : 102,
+    "pos_on_page" : 24,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 6
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tsukʰ",
+                "string" : "ipáj pítu",
                 "start" : 0,
-                "end" : 5
+                "end" : 11
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "acu",
+                "string" : "agr",
                 "start" : 0,
-                "end" : 6
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "onom.",
-                "start" : 7,
-                "end" : 12
+                "value" : "head",
+                "string" : "shíig pítu",
+                "start" : 13,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 13,
-                "end" : 43
+                "start" : 27,
+                "end" : 80
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 13,
-                "end" : 43
+                "start" : 27,
+                "end" : 80
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "sonido de destapar una botella",
-                "start" : 13,
-                "end" : 43
+                "string" : "especie de árbol silvestre que produce pan de árbol",
+                "start" : 27,
+                "end" : 80
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "tsuk",
+                "string" : "ipáj pítu (shíig pítu)",
                 "start" : 0,
-                "end" : 4
-            },
-            {
-                "type" : "formatting",
-                "value" : "italic",
-                "string" : "onom.",
-                "start" : 6,
-                "end" : 11
+                "end" : 26
             },
             {
                 "type" : "pagelayout",
-                "value" : "hyphen",
+                "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
             },
             {
                 "type" : "pagelayout",
@@ -85,15 +85,22 @@ manual_entries.append({
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 37,
-                "end" : 37
+                "start" : 74,
+                "end" : 74
             },
     ]
 })
