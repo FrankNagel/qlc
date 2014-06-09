@@ -2616,6 +2616,31 @@ list = [
 
         ]
     },
+    {
+        'title': u'APONTAMENTOS PARA UM ESTUDO DA LÍNGUA KRẼ-YÉ',
+        'author': u'Boudin, Max II.',
+        'year': 1950,
+        'bibtex_key': u'boudin1950',
+        'pages': 629,
+        'columns': 1,
+        'is_ready': False,
+        'type': 'dictionary',
+        'dictdata': [
+            {
+                'startpage': 573,
+                'endpage': 601,
+                'src_language_name': u'Kreye',
+                'tgt_language_name': u'Portuguese',
+                'src_language_bookname': u'Krẽ-yé',
+                'tgt_language_bookname': u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file': 'macro-ge/boudin1950_dictdata_573_601.xml',
+                'component': 'Macro-Ge'
+            },
+        ],
+        'nondictdata': [
+        ]
+    },
 
 ##################################### Nambiquaran
 

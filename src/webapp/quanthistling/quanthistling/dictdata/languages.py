@@ -1823,4 +1823,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/cbu'
     },
+    {
+        'name' : u'Kreye',
+        'langcode': u'xre',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/xre'
+    },
 ]
