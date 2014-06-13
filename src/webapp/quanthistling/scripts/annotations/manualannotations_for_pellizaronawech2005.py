@@ -4980,6 +4980,63 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "▪ tamba = ola.",
+    "startpage" : 164,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tampa",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ola",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "p",
+                "start" : 5,
+                "end" : 6
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "Entsá, na. = nombre de mujer (= cargadora, carguera).",
     "startpage" : 164,
     "pos_on_page" : 23,
@@ -19613,6 +19670,84 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "* tambiáku = cóncavo, encorvado hacia adentro.",
+    "startpage" : 353,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tampiáku",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 2,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cóncavo",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 24,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "encorvado hacia adentro",
+                "start" : 24,
+                "end" : 47
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "p",
+                "start" : 5,
+                "end" : 6
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "purit, purírkasa; tsurit, tsurírkasa, ui. mch. = ruido (de raspar, arrancar, morder, carcomer) Jankíjai purírkasa jukiyi = se raspó con un espino.",
     "startpage" : 354,
     "pos_on_page" : 1,
@@ -24783,6 +24918,70 @@ manual_entries.append({
                 "string" : "Is. numi; tsuak.",
                 "start" : 232,
                 "end" : 248
+            },
+    ]
+})
+
+manual_entries.append({
+    "fullentry" : "+ ayanda ayanta ajá-s = bambolearse.",
+    "startpage" : 443,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 2,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ayanta ayanta ajás",
+                "start" : 2,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 2,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 20,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 25,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 25,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bambolearse",
+                "start" : 25,
+                "end" : 36
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "t",
+                "start" : 6,
+                "end" : 7
             },
     ]
 })

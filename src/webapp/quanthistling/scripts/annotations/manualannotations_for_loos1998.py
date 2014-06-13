@@ -4,6 +4,119 @@ manual_entries = []
 
 
 manual_entries.append({
+    "fullentry" : "paxonjanhihqui v.r. soplar en el oído (soplándose la mano y luego tapándose con esa mano el oído) Coca paxojanhihqui pabehax. El tío se sopló el oído porque se había ensordecido.",
+    "startpage" : 260,
+    "pos_on_page" : 15,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Capanahua",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "paxonjanhihqui",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kaq",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.r",
+                "start" : 15,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 20,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 105
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "soplar en el oído (soplándose la mano y luego tapándose con esa mano el oído)",
+                "start" : 20,
+                "end" : 105
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "paxonjanhihqui",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "paxonjanhihqui v.r. soplar en el oído (soplándose la mano y luego tapándose con",
+                "start" : 0,
+                "end" : 82
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "esa mano el oído)",
+                "start" : 106,
+                "end" : 124
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Coca paxojanhihqui pabehax.",
+                "start" : 125,
+                "end" : 152
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "-ax -hax, -ish suf.v.gr.6 1 Forma el participio presente de los verbos e indica lugar desde donde la acción se realiza Jahui nocoti jahuen xoboho. Nocotax racati paishin. Llegó a su casa y se echó en la hamaca (lit. llegando se echó). Yoha mesquequin. Yoha mesquehax qui jaya pepahuehcahini. Quebró una rama del tallo de yuca y se la llevó (lit. quebrándola se la llevó) al hombro. 2 al Jaatian qui joni merahax qui patataon, taon, taon, taon. Entonces, se dice que al descubrir al hombre los pájaros llamaron patataon, taon, taon, taon. 3 después de Jascarax qui: “Non bichinxahnon”, hih qui jacani can. Después de eso dijeron: “Robémoslo”. Jascaripish mohiyahti. Después de hacer eso, (al día siguiente) se levantaron. 4 porque Hamaca siripahton qui racati can, pechihi yonatax. Se echó en una hamaca muy linda para abrigarse porque estaba con fiebre. Nea ta heen hinabaan xetehax ta jahuiqui, jise nea. Mira, mis servidores vienen porque te olfatean (te están rastreando). 5 cómo ¿Jenquetsahax caxon cahron mia bichintihin? Pues ¿cómo pudiera yo ir para robarte? 6 habiéndose Jatsanjacasquimascaax qui cahi. Habiéndose frustrado (lit. indagando tanto en vano), se fue. 7 cuando, si Hoxahax, rohahi. Hoxayamahax cahen rohayamahi. Si duerme, se sana y si no duerme, no se sana. 8 habiendo (indica que el sujeto del verbo es correferencial con el del verbo gobernante y el verbo gobernante es intransitivo)",
     "startpage" : 63,
     "pos_on_page" : 15,

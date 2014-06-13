@@ -26,9 +26,9 @@ re_english = re.compile(u"<i>([^<]*)</i>")
 re_html = re.compile(u"</?\w{1,2}>")
 re_singledash = re.compile(u"(?<!-)-(?!-)")
 
-def substitute_characters(iso, fullentry):
+def substitute_characters(langname, fullentry):
     e = fullentry
-    if iso != "eng":
+    if langname != "English":
         e = re.sub(u"\?", u"ʔ", e)
     e = re.sub(u"d@go{0}lu{1}".format(unichr(0x0304), unichr(0x0300)),
         u"du{0}{1}go{2}lu{3}".format(unichr(0x0304), unichr(0x0300),
@@ -161,6 +161,7 @@ def main(argv):
                     concept = re.sub(u"'", u"_", concept)
                     concept = re.sub(u"\(", u"", concept)
                     concept = re.sub(u"\)", u"", concept)
+                    concept = re.sub(u"\?", u"", concept)
                     concept_id = u"{0}".format(concept)
                     concepts[k] = concept_id
 

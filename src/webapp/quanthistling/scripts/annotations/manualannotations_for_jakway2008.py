@@ -8209,6 +8209,91 @@ manual_entries.append({
 })
 
 manual_entries.append({
+    "fullentry" : "apachxam, apachraman apacharama (especie de árbol).",
+    "startpage" : 20,
+    "pos_on_page" : 36,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Humabisa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apachram",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hub",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Humabisa",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apachraman",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "hub",
+                "start" : 10,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 20,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 20,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "apacharama (especie de árbol)",
+                "start" : 20,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "apachxam, apachraman",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "apachram",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})
+
+manual_entries.append({
     "fullentry" : "en el sol, al sol etsanam.",
     "startpage" : 211,
     "pos_on_page" : 8,
