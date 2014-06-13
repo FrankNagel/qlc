@@ -17,6 +17,7 @@ import quanthistling.dictdata.wordlistbooks
 from paste.deploy import appconfig
 
 import importfunctions
+import annotations.functions
 
 dictdata_path = 'quanthistling/dictdata'
 
@@ -24,6 +25,42 @@ re_page = re.compile(u"\[Seite (\d+)\]$")
 re_english = re.compile(u"<i>([^<]*)</i>")
 re_html = re.compile(u"</?\w{1,2}>")
 re_singledash = re.compile(u"(?<!-)-(?!-)")
+
+def substitute_characters(iso, fullentry):
+    e = fullentry
+    if iso != "eng":
+        e = re.sub(u"\?", u"ʔ", e)
+    e = re.sub(u"d@go{0}lu{1}".format(unichr(0x0304), unichr(0x0300)),
+        u"du{0}{1}go{2}lu{3}".format(unichr(0x0304), unichr(0x0300),
+            unichr(0x0304), unichr(0x0300)), e)
+    e = re.sub(unichr(0x2013), "-", e)
+    e = re.sub(unichr(0x03b7), unichr(0x014b), e)
+    e = re.sub(unichr(0x03b9), unichr(0x0269), e)
+    e = re.sub(unichr(0x04d9), unichr(0x0259), e)
+    e = re.sub(unichr(0x0305), unichr(0x0304), e)
+    e = re.sub(unichr(0x02c6), unichr(0x0302), e)
+    e = re.sub(unichr(0x02c7), unichr(0x030c), e)
+    return e
+
+def insert_counterpart(entry, start, end, data):
+    if entry.fullentry.strip() == "":
+        return
+
+    for (s, e) in annotations.functions.split_entry_at(entry, r"(?:[/;] ?|$)",
+            start, end):
+        counterpart = entry.fullentry[s:e]
+        if counterpart.strip().startswith("Hausa"):
+            continue
+
+        entry.append_annotation(s, e, "counterpart", "dictinterpretation",
+            counterpart)
+        entry.append_annotation(s, e, u'doculect',
+            u'dictinterpretation', data["language_bookname"])
+        language_iso = Session.query(model.LanguageIso).filter_by(
+            name=data["language_name"]).first()
+        if language_iso is not None:
+            entry.append_annotation(s, e, u'iso639-3',
+                u'dictinterpretation', language_iso.langcode)
 
 def main(argv):
     #book_bibtex_key = u"zgraggen1980"
@@ -88,8 +125,8 @@ def main(argv):
                     
             for line in wordlistfile:
                 l = line.strip()
+                l = substitute_characters(data["language_name"], l)
 
-    
                 if re.search(u'^<p>', l):
                     l = re.sub(u'</?p>', '', l)
 
@@ -116,6 +153,10 @@ def main(argv):
             if data["language_name"] == u"English":
                 for k, v in counterparts.items():
                     concept = v[0][v[1]:].upper()
+                    if k == 232:
+                        concept = "MAT (TABARME)"
+                    elif k == 233:
+                        concept = "MAT (ZANA)"
                     concept = re.sub(u" ", u"_", concept)
                     concept = re.sub(u"'", u"_", concept)
                     concept = re.sub(u"\(", u"", concept)
@@ -153,16 +194,7 @@ def main(argv):
 
                 s = v[1]
                 e = len(v[0])
-                if v[0][s:e].strip() != "":
-                    entry_db.append_annotation(s, e, "counterpart",
-                        "dictinterpretation", v[0][s:e])
-                    entry_db.append_annotation(s, e, u'doculect',
-                        u'dictinterpretation', data["language_bookname"])
-                    language_iso = Session.query(model.LanguageIso).filter_by(
-                        name=data["language_name"]).first()
-                    if language_iso is not None:
-                        entry_db.append_annotation(s, e, u'iso639-3',
-                            u'dictinterpretation', language_iso.langcode)
+                inserted = insert_counterpart(entry_db, s, e, data)
 
         Session.commit()
 

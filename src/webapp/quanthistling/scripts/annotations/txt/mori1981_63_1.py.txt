@@ -1,92 +1,85 @@
 
 manual_entries.append({
-    "fullentry" : "tujúj~ N. Palmera (especie), palmilla. Hyospatha.",
-    "startpage" : 60,
-    "pos_on_page" : 9,
+    "fullentry" : "tsaní-g-tin Adj. Persona ena@orada.",
+    "startpage" : 63,
+    "pos_on_page" : 1,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 7
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujúj",
+                "string" : "tsanígtin",
                 "start" : 0,
-                "end" : 6
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "n",
-                "start" : 7,
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 8,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "Palmera",
-                "start" : 11,
-                "end" : 18
+                "value" : "pos",
+                "string" : "adj",
+                "start" : 12,
+                "end" : 16
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 30,
-                "end" : 38
+                "start" : 17,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 30,
-                "end" : 38
+                "start" : 17,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "palmilla",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "formatting",
-                "value" : "underline",
-                "string" : "Hyospatha",
-                "start" : 40,
-                "end" : 49
+                "string" : "Persona enamorada",
+                "start" : 18,
+                "end" : 35
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 7,
-                "end" : 7
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "m",
+                "start" : 29,
+                "end" : 30
             },
     ]
 })

@@ -78,7 +78,15 @@ def main(argv):
         #print book["bibtex_key"]
         if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
             print "skipping", book["bibtex_key"]
-            continue     
+            continue
+
+        if book["bibtex_key"] in [ "zgraggen1980b", "zgraggen1980c", "zgraggen1980d",
+                "kraft1981-2", "kraft1981-3" ]:
+            continue
+
+        if book["bibtex_key"] == "kraft1981-1":
+            book["bibtex_key"] = "kraft1981"
+
         try:
             exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
             print "adding manual annotations for %s" % book["bibtex_key"]

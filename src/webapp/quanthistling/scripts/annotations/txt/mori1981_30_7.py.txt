@@ -1,20 +1,20 @@
 
 manual_entries.append({
-    "fullentry" : "yáigchi (yáiju̱ch) – muy pequeno",
-    "startpage" : 85,
-    "pos_on_page" : 21,
+    "fullentry" : "kaáshat N. @uebrada.",
+    "startpage" : 30,
+    "pos_on_page" : 7,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 20
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "yáigchi",
+                "string" : "kaáshat",
                 "start" : 0,
                 "end" : 8
             },
@@ -23,35 +23,49 @@ manual_entries.append({
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 20
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 8,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 23,
-                "end" : 34
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 23,
-                "end" : 34
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "muy pequeño",
-                "start" : 23,
-                "end" : 34
+                "string" : "Quebrada",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
             },
             {
                 "type" : "errata",
                 "value" : "typo",
-                "string" : "muy pequeño",
-                "start" : 23,
-                "end" : 34
+                "string" : "Q",
+                "start" : 12,
+                "end" : 13
             },
     ]
 })

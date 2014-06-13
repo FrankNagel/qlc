@@ -1,92 +1,127 @@
 
 manual_entries.append({
-    "fullentry" : "tujúj~ N. Palmera (especie), palmilla. Hyospatha.",
-    "startpage" : 60,
-    "pos_on_page" : 9,
+    "fullentry" : "akútu-t Verb. Hincar, @erir, cerbatanear. Cf. tukút.",
+    "startpage" : 3,
+    "pos_on_page" : 34,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 7
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujúj",
+                "string" : "akútut",
                 "start" : 0,
-                "end" : 6
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "n",
-                "start" : 7,
-                "end" : 9
+                "string" : "verb",
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 10,
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hincar",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 23,
                 "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 10,
+                "start" : 23,
                 "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Palmera",
-                "start" : 11,
-                "end" : 18
+                "string" : "herir",
+                "start" : 23,
+                "end" : 28
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 30,
-                "end" : 38
+                "end" : 41
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 30,
-                "end" : 38
+                "end" : 41
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "palmilla",
+                "string" : "cerbatanear",
                 "start" : 30,
-                "end" : 38
+                "end" : 41
             },
             {
                 "type" : "formatting",
                 "value" : "underline",
-                "string" : "Hyospatha",
-                "start" : 40,
-                "end" : 49
+                "string" : "tukút",
+                "start" : 47,
+                "end" : 53
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 7,
-                "end" : 7
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "h",
+                "start" : 23,
+                "end" : 24
             },
     ]
 })

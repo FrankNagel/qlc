@@ -1,92 +1,99 @@
 
 manual_entries.append({
-    "fullentry" : "tujúj~ N. Palmera (especie), palmilla. Hyospatha.",
-    "startpage" : 60,
-    "pos_on_page" : 9,
+    "fullentry" : "yúpichuch Adj. Fácil, ba@ato. Cf. ákik-chau.",
+    "startpage" : 77,
+    "pos_on_page" : 31,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 7
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujúj",
+                "string" : "yúpichuch",
                 "start" : 0,
-                "end" : 6
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 7
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "n",
-                "start" : 7,
-                "end" : 9
+                "string" : "adj",
+                "start" : 10,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 10,
-                "end" : 28
+                "start" : 15,
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 10,
-                "end" : 28
+                "start" : 15,
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Palmera",
-                "start" : 11,
-                "end" : 18
+                "string" : "fácil",
+                "start" : 15,
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 30,
-                "end" : 38
+                "start" : 24,
+                "end" : 30
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 30,
-                "end" : 38
+                "start" : 24,
+                "end" : 30
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "palmilla",
-                "start" : 30,
-                "end" : 38
+                "string" : "barato",
+                "start" : 24,
+                "end" : 30
             },
             {
                 "type" : "formatting",
                 "value" : "underline",
-                "string" : "Hyospatha",
-                "start" : 40,
-                "end" : 49
+                "string" : "ákik-chau",
+                "start" : 36,
+                "end" : 46
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 7,
-                "end" : 7
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "r",
+                "start" : 26,
+                "end" : 27
             },
     ]
 })

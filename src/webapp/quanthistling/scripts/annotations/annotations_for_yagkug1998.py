@@ -37,37 +37,47 @@ def annotate_everything(entry):
     head_start = 0
     head_end = functions.get_last_bold_pos_at_start(entry)
 
-    com_heads = []
-    match_bracket = re.search(u"\([^)]*\)\.", entry.fullentry) # remove parenthesis and content in heads
-    if match_bracket:
-        head_end = head_end - len(match_bracket.group(0))
-    for com in re.finditer(r'(,|;)', entry.fullentry):
-        com_heads.append(com.start())
+    for (s, e) in functions.split_entry_at(entry, r"(?:[,;] ?|$)", 0, head_end):
+        match_bracket = re.search(u"\([^)]*\)\.?$", entry.fullentry[s:e])
+        if match_bracket:
+            e -= len(match_bracket.group(0))
+        head = functions.insert_head(entry, s, e)
+        if head is None:
+            functions.print_error_in_entry(entry, "head is None")
+        else:
+            heads.append(head)
+
+    # com_heads = []
+    # match_bracket = re.search(u"\([^)]*\)\.", entry.fullentry) # remove parenthesis and content in heads
+    # if match_bracket:
+    #     head_end = head_end - len(match_bracket.group(0))
+    # for com in re.finditer(r'(,|;)', entry.fullentry):
+    #     com_heads.append(com.start())
             
-    comma_heads = [ a for a in com_heads if a < head_end ] 
+    # comma_heads = [ a for a in com_heads if a < head_end ] 
     
-    if comma_heads:
-        for i in range(len(comma_heads)):
-            if i == 0:
-                h_s = 0
-                h_e = comma_heads[i]
-                h1 = functions.insert_head(entry, h_s, h_e)
+    # if comma_heads:
+    #     for i in range(len(comma_heads)):
+    #         if i == 0:
+    #             h_s = 0
+    #             h_e = comma_heads[i]
+    #             h1 = functions.insert_head(entry, h_s, h_e)
                 
-                h2_s = comma_heads[0] + 2
-                if i + 1 < len(comma_heads):
-                    h2_e = comma_heads[i+1]
-                    h2 = functions.insert_head(entry, h2_s, h2_e)
-                else:
-                    h2 = functions.insert_head(entry, h2_s, head_end)
-            else:
-                h_s = comma_heads[i] + 2
-                if i + 1 < len(comma_heads):
-                    h_e = comma_heads[i+1]
-                    head = functions.insert_head(entry, h_s, h_e)
-                else:
-                    head = functions.insert_head(entry, h_s, head_end)
-    else:
-        functions.insert_head(entry, head_start, head_end)
+    #             h2_s = comma_heads[0] + 2
+    #             if i + 1 < len(comma_heads):
+    #                 h2_e = comma_heads[i+1]
+    #                 h2 = functions.insert_head(entry, h2_s, h2_e)
+    #             else:
+    #                 h2 = functions.insert_head(entry, h2_s, head_end)
+    #         else:
+    #             h_s = comma_heads[i] + 2
+    #             if i + 1 < len(comma_heads):
+    #                 h_e = comma_heads[i+1]
+    #                 head = functions.insert_head(entry, h_s, h_e)
+    #             else:
+    #                 head = functions.insert_head(entry, h_s, head_end)
+    # else:
+    #     functions.insert_head(entry, head_start, head_end)
     
     # pos
     ir = functions.get_first_italic_range(entry)
@@ -171,7 +181,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=114,pos_on_page=32).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=50,pos_on_page=27).all()
         
 
         startletters = set()

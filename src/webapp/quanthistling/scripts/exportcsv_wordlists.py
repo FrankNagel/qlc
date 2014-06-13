@@ -100,7 +100,7 @@ def main(argv):
                 for e in entries:
                     counterparts = []
                     doculects_counterparts = []
-                    entry_id = "{0}/{1}/{2}".format(book.bibtex_key, e.startpage, e.pos_on_page)
+                    entry_id = u"{0}/{1}/{2}".format(book.bibtex_key, wordlistdata.language_bookname.name, e.concept.concept)
                     for a in dict_annotations[e.id]:
                         if a.value == "counterpart":
                             counterparts.append(a.string)

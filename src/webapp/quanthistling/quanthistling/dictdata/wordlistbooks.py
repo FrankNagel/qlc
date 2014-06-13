@@ -1469,7 +1469,7 @@ list = [
             },
             {
                 'startpage' : 256,
-                'endpage' : 251,
+                'endpage' : 261,
                 'language_name' : u'Bade',
                 'language_bookname' : u'Bade',
                 'component' : 'Chadic'

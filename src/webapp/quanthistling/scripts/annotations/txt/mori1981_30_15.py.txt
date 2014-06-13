@@ -1,92 +1,92 @@
 
 manual_entries.append({
-    "fullentry" : "tujúj~ N. Palmera (especie), palmilla. Hyospatha.",
-    "startpage" : 60,
-    "pos_on_page" : 9,
+    "fullentry" : "kaénch-namu N. @rujido. kaénchmamui 'Está crujiendo'.",
+    "startpage" : 30,
+    "pos_on_page" : 15,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 7
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujúj",
+                "string" : "kaénchnamu",
                 "start" : 0,
-                "end" : 6
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 7
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 7,
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "n",
-                "start" : 7,
-                "end" : 9
+                "start" : 12,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 10,
-                "end" : 28
+                "start" : 15,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 10,
-                "end" : 28
+                "start" : 15,
+                "end" : 23
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Palmera",
-                "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "palmilla",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "formatting",
-                "value" : "underline",
-                "string" : "Hyospatha",
-                "start" : 40,
-                "end" : 49
+                "string" : "Crujido",
+                "start" : 16,
+                "end" : 23
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 7,
-                "end" : 7
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "C",
+                "start" : 16,
+                "end" : 17
             },
     ]
 })

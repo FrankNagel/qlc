@@ -2639,6 +2639,20 @@ list = [
             },
         ],
         'nondictdata': [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'macro-ge/boudin1950_nondictdata_0_0.htm',
+                'component' : 'Macro-Ge'
+            },
+            {
+                'startpage' : 628,
+                'endpage' : 629,
+                'title': u'End pages',
+                'file' : 'macro-ge/boudin1950_nondictdata_628_629.htm',
+                'component' : 'Macro-Ge'
+            }
         ]
     },
 

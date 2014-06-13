@@ -1,92 +1,71 @@
 
 manual_entries.append({
-    "fullentry" : "tujúj~ N. Palmera (especie), palmilla. Hyospatha.",
-    "startpage" : 60,
-    "pos_on_page" : 9,
+    "fullentry" : "nagkaégat (nagkaeát) – detener, interceptar",
+    "startpage" : 46,
+    "pos_on_page" : 23,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 7
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujúj",
+                "string" : "nagkaégat",
                 "start" : 0,
-                "end" : 6
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "pos",
-                "string" : "n",
-                "start" : 7,
-                "end" : 9
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 10,
-                "end" : 28
+                "start" : 25,
+                "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 10,
-                "end" : 28
+                "start" : 25,
+                "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Palmera",
-                "start" : 11,
-                "end" : 18
+                "string" : "detener",
+                "start" : 25,
+                "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 30,
-                "end" : 38
+                "start" : 34,
+                "end" : 45
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 30,
-                "end" : 38
+                "start" : 34,
+                "end" : 45
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "palmilla",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "formatting",
-                "value" : "underline",
-                "string" : "Hyospatha",
-                "start" : 40,
-                "end" : 49
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 7,
-                "end" : 7
+                "string" : "interceptar",
+                "start" : 34,
+                "end" : 45
             },
     ]
 })

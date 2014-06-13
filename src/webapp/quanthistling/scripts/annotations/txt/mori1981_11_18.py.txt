@@ -1,8 +1,8 @@
 
 manual_entries.append({
-    "fullentry" : "tujúj~ N. Palmera (especie), palmilla. Hyospatha.",
-    "startpage" : 60,
-    "pos_on_page" : 9,
+    "fullentry" : "chágke N. Huanchaco (es@ecie de pájaro). Gen. Tantalus.",
+    "startpage" : 11,
+    "pos_on_page" : 18,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
@@ -14,9 +14,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "tujúj",
+                "string" : "chágke",
                 "start" : 0,
-                "end" : 6
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
@@ -37,49 +37,28 @@ manual_entries.append({
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 10,
-                "end" : 28
+                "end" : 41
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 10,
-                "end" : 28
+                "end" : 41
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Palmera",
+                "string" : "Huanchaco (especie de pájaro)",
                 "start" : 11,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 38
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "palmilla",
-                "start" : 30,
-                "end" : 38
+                "end" : 41
             },
             {
                 "type" : "formatting",
                 "value" : "underline",
-                "string" : "Hyospatha",
-                "start" : 40,
-                "end" : 49
+                "string" : "Tantalus",
+                "start" : 48,
+                "end" : 56
             },
             {
                 "type" : "pagelayout",
@@ -87,6 +66,13 @@ manual_entries.append({
                 "string" : "",
                 "start" : 7,
                 "end" : 7
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "p",
+                "start" : 24,
+                "end" : 25
             },
     ]
 })

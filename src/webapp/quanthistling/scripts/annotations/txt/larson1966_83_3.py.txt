@@ -1,57 +1,50 @@
 
 manual_entries.append({
-    "fullentry" : "yáigchi (yáiju̱ch) – muy pequeno",
-    "startpage" : 85,
-    "pos_on_page" : 21,
+    "fullentry" : "washíbau (washím) – garlito",
+    "startpage" : 83,
+    "pos_on_page" : 3,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 20
+                "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "yáigchi",
+                "string" : "washíbau",
                 "start" : 0,
-                "end" : 8
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 20
+                "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 23,
-                "end" : 34
+                "start" : 22,
+                "end" : 29
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 23,
-                "end" : 34
+                "start" : 22,
+                "end" : 29
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "muy pequeño",
-                "start" : 23,
-                "end" : 34
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "muy pequeño",
-                "start" : 23,
-                "end" : 34
+                "string" : "garlito",
+                "start" : 22,
+                "end" : 29
             },
     ]
 })
