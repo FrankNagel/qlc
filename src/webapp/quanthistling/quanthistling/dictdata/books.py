@@ -1584,7 +1584,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Aguaruna',
                 'tgt_language_bookname' : u'Castellano',
-                'file' : 'Jivaroan/mori1981_dictdata_1_78.xml',
+                'file' : 'jivaroan/mori1981_dictdata_1_78.xml',
                 'component' : 'Jivaroan'
             },
         ],
@@ -1593,14 +1593,14 @@ list = [
                 'startpage' : 0,
                 'endpage' : 0,
                 'title': u'Start pages',
-                'file' : 'Jivaroan/mori1981_nondictdata_0_0.htm',
+                'file' : 'jivaroan/mori1981_nondictdata_0_0.htm',
                 'component' : 'Jivaroan'
             },
             {
                 'startpage' : 79,
                 'endpage' : 79,
                 'title': u'Last page',
-                'file' : 'Jivaroan/mori1981_nondictdata_79.htm',
+                'file' : 'jivaroan/mori1981_nondictdata_79.htm',
                 'component' : 'Jivaroan'
             },
         ]
