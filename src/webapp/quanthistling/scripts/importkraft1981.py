@@ -48,9 +48,25 @@ def insert_counterpart(entry, start, end, data):
 
     for (s, e) in annotations.functions.split_entry_at(entry, r"(?:[/;] ?|$)",
             start, end):
+        match_squarebracket = re.search(" \[[^\]]*\] ?$", entry.fullentry[s:e])
+        if match_squarebracket:
+            e -= len(match_squarebracket.group(0))
+
+        match_bracket = re.search(" \((GB|EB|G)\) ?$", entry.fullentry[s:e])
+        if match_bracket:
+            e -= len(match_bracket.group(0))
+
+        match_equal = re.match(" ?=", entry.fullentry[s:e])
+        if match_equal:
+            s += len(match_equal.group(0))
+
         counterpart = entry.fullentry[s:e]
+
         if counterpart.strip().startswith("Hausa"):
             continue
+
+        counterpart = re.sub(u"(?<![ \t])\(", "", counterpart)
+        counterpart = re.sub(u"\)(?![ \t])", "", counterpart)
 
         entry.append_annotation(s, e, "counterpart", "dictinterpretation",
             counterpart)
