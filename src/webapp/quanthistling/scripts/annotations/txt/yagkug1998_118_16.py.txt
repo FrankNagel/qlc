@@ -1,134 +1,134 @@
 
 manual_entries.append({
-    "fullentry" : "Angkasta./Ngkásta. ¡Quítate!/¡Quítese!",
-    "startpage" : 98,
-    "pos_on_page" : 15,
+    "fullentry" : "tuchíra, tuchíra. n. especie de garza de color azul y blanco; especie de garza azul",
+    "startpage" : 118,
+    "pos_on_page" : 16,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "angkasta",
+                "string" : "tuchíra",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "acu",
+                "string" : "agr",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 10,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ngkásta",
+                "string" : "Aguaruna",
                 "start" : 10,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "acu",
+                "string" : "agr",
                 "start" : 10,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
+                "value" : "pos",
+                "string" : "n",
                 "start" : 20,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 20,
-                "end" : 31
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "Quítate",
-                "start" : 20,
-                "end" : 31
+                "end" : 21
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 31,
-                "end" : 41
+                "start" : 23,
+                "end" : 62
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 31,
-                "end" : 41
+                "start" : 23,
+                "end" : 62
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Quítese",
-                "start" : 31,
-                "end" : 41
+                "string" : "especie de garza de color azul y blanco",
+                "start" : 23,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 64,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 64,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "especie de garza azul",
+                "start" : 64,
+                "end" : 85
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "Angkasta./Ngkásta.",
+                "string" : "tuchíra, tuchíra.",
                 "start" : 0,
                 "end" : 19
             },
             {
-                "type" : "pagelayout",
-                "value" : "tab",
-                "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n.",
+                "start" : 20,
+                "end" : 22
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 39,
+                "end" : 39
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 75,
+                "end" : 75
             },
     ]
 })

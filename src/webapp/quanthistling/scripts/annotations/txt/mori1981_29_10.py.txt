@@ -1,119 +1,105 @@
 
 manual_entries.append({
-    "fullentry" : "Áachi! = error! me equivoco! me corrijo! lapsus linguae.",
-    "startpage" : 114,
-    "pos_on_page" : 8,
+    "fullentry" : "jítu-t Verb. Asar (carne, yuca, plátano).",
+    "startpage" : 29,
+    "pos_on_page" : 10,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Shuar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 6
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "áachi",
+                "string" : "jítut",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "jiv",
+                "string" : "agr",
                 "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 5,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "error",
-                "start" : 10,
-                "end" : 15
+                "value" : "pos",
+                "string" : "verb",
+                "start" : 7,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 17,
-                "end" : 28
+                "start" : 13,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 17,
-                "end" : 28
+                "start" : 13,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "me equivoco",
-                "start" : 17,
-                "end" : 28
+                "string" : "Asar",
+                "start" : 14,
+                "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 30,
-                "end" : 40
+                "start" : 27,
+                "end" : 31
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 30,
-                "end" : 40
+                "start" : 27,
+                "end" : 31
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "me corrijo",
-                "start" : 30,
-                "end" : 40
+                "string" : "yuca",
+                "start" : 27,
+                "end" : 31
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 42,
-                "end" : 56
+                "start" : 33,
+                "end" : 42
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 42,
-                "end" : 56
+                "start" : 33,
+                "end" : 42
             },
             {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "lapsus linguae",
-                "start" : 42,
-                "end" : 56
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Áachi!",
-                "start" : 0,
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
                 "end" : 7
             },
     ]

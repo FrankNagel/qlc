@@ -6,64 +6,22 @@ manual_entries.append({
     "annotations" : [
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "jiv",
-                "start" : 2,
-                "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Shuar",
                 "start" : 2,
                 "end" : 7
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "jiv",
-                "start" : 28,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Shuar",
-                "start" : 28,
-                "end" : 33
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 15,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 15,
-                "end" : 26
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 36,
-                "end" : 47
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 36,
-                "end" : 47
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
                 "string" : "nuyá",
+                "start" : 2,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
                 "start" : 2,
                 "end" : 7
             },
@@ -76,6 +34,20 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "desde allá",
                 "start" : 15,
@@ -83,10 +55,38 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "Juyá",
+                "value" : "doculect",
+                "string" : "Shuar",
                 "start" : 28,
                 "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "juyá",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jiv",
+                "start" : 28,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 36,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 47
             },
             {
                 "type" : "dictinterpretation",

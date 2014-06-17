@@ -1,120 +1,127 @@
 
 manual_entries.append({
-    "fullentry" : "Áachi! = error! me equivoco! me corrijo! lapsus linguae.",
-    "startpage" : 114,
-    "pos_on_page" : 8,
+    "fullentry" : "betsá- Verb. Derramer, rebosar (Por ejemplo, la gaseosa cuando se le agita).",
+    "startpage" : 10,
+    "pos_on_page" : 2,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Shuar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 6
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "áachi",
+                "string" : "betsá",
                 "start" : 0,
                 "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "jiv",
-                "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "error",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 17,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 17,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "me equivoco",
-                "start" : 17,
-                "end" : 28
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 30,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 30,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "me corrijo",
-                "start" : 30,
-                "end" : 40
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 42,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 42,
-                "end" : 56
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "lapsus linguae",
-                "start" : 42,
-                "end" : 56
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Áachi!",
+                "string" : "agr",
                 "start" : 0,
                 "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 6,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "verb",
+                "start" : 7,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derramer",
+                "start" : 13,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 24,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rebosar",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 46,
+                "end" : 76
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "la gaseosa cuando se le agita",
+                "start" : 46,
+                "end" : 75
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 46,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
             },
     ]
 })

@@ -1,99 +1,99 @@
 
 manual_entries.append({
-    "fullentry" : "Ja! jaja! = cierto! (afirmando durante una conversación), que pasa! (al tomar conciencia después de un desmayo, o de una distracción).",
-    "startpage" : 220,
-    "pos_on_page" : 3,
+    "fullentry" : "ewét N. Borde, orilla (de barranco, río ...).",
+    "startpage" : 20,
+    "pos_on_page" : 24,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Shuar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 8
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "ja",
+                "string" : "ewét",
                 "start" : 0,
-                "end" : 2
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "jiv",
+                "string" : "agr",
                 "start" : 0,
-                "end" : 8
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "jaja",
-                "start" : 4,
-                "end" : 9
+                "value" : "pos",
+                "string" : "n",
+                "start" : 5,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 12,
-                "end" : 57
+                "start" : 8,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 12,
-                "end" : 57
+                "start" : 8,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "cierto (afirmando durante una conversación)",
-                "start" : 12,
-                "end" : 57
+                "string" : "borde",
+                "start" : 8,
+                "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 59,
-                "end" : 136
+                "start" : 16,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 59,
-                "end" : 136
+                "start" : 16,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "que pasa (al tomar conciencia después de un desmayo, o de una distracción)",
-                "start" : 59,
-                "end" : 136
+                "string" : "orilla",
+                "start" : 16,
+                "end" : 22
             },
             {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Ja! jaja!",
-                "start" : 0,
-                "end" : 9
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 37,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 37,
+                "end" : 42
             },
             {
                 "type" : "pagelayout",
-                "value" : "newline",
+                "value" : "tab",
                 "string" : "",
-                "start" : 62,
-                "end" : 62
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "newline",
-                "string" : "",
-                "start" : 122,
-                "end" : 122
+                "start" : 5,
+                "end" : 5
             },
     ]
 })

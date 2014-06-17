@@ -1,92 +1,71 @@
 
 manual_entries.append({
-    "fullentry" : "Kurín, Kurínt s. el río Corrientes.",
-    "startpage" : 174,
-    "pos_on_page" : 31,
+    "fullentry" : "íngkis (de la palabra “inglés”) s. gringo.",
+    "startpage" : 131,
+    "pos_on_page" : 22,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Achuar-Shiwiar",
                 "start" : 0,
-                "end" : 6
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "kurín",
+                "string" : "íngkis",
                 "start" : 0,
-                "end" : 6
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "acu",
                 "start" : 0,
-                "end" : 6
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 8,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "kurínt",
-                "start" : 8,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 8,
-                "end" : 15
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "s.",
-                "start" : 16,
-                "end" : 18
+                "start" : 34,
+                "end" : 36
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 19,
-                "end" : 37
+                "start" : 36,
+                "end" : 44
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 19,
-                "end" : 37
+                "start" : 36,
+                "end" : 44
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "el río Corrientes",
-                "start" : 19,
-                "end" : 37
+                "string" : "gringo",
+                "start" : 36,
+                "end" : 44
             },
             {
                 "type" : "formatting",
                 "value" : "bold",
-                "string" : "Kurín, Kurínt",
+                "string" : "íngkis",
                 "start" : 0,
-                "end" : 15
+                "end" : 7
             },
             {
                 "type" : "formatting",
                 "value" : "italic",
                 "string" : "s.",
-                "start" : 16,
-                "end" : 18
+                "start" : 34,
+                "end" : 36
             },
     ]
 })

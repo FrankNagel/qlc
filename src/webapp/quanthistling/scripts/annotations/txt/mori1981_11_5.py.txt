@@ -1,134 +1,134 @@
 
 manual_entries.append({
-    "fullentry" : "Angkasta./Ngkásta. ¡Quítate!/¡Quítese!",
-    "startpage" : 98,
-    "pos_on_page" : 15,
+    "fullentry" : "búta N. Mota (especie de pez). Pima mota. \"Bagre de lar gas barbas, llega a pesar 2 kilos cuando alcanza su adultez\" (Amazonía Peruana, Vol. 1)",
+    "startpage" : 11,
+    "pos_on_page" : 5,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 10
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "angkasta",
+                "string" : "búta",
                 "start" : 0,
-                "end" : 8
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "acu",
+                "string" : "agr",
                 "start" : 0,
-                "end" : 10
+                "end" : 5
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Achuar-Shiwiar",
-                "start" : 10,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ngkásta",
-                "start" : 10,
-                "end" : 18
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "acu",
-                "start" : 10,
-                "end" : 18
+                "value" : "pos",
+                "string" : "n",
+                "start" : 5,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 20,
-                "end" : 31
+                "start" : 8,
+                "end" : 67
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 20,
-                "end" : 31
+                "start" : 8,
+                "end" : 67
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Quítate",
-                "start" : 20,
-                "end" : 31
+                "string" : "Mota",
+                "start" : 9,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 31,
-                "end" : 41
+                "start" : 69,
+                "end" : 136
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 31,
-                "end" : 41
+                "start" : 69,
+                "end" : 136
             },
             {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "Quítese",
-                "start" : 31,
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "búta",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Pima mota",
+                "start" : 32,
                 "end" : 41
             },
             {
                 "type" : "formatting",
-                "value" : "bold",
-                "string" : "Angkasta./Ngkásta.",
-                "start" : 0,
-                "end" : 19
+                "value" : "underline",
+                "string" : "r",
+                "start" : 55,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Amazonía Peruana",
+                "start" : 119,
+                "end" : 136
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 0,
-                "end" : 0
-            },
-            {
-                "type" : "pagelayout",
-                "value" : "hyphen",
-                "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 5,
+                "end" : 5
             },
             {
                 "type" : "pagelayout",
                 "value" : "newline",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 56,
+                "end" : 56
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 38,
-                "end" : 38
+                "start" : 109,
+                "end" : 109
             },
     ]
 })

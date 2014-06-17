@@ -1,48 +1,48 @@
 
 manual_entries.append({
-    "fullentry" : "Áachi! = error! me equivoco! me corrijo! lapsus linguae.",
-    "startpage" : 114,
-    "pos_on_page" : 8,
+    "fullentry" : "ekeé-ma-t Verb. Encender, prender (vela, copal).",
+    "startpage" : 18,
+    "pos_on_page" : 21,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Shuar",
+                "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 6
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "áachi",
+                "string" : "ekeémat",
                 "start" : 0,
-                "end" : 7
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "jiv",
+                "string" : "agr",
                 "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 5,
                 "end" : 6
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 10,
-                "end" : 15
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 8,
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "iso-639-3",
-                "string" : "spa",
-                "start" : 10,
-                "end" : 15
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "error",
+                "value" : "pos",
+                "string" : "verb",
                 "start" : 10,
                 "end" : 15
             },
@@ -50,71 +50,64 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 17,
-                "end" : 28
+                "start" : 16,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 17,
-                "end" : 28
+                "start" : 16,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "me equivoco",
-                "start" : 17,
-                "end" : 28
+                "string" : "encender",
+                "start" : 16,
+                "end" : 25
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 30,
+                "start" : 27,
                 "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 30,
+                "start" : 27,
                 "end" : 40
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "me corrijo",
-                "start" : 30,
-                "end" : 40
+                "string" : "prender",
+                "start" : 27,
+                "end" : 34
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 42,
-                "end" : 56
+                "end" : 48
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 42,
-                "end" : 56
+                "end" : 48
             },
             {
-                "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "lapsus linguae",
-                "start" : 42,
-                "end" : 56
-            },
-            {
-                "type" : "formatting",
-                "value" : "bold",
-                "string" : "Áachi!",
-                "start" : 0,
-                "end" : 7
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
             },
     ]
 })
