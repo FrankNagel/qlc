@@ -1,92 +1,99 @@
 
 manual_entries.append({
-    "fullentry" : "kãã́shap N. @aya (pez, especie). Pota motrygon hystryx.",
-    "startpage" : 30,
-    "pos_on_page" : 6,
+    "fullentry" : "tsúntsu N. Churo chiquito (caracol, concha). Pomacea sp. tsúntsu yámi 'Vamos a comer tsúntsu'.",
+    "startpage" : 64,
+    "pos_on_page" : 26,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "kãã́shap",
+                "string" : "tsúntsu",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
                 "string" : "n",
-                "start" : 10,
-                "end" : 12
+                "start" : 8,
+                "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 13,
-                "end" : 23
+                "start" : 11,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 13,
-                "end" : 23
+                "start" : 11,
+                "end" : 35
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Raya",
-                "start" : 14,
-                "end" : 18
+                "string" : "Churo chiquito",
+                "start" : 12,
+                "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 25,
-                "end" : 33
+                "start" : 37,
+                "end" : 44
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 25,
-                "end" : 33
+                "start" : 37,
+                "end" : 44
             },
             {
                 "type" : "formatting",
                 "value" : "underline",
-                "string" : "Pota motrygon hystryx.",
-                "start" : 35,
+                "string" : "Pomacea sp",
+                "start" : 46,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
                 "end" : 57
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 10,
-                "end" : 10
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "R",
-                "start" : 14,
-                "end" : 15
+                "start" : 58,
+                "end" : 58
             },
     ]
 })

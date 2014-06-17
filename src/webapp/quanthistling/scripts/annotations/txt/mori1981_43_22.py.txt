@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "natém ~ natéma N. Ayahuasca (yagé, yahé). Banisteriopsis sp. Fam. Malpig. Cf. datém.",
+    "startpage" : 43,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "natém",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Aguaruna",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "natéma",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "agr",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n",
+                "start" : 16,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 19,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 19,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Ayahuasca",
+                "start" : 20,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 38,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 38,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Banisteriopsis sp",
+                "start" : 46,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "Fam. Malpig",
+                "start" : 65,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "datém",
+                "start" : 82,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 65,
+                "end" : 65
+            },
+    ]
+})

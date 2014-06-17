@@ -1,35 +1,42 @@
 
 manual_entries.append({
-    "fullentry" : "kãã́shap N. @aya (pez, especie). Pota motrygon hystryx.",
-    "startpage" : 30,
-    "pos_on_page" : 6,
+    "fullentry" : "yutú-t Verb. Enterrar (cosas, muertos).",
+    "startpage" : 78,
+    "pos_on_page" : 10,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 10
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "kãã́shap",
+                "string" : "yutút",
                 "start" : 0,
-                "end" : 10
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 10
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 5,
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "n",
-                "start" : 10,
+                "string" : "verb",
+                "start" : 7,
                 "end" : 12
             },
             {
@@ -37,56 +44,42 @@ manual_entries.append({
                 "value" : "doculect",
                 "string" : "Castellano",
                 "start" : 13,
-                "end" : 23
+                "end" : 29
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
                 "start" : 13,
-                "end" : 23
+                "end" : 29
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Raya",
+                "string" : "Enterrar",
                 "start" : 14,
-                "end" : 18
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 25,
-                "end" : 33
+                "start" : 31,
+                "end" : 39
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 25,
-                "end" : 33
-            },
-            {
-                "type" : "formatting",
-                "value" : "underline",
-                "string" : "Pota motrygon hystryx.",
-                "start" : 35,
-                "end" : 57
+                "start" : 31,
+                "end" : 39
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 10,
-                "end" : 10
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "R",
-                "start" : 14,
-                "end" : 15
+                "start" : 7,
+                "end" : 7
             },
     ]
 })

@@ -1,92 +1,99 @@
 
 manual_entries.append({
-    "fullentry" : "kãã́shap N. @aya (pez, especie). Pota motrygon hystryx.",
-    "startpage" : 30,
-    "pos_on_page" : 6,
+    "fullentry" : "yumpúut Verb. Derrumoar (tierra, alguna cosa), derribar.",
+    "startpage" : 77,
+    "pos_on_page" : 33,
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Aguaruna",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "kãã́shap",
+                "string" : "yumpúut",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "agr",
                 "start" : 0,
-                "end" : 10
+                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "pos",
-                "string" : "n",
-                "start" : 10,
-                "end" : 12
+                "string" : "verb",
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 13,
-                "end" : 23
+                "start" : 14,
+                "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 13,
-                "end" : 23
+                "start" : 14,
+                "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Raya",
-                "start" : 14,
-                "end" : 18
+                "string" : "Derrumoar",
+                "start" : 15,
+                "end" : 24
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Castellano",
-                "start" : 25,
-                "end" : 33
+                "start" : 34,
+                "end" : 46
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "spa",
-                "start" : 25,
-                "end" : 33
+                "start" : 34,
+                "end" : 46
             },
             {
-                "type" : "formatting",
-                "value" : "underline",
-                "string" : "Pota motrygon hystryx.",
-                "start" : 35,
-                "end" : 57
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 48,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 48,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "derribar",
+                "start" : 48,
+                "end" : 56
             },
             {
                 "type" : "pagelayout",
                 "value" : "tab",
                 "string" : "",
-                "start" : 10,
-                "end" : 10
-            },
-            {
-                "type" : "errata",
-                "value" : "typo",
-                "string" : "R",
-                "start" : 14,
-                "end" : 15
+                "start" : 8,
+                "end" : 8
             },
     ]
 })
