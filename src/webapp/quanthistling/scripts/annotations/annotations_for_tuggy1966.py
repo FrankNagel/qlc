@@ -75,9 +75,9 @@ def annotate_everything(entry):
 
     #annotate translation
     part_start = trans_start
-    for match_semi_colon in re.finditer("(?:; ?|$)", entry.fullentry[trans_start:]):
+    for match_semi_colon in re.finditer("(?:[,;] ?|$)", entry.fullentry[trans_start:]):
         part_end = trans_start + match_semi_colon.start(0)
-        functions.insert_translation(entry, trans_start, len(entry.fullentry))
+        functions.insert_translation(entry, part_start, part_end)
         part_start = trans_start + match_semi_colon.end(0)
 
     return heads

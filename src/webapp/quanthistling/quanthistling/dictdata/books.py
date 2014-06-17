@@ -2774,5 +2774,30 @@ list = [
             }            
         ]
     },
+##################################### Arawak
+    {
+        'title' : u'Diccionario Amarakaeri ~ Castellano',
+        'author' : u'Ott, Willis and Ott, Rebecca Burke de',
+        'year' : 1983,
+        'bibtex_key' : u'ottott1983',
+        'pages' : 644,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 57,
+                'endpage' : 465,
+                'src_language_name' : u'Ignaciano',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Ignaciano',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/ottott1983_dictdata_57_465.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
 
+        ]
+    },
 ]

@@ -1,3 +1,4 @@
+
 # -*- coding: utf8 -*-
 list = [    
     {
@@ -1828,5 +1829,11 @@ list = [
         'langcode': u'xre',
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/xre'
+    },
+    {
+        'name' : u'Ignaciano',
+        'langcode': u'ign',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/ign'
     },
 ]
