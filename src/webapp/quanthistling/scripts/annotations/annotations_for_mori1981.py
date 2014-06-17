@@ -22,12 +22,18 @@ from paste.deploy import appconfig
 
 import functions
 
-def process_head(entry, head_s, head_e):
+def insert_head(entry, head_s, head_e):
+#    if entry.is_subentry:
+#        match_dashes = re.match(u" ?[—-]+ ?", entry.fullentry[head_s:head_e])
+#        if match_dashes:
+#            head_s += len(match_dashes.group(0))
     head = entry.fullentry[head_s:head_e]
-    for m in re.finditer("-", head):
-        entry.append_annotation(head_s + m.start(0), head_s + m.end(0), u'boundary', u'dictinterpretation', u"morpheme boundary")
+    if not entry.is_subentry:
+        for m in re.finditer("-", head):
+            entry.append_annotation(head_s + m.start(0), head_s + m.end(0), u'boundary', u'dictinterpretation', u"morpheme boundary")
 
-    return re.sub("-", "", head)
+    head = re.sub("-", "", head).strip()
+    return functions.insert_head(entry, head_s, head_e, head)
 
 def annotate_everything(entry):
     # delete head annotations
@@ -36,6 +42,10 @@ def annotate_everything(entry):
         Session.delete(a)
 
     tab_annotations = [ a for a in entry.annotations if a.value=='tab' ]
+    tab_annotations = sorted(tab_annotations, key=attrgetter('start'))
+
+    if entry.is_subentry:
+        tab_annotations.pop(0)
     newline_annotations = [ a for a in entry.annotations if a.value=='newline' ]
   
     #translation_end = len(entry.fullentry)
@@ -43,59 +53,67 @@ def annotate_everything(entry):
     heads = []
     
     if tab_annotations:
-        head = entry.fullentry[0:tab_annotations[0].start]
-        head_end_tmp = tab_annotations[0].start
+        head_end = tab_annotations[0].start
+
+        for (s, e) in functions.split_entry_at(entry, r"(?: ~ |$)", 0, head_end):
+            head = insert_head(entry, s, e)
+            heads.append(head)
+
+        # head = entry.fullentry[0:tab_annotations[0].start]
+        # head_end_tmp = tab_annotations[0].start
         
-        tildes = []
-        for t in re.finditer(' ~ ', head):
-            tildes.append(t.start())
-            tildes.append(t.end())
+        # tildes = []
+        # for t in re.finditer(' ~ ', head):
+        #     tildes.append(t.start())
+        #     tildes.append(t.end())
         
-        if tildes:
-            for i in range((len(tildes)/2)):
-                if i == 0:
-                    head1_end = tildes[i]
-                    head_str = process_head(entry, 0, head1_end)
-                    inserted_head = functions.insert_head(entry, 0, head1_end, head_str)
-                    heads.append(inserted_head)
+        # if tildes:
+        #     for i in range((len(tildes)/2)):
+        #         if i == 0:
+        #             head1_end = tildes[i]
+        #             head_str = process_head(entry, 0, head1_end)
+        #             inserted_head = functions.insert_head(entry, 0, head1_end, head_str)
+        #             heads.append(inserted_head)
                 
-                    head2_start = tildes[i + 1]
-                    if i + 1 < len(tildes)/2:
-                        head2_end = tildes[i + 2]
-                        head_str = process_head(entry, head2_start, head2_end)
-                        inserted_head = functions.insert_head(entry, head2_start, head2_end, head_str)
-                        heads.append(inserted_head)
-                    else:
-                        head_str = process_head(entry, head2_start, head_end_tmp)
-                        inserted_head = functions.insert_head(entry, head2_start, head_end_tmp, head_str)
-                        heads.append(inserted_head)
-                else:
-                    head_s = tildes[i + 2]
-                    if i + 1 < len(tildes)/2:
-                        head_e = tildes[i + 3]
-                        head_str = process_head(entry, head_s, head_e)
-                        inserted_head = functions.insert_head(entry, head_s, head_e, head_str)
-                        heads.append(inserted_head)
-                    else:
-                        head_str = process_head(entry, head_s, head_end_tmp)                        
-                        inserted_head = functions.insert_head(entry, head_s, head_end_tmp, head_str)
-                        heads.append(inserted_head)
-        else:
-            head_str = process_head(entry, 0, tab_annotations[0].start)
-            inserted_head = functions.insert_head(entry, 0, tab_annotations[0].start, head_str)
-            heads.append(inserted_head)
+        #             head2_start = tildes[i + 1]
+        #             if i + 1 < len(tildes)/2:
+        #                 head2_end = tildes[i + 2]
+        #                 head_str = process_head(entry, head2_start, head2_end)
+        #                 inserted_head = functions.insert_head(entry, head2_start, head2_end, head_str)
+        #                 heads.append(inserted_head)
+        #             else:
+        #                 head_str = process_head(entry, head2_start, head_end_tmp)
+        #                 inserted_head = functions.insert_head(entry, head2_start, head_end_tmp, head_str)
+        #                 heads.append(inserted_head)
+        #         else:
+        #             head_s = tildes[i + 2]
+        #             if i + 1 < len(tildes)/2:
+        #                 head_e = tildes[i + 3]
+        #                 head_str = process_head(entry, head_s, head_e)
+        #                 inserted_head = functions.insert_head(entry, head_s, head_e, head_str)
+        #                 heads.append(inserted_head)
+        #             else:
+        #                 head_str = process_head(entry, head_s, head_end_tmp)                        
+        #                 inserted_head = functions.insert_head(entry, head_s, head_end_tmp, head_str)
+        #                 heads.append(inserted_head)
+        # else:
+        #     head_str = process_head(entry, 0, tab_annotations[0].start)
+        #     inserted_head = functions.insert_head(entry, 0, tab_annotations[0].start, head_str)
+        #     heads.append(inserted_head)
     else:
-        print 'error in tabs, ', functions.print_error_in_entry(entry)
+        functions.print_error_in_entry(entry, "error in tabs")
+        return
     
     # pos & trans
     dot_list = []
-    for d in re.finditer(u'\.', entry.fullentry):
+    for d in re.finditer(u'[\.?!]', entry.fullentry):
         dot_list.append(d.start())
     
-    dot_list_ah = [ a for a in dot_list if a > head_end_tmp]
+    dot_list_ah = [ a for a in dot_list if a > head_end]
     
     if len(dot_list_ah) < 2:
-        print 'error in dot_list, ', functions.print_error_in_entry(entry)
+        print(head_end)
+        functions.print_error_in_entry(entry, "error in dot_list")
     else:
         # pos
         pos_s = tab_annotations[0].end
@@ -133,13 +151,9 @@ def annotate_everything(entry):
         else:
             tr_e = dot_list_ah[1]
             functions.insert_translation(entry, tr_s, tr_e)
-    
-    
-    #entry.append_annotation(start, end, u'head', u'dictinterpretation')
         
     return heads
 
-    
  
 def main(argv):
 
