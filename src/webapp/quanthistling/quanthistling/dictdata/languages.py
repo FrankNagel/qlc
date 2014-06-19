@@ -1836,4 +1836,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/ign'
     },
+    {
+        'name' : u'Páez',
+        'langcode': u'pbb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/pbb'
+    },
 ]

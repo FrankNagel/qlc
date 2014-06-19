@@ -2378,6 +2378,31 @@ list = [
             }            
         ]
     },
+    {
+        'title': u'PÁEZ - ESPAÑOL',
+        'author': u'Gerdel and Slocum',
+        'year': 1983,
+        'bibtex_key': u'gerdelslocum1983',
+        'pages': 356,
+        'columns': 1,
+        'is_ready': False,
+        'type': 'dictionary',
+        'dictdata': [
+            {
+                'startpage': 1,
+                'endpage': 356,
+                'src_language_name': u'Páez',
+                'tgt_language_name': u'Spanish',
+                'src_language_bookname': u'PÁEZ',
+                'tgt_language_bookname': u'ESPAÑOL',
+                'file': 'other/gerdelslocum1983_dictdata_1_356.xml',
+                'component': 'Other'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
 ##################################### Arawak
 
