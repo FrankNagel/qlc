@@ -1,22 +1,22 @@
 
 manual_entries.append({
-    "fullentry" : "áya-i, is.aniá-i.",
+    "fullentry" : "áya̱-i, is.aniá-i.",
     "startpage" : 117,
     "pos_on_page" : 6,
     "annotations" : [
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "áyai",
-                "start" : 0,
-                "end" : 6
-            },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Shuar",
                 "start" : 0,
                 "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "áya̱i",
+                "start" : 0,
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
@@ -29,8 +29,8 @@ manual_entries.append({
                 "type" : "dictinterpretation",
                 "value" : "boundary",
                 "string" : "morpheme boundary",
-                "start" : 4,
-                "end" : 5
+                "start" : 5,
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",

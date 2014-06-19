@@ -1,9 +1,23 @@
 
 manual_entries.append({
-    "fullentry" : "* ayawá! = ajá! ... (dicho por las mujeres).",
+    "fullentry" : "* aya̱wá! = ajá! ... (dicho por las mujeres).",
     "startpage" : 402,
     "pos_on_page" : 6,
     "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Shuar",
+                "start" : 2,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aya̱wá",
+                "start" : 2,
+                "end" : 10
+            },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
@@ -14,9 +28,9 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Shuar",
-                "start" : 2,
-                "end" : 8
+                "string" : "Castellano",
+                "start" : 12,
+                "end" : 45
             },
             {
                 "type" : "dictinterpretation",
@@ -27,24 +41,10 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "doculect",
-                "string" : "Castellano",
-                "start" : 12,
-                "end" : 45
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "ayawá",
-                "start" : 2,
-                "end" : 8
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "translation",
                 "string" : "ajá (dicho por las mujeres)",
-                "start" : 12,
-                "end" : 45
+                "start" : 13,
+                "end" : 47
             },
             {
                 "type" : "formatting",
