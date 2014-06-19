@@ -8,8 +8,8 @@ list = [
         'bibtex_key' : u'thiesen1998',
         'pages' : 365,
         'columns' : 2,
-	'is_ready' : True,
-	'type' : 'dictionary',
+        'is_ready' : True,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 25,
@@ -20,7 +20,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': u'^<b>(?:\w\w?|Ñ)</b>\s*$',
                 'file' : 'witotoan/thiesen1998_dictdata_25_339.xml',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -29,14 +29,14 @@ list = [
                 'endpage' : 24,
                 'title': u'Start pages',
                 'file' : 'witotoan/thiesen1998_nondictdata_1_24.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
             {
                 'startpage' : 340,
                 'endpage' : 356,
                 'title': u'Apendices',
                 'file' : 'witotoan/thiesen1998_nondictdata_340_365.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ]
     },
@@ -47,8 +47,8 @@ list = [
         'bibtex_key' : u'minor1987',
         'pages' : 317,
         'columns' : 2,
-	'is_ready' : True,
-	'type' : 'dictionary',
+    'is_ready' : True,
+    'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 1,
@@ -59,7 +59,7 @@ list = [
                 'tgt_language_bookname' : u'Español',
                 're_letter_only': u'^<b>\w\w?</b>\s*$',
                 'file' : 'witotoan/minor1987_dictdata_1_126.xml',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -68,7 +68,7 @@ list = [
                 'endpage' : 317,
                 'title': u'Apendices',
                 'file' : 'witotoan/minor1987_nondictdata_307_317.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ]
     },
@@ -79,8 +79,8 @@ list = [
         'bibtex_key' : u'minor1971',
         'pages' : 141,
         'columns' : 2,
-	'is_ready' : True,
-	'type' : 'dictionary',
+    'is_ready' : True,
+    'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 3,
@@ -91,7 +91,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^\w\s*$',
                 'file' : 'witotoan/minor1971_dictdata_3_74.xml',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -100,14 +100,14 @@ list = [
                 'endpage' : 2,
                 'title': u'Start pages',
                 'file' : 'witotoan/minor1971_nondictdata_1_2.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
             {
                 'startpage' : 133,
                 'endpage' : 143,
                 'title': u'Apendices',
                 'file' : 'witotoan/minor1971_nondictdata_133_143.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ]
     },
@@ -130,7 +130,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^\w\w?\s*$',
                 'file' : 'witotoan/burtch1983_dictdata_19_262.xml',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -162,7 +162,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^(&#x009;)*\w\w?\s*$',
                 'file' : 'witotoan/leach1969_dictdata_67_161.xml',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -171,14 +171,14 @@ list = [
                 'endpage' : 2,
                 'title': u'Start pages',
                 'file' : 'witotoan/leach1969_nondictdata_1_2.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
             {
                 'startpage' : 162,
                 'endpage' : 176,
                 'title': u'Apendices',
                 'file' : 'witotoan/leach1969_nondictdata_162_176.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ]
     },
@@ -237,7 +237,7 @@ list = [
                 'endpage' : 795,
                 'title': u'Presentación',
                 'file' : 'witotoan/preuss1994_nondictdata_791_795.html',
-		'component' : 'Witotoan'
+        'component' : 'Witotoan'
             },
         ]
     },
@@ -250,8 +250,8 @@ list = [
         'bibtex_key' : u'fastmowitz2008',
         'pages' : 517,
         'columns' : 2,
-	'is_ready' : False,
-	'type' : 'dictionary',
+    'is_ready' : False,
+    'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 85,
@@ -262,7 +262,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w</b>\s*$',
                 'file' : 'jivaroan/fastmowitz2008_dictdata_85_344.xml',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 347,
@@ -273,7 +273,7 @@ list = [
                 'tgt_language_bookname' : u'Achuar-Shiwiar',
                 're_letter_only': r'^<b>\w</b>\s*$',
                 'file' : 'jivaroan/fastmowitz2008_dictdata_347_517.xml',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
         ],
         'nondictdata' : [
@@ -282,7 +282,7 @@ list = [
                 'endpage' : 84,
                 'title': u'Start pages',
                 'file' : 'jivaroan/fastmowitz2008_nondictdata_1_84.html',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
         ]
     },
@@ -294,8 +294,8 @@ list = [
         'bibtex_key' : u'larson1966',
         'pages' : 211,
         'columns' : 2,
-	'is_ready' : False,
-	'type' : 'dictionary',
+    'is_ready' : False,
+    'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 1,
@@ -306,7 +306,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
                 'file' : 'jivaroan/larson1966_dictdata_1_90.xml',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 107,
@@ -317,7 +317,7 @@ list = [
                 'tgt_language_bookname' : u'Aguaruna',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
                 'file' : 'jivaroan/larson1966_dictdata_107_199.xml',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
         ],
         'nondictdata' : [
@@ -326,21 +326,21 @@ list = [
                 'endpage' : 0,
                 'title': u'Start pages',
                 'file' : 'jivaroan/larson1966_nondictdata_i_iv.html',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 91,
                 'endpage' : 105,
                 'title': u'Apendices',
                 'file' : 'jivaroan/larson1966_nondictdata_91_105.html',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 201,
                 'endpage' : 211,
                 'title': u'Apendices',
                 'file' : 'jivaroan/larson1966_nondictdata_201_211.html',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
         ]
     },
@@ -352,8 +352,8 @@ list = [
         'bibtex_key' : u'jakway2008',
         'pages' : 226,
         'columns' : 2,
-	'is_ready' : False,
-	'type' : 'dictionary',
+    'is_ready' : False,
+    'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 15,
@@ -364,7 +364,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
                 'file' : 'jivaroan/jakway2008_dictdata_15_125.xml',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 129,
@@ -475,22 +475,22 @@ list = [
                 'endpage' : 17,
                 'title': u'Start pages',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_1_17.html',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 151,
                 'endpage' : 157,
                 'title': u'Apendices',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_151_157.html',
-		'component' : 'Jivaroan'
+        'component' : 'Jivaroan'
             },
             {
                 'startpage' : 293,
                 'endpage' : 296,
                 'title': u'Apendices',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_293_296.html',
-		'component' : 'Jivaroan'
-	    },
+        'component' : 'Jivaroan'
+        },
         ]
     },
 
@@ -857,7 +857,7 @@ list = [
 
 ################################# Tucanoan
     {
-        'title' : u'Mi Primer Diccionario',	
+        'title' : u'Mi Primer Diccionario', 
         'author' : u'César Tamayo L.',
         'year' : 1988,
         'bibtex_key' : u'tamayo1988',
@@ -883,7 +883,7 @@ list = [
     },
 
     {
-        'title' : u'Vocabulario Siriano y Español',	
+        'title' : u'Vocabulario Siriano y Español',    
         'author' : u'Trujillo, Olga',
         'year' : 1980,
         'bibtex_key' : u'trujillo1980',
@@ -1726,199 +1726,6 @@ list = [
         ]
     },
     {
-        'title' : u'DICCIONARIO BÁSICO ILUSTRADO WAYUUNAIKI-ESPAÑOL ESPAÑOL-WAYUUNAIKI',
-        'author' : u'Captain, David M., Captain, Linda B.',
-        'year' : 2005,
-        'bibtex_key' : u'captain2005',
-        'pages' : 92,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 13,
-                'endpage' : 49,
-                'src_language_name' : u'Wayuu',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Wayuunaiki',
-                'tgt_language_bookname' : u'Español',
-                'file' : 'arawak/captain2005_dictdata_13_49.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 13,
-                'title': u'Start pages',
-                'file' : 'arawak/captain2005_nondictdata_1_13.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Lecciones para el apredizaje del idioma ashéninca',
-        'author' : u'Payne, Judith',
-        'year' : 1989,
-        'bibtex_key' : u'payne1989',
-        'pages' : 502,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 363,
-                'endpage' : 471,
-                'src_language_name' : u'Ashéninka, Pichis',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Ashéninca',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'arawak/payne1989_dictdata_363_471.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 362,
-                'title': u'Start pages',
-                'file' : 'arawak/payne1989_nondictdata_1_362.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Diccionario Piro (Yine) Tokanchi gikshijikowaka-steno',
-        'author' : u'Nies, Joyce',
-        'year' : 1986,
-        'bibtex_key' : u'nies1986',
-        'pages' : 592,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 25,
-                'endpage' : 345,
-                'src_language_name' : u'Yine',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Piro',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'arawak/nies1986_dictdata_25_345.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 24,
-                'title': u'Start pages',
-                'file' : 'arawak/nies1986_nondictdata_1_24.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Datos de la lengua iñapari',
-        'author' : u'Parker, Stephen',
-        'year' : 1995,
-        'bibtex_key' : u'parker1995',
-        'pages' : 209,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 25,
-                'endpage' : 71,
-                'src_language_name' : u'Spanish',
-                'tgt_language_name' : u'Iñapari',
-                'src_language_bookname' : u'Castellano',
-                'tgt_language_bookname' : u'Iñapari',
-                'file' : 'arawak/parker1995_dictdata_25_71.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 25,
-                'title': u'Start pages',
-                'file' : 'arawak/parker1995_nondictdata_1_25.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Pequeño diccionario machiguenga ~ castellano',
-        'author' : u'Snell, Betty',
-        'year' : 1998,
-        'bibtex_key' : u'snell1998',
-        'pages' : 412,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 73,
-                'endpage' : 273,
-                'src_language_name' : u'Machiguenga',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Machiguenga',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'arawak/snell1998_dictdata_73_273.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 72,
-                'title': u'Start pages',
-                'file' : 'arawak/snell1998_nondictdata_1_72.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Chamicuro data: Swadesh list',
-        'author' : u'Parker, Steve',
-        'year' : 2010,
-        'bibtex_key' : u'parker2010a',
-        'pages' : 26,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 15,
-                'endpage' : 24,
-                'src_language_name' : u'Chamicuro',
-                'tgt_language_name' : [ u'Spanish', u'English' ],
-                'src_language_bookname' : u'Chamicuro',
-                'tgt_language_bookname' : [ u'Spanish', u'English' ],
-                'file' : 'arawak/parker2010a_dictdata_15_24.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 14,
-                'title': u'Start pages',
-                'file' : 'arawak/parker2010a_nondictdata_0_14.html',
-                'component' : 'Arawak'
-            },
-            {
-                'startpage' : 25,
-                'endpage' : 26,
-                'title': u'Bibliography',
-                'file' : 'arawak/parker2010a_nondictdata_25_26.html',
-                'component' : 'Arawak'
-            },
-        ]
-    },    
-    {
         'title' : u'Vocabulario chayahuita',
         'author' : u'Hart, George, Hart, Helen',
         'year' : 1975,
@@ -1946,68 +1753,6 @@ list = [
                 'title': u'Start pages',
                 'file' : 'other/hart1975_nondictdata_0_0.htm',
                 'component' : 'Other'
-            },
-        ]
-    },
-    {
-        'title' : u'DICCIONARIO Yanesha\' (Amuesha)—Castellano',
-        'author' : u'Duff-Tripp, Martha',
-        'year' : 1998,
-        'bibtex_key' : u'tripp1998',
-        'pages' : 688,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 41,
-                'endpage' : 396,
-                'src_language_name' : u'Yanesha’',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Yanesha\' (Amuesha)',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'arawak/tripp1998_dictdata_41_396.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 40,
-                'title': u'Start pages',
-                'file' : 'arawak/tripp1998_nondictdata_0_40.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Vocabulario Piapoco-Español',
-        'author' : u'Pharris de Klumpp, Deloris A.',
-        'year' : 1995,
-        'bibtex_key' : u'klumpp1995',
-        'pages' : 190,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 3,
-                'endpage' : 103,
-                'src_language_name' : u'Piapoco',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Piapoco',
-                'tgt_language_bookname' : u'Español',
-                'file' : 'arawak/klumpp1995_dictdata_3_103.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 2,
-                'title': u'Start pages',
-                'file' : 'arawak/klumpp1995_nondictdata_0_2.htm',
-                'component' : 'Arawak'
             },
         ]
     },
@@ -2043,147 +1788,6 @@ list = [
         ]
     },
     {
-        'title' : u'Diccionario ashéninca ~ castellano',
-        'author' : u'Payne, David',
-        'year' : 1980,
-        'bibtex_key' : u'payne1980',
-        'pages' : 164,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 33,
-                'endpage' : 151,
-                'src_language_name' : u'Ashéninka, Pichis',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Ashéninca',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'arawak/payne1980_dictdata_33_151.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 32,
-                'title': u'Start pages',
-                'file' : 'arawak/payne1980_nondictdata_1_32.htm',
-                'component' : 'Arawak'
-            },
-            {
-                'startpage' : 152,
-                'endpage' : 164,
-                'title': u'Appendix',
-                'file' : 'arawak/payne1980_nondictdata_152_164.htm',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Diccionario Nomatsiguenga ~ Castellano',
-        'author' : u'Shaver, Harold',
-        'year' : 1996,
-        'bibtex_key' : u'shaver1996',
-        'pages' : 327,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 73,
-                'endpage' : 218,
-                'src_language_name' : u'Nomatsiguenga',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Nomatsiguenga',
-                'tgt_language_bookname' : u'Castellano',
-                're_letter_only': r'^\w\s*$',
-                'file' : 'arawak/shaver1996_dictdata_73_218.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 72,
-                'title': u'Start pages',
-                'file' : 'arawak/shaver1996_nondictdata_1_72.html',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'Vocabulario resigaro',
-        'author' : u'Allin, Trevor',
-        'year' : 1979,
-        'bibtex_key' : u'allin1979',
-        'pages' : 528,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 382,
-                'endpage' : 458,
-                'src_language_name' : u'Resígaro',
-                'tgt_language_name' : [ u'Spanish', u'English' ],
-                'src_language_bookname' : u'Resígaro',
-                'tgt_language_bookname' : [ u'Castellano', u'Inglés'],
-                're_letter_only': r'^\w\s*$',
-                'file' : 'arawak/allin1979_dictdata_382_458.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 381,
-                'title': u'Start pages',
-                'file' : 'arawak/allin1979_nondictdata_0_381.html',
-                'component' : 'Arawak'
-            },
-            {
-                'startpage' : 493,
-                'endpage' : 528,
-                'title': u'Lista comparativa de palabras and Bibliography',
-                'file' : 'arawak/allin1979_nondictdata_493_528.html',
-                'component' : 'Arawak'
-            },
-        ]
-    },
-    {
-        'title' : u'DICIONÁRIO PARESÍ – PORTUGUÊS',
-        'author' : u'Rowan, Orlando',
-        'year' : 2001,
-        'bibtex_key' : u'rowan2001',
-        'pages' : 120,
-        'columns' : 0,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 80,
-                'src_language_name' : u'Parecís',
-                'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'Paresí',
-                'tgt_language_bookname' : u'Português',
-                're_letter_only': r'^\w\s*$',
-                'file' : 'arawak/rowan2001_dictdata_1_80.xml',
-                'component' : 'Arawak'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 0,
-                'title': u'Start pages',
-                'file' : 'arawak/rowan2001_nondictdata_0_0.htm',
-                'component' : 'Arawak'
-            }            
-        ]
-    },
-    {
         'title' : u'DICIONÁRIO da LÍNGUA KADIWÉU',
         'author' : u'Griffiths, Glyn',
         'year' : 2002,
@@ -2213,7 +1817,7 @@ list = [
                 'file' : 'guaicuruan/griffiths2002_nondictdata_0_4.html',
                 'component' : 'Guaicuruan'
             },
-	    {
+        {
                 'startpage' : 171,
                 'endpage' : 172,
                 'title': u'Forma e Interpretação',
@@ -2259,7 +1863,7 @@ list = [
                 'file' : 'other/benaissa1991_nondictdata_0_2.html',
                 'component' : 'Other'
             },
-	    {
+        {
                 'startpage' : 97,
                 'endpage' : 98,
                 'title': u'Dos Ejemplos de la Concordancia del Adjetivo Posesivo y el Sustantivo en Sáliba',
@@ -2774,7 +2378,405 @@ list = [
             }            
         ]
     },
+
 ##################################### Arawak
+
+    {
+        'title' : u'DICCIONARIO BÁSICO ILUSTRADO WAYUUNAIKI-ESPAÑOL ESPAÑOL-WAYUUNAIKI',
+        'author' : u'Captain, David M., Captain, Linda B.',
+        'year' : 2005,
+        'bibtex_key' : u'captain2005',
+        'pages' : 92,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 13,
+                'endpage' : 49,
+                'src_language_name' : u'Wayuu',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Wayuunaiki',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'arawak/captain2005_dictdata_13_49.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 13,
+                'title': u'Start pages',
+                'file' : 'arawak/captain2005_nondictdata_1_13.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Lecciones para el apredizaje del idioma ashéninca',
+        'author' : u'Payne, Judith',
+        'year' : 1989,
+        'bibtex_key' : u'payne1989',
+        'pages' : 502,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 363,
+                'endpage' : 471,
+                'src_language_name' : u'Ashéninka, Pichis',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Ashéninca',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/payne1989_dictdata_363_471.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 362,
+                'title': u'Start pages',
+                'file' : 'arawak/payne1989_nondictdata_1_362.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Diccionario Piro (Yine) Tokanchi gikshijikowaka-steno',
+        'author' : u'Nies, Joyce',
+        'year' : 1986,
+        'bibtex_key' : u'nies1986',
+        'pages' : 592,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 25,
+                'endpage' : 345,
+                'src_language_name' : u'Yine',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Piro',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/nies1986_dictdata_25_345.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 24,
+                'title': u'Start pages',
+                'file' : 'arawak/nies1986_nondictdata_1_24.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Datos de la lengua iñapari',
+        'author' : u'Parker, Stephen',
+        'year' : 1995,
+        'bibtex_key' : u'parker1995',
+        'pages' : 209,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 25,
+                'endpage' : 71,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Iñapari',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Iñapari',
+                'file' : 'arawak/parker1995_dictdata_25_71.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 25,
+                'title': u'Start pages',
+                'file' : 'arawak/parker1995_nondictdata_1_25.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Pequeño diccionario machiguenga ~ castellano',
+        'author' : u'Snell, Betty',
+        'year' : 1998,
+        'bibtex_key' : u'snell1998',
+        'pages' : 412,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 73,
+                'endpage' : 273,
+                'src_language_name' : u'Machiguenga',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Machiguenga',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/snell1998_dictdata_73_273.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 72,
+                'title': u'Start pages',
+                'file' : 'arawak/snell1998_nondictdata_1_72.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Chamicuro data: Swadesh list',
+        'author' : u'Parker, Steve',
+        'year' : 2010,
+        'bibtex_key' : u'parker2010a',
+        'pages' : 26,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 15,
+                'endpage' : 24,
+                'src_language_name' : u'Chamicuro',
+                'tgt_language_name' : [ u'Spanish', u'English' ],
+                'src_language_bookname' : u'Chamicuro',
+                'tgt_language_bookname' : [ u'Spanish', u'English' ],
+                'file' : 'arawak/parker2010a_dictdata_15_24.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 14,
+                'title': u'Start pages',
+                'file' : 'arawak/parker2010a_nondictdata_0_14.html',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 25,
+                'endpage' : 26,
+                'title': u'Bibliography',
+                'file' : 'arawak/parker2010a_nondictdata_25_26.html',
+                'component' : 'Arawak'
+            },
+        ]
+    },    
+    {
+        'title' : u'DICCIONARIO Yanesha\' (Amuesha)—Castellano',
+        'author' : u'Duff-Tripp, Martha',
+        'year' : 1998,
+        'bibtex_key' : u'tripp1998',
+        'pages' : 688,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 41,
+                'endpage' : 396,
+                'src_language_name' : u'Yanesha’',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Yanesha\' (Amuesha)',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/tripp1998_dictdata_41_396.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 40,
+                'title': u'Start pages',
+                'file' : 'arawak/tripp1998_nondictdata_0_40.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Vocabulario Piapoco-Español',
+        'author' : u'Pharris de Klumpp, Deloris A.',
+        'year' : 1995,
+        'bibtex_key' : u'klumpp1995',
+        'pages' : 190,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 3,
+                'endpage' : 103,
+                'src_language_name' : u'Piapoco',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Piapoco',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'arawak/klumpp1995_dictdata_3_103.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 2,
+                'title': u'Start pages',
+                'file' : 'arawak/klumpp1995_nondictdata_0_2.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Diccionario ashéninca ~ castellano',
+        'author' : u'Payne, David',
+        'year' : 1980,
+        'bibtex_key' : u'payne1980',
+        'pages' : 164,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 33,
+                'endpage' : 151,
+                'src_language_name' : u'Ashéninka, Pichis',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Ashéninca',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'arawak/payne1980_dictdata_33_151.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 32,
+                'title': u'Start pages',
+                'file' : 'arawak/payne1980_nondictdata_1_32.htm',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 152,
+                'endpage' : 164,
+                'title': u'Appendix',
+                'file' : 'arawak/payne1980_nondictdata_152_164.htm',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Diccionario Nomatsiguenga ~ Castellano',
+        'author' : u'Shaver, Harold',
+        'year' : 1996,
+        'bibtex_key' : u'shaver1996',
+        'pages' : 327,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 73,
+                'endpage' : 218,
+                'src_language_name' : u'Nomatsiguenga',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Nomatsiguenga',
+                'tgt_language_bookname' : u'Castellano',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arawak/shaver1996_dictdata_73_218.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 72,
+                'title': u'Start pages',
+                'file' : 'arawak/shaver1996_nondictdata_1_72.html',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'Vocabulario resigaro',
+        'author' : u'Allin, Trevor',
+        'year' : 1979,
+        'bibtex_key' : u'allin1979',
+        'pages' : 528,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 382,
+                'endpage' : 458,
+                'src_language_name' : u'Resígaro',
+                'tgt_language_name' : [ u'Spanish', u'English' ],
+                'src_language_bookname' : u'Resígaro',
+                'tgt_language_bookname' : [ u'Castellano', u'Inglés'],
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arawak/allin1979_dictdata_382_458.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 381,
+                'title': u'Start pages',
+                'file' : 'arawak/allin1979_nondictdata_0_381.html',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 493,
+                'endpage' : 528,
+                'title': u'Lista comparativa de palabras and Bibliography',
+                'file' : 'arawak/allin1979_nondictdata_493_528.html',
+                'component' : 'Arawak'
+            },
+        ]
+    },
+    {
+        'title' : u'DICIONÁRIO PARESÍ – PORTUGUÊS',
+        'author' : u'Rowan, Orlando',
+        'year' : 2001,
+        'bibtex_key' : u'rowan2001',
+        'pages' : 120,
+        'columns' : 0,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 80,
+                'src_language_name' : u'Parecís',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Paresí',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arawak/rowan2001_dictdata_1_80.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'arawak/rowan2001_nondictdata_0_0.htm',
+                'component' : 'Arawak'
+            }            
+        ]
+    },
     {
         'title' : u'Diccionario Amarakaeri ~ Castellano',
         'author' : u'Ott, Willis and Ott, Rebecca Burke de',
@@ -2797,6 +2799,13 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 57,
+                'title': u'Start pages',
+                'file' : 'arawak/ottott1983_nondictdata_1_56.htm',
+                'component' : 'Arawak'
+            }            
 
         ]
     },
