@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "100. wolè (=of mat) dôwuk (=of cloth)",
+    "startpage" : 132,
+    "pos_on_page" : 77,
+    "language_bookname" : "Dera",
+    "concept" : "WEAVING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wolè",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dôwuk",
+                "start" : 21,
+                "end" : 27
+            },
+    ]
+})

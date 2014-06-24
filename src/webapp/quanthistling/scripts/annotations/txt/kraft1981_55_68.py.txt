@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "317. wà...ri",
+    "startpage" : 55,
+    "pos_on_page" : 68,
+    "language_bookname" : "Bura",
+    "concept" : "WHO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wà ri",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bura",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bwr",
+                "start" : 5,
+                "end" : 13
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "406. ɗikò (= kà zanna)",
+    "startpage" : 125,
+    "pos_on_page" : 11,
+    "language_bookname" : "Tangale",
+    "concept" : "SIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗikò",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kà zanna",
+                "start" : 14,
+                "end" : 23
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "407. yillù (= kù tashi)",
+    "startpage" : 125,
+    "pos_on_page" : 13,
+    "language_bookname" : "Tangale",
+    "concept" : "STAND_UP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yillù",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kù tashi",
+                "start" : 15,
+                "end" : 24
+            },
+    ]
+})

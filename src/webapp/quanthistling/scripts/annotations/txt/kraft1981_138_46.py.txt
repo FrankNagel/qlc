@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "272. matakwa (madigwa)",
+    "startpage" : 138,
+    "pos_on_page" : 46,
+    "language_bookname" : "Nakatsa",
+    "concept" : "WHITE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "matakwa",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "madigwa",
+                "start" : 14,
+                "end" : 21
+            },
+    ]
+})

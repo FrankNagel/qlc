@@ -399,7 +399,11 @@ class BookController(BaseController):
                 #print python_code.encode("utf-8")
                 
                 # create temporary file
-                filename = u"%s_%s_%s.py.txt" % (bibtexkey, c.entry.startpage, c.entry.pos_on_page)
+                filename = ""
+                if c.entry.volume:
+                    filename = u"%s_%s_%s_%s.py.txt" % (bibtexkey, c.entry.volume, c.entry.startpage, c.entry.pos_on_page)
+                else:
+                    filename = u"%s_%s_%s.py.txt" % (bibtexkey, c.entry.startpage, c.entry.pos_on_page)
                 tmpfile = tempfile.TemporaryFile()
                 tmpfile.write(python_code.encode("utf-8"))
                 tmpfile.flush()

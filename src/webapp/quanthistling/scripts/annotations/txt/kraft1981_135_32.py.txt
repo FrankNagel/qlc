@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "388. kùrèni (= ƙasa)",
+    "startpage" : 135,
+    "pos_on_page" : 32,
+    "language_bookname" : "Dera",
+    "concept" : "FALL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kùrèni",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ƙasa",
+                "start" : 17,
+                "end" : 21
+            },
+    ]
+})

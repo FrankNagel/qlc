@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "306. ʔàrcimi=pain màtupùtε=heat",
+    "startpage" : 161,
+    "pos_on_page" : 24,
+    "language_bookname" : "Dira",
+    "concept" : "HOTNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔàrcimi",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "màtupùtε",
+                "start" : 19,
+                "end" : 29
+            },
+    ]
+})

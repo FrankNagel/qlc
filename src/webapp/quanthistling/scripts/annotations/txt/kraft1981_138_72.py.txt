@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "318. lava, wùɗa ko wùɗa làva",
+    "startpage" : 138,
+    "pos_on_page" : 72,
+    "language_bookname" : "Nakatsa",
+    "concept" : "HOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lava",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wùɗa ko wùɗa làva",
+                "start" : 11,
+                "end" : 31
+            },
+    ]
+})

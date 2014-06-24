@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "286. ɓuɓuk (=soft)",
+    "startpage" : 134,
+    "pos_on_page" : 23,
+    "language_bookname" : "Dera",
+    "concept" : "SOFTNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɓuɓuk",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 18
+            },
+    ]
+})

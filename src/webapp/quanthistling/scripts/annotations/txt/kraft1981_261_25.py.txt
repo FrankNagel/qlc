@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "413. ka (vb. noun = kəƙi) (G)",
+    "startpage" : 261,
+    "pos_on_page" : 25,
+    "language_bookname" : "Bade",
+    "concept" : "FORGE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ka",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bade",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bde",
+                "start" : 5,
+                "end" : 25
+            },
+    ]
+})

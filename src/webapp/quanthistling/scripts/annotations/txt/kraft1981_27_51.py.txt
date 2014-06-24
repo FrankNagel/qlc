@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "53. paal=arm sar̃=hand",
+    "startpage" : 27,
+    "pos_on_page" : 51,
+    "language_bookname" : "Sura",
+    "concept" : "ARM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "paal",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sar̃",
+                "start" : 13,
+                "end" : 17
+            },
+    ]
+})

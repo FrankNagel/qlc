@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "393. wùfùnaŋgò (= ya roya mini)",
+    "startpage" : 124,
+    "pos_on_page" : 52,
+    "language_bookname" : "Tangale",
+    "concept" : "LEARN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wùfùnaŋgò",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ya roya mini",
+                "start" : 21,
+                "end" : 33
+            },
+    ]
+})

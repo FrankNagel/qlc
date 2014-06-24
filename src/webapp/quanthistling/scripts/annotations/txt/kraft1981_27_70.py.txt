@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "38. yit=eye",
+    "startpage" : 27,
+    "pos_on_page" : 70,
+    "language_bookname" : "Sura",
+    "concept" : "FACE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yit",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 4,
+                "end" : 11
+            },
+    ]
+})

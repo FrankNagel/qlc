@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "88. nyəmùƚì=female nye monì=male",
+    "startpage" : 159,
+    "pos_on_page" : 29,
+    "language_bookname" : "Dira",
+    "concept" : "BABY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nyəmùƚì",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 4,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 4,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nye monì",
+                "start" : 21,
+                "end" : 30
+            },
+    ]
+})

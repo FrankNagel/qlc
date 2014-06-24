@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "278. màfe = white",
+    "startpage" : 63,
+    "pos_on_page" : 70,
+    "language_bookname" : "Karekare",
+    "concept" : "LIGHT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "màfe",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Karekare",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kai",
+                "start" : 5,
+                "end" : 18
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "202. sèllè (=black kite)",
+    "startpage" : 122,
+    "pos_on_page" : 7,
+    "language_bookname" : "Tangale",
+    "concept" : "KITE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sèllè",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 26
+            },
+    ]
+})

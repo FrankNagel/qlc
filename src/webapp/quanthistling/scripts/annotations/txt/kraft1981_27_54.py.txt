@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. kàá=g.mother tì̵kâam=g.fath.",
+    "startpage" : 27,
+    "pos_on_page" : 54,
+    "language_bookname" : "Sura",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kàá",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tì̵kâam",
+                "start" : 19,
+                "end" : 28
+            },
+    ]
+})

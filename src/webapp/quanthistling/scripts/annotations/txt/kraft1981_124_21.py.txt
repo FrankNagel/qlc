@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "326. kwi (= on)",
+    "startpage" : 124,
+    "pos_on_page" : 21,
+    "language_bookname" : "Tangale",
+    "concept" : "ATOP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kwi",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 15
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "208. tə̀ɠin-tə̀yìn (vb. noun)",
+    "startpage" : 258,
+    "pos_on_page" : 31,
+    "language_bookname" : "Bade",
+    "concept" : "FOOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tə̀ɠin-tə̀yìn",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bade",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bde",
+                "start" : 5,
+                "end" : 30
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "221. moɗò (= gero) nyə̂m (= maiwa)",
+    "startpage" : 133,
+    "pos_on_page" : 4,
+    "language_bookname" : "Dera",
+    "concept" : "MILLET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "moɗò",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nyə̂m",
+                "start" : 20,
+                "end" : 25
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "288. ɗikɗìk (= sweet)",
+    "startpage" : 123,
+    "pos_on_page" : 31,
+    "language_bookname" : "Tangale",
+    "concept" : "SWEETNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗikɗìk",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 22
+            },
+    ]
+})

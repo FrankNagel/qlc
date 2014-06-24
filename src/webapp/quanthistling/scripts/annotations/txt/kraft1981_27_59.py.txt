@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "55. cìi=leg šii=foot",
+    "startpage" : 27,
+    "pos_on_page" : 59,
+    "language_bookname" : "Sura",
+    "concept" : "LEG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "cìi",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šii",
+                "start" : 13,
+                "end" : 17
+            },
+    ]
+})

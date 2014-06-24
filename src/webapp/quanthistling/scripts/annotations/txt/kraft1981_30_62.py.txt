@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "276. =red",
+    "startpage" : 30,
+    "pos_on_page" : 62,
+    "language_bookname" : "Sura",
+    "concept" : "YELLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nât",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 6,
+                "end" : 9
+            },
+    ]
+})

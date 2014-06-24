@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "308. tôm (=strong)",
+    "startpage" : 123,
+    "pos_on_page" : 32,
+    "language_bookname" : "Tangale",
+    "concept" : "STRENGTH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tôm",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 19
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "288. buli tumtum...",
+    "startpage" : 225,
+    "pos_on_page" : 31,
+    "language_bookname" : "Dwot",
+    "concept" : "SWEETNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "buli tumtum",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dwot",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dot",
+                "start" : 5,
+                "end" : 19
+            },
+    ]
+})

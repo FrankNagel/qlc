@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "400. ɓòŋgo (=na baka) ɓòni (= na bashi)",
+    "startpage" : 135,
+    "pos_on_page" : 80,
+    "language_bookname" : "Dera",
+    "concept" : "GIVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɓòŋgo",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "na baka",
+                "start" : 14,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɓòni",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "na bashi",
+                "start" : 32,
+                "end" : 40
+            },
+    ]
+})

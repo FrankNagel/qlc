@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "279. râp=273,298",
+    "startpage" : 30,
+    "pos_on_page" : 74,
+    "language_bookname" : "Sura",
+    "concept" : "DARKNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "râp",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 5,
+                "end" : 17
+            },
+    ]
+})

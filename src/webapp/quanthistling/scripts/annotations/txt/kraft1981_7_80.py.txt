@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "80. miyau, yau",
+    "startpage" : 7,
+    "pos_on_page" : 80,
+    "language_bookname" : "Hausa",
+    "concept" : "SALIVA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "miyau",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yau",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "72. = # 50",
+    "startpage" : 158,
+    "pos_on_page" : 48,
+    "language_bookname" : "Dira",
+    "concept" : "RIBS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋgyὲƚὲ",
+                "start" : 6,
+                "end" : 10
+            },
+    ]
+})

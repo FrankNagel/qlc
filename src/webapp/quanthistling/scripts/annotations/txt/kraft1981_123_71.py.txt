@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "298. fugùt (= dirty)",
+    "startpage" : 123,
+    "pos_on_page" : 71,
+    "language_bookname" : "Tangale",
+    "concept" : "DIRT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fugùt",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 21
+            },
+    ]
+})

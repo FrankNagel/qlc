@@ -1842,4 +1842,16 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/pbb'
     },
+    {
+        'name' : u'Mamaindé',
+        'langcode': u'wmd',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/wmd'
+    },
+    {
+        'name' : u'Latundê',
+        'langcode': u'ltn',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/ltn'
+    },
 ]

@@ -248,7 +248,8 @@ def insert_nonwordlistdata_to_db(Session, data, book, filename):
     nondictdata = model.Nonwordlistdata()
     nondictdata.startpage = data['startpage']
     nondictdata.endpage = data['endpage']
-    nondictdata.volume = data['volume']
+    if 'volume' in data:
+        nondictdata.volume = data['volume']
     nondictdata.title = data['title']
     file = open(filename, 'r')
     text = file.read()

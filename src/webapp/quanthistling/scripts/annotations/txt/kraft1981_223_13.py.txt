@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "84. manì pl = min",
+    "startpage" : 223,
+    "pos_on_page" : 13,
+    "language_bookname" : "Dwot",
+    "concept" : "MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "manì",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dwot",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dot",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "min",
+                "start" : 15,
+                "end" : 18
+            },
+    ]
+})

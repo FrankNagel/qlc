@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "297. àfìjì (= wide)",
+    "startpage" : 123,
+    "pos_on_page" : 67,
+    "language_bookname" : "Tangale",
+    "concept" : "WIDENESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "àfìjì",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 22
+            },
+    ]
+})

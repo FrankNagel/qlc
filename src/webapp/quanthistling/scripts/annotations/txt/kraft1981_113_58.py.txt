@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "355. p̃ɩɣò (= imp) řəkwɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 58,
+    "language_bookname" : "Pero",
+    "concept" : "KILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "p̃ɩɣò",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "řəkwɔ̀",
+                "start" : 20,
+                "end" : 27
+            },
+    ]
+})

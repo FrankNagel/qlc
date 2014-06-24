@@ -26,9 +26,9 @@ ${component.bookinfo()}
     <ul>
     <li>
     <a href="${h.url_for(controller='book', action='nonwordlistdata', bibtexkey=c.book.bibtex_key, title=nondictdata.title_url(), volume=nondictdata.volume, startpage=nondictdata.startpage, endpage=nondictdata.endpage)}">
-        ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage}
+        ${nondictdata.title} (pp. ${nondictdata.startpage} - ${nondictdata.endpage})
         % if nondictdata.volume != None:
-        , Volume ${nondictdata.volume})
+        , Volume ${nondictdata.volume}
         % endif
     </a>
     </li>

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "113. ðàmà(=cloud) par̃aƚàrì",
+    "startpage" : 113,
+    "pos_on_page" : 50,
+    "language_bookname" : "Wamdiu",
+    "concept" : "STORM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ðàmà",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "par̃aƚàrì",
+                "start" : 20,
+                "end" : 31
+            },
+    ]
+})

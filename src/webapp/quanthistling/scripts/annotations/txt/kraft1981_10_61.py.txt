@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "256. gyàmbō, mīkī̀",
+    "startpage" : 10,
+    "pos_on_page" : 61,
+    "language_bookname" : "Hausa",
+    "concept" : "ULCER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gyàmbō",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mīkī̀",
+                "start" : 15,
+                "end" : 22
+            },
+    ]
+})

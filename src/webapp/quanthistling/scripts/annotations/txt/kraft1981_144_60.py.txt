@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "315. vuma...nɛ",
+    "startpage" : 144,
+    "pos_on_page" : 60,
+    "language_bookname" : "Higi Baza",
+    "concept" : "WHEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vuma nɛ",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Baza",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 14
+            },
+    ]
+})

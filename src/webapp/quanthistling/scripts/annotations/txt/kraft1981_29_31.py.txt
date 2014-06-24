@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "208. mbìze se=uncooked",
+    "startpage" : 29,
+    "pos_on_page" : 31,
+    "language_bookname" : "Sura",
+    "concept" : "FOOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mbìze se",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 5,
+                "end" : 23
+            },
+    ]
+})

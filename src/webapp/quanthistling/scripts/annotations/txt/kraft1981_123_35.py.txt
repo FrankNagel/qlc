@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "289. kerèk (=bitter)",
+    "startpage" : 123,
+    "pos_on_page" : 35,
+    "language_bookname" : "Tangale",
+    "concept" : "BITTERNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kerèk",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 21
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "315. xwuŋkwàma...r̃i xwu ... r̃i",
+    "startpage" : 134,
+    "pos_on_page" : 60,
+    "language_bookname" : "Higi Nkafa",
+    "concept" : "WHEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xwuŋkwàma r̃i",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Nkafa",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xwu r̃i",
+                "start" : 22,
+                "end" : 33
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "277. #275",
+    "startpage" : 54,
+    "pos_on_page" : 66,
+    "language_bookname" : "Ankwe",
+    "concept" : "BLUE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bɛlɛm bɛ̀lɛ̀m",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ankwe",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ank",
+                "start" : 5,
+                "end" : 9
+            },
+    ]
+})

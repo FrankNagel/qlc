@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "302. sàada (&amp;lt; Hausa)",
+    "startpage" : 259,
+    "pos_on_page" : 8,
+    "language_bookname" : "Bade",
+    "concept" : "EXPENSIVENESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sàada",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bade",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bde",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "Hausa",
+                "start" : 15,
+                "end" : 20
+            },
+    ]
+})

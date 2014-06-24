@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. kamo(no) male kara(no) fem.",
+    "startpage" : 131,
+    "pos_on_page" : 54,
+    "language_bookname" : "Dera",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kamono",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 4,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 4,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "karano",
+                "start" : 18,
+                "end" : 26
+            },
+    ]
+})

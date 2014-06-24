@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. kàka=female gìgi=male",
+    "startpage" : 158,
+    "pos_on_page" : 54,
+    "language_bookname" : "Dira",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kàka",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gìgi",
+                "start" : 17,
+                "end" : 22
+            },
+    ]
+})

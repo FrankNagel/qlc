@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "324. xυɗà = ciƙi",
+    "startpage" : 102,
+    "pos_on_page" : 13,
+    "language_bookname" : "Gələvda",
+    "concept" : "INSIDE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xυɗà",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ciƙi",
+                "start" : 13,
+                "end" : 17
+            },
+    ]
+})

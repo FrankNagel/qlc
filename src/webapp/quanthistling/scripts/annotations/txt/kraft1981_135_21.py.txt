@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "326. kò (kweyi = akai)",
+    "startpage" : 135,
+    "pos_on_page" : 21,
+    "language_bookname" : "Dera",
+    "concept" : "ATOP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kò",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kweyi",
+                "start" : 10,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "akai",
+                "start" : 18,
+                "end" : 22
+            },
+    ]
+})

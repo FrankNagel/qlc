@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "148. làkoròk (= village)",
+    "startpage" : 121,
+    "pos_on_page" : 32,
+    "language_bookname" : "Tangale",
+    "concept" : "TOWN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "làkoròk",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 26
+            },
+    ]
+})

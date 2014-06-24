@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "312. dogwa (togwa)",
+    "startpage" : 138,
+    "pos_on_page" : 48,
+    "language_bookname" : "Nakatsa",
+    "concept" : "YESTERDAY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dogwa",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "togwa",
+                "start" : 12,
+                "end" : 17
+            },
+    ]
+})

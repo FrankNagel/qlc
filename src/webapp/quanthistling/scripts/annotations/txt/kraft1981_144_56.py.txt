@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "314. ka ... nɛ",
+    "startpage" : 144,
+    "pos_on_page" : 56,
+    "language_bookname" : "Higi Baza",
+    "concept" : "WHERE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ka nɛ",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Baza",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 14
+            },
+    ]
+})

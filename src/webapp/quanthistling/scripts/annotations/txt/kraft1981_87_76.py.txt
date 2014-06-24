@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "399. = 397",
+    "startpage" : 87,
+    "pos_on_page" : 76,
+    "language_bookname" : "Bole(wa)",
+    "concept" : "SEIZE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bole(wa)",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bol",
+                "start" : 6,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gwə̀ɓo&#39;o&#39;yi",
+                "start" : 7,
+                "end" : 10
+            },
+    ]
+})

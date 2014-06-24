@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "28. ba banà=ubana",
+    "startpage" : 62,
+    "pos_on_page" : 30,
+    "language_bookname" : "Cibak",
+    "concept" : "FATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ba banà",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Cibak",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ckl",
+                "start" : 4,
+                "end" : 18
+            },
+    ]
+})

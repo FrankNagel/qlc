@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "85. màlà(=female)",
+    "startpage" : 113,
+    "pos_on_page" : 17,
+    "language_bookname" : "Wamdiu",
+    "concept" : "WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "màlà",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 4,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 4,
+                "end" : 19
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "286. ɓòk (kwîŋ) (=soft)",
+    "startpage" : 123,
+    "pos_on_page" : 23,
+    "language_bookname" : "Tangale",
+    "concept" : "SOFTNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɓòk",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kwîŋ",
+                "start" : 11,
+                "end" : 16
+            },
+    ]
+})

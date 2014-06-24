@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "319. kwunɩ ... r̃i",
+    "startpage" : 134,
+    "pos_on_page" : 76,
+    "language_bookname" : "Higi Nkafa",
+    "concept" : "HOW_MANY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kwunɩ r̃i",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Nkafa",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 18
+            },
+    ]
+})

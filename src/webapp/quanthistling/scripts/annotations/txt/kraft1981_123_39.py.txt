@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "290. sòm (=sour)",
+    "startpage" : 123,
+    "pos_on_page" : 39,
+    "language_bookname" : "Tangale",
+    "concept" : "SOURNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sòm",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 17
+            },
+    ]
+})

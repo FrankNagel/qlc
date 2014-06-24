@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "316. mì̵...ri",
+    "startpage" : 55,
+    "pos_on_page" : 64,
+    "language_bookname" : "Bura",
+    "concept" : "WHAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mì̵ ri",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bura",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bwr",
+                "start" : 5,
+                "end" : 14
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "298. râp=273,279",
+    "startpage" : 30,
+    "pos_on_page" : 71,
+    "language_bookname" : "Sura",
+    "concept" : "DIRT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "râp",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 5,
+                "end" : 17
+            },
+    ]
+})

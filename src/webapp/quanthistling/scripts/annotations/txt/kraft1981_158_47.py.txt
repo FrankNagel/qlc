@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "52. wə̀mðì (bìbyàla = collarbone)",
+    "startpage" : 158,
+    "pos_on_page" : 47,
+    "language_bookname" : "Dira",
+    "concept" : "SHOULDER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wə̀mðì",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bìbyàla",
+                "start" : 13,
+                "end" : 22
+            },
+    ]
+})

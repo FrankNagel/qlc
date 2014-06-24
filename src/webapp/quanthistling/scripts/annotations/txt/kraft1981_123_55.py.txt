@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "294. ɗašə̀ (= bad)",
+    "startpage" : 123,
+    "pos_on_page" : 55,
+    "language_bookname" : "Tangale",
+    "concept" : "EVIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗašə̀",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 19
+            },
+    ]
+})

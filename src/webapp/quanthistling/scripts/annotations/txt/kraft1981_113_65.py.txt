@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "337. cu (=imp.) nə žiɣɔ̀ (I ate)",
+    "startpage" : 113,
+    "pos_on_page" : 65,
+    "language_bookname" : "Pero",
+    "concept" : "EAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "cu",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nə žiɣɔ̀",
+                "start" : 16,
+                "end" : 25
+            },
+    ]
+})

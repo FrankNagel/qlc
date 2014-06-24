@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "256. fəɗà (=sore, sickness)",
+    "startpage" : 123,
+    "pos_on_page" : 61,
+    "language_bookname" : "Tangale",
+    "concept" : "ULCER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fəɗà",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 28
+            },
+    ]
+})

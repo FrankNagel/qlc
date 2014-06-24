@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "174. guwa (=large) gùlduku (= small)",
+    "startpage" : 133,
+    "pos_on_page" : 53,
+    "language_bookname" : "Dera",
+    "concept" : "TURTLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "guwa",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gùlduku",
+                "start" : 19,
+                "end" : 27
+            },
+    ]
+})

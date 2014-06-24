@@ -2306,4 +2306,62 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Lexical similarity between 2 Northern Nambiquara languages: a Mamaindé / Latundé comparative word list',
+        'author' : u'Eberhard, Dave',
+        'year' : 2005,
+        'bibtex_key' : u'eberhard2005',
+        'pages' : 6,
+        'columns' : 5,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/eberhard2005_wordlistdata_2_5.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 2,
+                'endpage' : 5,
+                'language_name' : u'Portuguese',
+                'language_bookname' : u'Portuguese',
+                'component' : 'Nambiquaran'
+            },
+            {
+                'startpage' : 2,
+                'endpage' : 5,
+                'language_name' : u'English',
+                'language_bookname' : u'English',
+                'component' : 'Nambiquaran'
+            },
+            {
+                'startpage' : 2,
+                'endpage' : 5,
+                'language_name' : u'Mamaindé',
+                'language_bookname' : u'Mamaindé',
+                'component' : 'Nambiquaran'
+            },
+            {
+                'startpage' : 2,
+                'endpage' : 5,
+                'language_name' : u'Latundê',
+                'language_bookname' : u'Latundé',
+                'component' : 'Nambiquaran'
+            },
+            {
+                'startpage' : 2,
+                'endpage' : 5,
+                'language_name' : u'Mamaindé',
+                'language_bookname' : u'Negaroté',
+                'component' : 'Nambiquaran'
+            },
+        ],
+        'nonwordlistdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 6,
+                'volume': 1,
+                'title': u'Description',
+                'file' : 'comparative_wordlists/eberhard2005_nonwordlistdata_1_6.htm',
+                'component' : 'Nambiquaran'
+            },
+        ]
+    }
 ]

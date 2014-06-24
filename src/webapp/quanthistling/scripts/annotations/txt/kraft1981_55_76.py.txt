@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "319. yiɗəw...ri",
+    "startpage" : 55,
+    "pos_on_page" : 76,
+    "language_bookname" : "Bura",
+    "concept" : "HOW_MANY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yiɗəw ri",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bura",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bwr",
+                "start" : 5,
+                "end" : 15
+            },
+    ]
+})

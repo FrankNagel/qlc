@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "85. təmno (=female)",
+    "startpage" : 132,
+    "pos_on_page" : 17,
+    "language_bookname" : "Dera",
+    "concept" : "WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "təmno",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 4,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 4,
+                "end" : 19
+            },
+    ]
+})

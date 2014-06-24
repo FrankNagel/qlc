@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "340. ye (= ya yi)",
+    "startpage" : 135,
+    "pos_on_page" : 77,
+    "language_bookname" : "Dera",
+    "concept" : "DO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ye",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ya yi",
+                "start" : 11,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "174. kʷòmbolò (=tortoise)",
+    "startpage" : 122,
+    "pos_on_page" : 53,
+    "language_bookname" : "Tangale",
+    "concept" : "TURTLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kʷòmbolò",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 27
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "407. yilə̀ko (imper=yìlə̀ko)",
+    "startpage" : 136,
+    "pos_on_page" : 13,
+    "language_bookname" : "Dera",
+    "concept" : "STAND_UP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yilə̀ko",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yìlə̀ko",
+                "start" : 20,
+                "end" : 28
+            },
+    ]
+})

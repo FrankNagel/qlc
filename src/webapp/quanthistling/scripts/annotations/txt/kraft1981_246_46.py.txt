@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "32. gəzgə̀rə̀(older gì̵dɩn(young.)",
+    "startpage" : 246,
+    "pos_on_page" : 46,
+    "language_bookname" : "Ngizim",
+    "concept" : "BROTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gəzgə̀rə̀",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngizim",
+                "start" : 4,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ngi",
+                "start" : 4,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gì̵dɩn",
+                "start" : 20,
+                "end" : 27
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "84. mù mèmê wànâ = pl.",
+    "startpage" : 121,
+    "pos_on_page" : 13,
+    "language_bookname" : "Tangale",
+    "concept" : "MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mù mèmê wànâ",
+                "start" : 4,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 4,
+                "end" : 27
+            },
+    ]
+})

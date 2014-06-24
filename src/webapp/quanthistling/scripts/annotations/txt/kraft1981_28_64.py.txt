@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "156. lì̵wje còk=knife",
+    "startpage" : 28,
+    "pos_on_page" : 64,
+    "language_bookname" : "Sura",
+    "concept" : "SICKLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lì̵wje còk",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 5,
+                "end" : 23
+            },
+    ]
+})

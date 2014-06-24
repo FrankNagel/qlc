@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "406. ɗuwoko (imper= ɗùko)",
+    "startpage" : 136,
+    "pos_on_page" : 11,
+    "language_bookname" : "Dera",
+    "concept" : "SIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗuwoko",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗùko",
+                "start" : 20,
+                "end" : 25
+            },
+    ]
+})

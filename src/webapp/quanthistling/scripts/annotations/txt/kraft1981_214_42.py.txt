@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "31. vei mah",
+    "startpage" : 214,
+    "pos_on_page" : 42,
+    "language_bookname" : "Misme (Zime)",
+    "concept" : "DAUGHTER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vei",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Misme (Zime)",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "zim",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mah",
+                "start" : 8,
+                "end" : 11
+            },
+    ]
+})

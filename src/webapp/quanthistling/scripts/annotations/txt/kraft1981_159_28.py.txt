@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "147. gɩlɩpè=cikin daji lupè=daji",
+    "startpage" : 159,
+    "pos_on_page" : 28,
+    "language_bookname" : "Dira",
+    "concept" : "THE_BUSH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gɩlɩpè",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "cikin daji",
+                "start" : 13,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lupè",
+                "start" : 24,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "daji",
+                "start" : 30,
+                "end" : 34
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "382. yà ləʔyì=412",
+    "startpage" : 162,
+    "pos_on_page" : 8,
+    "language_bookname" : "Dira",
+    "concept" : "DRESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yà ləʔyì",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 19
+            },
+    ]
+})
