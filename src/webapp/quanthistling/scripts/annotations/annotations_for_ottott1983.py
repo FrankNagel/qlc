@@ -181,7 +181,7 @@ def main(argv):
     
         for e in entries:
             try:
-                print "current page: %i, pos_on_page: %i" % (e.startpage, e.pos_on_page)
+                #print "current page: %i, pos_on_page: %i" % (e.startpage, e.pos_on_page)
                 heads = annotate_head_and_pos(e)
                 if not e.is_subentry:
                     for h in heads:
