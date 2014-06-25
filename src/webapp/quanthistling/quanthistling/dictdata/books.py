@@ -2155,6 +2155,40 @@ list = [
             }
         ]
     },
+
+    {
+        'title' : u'Vocabulario dos indios mutuans do yamundá',
+        'author' : u'Pompeu Sobrinho, Thomaz',
+        'year' : 1936,
+        'bibtex_key' : u'pompeusobrinho1936',
+        'pages' : 77,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 72,
+                'endpage' : 77,
+                'src_language_name' : u'Portuguese',
+                'tgt_language_name' : u'Kaxuiâna',
+                'src_language_bookname' : u'Português',
+                'tgt_language_bookname' : u'Mutuan',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'carib/pompeusobrinho1936_dictdata_72_77.xml',
+                'component' : 'Carib'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 71,
+                'title': u'Start pages',
+                'file' : 'carib/pompeusobrinho1936_nondictdata_0_71.htm',
+                'component' : 'Carib'
+            }
+        ]
+    },
+
     {
         'title' : u'Pequeno Dicionário Xavante-Português, Português-Xavante',
         'author' : u'Hall, Joan and McLeod, Ruth Alice and Mitchell, Valerie',

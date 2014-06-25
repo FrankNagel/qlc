@@ -1854,4 +1854,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/ltn'
     },
+    {
+        'name' : u'Kaxuiâna',
+        'langcode': u'kbb',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/kbb'
+    },
 ]
