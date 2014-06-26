@@ -2868,4 +2868,29 @@ list = [
 
         ]
     },
+    {
+        'title' : u'DICCIONARIO BILINGÜE YUKUNA-ESPAÑOL ESPAÑOL-YUKUNA',
+        'author' : u'Schauer, Stanley; Schauer, Junia; Yucuna, Eladio and Yucuna, Walter',
+        'year' : 2005,
+        'bibtex_key' : u'schauer2005',
+        'pages' : 248,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 22,
+                'endpage' : 172,
+                'src_language_name' : u'Yucuna',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'YUKUNA',
+                'tgt_language_bookname' : u'ESPAÑOL',
+                'file' : 'arawak/schauer2005_dictdata_21_172.xml',
+                'component' : 'Arawak'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 ]
