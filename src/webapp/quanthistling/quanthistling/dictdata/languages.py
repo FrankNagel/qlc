@@ -1860,4 +1860,28 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/kbb'
     },
+    {
+        'name' : u'Kanoé',
+        'langcode': u'kxo',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/kxo'
+    },
+    {
+        'name' : u'Apurinã',
+        'langcode': u'apu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/apu'
+    },
+    {
+        'name' : u'Wapishana',
+        'langcode': u'wap',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/wap'
+    },
+    {
+        'name' : u'Macushi',
+        'langcode': u'mbc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mbc'
+    },
 ]

@@ -1834,32 +1834,6 @@ list = [
         ]
     },
     {
-        'title' : u'VOCABULARIO Sáliba-Español Español-Sáliba',
-        'author' : u'Benaissa, Taik',
-        'year' : 1991,
-        'bibtex_key' : u'benaissa1991',
-        'pages' : 97,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 3,
-                'endpage' : 45,
-                'src_language_name' : u'Sáliba',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Sáliba',
-                'tgt_language_bookname' : u'Spanish',
-                're_letter_only': r'^\w\s*$',
-                'file' : 'other/benaissa1991_dictdata_3_45.xml',
-                'component' : 'Other'
-            },
-        ],
-        'nondictdata' : [
-
-        ]
-    },
-    {
         'title' : u'Dicionário Deni-Português',
         'author' : u'Koop, Gordon and Koop, Lois',
         'year' : 2008,
@@ -2422,6 +2396,45 @@ list = [
         ],
         'nondictdata' : [
 
+        ]
+    },
+    {
+        'title' : u'VOCABULARIO Sáliba-Español Español-Sáliba',
+        'author' : u'Benaissa, Taik',
+        'year' : 1991,
+        'bibtex_key' : u'benaissa1991',
+        'pages' : 97,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 3,
+                'endpage' : 45,
+                'src_language_name' : u'Sáliba',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Sáliba',
+                'tgt_language_bookname' : u'Spanish',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'other/benaissa1991_dictdata_3_45.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/benaissa1991_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 89,
+                'endpage' : 97,
+                'title': u'Apendice',
+                'file' : 'other/benaissa1991_nondictdata_89_97.htm',
+                'component' : 'Other'
+            }
         ]
     },
 

@@ -2363,5 +2363,63 @@ list = [
                 'component' : 'Nambiquaran'
             },
         ]
+    },
+    {
+        'title' : u'Vocabularios Makusí, Wapicána, Ipurinã\' e Kapisanã\'',
+        'author' : u'Nimuendajú, Curt',
+        'year' : 1955,
+        'bibtex_key' : u'nimuendaju1955',
+        'pages' : 197,
+        'columns' : 4,
+        'is_ready' : False,
+        'file' : 'comparative_wordlists/nimuendaju1955_wordlistdata_179_197.xml',
+        'type' : 'wordlist',
+        'wordlistdata' : [
+            {
+                'startpage' : 179,
+                'endpage' : 197,
+                'language_name' : u'Portuguese',
+                'language_bookname' : u'Portuguese',
+                'component' : 'Carib'
+            },
+            {
+                'startpage' : 179,
+                'endpage' : 186,
+                'language_name' : u'Macushi',
+                'language_bookname' : u'Makuší',
+                'component' : 'Carib'
+            },
+            {
+                'startpage' : 186,
+                'endpage' : 192,
+                'language_name' : u'Wapishana',
+                'language_bookname' : u'Wapičána',
+                'component' : 'Carib'
+            },
+            {
+                'startpage' : 193,
+                'endpage' : 196,
+                'language_name' : u'Apurinã',
+                'language_bookname' : u'Ipurinã\'',
+                'component' : 'Carib'
+            },
+            {
+                'startpage' : 196,
+                'endpage' : 197,
+                'language_name' : u'Kanoé',
+                'language_bookname' : u'Kapišanã\'',
+                'component' : 'Carib'
+            },
+        ],
+        'nonwordlistdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'volume': 1,
+                'title': u'Description',
+                'file' : 'comparative_wordlists/nimuendaju1955_nonwordlistdata_0_0.htm',
+                'component' : 'Carib'
+            },
+        ]
     }
 ]
