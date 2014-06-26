@@ -3,6 +3,7 @@
 import sys, os, re
 import collections
 import codecs
+import unicodedata
 
 sys.path.append(os.path.abspath('.'))
 
@@ -39,9 +40,11 @@ def insert_counterpart(entry, start, end, data):
 
 def conceptid_from_string(concept):
     concept = concept.upper()
-    concept = re.sub(u" ", u"_", concept)
     concept = re.sub(u"'", u"_", concept)
-    concept = re.sub(u"[\(\).,!?]", u"", concept)
+    concept = re.sub(u" ", u"_", concept)
+    concept = re.sub(u"-", u"_", concept)
+    concept = re.sub(u"[\(\)/.,!?: ]", u"", concept)
+    concept = re.sub(u"_+", u"_", concept)
     return u"{0}".format(concept)
 
 
@@ -88,6 +91,8 @@ def main(argv):
         pos_on_page = 1
         counterparts = {}
         part = None
+
+        lang = None
                 
         for line in wordlistfile:
             l = line.strip()
@@ -100,22 +105,23 @@ def main(argv):
                     part = match_part.group(1)
                     continue
 
-                lang = data["language_bookname"]
-                if lang == u"Portuguese":
-                    lang = u"Makuší"
+                lang = unicodedata.normalize("NFD", data["language_bookname"])
 
-                if not part == lang:
-                    continue
 
                 if re_page.match(l):
                     match_page = re_page.match(l)
                     page = int(match_page.group(1))
                     pos_on_page = 1
-                    print "Parsing page {0}".format(page)
-
+                    if page >= int(data["startpage"]) and \
+                            page <= int(data["endpage"]):
+                        print "Parsing page {0}".format(page)
+        
                 else:
                     if page >= int(data["startpage"]) and \
                             page <= int(data["endpage"]):
+
+                        if not part == lang and lang != "Portuguese":
+                            continue
 
                         parts = l.split("\t")
                         if len(parts) != 4 and len(parts) != 2:
@@ -138,10 +144,11 @@ def main(argv):
                             counterpart = parts[parts_index]
 
                             counterparts[concept] = \
-                                (counterpart, page, parts_index,
+                                (counterpart, page, parts_index + 1,
                                     pos_on_page + parts_index)
                         pos_on_page += len(parts)
 
+        print(u"  DONE language {0}.".format(lang))
         # store concepts
         if data["language_name"] == u"Portuguese":
             for concept_id, _ in counterparts.items():
