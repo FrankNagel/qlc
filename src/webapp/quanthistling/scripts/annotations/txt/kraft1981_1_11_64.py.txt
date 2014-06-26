@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "396. yā matsà (lḕmū)",
+    "startpage" : 11,
+    "pos_on_page" : 64,
+    "language_bookname" : "Hausa",
+    "concept" : "SQUEEZE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yā matsà",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lḕmū",
+                "start" : 17,
+                "end" : 24
+            },
+    ]
+})

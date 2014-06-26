@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "357. fɔžɔʔ (imp) vɔžuřɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 66,
+    "language_bookname" : "Pero",
+    "concept" : "PUSH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fɔžɔʔ",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vɔžuřɔ̀",
+                "start" : 18,
+                "end" : 27
+            },
+    ]
+})

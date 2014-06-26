@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "429. tchi her (tchi baraou)",
+    "startpage" : 219,
+    "pos_on_page" : 24,
+    "language_bookname" : "Misme (Zime)",
+    "concept" : "WEAVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tchi her",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Misme (Zime)",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "zim",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tchi baraou",
+                "start" : 15,
+                "end" : 26
+            },
+    ]
+})

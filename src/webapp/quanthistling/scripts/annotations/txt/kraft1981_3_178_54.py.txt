@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. sungwɔlɔ (f) bungwɔlɔ (m)",
+    "startpage" : 178,
+    "pos_on_page" : 54,
+    "language_bookname" : "Banana",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sungwɔlɔ",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Banana",
+                "start" : 4,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mcn",
+                "start" : 4,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bungwɔlɔ",
+                "start" : 17,
+                "end" : 25
+            },
+    ]
+})

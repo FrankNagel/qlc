@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "54. ŋa gυ tàs (sg) mɩr tàs (pl)",
+    "startpage" : 208,
+    "pos_on_page" : 55,
+    "language_bookname" : "Seya",
+    "concept" : "FINGER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋa gυ tàs",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 4,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 4,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɩr tàs",
+                "start" : 20,
+                "end" : 28
+            },
+    ]
+})

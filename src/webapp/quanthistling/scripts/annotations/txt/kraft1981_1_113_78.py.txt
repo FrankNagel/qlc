@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "360. cinə̀ (imp) žɩngenɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 78,
+    "language_bookname" : "Pero",
+    "concept" : "LIE_DOWN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "cinə̀",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "žɩngenɔ̀",
+                "start" : 17,
+                "end" : 26
+            },
+    ]
+})

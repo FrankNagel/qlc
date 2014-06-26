@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "28. bə̀b(u) (ŋ́gà)",
+    "startpage" : 145,
+    "pos_on_page" : 30,
+    "language_bookname" : "Matakam",
+    "concept" : "FATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bə̀bu",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Matakam",
+                "start" : 4,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "maf",
+                "start" : 4,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋ́gà",
+                "start" : 13,
+                "end" : 18
+            },
+    ]
+})

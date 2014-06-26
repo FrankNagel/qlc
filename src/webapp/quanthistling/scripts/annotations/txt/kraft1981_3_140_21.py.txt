@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "411. dègana (mežəmber̃tà)",
+    "startpage" : 140,
+    "pos_on_page" : 21,
+    "language_bookname" : "Nakatsa",
+    "concept" : "FOLLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dègana",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mežəmber̃tà",
+                "start" : 14,
+                "end" : 27
+            },
+    ]
+})

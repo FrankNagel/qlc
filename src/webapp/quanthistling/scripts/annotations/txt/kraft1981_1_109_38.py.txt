@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "30. laò (same as boy)",
+    "startpage" : 109,
+    "pos_on_page" : 38,
+    "language_bookname" : "Pero",
+    "concept" : "SON",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "laò",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 4,
+                "end" : 22
+            },
+    ]
+})

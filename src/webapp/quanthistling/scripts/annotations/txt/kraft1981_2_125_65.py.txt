@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "337. à sɩm (sùrsɩm)",
+    "startpage" : 125,
+    "pos_on_page" : 65,
+    "language_bookname" : "Margi",
+    "concept" : "EAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "à sɩm",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Margi",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mrt",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sùrsɩm",
+                "start" : 13,
+                "end" : 20
+            },
+    ]
+})

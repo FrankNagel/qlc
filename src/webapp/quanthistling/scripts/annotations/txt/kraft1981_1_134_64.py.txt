@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "316. mi (nimi)",
+    "startpage" : 134,
+    "pos_on_page" : 64,
+    "language_bookname" : "Dera",
+    "concept" : "WHAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mi",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nimi",
+                "start" : 9,
+                "end" : 13
+            },
+    ]
+})

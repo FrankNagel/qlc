@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "198. ɣùdà (sg) ɣudaxà (pl)",
+    "startpage" : 125,
+    "pos_on_page" : 70,
+    "language_bookname" : "Gava",
+    "concept" : "DOG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣùdà",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 5,
+                "end" : 29
+            },
+    ]
+})

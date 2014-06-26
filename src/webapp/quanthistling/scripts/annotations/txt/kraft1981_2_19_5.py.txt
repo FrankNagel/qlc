@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "403. xi (ni̵n)",
+    "startpage" : 19,
+    "pos_on_page" : 5,
+    "language_bookname" : "Hwona",
+    "concept" : "BUY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xi",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hwona",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hwo",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ni̵n",
+                "start" : 9,
+                "end" : 13
+            },
+    ]
+})

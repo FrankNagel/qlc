@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "381. ðigù (imp) ðikò",
+    "startpage" : 113,
+    "pos_on_page" : 4,
+    "language_bookname" : "Pero",
+    "concept" : "BUILD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ðigù",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ðikò",
+                "start" : 17,
+                "end" : 22
+            },
+    ]
+})

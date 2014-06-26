@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "242. tùli (big one)",
+    "startpage" : 63,
+    "pos_on_page" : 5,
+    "language_bookname" : "Karekare",
+    "concept" : "LARGE_WATER_POT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tùli",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Karekare",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kai",
+                "start" : 5,
+                "end" : 20
+            },
+    ]
+})

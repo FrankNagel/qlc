@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "342. hi̵ci (m)i̵ci",
+    "startpage" : 50,
+    "pos_on_page" : 6,
+    "language_bookname" : "Njanye",
+    "concept" : "COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hi̵ci mi̵ci",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Njanye",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nja",
+                "start" : 5,
+                "end" : 18
+            },
+    ]
+})

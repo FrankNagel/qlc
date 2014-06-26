@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "333. ti̵xalè (ti̵vuŋkwa",
+    "startpage" : 139,
+    "pos_on_page" : 49,
+    "language_bookname" : "Nakatsa",
+    "concept" : "EAST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ti̵xalè",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ti̵vuŋkwa",
+                "start" : 15,
+                "end" : 24
+            },
+    ]
+})

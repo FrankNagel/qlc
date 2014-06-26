@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "246. myὲr̃ (m̀jì)",
+    "startpage" : 124,
+    "pos_on_page" : 21,
+    "language_bookname" : "Margi",
+    "concept" : "LANGUAGE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "myὲr̃",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Margi",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mrt",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "m̀jì",
+                "start" : 13,
+                "end" : 18
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "87. lowò ambò (pl)",
+    "startpage" : 132,
+    "pos_on_page" : 25,
+    "language_bookname" : "Dera",
+    "concept" : "GIRL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lowò",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ambò",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})

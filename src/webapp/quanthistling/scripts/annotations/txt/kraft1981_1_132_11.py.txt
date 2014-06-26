@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "123. milà mildŋgin (pl)",
+    "startpage" : 132,
+    "pos_on_page" : 11,
+    "language_bookname" : "Dera",
+    "concept" : "YEAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "milà",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mildŋgin",
+                "start" : 11,
+                "end" : 19
+            },
+    ]
+})

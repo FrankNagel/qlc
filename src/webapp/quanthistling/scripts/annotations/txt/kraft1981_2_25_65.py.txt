@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "97. šɩ̀kètɩ (na)",
+    "startpage" : 25,
+    "pos_on_page" : 65,
+    "language_bookname" : "Ga?anda",
+    "concept" : "FRIEND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šɩ̀kètɩ",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šɩ̀kètɩ na",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ga?anda",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gqa",
+                "start" : 4,
+                "end" : 18
+            },
+    ]
+})

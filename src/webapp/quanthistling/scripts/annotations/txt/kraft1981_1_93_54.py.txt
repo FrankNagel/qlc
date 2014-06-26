@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. dìkà(nô) (=f) dɩ̀šɩ̀(nô) (=m)",
+    "startpage" : 93,
+    "pos_on_page" : 54,
+    "language_bookname" : "Ngamo",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dìkànô",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngamo",
+                "start" : 4,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nbh",
+                "start" : 4,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dɩ̀šɩ̀nô",
+                "start" : 21,
+                "end" : 33
+            },
+    ]
+})

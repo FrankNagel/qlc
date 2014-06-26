@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "72. ùsəki (gefe)",
+    "startpage" : 83,
+    "pos_on_page" : 48,
+    "language_bookname" : "Bole(wa)",
+    "concept" : "RIBS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ùsəki",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bole(wa)",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bol",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gefe",
+                "start" : 12,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "411.*also nzə̀dəb(i̵)gàna nzə̀ gət(i̵)gànà",
+    "startpage" : 103,
+    "pos_on_page" : 21,
+    "language_bookname" : "Gələvda",
+    "concept" : "FOLLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 4,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 4,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nzə̀dəbi̵gàna",
+                "start" : 10,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nzə̀ gəti̵gànà",
+                "start" : 27,
+                "end" : 45
+            },
+    ]
+})

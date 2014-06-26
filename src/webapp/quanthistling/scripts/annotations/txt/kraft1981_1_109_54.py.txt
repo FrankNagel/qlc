@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. jijì (m.) gaɣà (f.)",
+    "startpage" : 109,
+    "pos_on_page" : 54,
+    "language_bookname" : "Pero",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jijì",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gaɣà",
+                "start" : 15,
+                "end" : 20
+            },
+    ]
+})

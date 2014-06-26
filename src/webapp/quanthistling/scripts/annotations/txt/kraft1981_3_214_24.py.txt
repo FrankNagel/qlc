@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "66. lo (bibir)",
+    "startpage" : 214,
+    "pos_on_page" : 24,
+    "language_bookname" : "Misme (Zime)",
+    "concept" : "STOMACH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lo",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Misme (Zime)",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "zim",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bibir",
+                "start" : 8,
+                "end" : 13
+            },
+    ]
+})

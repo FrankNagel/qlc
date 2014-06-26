@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "265. vi̵cɩ (ŋ̀kwà)šɛ",
+    "startpage" : 154,
+    "pos_on_page" : 18,
+    "language_bookname" : "Higi Kamale",
+    "concept" : "TIME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vi̵cɩ",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Kamale",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kvj",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋ̀kwàšɛ",
+                "start" : 11,
+                "end" : 22
+            },
+    ]
+})

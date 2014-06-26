@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "368. lalɔ̀ʔ (imp) laluɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 31,
+    "language_bookname" : "Pero",
+    "concept" : "BURN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lalɔ̀ʔ",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "laluɣɔ̀",
+                "start" : 18,
+                "end" : 25
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "30. wun (kun)",
+    "startpage" : 222,
+    "pos_on_page" : 38,
+    "language_bookname" : "Dwot",
+    "concept" : "SON",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wun",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dwot",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dot",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kun",
+                "start" : 9,
+                "end" : 12
+            },
+    ]
+})

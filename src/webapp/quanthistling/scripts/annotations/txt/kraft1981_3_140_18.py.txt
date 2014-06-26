@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "426. furtanfurta (vì̵tsentì̵vì̵tsa)",
+    "startpage" : 140,
+    "pos_on_page" : 18,
+    "language_bookname" : "Nakatsa",
+    "concept" : "BLOW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "furtanfurta",
+                "start" : 5,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vì̵tsentì̵vì̵tsa",
+                "start" : 18,
+                "end" : 37
+            },
+    ]
+})

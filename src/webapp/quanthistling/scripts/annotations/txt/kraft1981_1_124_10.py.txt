@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "343.*sìynanùk nangè (here) sìyanòk kì (there)",
+    "startpage" : 124,
+    "pos_on_page" : 10,
+    "language_bookname" : "Tangale",
+    "concept" : "RETURN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 4,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 4,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sìynanùk nangè",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sìyanòk kì",
+                "start" : 30,
+                "end" : 43
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "416. dzùgwìyà (ndìlànyi)",
+    "startpage" : 107,
+    "pos_on_page" : 31,
+    "language_bookname" : "Hildi",
+    "concept" : "BEGIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzùgwìyà",
+                "start" : 5,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hildi",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ndìlànyi",
+                "start" : 18,
+                "end" : 28
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "245. gwɔ̀sgàmi (bàrkulə̀ʔî)",
+    "startpage" : 161,
+    "pos_on_page" : 17,
+    "language_bookname" : "Dira",
+    "concept" : "LOAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gwɔ̀sgàmi",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bàrkulə̀ʔî",
+                "start" : 17,
+                "end" : 29
+            },
+    ]
+})

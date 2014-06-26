@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "12. kumɔ̀ (à) pumi̵ƚu",
+    "startpage" : 102,
+    "pos_on_page" : 45,
+    "language_bookname" : "Hildi",
+    "concept" : "TWELVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kumɔ̀ à pumi̵ƚu",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hildi",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 4,
+                "end" : 22
+            },
+    ]
+})

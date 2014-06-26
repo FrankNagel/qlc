@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "363. avù (imp) avuɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 11,
+    "language_bookname" : "Pero",
+    "concept" : "OPEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "avù",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "avuɣɔ̀",
+                "start" : 16,
+                "end" : 22
+            },
+    ]
+})

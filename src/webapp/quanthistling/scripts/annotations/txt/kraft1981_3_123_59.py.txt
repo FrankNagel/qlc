@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "55. sìgà (sg) sigaxa (pl)",
+    "startpage" : 123,
+    "pos_on_page" : 59,
+    "language_bookname" : "Gava",
+    "concept" : "LEG",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sìgà",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 27
+            },
+    ]
+})

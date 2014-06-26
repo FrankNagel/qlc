@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "300. ndə̀ɣὺgà *also: ɣυnɣυnà",
+    "startpage" : 101,
+    "pos_on_page" : 79,
+    "language_bookname" : "Gələvda",
+    "concept" : "FATNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ndə̀ɣὺgà",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣυnɣυnà",
+                "start" : 23,
+                "end" : 31
+            },
+    ]
+})

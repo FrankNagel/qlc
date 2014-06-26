@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "22. dzop dzop (gὺda) nə̀ndə̀m",
+    "startpage" : 208,
+    "pos_on_page" : 6,
+    "language_bookname" : "Seya",
+    "concept" : "FIFTY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzop dzop gὺda nə̀ndə̀m",
+                "start" : 4,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 4,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 4,
+                "end" : 30
+            },
+    ]
+})

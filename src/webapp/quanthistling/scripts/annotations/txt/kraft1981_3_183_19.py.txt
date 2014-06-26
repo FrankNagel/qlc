@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "410. mitùwà (mida)",
+    "startpage" : 183,
+    "pos_on_page" : 19,
+    "language_bookname" : "Banana",
+    "concept" : "DIE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mitùwà",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Banana",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mcn",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mida",
+                "start" : 15,
+                "end" : 19
+            },
+    ]
+})

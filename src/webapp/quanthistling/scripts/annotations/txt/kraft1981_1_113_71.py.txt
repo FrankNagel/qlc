@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "378. kaʔ (imp) ɣεɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 71,
+    "language_bookname" : "Pero",
+    "concept" : "CHOP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kaʔ",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣεɣɔ̀",
+                "start" : 15,
+                "end" : 20
+            },
+    ]
+})

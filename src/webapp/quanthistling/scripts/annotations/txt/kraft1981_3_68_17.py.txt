@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "165. lɩ̀yto (f) lɩ̀yɛy (m)",
+    "startpage" : 68,
+    "pos_on_page" : 17,
+    "language_bookname" : "Bacama",
+    "concept" : "GAZELLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lɩ̀yto",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bacama",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bcy",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lɩ̀yɛy",
+                "start" : 16,
+                "end" : 22
+            },
+    ]
+})

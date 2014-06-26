@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "243. tùli (small one)",
+    "startpage" : 63,
+    "pos_on_page" : 9,
+    "language_bookname" : "Karekare",
+    "concept" : "SMALL_WATER_POT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tùli",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Karekare",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kai",
+                "start" : 5,
+                "end" : 22
+            },
+    ]
+})

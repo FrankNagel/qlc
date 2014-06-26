@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "96. sì̵mbὺr (sg) si̵mbυrsυ̃̀ (pl)",
+    "startpage" : 209,
+    "pos_on_page" : 61,
+    "language_bookname" : "Seya",
+    "concept" : "GUEST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sì̵mbὺr",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 4,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 4,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "si̵mbυrsυ̃̀",
+                "start" : 19,
+                "end" : 30
+            },
+    ]
+})

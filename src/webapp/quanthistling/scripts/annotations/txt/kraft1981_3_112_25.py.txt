@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "87. vì̵jir duɣwè (vùjàr tùɣàwa)",
+    "startpage" : 112,
+    "pos_on_page" : 25,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "GIRL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vì̵jir duɣwè",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 4,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 4,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vùjàr tùɣàwa",
+                "start" : 20,
+                "end" : 36
+            },
+    ]
+})

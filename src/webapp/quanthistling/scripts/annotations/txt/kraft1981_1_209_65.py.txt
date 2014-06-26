@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "97. kàmgὺdņ̀ (sg) kamsὺdņ̀ (pl)",
+    "startpage" : 209,
+    "pos_on_page" : 65,
+    "language_bookname" : "Seya",
+    "concept" : "FRIEND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kàmgὺdņ̀",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 4,
+                "end" : 36
+            },
+    ]
+})

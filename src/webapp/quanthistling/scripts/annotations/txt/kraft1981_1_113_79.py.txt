@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "380. jařɔ̀ʔ (imp) jařuɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 79,
+    "language_bookname" : "Pero",
+    "concept" : "TEAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jařɔ̀ʔ",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jařuɣɔ̀",
+                "start" : 19,
+                "end" : 27
+            },
+    ]
+})

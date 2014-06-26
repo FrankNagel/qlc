@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "288.* ŋυnŋυnà màcɩɗacɩɗà",
+    "startpage" : 101,
+    "pos_on_page" : 31,
+    "language_bookname" : "Gələvda",
+    "concept" : "SWEETNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋυnŋυnà",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "màcɩɗacɩɗà",
+                "start" : 15,
+                "end" : 27
+            },
+    ]
+})

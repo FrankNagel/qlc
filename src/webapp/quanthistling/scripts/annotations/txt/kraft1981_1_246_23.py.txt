@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "46. pì̵r̃shi (pùr̃shi)",
+    "startpage" : 246,
+    "pos_on_page" : 23,
+    "language_bookname" : "Ngizim",
+    "concept" : "LIP",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pì̵r̃shi",
+                "start" : 4,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngizim",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ngi",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pùr̃shi",
+                "start" : 15,
+                "end" : 23
+            },
+    ]
+})

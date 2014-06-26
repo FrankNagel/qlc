@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "132. ànkulak (fitò)",
+    "startpage" : 121,
+    "pos_on_page" : 47,
+    "language_bookname" : "Tangale",
+    "concept" : "BARK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ànkulak",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fitò",
+                "start" : 15,
+                "end" : 20
+            },
+    ]
+})

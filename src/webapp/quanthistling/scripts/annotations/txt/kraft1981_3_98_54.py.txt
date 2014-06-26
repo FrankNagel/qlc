@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. bàbijà (f.) dàdijà (m.)",
+    "startpage" : 98,
+    "pos_on_page" : 54,
+    "language_bookname" : "Gələvda",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bàbijà",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 4,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 4,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dàdijà",
+                "start" : 18,
+                "end" : 26
+            },
+    ]
+})

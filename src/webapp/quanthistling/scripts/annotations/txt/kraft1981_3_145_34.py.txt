@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "29. mɔ̀m (ŋ́gà)",
+    "startpage" : 145,
+    "pos_on_page" : 34,
+    "language_bookname" : "Matakam",
+    "concept" : "MOTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mɔ̀m",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Matakam",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "maf",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋ́gà",
+                "start" : 10,
+                "end" : 15
+            },
+    ]
+})

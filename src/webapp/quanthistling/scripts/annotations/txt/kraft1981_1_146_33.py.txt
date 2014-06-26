@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "89. εrhə̀wdzɩ̀ (hi̵)",
+    "startpage" : 146,
+    "pos_on_page" : 33,
+    "language_bookname" : "Miya",
+    "concept" : "OLD_MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "εrhə̀wdzɩ̀",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Miya",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mkf",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hi̵",
+                "start" : 16,
+                "end" : 19
+            },
+    ]
+})

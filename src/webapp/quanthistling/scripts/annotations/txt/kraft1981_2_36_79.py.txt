@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "300. ndòkùri (ndokri)",
+    "startpage" : 36,
+    "pos_on_page" : 79,
+    "language_bookname" : "Gábin",
+    "concept" : "FATNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ndòkùri",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gábin",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gqa",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ndokri",
+                "start" : 16,
+                "end" : 22
+            },
+    ]
+})

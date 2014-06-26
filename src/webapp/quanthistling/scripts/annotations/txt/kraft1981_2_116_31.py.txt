@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "368. ŋginà (tr) aŋgɩrì(int)",
+    "startpage" : 116,
+    "pos_on_page" : 31,
+    "language_bookname" : "Wamdiu",
+    "concept" : "BURN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋginà",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aŋgɩrì",
+                "start" : 17,
+                "end" : 24
+            },
+    ]
+})

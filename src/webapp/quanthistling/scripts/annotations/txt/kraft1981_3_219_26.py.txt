@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "430. kan (kanwá)",
+    "startpage" : 219,
+    "pos_on_page" : 26,
+    "language_bookname" : "Misme (Zime)",
+    "concept" : "PLAIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kan",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Misme (Zime)",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "zim",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kanwá",
+                "start" : 10,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "151. ɗol (dàm) bàtiwè",
+    "startpage" : 112,
+    "pos_on_page" : 44,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "DOORWAY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗol",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dàm",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bàtiwè",
+                "start" : 16,
+                "end" : 24
+            },
+    ]
+})

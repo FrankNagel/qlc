@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. bajijì (f) jijì (m)",
+    "startpage" : 111,
+    "pos_on_page" : 54,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bajijì",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jijì",
+                "start" : 16,
+                "end" : 21
+            },
+    ]
+})

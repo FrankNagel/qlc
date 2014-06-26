@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "89. malxà (tsìzi̵gwanxà)",
+    "startpage" : 112,
+    "pos_on_page" : 33,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "OLD_MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "malxà",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsìzi̵gwanxà",
+                "start" : 12,
+                "end" : 26
+            },
+    ]
+})

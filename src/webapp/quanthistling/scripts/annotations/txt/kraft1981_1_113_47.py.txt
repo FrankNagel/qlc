@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "372. wulugɔ̀n (T.) lugò (int.)",
+    "startpage" : 113,
+    "pos_on_page" : 47,
+    "language_bookname" : "Pero",
+    "concept" : "BOIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wulugɔ̀n",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lugò",
+                "start" : 19,
+                "end" : 24
+            },
+    ]
+})

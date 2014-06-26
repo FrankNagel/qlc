@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "17. həw yεnùm nə̀num/or kwuƚ.",
+    "startpage" : 158,
+    "pos_on_page" : 65,
+    "language_bookname" : "Dira",
+    "concept" : "TWENTY_ONE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "həw yεnùm nə̀num",
+                "start" : 4,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 4,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 4,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "or kwuƚ.",
+                "start" : 22,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 22,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 22,
+                "end" : 30
+            },
+    ]
+})

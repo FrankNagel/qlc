@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "323. ìčačà (ičetsa)",
+    "startpage" : 139,
+    "pos_on_page" : 9,
+    "language_bookname" : "Nakatsa",
+    "concept" : "THAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ìčačà",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ičetsa",
+                "start" : 16,
+                "end" : 23
+            },
+    ]
+})

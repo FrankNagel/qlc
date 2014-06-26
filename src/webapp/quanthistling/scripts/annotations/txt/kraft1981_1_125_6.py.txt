@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "420. (lèkù) (ya riga) nanùklàndà",
+    "startpage" : 125,
+    "pos_on_page" : 6,
+    "language_bookname" : "Tangale",
+    "concept" : "SEW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lèkù",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ya riga",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nanùklàndà",
+                "start" : 24,
+                "end" : 37
+            },
+    ]
+})

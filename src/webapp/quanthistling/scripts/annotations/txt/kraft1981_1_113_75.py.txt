@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "379. karà (imp) ɣařuɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 75,
+    "language_bookname" : "Pero",
+    "concept" : "CUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "karà",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣařuɣɔ̀",
+                "start" : 17,
+                "end" : 25
+            },
+    ]
+})

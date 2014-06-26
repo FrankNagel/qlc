@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "372. ɗìŋge (trans) pùlèni (intr)",
+    "startpage" : 135,
+    "pos_on_page" : 47,
+    "language_bookname" : "Dera",
+    "concept" : "BOIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɗìŋge",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pùlèni",
+                "start" : 20,
+                "end" : 28
+            },
+    ]
+})

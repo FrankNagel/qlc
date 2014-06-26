@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "254. ˀyak (ðì)",
+    "startpage" : 225,
+    "pos_on_page" : 53,
+    "language_bookname" : "Dwot",
+    "concept" : "COUGH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˀyak",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dwot",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dot",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ðì",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

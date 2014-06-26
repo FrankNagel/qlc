@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "264. xa (ha)",
+    "startpage" : 49,
+    "pos_on_page" : 14,
+    "language_bookname" : "Njanye",
+    "concept" : "PLACE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xa",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Njanye",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nja",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ha",
+                "start" : 9,
+                "end" : 11
+            },
+    ]
+})

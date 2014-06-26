@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "430. ŋgà bal (šὲwən) nɔrò",
+    "startpage" : 71,
+    "pos_on_page" : 26,
+    "language_bookname" : "Bacama",
+    "concept" : "PLAIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ŋgà bal",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bacama",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bcy",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šὲwən",
+                "start" : 15,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nɔrò",
+                "start" : 24,
+                "end" : 29
+            },
+    ]
+})

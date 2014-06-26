@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "100. dzà (xùdzi̵n)",
+    "startpage" : 27,
+    "pos_on_page" : 77,
+    "language_bookname" : "Fali Ɓwagira",
+    "concept" : "WEAVING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzà",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Fali Ɓwagira",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "fli",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xùdzi̵n",
+                "start" : 11,
+                "end" : 19
+            },
+    ]
+})

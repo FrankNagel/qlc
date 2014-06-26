@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "245. kəðə̀ŋà (sg) kəðəŋaxà (pl)",
+    "startpage" : 126,
+    "pos_on_page" : 17,
+    "language_bookname" : "Gava",
+    "concept" : "LOAD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kəðə̀ŋà",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kəðəŋaxà",
+                "start" : 19,
+                "end" : 28
+            },
+    ]
+})

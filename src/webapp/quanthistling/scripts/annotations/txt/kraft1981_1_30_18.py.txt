@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "265. yâk (ʔà)pi̵raŋè",
+    "startpage" : 30,
+    "pos_on_page" : 18,
+    "language_bookname" : "Sura",
+    "concept" : "TIME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yâk",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔàpi̵raŋè",
+                "start" : 10,
+                "end" : 23
+            },
+    ]
+})

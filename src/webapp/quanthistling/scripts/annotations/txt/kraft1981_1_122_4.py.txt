@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "221. moɗà (h)âi",
+    "startpage" : 122,
+    "pos_on_page" : 4,
+    "language_bookname" : "Tangale",
+    "concept" : "MILLET",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "moɗà hâi",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 17
+            },
+    ]
+})

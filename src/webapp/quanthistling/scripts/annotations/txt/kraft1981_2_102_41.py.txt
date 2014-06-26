@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "11. kumɔ̀ sur̃təŋu kumɔ̀ (à) pɩžaŋ(u)",
+    "startpage" : 102,
+    "pos_on_page" : 41,
+    "language_bookname" : "Hildi",
+    "concept" : "ELEVEN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kumɔ̀ sur̃təŋu",
+                "start" : 4,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hildi",
+                "start" : 4,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 4,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kumɔ̀ à pɩžaŋu",
+                "start" : 19,
+                "end" : 39
+            },
+    ]
+})

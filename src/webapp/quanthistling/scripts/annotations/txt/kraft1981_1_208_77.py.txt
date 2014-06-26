@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "20. dzop dzop (gὺda) mə̀y(i)",
+    "startpage" : 208,
+    "pos_on_page" : 77,
+    "language_bookname" : "Seya",
+    "concept" : "THIRTY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzop dzop gὺda mə̀yi",
+                "start" : 4,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 4,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 4,
+                "end" : 29
+            },
+    ]
+})

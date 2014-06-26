@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "409. ɓutùŋ (ˀùrìy)",
+    "startpage" : 227,
+    "pos_on_page" : 17,
+    "language_bookname" : "Dwot",
+    "concept" : "WAIT_FOR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɓutùŋ",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dwot",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dot",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˀùrìy",
+                "start" : 13,
+                "end" : 20
+            },
+    ]
+})

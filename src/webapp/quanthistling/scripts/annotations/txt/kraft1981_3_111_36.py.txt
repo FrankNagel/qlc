@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "69. ar̃vè (r̃uvè)",
+    "startpage" : 111,
+    "pos_on_page" : 36,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "HEART",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ar̃vè",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 4,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 4,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "r̃uvè",
+                "start" : 12,
+                "end" : 18
+            },
+    ]
+})

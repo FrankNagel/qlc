@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "204. gyə̂m (ƚυ)",
+    "startpage" : 210,
+    "pos_on_page" : 15,
+    "language_bookname" : "Seya",
+    "concept" : "WING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gyə̂m",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ƚυ",
+                "start" : 12,
+                "end" : 14
+            },
+    ]
+})

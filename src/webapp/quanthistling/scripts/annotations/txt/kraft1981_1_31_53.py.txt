@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "334. pèrùkùpuus (pus)kàn siɣin",
+    "startpage" : 31,
+    "pos_on_page" : 53,
+    "language_bookname" : "Sura",
+    "concept" : "WEST",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pèrùkùpuus",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Sura",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "sur",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "puskàn siɣin",
+                "start" : 19,
+                "end" : 34
+            },
+    ]
+})

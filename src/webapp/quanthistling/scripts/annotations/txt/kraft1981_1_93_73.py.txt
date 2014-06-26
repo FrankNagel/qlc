@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "19. bìbòlè (ki) bàt",
+    "startpage" : 93,
+    "pos_on_page" : 73,
+    "language_bookname" : "Ngamo",
+    "concept" : "TWENTY_FIVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bìbòlè ki bàt",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngamo",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nbh",
+                "start" : 4,
+                "end" : 23
+            },
+    ]
+})

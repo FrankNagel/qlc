@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "383. yā tūɓḕ (tufāfī̀)",
+    "startpage" : 11,
+    "pos_on_page" : 12,
+    "language_bookname" : "Hausa",
+    "concept" : "UNDRESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yā tūɓḕ",
+                "start" : 5,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tufāfī̀",
+                "start" : 18,
+                "end" : 27
+            },
+    ]
+})

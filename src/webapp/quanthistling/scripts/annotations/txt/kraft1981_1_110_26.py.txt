@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "107. pwεlì (big) jàkəzəɣə̀(sm.)",
+    "startpage" : 110,
+    "pos_on_page" : 26,
+    "language_bookname" : "Pero",
+    "concept" : "LAKE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pwεlì",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pwεlì",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 33
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "72. giyɛngəy (pl) ulɛy gìyὲngəy (s.)",
+    "startpage" : 66,
+    "pos_on_page" : 48,
+    "language_bookname" : "Bacama",
+    "concept" : "RIBS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "giyɛngəy",
+                "start" : 4,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bacama",
+                "start" : 4,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bcy",
+                "start" : 4,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ulɛy gìyὲngəy",
+                "start" : 18,
+                "end" : 33
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "84. zar (sg) zarsὺ(pl)",
+    "startpage" : 209,
+    "pos_on_page" : 13,
+    "language_bookname" : "Seya",
+    "concept" : "MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zar",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zarsὺ",
+                "start" : 13,
+                "end" : 19
+            },
+    ]
+})

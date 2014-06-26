@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "29. nus (gìn)",
+    "startpage" : 222,
+    "pos_on_page" : 34,
+    "language_bookname" : "Dwot",
+    "concept" : "MOTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nus",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dwot",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dot",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gìn",
+                "start" : 9,
+                "end" : 13
+            },
+    ]
+})

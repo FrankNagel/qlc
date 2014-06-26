@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "296. (ˀà) ki̵si̵n (dà)",
+    "startpage" : 211,
+    "pos_on_page" : 63,
+    "language_bookname" : "Seya",
+    "concept" : "OLD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˀà ki̵si̵n dà",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Seya",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "say",
+                "start" : 5,
+                "end" : 24
+            },
+    ]
+})

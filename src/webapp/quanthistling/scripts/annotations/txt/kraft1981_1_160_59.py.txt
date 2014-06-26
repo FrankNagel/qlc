@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "215. nyɩn(i) (ƚà)",
+    "startpage" : 160,
+    "pos_on_page" : 59,
+    "language_bookname" : "Dira",
+    "concept" : "MILK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nyɩni",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ƚà",
+                "start" : 14,
+                "end" : 17
+            },
+    ]
+})

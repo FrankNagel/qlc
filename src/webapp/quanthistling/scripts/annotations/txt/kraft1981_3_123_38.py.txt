@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "30. zì̵rà (sg) zàraxànà (pl)",
+    "startpage" : 123,
+    "pos_on_page" : 38,
+    "language_bookname" : "Gava",
+    "concept" : "SON",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zì̵rà",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zàraxànà",
+                "start" : 17,
+                "end" : 28
+            },
+    ]
+})

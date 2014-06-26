@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "90. malxà (tsìnì̵gwàsxa)",
+    "startpage" : 112,
+    "pos_on_page" : 37,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "OLD_WOMAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "malxà",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 4,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 4,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tsìnì̵gwàsxa",
+                "start" : 12,
+                "end" : 27
+            },
+    ]
+})

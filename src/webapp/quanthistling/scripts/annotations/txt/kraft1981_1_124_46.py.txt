@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "352. làgùm gò (lakè)",
+    "startpage" : 124,
+    "pos_on_page" : 46,
+    "language_bookname" : "Tangale",
+    "concept" : "TASTE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "làgùm gò",
+                "start" : 5,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "lakè",
+                "start" : 18,
+                "end" : 23
+            },
+    ]
+})

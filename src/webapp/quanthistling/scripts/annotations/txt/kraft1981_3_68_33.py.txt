@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "169. yɩməy (m) yɩmto (f)",
+    "startpage" : 68,
+    "pos_on_page" : 33,
+    "language_bookname" : "Bacama",
+    "concept" : "RAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yɩməy",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bacama",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bcy",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yɩmto",
+                "start" : 15,
+                "end" : 20
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "76. mar̃ (và)",
+    "startpage" : 145,
+    "pos_on_page" : 64,
+    "language_bookname" : "Matakam",
+    "concept" : "VEIN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mar̃",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Matakam",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "maf",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "và",
+                "start" : 10,
+                "end" : 13
+            },
+    ]
+})

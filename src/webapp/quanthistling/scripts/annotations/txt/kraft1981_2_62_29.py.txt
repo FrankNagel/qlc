@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "8. ntsisù (cncisuʔ)",
+    "startpage" : 62,
+    "pos_on_page" : 29,
+    "language_bookname" : "Cibak",
+    "concept" : "EIGHT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ntsisù",
+                "start" : 3,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Cibak",
+                "start" : 3,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ckl",
+                "start" : 3,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "cncisuʔ",
+                "start" : 12,
+                "end" : 19
+            },
+    ]
+})

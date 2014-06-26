@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "316. wɔsεžɩri (u)ware",
+    "startpage" : 164,
+    "pos_on_page" : 64,
+    "language_bookname" : "Higi Ghye",
+    "concept" : "WHAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wɔsεžɩri",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Ghye",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hya",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "uware",
+                "start" : 15,
+                "end" : 22
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "86. zì̵rà (sg) zàràmbisənə̀ (pl)",
+    "startpage" : 124,
+    "pos_on_page" : 21,
+    "language_bookname" : "Gava",
+    "concept" : "BOY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zì̵rà",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zàràmbisənə̀",
+                "start" : 17,
+                "end" : 31
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "382. yā sā̂ (tufāfī̀)",
+    "startpage" : 11,
+    "pos_on_page" : 8,
+    "language_bookname" : "Hausa",
+    "concept" : "DRESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yā sā̂",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tufāfī̀",
+                "start" : 15,
+                "end" : 24
+            },
+    ]
+})

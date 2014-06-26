@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "351. nakɔ̀ (žɩkì)",
+    "startpage" : 113,
+    "pos_on_page" : 42,
+    "language_bookname" : "Pero",
+    "concept" : "TOUCH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nakɔ̀",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "žɩkì",
+                "start" : 12,
+                "end" : 18
+            },
+    ]
+})

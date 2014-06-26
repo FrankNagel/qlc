@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "246. ɣə̀ykśkśà/ɣàyà ɣàyəxà (pl)",
+    "startpage" : 126,
+    "pos_on_page" : 21,
+    "language_bookname" : "Gava",
+    "concept" : "LANGUAGE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣə̀ykśkśà",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣàyà",
+                "start" : 18,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 18,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 18,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣàyəxà",
+                "start" : 25,
+                "end" : 33
+            },
+    ]
+})

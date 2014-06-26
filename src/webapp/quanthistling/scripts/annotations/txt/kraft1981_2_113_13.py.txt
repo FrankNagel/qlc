@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "84. sal (=male)",
+    "startpage" : 113,
+    "pos_on_page" : 13,
+    "language_bookname" : "Wamdiu",
+    "concept" : "MAN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sal",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 4,
+                "end" : 15
+            },
+    ]
+})

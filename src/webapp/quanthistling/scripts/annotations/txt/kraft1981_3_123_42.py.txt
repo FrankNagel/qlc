@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "31. dùɣwà (sg) dùɣàwuxànà (pl)",
+    "startpage" : 123,
+    "pos_on_page" : 42,
+    "language_bookname" : "Gava",
+    "concept" : "DAUGHTER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dùɣwà",
+                "start" : 4,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dùɣàwuxànà",
+                "start" : 17,
+                "end" : 31
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "345. pòɗòwu (sun fita)",
+    "startpage" : 135,
+    "pos_on_page" : 18,
+    "language_bookname" : "Dera",
+    "concept" : "GO_OUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pòɗòwu",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "sun fita",
+                "start" : 15,
+                "end" : 23
+            },
+    ]
+})

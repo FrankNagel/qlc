@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "415. kuɗùrì (tr) kuddì (int)",
+    "startpage" : 117,
+    "pos_on_page" : 29,
+    "language_bookname" : "Wamdiu",
+    "concept" : "FINISH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuɗùrì",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 5,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kuddì",
+                "start" : 19,
+                "end" : 25
+            },
+    ]
+})

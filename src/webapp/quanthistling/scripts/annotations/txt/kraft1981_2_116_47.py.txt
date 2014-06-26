@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "372. ʔùʔùfu (tr) xwɔxwà (int)",
+    "startpage" : 116,
+    "pos_on_page" : 47,
+    "language_bookname" : "Wamdiu",
+    "concept" : "BOIL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔùʔùfu",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 5,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 5,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xwɔxwà",
+                "start" : 19,
+                "end" : 26
+            },
+    ]
+})

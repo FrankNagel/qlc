@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "394. tìkè (trans) tìkèni (intr)",
+    "startpage" : 135,
+    "pos_on_page" : 56,
+    "language_bookname" : "Dera",
+    "concept" : "DIVIDE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tìkè",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tìkèni",
+                "start" : 20,
+                "end" : 28
+            },
+    ]
+})

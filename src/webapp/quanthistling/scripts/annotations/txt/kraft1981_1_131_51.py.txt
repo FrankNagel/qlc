@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "53. arìk (sg.) armù (pl.)",
+    "startpage" : 131,
+    "pos_on_page" : 51,
+    "language_bookname" : "Dera",
+    "concept" : "ARM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "arìk",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "armù",
+                "start" : 16,
+                "end" : 21
+            },
+    ]
+})

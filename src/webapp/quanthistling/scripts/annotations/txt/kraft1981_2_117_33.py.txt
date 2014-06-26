@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "417. nyεnì (tr) nyɩrì (int)",
+    "startpage" : 117,
+    "pos_on_page" : 33,
+    "language_bookname" : "Wamdiu",
+    "concept" : "FILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nyεnì",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wamdiu",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfm",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nyɩrì",
+                "start" : 17,
+                "end" : 23
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. ʔugyê (m) ʔugyɩ̀rùmùksè",
+    "startpage" : 86,
+    "pos_on_page" : 54,
+    "language_bookname" : "Mandara",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔugyê",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mandara",
+                "start" : 4,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfi",
+                "start" : 4,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔugyɩ̀rùmùksè",
+                "start" : 15,
+                "end" : 31
+            },
+    ]
+})

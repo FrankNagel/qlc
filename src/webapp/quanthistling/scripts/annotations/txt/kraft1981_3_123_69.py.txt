@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "18. kwul(o)mitsà (à)r̃uf kùfə̀ɗà",
+    "startpage" : 123,
+    "pos_on_page" : 69,
+    "language_bookname" : "Gava",
+    "concept" : "TWENTY_FOUR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kwulomitsà àr̃uf kùfə̀ɗà",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 36
+            },
+    ]
+})

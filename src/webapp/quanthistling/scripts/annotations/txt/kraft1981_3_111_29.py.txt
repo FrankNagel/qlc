@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "8. təɣə̀še (təxəse)",
+    "startpage" : 111,
+    "pos_on_page" : 29,
+    "language_bookname" : "Zə̀ɣvana",
+    "concept" : "EIGHT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "təɣə̀še",
+                "start" : 3,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Zə̀ɣvana",
+                "start" : 3,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dgh",
+                "start" : 3,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "təxəse",
+                "start" : 13,
+                "end" : 19
+            },
+    ]
+})

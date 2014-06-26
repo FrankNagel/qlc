@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "358. šaɗù (imp) žaɗuɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 70,
+    "language_bookname" : "Pero",
+    "concept" : "LIFT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šaɗù",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "žaɗuɣɔ̀",
+                "start" : 18,
+                "end" : 26
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "346. xwi (yəti̵rà)",
+    "startpage" : 66,
+    "pos_on_page" : 22,
+    "language_bookname" : "Cibak",
+    "concept" : "RUN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "xwi",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Cibak",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ckl",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yəti̵rà",
+                "start" : 10,
+                "end" : 18
+            },
+    ]
+})

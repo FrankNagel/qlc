@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. kaka (f) gìgi (m)",
+    "startpage" : 196,
+    "pos_on_page" : 54,
+    "language_bookname" : "Buli",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kaka",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Buli",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "plj",
+                "start" : 4,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gìgi",
+                "start" : 13,
+                "end" : 18
+            },
+    ]
+})

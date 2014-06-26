@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "184. jə̀ŋgər (bura)",
+    "startpage" : 45,
+    "pos_on_page" : 14,
+    "language_bookname" : "Boka",
+    "concept" : "LOUSE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jə̀ŋgər",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Boka",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bvw",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bura",
+                "start" : 14,
+                "end" : 18
+            },
+    ]
+})

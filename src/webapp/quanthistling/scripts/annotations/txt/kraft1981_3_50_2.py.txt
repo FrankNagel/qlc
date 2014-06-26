@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "341. hi̵ci (m)i̵dzi̵ŋùn",
+    "startpage" : 50,
+    "pos_on_page" : 2,
+    "language_bookname" : "Njanye",
+    "concept" : "GO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hi̵ci mi̵dzi̵ŋùn",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Njanye",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nja",
+                "start" : 5,
+                "end" : 24
+            },
+    ]
+})

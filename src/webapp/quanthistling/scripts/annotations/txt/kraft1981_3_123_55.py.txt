@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "54. zi̵r dì̵và (sg) zar dì̵và/di̵vaxà (pl)",
+    "startpage" : 123,
+    "pos_on_page" : 55,
+    "language_bookname" : "Gava",
+    "concept" : "FINGER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zi̵r dì̵và",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 34,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 34,
+                "end" : 47
+            },
+    ]
+})

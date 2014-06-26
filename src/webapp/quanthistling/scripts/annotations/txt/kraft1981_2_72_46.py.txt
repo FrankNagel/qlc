@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "32. mzuràmə (ɗa) yὲya",
+    "startpage" : 72,
+    "pos_on_page" : 46,
+    "language_bookname" : "West Margi",
+    "concept" : "BROTHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mzuràmə ɗa yὲya",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "West Margi",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "mfl",
+                "start" : 4,
+                "end" : 23
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "366. kawù (imp) ɣawɣɔ̀",
+    "startpage" : 113,
+    "pos_on_page" : 23,
+    "language_bookname" : "Pero",
+    "concept" : "GATHER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kawù",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pero",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "pip",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣawɣɔ̀",
+                "start" : 17,
+                "end" : 23
+            },
+    ]
+})

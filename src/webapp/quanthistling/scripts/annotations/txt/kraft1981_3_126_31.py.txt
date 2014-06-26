@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "288. ɣəɗyɣəɗyà ti̵ɗimumà/*ɣunyəɣunyà",
+    "startpage" : 126,
+    "pos_on_page" : 31,
+    "language_bookname" : "Gava",
+    "concept" : "SWEETNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣəɗyɣəɗyà",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ti̵ɗimumà",
+                "start" : 16,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 27,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 27,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɣunyəɣunyà",
+                "start" : 28,
+                "end" : 39
+            },
+    ]
+})

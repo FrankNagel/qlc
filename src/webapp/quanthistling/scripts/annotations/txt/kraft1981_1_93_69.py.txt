@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "18. bìbòlè (ki) hɔ̀ɗò",
+    "startpage" : 93,
+    "pos_on_page" : 69,
+    "language_bookname" : "Ngamo",
+    "concept" : "TWENTY_FOUR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bìbòlè ki hɔ̀ɗò",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngamo",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nbh",
+                "start" : 4,
+                "end" : 25
+            },
+    ]
+})

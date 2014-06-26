@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "420.** also ƚapì̵ɣànt ƚapυgà* dzɩ̀bὺɣant dzɩbυgà",
+    "startpage" : 103,
+    "pos_on_page" : 6,
+    "language_bookname" : "Gələvda",
+    "concept" : "SEW",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 4,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 4,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ƚapì̵ɣànt",
+                "start" : 12,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ƚapυgà",
+                "start" : 24,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzɩ̀bὺɣant",
+                "start" : 33,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dzɩbυgà",
+                "start" : 45,
+                "end" : 53
+            },
+    ]
+})

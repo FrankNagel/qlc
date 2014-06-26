@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "344. gəmò (mun shiga)",
+    "startpage" : 135,
+    "pos_on_page" : 14,
+    "language_bookname" : "Dera",
+    "concept" : "GO_IN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gəmò",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mun shiga",
+                "start" : 12,
+                "end" : 21
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. gí (f) ǰíǰí (m)",
+    "startpage" : 76,
+    "pos_on_page" : 54,
+    "language_bookname" : "Gudu",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gí",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gudu",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdu",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ǰíǰí",
+                "start" : 12,
+                "end" : 20
+            },
+    ]
+})

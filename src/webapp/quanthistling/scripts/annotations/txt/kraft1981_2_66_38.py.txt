@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "350. ƚesu (rarì)",
+    "startpage" : 66,
+    "pos_on_page" : 38,
+    "language_bookname" : "Cibak",
+    "concept" : "SMELL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ƚesu",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Cibak",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ckl",
+                "start" : 5,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "rarì",
+                "start" : 11,
+                "end" : 16
+            },
+    ]
+})

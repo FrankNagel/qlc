@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "357. tor̃(u)gò ɗakò (person)",
+    "startpage" : 124,
+    "pos_on_page" : 66,
+    "language_bookname" : "Tangale",
+    "concept" : "PUSH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tor̃ugò ɗakò",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 5,
+                "end" : 30
+            },
+    ]
+})

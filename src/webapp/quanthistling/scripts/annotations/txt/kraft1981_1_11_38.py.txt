@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "350. yā ji (wārī)",
+    "startpage" : 11,
+    "pos_on_page" : 38,
+    "language_bookname" : "Hausa",
+    "concept" : "SMELL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yā ji",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wārī",
+                "start" : 13,
+                "end" : 19
+            },
+    ]
+})

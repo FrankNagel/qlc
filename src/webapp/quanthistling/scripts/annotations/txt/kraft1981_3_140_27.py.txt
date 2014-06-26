@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "414. barbìga (farfiga)",
+    "startpage" : 140,
+    "pos_on_page" : 27,
+    "language_bookname" : "Nakatsa",
+    "concept" : "INCREASE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "barbìga",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nakatsa",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "cie",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "farfiga",
+                "start" : 15,
+                "end" : 22
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "12. šəm (g)bara",
+    "startpage" : 246,
+    "pos_on_page" : 45,
+    "language_bookname" : "Yingilum",
+    "concept" : "TWELVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šəm gbara",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Yingilum",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "fll",
+                "start" : 4,
+                "end" : 16
+            },
+    ]
+})

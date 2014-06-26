@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "141. ambugùwat ambugùwàrìŋgin (pl)",
+    "startpage" : 132,
+    "pos_on_page" : 4,
+    "language_bookname" : "Dera",
+    "concept" : "STONE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ambugùwat",
+                "start" : 5,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ambugùwàrìŋgin",
+                "start" : 16,
+                "end" : 33
+            },
+    ]
+})

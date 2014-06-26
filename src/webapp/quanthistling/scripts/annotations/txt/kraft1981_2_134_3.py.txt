@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "281. (də̀)d(y)è (də̀)bwà",
+    "startpage" : 134,
+    "pos_on_page" : 3,
+    "language_bookname" : "Higi Nkafa",
+    "concept" : "LARGE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "də̀dyè",
+                "start" : 5,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Nkafa",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "də̀bwà",
+                "start" : 17,
+                "end" : 26
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "34. jir (m) kaka (f)",
+    "startpage" : 235,
+    "pos_on_page" : 54,
+    "language_bookname" : "Pəlci",
+    "concept" : "GRANDPARENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "jir",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pəlci",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "plj",
+                "start" : 4,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kaka",
+                "start" : 12,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "40. ɬimà (sg) ɬimaxà (pl)",
+    "startpage" : 123,
+    "pos_on_page" : 78,
+    "language_bookname" : "Gava",
+    "concept" : "EAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ɬimà",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 27
+            },
+    ]
+})

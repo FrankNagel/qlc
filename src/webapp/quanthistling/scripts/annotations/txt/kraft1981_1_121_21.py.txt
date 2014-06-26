@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "86. làw (mèmê)",
+    "startpage" : 121,
+    "pos_on_page" : 21,
+    "language_bookname" : "Tangale",
+    "concept" : "BOY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "làw",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Tangale",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "tan",
+                "start" : 4,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mèmê",
+                "start" : 10,
+                "end" : 16
+            },
+    ]
+})

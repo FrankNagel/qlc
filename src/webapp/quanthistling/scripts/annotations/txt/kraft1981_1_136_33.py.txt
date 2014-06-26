@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "417. gùm (trans) gùmèni (intr)",
+    "startpage" : 136,
+    "pos_on_page" : 33,
+    "language_bookname" : "Dera",
+    "concept" : "FILL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gùm",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gùmèni",
+                "start" : 18,
+                "end" : 26
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "342. šíl--- etc.",
+    "startpage" : 96,
+    "pos_on_page" : 6,
+    "language_bookname" : "Kilba",
+    "concept" : "COME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šíl",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kilba",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hbb",
+                "start" : 5,
+                "end" : 18
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "385. tùke (trans) tùkòno (intr)",
+    "startpage" : 135,
+    "pos_on_page" : 20,
+    "language_bookname" : "Dera",
+    "concept" : "HIDE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tùke",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tùkòno",
+                "start" : 19,
+                "end" : 27
+            },
+    ]
+})

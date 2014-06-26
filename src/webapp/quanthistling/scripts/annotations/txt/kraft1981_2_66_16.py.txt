@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "384. mumuti (ɗi̵) ɗi̵mxi",
+    "startpage" : 66,
+    "pos_on_page" : 16,
+    "language_bookname" : "Cibak",
+    "concept" : "ARRANGE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mumuti ɗi̵ ɗi̵mxi",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Cibak",
+                "start" : 5,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ckl",
+                "start" : 5,
+                "end" : 24
+            },
+    ]
+})

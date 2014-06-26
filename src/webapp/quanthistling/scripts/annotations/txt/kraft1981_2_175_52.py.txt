@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "393. ti̵xuvù (ti̵)ti̵xuvù",
+    "startpage" : 175,
+    "pos_on_page" : 52,
+    "language_bookname" : "Higi Futu",
+    "concept" : "LEARN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ti̵xuvù",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Futu",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ti̵ti̵xuvù",
+                "start" : 14,
+                "end" : 27
+            },
+    ]
+})

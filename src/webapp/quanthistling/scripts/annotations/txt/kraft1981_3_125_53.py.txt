@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "174. kùlkwa (yiwà)",
+    "startpage" : 125,
+    "pos_on_page" : 53,
+    "language_bookname" : "Gava",
+    "concept" : "TURTLE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kùlkwa",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yiwà",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})

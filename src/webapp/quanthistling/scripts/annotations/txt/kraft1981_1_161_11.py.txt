@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "283. wə̀mtî (tulì)",
+    "startpage" : 161,
+    "pos_on_page" : 11,
+    "language_bookname" : "Dira",
+    "concept" : "MANY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wə̀mtî",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dira",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "dwa",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tulì",
+                "start" : 14,
+                "end" : 19
+            },
+    ]
+})

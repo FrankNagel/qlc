@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "92. vuɓà (sg) vuɓaxà (pl)",
+    "startpage" : 124,
+    "pos_on_page" : 45,
+    "language_bookname" : "Gava",
+    "concept" : "SLAVE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vuɓà",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gava",
+                "start" : 4,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gdf",
+                "start" : 4,
+                "end" : 27
+            },
+    ]
+})
