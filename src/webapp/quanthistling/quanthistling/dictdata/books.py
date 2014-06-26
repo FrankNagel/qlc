@@ -1834,7 +1834,7 @@ list = [
         ]
     },
     {
-        'title' : u'DICIONÁRIO da LÍNGUA SÁLIBA',
+        'title' : u'VOCABULARIO Sáliba-Español Español-Sáliba',
         'author' : u'Benaissa, Taik',
         'year' : 1991,
         'bibtex_key' : u'benaissa1991',
@@ -1845,31 +1845,18 @@ list = [
         'dictdata' : [
             {
                 'startpage' : 3,
-                'endpage' : 97,
+                'endpage' : 45,
                 'src_language_name' : u'Sáliba',
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Sáliba',
                 'tgt_language_bookname' : u'Spanish',
                 're_letter_only': r'^\w\s*$',
-                'file' : 'other/benaissa1991_dictdata_3_97.xml',
+                'file' : 'other/benaissa1991_dictdata_3_45.xml',
                 'component' : 'Other'
             },
         ],
         'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 2,
-                'title': u'Start pages',
-                'file' : 'other/benaissa1991_nondictdata_0_2.html',
-                'component' : 'Other'
-            },
-        {
-                'startpage' : 97,
-                'endpage' : 98,
-                'title': u'Dos Ejemplos de la Concordancia del Adjetivo Posesivo y el Sustantivo en Sáliba',
-                'file' : 'other/benaissa1991_nondictdata_97_98.html',
-                'component' : 'Other'
-            },
+
         ]
     },
     {

@@ -390,7 +390,7 @@ list = [
         'name' : u'Sáliba',
         'langcode': u'slc',
         'description' : u'',
-        'url' : u'http://www.ethnologue.com/show_language.asp?code=slc'
+        'url' : u'http://www.ethnologue.com/language/slc'
     },
 
     {
