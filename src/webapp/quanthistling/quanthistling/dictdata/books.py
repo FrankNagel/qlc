@@ -20,7 +20,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': u'^<b>(?:\w\w?|Ñ)</b>\s*$',
                 'file' : 'witotoan/thiesen1998_dictdata_25_339.xml',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -36,7 +36,7 @@ list = [
                 'endpage' : 356,
                 'title': u'Apendices',
                 'file' : 'witotoan/thiesen1998_nondictdata_340_365.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ]
     },
@@ -47,8 +47,8 @@ list = [
         'bibtex_key' : u'minor1987',
         'pages' : 317,
         'columns' : 2,
-    'is_ready' : True,
-    'type' : 'dictionary',
+        'is_ready' : True,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 1,
@@ -59,7 +59,7 @@ list = [
                 'tgt_language_bookname' : u'Español',
                 're_letter_only': u'^<b>\w\w?</b>\s*$',
                 'file' : 'witotoan/minor1987_dictdata_1_126.xml',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -68,7 +68,7 @@ list = [
                 'endpage' : 317,
                 'title': u'Apendices',
                 'file' : 'witotoan/minor1987_nondictdata_307_317.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ]
     },
@@ -79,8 +79,8 @@ list = [
         'bibtex_key' : u'minor1971',
         'pages' : 141,
         'columns' : 2,
-    'is_ready' : True,
-    'type' : 'dictionary',
+        'is_ready' : True,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 3,
@@ -91,7 +91,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^\w\s*$',
                 'file' : 'witotoan/minor1971_dictdata_3_74.xml',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -100,14 +100,14 @@ list = [
                 'endpage' : 2,
                 'title': u'Start pages',
                 'file' : 'witotoan/minor1971_nondictdata_1_2.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
             {
                 'startpage' : 133,
                 'endpage' : 143,
                 'title': u'Apendices',
                 'file' : 'witotoan/minor1971_nondictdata_133_143.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ]
     },
@@ -130,7 +130,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^\w\w?\s*$',
                 'file' : 'witotoan/burtch1983_dictdata_19_262.xml',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -162,7 +162,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^(&#x009;)*\w\w?\s*$',
                 'file' : 'witotoan/leach1969_dictdata_67_161.xml',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ],
         'nondictdata' : [
@@ -171,14 +171,14 @@ list = [
                 'endpage' : 2,
                 'title': u'Start pages',
                 'file' : 'witotoan/leach1969_nondictdata_1_2.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
             {
                 'startpage' : 162,
                 'endpage' : 176,
                 'title': u'Apendices',
                 'file' : 'witotoan/leach1969_nondictdata_162_176.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
             },
         ]
     },
@@ -237,7 +237,70 @@ list = [
                 'endpage' : 795,
                 'title': u'Presentación',
                 'file' : 'witotoan/preuss1994_nondictdata_791_795.html',
-        'component' : 'Witotoan'
+                'component' : 'Witotoan'
+            },
+        ]
+    },
+    {
+        'title' : u'Les Nonuya et Les Okáina',
+        'author' : u'Rivet, Paul & Wavrin, Robert de',
+        'year' : 1953,
+        'bibtex_key' : u'rivet1953',
+        'pages' : 57,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 336,
+                'endpage' : 377,
+                'src_language_name' : u'French',
+                'tgt_language_name' : [ u'Nonuya', u'Ocaina', u'Huitoto Murui' ],
+                'src_language_bookname' : u'Français',
+                'tgt_language_bookname' : [ u'Nonuya', u'Okáina', u'Witóto' ],
+                're_letter_only': u'^\w+\s*$',
+                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
+                'component' : 'Witotoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 333,
+                'endpage' : 336,
+                'title': u'Appendices',
+                'file' : 'witotoan/rivet1953_nondictdata_333_336.htm',
+                'component' : 'Witotoan'
+            },
+        ]
+    },
+    {
+        'title' : u'Un Léxico Ni̵pode Uitoto - Español - Inglés',
+        'author' : u'Griffiths, Thomas, Coleman, John, Morales, Misael',
+        'year' : 2001,
+        'bibtex_key' : u'griffiths2001',
+        'pages' : 199,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 79,
+                'endpage' : 199,
+                'src_language_name' : u'Huitoto Nüpode',
+                'tgt_language_name' : [ u'Spanish', u'English' ],
+                'src_language_bookname' : u'Ni̵pode Uitoto',
+                'tgt_language_bookname' : [ u'Español', u'Inglés' ],
+                'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
+                'component' : 'Witotoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 79,
+                'title': u'Start pages',
+                'file' : 'witotoan/griffiths2001_nondictdata_1_79.htm',
+                'component' : 'Witotoan'
             },
         ]
     },
@@ -250,8 +313,8 @@ list = [
         'bibtex_key' : u'fastmowitz2008',
         'pages' : 517,
         'columns' : 2,
-    'is_ready' : False,
-    'type' : 'dictionary',
+        'is_ready' : False,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 85,
@@ -262,7 +325,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w</b>\s*$',
                 'file' : 'jivaroan/fastmowitz2008_dictdata_85_344.xml',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 347,
@@ -273,7 +336,7 @@ list = [
                 'tgt_language_bookname' : u'Achuar-Shiwiar',
                 're_letter_only': r'^<b>\w</b>\s*$',
                 'file' : 'jivaroan/fastmowitz2008_dictdata_347_517.xml',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
         ],
         'nondictdata' : [
@@ -282,7 +345,7 @@ list = [
                 'endpage' : 84,
                 'title': u'Start pages',
                 'file' : 'jivaroan/fastmowitz2008_nondictdata_1_84.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
         ]
     },
@@ -294,8 +357,8 @@ list = [
         'bibtex_key' : u'larson1966',
         'pages' : 211,
         'columns' : 2,
-    'is_ready' : False,
-    'type' : 'dictionary',
+        'is_ready' : False,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 1,
@@ -306,7 +369,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
                 'file' : 'jivaroan/larson1966_dictdata_1_90.xml',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 107,
@@ -317,7 +380,7 @@ list = [
                 'tgt_language_bookname' : u'Aguaruna',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
                 'file' : 'jivaroan/larson1966_dictdata_107_199.xml',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
         ],
         'nondictdata' : [
@@ -326,21 +389,21 @@ list = [
                 'endpage' : 0,
                 'title': u'Start pages',
                 'file' : 'jivaroan/larson1966_nondictdata_i_iv.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 91,
                 'endpage' : 105,
                 'title': u'Apendices',
                 'file' : 'jivaroan/larson1966_nondictdata_91_105.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 201,
                 'endpage' : 211,
                 'title': u'Apendices',
                 'file' : 'jivaroan/larson1966_nondictdata_201_211.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
         ]
     },
@@ -352,8 +415,8 @@ list = [
         'bibtex_key' : u'jakway2008',
         'pages' : 226,
         'columns' : 2,
-    'is_ready' : False,
-    'type' : 'dictionary',
+        'is_ready' : False,
+        'type' : 'dictionary',
         'dictdata' : [
             {
                 'startpage' : 15,
@@ -364,7 +427,7 @@ list = [
                 'tgt_language_bookname' : u'Castellano',
                 're_letter_only': r'^<b>\w\w?</b>\s*$',
                 'file' : 'jivaroan/jakway2008_dictdata_15_125.xml',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 129,
@@ -475,23 +538,101 @@ list = [
                 'endpage' : 17,
                 'title': u'Start pages',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_1_17.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 151,
                 'endpage' : 157,
                 'title': u'Apendices',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_151_157.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
             },
             {
                 'startpage' : 293,
                 'endpage' : 296,
                 'title': u'Apendices',
                 'file' : 'jivaroan/wipiodeicat1996_nondictdata_293_296.html',
-        'component' : 'Jivaroan'
+                'component' : 'Jivaroan'
         },
         ]
+    },
+    {
+        'title' : u'Glosario Aguaruna-Castellano',
+        'author' : u'Mori, Angel Corbera',
+        'year' : 1981,
+        'bibtex_key' : u'mori1981',
+        'pages' : 79,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 78,
+                'src_language_name' : u'Aguaruna',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Aguaruna',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'jivaroan/mori1981_dictdata_1_78.xml',
+                'component' : 'Jivaroan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'jivaroan/mori1981_nondictdata_0_0.htm',
+                'component' : 'Jivaroan'
+            },
+            {
+                'startpage' : 79,
+                'endpage' : 79,
+                'title': u'Last page',
+                'file' : 'jivaroan/mori1981_nondictdata_79.htm',
+                'component' : 'Jivaroan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'DICCIONARIO AGUARUNA CASTELLANO',
+        'author' : u'Yagkug, Abel Uwarai, Suikai, Isaac Paz, Regan, Jaime S.J.',
+        'year' : 1998,
+        'bibtex_key' : u'yagkug1998',
+        'pages' : 162,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 8,
+                'endpage' : 158,
+                'src_language_name' : u'Aguaruna',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Aguaruna',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Jivaroan/yagkug1998_dictdata_8_158.xml',
+                'component' : 'Jivaroan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 7,
+                'title': u'Start pages',
+                'file' : 'Jivaroan/yagkug1998_nondictdata_1_7.htm',
+                'component' : 'Jivaroan'
+            },
+            {
+                'startpage' : 160,
+                'endpage' : 162,
+                'title': u'End pages',
+                'file' : 'Jivaroan/yagkug1998_nondictdata_160_162.htm',
+                'component' : 'Jivaroan'
+            },
+        ]
+            
     },
 
 ##################################### Panoan
@@ -543,17 +684,6 @@ list = [
                 'file' : 'panoan/shell1987_dictdata_19_65.xml',
                 'component' : 'Panoan'
             },
-            # {
-            #     'startpage' : 69,
-            #     'endpage' : 105,
-            #     'src_language_name' : u'Spanish',
-            #     'tgt_language_name' : u'Cashibo-Cacataibo',
-            #     'src_language_bookname' : u'Castellano',
-            #     'tgt_language_bookname' : u'Cashibo-Cacataibo',
-            #     're_letter_only': u'^<b>\w+</b>\s*$',
-            #     'file' : 'panoan/shell1987_dictdata_69_105.xml',
-            #     'component' : 'Panoan'
-            # },
         ],
         'nondictdata' : [
             {
@@ -777,6 +907,253 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'A Língua Dos Índios Yawanawá Do Acre',
+        'author' : u'Paula, Aldir Santos de',
+        'year' : 2004,
+        'bibtex_key' : u'paula2004',
+        'pages' : 302,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 242,
+                'endpage' : 266,
+                'src_language_name' : u'Yawanawa',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Yawanawá',
+                'tgt_language_bookname' : u'Português',
+                'file' : 'panoan/paula2004_dictdata_242_266.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 241,
+                'endpage' : 242,
+                'title': u'Appendices',
+                'file' : 'panoan/paula2004_nondictdata_241_242.htm',
+                'component' : 'Panoan'
+            },
+        ]
+    },
+    {
+        'title' : u'Datos del idioma huariapano',
+        'author' : u'Parker, Stephen',
+        'year' : 1992,
+        'bibtex_key' : u'parker1992',
+        'pages' : 54,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 7,
+                'endpage' : 28,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Panobo',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Huariapano',
+                're_letter_only': u'^\w+\s*$',
+                'file' : 'panoan/parker1992_dictdata_7_28.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 7,
+                'title': u'Start pages',
+                'file' : 'panoan/parker1992_nondictdata_1_7.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 29,
+                'endpage' : 48,
+                'title': u'Example sentences',
+                'file' : 'panoan/parker1992_nondictdata_29_48.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 50,
+                'endpage' : 53,
+                'title': u'Texts',
+                'file' : 'panoan/parker1992_nondictdata_50_53.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 54,
+                'endpage' : 54,
+                'title': u'Table of contents',
+                'file' : 'panoan/parker1992_nondictdata_54.htm',
+                'component' : 'Panoan'
+            },
+        ]            
+    },
+    {
+        'title' : u'ESTUDO LEXICAL DA LÍNGUA MATIS SUBSÍDIOS PARA UM DICIONÁRIO BILÍNGÜE',
+        'author' : u'Ferreira, Vitória Regina Spanghero',
+        'year' : 2005,
+        'bibtex_key' : u'ferreira2005',
+        'pages' : 211,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 115,
+                'endpage' : 193,
+                'src_language_name' : u'Matís',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Matis',
+                'tgt_language_bookname' : u'Português',
+                'file' : 'Panoan/ferreira2005_dictdata_115_193.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'Panoan/ferreira2005_nondictdata_0_0.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 1,
+                'endpage' : 114,
+                'title': u'Language explanatory pages',
+                'file' : 'Panoan/ferreira2005_nondictdata_1_114.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 195,
+                'endpage' : 211,
+                'title': u'End pages',
+                'file' : 'Panoan/ferreira2005_nondictdata_195_211.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'DICCIONARIO CHACOBO-CASTELLANO',
+        'author' : u'Zingg, Philipp',
+        'year' : 1998,
+        'bibtex_key' : u'zingg1998',
+        'pages' : 434,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 45,
+                'endpage' : 310,
+                'src_language_name' : u'Chácobo',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Chacobo',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Panoan/zingg1998_dictdata_45_310.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 44,
+                'title': u'Start pages',
+                'file' : 'Panoan/zingg1998_nondictdata_0_44.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 45,
+                'endpage' : 303,
+                'title': u'Suffixes and prefixes',
+                'file' : 'Panoan/zingg1998_nondictdata_prefixes_suffixes_45_303.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'DICCIONARIO CAPANAHUA-CASTELLANO',
+        'author' : u'Loos, Eugene, Loos, Betty',
+        'year' : 1998,
+        'bibtex_key' : u'loos1998',
+        'pages' : 518,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 63,
+                'endpage' : 403,
+                'src_language_name' : u'Capanahua',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Capanahua',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'Panoan/loos1998_dictdata_63_403.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 62,
+                'title': u'Start pages',
+                'file' : 'Panoan/loos1998_nondictdata_1_62.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 496,
+                'endpage' : 518,
+                'title': u'Appendices',
+                'file' : 'Panoan/loos1998_nondictdata_496_518.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
+    {
+        'title' : u'Materiales para estudios comparativos de la familia pano: Frases y textos del dialecto mastanahua',
+        'author' : u'Loos, Eugene E.',
+        'year' : 2008,
+        'bibtex_key' : u'loos2008',
+        'pages' : 57,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 41,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Sharanahua',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Mastanahua',
+                'file' : 'Panoan/loos2008_dictdata_1_41.xml',
+                'component' : 'Panoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'Panoan/loos2008_nondictdata_0_0.htm',
+                'component' : 'Panoan'
+            },
+            {
+                'startpage' : 42,
+                'endpage' : 57,
+                'title': u'Appendices',
+                'file' : 'Panoan/loos2008_nondictdata_42_57.htm',
+                'component' : 'Panoan'
+            },
+        ]
+            
+    },
 
 ##################################### Zaparoan
 
@@ -925,21 +1302,9 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Carapana',
                 'tgt_language_bookname' : u'Español',
-                #'re_letter_only': u'^<b>\w+|Ã|Ẽ|Ĩ|Ñ|Õ|Ũ|U̶|Ũ̶</b>\s*$',
                 'file' : 'tucanoan/metzger2000_dictdata_11_97.xml',
                 'component' : 'Tucanoan'
             },
-            #{
-            #    'startpage' : 115,
-            #    'endpage' : 137,
-            #    'src_language_name' : u'Spanish',
-            #    'tgt_language_name' : u'Carapana',
-            #    'src_language_bookname' : u'Español',
-            #    'tgt_language_bookname' : u'Carapana',
-            #    're_letter_only': u'^<b>\w+</b>\s*$',
-            #    'file' : 'tucanoan/metzger2000_dictdata_115_137.xml',
-            #    'component' : 'Tucanoan'
-            #},
         ],
         'nondictdata' : [
             {
@@ -971,157 +1336,6 @@ list = [
                 'component' : 'Tucanoan'
             },
         ]
-    },
-    {
-        'title' : u'A Língua Dos Índios Yawanawá Do Acre',
-        'author' : u'Paula, Aldir Santos de',
-        'year' : 2004,
-        'bibtex_key' : u'paula2004',
-        'pages' : 302,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 242,
-                'endpage' : 266,
-                'src_language_name' : u'Yawanawa',
-                'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'Yawanawá',
-                'tgt_language_bookname' : u'Português',
-                #'re_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
-                'file' : 'panoan/paula2004_dictdata_242_266.xml',
-                'component' : 'Panoan'
-            },
-            #{
-            #    'startpage' : 267,
-            #    'endpage' : 288,
-            #    'src_language_name' : u'Yawanawa',
-            #    'tgt_language_name' : u'Portuguese',
-            #    'src_language_bookname' : u'Yawanawá',
-            #    'tgt_language_bookname' : u'Português',
-            #    're_letter_only': u'^\w+|ı̵|ȿ|ʃ|ts|tʃ|ß\s*$',
-            #    'file' : 'panoan/paula2004_dictdata_267_288.xml',
-            #    'component' : 'Panoan'
-            #},
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 241,
-                'endpage' : 242,
-                'title': u'Appendices',
-                'file' : 'panoan/paula2004_nondictdata_241_242.htm',
-                'component' : 'Panoan'
-            },
-        ]
-    },
-    {
-        'title' : u'Les Nonuya et Les Okáina',
-        'author' : u'Rivet, Paul & Wavrin, Robert de',
-        'year' : 1953,
-        'bibtex_key' : u'rivet1953',
-        'pages' : 57,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 336,
-                'endpage' : 377,
-                'src_language_name' : u'French',
-                'tgt_language_name' : [ u'Nonuya', u'Ocaina', u'Huitoto Murui' ],
-                'src_language_bookname' : u'Français',
-                'tgt_language_bookname' : [ u'Nonuya', u'Okáina', u'Witóto' ],
-                're_letter_only': u'^\w+\s*$',
-                'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
-                'component' : 'Witotoan'
-            },
-            #{
-            #    'startpage' : 336,
-            #    'endpage' : 377,
-            #    'src_language_name' : u'French',
-            #    'tgt_language_name' : u'Ocaina',
-            #    'src_language_bookname' : u'Français',
-            #    'tgt_language_bookname' : u'Okáina',
-            #    're_letter_only': u'^\w+\s*$',
-            #    'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
-            #    'component' : 'Witotoan'
-            #},
-            #{
-            #    'startpage' : 336,
-            #    'endpage' : 377,
-            #    'src_language_name' : u'French',
-            #    'tgt_language_name' : u'Huitoto Murui',
-            #    'src_language_bookname' : u'Français',
-            #    'tgt_language_bookname' : u'Witóto',
-            #    're_letter_only': u'^\w+\s*$',
-            #    'file' : 'witotoan/rivet1953_dictdata_336_377.xml',
-            #    'component' : 'Witotoan'
-            #}, 
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 333,
-                'endpage' : 336,
-                'title': u'Appendices',
-                'file' : 'witotoan/rivet1953_nondictdata_333_336.htm',
-                'component' : 'Witotoan'
-            },
-        ]
-    },
-    {
-        'title' : u'Datos del idioma huariapano',
-        'author' : u'Parker, Stephen',
-        'year' : 1992,
-        'bibtex_key' : u'parker1992',
-        'pages' : 54,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 7,
-                'endpage' : 28,
-                'src_language_name' : u'Spanish',
-                'tgt_language_name' : u'Panobo',
-                'src_language_bookname' : u'Castellano',
-                'tgt_language_bookname' : u'Huariapano',
-                're_letter_only': u'^\w+\s*$',
-                'file' : 'panoan/parker1992_dictdata_7_28.xml',
-                'component' : 'Panoan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 7,
-                'title': u'Start pages',
-                'file' : 'panoan/parker1992_nondictdata_1_7.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 29,
-                'endpage' : 48,
-                'title': u'Example sentences',
-                'file' : 'panoan/parker1992_nondictdata_29_48.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 50,
-                'endpage' : 53,
-                'title': u'Texts',
-                'file' : 'panoan/parker1992_nondictdata_50_53.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 54,
-                'endpage' : 54,
-                'title': u'Table of contents',
-                'file' : 'panoan/parker1992_nondictdata_54.htm',
-                'component' : 'Panoan'
-            },
-        ]
-            
     },
     {
         'title' : u'Diccionario TUCANO - CASTELLANO',
@@ -1443,350 +1657,9 @@ list = [
         ]
             
     },
-    {
-        'title' : u'ESTUDO LEXICAL DA LÍNGUA MATIS SUBSÍDIOS PARA UM DICIONÁRIO BILÍNGÜE',
-        'author' : u'Ferreira, Vitória Regina Spanghero',
-        'year' : 2005,
-        'bibtex_key' : u'ferreira2005',
-        'pages' : 211,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 115,
-                'endpage' : 193,
-                'src_language_name' : u'Matís',
-                'tgt_language_name' : u'Portuguese',
-                'src_language_bookname' : u'Matis',
-                'tgt_language_bookname' : u'Português',
-                'file' : 'Panoan/ferreira2005_dictdata_115_193.xml',
-                'component' : 'Panoan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 0,
-                'title': u'Start pages',
-                'file' : 'Panoan/ferreira2005_nondictdata_0_0.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 1,
-                'endpage' : 114,
-                'title': u'Language explanatory pages',
-                'file' : 'Panoan/ferreira2005_nondictdata_1_114.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 195,
-                'endpage' : 211,
-                'title': u'End pages',
-                'file' : 'Panoan/ferreira2005_nondictdata_195_211.htm',
-                'component' : 'Panoan'
-            },
-        ]
-            
-    },
-    {
-        'title' : u'DICCIONARIO CHACOBO-CASTELLANO',
-        'author' : u'Zingg, Philipp',
-        'year' : 1998,
-        'bibtex_key' : u'zingg1998',
-        'pages' : 434,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 45,
-                'endpage' : 310,
-                'src_language_name' : u'Chácobo',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Chacobo',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'Panoan/zingg1998_dictdata_45_310.xml',
-                'component' : 'Panoan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 44,
-                'title': u'Start pages',
-                'file' : 'Panoan/zingg1998_nondictdata_0_44.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 45,
-                'endpage' : 303,
-                'title': u'Suffixes and prefixes',
-                'file' : 'Panoan/zingg1998_nondictdata_prefixes_suffixes_45_303.htm',
-                'component' : 'Panoan'
-            },
-        ]
-            
-    },
-    {
-        'title' : u'DICCIONARIO CAPANAHUA-CASTELLANO',
-        'author' : u'Loos, Eugene, Loos, Betty',
-        'year' : 1998,
-        'bibtex_key' : u'loos1998',
-        'pages' : 518,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 63,
-                'endpage' : 403,
-                'src_language_name' : u'Capanahua',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Capanahua',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'Panoan/loos1998_dictdata_63_403.xml',
-                'component' : 'Panoan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 62,
-                'title': u'Start pages',
-                'file' : 'Panoan/loos1998_nondictdata_1_62.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 496,
-                'endpage' : 518,
-                'title': u'Appendices',
-                'file' : 'Panoan/loos1998_nondictdata_496_518.htm',
-                'component' : 'Panoan'
-            },
-        ]
-            
-    },
-    {
-        'title' : u'Glosario Aguaruna-Castellano',
-        'author' : u'Mori, Angel Corbera',
-        'year' : 1981,
-        'bibtex_key' : u'mori1981',
-        'pages' : 79,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 78,
-                'src_language_name' : u'Aguaruna',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Aguaruna',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'jivaroan/mori1981_dictdata_1_78.xml',
-                'component' : 'Jivaroan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 0,
-                'title': u'Start pages',
-                'file' : 'jivaroan/mori1981_nondictdata_0_0.htm',
-                'component' : 'Jivaroan'
-            },
-            {
-                'startpage' : 79,
-                'endpage' : 79,
-                'title': u'Last page',
-                'file' : 'jivaroan/mori1981_nondictdata_79.htm',
-                'component' : 'Jivaroan'
-            },
-        ]
-            
-    },
-    {
-        'title' : u'Materiales para estudios comparativos de la familia pano: Frases y textos del dialecto mastanahua',
-        'author' : u'Loos, Eugene E.',
-        'year' : 2008,
-        'bibtex_key' : u'loos2008',
-        'pages' : 57,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 41,
-                'src_language_name' : u'Spanish',
-                'tgt_language_name' : u'Sharanahua',
-                'src_language_bookname' : u'Castellano',
-                'tgt_language_bookname' : u'Mastanahua',
-                'file' : 'Panoan/loos2008_dictdata_1_41.xml',
-                'component' : 'Panoan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 0,
-                'title': u'Start pages',
-                'file' : 'Panoan/loos2008_nondictdata_0_0.htm',
-                'component' : 'Panoan'
-            },
-            {
-                'startpage' : 42,
-                'endpage' : 57,
-                'title': u'Appendices',
-                'file' : 'Panoan/loos2008_nondictdata_42_57.htm',
-                'component' : 'Panoan'
-            },
-        ]
-            
-    },
-    {
-        'title' : u'DICCIONARIO AGUARUNA CASTELLANO',
-        'author' : u'Yagkug, Abel Uwarai, Suikai, Isaac Paz, Regan, Jaime S.J.',
-        'year' : 1998,
-        'bibtex_key' : u'yagkug1998',
-        'pages' : 162,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 8,
-                'endpage' : 158,
-                'src_language_name' : u'Aguaruna',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Aguaruna',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'Jivaroan/yagkug1998_dictdata_8_158.xml',
-                'component' : 'Jivaroan'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 7,
-                'title': u'Start pages',
-                'file' : 'Jivaroan/yagkug1998_nondictdata_1_7.htm',
-                'component' : 'Jivaroan'
-            },
-            {
-                'startpage' : 160,
-                'endpage' : 162,
-                'title': u'End pages',
-                'file' : 'Jivaroan/yagkug1998_nondictdata_160_162.htm',
-                'component' : 'Jivaroan'
-            },
-        ]
-            
-    },
-    {
-        'title' : u'Un Léxico Ni̵pode Uitoto - Español - Inglés',
-        'author' : u'Griffiths, Thomas, Coleman, John, Morales, Misael',
-        'year' : 2001,
-        'bibtex_key' : u'griffiths2001',
-        'pages' : 199,
-        'columns' : 1,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 79,
-                'endpage' : 199,
-                'src_language_name' : u'Huitoto Nüpode',
-                'tgt_language_name' : [ u'Spanish', u'English' ],
-                'src_language_bookname' : u'Ni̵pode Uitoto',
-                'tgt_language_bookname' : [ u'Español', u'Inglés' ],
-                'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
-                'component' : 'Witotoan'
-            },
-            #{
-            #    'startpage' : 79,
-            #    'endpage' : 199,
-            #    'src_language_name' : u'Huitoto Nüpode',
-            #    'tgt_language_name' : u'English',
-            #    'src_language_bookname' : u'Ni̵pode Uitoto',
-            #    'tgt_language_bookname' : u'Español - Inglés',
-            #    'file' : 'witotoan/griffiths2001_dictdata_79_199.xml',
-            #    'component' : 'Witotoan'
-            #},
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 79,
-                'title': u'Start pages',
-                'file' : 'witotoan/griffiths2001_nondictdata_1_79.htm',
-                'component' : 'Witotoan'
-            },
-        ]
-    },
-    {
-        'title' : u'Vocabulario chayahuita',
-        'author' : u'Hart, George, Hart, Helen',
-        'year' : 1975,
-        'bibtex_key' : u'hart1975',
-        'pages' : 92,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 50,
-                'src_language_name' : u'Chayahuita',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Chayahuita',
-                'tgt_language_bookname' : u'Español',
-                'file' : 'other/hart1975_dictdata_1_50.xml',
-                'component' : 'Other'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 0,
-                'endpage' : 0,
-                'title': u'Start pages',
-                'file' : 'other/hart1975_nondictdata_0_0.htm',
-                'component' : 'Other'
-            },
-        ]
-    },
-    {
-        'title' : u'DICCIONARIO Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
-        'author' : u'Hart, Helen',
-        'year' : 1988,
-        'bibtex_key' : u'hart1988',
-        'pages' : 495,
-        'columns' : 2,
-        'is_ready' : False,
-        'type' : 'dictionary',
-        'dictdata' : [
-            {
-                'startpage' : 21,
-                'endpage' : 253,
-                'src_language_name' : u'Chayahuita',
-                'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'Chayahuita',
-                'tgt_language_bookname' : u'Castellano',
-                'file' : 'other/hart1988_dictdata_21_253.xml',
-                'component' : 'Other'
-            },
-        ],
-        'nondictdata' : [
-            {
-                'startpage' : 1,
-                'endpage' : 20,
-                'title': u'Start pages',
-                'file' : 'other/hart1988_nondictdata_1_20.htm',
-                'component' : 'Other'
-            },
-        ]
-    },
+
+    ################################################### Guaicuruan
+
     {
         'title' : u'DICIONÁRIO da LÍNGUA KADIWÉU',
         'author' : u'Griffiths, Glyn',
@@ -1833,6 +1706,9 @@ list = [
             },
         ]
     },
+
+    ########################################################### Arauan
+
     {
         'title' : u'Dicionário Deni-Português',
         'author' : u'Koop, Gordon and Koop, Lois',
@@ -2150,6 +2026,8 @@ list = [
         ]
     },
 
+    ############################################# Macro-Ge
+
     {
         'title' : u'Pequeno Dicionário Xavante-Português, Português-Xavante',
         'author' : u'Hall, Joan and McLeod, Ruth Alice and Mitchell, Valerie',
@@ -2388,8 +2266,8 @@ list = [
                 'endpage': 356,
                 'src_language_name': u'Páez',
                 'tgt_language_name': u'Spanish',
-                'src_language_bookname': u'PÁEZ',
-                'tgt_language_bookname': u'ESPAÑOL',
+                'src_language_bookname': u'Páez',
+                'tgt_language_bookname': u'Español',
                 'file': 'other/gerdelslocum1983_dictdata_1_356.xml',
                 'component': 'Other'
             },
@@ -2435,6 +2313,68 @@ list = [
                 'file' : 'other/benaissa1991_nondictdata_89_97.htm',
                 'component' : 'Other'
             }
+        ]
+    },
+    {
+        'title' : u'Vocabulario chayahuita',
+        'author' : u'Hart, George, Hart, Helen',
+        'year' : 1975,
+        'bibtex_key' : u'hart1975',
+        'pages' : 92,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 50,
+                'src_language_name' : u'Chayahuita',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Chayahuita',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'other/hart1975_dictdata_1_50.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/hart1975_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+        ]
+    },
+    {
+        'title' : u'DICCIONARIO Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
+        'author' : u'Hart, Helen',
+        'year' : 1988,
+        'bibtex_key' : u'hart1988',
+        'pages' : 495,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 21,
+                'endpage' : 253,
+                'src_language_name' : u'Chayahuita',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Chayahuita',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'other/hart1988_dictdata_21_253.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 20,
+                'title': u'Start pages',
+                'file' : 'other/hart1988_nondictdata_1_20.htm',
+                'component' : 'Other'
+            },
         ]
     },
 
@@ -2865,7 +2805,6 @@ list = [
                 'file' : 'arawak/ottott1983_nondictdata_1_56.htm',
                 'component' : 'Arawak'
             }            
-
         ]
     },
     {
@@ -2873,7 +2812,7 @@ list = [
         'author' : u'Schauer, Stanley; Schauer, Junia; Yucuna, Eladio and Yucuna, Walter',
         'year' : 2005,
         'bibtex_key' : u'schauer2005',
-        'pages' : 248,
+        'pages' : 328,
         'columns' : 1,
         'is_ready' : False,
         'type' : 'dictionary',
@@ -2883,14 +2822,41 @@ list = [
                 'endpage' : 172,
                 'src_language_name' : u'Yucuna',
                 'tgt_language_name' : u'Spanish',
-                'src_language_bookname' : u'YUKUNA',
-                'tgt_language_bookname' : u'ESPAÑOL',
-                'file' : 'arawak/schauer2005_dictdata_21_172.xml',
+                'src_language_bookname' : u'Yukuna',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'arawak/schauer2005_dictdata_22_172.xml',
                 'component' : 'Arawak'
             },
         ],
         'nondictdata' : [
-
+            {
+                'startpage' : 0,
+                'endpage' : 20,
+                'title': u'Start pages',
+                'file' : 'arawak/schauer2005_nondictdata_0_20.htm',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' :266,
+                'endpage' : 293,
+                'title': u'Apéndice',
+                'file' : 'arawak/schauer2005_nondictdata_266_293.htm',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 294,
+                'endpage' : 326,
+                'title': u'Bosquejo Gramatical',
+                'file' : 'arawak/schauer2005_nondictdata_294_326.htm',
+                'component' : 'Arawak'
+            },
+            {
+                'startpage' : 327,
+                'endpage' : 328,
+                'title': u'Bibliografía',
+                'file' : 'arawak/schauer2005_nondictdata_327_328.htm',
+                'component' : 'Arawak'
+            },
         ]
     },
 ]
