@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "132. fop [fɔp] ndarm",
+    "startpage" : 19,
+    "pos_on_page" : 47,
+    "language_bookname" : "Angas",
+    "concept" : "BARK",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fop ndarm",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Angas",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "anc",
+                "start" : 5,
+                "end" : 20
+            },
+    ]
+})

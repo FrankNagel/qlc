@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "C17 ˀpa + give",
+    "startpage" : 131,
+    "pos_on_page" : 164,
+    "language_bookname" : "Mosimo",
+    "concept" : "TALK_TO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ˀpa",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mosimo",
+                "start" : 4,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Mosimo",
+                "start" : 4,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "give",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

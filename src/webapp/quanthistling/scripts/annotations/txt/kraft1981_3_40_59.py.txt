@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "375. mwɩ̌c",
+    "startpage" : 40,
+    "pos_on_page" : 59,
+    "language_bookname" : "Gude",
+    "concept" : "ANSWER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mwɩ̌c",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gude",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "gde",
+                "start" : 5,
+                "end" : 10
+            },
+    ]
+})

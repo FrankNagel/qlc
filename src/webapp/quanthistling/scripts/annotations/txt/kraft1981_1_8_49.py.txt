@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "93. Allā̀",
+    "startpage" : 8,
+    "pos_on_page" : 49,
+    "language_bookname" : "Hausa",
+    "concept" : "GOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "allā̀",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hausa",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hau",
+                "start" : 4,
+                "end" : 10
+            },
+    ]
+})

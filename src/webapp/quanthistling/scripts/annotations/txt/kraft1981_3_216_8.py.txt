@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "222. ize,aze",
+    "startpage" : 216,
+    "pos_on_page" : 8,
+    "language_bookname" : "Misme (Zime)",
+    "concept" : "GROUNDNUTS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ize",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Misme (Zime)",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "zim",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "aze",
+                "start" : 9,
+                "end" : 12
+            },
+    ]
+})

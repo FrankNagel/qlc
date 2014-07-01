@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "77. ngì̵zì̵ŋ [ŋgì̵zì̵ŋ",
+    "startpage" : 18,
+    "pos_on_page" : 68,
+    "language_bookname" : "Angas",
+    "concept" : "URINE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ngì̵zì̵ŋ",
+                "start" : 4,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Angas",
+                "start" : 4,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "anc",
+                "start" : 4,
+                "end" : 26
+            },
+    ]
+})

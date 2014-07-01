@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "314. where?",
+    "startpage" : 4,
+    "pos_on_page" : 56,
+    "language_bookname" : "English",
+    "concept" : "WHERE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "where",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "eng",
+                "start" : 5,
+                "end" : 11
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "349. isi &#34;kù ma&#34; wo&#39;ì",
+    "startpage" : 87,
+    "pos_on_page" : 34,
+    "language_bookname" : "Bole(wa)",
+    "concept" : "HEAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "isi kù ma wo&#39;ì",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bole(wa)",
+                "start" : 5,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bol",
+                "start" : 5,
+                "end" : 23
+            },
+    ]
+})

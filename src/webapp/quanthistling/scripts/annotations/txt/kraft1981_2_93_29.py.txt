@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "88. zɩ̌řdízù",
+    "startpage" : 93,
+    "pos_on_page" : 29,
+    "language_bookname" : "Kilba",
+    "concept" : "BABY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "zɩ̌řdízù",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kilba",
+                "start" : 4,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hbb",
+                "start" : 4,
+                "end" : 15
+            },
+    ]
+})

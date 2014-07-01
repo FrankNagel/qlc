@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "256. pur (same as sickness)",
+    "startpage" : 134,
+    "pos_on_page" : 61,
+    "language_bookname" : "Dera",
+    "concept" : "ULCER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pur",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Dera",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kna",
+                "start" : 5,
+                "end" : 27
+            },
+    ]
+})

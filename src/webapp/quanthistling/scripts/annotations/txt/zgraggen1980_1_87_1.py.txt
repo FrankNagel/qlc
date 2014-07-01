@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "G-string",
+    "startpage" : 87,
+    "pos_on_page" : 1,
+    "language_bookname" : "English",
+    "concept" : "G-STRING",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "g-string",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "English",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "87. =31",
+    "startpage" : 15,
+    "pos_on_page" : 25,
+    "language_bookname" : "Hwona",
+    "concept" : "GIRL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wɩ̀yɛ̀nùwùn",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hwona",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hwo",
+                "start" : 5,
+                "end" : 7
+            },
+    ]
+})

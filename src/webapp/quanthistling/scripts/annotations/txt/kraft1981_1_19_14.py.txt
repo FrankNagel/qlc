@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "104. àm [ˀàm] fwān [fwān]",
+    "startpage" : 19,
+    "pos_on_page" : 14,
+    "language_bookname" : "Angas",
+    "concept" : "WATER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "àm fwān",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Angas",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "anc",
+                "start" : 5,
+                "end" : 21
+            },
+    ]
+})

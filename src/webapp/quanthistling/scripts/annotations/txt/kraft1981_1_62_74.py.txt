@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "199. =170",
+    "startpage" : 62,
+    "pos_on_page" : 74,
+    "language_bookname" : "Karekare",
+    "concept" : "CAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔàwàyì",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Karekare",
+                "start" : 6,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kai",
+                "start" : 6,
+                "end" : 9
+            },
+    ]
+})

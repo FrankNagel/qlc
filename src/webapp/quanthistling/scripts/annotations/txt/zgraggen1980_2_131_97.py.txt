@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "F 3 saki + &#39;give&#39;",
+    "startpage" : 131,
+    "pos_on_page" : 97,
+    "language_bookname" : "Saki",
+    "concept" : "TALK_TO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "saki",
+                "start" : 4,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Saki",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Maia",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "&#39;give&#39;",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

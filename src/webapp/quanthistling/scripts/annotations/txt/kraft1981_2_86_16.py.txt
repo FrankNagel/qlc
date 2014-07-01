@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "384. et̀a",
+    "startpage" : 86,
+    "pos_on_page" : 16,
+    "language_bookname" : "Ngwaxi",
+    "concept" : "ARRANGE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "età",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngwaxi",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "ngx",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : "età",
+                "start" : 5,
+                "end" : 9
+            },
+    ]
+})

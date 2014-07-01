@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "82. ølέm",
+    "startpage" : 93,
+    "pos_on_page" : 5,
+    "language_bookname" : "Kilba",
+    "concept" : "NAME",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ølέm",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kilba",
+                "start" : 4,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hbb",
+                "start" : 4,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "93. God",
+    "startpage" : 2,
+    "pos_on_page" : 49,
+    "language_bookname" : "English",
+    "concept" : "GOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "god",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "eng",
+                "start" : 4,
+                "end" : 7
+            },
+    ]
+})

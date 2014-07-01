@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "F 2 pilaŋ + &#39;give&#39;",
+    "startpage" : 131,
+    "pos_on_page" : 96,
+    "language_bookname" : "Pila",
+    "concept" : "TALK_TO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pilaŋ",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pila",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Maia",
+                "start" : 4,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "&#39;give&#39;",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

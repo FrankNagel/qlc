@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "422. kÌ̵nàɗa",
+    "startpage" : 48,
+    "pos_on_page" : 10,
+    "language_bookname" : "Boka",
+    "concept" : "TIE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kÌ̵nàɗa",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Boka",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bvw",
+                "start" : 5,
+                "end" : 13
+            },
+    ]
+})

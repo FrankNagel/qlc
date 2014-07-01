@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "G5 Ikundun -topaø",
+    "startpage" : 18,
+    "pos_on_page" : 183,
+    "language_bookname" : "Ikundun",
+    "concept" : "EXCREMENT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "topaø",
+                "start" : 12,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ikundun",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Anamgura",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "C 1 kinaŋga mai0",
+    "startpage" : 106,
+    "pos_on_page" : 141,
+    "language_bookname" : "Kare",
+    "concept" : "HUNGRY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kinaŋga mai",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kare",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Kare",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

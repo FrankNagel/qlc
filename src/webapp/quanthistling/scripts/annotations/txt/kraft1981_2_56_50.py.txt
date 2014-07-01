@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "353. Audù tsa rà",
+    "startpage" : 56,
+    "pos_on_page" : 50,
+    "language_bookname" : "Bura",
+    "concept" : "HIT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "audù tsa rà",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Bura",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bwr",
+                "start" : 5,
+                "end" : 18
+            },
+    ]
+})

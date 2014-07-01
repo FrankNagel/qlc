@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "409. gwɩkì̵ɣǎnt gwɩkigà",
+    "startpage" : 103,
+    "pos_on_page" : 17,
+    "language_bookname" : "Gələvda",
+    "concept" : "WAIT_FOR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gwɩkì̵ɣǎnt gwɩkigà",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Gələvda",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "glw",
+                "start" : 5,
+                "end" : 26
+            },
+    ]
+})

@@ -29,13 +29,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "counterpart",
-                "string" : "or kwuƚ.",
-                "start" : 22,
-                "end" : 30
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Dira",
                 "start" : 22,

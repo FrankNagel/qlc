@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "D 1 hus + &#39;give&#39;",
+    "startpage" : 133,
+    "pos_on_page" : 89,
+    "language_bookname" : "Mugil",
+    "concept" : "WASH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hus",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mugil",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Bargam",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "&#39;give&#39;",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "G4 Pondoma gənaø",
+    "startpage" : 36,
+    "pos_on_page" : 181,
+    "language_bookname" : "Pondoma",
+    "concept" : "GROUND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gənaø",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Pondoma",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Anam",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

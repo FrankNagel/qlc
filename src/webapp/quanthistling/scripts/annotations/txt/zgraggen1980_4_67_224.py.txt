@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "I2 akiñi + &#39;give&#39;",
+    "startpage" : 67,
+    "pos_on_page" : 224,
+    "language_bookname" : "Biyom",
+    "concept" : "WASH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "akiñi",
+                "start" : 3,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Biyom",
+                "start" : 3,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Biyom",
+                "start" : 3,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "+ &#39;give&#39;",
+                "start" : 10,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "F20 eta + &#39;give&#39;",
+    "startpage" : 133,
+    "pos_on_page" : 113,
+    "language_bookname" : "Ukuriguma",
+    "concept" : "WASH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "eta",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ukuriguma",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Ukuriguma",
+                "start" : 4,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "&#39;give&#39;",
+                "start" : 10,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

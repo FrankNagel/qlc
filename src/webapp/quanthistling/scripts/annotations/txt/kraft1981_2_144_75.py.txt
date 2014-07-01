@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "299. mbùlɔ =àtsì̵tsùku",
+    "startpage" : 144,
+    "pos_on_page" : 75,
+    "language_bookname" : "Higi Baza",
+    "concept" : "CLEANNESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mbùlɔ",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "àtsì̵tsùku",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Baza",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 26
+            },
+    ]
+})

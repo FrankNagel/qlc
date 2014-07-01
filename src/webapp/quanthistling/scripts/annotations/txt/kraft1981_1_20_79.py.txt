@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "220. šwe [šwe] kas",
+    "startpage" : 20,
+    "pos_on_page" : 79,
+    "language_bookname" : "Angas",
+    "concept" : "GUINEA_CORN",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "šwe kas",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Angas",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "anc",
+                "start" : 5,
+                "end" : 20
+            },
+    ]
+})

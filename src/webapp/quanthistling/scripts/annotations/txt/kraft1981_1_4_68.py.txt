@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "317. who?",
+    "startpage" : 4,
+    "pos_on_page" : 68,
+    "language_bookname" : "English",
+    "concept" : "WHO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "who",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "eng",
+                "start" : 5,
+                "end" : 9
+            },
+    ]
+})

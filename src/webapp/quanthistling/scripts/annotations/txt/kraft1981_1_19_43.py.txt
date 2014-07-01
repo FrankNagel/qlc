@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "131. yì̵m [yɩ̀m] kwòm-ti̵ŋ",
+    "startpage" : 19,
+    "pos_on_page" : 43,
+    "language_bookname" : "Angas",
+    "concept" : "LEAF",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : " yì̵m kwòmti̵ŋ",
+                "start" : 4,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Angas",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "anc",
+                "start" : 5,
+                "end" : 28
+            },
+    ]
+})

@@ -1,0 +1,45 @@
+
+manual_entries.append({
+    "fullentry" : "F15 ub̵- + &#39;give&#39;",
+    "startpage" : 133,
+    "pos_on_page" : 108,
+    "language_bookname" : "Wanuma",
+    "concept" : "WASH",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ub̵",
+                "start" : 4,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wanuma",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "Usan",
+                "start" : 4,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "&#39;give&#39;",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "319. how many?",
+    "startpage" : 4,
+    "pos_on_page" : 76,
+    "language_bookname" : "English",
+    "concept" : "HOW_MANY",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "how many",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "eng",
+                "start" : 5,
+                "end" : 14
+            },
+    ]
+})
