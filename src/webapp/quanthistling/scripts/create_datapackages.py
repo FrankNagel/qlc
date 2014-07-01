@@ -20,10 +20,12 @@ from paste.deploy import appconfig
 def main(argv):
 
     if len(argv) < 2:
-        print "call: export_tables.py ini_file"
+        print "call: create_datapackages.py ini_file"
         exit(1)
 
     ini_file = argv[1]
+
+    pdf_base_path = "/media/pbouda/LAPI/Corpora/QLC/PDFs"
     
     bibtex_key_param = None
     if len(argv) >= 3:
@@ -47,17 +49,26 @@ def main(argv):
         print("Copying files for {0}...".format(subdir))
 
         # Copy GrAF files
-        from_graf_dir = os.path.join(
-            config['pylons.paths']['static_files'], 'downloads', "xml", subdir)
-        to_graf_dir = os.path.join(packages_dir, subdir, 'graf')
-        if not os.path.exists(to_graf_dir):
-            os.makedirs(to_graf_dir)
+        # from_graf_dir = os.path.join(
+        #     config['pylons.paths']['static_files'], 'downloads', "xml", subdir)
+        # to_graf_dir = os.path.join(packages_dir, subdir, 'graf')
+        # if not os.path.exists(to_graf_dir):
+        #     os.makedirs(to_graf_dir)
 
-        src_files = os.listdir(from_graf_dir)
-        for file_name in src_files:
-            full_file_name = os.path.join(from_graf_dir, file_name)
-            if (os.path.isfile(full_file_name)):
-                shutil.copy(full_file_name, to_graf_dir)
+        # src_files = os.listdir(from_graf_dir)
+        # for file_name in src_files:
+        #     full_file_name = os.path.join(from_graf_dir, file_name)
+        #     if (os.path.isfile(full_file_name)):
+        #         shutil.copy(full_file_name, to_graf_dir)
+
+        # Copy PDFs
+        to_pdf_dir = os.path.join(packages_dir, subdir)
+        from_pfds = os.path.join(pdf_base_path, "{0}_*.pdf".format(subdir))
+        pdf_files = glob.glob(from_pfds)
+        pdf_files.append(os.path.join(pdf_base_path, "{0}.pdf".format(subdir)))
+        for pdf_file in pdf_files:
+            if (os.path.isfile(pdf_file)):
+                shutil.copy(pdf_file, to_pdf_dir)            
 
         # Copy annotation file
         to_scripts_dir = os.path.join(packages_dir, subdir, 'scripts')
