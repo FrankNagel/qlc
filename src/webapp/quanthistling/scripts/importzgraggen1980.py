@@ -136,6 +136,21 @@ import importfunctions
 
 dictdata_path = 'quanthistling/dictdata'
 
+def insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column, concept_id, wordlistdata, languages, languages_iso):
+    for l in annotation:
+        delete_indices = []
+        for i, a in enumerate(annotation[l]):
+            if annotation[l][i]["value"] == "counterpart":
+                if annotation[l][i]["string"] == u"o̵":
+                    #del(annotation[l])
+                    delete_indices.append(i)
+                else:
+                     annotation[l][i]["string"] = re.sub(unichr(0x003a), unichr(0x02d0), annotation[l][i]["string"])
+        for i in reversed(delete_indices):
+            del(annotation[l][i])
+
+    importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column, concept_id, wordlistdata, languages, languages_iso)
+
 def create_concepts_mapping():
     f = codecs.open("scripts/zgraggen_concepts.txt", "r", "utf-8")
     concepts_mapping = dict()
@@ -281,7 +296,7 @@ def main(argv):
                             del(entry['English'])
                             if entry.has_key('Spanish'):
                                 del(entry['Spanish'])
-                        importfunctions.insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column, concept_id, wordlistdata, languages, languages_iso)
+                        insert_wordlistentry_to_db(Session, entry, annotation, volume, page, column, concept_id, wordlistdata, languages, languages_iso)
                     annotation = {}
                     entry = {}
                     page = page_new
@@ -378,7 +393,7 @@ def main(argv):
                                 match_bracket = re.search(" ?\(([^)]*)\) ?$", fullentry[start_new:end_new])
                                 if match_bracket:
                                     # if there is a number in the bracket then remove it
-                                    if re.search("(?:[\dmfv]|pl)", match_bracket.group(1)):
+                                    if re.search("(?:[\dmfv]|pl|sg)", match_bracket.group(1)):
                                         end_new = end_new - len(match_bracket.group(0))
             
                                 match_dashes1 = re.search("^--? ?", fullentry[start_new:end_new])
@@ -417,39 +432,12 @@ def main(argv):
                                     a2['end'] = start_entry + end_new
                                     a2['value'] = 'counterpart'
                                     a2['type'] = 'dictinterpretation'
-                                    #annotation_string = fullentry[start_new+len(match_bracket2.group(0)):end_new]
                                     annotation_string = fullentry[start_new:start_new+match_bracket2.start(0)] + fullentry[start_new+match_bracket2.end(0):end_new]
                                     annotation_string = re_html.sub("", annotation_string)
                                     annotation_string = re_singledash.sub("", annotation_string)
-                                    #if concept == 'TAIL' and parts[0] == 'C25':
-                                    #    print annotation_string
                                     
                                     a2['string'] = annotation_string
                                     annotation[parts[0]].append(a2)
-                                                                        
-                                #match_bracket3 = re.search("\(([^)]*)\) ?$", fullentry[start_new:end_new])
-                                #if match_bracket3:
-                                #    a = {}
-                                #    a['start'] = start_entry + start_new
-                                #    a['end'] = start_entry + end_new
-                                #    a['value'] = 'counterpart'
-                                #    a['type'] = 'dictinterpretation'
-                                #    annotation_string =  fullentry[start_new:start_new+match_bracket3.start(0)] + match_bracket3.group(1)
-                                #    annotation_string = re_html.sub("", annotation_string)
-                                #    annotation_string = re_singledash.sub("", annotation_string)
-                                #    a['string'] = annotation_string
-                                #    annotation[parts[0]].append(a)
-                                #
-                                #    a2 = {}
-                                #    a2['start'] = start_entry + start_new
-                                #    a2['end'] = start_entry + end_new
-                                #    a2['value'] = 'counterpart'
-                                #    a2['type'] = 'dictinterpretation'
-                                #    annotation_string = fullentry[start_new:start_new+match_bracket3.start(0)]
-                                #    annotation_string = re_html.sub("", annotation_string)
-                                #    annotation_string = re_singledash.sub("", annotation_string)
-                                #    a2['string'] = annotation_string
-                                #    annotation[parts[0]].append(a2)
 
                                 else:
                                     a = {}
@@ -463,9 +451,6 @@ def main(argv):
                                     a['string'] = annotation_string
                                     annotation[parts[0]].append(a)
         
-                                #if concept == 'TAIL' and parts[0] == 'C25':
-                                #    print annotation[parts[0]]
-
                                 start_new = match.end(0)
                     
                     

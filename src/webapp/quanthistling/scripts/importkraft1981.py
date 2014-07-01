@@ -40,6 +40,7 @@ def substitute_characters(langname, fullentry):
     e = re.sub(unichr(0x0305), unichr(0x0304), e)
     e = re.sub(unichr(0x02c6), unichr(0x0302), e)
     e = re.sub(unichr(0x02c7), unichr(0x030c), e)
+    e = re.sub(unichr(0x003a), unichr(0x02d0), e)
     return e
 
 def insert_counterpart(entry, start, end, data):
@@ -67,6 +68,7 @@ def insert_counterpart(entry, start, end, data):
 
         counterpart = re.sub(u"(?<![ \t])\(", "", counterpart)
         counterpart = re.sub(u"\)(?![ \t])", "", counterpart)
+        counterpart = re.sub(u"[-\(\)]", "", counterpart)
 
         entry.append_annotation(s, e, "counterpart", "dictinterpretation",
             counterpart)

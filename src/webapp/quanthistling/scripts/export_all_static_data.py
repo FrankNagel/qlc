@@ -17,7 +17,7 @@ def main(argv):
     exporttables.main(["exporttables.py", ini_file])
     exportcsv_books.main(["exportcsv_books.py", ini_file])
     exportcsv_wordlists.main(["exportcsv_wordlists.py", ini_file])
-    exportgraf.main(["exportgraf.py", ini_file])
+    #exportgraf.main(["exportgraf.py", ini_file])
     exportbookdata.main(["exportbookdata.py", ini_file])
     create_datapackages.main(["create_datapackages.py", ini_file])
 
