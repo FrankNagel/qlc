@@ -1008,7 +1008,7 @@ list = [
                 'tgt_language_name' : u'Portuguese',
                 'src_language_bookname' : u'Matis',
                 'tgt_language_bookname' : u'Português',
-                'file' : 'Panoan/ferreira2005_dictdata_115_193.xml',
+                'file' : 'panoan/ferreira2005_dictdata_115_193.xml',
                 'component' : 'Panoan'
             },
         ],
@@ -1017,21 +1017,21 @@ list = [
                 'startpage' : 0,
                 'endpage' : 0,
                 'title': u'Start pages',
-                'file' : 'Panoan/ferreira2005_nondictdata_0_0.htm',
+                'file' : 'panoan/ferreira2005_nondictdata_0_0.htm',
                 'component' : 'Panoan'
             },
             {
                 'startpage' : 1,
                 'endpage' : 114,
                 'title': u'Language explanatory pages',
-                'file' : 'Panoan/ferreira2005_nondictdata_1_114.htm',
+                'file' : 'panoan/ferreira2005_nondictdata_1_114.htm',
                 'component' : 'Panoan'
             },
             {
                 'startpage' : 195,
                 'endpage' : 211,
                 'title': u'End pages',
-                'file' : 'Panoan/ferreira2005_nondictdata_195_211.htm',
+                'file' : 'panoan/ferreira2005_nondictdata_195_211.htm',
                 'component' : 'Panoan'
             },
         ]
@@ -1054,7 +1054,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Chacobo',
                 'tgt_language_bookname' : u'Castellano',
-                'file' : 'Panoan/zingg1998_dictdata_45_310.xml',
+                'file' : 'panoan/zingg1998_dictdata_45_310.xml',
                 'component' : 'Panoan'
             },
         ],
@@ -1063,16 +1063,16 @@ list = [
                 'startpage' : 0,
                 'endpage' : 44,
                 'title': u'Start pages',
-                'file' : 'Panoan/zingg1998_nondictdata_0_44.htm',
+                'file' : 'panoan/zingg1998_nondictdata_0_44.htm',
                 'component' : 'Panoan'
             },
-            {
-                'startpage' : 45,
-                'endpage' : 303,
-                'title': u'Suffixes and prefixes',
-                'file' : 'Panoan/zingg1998_nondictdata_prefixes_suffixes_45_303.htm',
-                'component' : 'Panoan'
-            },
+            # {
+            #     'startpage' : 45,
+            #     'endpage' : 303,
+            #     'title': u'Suffixes and prefixes',
+            #     'file' : 'Panoan/zingg1998_nondictdata_prefixes_suffixes_45_303.htm',
+            #     'component' : 'Panoan'
+            # },
         ]
             
     },
@@ -1093,7 +1093,7 @@ list = [
                 'tgt_language_name' : u'Spanish',
                 'src_language_bookname' : u'Capanahua',
                 'tgt_language_bookname' : u'Castellano',
-                'file' : 'Panoan/loos1998_dictdata_63_403.xml',
+                'file' : 'panoan/loos1998_dictdata_63_403.xml',
                 'component' : 'Panoan'
             },
         ],
@@ -1102,14 +1102,14 @@ list = [
                 'startpage' : 1,
                 'endpage' : 62,
                 'title': u'Start pages',
-                'file' : 'Panoan/loos1998_nondictdata_1_62.htm',
+                'file' : 'panoan/loos1998_nondictdata_1_62.htm',
                 'component' : 'Panoan'
             },
             {
                 'startpage' : 496,
                 'endpage' : 518,
                 'title': u'Appendices',
-                'file' : 'Panoan/loos1998_nondictdata_496_518.htm',
+                'file' : 'panoan/loos1998_nondictdata_496_518.htm',
                 'component' : 'Panoan'
             },
         ]
@@ -1132,7 +1132,7 @@ list = [
                 'tgt_language_name' : u'Sharanahua',
                 'src_language_bookname' : u'Castellano',
                 'tgt_language_bookname' : u'Mastanahua',
-                'file' : 'Panoan/loos2008_dictdata_1_41.xml',
+                'file' : 'panoan/loos2008_dictdata_1_41.xml',
                 'component' : 'Panoan'
             },
         ],
@@ -1141,14 +1141,14 @@ list = [
                 'startpage' : 0,
                 'endpage' : 0,
                 'title': u'Start pages',
-                'file' : 'Panoan/loos2008_nondictdata_0_0.htm',
+                'file' : 'panoan/loos2008_nondictdata_0_0.htm',
                 'component' : 'Panoan'
             },
             {
                 'startpage' : 42,
                 'endpage' : 57,
                 'title': u'Appendices',
-                'file' : 'Panoan/loos2008_nondictdata_42_57.htm',
+                'file' : 'panoan/loos2008_nondictdata_42_57.htm',
                 'component' : 'Panoan'
             },
         ]
@@ -1272,10 +1272,10 @@ list = [
             {
                 'startpage' : 1,
                 'endpage' : 125,
-                'src_language_name' : u'Spanish',
-                'tgt_language_name' : u'Siriano',
-                'src_language_bookname' : u'Español',
-                'tgt_language_bookname' : u'Siriano',
+                'src_language_name' : u'Siriano',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Siriano',
+                'tgt_language_bookname' : u'Español',
                 're_letter_only': u'^\w, \ws*$',
                 'file' : 'tucanoan/trujillo1980_dictdata_1_125.xml',
                 'component' : 'Tucanoan'
