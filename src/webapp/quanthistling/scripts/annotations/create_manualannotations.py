@@ -1,12 +1,17 @@
 # -*- coding: utf8 -*-
 
 import sys, os, glob
+import re
+import codecs
+import HTMLParser
 sys.path.append(os.path.abspath('.'))
 
 import quanthistling.dictdata.books
 import quanthistling.dictdata.wordlistbooks
 
 def main(argv):
+
+    h = HTMLParser.HTMLParser()
     
     for book in quanthistling.dictdata.books.list + quanthistling.dictdata.wordlistbooks.list:
 
@@ -20,11 +25,15 @@ def main(argv):
         print book["bibtex_key"]
         files = glob.glob("scripts/annotations/txt/%s_*.py.txt"%book["bibtex_key"])
         if len(files) > 0:
-            output = open("scripts/annotations/manualannotations_for_%s.py"%book["bibtex_key"], "w")
+            output = codecs.open("scripts/annotations/manualannotations_for_%s.py"%book["bibtex_key"], "w", "utf-8")
             output.write("# -*- coding: utf8 -*-\n\nmanual_entries = []\n\n")
             for file in files:
-                f = open(file, "r")
-                output.write(f.read())
+                f = codecs.open(file, "r", "utf-8")
+                content = f.read()
+                content = re.sub("&#34;", "\\\"", content)
+                content = h.unescape(content)
+                #content = re.sub("\"", "\\\"", content)
+                output.write(content)
                 output.write("\n")
                 f.close()
             output.close()

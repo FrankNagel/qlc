@@ -87,6 +87,7 @@ def main(argv):
         if book["bibtex_key"] == "kraft1981-1":
             book["bibtex_key"] = "kraft1981"
 
+        exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
         try:
             exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
             print "adding manual annotations for %s" % book["bibtex_key"]
@@ -98,6 +99,8 @@ def main(argv):
         min_similarity_ratio = 0.80
         if book["bibtex_key"] == "huber1992":
             min_similarity_ratio = 0.60
+        elif book["bibtex_key"] == "zgraggen1980":
+            min_similarity_ratio = 0.70
             
         for e in manual_entries:
             #print e["language_bookname"].encode("utf-8")

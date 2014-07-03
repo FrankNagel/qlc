@@ -22,6 +22,37 @@ from paste.deploy import appconfig
 
 import functions
 
+def insert_head(entry, start, end, head = None):
+    if head:
+        return functions.insert_head(entry, start, end, head)
+
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith(" "):
+        start += 1
+    if str_head.endswith(" "):
+        end -= 1
+
+    str_head = entry.fullentry[start:end]
+    if str_head.startswith("-"):
+        entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        start += 1
+    if str_head.endswith("-"):
+        entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        end -= 1
+
+    # str_head = entry.fullentry[start:end]
+    # for match in re.finditer(u"-", str_head):
+    #     entry.append_annotation(match.start(0), match.end(0), u'boundary', u'dictinterpretation', u"compound boundary")
+    # str_head = re.sub("-", "", str_head)
+
+    return functions.insert_head(entry, start, end, str_head)
+
+def insert_translation(entry, start, end):
+    match_bracket = re.search("\[[^\]]*\] ?$", entry.fullentry[start:end])
+    if match_bracket:
+        end -= len(match_bracket.group(0))
+    functions.insert_translation(entry, start, end)
+
 def annotate_everything(entry):
     # delete head annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value== 'pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -60,7 +91,9 @@ def annotate_everything(entry):
                         match_pos = re.search(u'\((tr|itr|itr/tr|tr/itr)\)', head)
                         if match_pos:
                             head_end = match_pos.start(1) - 1 + h_start
-                            functions.insert_head(entry, h_start, head_end)
+                            h = insert_head(entry, h_start, head_end)
+                            if h != "":
+                                heads.append(h)
                             
                             p_start = match_pos.start(1) + h_start
                             p_end = match_pos.end(1) + h_start
@@ -78,7 +111,9 @@ def annotate_everything(entry):
                             else:    
                                 functions.insert_pos(entry, p_start, p_end)
                         else:
-                            functions.insert_head(entry, h_start, head_end)
+                            h = insert_head(entry, h_start, head_end)
+                            if h != "":
+                                heads.append(h)
                     
                         head2_start = c_list[0] + 2
                         if i + 1 < len(c_list):
@@ -87,7 +122,9 @@ def annotate_everything(entry):
                             match_pos = re.search(u'\((tr|itr)\)', head2)
                             if match_pos:
                                 head_end = match_pos.start(1) - 1 + head2_start
-                                functions.insert_head(entry, head2_start, head_end)
+                                h = insert_head(entry, head2_start, head_end)
+                                if h != "":
+                                    heads.append(h)
                                 
                                 p_start = match_pos.start(1) + head2_start
                                 p_end = match_pos.end(1) + head2_start
@@ -106,13 +143,17 @@ def annotate_everything(entry):
                                     functions.insert_pos(entry, p_start, p_end)    
                                 
                             else:    
-                                functions.insert_head(entry, head2_start, head2_end)
+                                h = insert_head(entry, head2_start, head2_end)
+                                if h != "":
+                                    heads.append(h)
                         else:
                             head2 = entry.fullentry[head2_start:h_end]
                             match_pos = re.search(u'\((tr|itr)\)', head2)
                             if match_pos:
                                 head_end = match_pos.start(1) - 1 + head2_start
-                                functions.insert_head(entry, head2_start, head_end)
+                                h = insert_head(entry, head2_start, head_end)
+                                if h != "":
+                                    heads.append(h)
                                 
                                 p_start = match_pos.start(1) + head2_start
                                 p_end = match_pos.end(1) + head2_start
@@ -130,7 +171,9 @@ def annotate_everything(entry):
                                 else:
                                     functions.insert_pos(entry, p_start, p_end)
                             else:
-                                functions.insert_head(entry, head2_start, h_end)
+                                h = insert_head(entry, head2_start, h_end)
+                                if h != "":
+                                    heads.append(h)
                     else:
                         head_start = c_list[i] + 2
                         if i + 1 < len(c_list):
@@ -139,7 +182,9 @@ def annotate_everything(entry):
                             match_pos = re.search(u'\((tr|itr)\)', head_n)
                             if match_pos:
                                 head_end = match_pos.start(1) - 1 + head_start
-                                functions.insert_head(entry, head_start, head_end)
+                                h = insert_head(entry, head_start, head_end)
+                                if h != "":
+                                    heads.append(h)
                                 
                                 p_start = match_pos.start(1) + head_start
                                 p_end = match_pos.end(1) + head_start
@@ -157,13 +202,17 @@ def annotate_everything(entry):
                                 else:
                                     functions.insert_pos(entry, p_start, p_end)   
                             else:
-                                functions.insert_head(entry, head_start, head_end)
+                                h = insert_head(entry, head_start, head_end)
+                                if h != "":
+                                    heads.append(h)
                         else:
                             head_n = entry.fullentry[head_start:h_end]
                             match_pos = re.search(u'\((tr|itr)\)', head_n)
                             if match_pos:
                                 head_end = match_pos.start(1) - 1 + head_start
-                                functions.insert_head(entry, head_start, head_end)
+                                h = insert_head(entry, head_start, head_end)
+                                if h != "":
+                                    heads.append(h)
                                 
                                 p_start = match_pos.start(1) + head_start
                                 p_end = match_pos.end(1) + head_start
@@ -181,14 +230,18 @@ def annotate_everything(entry):
                                 else:
                                     functions.insert_pos(entry, p_start, p_end)
                             else:
-                                functions.insert_head(entry, head_start, h_end)
+                                h = insert_head(entry, head_start, h_end)
+                                if h != "":
+                                    heads.append(h)
                                 #c_list = []
             else:
                 # if pos: change head end and get pos
                 match_pos = re.search(u'\((tr|itr|itr/tr|tr/itr)\)', head)
                 if match_pos:
                     h_end = match_pos.start(1) - 1 + h_start
-                    functions.insert_head(entry, h_start, h_end)
+                    h = insert_head(entry, h_start, h_end)
+                    if h != "":
+                        heads.append(h)
                     
                     p_start = match_pos.start(1) + h_start
                     p_end = match_pos.end(1) + h_start
@@ -209,7 +262,9 @@ def annotate_everything(entry):
                     else:    
                         functions.insert_pos(entry, p_start, p_end)
                 else:
-                    functions.insert_head(entry, h_start, h_end, head)
+                    h = insert_head(entry, h_start, h_end, head)
+                    if h != "":
+                        heads.append(h)
             
             # reset comma list
             c_list = []
@@ -232,7 +287,7 @@ def annotate_everything(entry):
                 for i in range(len(c_list)):
                     if i == 0:
                         trans_e = c_list[i]
-                        functions.insert_translation(entry, t_start, trans_e)
+                        insert_translation(entry, t_start, trans_e)
                         
                         # check for = in front of trans
                         trans2_s = c_list[0] + 2
@@ -243,9 +298,9 @@ def annotate_everything(entry):
                             trans2_s = match_ess.end(1) + c_list[i] + 1
                         if i + 1 < len(c_list):
                             trans2_e = c_list[i+1]
-                            functions.insert_translation(entry, trans2_s, trans2_e)
+                            insert_translation(entry, trans2_s, trans2_e)
                         else:
-                            functions.insert_translation(entry, trans2_s, t_end)
+                            insert_translation(entry, trans2_s, t_end)
                             c_list = []
                     else:
                         trans_s = c_list[i] + 2
@@ -259,12 +314,12 @@ def annotate_everything(entry):
                             trans_s = c_list[i] + 2
                         if i + 1 < len(c_list):
                             trans_e = c_list[i+1]
-                            functions.insert_translation(entry, trans_s, trans_e)
+                            insert_translation(entry, trans_s, trans_e)
                         else:
-                            functions.insert_translation(entry, trans_s, t_end)
+                            insert_translation(entry, trans_s, t_end)
                             c_list = []
             else:
-                functions.insert_translation(entry, t_start, t_end)
+                insert_translation(entry, t_start, t_end)
         else:
             print 'No equal sign found in entry', functions.print_error_in_entry(entry)
    
@@ -303,7 +358,7 @@ def main(argv):
             heads = annotate_everything(e)
             if not e.is_subentry:
                 for h in heads:
-                    if len(h) > 0:
+                    if h is not None and len(h) > 0:
                         startletters.add(h[0].lower())
         
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
