@@ -1884,4 +1884,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/mbc'
     },
+    {
+        'name' : u'Araona',
+        'langcode': u'aro',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/aro'
+    },
 ]

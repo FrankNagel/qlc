@@ -2859,4 +2859,30 @@ list = [
             },
         ]
     },
+##################################### Tacanan
+    {
+        'title' : u'DICCIONARIO ARAONA Y CASTELLANO',
+        'author' : u'Pitman, Mary de',
+        'year' : 1981,
+        'bibtex_key' : u'pitman1981',
+        'pages' : 390,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 11,
+                'endpage' : 236,
+                'src_language_name' : u'Araona',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Araona',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'tacanan/pitman1981_dictdata_11_236.xml',
+                'component' : 'Tacanan'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 ]
