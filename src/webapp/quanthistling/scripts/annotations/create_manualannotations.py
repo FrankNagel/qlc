@@ -31,6 +31,7 @@ def main(argv):
                 f = codecs.open(file, "r", "utf-8")
                 content = f.read()
                 content = re.sub("&#34;", "\\\"", content)
+                content = re.sub("&quot;", "\\\"", content)
                 content = h.unescape(content)
                 #content = re.sub("\"", "\\\"", content)
                 output.write(content)

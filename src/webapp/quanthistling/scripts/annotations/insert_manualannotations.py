@@ -38,11 +38,12 @@ def main(argv):
         if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
             print "skipping", book["bibtex_key"]
             continue
-        try:
-            exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
+
+        manual_annotation_file = "manualannotations_for_{0}".format(book["bibtex_key"])
+        if os.path.isfile(os.path.join("scripts", "annotations", manual_annotation_file + ".py")):
+            exec("from {0} import manual_entries".format(manual_annotation_file))
             print "adding manual annotations for %s" % book["bibtex_key"]
-            
-        except:
+        else:
             print "no manual annotations for %s" % book["bibtex_key"]
             continue
 
@@ -87,14 +88,22 @@ def main(argv):
         if book["bibtex_key"] == "kraft1981-1":
             book["bibtex_key"] = "kraft1981"
 
-        exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
-        try:
-            exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
+        manual_annotation_file = "manualannotations_for_{0}".format(book["bibtex_key"])
+        if os.path.isfile(os.path.join("scripts", "annotations", manual_annotation_file + ".py")):
+            exec("from {0} import manual_entries".format(manual_annotation_file))
             print "adding manual annotations for %s" % book["bibtex_key"]
-            
-        except:
+        else:
             print "no manual annotations for %s" % book["bibtex_key"]
             continue
+
+        # exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
+        # try:
+        #     exec("from manualannotations_for_%s import manual_entries" % book["bibtex_key"])
+        #     print "adding manual annotations for %s" % book["bibtex_key"]
+            
+        # except:
+        #     print "no manual annotations for %s" % book["bibtex_key"]
+        #     continue
 
         min_similarity_ratio = 0.80
         if book["bibtex_key"] == "huber1992":
