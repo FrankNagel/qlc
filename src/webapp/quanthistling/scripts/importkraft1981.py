@@ -70,6 +70,9 @@ def insert_counterpart(entry, start, end, data):
         counterpart = re.sub(u"\)(?![ \t])", "", counterpart)
         counterpart = re.sub(u"[-\(\)]", "", counterpart)
 
+        if counterpart.strip() == "":
+            continue
+
         entry.append_annotation(s, e, "counterpart", "dictinterpretation",
             counterpart)
         entry.append_annotation(s, e, u'doculect',
