@@ -4,10 +4,13 @@ import sys, os, glob
 import re
 import codecs
 import HTMLParser
+import unicodedata
 sys.path.append(os.path.abspath('.'))
 
 import quanthistling.dictdata.books
 import quanthistling.dictdata.wordlistbooks
+
+import functions
 
 def main(argv):
 
@@ -33,7 +36,9 @@ def main(argv):
                 content = re.sub("&#34;", "\\\"", content)
                 content = re.sub("&quot;", "\\\"", content)
                 content = h.unescape(content)
-                #content = re.sub("\"", "\\\"", content)
+                content = functions.normalize_stroke(content)
+                content = unicodedata.normalize("NFD", content)
+
                 output.write(content)
                 output.write("\n")
                 f.close()
