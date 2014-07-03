@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "130. fw`ʔìkô",
+    "startpage" : 94,
+    "pos_on_page" : 39,
+    "language_bookname" : "Ngamo",
+    "concept" : "WOOD",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "fwˋʔìkô",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ngamo",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "nbh",
+                "start" : 5,
+                "end" : 14
+            },
+    ]
+})

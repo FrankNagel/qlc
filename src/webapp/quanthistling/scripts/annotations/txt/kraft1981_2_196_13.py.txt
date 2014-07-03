@@ -1,30 +1,30 @@
 
 manual_entries.append({
-    "fullentry" : "82. o̵lέm",
-    "startpage" : 93,
-    "pos_on_page" : 5,
-    "language_bookname" : "Kilba",
-    "concept" : "NAME",
+    "fullentry" : "407. satĭ",
+    "startpage" : 196,
+    "pos_on_page" : 13,
+    "language_bookname" : "Fali Gili",
+    "concept" : "STAND_UP",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "lέm",
-                "start" : 4,
+                "string" : "satǐ",
+                "start" : 5,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Kilba",
-                "start" : 4,
+                "string" : "Fali Gili",
+                "start" : 5,
                 "end" : 10
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso639-3",
-                "string" : "hbb",
-                "start" : 4,
+                "string" : "bcw",
+                "start" : 5,
                 "end" : 10
             },
     ]

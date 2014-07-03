@@ -1,0 +1,52 @@
+
+manual_entries.append({
+    "fullentry" : "199. pàtu/=vŏ",
+    "startpage" : 143,
+    "pos_on_page" : 74,
+    "language_bookname" : "Higi Baza",
+    "concept" : "CAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pàtu",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Baza",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vǒ",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Higi Baza",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "hig",
+                "start" : 12,
+                "end" : 15
+            },
+    ]
+})

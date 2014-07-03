@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "297. bĭy",
+    "startpage" : 184,
+    "pos_on_page" : 67,
+    "language_bookname" : "Fali Kiria",
+    "concept" : "WIDENESS",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bǐy",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Fali Kiria",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "fkk",
+                "start" : 5,
+                "end" : 9
+            },
+    ]
+})

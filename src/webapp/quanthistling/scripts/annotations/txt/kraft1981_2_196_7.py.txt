@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "404. pâmti pâmtì šĭti",
+    "startpage" : 196,
+    "pos_on_page" : 7,
+    "language_bookname" : "Fali Gili",
+    "concept" : "SELL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "pâmti pâmtì šǐti",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Fali Gili",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "bcw",
+                "start" : 5,
+                "end" : 26
+            },
+    ]
+})

@@ -14,7 +14,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "jáanch níja-t",
+                "string" : "jáanch níjat",
                 "start" : 0,
                 "end" : 10
             },

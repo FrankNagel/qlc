@@ -9,8 +9,8 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : " dzop dzop gˋda wυtsυmàyi",
-                "start" : 3,
+                "string" : "dzop dzop gὺda wυtsυmàyi",
+                "start" : 4,
                 "end" : 30
             },
             {

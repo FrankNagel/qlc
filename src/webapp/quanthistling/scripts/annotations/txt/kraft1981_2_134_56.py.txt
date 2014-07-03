@@ -1,6 +1,6 @@
 
 manual_entries.append({
-    "fullentry" : "314. kùma...r̃i kǎ ... r̃i",
+    "fullentry" : "314. kùma...r̃i kă ... r̃i",
     "startpage" : 134,
     "pos_on_page" : 56,
     "language_bookname" : "Higi Nkafa",
@@ -30,7 +30,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "kǎ r̃i",
+                "string" : "kǎ r̃i",
                 "start" : 17,
                 "end" : 28
             },

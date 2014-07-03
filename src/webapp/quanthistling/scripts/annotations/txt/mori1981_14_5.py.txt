@@ -14,7 +14,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "head",
-                "string" : "dáa@@jũch",
+                "string" : "dáa jũch",
                 "start" : 0,
                 "end" : 11
             },
