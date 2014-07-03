@@ -32,4 +32,5 @@ manual_entries.append({
                 "start" : 45,
                 "end" : 45
             },
+    ]
 })
