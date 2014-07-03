@@ -1890,4 +1890,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/aro'
     },
+    {
+        'name' : u'Maxakalí',
+        'langcode': u'mbl',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/mbl'
+    },
 ]

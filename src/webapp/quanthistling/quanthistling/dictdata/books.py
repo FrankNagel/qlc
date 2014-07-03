@@ -2132,6 +2132,32 @@ list = [
             }
         ]
     },
+    {
+        'title': u'Maxakalí-English Dictionary English-Maxakalí Glossary',
+        'author': u'Popovich, A. Harold and Popovich, Frances B.',
+        'year': 2005,
+        'bibtex_key': u'popovichpopovich2005',
+        'pages': 76,
+        'columns': 2,
+        'is_ready': False,
+        'type': 'dictionary',
+        'dictdata': [
+            {
+                'startpage': 1,
+                'endpage': 57,
+                'src_language_name': u'Maxakalí',
+                'tgt_language_name': u'English',
+                'src_language_bookname': u'Maxakalí',
+                'tgt_language_bookname': u'English',
+                're_letter_only': r'^\w\s*$',
+                'file': 'macro-ge/popovichpopovich2005_dictdata_1_57.xml',
+                'component': 'Macro-Ge'
+            },
+        ],
+        'nondictdata': [
+
+        ]
+    },
 
 ##################################### Nambiquaran
 

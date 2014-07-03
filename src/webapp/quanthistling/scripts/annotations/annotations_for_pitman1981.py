@@ -22,36 +22,6 @@ pos_regex = r'\(.*?\)'
 ord_regex = r'\d\. '
 chars_to_exclude = [u' ', u'-', u'–', u')']
 
-def _entry_end(entry):
-    brackets = [[a.start(0), a.end(0)] for a in re.finditer(r'\(.*?\)', entry.fullentry)]
-
-    entry_ended = False
-    start = 0
-    entry_end = len(entry.fullentry)
-
-    if re.search(r'\d\. ', entry.fullentry):
-        entry_ended = True
-
-    while not entry_ended:
-        period = entry.fullentry.find(u'.', start)
-        if period != -1:
-            if len(brackets) == 0:
-                entry_end = period
-                entry_ended = True
-            for b in brackets:
-                if b[0] <= period < b[1]:
-                    entry_ended = False
-                    start = b[1]
-                    break
-                else:
-                    entry_end = period
-                    entry_ended = True
-        else:
-            entry_end = len(entry.fullentry)
-            entry_ended = True
-
-    return entry_end
-
 
 def _adjust_start(entry, start):
     chars_to_skip = 0
