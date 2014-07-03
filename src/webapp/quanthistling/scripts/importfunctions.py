@@ -94,6 +94,10 @@ def insert_wordlistdata_to_db(Session, data, book):
     if data['language_bookname'] != "":
         language_bookname = Session.query(model.LanguageBookname).filter_by(name=data['language_bookname']).first()
         if language_bookname == None:
+            lang_bookname = data['language_bookname']
+            lang_bookname = normalize_stroke(lang_bookname)
+            lang_bookname = unicodedata.normalize("NFD", lang_bookname)
+
             language_bookname = insert_language_bookname_to_db(Session, data['language_bookname'])
         wordlistdata.language_bookname = language_bookname
     
@@ -230,8 +234,8 @@ def insert_nondictdata_to_db(Session, data, book, filename):
     elif book.bibtex_key == 'thiesen1998':
         html = re.sub(u"#003", u"-̀", html)
         html = re.sub(u"#004", u"-́", html)
-    html = unicodedata.normalize("NFD", html)
     html = normalize_stroke(html)
+    html = unicodedata.normalize("NFD", html)
     nondictdata.data = html
     nondictdata.book = book
 
