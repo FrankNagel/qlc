@@ -1957,6 +1957,32 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'PEQUENO VOCABULÁRIO PORTUGUÊS-TUPI',
+        'author' : u'Barbosa, Pe. A. Lemos',
+        'year' : 1970,
+        'bibtex_key' : u'barbosa1970',
+        'pages' : 229,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 17,
+                'endpage' : 214,
+                'src_language_name' : u'Portuguese',
+                'tgt_language_name' : u'Tupinikin',
+                'src_language_bookname' : u'Português',
+                'tgt_language_bookname' : u'Tupi',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'tupi/barbosa1970_dictdata_17_214.xml',
+                'component' : 'Tupí'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
     ##################### Carib ######################
 

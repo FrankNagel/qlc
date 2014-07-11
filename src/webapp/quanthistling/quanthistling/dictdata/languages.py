@@ -1896,4 +1896,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/mbl'
     },
+    {
+        'name' : u'Tupinikin',
+        'langcode': u'tpk',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/tpk'
+    },
 ]
