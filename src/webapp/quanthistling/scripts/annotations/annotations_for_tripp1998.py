@@ -22,206 +22,180 @@ from paste.deploy import appconfig
 
 import functions
 
-def annotate_everything(entry):
+
+rm_regex_period = re.compile(r"\.?\s*$")
+rm_regex_q_start = re.compile(ur"[¿¡]")
+rm_regex_q_end = re.compile(ur"[!?¡]$")
+rm_regex_brackets = re.compile(ur"[\(\)]")
+
+#copy from functions.py
+#additionally remove ¡ from end
+#and left/right double quotation marks
+def remove_parts(entry, start, end):
+    string = entry.fullentry[start:end]
+    
+    # remove whitespaces
+    try:
+        while string[0].isspace():
+            start = start + 1
+            string = entry.fullentry[start:end]
+        while string[-1].isspace():
+            end = end - 1
+            string = entry.fullentry[start:end]
+    except IndexError: # only whitespace
+        return 0, 0, u""
+    
+    match_period = rm_regex_period.search(string)
+    if match_period:
+        end = end - len(match_period.group(0))
+        string = entry.fullentry[start:end]
+
+    if rm_regex_q_start.match(string):
+        start = start + 1
+        string = entry.fullentry[start:end]
+
+    if rm_regex_q_end.search(string):
+        end = end - 1
+        string = entry.fullentry[start:end]
+
+    if string.startswith(u"(") and string.endswith(u")") and not rm_regex_brackets.search(string[1:-1]):
+        start = start + 1
+        end = end - 1
+        string = entry.fullentry[start:end]
+
+    if string.startswith(u'\u201C') and string.endswith(u'\u201D'):
+        start = start + 1
+        end = end - 1
+        string = entry.fullentry[start:end]
+    return start, end, string
+
+
+#parts are devided by ǁ 
+part_regex = re.compile(u'\u01c1|$')
+
+def annotate_parts(entry):
     # delete annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
+    annotations = [ a for a in entry.annotations
+                    if a.value in ['head', 'pos', 'translation', 'crossreference', 'iso-639-3', 'doculect']]
     for a in annotations:
         Session.delete(a)
         
-    # heads
-    head = None
     heads = []
-    
-    head_end_tmp = functions.get_last_bold_pos_at_start(entry)
-    head_tmp = entry.fullentry[:head_end_tmp]
-       
-    sep_list = []
-    for c in re.finditer(u',|;', head_tmp):
-        comma = True
-        for mb in re.finditer(u'\{.*?\}', head_tmp):
-            if c.start() > mb.start() and c.start() < mb.end():
-                comma = False
-        if comma:
-            sep_list.append(c.start())
-    
-    if sep_list:
-        for i in range(len(sep_list)):
-            if i == 0:
-                head_start = 0
-                head_end = sep_list[i]
-                functions.insert_head(entry, head_start, head_end)
-                
-                head2_start = sep_list[0] + 2
-                if i + 1 < len(sep_list):
-                    head2_end = sep_list[1]
-                    functions.insert_head(entry, head2_start, head2_end)
-                    i += 1
-                else:
-                    functions.insert_head(entry, head2_start, head_end_tmp)
-            else:
-                head_start = sep_list[i] + 2
-                if i + 1 < len(sep_list):
-                    head_end = sep_list[i+1]
-                    functions.insert_head(entry, head_start, head_end)
-                    i += 1
-                else:
-                    functions.insert_head(entry, head_start, head_end_tmp)   
-    else:
-        functions.insert_head(entry, 0, head_end_tmp)
-    
-    # look for cross-reference
-    crossref = False
-    substr = entry.fullentry[head_end_tmp + 1:]
-    if re.match(u'\(Véase .*?\)', substr):
-        crossref = True
-        for match_vea in re.finditer(u'\(Véase (.*?)\)', substr):
-            cref_start = match_vea.start(1) + head_end_tmp + 1
-            cref_end = match_vea.end(1) + head_end_tmp + 1
-            substr = entry.fullentry[cref_start:cref_end]
-            for match in re.finditer(u', ?', substr):
-                end = match.start(0) + cref_start
-                entry.append_annotation(cref_start, end, u'crossreference', u'dictinterpretation')
-                cref_start = match.end(0) + cref_start
-            entry.append_annotation(cref_start, cref_end, u'crossreference', u'dictinterpretation')
-    
-    # part of speech
-    pos_se = functions.get_first_italic_range(entry)
-    if pos_se:
-        pos = entry.fullentry[pos_se[0]:pos_se[1]]
-        comma = False
-        for com in re.finditer(r',|\+ ', pos):
-            comma = True
-            if comma:
-                p1_end = com.start() + pos_se[0]
-                functions.insert_pos(entry, pos_se[0], p1_end)
-                p2_start = com.end() + pos_se[0]
-                functions.insert_pos(entry, p2_start, pos_se[1])
-        if not comma:
-            functions.insert_pos(entry, pos_se[0], pos_se[1])
-        
-        t_start = pos_se[1] + 1
-        
-        # for forms pos + <i>pos.</i>  
-        substr = entry.fullentry[pos_se[1] + 1:]
-        sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
-        sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
-        if len(sorted_annotations) == 2:
-            for m in re.finditer(u'\+ (pos\.)', substr):
-                if m.start(1) + pos_se[1] + 1 == sorted_annotations[1].start:
-                    functions.insert_pos(entry, sorted_annotations[1].start, sorted_annotations[1].end)
-                    t_start = sorted_annotations[1].end + 1
-    else:
-        t_start = head_end_tmp + 1
-      
-    # translations
-    if not crossref:
-        substr = entry.fullentry[t_start:]
-        dot_list = []
-        for d in re.finditer(u'\.(?!\.|\w)', substr):
-            dot = True
-            for match_bracket in re.finditer(u'\(.*?\)', substr):
-                if d.start() > match_bracket.start() and d.start() < match_bracket.end():
-                    dot = False
-            if dot:
-                dot_list.append(d.start() + t_start)
-        
-        if dot_list:
-            t_end_tmp = dot_list[0]
-        else:
-            t_end_tmp = len(entry.fullentry)
-        
-        comma_list = []
-        tr_tmp = entry.fullentry[t_start:t_end_tmp]
-        for com in re.finditer(r'(,|;)', tr_tmp):
-            comma = True
-            for match_bracket in re.finditer(u'\(.*?\)', tr_tmp):
-                if com.start() > match_bracket.start() and com.start() < match_bracket.end():
-                    comma = False
-            if comma:
-                comma_list.append(com.start() + t_start)
-        
-        numbers = False
-        counter = 0
-        num_list = []
-        for n in re.finditer(r'\d\.', substr):
-            if counter == 0:
-                if n.start() + t_start == t_start:
-                    numbers = True
-            counter += 1
-            
-            if numbers:
-                num_list.append(n.end() + t_start)
-        
-        num_dot_list = []
-        if num_list:
-            for v in num_list:
-                if v - 1 in dot_list:
-                    try:
-                        num_dot_list.append(dot_list[dot_list.index(v - 1) + 1])
-                    except:
-                        print 'Cannot make numbers dot list', functions.print_error_in_entry(entry)
-            
-            if len(num_list) != len(num_dot_list):
-                print 'number of numbers and dots unequal, ', functions.print_error_in_entry(entry)
-            else:
-                for i in range(len(num_list)):
-                    start = num_list[i] + 1
-                    end = num_dot_list[i]
-                    num_comma_list = [ a for a in comma_list if a < end and a > start]
-                    if num_comma_list:
-                        for j in range(len(num_comma_list)):
-                            if j == 0:
-                                trans_s = start
-                                trans_e = num_comma_list[j]
-                                functions.insert_translation(entry, trans_s, trans_e)
-                                
-                                trans2_s = num_comma_list[0] + 2
-                                if j + 1 < len(num_comma_list):
-                                    trans2_e = num_comma_list[j+1]
-                                    functions.insert_translation(entry, trans2_s, trans2_e)
-                                else:
-                                    functions.insert_translation(entry, trans2_s, num_dot_list[i])
-                                
-                            else:
-                                trans_s = num_comma_list[j] + 2
-                                if j + 1 < len(num_comma_list):
-                                    trans_e = num_comma_list[j+1]
-                                    functions.insert_translation(entry, trans_s, trans_e)
-                                else:
-                                    functions.insert_translation(entry, trans_s, num_dot_list[i])
-                    else:
-                        trans_s = num_list[i] + 1
-                        trans_e = num_dot_list[i]
-                        functions.insert_translation(entry, trans_s, trans_e)
-                  
-            
-        elif comma_list and not num_list:
-            for i in range(len(comma_list)):
-                if i == 0:
-                    trans_e = comma_list[i]
-                    functions.insert_translation(entry, t_start, trans_e)
-                    
-                    trans2_s = comma_list[0] + 2
-                    if i + 1 < len(comma_list):
-                        trans2_e = comma_list[i+1]
-                        functions.insert_translation(entry, trans2_s, trans2_e)
-                    else:
-                        functions.insert_translation(entry, trans2_s, t_end_tmp)
-                        
-                else:
-                    trans_s = comma_list[i] + 2
-                    if i + 1 < len(comma_list):
-                        trans_e = comma_list[i+1]
-                        functions.insert_translation(entry, trans_s, trans_e)
-                    else:
-                        functions.insert_translation(entry, trans_s, t_end_tmp)  
-        else:
-            functions.insert_translation(entry, t_start, t_end_tmp)
-            
+    start = 0
+    for match in part_regex.finditer(entry.fullentry):
+        end = match.start()
+        start = annotate_head(entry, start, end, heads)
+        start_cr = annotate_crossref(entry, start, end)
+        if not start_cr:
+            start = annotate_pos(entry, start, end)
+            annotate_translation(entry, start, end)
+        start = match.end()
     return heads
 
-def main(argv):
+#heads are bold and divided by ',' or ';'
+head_regex = re.compile(',|;|$')
 
+def annotate_head(entry, start, end, heads):
+    bold = functions.get_list_ranges_for_annotation(entry, 'bold', start, end)
+    if not bold:
+        return start
+    head_end = min(bold[0][1], end) #head entry is always bold
+    for match in head_regex.finditer(entry.fullentry, start, head_end):
+        hstart, hend, head = remove_parts(entry, start, match.start(0))
+        functions.insert_head(entry, hstart, hend, head)
+        heads.append(head)
+        start = match.end(0)
+    return head_end
+
+
+#crossrefs start with '(Véase'
+crossref_regex = re.compile(ur'\s*\(Véase (.*?)\)\s*')
+#crossrefs are seperated by ','
+crossref_div_regex = re.compile(r',|$')
+#sometimes they contain a POS; they 're removed
+crossref_pos_regex = re.compile(r'\s*([a-z]+\.,)*([a-z]+\.)')
+
+def annotate_crossref(entry, start, end):
+    match = crossref_regex.match(entry.fullentry, start, end)
+    if not match:
+        return None
+    cstart = match.start(1)
+    for match2 in crossref_div_regex.finditer(entry.fullentry, match.start(1), match.end(1)):
+        pos = crossref_pos_regex.search(entry.fullentry, cstart, match2.start())
+        if pos:
+            cend = pos.start()
+        else:
+            cend = match2.start()
+        cstart, cend, crossref = remove_parts(entry, cstart, cend)
+        if crossref:
+            entry.append_annotation(cstart, cend, u'crossreference', u'dictinterpretation', crossref)
+        cstart = match2.end()
+    return match.end(0)
+
+
+pos_div_regex = re.compile(r',|\+|$')
+
+def annotate_pos(entry, start, end):
+    #pos are formatted in italic
+    pos_se = functions.get_list_ranges_for_annotation(entry, 'italic', start, end)
+    #use only italic entries at the start (incl. <i>pos</i> + <i>pos</i>)
+    for i in xrange(1, len(pos_se)):
+        if pos_se[i][0] - pos_se[i-1][1] > 5:
+            pos_se[i:] = []
+            break
+    match = None
+    for pstart, pend in pos_se:
+        for match in pos_div_regex.finditer(entry.fullentry, pstart, pend):
+            pstart, pend, pos = remove_parts(entry, pstart, match.start())
+            entry.append_annotation(pstart, pend, u'pos', u'dictinterpretation', pos)
+            pstart = match.end()
+    if match:
+        return match.end()
+    else:
+        return start
+
+def find_brackets(entry):
+    result = []
+    for match in re.finditer(r'\([^\)]*\)', entry.fullentry):
+        result.append( (match.start(), match.end()) )
+    return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
+
+def find_free_point(entry, start, end, in_brackets):
+    while True:
+        i = entry.fullentry.find('.', start, end)
+        if i == -1:
+            return -1
+        if not in_brackets(i):
+            return i
+        start = i + 1
+
+#translations are sometimes numbered
+regex_numbered_trans = re.compile(ur"[0-9]+\.|$")
+#divided by ',' or ';'
+regex_div_trans = re.compile(ur",|;|$")
+
+def annotate_translation(entry, start, end):
+    in_brackets = find_brackets(entry)
+    bold = functions.get_list_ranges_for_annotation(entry, 'bold', start, end)
+    nstart = start
+    for match in regex_numbered_trans.finditer(entry.fullentry, start, end):
+        #find end of translation: Either start of bold region, or a point
+        bold_starts = [b[0] for b in bold if b[0] >= nstart and b[0] <= match.start()]
+        tend = bold_starts and bold_starts[0] or match.start()
+        first_point = find_free_point(entry, nstart, tend, in_brackets)
+        if first_point != -1:
+            tend = first_point
+        tstart = nstart
+        for match2 in regex_div_trans.finditer(entry.fullentry, nstart, tend):
+            if in_brackets(match2.start()):
+                continue
+            tstart, tend, trans = remove_parts(entry, tstart, match2.start())
+            functions.insert_translation(entry, tstart, tend, trans)
+            tstart = match2.end()
+        nstart = match.end()
+
+        
+def main(argv):
     bibtex_key = u"tripp1998"
     
     if len(argv) < 2:
@@ -248,7 +222,7 @@ def main(argv):
         startletters = set()
     
         for e in entries:
-            heads = annotate_everything(e)
+            heads = annotate_parts(e)
             if not e.is_subentry:
                 for h in heads:
                     if len(h) > 0:
@@ -257,6 +231,6 @@ def main(argv):
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
 
         Session.commit()
-
+        
 if __name__ == "__main__":
     main(sys.argv)
