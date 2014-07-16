@@ -1902,4 +1902,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/tpk'
     },
+    {
+        'name' : u'Hupdë',
+        'langcode': u'jup',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/jup'
+    },
 ]

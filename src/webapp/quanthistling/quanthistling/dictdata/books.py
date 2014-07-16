@@ -1980,7 +1980,20 @@ list = [
             },
         ],
         'nondictdata' : [
-
+            {
+                'startpage' : 0,
+                'endpage' : 16,
+                'title': u'Start pages',
+                'file' : 'tupi/barbosa1970_nondictdata_0_16.htm',
+                'component' : 'Tupí'
+            },
+            {
+                'startpage' : 215,
+                'endpage' : 229,
+                'title': u'Apêndice',
+                'file' : 'tupi/barbosa1970_nondictdata_215_229.htm',
+                'component' : 'Tupí'
+            },
         ]
     },
 
@@ -2181,7 +2194,13 @@ list = [
             },
         ],
         'nondictdata': [
-
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'macro-ge/popovichpopovich2005_nondictdata_0_0.htm',
+                'component' : 'Macro-Ge'
+            },
         ]
     },
 
@@ -2399,7 +2418,7 @@ list = [
         ]
     },
     {
-        'title' : u'DICCIONARIO Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
+        'title' : u'Diccionario Chayahuita ~ Castellano Canponanquë Nisha Nisha Nonacaso\'',
         'author' : u'Hart, Helen',
         'year' : 1988,
         'bibtex_key' : u'hart1988',
@@ -2425,6 +2444,44 @@ list = [
                 'endpage' : 20,
                 'title': u'Start pages',
                 'file' : 'other/hart1988_nondictdata_1_20.htm',
+                'component' : 'Other'
+            },
+        ]
+    },
+    {
+        'title' : u'A Língua dos Hupd’äh do alto Rio Negro',
+        'author' : u'Ramirez, Henri',
+        'year' : 2006,
+        'bibtex_key' : u'ramirez2006',
+        'pages' : 272,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 39,
+                'endpage' : 218,
+                'src_language_name' : u'Hupdë',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Hup',
+                'tgt_language_bookname' : u'Português',
+                'file' : 'other/ramirez2006_dictdata_39_218.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 36,
+                'title': u'Start pages',
+                'file' : 'other/ramirez2006_nondictdata_0_36.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 265,
+                'endpage' : 272,
+                'title': u'Guia de conversção',
+                'file' : 'other/ramirez2006_nondictdata_265_272.htm',
                 'component' : 'Other'
             },
         ]
@@ -2934,6 +2991,13 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 9,
+                'title': u'Start pages',
+                'file' : 'tacanan/pitman1981_nondictdata_0_9.htm',
+                'component' : 'Tacanan'
+            },
 
         ]
     },
