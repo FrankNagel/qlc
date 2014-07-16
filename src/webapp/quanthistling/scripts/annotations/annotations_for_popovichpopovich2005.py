@@ -117,7 +117,7 @@ def main(argv):
         startletters = set()
     
         for e in entries:
-            print 'current page: %i, pos_on_page: %i' % (e.startpage, e.pos_on_page)
+            #print 'current page: %i, pos_on_page: %i' % (e.startpage, e.pos_on_page)
 
             heads = annotate_everything(e)
             if not e.is_subentry:

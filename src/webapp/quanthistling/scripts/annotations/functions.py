@@ -43,18 +43,25 @@ def print_error_in_entry(entry, error_string = "error in entry"):
     print "   startpage: %i, pos_on_page: %i" % (entry.startpage, entry.pos_on_page)
     
 
-def get_bold_range(entry):
+def get_bold_range(entry, max_from_start = 0):
     sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
 
-    last_bold_end = -1
+    if len(sorted_annotations) == 0:
+        return -1, -1
+
+    if sorted_annotations[0].start > max_from_start:
+        return -1, -1
+        
+    last_bold_end = sorted_annotations[0].start
+    first_bold_start = sorted_annotations[0].start
     at_start = True
     for a in sorted_annotations:
         if at_start and (a.start <= (last_bold_end + 1)):
-            first_bold_start = a.start
             last_bold_end = a.end            
         else:
             at_start = False
+
     return first_bold_start, last_bold_end
 
 def get_dict_bold_ranges(entry):
