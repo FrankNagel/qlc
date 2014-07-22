@@ -64,6 +64,7 @@ def remove_parts(entry, s, e):
         end = end - len(match_numbers.group(0))
         string = entry.fullentry[start:end]
 
+    string = string.replace(u'¡', '')
     return (start, end, string)
 
 def find_brackets(entry):
@@ -75,42 +76,41 @@ def find_brackets(entry):
     result.sort()
     return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
 
-def find_free_point(entry, start, end, in_brackets):
-    while True:
-        i = entry.fullentry.find('.', start, end)
-        if i == -1:
-            return -1
-        if not in_brackets(i):
-            return i
-        start = i + 1
+def find_free_end_symbol(entry, start, end, in_brackets):
+    pattern = re.compile(u'[.—]|! \(')
+    for match in pattern.finditer(entry.fullentry, start, end):
+        if not in_brackets(match.start()):
+            return match.start()
+    return -1
     
-def annotate_translation_part(entry, part_start, part_end, bold, in_brackets):
-    bold_starts = [b[0] for b in bold if b[0] >= part_start and b[0] <= part_end]
-    if bold_starts:
-        part_end = bold_starts[0]
-    first_point = find_free_point(entry, part_start, part_end, in_brackets)
+def annotate_translation_part(entry, part_start, part_end, marked, in_brackets):
+    marked_starts = [b[0] for b in marked if b[0] >= part_start and b[0] <= part_end]
+    if marked_starts:
+        part_end = marked_starts[0]
+    first_point = find_free_end_symbol(entry, part_start, part_end, in_brackets)
     if first_point != -1:
         part_end = first_point
     part = entry.fullentry[part_start:part_end]
     translation_start = part_start
-    for translation in re.finditer('(.+?)(; |, |$)', part):
+    for translation in re.finditer('(.+?)(; |, |! |$)', part):
         if not in_brackets(part_start + translation.start(2)):
             #print 'part', part, translation_start, part_start+translation.end(1)
-            functions.insert_translation(entry, translation_start, part_start+translation.end(1))
+            functions.insert_translation(entry, *remove_parts(entry, translation_start, part_start+translation.end(1)))
             translation_start = part_start + translation.end(2)
 
 def annotate_translations(entry, t_start):
-    bold = functions.get_list_ranges_for_annotation(entry, 'bold', t_start)
+    marked = functions.get_list_ranges_for_annotation(entry, 'bold', t_start)
+    marked.extend(functions.get_list_ranges_for_annotation(entry, 'italic', t_start))
     in_brackets = find_brackets(entry)
     part = None
     for part in re.finditer('[1-9][0-9]*\. (.*?)(?=[1-9][0-9]*\.|$)', entry.fullentry):
         if part.start() < t_start:
             continue
         #print 'num_trans', part.start(1), part.end(1)
-        annotate_translation_part(entry, part.start(1), part.end(1), bold, in_brackets)
+        annotate_translation_part(entry, part.start(1), part.end(1), marked, in_brackets)
     if part is None:
         #print 'trans', t_start, len(entry.fullentry)
-        annotate_translation_part(entry, t_start, len(entry.fullentry), bold, in_brackets)
+        annotate_translation_part(entry, t_start, len(entry.fullentry), marked, in_brackets)
 
 def annotate_everything(entry):
     # delete annotations
@@ -215,6 +215,7 @@ def main(argv):
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=103,pos_on_page=2).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=237,pos_on_page=6).all()
 
         startletters = set()
     
