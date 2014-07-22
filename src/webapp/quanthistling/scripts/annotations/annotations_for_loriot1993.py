@@ -22,14 +22,14 @@ from paste.deploy import appconfig
 
 import functions
 
-#find end of translation as first occurence of '-Usase'
-usase_regex = re.compile(u'[-–]Usase')
-def find_usase_start(entry, start, end):
+#find end of translation as first occurence of '-Usase' or 'véase' or 'sinón'
+trans_end_regex = re.compile(u'[-–]Usase|[Vv]e\u0301ase|sino\u0301n')
+def find_translation_end(entry, start, end):
     #when a translation contains only a 'usase' this should be used as translation (including the 'usase')
     #according to clinares; accordingly don't dismiss this part.
     #if entry.fullentry[start:].startswith('Usase'): # '-' gets stripped from translation if '-' is in first position
     #    return start
-    match = usase_regex.search(entry.fullentry, start)
+    match = trans_end_regex.search(entry.fullentry, start)
     if match is None or match.start() >= end:
         return end
     return match.start()
@@ -115,7 +115,6 @@ def annotate_additional_crossrefs(entry):
                 if len(cr) < 35: #constant derived from data to sift out bogus crossrefs
                     entry.append_annotation(cr_start, cr_end, u'crossreference', u'dictinterpretation', cr)
                 else:
-                    functions.print_error_in_entry(entry, 'skipping long crossref: ' + cr.encode('utf8'))
                     break
             cr_start = match.end()
             
@@ -162,15 +161,17 @@ def annotate_translations(entry):
     for i in range(len(translations_starts)):
         substr = entry.fullentry[translations_starts[i]:translations_ends[i]]
         start = translations_starts[i]
-        for match in re.finditer(u"(?: : ?|$)", substr):
+        for match in re.finditer(u"(?:( [0-9]+)? : ?|$)", substr):
             end = match.start(0) + translations_starts[i]
             subsubstr = entry.fullentry[start:end]
             if not(re.match(r"\s*$", subsubstr)):
                 match_star = re.match(" ?\*", subsubstr)
                 if match_star:
                     start += len(match_star.group(0))
-                end = find_usase_start(entry, start, end)
-                functions.insert_translation(entry, start, end)
+                end = find_translation_end(entry, start, end)
+                tstart, tend, string = functions.remove_parts(entry, start, end)
+                string = string.replace('*', '')
+                functions.insert_translation(entry, start, end, string)
                 
             start = match.end(0) + translations_starts[i]
 
