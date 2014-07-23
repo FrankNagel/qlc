@@ -45,6 +45,8 @@ def main(argv):
 
     subdirs = os.walk(packages_dir).next()[1]
 
+    myzip_all = zipfile.ZipFile(os.path.join(packages_dir, "data.zip"), 'w', zipfile.ZIP_DEFLATED)
+
     for subdir in subdirs:
         print("Copying files for {0}...".format(subdir))
 
@@ -62,13 +64,14 @@ def main(argv):
         #         shutil.copy(full_file_name, to_graf_dir)
 
         # Copy PDFs
-        to_pdf_dir = os.path.join(packages_dir, subdir)
-        from_pfds = os.path.join(pdf_base_path, "{0}_*.pdf".format(subdir))
-        pdf_files = glob.glob(from_pfds)
-        pdf_files.append(os.path.join(pdf_base_path, "{0}.pdf".format(subdir)))
-        for pdf_file in pdf_files:
-            if (os.path.isfile(pdf_file)):
-                shutil.copy(pdf_file, to_pdf_dir)            
+        if not config['filtered']:
+            to_pdf_dir = os.path.join(packages_dir, subdir)
+            from_pfds = os.path.join(pdf_base_path, "{0}_*.pdf".format(subdir))
+            pdf_files = glob.glob(from_pfds)
+            pdf_files.append(os.path.join(pdf_base_path, "{0}.pdf".format(subdir)))
+            for pdf_file in pdf_files:
+                if (os.path.isfile(pdf_file)):
+                    shutil.copy(pdf_file, to_pdf_dir)            
 
         # Copy annotation file
         to_scripts_dir = os.path.join(packages_dir, subdir, 'scripts')
@@ -96,10 +99,10 @@ def main(argv):
         for root, dirnames, files in os.walk(os.path.join(packages_dir, subdir)):
             for f in files:
                 myzip.write(os.path.join(root, f), os.path.relpath(os.path.join(root, f), packages_dir))
+                myzip_all.write(os.path.join(subdir, root, f), os.path.relpath(os.path.join(subdir, root, f), packages_dir))
         myzip.close()
 
-
-
+    myzip_all.close()
 
 
 if __name__ == "__main__":
