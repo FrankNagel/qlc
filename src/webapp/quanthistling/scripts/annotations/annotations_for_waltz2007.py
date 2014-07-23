@@ -54,7 +54,51 @@ def annotate_heads(entry):
                 heads.append(head)
     return heads
 
+def remove_parts(entry, s, e):
+    start = s
+    end = e
+    string = entry.fullentry[start:end]
+    # remove whitespaces
+    while re.match(r" ", string):
+        start = start + 1
+        string = entry.fullentry[start:end]
 
+    match_period = re.search(r"\.? *$", string)
+    if match_period:
+        end = end - len(match_period.group(0))
+        string = entry.fullentry[start:end]
+
+    if re.match(u"[¿¡]", string):
+        start = start + 1
+        string = entry.fullentry[start:end]
+
+    if re.search(u"[!?]$", string):
+        end = end - 1
+        string = entry.fullentry[start:end]
+
+    if re.match(u"\(", string) and re.search(u"\)$", string) and not re.search(u"[\(\)]", string[1:-1]):
+        start = start + 1
+        end = end - 1        
+        string = entry.fullentry[start:end]
+
+    string = string.replace('!', '')
+    string = string.replace('?', '')
+    return (start, end, string)
+
+trans_end_regex = re.compile(u'sino\u0301n|ej\.')
+def search_translation_end(entry, start, end):
+    match = trans_end_regex.search(entry.fullentry, start)
+    if match is None or match.start() >= end:
+        return end
+    return match.start()
+
+def insert_translation(entry, start, end):
+    #print entry.fullentry[start:end]
+    end = search_translation_end(entry, start, end)
+    start, end, string = remove_parts(entry, start, end)
+    #print string
+    functions.insert_translation(entry, start, end, string)
+    
 def annotate_everything(entry):
     # delete annotations
     annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -71,7 +115,7 @@ def annotate_everything(entry):
         pos = entry.fullentry[pos_se[0]:pos_se[1]]
         functions.insert_pos(entry, pos_se[0], pos_se[1], pos)
     else:
-        print functions.print_error_in_entry(entry), "No part of speech (1)"
+        functions.print_error_in_entry(entry, "No part of speech (1)")
   
     # translations
     num_list = []
@@ -92,7 +136,7 @@ def annotate_everything(entry):
         try:
             dot_list_bpe = [a for a in dot_list if a > pos_se[1]]
         except:
-            print functions.print_error_in_entry(entry), "No part of speech (2)"
+            functions.print_error_in_entry(entry, "No part of speech (2)")
             
     comma_list = []
     for com in re.finditer(r'(,|;)', entry.fullentry):
@@ -104,7 +148,7 @@ def annotate_everything(entry):
         try:
             comma_list_bpe = [a for a in comma_list if a > pos_se[1] and a < dot_list_bpe[0]]
         except:
-            print functions.print_error_in_entry(entry), "No part of speech (3)"
+            functions.print_error_in_entry(entry, "No part of speech (3)")
     
     num_dot_list = []
  
@@ -129,29 +173,29 @@ def annotate_everything(entry):
                     if j == 0:
                         trans_s = start
                         trans_e = num_comma_list[j]
-                        translation = functions.insert_translation(entry, trans_s, trans_e)
+                        insert_translation(entry, trans_s, trans_e)
                         
                         trans2_s = num_comma_list[0] + 2
                         if j + 1 < len(num_comma_list):
                             trans2_e = num_comma_list[j+1]
-                            translation = functions.insert_translation(entry, trans2_s, trans2_e)
+                            insert_translation(entry, trans2_s, trans2_e)
                         else:
-                            translation = functions.insert_translation(entry, trans2_s, num_dot_list[i])
+                            insert_translation(entry, trans2_s, num_dot_list[i])
                         
                     else:
                         trans_s = num_comma_list[j] + 2
                         if j + 1 < len(num_comma_list):
                             trans_e = num_comma_list[j+1]
-                            translation = functions.insert_translation(entry, trans_s, trans_e)
+                            insert_translation(entry, trans_s, trans_e)
                         else:
-                            translation = functions.insert_translation(entry, trans_s, num_dot_list[i])
+                            insert_translation(entry, trans_s, num_dot_list[i])
             else:
                 trans_s = num_list_bpe[i]
                 try:
                     trans_e = num_dot_list[i]
-                    translation = functions.insert_translation(entry, trans_s, trans_e)
-                except:
-                    print functions.print_error_in_entry(entry)
+                    insert_translation(entry, trans_s, trans_e)
+                except Exception, e:
+                    functions.print_error_in_entry(entry, e)
                 
     
     elif comma_list_bpe and not num_list_bpe:
@@ -159,27 +203,26 @@ def annotate_everything(entry):
             if i == 0:
                 trans_s = pos_se[1] + 1
                 trans_e = comma_list_bpe[i]
-                translation = functions.insert_translation(entry, trans_s, trans_e)
+                insert_translation(entry, trans_s, trans_e)
                 
                 trans2_s = comma_list_bpe[0] + 2
                 if i + 1 < len(comma_list_bpe):
                     trans2_e = comma_list_bpe[i+1]
-                    translation = functions.insert_translation(entry, trans2_s, trans2_e)
+                    insert_translation(entry, trans2_s, trans2_e)
                 else:
-                    translation = functions.insert_translation(entry, trans2_s, dot_list_bpe[0])
+                    insert_translation(entry, trans2_s, dot_list_bpe[0])
             else:
                 trans_s = comma_list_bpe[i] + 2
                 if i + 1 < len(comma_list_bpe):
                     trans_e = comma_list_bpe[i+1]
-                    translation = functions.insert_translation(entry, trans_s, trans_e)
+                    insert_translation(entry, trans_s, trans_e)
                 else:
-                    translation = functions.insert_translation(entry, trans_s, dot_list_bpe[0])
-    else:    
+                    insert_translation(entry, trans_s, dot_list_bpe[0])
+    else:
         try:
-            translation = entry.fullentry[pos_se[1] + 1:dot_list_bpe[0]]
-            functions.insert_translation(entry, pos_se[1] + 1, dot_list_bpe[0], translation)
+            insert_translation(entry, pos_se[1] + 1, dot_list_bpe[0])
         except:
-            print functions.print_error_in_entry(entry), "No part of speech (4)"
+            functions.print_error_in_entry(entry, "No translation found")
 
     return heads
 
@@ -208,6 +251,7 @@ def main(argv):
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=26,pos_on_page=1).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=13,pos_on_page=1).all()
 
         startletters = set()
     
