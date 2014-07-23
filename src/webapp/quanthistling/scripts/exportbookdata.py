@@ -185,7 +185,7 @@ def main(argv):
                 if len(counterparts) > 0:
                     for i in range(0,len(counterparts)):
                         counterpart = counterparts[i].string
-                        url = url_for(controller='book', action='entryid_wordlist', bibtexkey=b['bibtex_key'], concept=counterparts[i].entry.concept.concept, language_bookname=wordlistdata.language_bookname, format='html')
+                        url = url_for(controller='book', action='entryid_wordlist', bibtexkey=b['bibtex_key'], concept=counterparts[i].entry.concept.concept, language_bookname=wordlistdata.language_bookname.name, format='html')
                         file_counterparts.write(counterpart.strip().encode('utf-8') + "\thttp://www.quanthistling.info/data-full" + url + "\n")
 
             # create archive
