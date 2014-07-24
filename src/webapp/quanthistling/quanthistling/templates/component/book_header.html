@@ -41,8 +41,13 @@ if current_page != None:
     <div id="booknavigation">
     
     <p class="export-button">
-        <a class="export-button" href="${h.url_for('/downloads/xml/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary GrAF package</a><br/>
+        % for dictdata in c.book.dictdata:
+            <a class="export-button" href="${h.url_for('/downloads/csv/%s-%s-%s.csv' % ( str(c.book.bibtex_key.encode('us-ascii')), dictdata.startpage, dictdata.endpage ))}">Dictionary CSV file (pp. ${dictdata.startpage}-${dictdata.endpage})</a><br/>
+        % endfor
+        <a class="export-button" href="${h.url_for('/downloads/datapackages/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary data package</a><br/>
+        % if config['filtered'] != "true":
         <a class="export-button" href="${h.url_for('/downloads/txt/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
+        % endif
     </p>
     
     ${book_letter_navigation()}
@@ -77,7 +82,10 @@ if current_page != None:
     <div id="booknavigation">
 
     <p class="export-button">
-        <a class="export-button" href="${h.url_for('/downloads/txt/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Dictionary interpretation .txt lists</a>
+        <a class="export-button" href="${h.url_for('/downloads/csv/%s.csv' % str(c.book.bibtex_key.encode('us-ascii')))}">Wordlist CSV file</a><br/>
+        % if config['filtered'] != "true":
+            <a class="export-button" href="${h.url_for('/downloads/txt/%s.zip' % str(c.book.bibtex_key.encode('us-ascii')))}">Wordlist interpretation .txt lists</a>
+        % endif
     </p>
 
     % if hasattr(c, 'pagenr'):
