@@ -1741,6 +1741,31 @@ list = [
             }
         ]
     },
+    {
+        'title' : u'DICIONÁRIO BILÍNGUE NAS LÍNGUAS PAUMARÍ E PORTUGUESA',
+        'author' : u'Salzer, Meinke and Chapman, Shirley',
+        'year' : 1998,
+        'bibtex_key' : u'salzerchapman1998',
+        'pages' : 778,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 45,
+                'endpage' : 371,
+                'src_language_name' : u'Paumarí',
+                'tgt_language_name' : u'Portuguese',
+                'src_language_bookname' : u'Paumarí',
+                'tgt_language_bookname' : u'Português',
+                're_letter_only': r'^\w\s*$',
+                'file' : 'arauan/salzerchapman1998_dictdata_45_371.xml',
+                'component' : 'Arauan'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
 
     ############### Tupí ################
 

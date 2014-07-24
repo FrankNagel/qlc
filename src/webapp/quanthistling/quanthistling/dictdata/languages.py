@@ -1908,4 +1908,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/jup'
     },
+    {
+        'name' : u'Paumarí',
+        'langcode': u'pad',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/pad'
+    },
 ]
