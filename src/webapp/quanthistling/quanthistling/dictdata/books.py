@@ -2511,6 +2511,31 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'VOCABULARIO JUPDA-ESPAÑOL-PORTUGUÊS',
+        'author' : u'Erickson, Timothy and Erickson, Catherine Groth',
+        'year' : 1993,
+        'bibtex_key' : u'ericksonerickson1993',
+        'pages' : 148,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 64,
+                'src_language_name' : u'Hupdë',
+                'tgt_language_name' : [u'Spanish', u'Portuguese'],
+                'src_language_bookname' : u'Jupda',
+                'tgt_language_bookname' : [u'Español', u'Português'],
+                'file' : 'other/ericksonerickson1993_dictdata_1_64.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
 ##################################### Arawak
 
