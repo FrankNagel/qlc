@@ -36,7 +36,9 @@ def annotate_heads(entry):
     if inf_match:
         infinitive = inf_match.group(2)
         if head.startswith(infinitive) or inf_match.group(1):
-            head = functions.insert_head(entry, inf_match.start(2), inf_match.end(2))
+            start, end, head = functions.remove_parts(entry,  inf_match.start(2), inf_match.end(2))
+            head = head.replace('-', '')
+            head = functions.insert_head(entry, start, end, head)
             if head:
                 heads.append(head)
             return heads
@@ -87,7 +89,9 @@ def check_insert_head(entry, start, end):
     index = snip.find('(')
     if index != -1:
         end = index
-    return functions.insert_head(entry, start, end)
+    start, end, head = functions.remove_parts(entry, start, end)
+    head = head.replace('-', '')
+    return functions.insert_head(entry, start, end, head)
                      
 def annotate_everything(entry):
     # delete head annotations
