@@ -118,6 +118,7 @@ def main(argv):
                 concept = v[0].upper()
                 concept = re.sub(u" ", u"_", concept)
                 concept = re.sub(u"'", u"_", concept)
+                concept = re.sub(u"/", u"_", concept)
                 concept = re.sub(u"\(", u"", concept)
                 concept = re.sub(u"\)", u"", concept)
                 concept = re.sub(u"\?", u"", concept)

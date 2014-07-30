@@ -44,7 +44,8 @@ def main(argv):
     
 
     #for b in []:
-    for b in quanthistling.dictdata.books.list + quanthistling.dictdata.toolboxfiles.list:
+    for b in quanthistling.dictdata.books.list + quanthistling.dictdata.toolboxfiles.list \
+            + quanthistling.dictdata.wordlistbooks.list:
         if bibtex_key_param != None and bibtex_key_param != b['bibtex_key']:
             continue
         
@@ -72,9 +73,16 @@ def main(argv):
             annotations_dictinterpretation_file = codecs.open(os.path.join(annotations_dir, "dictinterpretation.csv"), "w", "utf-8")
             annotations_dictinterpretation_file.write("ENTRY_ID\tSTART\tEND\tVALUE\tANNOTATION\n")
 
-            entries = model.meta.Session.query(model.Entry).filter(model.Entry.book_id==book.id).order_by("startpage", "pos_on_page").all()
+            if book.type == "wordlist":
+                entries = model.meta.Session.query(model.Entry).filter(model.WordlistEntry.book_id==book.id).order_by("startpage", "pos_on_page").all()
+            else:
+                entries = model.meta.Session.query(model.Entry).filter(model.Entry.book_id==book.id).order_by("startpage", "pos_on_page").all()
             for e in entries:
-                entry_id = "{0}/{1}/{2}".format(book.bibtex_key, e.startpage, e.pos_on_page)
+                if book.type == "wordlist":
+                    entry_id = u"{0}/{1}/{2}".format(book.bibtex_key, wordlistdata.language_bookname.name, e.concept.concept)
+                else:
+                    entry_id = "{0}/{1}/{2}".format(book.bibtex_key, e.startpage, e.pos_on_page)
+
                 entry_file.write(u"{0}\t{1}\n".format(entry_id, e.fullentry))
 
                 for a in e.annotations:
