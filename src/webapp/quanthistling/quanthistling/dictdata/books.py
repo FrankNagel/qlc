@@ -2549,6 +2549,31 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Observaciones preliminares acerca del idioma Macaguan',
+        'author' : u'Buenaventura, Edgar',
+        'year' : 1993,
+        'bibtex_key' : u'buenaventura1993',
+        'pages' : 104,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 53,
+                'endpage' : 80,
+                'src_language_name' : u'Macaguán',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Macaguan',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'other/buenaventura1993_dictdata_53_80.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
 ##################################### Arawak
 
