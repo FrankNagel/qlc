@@ -1764,6 +1764,13 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 43,
+                'title': u'Start pages',
+                'file' : 'arauan/salzerchapman1998_nondictdata_1_44.htm',
+                'component' : 'Arauan'
+            }
         ]
     },
 
@@ -2533,7 +2540,13 @@ list = [
             },
         ],
         'nondictdata' : [
-
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/ericksonerickson1993_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
         ]
     },
 
