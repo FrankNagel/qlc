@@ -1914,4 +1914,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/pad'
     },
+    {
+        'name' : u'Cavineña',
+        'langcode': u'cav',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/cav'
+    },
 ]

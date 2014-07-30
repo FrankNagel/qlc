@@ -2574,6 +2574,32 @@ list = [
 
         ]
     },
+    {
+        'title' : u'Diccionario Cavineña-Castellano Castellano-Cavineña con '
+                  u'bosquejo de la gramatica cavineña',
+        'author' : u'Camp, Elizabeth L. and Liccardi, Millicent R.',
+        'year' : 1989,
+        'bibtex_key' : u'campliccardi1989',
+        'pages' : 363,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 127,
+                'src_language_name' : u'Cavineña',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Cavineña',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'other/campliccardi1989_dictdata_1_126.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+
+        ]
+    },
 
 ##################################### Arawak
 
