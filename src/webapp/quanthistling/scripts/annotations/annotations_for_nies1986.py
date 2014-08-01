@@ -22,6 +22,49 @@ from paste.deploy import appconfig
 
 import functions
 
+rm_regex_period = re.compile(r"\.?\s*$")
+rm_regex_q_start = re.compile(ur"[¿¡]")
+rm_regex_q_end = re.compile(ur"[!?¡]$")
+rm_regex_brackets = re.compile(ur"[\(\)]")
+
+def remove_parts(entry, start, end):
+    string = entry.fullentry[start:end]
+    
+    # remove whitespaces
+    try:
+        while string[0].isspace():
+            start = start + 1
+            string = entry.fullentry[start:end]
+        while string[-1].isspace():
+            end = end - 1
+            string = entry.fullentry[start:end]
+    except IndexError: # only whitespace
+        return 0, 0, u""
+    
+    match_period = rm_regex_period.search(string)
+    if match_period:
+        end = end - len(match_period.group(0))
+        string = entry.fullentry[start:end]
+
+    if rm_regex_q_start.match(string):
+        start = start + 1
+        string = entry.fullentry[start:end]
+
+    if rm_regex_q_end.search(string):
+        end = end - 1
+        string = entry.fullentry[start:end]
+
+    if string.startswith(u"(") and string.endswith(u")") and not rm_regex_brackets.search(string[1:-1]):
+        start = start + 1
+        end = end - 1
+        string = entry.fullentry[start:end]
+
+    if string.startswith(u'\u201C') and string.endswith(u'\u201D'):
+        start = start + 1
+        end = end - 1
+        string = entry.fullentry[start:end]
+    return start, end, string
+
 def annotate_heads(entry):
     heads = []
     c_list = []
@@ -92,55 +135,58 @@ def check_insert_head(entry, start, end):
     start, end, head = functions.remove_parts(entry, start, end)
     head = head.replace('-', '')
     return functions.insert_head(entry, start, end, head)
-                     
+
+
+#after head get all brackets and its content
+def get_pos_end(entry, p_start):
+    s = entry.fullentry
+    end = len(s)
+    index = s.find('(', p_start)
+    if index ==-1:
+        return p_start
+    state = 0 # 0: outside brackets; 1: in brackets
+
+    pos_end = p_start
+    while index < end:
+        c = s[index]
+        if state == 0:
+            if c == '(':
+                state = 1
+            elif not c.isspace():
+                break
+        else:
+            if c == ')':
+                pos_end = index + 1
+                state = 0
+        index += 1
+    return pos_end
+
+pos_regex = re.compile('\(\s*([^)]*)\s*\)')
+def annotate_pos(entry, p_start):
+    p_end = get_pos_end(entry, p_start)
+    real_p_end = p_start
+    for match in pos_regex.finditer(entry.fullentry, p_start, p_end):
+        if entry.fullentry.find('Vea ', match.start(1), match.end(1)) != -1:
+            continue # skip crossref
+        for start, end in iter_parts(entry, '\s*,\s*|\s*$', match.start(1), match.end(1)):
+            if entry.fullentry[end-1].isdigit() or entry.fullentry[end-1] == '.':
+                functions.insert_pos(entry, start, end)
+                real_p_end = match.end(1) + 1
+    return real_p_end
+
 def annotate_everything(entry):
-    # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='crossreference' or a.value=="iso-639-3" or a.value=="doculect"]
-    for a in annotations:
-        Session.delete(a)
+    # delete annotations
+    for a in entry.annotations:
+        if a.value in ['head', 'pos', 'translation', 'crossreference', 'iso-639-3', 'doculect']:
+            Session.delete(a)
 
     heads = annotate_heads(entry)
+    
     h_end = functions.get_last_bold_pos_at_start(entry)
+    t_start = annotate_pos(entry, h_end)
     
-    # pos
-    pos = False
-    p_start_tmp = h_end + 1
-    substr = entry.fullentry[p_start_tmp:]
-    match_pos = re.search(u'\((.*?)\)', substr)
-    if match_pos:
-        if not re.search(u'Vea ', match_pos.group(1)):
-            pos = True
-    if pos:
-        p_start = match_pos.start(1) + p_start_tmp
-        p_end = match_pos.end(1) + p_start_tmp
-        substr = entry.fullentry[p_start:p_end]
-        match_c = re.search(u',', substr)
-        if match_c:
-            p1_end = match_c.start() + p_start_tmp + 1
-            substr = entry.fullentry[p_start:p1_end]
-            match_dot = re.search(u'(\.|\d)$', substr)
-            if match_dot:
-                functions.insert_pos(entry, p_start, p1_end)
-            p2_start = p1_end + 1
-            substr = entry.fullentry[p2_start:p_end]
-            match_dot = re.search(u'(\.|\d)$', substr)
-            if match_dot:
-                functions.insert_pos(entry, p2_start, p_end)
-        else:
-            match_dot = re.search(u'(\.|\d)$', substr)
-            if match_dot:
-                functions.insert_pos(entry, p_start, p_end)
-        
-        t_start = p_end +  2
-    else:
-        t_start = h_end + 1
-        pos = False
-    
-    # cross-references
-    crossref = False
     substr = entry.fullentry[t_start:]
-    if re.search(u'\(Vea .*?\)', substr):
-        crossref = True
+    if re.search(u'\(Vea .*?\)', substr): # cross-references
         for match_vea in re.finditer(u'\(Vea (.*?)\)', substr):
             cref_start = match_vea.start(1) + t_start
             cref_end = match_vea.end(1) + t_start
@@ -150,117 +196,70 @@ def annotate_everything(entry):
                 entry.append_annotation(cref_start, end, u'crossreference', u'dictinterpretation')
                 cref_start = match.end(0) + cref_start
             entry.append_annotation(cref_start, cref_end, u'crossreference', u'dictinterpretation')
-    
-    # translations
-    if not crossref:
-        substr = entry.fullentry[t_start:]
-        
-        # Any numbers in front of translations?
-        numbers = []
-        for n in re.finditer(u'(?<!\(\w\. )\d\)', substr):
-            numbers.append(n.end() + t_start)
-        
-        dot_list = []
-        for d in re.finditer(u'\.(?!\.|\w)', substr):
-            dot = True
-            for match_bracket in re.finditer(u'\(.*?\)', substr):
-                if d.start() > match_bracket.start() and d.start() < match_bracket.end():
-                    dot = False
-            if dot:
-                dot_list.append(d.start() + t_start)
-        
-        if dot_list:
-            t_end = dot_list[0]
-        else:
-            t_end = len(entry.fullentry)
-        
-        substr = entry.fullentry[t_start:t_end]
-        comma_list = []
-        for com in re.finditer(r'(,|;)', substr):
-            comma = True
-            for match_bracket in re.finditer(u'\(.*?\)', substr):
-                if com.start() > match_bracket.start() and com.start() < match_bracket.end():
-                    comma = False
-            if comma:
-                comma_list.append(com.start() + t_start)
-        
-        num_dot_list = []
-        if numbers:
-            prev = 0
-            for x in numbers:
-                for y in dot_list:
-                    if x < y and x > prev:
-                        prev = y
-                        num_dot_list.append(prev) 
-        
-        if len(numbers) != len(num_dot_list):
-            print 'Number of numbers and dots unequal, ', functions.print_error_in_entry(entry)
-        
-        elif numbers:
-            for i in range(len(numbers)):
-                start = numbers[i]
-                end = num_dot_list[i]
-                substr = entry.fullentry[start:end]
-                num_comma_list = []
-                for com in re.finditer(r'(,|;)', substr):
-                    comma = True
-                    for match_bracket in re.finditer(u'\(.*?\)', substr):
-                        if com.start() > match_bracket.start() and com.start() < match_bracket.end():
-                            comma = False
-                    if comma:
-                        num_comma_list.append(com.start() + start)
-                if num_comma_list:
-                    for j in range(len(num_comma_list)):
-                        if j == 0:
-                            trans_s = start
-                            trans_e = num_comma_list[j]
-                            functions.insert_translation(entry, trans_s, trans_e)
-                            
-                            trans2_s = num_comma_list[0] + 2
-                            if j + 1 < len(num_comma_list):
-                                trans2_e = num_comma_list[j+1]
-                                functions.insert_translation(entry, trans2_s, trans2_e)
-                            else:
-                                functions.insert_translation(entry, trans2_s, num_dot_list[i])
-                            
-                        else:
-                            trans_s = num_comma_list[j] + 2
-                            if j + 1 < len(num_comma_list):
-                                trans_e = num_comma_list[j+1]
-                                functions.insert_translation(entry, trans_s, trans_e)
-                            else:
-                                functions.insert_translation(entry, trans_s, num_dot_list[i])
-                else:
-                    trans_s = numbers[i] + 1
-                    trans_e = num_dot_list[i]
-                    functions.insert_translation(entry, trans_s, trans_e)
-                      
-        elif comma_list and not numbers:
-            for i in range(len(comma_list)):
-                if i == 0:
-                    trans_e = comma_list[i]
-                    functions.insert_translation(entry, t_start, trans_e)
-                    
-                    trans2_s = comma_list[0] + 2
-                    if i + 1 < len(comma_list):
-                        trans2_e = comma_list[i+1]
-                        functions.insert_translation(entry, trans2_s, trans2_e)
-                    else:
-                        functions.insert_translation(entry, trans2_s, t_end)
-                else:
-                    trans_s = comma_list[i] + 2
-                    if i + 1 < len(comma_list):
-                        trans_e = comma_list[i+1]
-                        functions.insert_translation(entry, trans_s, trans_e)
-                    else:
-                        functions.insert_translation(entry, trans_s, t_end)
-        else:
-            functions.insert_translation(entry, t_start, t_end)
-          
+    else: # translations
+        annotate_translation(entry, t_start)
     return heads
+
+def find_brackets(entry):
+    result = []
+    for match in re.finditer(r'\([^\)]*\)', entry.fullentry):
+        result.append( (match.start(), match.end()) )
+    return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
+
+def iter_parts(entry, sep_regex, start, end, skip_first=False, process_all=True, skip_func = None):
+    if isinstance(sep_regex, str):
+        sep_regex = re.compile(sep_regex)
+    firstrun = True
+    p_start = start
+    match = None
+    for match in sep_regex.finditer(entry.fullentry, start, end):
+        if firstrun:
+            firstrun = False
+            if skip_first:
+                p_start = match.end()
+                match = None
+                continue
+        if skip_func is None or not skip_func(match.start()):            
+            yield p_start, match.start()
+            p_start = match.end()
+    if match is None and process_all:
+        yield start, end
+
+def find_translation_end(entry, start, end, in_brackets, bold):
+    """either the next '.' not in brackets, or start of bold text"""
+    search_start = start
+    while True:
+        t_end = entry.fullentry.find('.', search_start, end)
+        if t_end == -1:
+            t_end = end
+            break
+        if not in_brackets(t_end):
+            break
+        search_start = t_end + 1
+    #bold alone is not enough to end translations: before that a '!' or '?' has to occur
+    bold_starts = [b[0] for b in bold if b[0] >= start and b[0] <= t_end]
+    if bold_starts and not in_brackets(bold_starts[0]):
+        index = bold_starts[0] - 1
+        while entry.fullentry[index].isspace():
+            index -= 1
+        if entry.fullentry[index] in "!?":
+            t_end = bold_starts[0]
+    return t_end
+
+def annotate_translation(entry, t_start):
+    in_brackets = find_brackets(entry)
+    bold = functions.get_list_ranges_for_annotation(entry, 'bold', t_start)
+    # translations may be numbered: '1)', '2)' etc.
+    for p_start, p_end in iter_parts(entry, '((?<!\(\w\. )\d\))|$', t_start, len(entry.fullentry), True):
+        p_end = find_translation_end(entry, p_start, p_end, in_brackets, bold)
+        for t_start, t_end in iter_parts(entry, ', |; |! |$', p_start, p_end, skip_func=in_brackets):
+            bracket_start = entry.fullentry.find('(', t_start, t_end)
+            if bracket_start != -1:
+                t_end = bracket_start
+            t_start, t_end, string = remove_parts(entry, t_start, t_end)
+            functions.insert_translation(entry, t_start, t_end, string)
  
 def main(argv):
-
     bibtex_key = u"nies1986"
     
     if len(argv) < 2:
