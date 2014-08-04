@@ -70,4 +70,8 @@ list = [
         'name' : u'Tacanan',
         'description' : u'',
     },
+    {
+        'name' : u'Chibcha',
+        'description' : u'',
+    },
 ]

@@ -3115,4 +3115,29 @@ list = [
 
         ]
     },
+##################################### Chibcha
+    {
+        'title' : u'D iccionario B ilingüe Uw Cuwa (Tunebo) - Español Español - Uw Cuwa (Tunebo)',
+        'author' : u'Headland, Edna Romayne',
+        'year' : 1997,
+        'bibtex_key' : u'headland1997',
+        'pages' : 286,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 61,
+                'endpage' : 230,
+                'src_language_name' : u'Tunebo, Central',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Uw Cuwa (Tunebo)',
+                'tgt_language_bookname' : u'Español',
+                'file' : 'chibcha/headland1997_dictdata_61_230.xml',
+                'component' : 'Chibcha'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
 ]
