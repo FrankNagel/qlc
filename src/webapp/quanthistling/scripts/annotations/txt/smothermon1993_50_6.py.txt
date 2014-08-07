@@ -1,0 +1,372 @@
+
+manual_entries.append({
+    "fullentry" : "jedire s.v. an./inan., jedi- v.i. 1 todos ej. Mani basare masi jediama ĩna. Todos ellos saben acerca de nuestro baile. V. ña jedirã, jeyaro, ñarocõti (an.) gram. En este sentido la raíz verbal ‘jedi-’ casi siempre está nominalizada o precedida por un verbo en infinito. 2 (estar) acabado, a; (estar) terminado, a; (estar) usado, a ej. Jedicoajʉ. Ya se acabó.",
+    "startpage" : 50,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Macuna",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jedire",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "myy",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "todos",
+                "start" : 36,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 279,
+                "end" : 297
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 279,
+                "end" : 297
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(estar) acabada",
+                "start" : 279,
+                "end" : 294
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(estar) acabado",
+                "start" : 279,
+                "end" : 294
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 299,
+                "end" : 319
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 299,
+                "end" : 319
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(estar) terminada",
+                "start" : 299,
+                "end" : 316
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(estar) terminado",
+                "start" : 299,
+                "end" : 316
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 321,
+                "end" : 337
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 321,
+                "end" : 337
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(estar) usada",
+                "start" : 321,
+                "end" : 334
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "(estar) usado",
+                "start" : 321,
+                "end" : 334
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jedire",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.v. an./inan., jedi- v.i.",
+                "start" : 7,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1 todos",
+                "start" : 34,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 42,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Todos ellos saben acerca de nuestro baile.",
+                "start" : 77,
+                "end" : 119
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "V.",
+                "start" : 120,
+                "end" : 122
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "gram.",
+                "start" : 161,
+                "end" : 166
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2 (estar) acabado, a; (estar) terminado, a; (estar) usado, a",
+                "start" : 277,
+                "end" : 337
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 338,
+                "end" : 341
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Ya se acabó.",
+                "start" : 353,
+                "end" : 366
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 76,
+                "end" : 76
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 77,
+                "end" : 77
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 122,
+                "end" : 122
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 160,
+                "end" : 160
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 161,
+                "end" : 161
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 166,
+                "end" : 166
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 225,
+                "end" : 225
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 226,
+                "end" : 226
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 226,
+                "end" : 226
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 226,
+                "end" : 226
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 276,
+                "end" : 276
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 277,
+                "end" : 277
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 337,
+                "end" : 337
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 338,
+                "end" : 338
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 341,
+                "end" : 341
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 352,
+                "end" : 352
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 353,
+                "end" : 353
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 353,
+                "end" : 353
+            },
+    ]
+})

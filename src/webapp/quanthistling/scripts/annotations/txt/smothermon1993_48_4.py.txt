@@ -1,0 +1,316 @@
+
+manual_entries.append({
+    "fullentry" : "jati inan. balay (reg.): canasta plana y grande hecha de “wʉjʉ” (un tipo de caña) ej. Naju sã, quĩ jio cũ, naju mea cũ yira jati ña jati. Existen distintos tipos de balayes “wʉ jʉ”, (las cuales se confeccionan para diversos usos); unas se utilizan para servir el casabe; otras más grandes sirven para guardar las raíces de yuca brava antes de rallarlas y otras sirven para colocar el casabe recién hecho (en donde se deja enfriar).",
+    "startpage" : 48,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Macuna",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jati",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "myy",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Español",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "balay",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jati",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "inan.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "balay (reg.):",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ej.",
+                "start" : 83,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Existen distintos tipos de balayes “wʉ jʉ”, (las cuales se",
+                "start" : 144,
+                "end" : 202
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "confeccionan para diversos usos); unas se utilizan para",
+                "start" : 203,
+                "end" : 258
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "servir el casabe; otras más grandes sirven para guardar",
+                "start" : 259,
+                "end" : 315
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "las raíces de yuca brava antes de rallarlas y otras",
+                "start" : 316,
+                "end" : 368
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "sirven para colocar el casabe recién hecho (en donde se",
+                "start" : 369,
+                "end" : 425
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "deja enfriar).",
+                "start" : 426,
+                "end" : 440
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 82,
+                "end" : 82
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 143,
+                "end" : 143
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 144,
+                "end" : 144
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 202,
+                "end" : 202
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 203,
+                "end" : 203
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 203,
+                "end" : 203
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 203,
+                "end" : 203
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 258,
+                "end" : 258
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 259,
+                "end" : 259
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 315,
+                "end" : 315
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 316,
+                "end" : 316
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 368,
+                "end" : 368
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 369,
+                "end" : 369
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 369,
+                "end" : 369
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 369,
+                "end" : 369
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 425,
+                "end" : 425
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 426,
+                "end" : 426
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 426,
+                "end" : 426
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 426,
+                "end" : 426
+            },
+    ]
+})
