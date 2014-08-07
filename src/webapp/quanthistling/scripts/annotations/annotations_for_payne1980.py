@@ -28,7 +28,8 @@ def _add_head_with_comma(entry, s, e):
     for match_comma in re.finditer("(?:, ?|$)", entry.fullentry[s:e]):
         end = s + match_comma.start(0)
         head = functions.insert_head(entry, start, end)
-        heads.append(head)
+        if head:
+            heads.append(head)
         start = s + match_comma.end(0)
     return heads
 
