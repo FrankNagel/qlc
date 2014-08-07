@@ -1657,7 +1657,52 @@ list = [
         ]
             
     },
-
+    {
+        'title' : u'Vocabulario de la lengua que usan los yndios de estas misiones, Ceona',
+        'author' : u'n/a',
+        'year' : 1928,
+        'bibtex_key' : u'ceona1928',
+        'pages' : 379,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 308,
+                'endpage' : 352,
+                'src_language_name' : u'Siona',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Ceona',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'tucanoan/ceona1928_dictdata_308_352.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'tucanoan/ceona1928_nondictdata_0_0.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 352,
+                'endpage' : 359,
+                'title': u'Doctrina Christiana',
+                'file' : 'tucanoan/ceona1928_nondictdata_352_359.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 359,
+                'endpage' : 379,
+                'title': u'Varios nombres y vocablos q.e facilitan la lengua',
+                'file' : 'tucanoan/ceona1928_nondictdata_359_379.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+            
+    },
     ################################################### Guaicuruan
 
     {
@@ -2571,7 +2616,20 @@ list = [
             },
         ],
         'nondictdata' : [
-
+            {
+                'startpage' : 0,
+                'endpage' : 52,
+                'title': u'Start pages',
+                'file' : 'other/buenaventura1993_nondictdata_0_52.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 81,
+                'endpage' : 104,
+                'title': u'Expresiones utiles',
+                'file' : 'other/buenaventura1993_nondictdata_81_104.htm',
+                'component' : 'Other'
+            },
         ]
     },
     {
@@ -2597,7 +2655,20 @@ list = [
             },
         ],
         'nondictdata' : [
-
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/campliccardi1989_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 257,
+                'endpage' : 363,
+                'title': u'Apéndices',
+                'file' : 'other/campliccardi1989_nondictdata_257_363.htm',
+                'component' : 'Other'
+            },
         ]
     },
 
@@ -3112,7 +3183,6 @@ list = [
                 'file' : 'tacanan/pitman1981_nondictdata_0_9.htm',
                 'component' : 'Tacanan'
             },
-
         ]
     },
 ##################################### Chibcha
@@ -3138,6 +3208,20 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 60,
+                'title': u'Start pages',
+                'file' : 'chibcha/headland1997_nondictdata_0_60.htm',
+                'component' : 'Chibcha'
+            },
+            {
+                'startpage' : 283,
+                'endpage' :286,
+                'title': u'Contenido',
+                'file' : 'chibcha/headland1997_nondictdata_283_286.htm',
+                'component' : 'Chibcha'
+            },
         ]
     },
 ]
