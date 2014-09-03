@@ -108,7 +108,7 @@ def get_list_italic_ranges(entry, start=0):
     return get_list_ranges_for_annotation(entry, "italic", start)
 
 def get_last_bold_pos_at_start(entry):
-    sorted_annotations = [ a for a in entry.annotations if a.value=='bold']
+    sorted_annotations = [ a for a in entry.annotations if a.value=='bold' ]
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
 
     last_bold_end = -1
@@ -181,6 +181,23 @@ def get_first_italic_start_in_range(entry, s, e):
             return a.start
 
     return -1
+
+def get_first_italic_glued_in_range(entry, s, e):
+    sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
+    sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
+
+    last_italic_end = None
+    last_italic_start = None
+    at_start = True
+    for a in sorted_annotations:
+        if a.end >= s and a.start <= e:
+            if at_start and ( (last_italic_end is None) or (a.start <= (last_italic_end + 1)) ):
+                last_italic_end = a.end
+                last_italic_start = a.start
+            else:
+                at_start = False
+
+    return (last_italic_start, last_italic_end)
 
 def get_first_italic_in_range(entry, s, e):
     sorted_annotations = [ a for a in entry.annotations if a.value=='italic']
