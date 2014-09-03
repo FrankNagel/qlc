@@ -226,7 +226,7 @@ def insert_nondictdata_to_db(Session, data, book, filename):
     elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=utf-8\">", text):
         html = text.decode('utf-8')
     elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=macintosh\">", text):
-        html = text.decode('latin1')
+        html = text.decode('mac_roman')
         
     if book.bibtex_key == 'burtch1983':
         html = re.sub(u"#001", u"ɨ", html)
@@ -264,7 +264,7 @@ def insert_nonwordlistdata_to_db(Session, data, book, filename):
     elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=utf-8\">", text):
         html = text.decode('utf-8')
     elif re.search(u"<meta http-equiv=Content-Type content=\"text/html; charset=macintosh\">", text):
-        html = text.decode('latin1')
+        html = text.decode('mac_roman')
 
     html = unicodedata.normalize("NFD", html)
     html = normalize_stroke(html)
