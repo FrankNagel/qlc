@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "liwai liwailidi loc, núm 1 cinqüenta 2 ao lado dele 3 parte dele",
+    "startpage" : 109,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kadiwéu",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "liwai liwailidi",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kbc",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 28,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 28,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cinqüenta",
+                "start" : 28,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 41,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "ao lado dele",
+                "start" : 41,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 41,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ao lado dele",
+                "start" : 41,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 56,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 56,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parte dele",
+                "start" : 56,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "liwai liwailidi loc, núm 1 cinqüenta 2 ao lado dele 3 parte dele",
+                "start" : 0,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "loc, núm",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+    ]
+})

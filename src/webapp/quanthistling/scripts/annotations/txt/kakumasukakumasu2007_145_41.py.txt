@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "-ym (suf.) (B.9) negativo ‘não’ “verbo” + ym (D.2.6) não “verbo” + ym we rĩ (D.2.6) ainda não",
+    "startpage" : 145,
+    "pos_on_page" : 41,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kaapor",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ym",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "urb",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "não",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kaapor",
+                "start" : 69,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ym we rĩ",
+                "start" : 69,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "urb",
+                "start" : 69,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 87,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 87,
+                "end" : 97
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ainda não",
+                "start" : 87,
+                "end" : 97
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-ym",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ym",
+                "start" : 43,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ym we rĩ",
+                "start" : 69,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+    ]
+})

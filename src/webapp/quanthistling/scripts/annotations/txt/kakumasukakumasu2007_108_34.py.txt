@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "ihẽ membyr reko ame'ẽ ke (D.1.7.2) meu genro/minha nora (m.f.)",
+    "startpage" : 108,
+    "pos_on_page" : 34,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kaapor",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ihẽ membyr reko ame'ẽ ke",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "urb",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 37,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 37,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "meu genro",
+                "start" : 37,
+                "end" : 46
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 47,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 47,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "minha nora (m.f.)",
+                "start" : 47,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ihẽ membyr reko ame'ẽ ke",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+    ]
+})

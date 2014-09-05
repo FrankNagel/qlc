@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "-hanávaa?ǰé madrina, madrastra, tía paterna (hermana del papá); \"godm@her\", stepmother, paternal aunt (father's sister)",
+    "startpage" : 398,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Resígaro",
+                "start" : 1,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hanávaa?ǰé",
+                "start" : 1,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "rgr",
+                "start" : 1,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "madrina",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "madrastra",
+                "start" : 24,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 35,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 35,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tía paterna (hermana del papá)",
+                "start" : 35,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Inglés",
+                "start" : 68,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 68,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "godmother",
+                "start" : 68,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Inglés",
+                "start" : 81,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 81,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "stepmother",
+                "start" : 81,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Inglés",
+                "start" : 93,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 93,
+                "end" : 124
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "paternal aunt (father's sister)",
+                "start" : 93,
+                "end" : 124
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

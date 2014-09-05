@@ -1,0 +1,225 @@
+
+manual_entries.append({
+    "fullentry" : "careti, caretatsíri SO,CA, morétatsíri, morécatsíri SRP f. relámpago; centella, rayo.",
+    "startpage" : 85,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nomatsiguenga",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "careti",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "not",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nomatsiguenga",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "caretatsíri",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "not",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nomatsiguenga",
+                "start" : 28,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "morétatsíri",
+                "start" : 28,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "not",
+                "start" : 28,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Nomatsiguenga",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "morécatsíri",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "not",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.",
+                "start" : 61,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 64,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 64,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "relámpago",
+                "start" : 64,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 76,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 76,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "centella",
+                "start" : 76,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 86,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 86,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rayo",
+                "start" : 86,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "careti, caretatsíri",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "morétatsíri,",
+                "start" : 28,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "morécatsíri",
+                "start" : 43,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "f.",
+                "start" : 61,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 81,
+                "end" : 81
+            },
+    ]
+})

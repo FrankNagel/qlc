@@ -1,0 +1,141 @@
+
+manual_entries.append({
+    "fullentry" : "-oe vt 1 fazer 2 consertar 3 arrumar owe-ee (fala da mulher)",
+    "startpage" : 154,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kadiwéu",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "oe",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kbc",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fazer",
+                "start" : 9,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "consertar",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 29,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 29,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arrumar owe-ee (fala da mulher)",
+                "start" : 29,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-oe vt 1 fazer 2 consertar 3 arrumar",
+                "start" : 0,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vt",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "owe-ee",
+                "start" : 37,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "owe-ee (fala da mulher)",
+                "start" : 37,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+    ]
+})

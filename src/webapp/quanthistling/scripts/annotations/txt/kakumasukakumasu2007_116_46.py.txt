@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "jumenar (jumendar) (B.10) (D.1.6) ele/ela se casa pela primeira vez",
+    "startpage" : 116,
+    "pos_on_page" : 46,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kaapor",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jumenar",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "urb",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kaapor",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "jumendar",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "urb",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 34,
+                "end" : 0
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 34,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 34,
+                "end" : 0
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 34,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ela se casa pela primeira vez",
+                "start" : 34,
+                "end" : 0
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele se casa pela primeira vez",
+                "start" : 34,
+                "end" : 67
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "jumenar (jumendar)",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 18,
+                "end" : 18
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+    ]
+})
