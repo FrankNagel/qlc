@@ -346,3 +346,9 @@ def insert_pos(entry, s, e, string = None):
         return insert_annotation(entry, start, end, u"pos", string_new.lower())
     else:
         return None
+
+def find_brackets(entry):
+    result = []
+    for match in re.finditer('\([^\)]*\)', entry.fullentry):
+        result.append( (match.start(), match.end()) )
+    return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
