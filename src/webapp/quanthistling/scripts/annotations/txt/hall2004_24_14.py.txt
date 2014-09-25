@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "danhimire niwĩ (Kb): \"ao/do lado direito\"",
+    "startpage" : 24,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "danhimire niwĩ",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 23,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 23,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ao lado direito",
+                "start" : 23,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "do lado direito",
+                "start" : 26,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "danhimire niwĩ",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 21,
+                "end" : 21
+            },
+    ]
+})

@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "epoe (rel) acima de; em cima de; epoehme (adj) em cima de",
+    "startpage" : 12,
+    "pos_on_page" : 38,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "epoe",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(rel)",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 10,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acima de",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "em cima de",
+                "start" : 21,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epoe",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(rel)",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "epoehme",
+                "start" : 33,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(adj)",
+                "start" : 41,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

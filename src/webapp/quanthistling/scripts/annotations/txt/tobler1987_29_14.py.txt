@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "pãga! (interj.) cuidado!",
+    "startpage" : 29,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Crioulo Karípúna",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pãga",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kmv",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 7,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cuidado",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pãga!",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

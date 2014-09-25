@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "sa'ẽtẽ di: \"é/está grande (ser/estar)\" –E aiburu sa'ẽtẽ di? –Ĩhe, sa'ẽtẽ di. \"–Sua roça é grande? –Sim, é grande.\"",
+    "startpage" : 86,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sa'ẽtẽ di:",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 14,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 14,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é grande",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está grande",
+                "start" : 17,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sa'ẽtẽ di:",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 86,
+                "end" : 86
+            },
+    ]
+})

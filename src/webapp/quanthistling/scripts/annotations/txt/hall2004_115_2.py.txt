@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "uré di: \"é/está barrento; é/está muito liso; é/está escorregadio (ser/estar)\"",
+    "startpage" : 115,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "uré di:",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é barrento",
+                "start" : 10,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está barrento",
+                "start" : 13,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 29,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 29,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é muito liso",
+                "start" : 29,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está muito liso",
+                "start" : 32,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 50,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 50,
+                "end" : 83
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é escorregadio",
+                "start" : 50,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está escorregadio",
+                "start" : 53,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "uré di:",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

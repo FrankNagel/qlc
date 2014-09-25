@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "pa di: \"é/está comprido; é/está longo (ser/estar)\"",
+    "startpage" : 77,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pa di:",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 8,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 8,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é comprido",
+                "start" : 8,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está comprido",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 27,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 27,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é longo",
+                "start" : 27,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está longo",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pa di:",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

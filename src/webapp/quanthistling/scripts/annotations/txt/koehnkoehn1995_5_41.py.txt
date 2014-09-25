@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "apokãko (vt) cortando varas, folhas de açaí, banana, etc Papa toytose pyrou apokase. O pai foi para cortar flechas.",
+    "startpage" : 5,
+    "pos_on_page" : 41,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "apokãko",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(vt)",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 13,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 13,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortando banana",
+                "start" : 14,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortando folhas de açaí",
+                "start" : 14,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cortando varas",
+                "start" : 14,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "apokãko",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(vt)",
+                "start" : 9,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Papa toytose pyrou apokase.",
+                "start" : 60,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

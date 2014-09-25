@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "taa tarishiniu; taa juuca por cuanto tiempo; por cuantos días. ¿Taa na tarishiya naa cusosu na matasacarini? ¿Por cuánto tiempo está guardando cama (lit...está echado así enfermo)?",
+    "startpage" : 403,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taa tarishiniu",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taa juuca",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 16,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 26,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por cuanto tiempo",
+                "start" : 26,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 45,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 45,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por cuantos días",
+                "start" : 45,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "taa tarishiniu; taa juuca",
+                "start" : 0,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¿Taa na tarishiya naa cusosu na matasacarini?",
+                "start" : 64,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

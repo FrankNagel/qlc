@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "ooti da... -adv. casi",
+    "startpage" : 56,
+    "pos_on_page" : 19,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Candoshi",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ooti da",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbu",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "casi",
+                "start" : 17,
+                "end" : 21
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "pazawi di: \"é/está mimado (ser/estar)\"",
+    "startpage" : 77,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pazawi di:",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 12,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 12,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é mimado",
+                "start" : 12,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está mimado",
+                "start" : 15,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pazawi di:",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

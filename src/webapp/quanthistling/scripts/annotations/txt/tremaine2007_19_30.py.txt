@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "kok o que será? provavelmente. Amy kok atsaeze myopykyryk. O que será o que tem dentro? Jotabakta Suina bo kok my. Provavelmente o avião esta indo para Juina.",
+    "startpage" : 19,
+    "pos_on_page" : 30,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Rikbaktsa",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kok",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "rkb",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "o que será",
+                "start" : 4,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "provavelmente",
+                "start" : 17,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kok",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Amy kok atsaeze myopykyryk.",
+                "start" : 32,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Jotabakta Suina bo kok my.",
+                "start" : 90,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

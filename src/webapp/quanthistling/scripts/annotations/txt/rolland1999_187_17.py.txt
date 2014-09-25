@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "ma3, mia, mo; maa suf. v. Indica acción de paso, hacia el que habla o pasándolo; ma/ maa + hua se convierte en mohua. Rupaquijia quia tacama. Suba un rato (de paso).",
+    "startpage" : 187,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ma",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mia",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 5,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mo",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "maa",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 14,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "suf. v.",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 26,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 26,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "indica acción de paso",
+                "start" : 26,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 50,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 50,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "hacia el que habla o pasándolo",
+                "start" : 50,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 83,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 83,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ma/ maa + hua se convierte en mohua",
+                "start" : 83,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma3, mia, mo; maa",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "suf. v.",
+                "start" : 17,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Rupaquijia quia tacama",
+                "start" : 120,
+                "end" : 142
+            },
+    ]
+})

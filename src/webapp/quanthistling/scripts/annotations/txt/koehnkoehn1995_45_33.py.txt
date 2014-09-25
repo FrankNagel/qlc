@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "samu ãko (vi) sentindo no íntimo; ma/goa; ficando com remorso",
+    "startpage" : 45,
+    "pos_on_page" : 33,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "samu ãko",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(vi)",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 14,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 14,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sentindo no íntimo",
+                "start" : 14,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 36,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 44,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 44,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ficando com remorso",
+                "start" : 44,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "samu ãko",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(vi)",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

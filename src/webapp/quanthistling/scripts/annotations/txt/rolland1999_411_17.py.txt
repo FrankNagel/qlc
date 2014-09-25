@@ -1,0 +1,239 @@
+
+manual_entries.append({
+    "fullentry" : "tamajaaja, tama... jaa-ja, tama... jaa-jia, tama... jaa-jua adj. 1. solo, por sí solo, sin ayuda o compañero, aislado. Canaari tama quiaquiaarijaanijia. Fuimos solitos. Tamajaaja quia rupojore. Sirve tú solo (a la gente). Canaa mueya tama maquejajaaja. Nuestro hijito duerme solo. 2. propio. Pueyano tama na rimiatu tacaretareejaacujua. Un hombre tomó por mujer a su propia hermana. Na que neyanu tacartaree tamajaaja. El padre se fue en contra de su propio hijo (le pegó como si fuera un extraño).",
+    "startpage" : 411,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tamajaaja",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tama jaaja",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 11,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 27,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tama jaajia",
+                "start" : 27,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 27,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 44,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tama jaajua",
+                "start" : 44,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 44,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 68,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 68,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "solo",
+                "start" : 68,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 74,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 74,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "por sí solo",
+                "start" : 74,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 88,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 88,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sin ayuda o compañero",
+                "start" : 88,
+                "end" : 110
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "aislado",
+                "start" : 112,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 287,
+                "end" : 293
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 287,
+                "end" : 293
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "propio",
+                "start" : 287,
+                "end" : 293
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tamajaaja, tama... jaa-ja, tama... jaa-jia, tama... jaa-jua",
+                "start" : 0,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Canaari tama quiaquiaarijaanijia.",
+                "start" : 121,
+                "end" : 155
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tamajaaja quia rupojore",
+                "start" : 171,
+                "end" : 194
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Canaa mueya tama maquejajaaja.",
+                "start" : 225,
+                "end" : 256
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Pueyano tama na rimiatu tacaretareejaacujua",
+                "start" : 295,
+                "end" : 338
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Na que neyanu tacartaree tamajaaja",
+                "start" : 387,
+                "end" : 421
+            },
+    ]
+})

@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "hnao (pp) se...não estivesse algo não teria acontecido",
+    "startpage" : 15,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hnao",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(pp)",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 9,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 9,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "se não estivesse algo não teria acontecido",
+                "start" : 10,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hnao",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(pp)",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

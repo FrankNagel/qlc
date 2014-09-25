@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "ma tô 're (IIa): \"ele plantou uma semente/uma planta, ou sementes/plantas de uma espécie só (plantar)\" Misi nherẽ, ma tô manga wanhipré hã 're. \"Ele plantou a muda da manga, embora somente uma.\" Nozâb'a, wa te 're da, wa âri ni. \"Nós (dois) levamos milho branco para plantar.\" (V. ma tô a're.)",
+    "startpage" : 70,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ma tô 're",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 19,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 19,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele plantou plantas de uma espécie só",
+                "start" : 19,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele plantou sementes de uma espécie só",
+                "start" : 19,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele plantou uma planta",
+                "start" : 19,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele plantou uma semente",
+                "start" : 19,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 55,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 55,
+                "end" : 104
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma tô 're (IIa):",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 17,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 151,
+                "end" : 151
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 151,
+                "end" : 151
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 202,
+                "end" : 202
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 202,
+                "end" : 202
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 237,
+                "end" : 237
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 238,
+                "end" : 238
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 286,
+                "end" : 286
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 287,
+                "end" : 287
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 287,
+                "end" : 287
+            },
+    ]
+})

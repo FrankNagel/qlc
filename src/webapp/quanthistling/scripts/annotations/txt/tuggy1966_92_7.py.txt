@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "tspóoshina, (tspóosina Shp.)-n. rugente (vegetal)",
+    "startpage" : 92,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Candoshi",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tspóoshina",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbu",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n.",
+                "start" : 31,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 34,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 34,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "rugente (vegetal)",
+                "start" : 34,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+    ]
+})

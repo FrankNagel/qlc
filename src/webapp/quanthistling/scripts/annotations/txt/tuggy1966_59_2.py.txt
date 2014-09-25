@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "parádama moocho; parádama mímiria – n. retoño de plátano (hijo de plátano)",
+    "startpage" : 59,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Candoshi",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "parádama moocho",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbu",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Candoshi",
+                "start" : 18,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "parádama mímiria",
+                "start" : 18,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "cbu",
+                "start" : 18,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n.",
+                "start" : 38,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 42,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 42,
+                "end" : 80
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "retoño de plátano (hijo de plátano)",
+                "start" : 42,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+    ]
+})

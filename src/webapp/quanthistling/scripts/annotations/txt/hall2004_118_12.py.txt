@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "waptâ: \"esteira/colchão; lugar (no chão) forrado para dormir\"",
+    "startpage" : 118,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "waptâ:",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 9,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 9,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esteira",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "colchão",
+                "start" : 17,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 27,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 27,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar no chão forrado para dormir",
+                "start" : 27,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "waptâ:",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+    ]
+})

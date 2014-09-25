@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "ma tô dawi sawi (IIa): \"ele proibiu/recusou o uso/a posse de algo que pertence a si mesmo ou a outro, desejando para si (proibir/recusar); ele proibiu uma ação/atividade (proibir)\"",
+    "startpage" : 52,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ma tô dawi sawi",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 25,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 25,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele recusou a posse de algo desejando para si",
+                "start" : 25,
+                "end" : 120
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele proibiu o uso de algo que pertence a si mesmo ou a outro",
+                "start" : 25,
+                "end" : 101
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 103,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 103,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 140,
+                "end" : 182
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 140,
+                "end" : 182
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele proibiu uma atividade",
+                "start" : 140,
+                "end" : 172
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele proibiu uma ação",
+                "start" : 140,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma tô dawi sawi",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+    ]
+})

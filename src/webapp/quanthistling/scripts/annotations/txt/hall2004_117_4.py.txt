@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "wa'a di: \"é/está preguiçoso (ser/estar); está sem desejo de (estar)\" (V. a.)",
+    "startpage" : 117,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wa'a di:",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 10,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 10,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é preguiçoso",
+                "start" : 10,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está preguiçoso",
+                "start" : 13,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 44,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 44,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está sem desejo de",
+                "start" : 44,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wa'a di:",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+    ]
+})

@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "syryre di: \"é/está pequeno (ser/estar)\"",
+    "startpage" : 91,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "syryre di:",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 12,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 12,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é pequeno",
+                "start" : 12,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está pequeno",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "syryre di:",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "pipa di: \"é/está medroso (ser/estar); está aborrecido (estar); tem receio de (ter)\"",
+    "startpage" : 78,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pipa di:",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 10,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 10,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é medroso",
+                "start" : 10,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está medroso",
+                "start" : 13,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 40,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 40,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está aborrecido",
+                "start" : 40,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 66,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 66,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tem receio de",
+                "start" : 66,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pipa di:",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

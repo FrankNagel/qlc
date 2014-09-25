@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "paraxixi (s) francês; creolo; parte da cabeça da máscara \"tamoko\"",
+    "startpage" : 40,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "paraxixi",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(s)",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "francês",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "creolo",
+                "start" : 23,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 31,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 31,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parte da cabeça da máscara",
+                "start" : 31,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "paraxixi",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(s)",
+                "start" : 9,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

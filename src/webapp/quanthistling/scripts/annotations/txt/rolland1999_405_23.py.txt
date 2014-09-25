@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "¡taateerini! ¡taateerinitioj! interj. ¡entonces cómo quieres!/¡hay otra manera (lit. cómo pues)!",
+    "startpage" : 405,
+    "pos_on_page" : 23,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taateerini",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 13,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "taateerinitioj",
+                "start" : 13,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 13,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "interj.",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 39,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 39,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entonces cómo quieres!/¡hay otra manera (lit",
+                "start" : 39,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¡taateerini! ¡taateerinitioj!",
+                "start" : 0,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "interj.",
+                "start" : 29,
+                "end" : 38
+            },
+    ]
+})

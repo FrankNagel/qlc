@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "damaprewa (J): \"sogro/sogra\"",
+    "startpage" : 23,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "damaprewa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 16,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sogro",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sogra",
+                "start" : 22,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "damaprewa",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

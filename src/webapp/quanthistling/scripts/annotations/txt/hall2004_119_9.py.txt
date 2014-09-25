@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "warõno (warõõno/warõtõ - G): \"erva daninha/mato; praga\"",
+    "startpage" : 119,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "warõno",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 35,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 35,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "erva daninha",
+                "start" : 35,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mato",
+                "start" : 48,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 54,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 54,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "praga",
+                "start" : 54,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "warõno",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+    ]
+})

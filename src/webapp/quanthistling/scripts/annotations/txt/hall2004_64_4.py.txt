@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "ma tô tiwahi (Ia): \"ele diminuiu (diminuir); ele emagreceu (emagrecer); ele ficou pequeno/magro (ficar)\"",
+    "startpage" : 64,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ma tô tiwahi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele diminuiu",
+                "start" : 21,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 46,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 46,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele emagreceu",
+                "start" : 46,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 73,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 73,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele ficou magro",
+                "start" : 73,
+                "end" : 96
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele ficou pequeno",
+                "start" : 73,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma tô tiwahi",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})

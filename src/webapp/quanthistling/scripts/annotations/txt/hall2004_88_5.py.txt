@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "simi'rãmi di: \"é/está horizontal (ser/estar)\"",
+    "startpage" : 88,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "simi'rãmi di:",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 16,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 16,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é horizontal",
+                "start" : 16,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está horizontal",
+                "start" : 19,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "simi'rãmi di:",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

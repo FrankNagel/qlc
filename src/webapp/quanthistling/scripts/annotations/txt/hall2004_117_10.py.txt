@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "waihu'u pese di: \"é/está sábio; é /está poderoso; é/está capaz (ser/estar)\"",
+    "startpage" : 117,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "waihu'u pese di:",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é sábio",
+                "start" : 18,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está sábio",
+                "start" : 21,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 35,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 35,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é poderoso",
+                "start" : 35,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está poderoso",
+                "start" : 39,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 55,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 55,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é capaz",
+                "start" : 55,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está capaz",
+                "start" : 58,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "waihu'u pese di:",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 16,
+                "end" : 16
+            },
+    ]
+})

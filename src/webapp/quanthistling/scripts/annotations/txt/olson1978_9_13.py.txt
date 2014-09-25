@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "kasakasa kasakasa \"",
+    "startpage" : 9,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Oiampi",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kasakasa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "oym",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "kasakasa (nome da cobra)",
+                "start" : 9,
+                "end" : 19
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

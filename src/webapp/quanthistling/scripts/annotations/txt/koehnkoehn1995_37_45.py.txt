@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "otuasekuhpo (s) fios de algodão velho, como numa rede velha; barbante",
+    "startpage" : 37,
+    "pos_on_page" : 45,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "otuasekuhpo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(s)",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 15,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 15,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fios de algodão velho como numa rede velha",
+                "start" : 16,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 62,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 62,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "barbante",
+                "start" : 62,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "otuasekuhpo",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(s)",
+                "start" : 12,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

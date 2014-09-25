@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "dapo're õ di: \"são/estão pessoas desobedientes (ser/estar)\" (V. dapo're e po're õ di.)",
+    "startpage" : 26,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dapo're õ di:",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 16,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 16,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "são pessoas desobedientes",
+                "start" : 16,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estão pessoas desobedientes",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dapo're õ di:",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+    ]
+})

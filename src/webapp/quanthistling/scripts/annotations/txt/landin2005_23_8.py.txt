@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "-p (a.) local veja pip",
+    "startpage" : 23,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Karitiana",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "p",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ktn",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "a.",
+                "start" : 4,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "local veja pip",
+                "start" : 8,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-p",
+                "start" : 0,
+                "end" : 2
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "veja pip",
+                "start" : 14,
+                "end" : 22
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 2,
+                "end" : 2
+            },
+    ]
+})

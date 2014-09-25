@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "kuzo (excl) já comeu bastante; Basta! (dito a criança)",
+    "startpage" : 27,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kuzo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(excl)",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 11,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 11,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "já comeu bastante",
+                "start" : 12,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 32,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 32,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Basta",
+                "start" : 32,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kuzo",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(excl)",
+                "start" : 5,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

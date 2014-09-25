@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "-pa (adv.) lugar para (usado com verbos)",
+    "startpage" : 23,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Karitiana",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pa",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "ktn",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 11,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 11,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "lugar para (usado com verbos)",
+                "start" : 11,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "usado com verbos)",
+                "start" : 23,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-pa",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

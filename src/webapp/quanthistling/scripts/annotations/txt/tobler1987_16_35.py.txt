@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "kheve (v.) furar,",
+    "startpage" : 16,
+    "pos_on_page" : 35,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Crioulo Karípúna",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kheve",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "kmv",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v.",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português ",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "furar",
+                "start" : 11,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kheve",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "errata",
+                "value" : "typo",
+                "string" : ",",
+                "start" : 16,
+                "end" : 17
+            },
+    ]
+})

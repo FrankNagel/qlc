@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "romhuture di: \"é/está perto (em tempo ou distância) (ser/estar)\"",
+    "startpage" : 82,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "romhuture di:",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 15,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 15,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é perto",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está perto",
+                "start" : 18,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "romhuture di:",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

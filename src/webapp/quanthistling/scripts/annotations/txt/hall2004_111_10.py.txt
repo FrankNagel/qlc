@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "toiwẽ pese di: \"é/está um brincalhão (ser/estar)\"",
+    "startpage" : 111,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "toiwẽ pese di:",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 17,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 17,
+                "end" : 52
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é um brincalhão",
+                "start" : 17,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está um brincalhão",
+                "start" : 20,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "toiwẽ pese di:",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+    ]
+})

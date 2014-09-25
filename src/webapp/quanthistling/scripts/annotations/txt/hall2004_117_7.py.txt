@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "wahire di: \"é/está pequeno; é/está magro (ser/estar)\"",
+    "startpage" : 117,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wahire di:",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 12,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 12,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é pequeno",
+                "start" : 12,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está pequeno",
+                "start" : 15,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 30,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 30,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é magro",
+                "start" : 30,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está magro",
+                "start" : 33,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wahire di:",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+    ]
+})

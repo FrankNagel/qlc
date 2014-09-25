@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "ma tô ãma tipẽ'ẽzé (Ia): \"ele tinha compaixão de (ter compaixão); ele tinha simpatia por (ter simpatia por); ele se compadeceu (compadecer); ele sentiu dó/pena de (sentir dó/pena de)\"",
+    "startpage" : 49,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ma tô ãma tipẽ'ẽzé",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 31,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 31,
+                "end" : 71
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele tinha compaixão de",
+                "start" : 31,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 73,
+                "end" : 114
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 73,
+                "end" : 114
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele tinha simpatia por",
+                "start" : 73,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 116,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 116,
+                "end" : 146
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele se compadeceu",
+                "start" : 116,
+                "end" : 133
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 148,
+                "end" : 191
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 148,
+                "end" : 191
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele sentiu pena de",
+                "start" : 148,
+                "end" : 170
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele sentiu dó",
+                "start" : 148,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma tô ãma tipẽ'ẽzé",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+    ]
+})

@@ -1,0 +1,78 @@
+
+manual_entries.append({
+    "fullentry" : "ma tô séptârâ (Ia): \"ele sarou (sarar) (lit. a doença/dor morreu)\"",
+    "startpage" : 57,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ma tô séptârâ",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 25,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 25,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele sarou dor morreu",
+                "start" : 25,
+                "end" : 69
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele sarou a doença",
+                "start" : 25,
+                "end" : 58
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ele sarou",
+                "start" : 25,
+                "end" : 34
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ma tô séptârâ",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 23,
+                "end" : 23
+            },
+    ]
+})

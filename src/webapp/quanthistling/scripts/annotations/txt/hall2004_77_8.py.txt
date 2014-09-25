@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "pa pire di: \"é/está convincente (ser/estar)\"",
+    "startpage" : 77,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "pa pire di:",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 13,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está convincente",
+                "start" : 13,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é convincente",
+                "start" : 13,
+                "end" : 33
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pa pire di:",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 11,
+                "end" : 11
+            },
+    ]
+})

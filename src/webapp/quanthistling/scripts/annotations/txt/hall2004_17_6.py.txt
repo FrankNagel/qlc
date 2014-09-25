@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "a'odo (a'oodo/a'oto - G): \"bocaiúva/macaúba\" (V. sé wede.)",
+    "startpage" : 17,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "a'odo",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 27,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 27,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "bocaiúva",
+                "start" : 27,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "macaúba",
+                "start" : 37,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "a'odo (a'oodo/a'oto - G):",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+    ]
+})

@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "purutõme (s) um homem que vai ferrar com tocandeira, abelha, etc.",
+    "startpage" : 43,
+    "pos_on_page" : 28,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "purutõme",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(s)",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 13,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 13,
+                "end" : 66
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "um homem que vai ferrar com abelha",
+                "start" : 14,
+                "end" : 60
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "um homem que vai ferrar com tocandeira",
+                "start" : 14,
+                "end" : 52
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "purutõme",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(s)",
+                "start" : 10,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

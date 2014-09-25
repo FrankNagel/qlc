@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "hâtâ'â di: \"é/está ansioso (preocupado) (ser/estar)\"",
+    "startpage" : 36,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hâtâ'â di:",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 15,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 15,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é preocupado",
+                "start" : 15,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é ansioso",
+                "start" : 15,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está preocupado",
+                "start" : 18,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está ansioso",
+                "start" : 18,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hâtâ'â di:",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

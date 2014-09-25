@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "¿Teequitijia? Vea tee1.",
+    "startpage" : 424,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Arabela",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "teequitijia",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "arl",
+                "start" : 1,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "crossreference",
+                "string" : "tee",
+                "start" : 18,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "¿Teequitijia?",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Vea",
+                "start" : 14,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tee1",
+                "start" : 18,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : ".",
+                "start" : 22,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : ".",
+                "start" : 22,
+                "end" : 23
+            },
+    ]
+})

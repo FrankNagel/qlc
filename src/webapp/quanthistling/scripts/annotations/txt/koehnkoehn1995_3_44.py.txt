@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "amõko (vt) cobrir a casa com ubim, cavacos ou telhas",
+    "startpage" : 3,
+    "pos_on_page" : 44,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Apalaí",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "amõko",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "apy",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "(vt)",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 11,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 11,
+                "end" : 53
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cobrir a casa com ubim",
+                "start" : 12,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cavacos ou telhas",
+                "start" : 36,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "amõko",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(vt)",
+                "start" : 7,
+                "end" : 11
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

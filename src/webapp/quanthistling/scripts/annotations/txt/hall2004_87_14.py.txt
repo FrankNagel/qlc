@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "simipari õ di (Kb): \"é/está desobediente (ser/estar)\"",
+    "startpage" : 87,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "simipari õ di",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 22,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 22,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "é desobediente",
+                "start" : 22,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "está desobediente",
+                "start" : 25,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "simipari õ di",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 20,
+                "end" : 20
+            },
+    ]
+})

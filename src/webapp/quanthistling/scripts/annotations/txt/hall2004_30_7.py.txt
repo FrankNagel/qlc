@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "da'ra (da'raa - A): \"criança; filho/a; sobrinho/a (filho/a do irmão de homem)\"",
+    "startpage" : 30,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "da'ra",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "criança",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 31,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 31,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "filha",
+                "start" : 31,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "filho",
+                "start" : 31,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 40,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 40,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sobrinha",
+                "start" : 40,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sobrinho",
+                "start" : 40,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "filha do irmão de homem",
+                "start" : 52,
+                "end" : 78
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "filho do irmão de homem",
+                "start" : 52,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "da'ra",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 19,
+                "end" : 19
+            },
+    ]
+})

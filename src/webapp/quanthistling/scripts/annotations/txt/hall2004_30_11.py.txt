@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "da'ra wapté (da'ra waptém - C): \"sobrinho/a (filho/a da irmã)\"",
+    "startpage" : 30,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Xavante",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "da'ra wapté",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "xav",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 35,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 35,
+                "end" : 64
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sobrinha",
+                "start" : 35,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sobrinho",
+                "start" : 35,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "filha da irmã",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "filho da irmã",
+                "start" : 47,
+                "end" : 63
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "da'ra wapté",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+    ]
+})
