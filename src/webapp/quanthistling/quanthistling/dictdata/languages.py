@@ -229,7 +229,7 @@ list = [
         'name' : u'Epena',
         'langcode': u'sja',
         'description' : u'',
-        'url' : u'http://www.ethnologue.com/show_language.asp?code=sja'
+        'url' : u'http://www.ethnologue.com/language/sja'
     },
     
     {

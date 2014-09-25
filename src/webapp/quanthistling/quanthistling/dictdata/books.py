@@ -2671,6 +2671,30 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Vocabulario ilustrado en el idioma epena',
+        'author' : u'Harms, Judith Ann',
+        'year' : 1993,
+        'bibtex_key' : u'harms1993',
+        'pages' : 86,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 79,
+                'src_language_name' : u'Epena',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Epena',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'other/harms1993_dictdata_1_79.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+        ]
+    },
 
 ##################################### Arawak
 
