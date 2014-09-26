@@ -98,10 +98,14 @@ def annotate_translations(entry):
     trans_eng_start = trans_spa_start + len(spa) + 1
 
     for (start, end) in functions.split_entry_at(entry, u"(?:, |$)", trans_spa_start, trans_eng_start - 1):
-        functions.insert_translation(entry, start, end, lang_iso='spa', lang_doculect='Castellano')
+        start, end, string = functions.remove_parts(entry, start, end)
+        string = string.replace('"', '')
+        functions.insert_translation(entry, start, end, string, lang_iso='spa', lang_doculect='Castellano')
  
     for (start, end) in functions.split_entry_at(entry, u"(?:, |$)", trans_eng_start, len(entry.fullentry)):
-        functions.insert_translation(entry, start, end, lang_iso='eng', lang_doculect='Inglés')
+        start, end, string = functions.remove_parts(entry, start, end)
+        string = string.replace('"', '')
+        functions.insert_translation(entry, start, end, string, lang_iso='eng', lang_doculect='Inglés')
 
 def main(argv):
 
