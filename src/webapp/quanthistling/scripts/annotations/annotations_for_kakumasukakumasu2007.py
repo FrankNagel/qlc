@@ -24,11 +24,11 @@ import functions
 
 def annotate_everything(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect" or a.value=='translation']
+    head_annotations = [ a for a in entry.annotations if a.value in ['head', "iso-639-3", "doculect", 'translation', 'boundary' ]]
     for a in head_annotations:
         Session.delete(a)
-        
-    # Delete this code and insert your code
+
+    #annotate heads
     heads = []
 
     sorted_annotations = [ a for a in entry.annotations if a.value=='tab']
@@ -38,12 +38,26 @@ def annotate_everything(entry):
         functions.print_error_in_entry(entry, "number of tabs is lower 2")
         return heads
 
-    head_end = sorted_annotations[0].start
-    head = functions.insert_head(entry, 0, head_end)
+    head_start = 0
+    head_end = functions.get_last_bold_pos_at_start(entry)
+    boundary_index = entry.fullentry.find('-', 0, head_end)
+    if boundary_index != -1:
+        entry.append_annotation(boundary_index, boundary_index+1,
+                                u'boundary', u'dictinterpretation', u"morpheme boundary")
+        if boundary_index == 0:
+            head_start = 1
+        else:
+            head_end = boundary_index
+
+    head = functions.insert_head(entry, head_start, head_end)
     heads.append(head)
 
+    #annotate translation
     for s, e in functions.split_entry_at(entry, r"(?:[;] |$)", sorted_annotations[1].end, len(entry.fullentry)):
-        functions.insert_translation(entry, s, e)
+        s, e, string = functions.remove_parts(entry, s, e)
+        string = re.sub('[!?¿¡]', '', string)
+        string = re.sub('\s*[0-9][a-z]+\s*', '', string) #remove POS from translation 3sg 2pl 
+        functions.insert_translation(entry, s, e, string)
     
     return heads
 
