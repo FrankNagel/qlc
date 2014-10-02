@@ -1,0 +1,141 @@
+
+manual_entries.append({
+    "fullentry" : "axotyatya1 v. t. (n-) curtir. Xotyare mili axotyatya. Curtiu o couro do veado. militi xaxotyatyasehare curtidor",
+    "startpage" : 10,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "axotyatya",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t.",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "curtir",
+                "start" : 22,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "axotyatya1",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t. (n-)",
+                "start" : 11,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xotyare mili axotyatya.",
+                "start" : 30,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "militi xaxotyatyasehare",
+                "start" : 79,
+                "end" : 102
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 53,
+                "end" : 53
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 102,
+                "end" : 102
+            },
+    ]
+})

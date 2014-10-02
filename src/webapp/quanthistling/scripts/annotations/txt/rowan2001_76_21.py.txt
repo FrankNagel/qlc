@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "xaka2 [ӡaka] v. t. ferroar. Irititi xakene itihokoa. O marimbondo ferroou-o no rosto.",
+    "startpage" : 76,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xaka",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ӡaka",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t.",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ferroar",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "xaka",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[ӡaka]",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t.",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Irititi xakene itihokoa.",
+                "start" : 28,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+    ]
+})

@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "halyako adv. dentro de um quarto/espaço. Waxolahatya iyakahare harenae halyako tyaonita. Os jabutis e os jacarés estavam dentro de uma só área.",
+    "startpage" : 27,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "halyako",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 13,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 13,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dentro de um espaço",
+                "start" : 13,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "dentro de um quarto",
+                "start" : 13,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "halyako",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv.",
+                "start" : 8,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Waxolahatya iyakahare harenae halyako tyaonita.",
+                "start" : 42,
+                "end" : 89
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 89,
+                "end" : 89
+            },
+    ]
+})

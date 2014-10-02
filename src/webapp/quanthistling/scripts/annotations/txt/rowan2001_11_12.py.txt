@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "ehalanase s. (1as: nohalinase) 1. cachorro. Xane hahalanase kakoa koxiye aisa maheta. Foi com o cachorro para pegar perdiz. 2. outro animal doméstico da classe, -nase como 'gato'.",
+    "startpage" : 11,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ehalanase",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cachorro",
+                "start" : 34,
+                "end" : 42
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 127,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 127,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "outro animal doméstico da classe",
+                "start" : 127,
+                "end" : 160
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 162,
+                "end" : 167
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nase",
+                "start" : 162,
+                "end" : 167
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 162,
+                "end" : 167
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portugês",
+                "start" : 168,
+                "end" : 179
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 168,
+                "end" : 179
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "como gato",
+                "start" : 168,
+                "end" : 179
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ehalanase",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 10,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "1as: nohalinase",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nohalinase",
+                "start" : 19,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xane hahalanase kakoa koxiye aisa maheta.",
+                "start" : 44,
+                "end" : 85
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-nase",
+                "start" : 162,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 123,
+                "end" : 123
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 124,
+                "end" : 124
+            },
+    ]
+})

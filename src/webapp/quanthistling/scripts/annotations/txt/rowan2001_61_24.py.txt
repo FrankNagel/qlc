@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "natyo pron. primeira pessoa singular: eu, me, mim. Kalore haihalahalinikijita natyo. Você me alegra muito. Natyo tehitiyaite naxa xiso. Eu também vou perguntar a vocês.",
+    "startpage" : 61,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "natyo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 12,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 12,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "primeira pessoa singular",
+                "start" : 12,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "eu",
+                "start" : 38,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 42,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 42,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "me",
+                "start" : 42,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 46,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 46,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "mim",
+                "start" : 46,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "natyo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.",
+                "start" : 6,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Kalore haihalahalinikijita natyo.",
+                "start" : 51,
+                "end" : 84
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Natyo tehitiyaite naxa xiso.",
+                "start" : 108,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 51,
+                "end" : 51
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 84,
+                "end" : 84
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 107,
+                "end" : 107
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 108,
+                "end" : 108
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+    ]
+})

@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "kakorexe s. carregada (arma). Kakorexe korenase tyaona ene. As armas estavam carregadas. (Veja ako dentro de.)",
+    "startpage" : 43,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kakorexe",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 12,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 12,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "carregada",
+                "start" : 12,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kakorexe",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 9,
+                "end" : 11
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Kakorexe korenase tyaona ene.",
+                "start" : 30,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ako",
+                "start" : 95,
+                "end" : 98
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 29,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+    ]
+})

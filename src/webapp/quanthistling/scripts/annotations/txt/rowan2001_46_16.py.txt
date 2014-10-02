@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "kawerahare (m.) –halo (f.) v. descritivo (no-) 1. falar com cólera. Xakaihenahene hoka kawerahare. Quando contaram para ele, começou a falar com ira. 2. emitir/fazer som. O! O! O! nita kawerahare. O! O! O! diz, fazendo som. (Veja ewerahare barulho.)",
+    "startpage" : 46,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kawerahalo",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kawerahare",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 50,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 50,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "falar com cólera",
+                "start" : 50,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 155,
+                "end" : 171
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 155,
+                "end" : 171
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "emitir",
+                "start" : 155,
+                "end" : 161
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fazer som",
+                "start" : 162,
+                "end" : 171
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kawerahare",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "–halo",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. descritivo (no-)",
+                "start" : 27,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xakaihenahene hoka kawerahare.",
+                "start" : 69,
+                "end" : 99
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "O! O! O! nita kawerahare.",
+                "start" : 173,
+                "end" : 198
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ewerahare",
+                "start" : 232,
+                "end" : 241
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 151,
+                "end" : 151
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 152,
+                "end" : 152
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 172,
+                "end" : 172
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 173,
+                "end" : 173
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 198,
+                "end" : 198
+            },
+    ]
+})

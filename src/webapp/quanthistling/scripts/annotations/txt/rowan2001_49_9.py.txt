@@ -1,0 +1,232 @@
+
+manual_entries.append({
+    "fullentry" : "kirahare1 (m.), -halo (f.) v. descritivo (no-) 1. estar cansado/a. Seko tona hoka kirahare. Andou longe e ficou cansado. 2. adj. ser velho, gasto. Imiti atyo kirahare. A roupa é velha.",
+    "startpage" : 49,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kirahalo",
+                "start" : 0,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kirahare",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.",
+                "start" : 22,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. descritivo",
+                "start" : 27,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 50,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 50,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar cansada",
+                "start" : 50,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar cansado",
+                "start" : 50,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 124,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 124,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 124,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "adj",
+                "start" : 124,
+                "end" : 127
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ser velho",
+                "start" : 129,
+                "end" : 138
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gasto",
+                "start" : 140,
+                "end" : 145
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kirahare",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-halo",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. descritivo (no-)",
+                "start" : 27,
+                "end" : 46
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Seko tona hoka kirahare.",
+                "start" : 67,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 124,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Imiti atyo kirahare.",
+                "start" : 147,
+                "end" : 167
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 67,
+                "end" : 67
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 120,
+                "end" : 120
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 121,
+                "end" : 121
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 147,
+                "end" : 147
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 167,
+                "end" : 167
+            },
+    ]
+})

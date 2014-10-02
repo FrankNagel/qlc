@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "wiso pron. primeira pessoa plural: nós, nos. Haxikahena wiso hoka wiyane. Mandenos, então iremos mesmo. Wiso atyo ewakaneharenai. Nós somos servos dele.",
+    "startpage" : 76,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "wiso",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 11,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 11,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "primeira pessoa plural",
+                "start" : 11,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nós",
+                "start" : 35,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "nos",
+                "start" : 41,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wiso",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Haxikahena wiso hoka wiyane.",
+                "start" : 46,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Wiso atyo ewakaneharenai.",
+                "start" : 106,
+                "end" : 131
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 105,
+                "end" : 105
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 106,
+                "end" : 106
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 131,
+                "end" : 131
+            },
+    ]
+})

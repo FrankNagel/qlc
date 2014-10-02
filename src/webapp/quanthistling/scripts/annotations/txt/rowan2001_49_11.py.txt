@@ -1,0 +1,148 @@
+
+manual_entries.append({
+    "fullentry" : "kirakahare2 (m.) –halo (f.) v. int. (1as: nokirakihare) agir com maldade. Nokirakihare ekakoa, ihorehena natyo hoka. Vou agir mal, se brigar comigo.",
+    "startpage" : 49,
+    "pos_on_page" : 11,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kirakahalo",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kirakahare",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 12,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.",
+                "start" : 23,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. int.",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "agir com maldade",
+                "start" : 56,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kirakahare",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "–halo",
+                "start" : 17,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. int.",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "1as: nokirakihare",
+                "start" : 37,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nokirakihare",
+                "start" : 42,
+                "end" : 54
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nokirakihare ekakoa, ihorehena natyo hoka.",
+                "start" : 74,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+    ]
+})

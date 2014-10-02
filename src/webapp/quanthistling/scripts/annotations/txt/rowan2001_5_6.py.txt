@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "aiyokolatya, aiyokolalisa v. t. (n-) gritar: ho! ho! ho!. Xikonahatiyenai aiyokolalisahene. Os que jogavam bola gritaram: Ho! Ho! Ho! contra ela.",
+    "startpage" : 5,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aiyokolatya, aiyokolalisa",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t.",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 37,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 37,
+                "end" : 55
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "gritar: ho! ho! ho!",
+                "start" : 37,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aiyokolatya, aiyokolalisa",
+                "start" : 0,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t. (n-)",
+                "start" : 26,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xikonahatiyenai aiyokolalisahene.",
+                "start" : 58,
+                "end" : 91
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 91,
+                "end" : 91
+            },
+    ]
+})

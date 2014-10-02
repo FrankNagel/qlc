@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "tyaonakakoaha v. recíproco casar-se. Irae enexe kakoa hoka hatyaoseta tyaonakakoaha. Falou com o pai e depois se casaram.",
+    "startpage" : 71,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyaonakakoaha",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. recíproco",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "casar-se",
+                "start" : 28,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tyaonakakoaha",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. recíproco",
+                "start" : 14,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Irae enexe kakoa hoka hatyaoseta tyaonakakoaha.",
+                "start" : 38,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+    ]
+})

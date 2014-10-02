@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "koilise s. (no- -xi) piriquito-de-encontroamarelo",
+    "startpage" : 50,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "koilise",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 8,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "piriquito-de-encontroamarelo",
+                "start" : 21,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "koilise",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s. (no- -xi)",
+                "start" : 8,
+                "end" : 20
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+    ]
+})

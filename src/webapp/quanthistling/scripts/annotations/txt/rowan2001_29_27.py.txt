@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "hiso pron. 2a pessoa singular: te, ti, tu, você. Tyotyahaore tawahitaha hiso. Todos estaõ procurando você. Hiso atyo nityani kaiserehare. Você é mesmo meu filho.",
+    "startpage" : 29,
+    "pos_on_page" : 27,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hiso",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron.",
+                "start" : 5,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "2a pessoa singular",
+                "start" : 11,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 14,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 14,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "te",
+                "start" : 31,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 35,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 35,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ti",
+                "start" : 35,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 39,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 39,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tu",
+                "start" : 39,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 43,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 43,
+                "end" : 48
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "você",
+                "start" : 43,
+                "end" : 48
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hiso",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron. 2a",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Tyotyahaore tawahitaha hiso.",
+                "start" : 50,
+                "end" : 78
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Hiso atyo nityani kaiserehare.",
+                "start" : 110,
+                "end" : 140
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 50,
+                "end" : 50
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 78,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 109,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 110,
+                "end" : 110
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 140,
+                "end" : 140
+            },
+    ]
+})

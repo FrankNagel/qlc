@@ -1,0 +1,190 @@
+
+manual_entries.append({
+    "fullentry" : "xakati [ӡakati] s. 1. tiro. Xakati semaha. Ouviram um tiro. 2. violência usando armas. Xakati maisa waiyexe nomani. Não gosto de briga com armas de fogo.",
+    "startpage" : 77,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xakati",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ӡakati",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 7,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 16,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 22,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 22,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tiro",
+                "start" : 22,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 63,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 63,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "violência usando armas",
+                "start" : 63,
+                "end" : 86
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "xakati [ӡakati]",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 16,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xakati semaha.",
+                "start" : 28,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xakati maisa waiyexe nomani.",
+                "start" : 88,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 15,
+                "end" : 15
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 59,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 60,
+                "end" : 60
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+    ]
+})

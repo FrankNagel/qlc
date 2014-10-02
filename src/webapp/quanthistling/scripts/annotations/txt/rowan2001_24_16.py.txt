@@ -1,0 +1,260 @@
+
+manual_entries.append({
+    "fullentry" : "exoa1 v. int. (n-) cair. 1. Exoa waikoahe. Caiu no chão. 2. descer. Avião exoa womana. O avião desceu para nós. Kirakahare exoahena tyairi henota. Os animais desceram do morro. 3. entrar em água. Iyakare exoaheta onexa. O jacaré entrou na água.",
+    "startpage" : 24,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "exoa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. int.",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 28,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 28,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "exoa waikoahe",
+                "start" : 28,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 61,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 61,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "descer",
+                "start" : 61,
+                "end" : 67
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 184,
+                "end" : 199
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 184,
+                "end" : 199
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "entrar em água",
+                "start" : 184,
+                "end" : 199
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "exoa1",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. int. (n-)",
+                "start" : 6,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Exoa waikoahe.",
+                "start" : 28,
+                "end" : 42
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Avião exoa womana.",
+                "start" : 69,
+                "end" : 88
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Kirakahare exoahena tyairi henota.",
+                "start" : 116,
+                "end" : 150
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Iyakare exoaheta onexa.",
+                "start" : 201,
+                "end" : 224
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 28,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 68,
+                "end" : 68
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 69,
+                "end" : 69
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 88,
+                "end" : 88
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 115,
+                "end" : 115
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 116,
+                "end" : 116
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 150,
+                "end" : 150
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 181,
+                "end" : 181
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 200,
+                "end" : 200
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 201,
+                "end" : 201
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 224,
+                "end" : 224
+            },
+    ]
+})

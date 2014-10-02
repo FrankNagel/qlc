@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "makarohare adj. caro (não barato). Maisa makarohare xini. Não é barato (é caro).",
+    "startpage" : 54,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "makarohare",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adj.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 16,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 16,
+                "end" : 34
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "caro",
+                "start" : 16,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "makarohare",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adj.",
+                "start" : 11,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Maisa makarohare xini.",
+                "start" : 36,
+                "end" : 58
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 35,
+                "end" : 35
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 36,
+                "end" : 36
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 58,
+                "end" : 58
+            },
+    ]
+})

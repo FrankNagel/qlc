@@ -1,0 +1,211 @@
+
+manual_entries.append({
+    "fullentry" : "xaka1 [ӡaka] v. t. ( ni-) 1. atirar em. Nixaka enomana xakore hoka maisa kaokita ihiye. Atirei nele, mas a bala não o atingiu. 2. atirar e acertar. Hanama xotyare xaka. Ele matou 3 veados.",
+    "startpage" : 76,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xaka",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ӡaka",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 6,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t.",
+                "start" : 13,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atirar em",
+                "start" : 29,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 131,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 131,
+                "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "atirar e acertar",
+                "start" : 131,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "xaka",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "[ӡaka]",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t. ( ni-)",
+                "start" : 13,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nixaka enomana xakore hoka maisa kaokita ihiye.",
+                "start" : 40,
+                "end" : 87
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Hanama xotyare xaka.",
+                "start" : 149,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 127,
+                "end" : 127
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 148,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 179,
+                "end" : 179
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 180,
+                "end" : 180
+            },
+    ]
+})

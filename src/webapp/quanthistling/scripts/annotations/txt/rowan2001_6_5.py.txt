@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "aliyeheko adv. interrog. quando? como? Aliyeheko xamani kaokehena womana? Como e quando chegará para nós?",
+    "startpage" : 6,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aliyeheko",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv. interrog.",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 25,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 25,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quando?",
+                "start" : 25,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "como?",
+                "start" : 33,
+                "end" : 38
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Aliyeheko xamani kaokehena womana?",
+                "start" : 39,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Como e quando chegará para nós?",
+                "start" : 74,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aliyeheko",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv. interrog.",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Aliyeheko xamani kaokehena womana?",
+                "start" : 39,
+                "end" : 73
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 39,
+                "end" : 39
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 73,
+                "end" : 73
+            },
+    ]
+})

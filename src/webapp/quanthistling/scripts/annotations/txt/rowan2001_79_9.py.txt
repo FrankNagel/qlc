@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "xoanama pron. interrog. Quantos? Xoanama xane? Quantas pessoas foram?",
+    "startpage" : 79,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xoanama",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron. interrog.",
+                "start" : 8,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 24,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 24,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "Quantos?",
+                "start" : 24,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "xoanama",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron. interrog.",
+                "start" : 8,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xoanama xane?",
+                "start" : 33,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 7,
+                "end" : 7
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 32,
+                "end" : 32
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+    ]
+})

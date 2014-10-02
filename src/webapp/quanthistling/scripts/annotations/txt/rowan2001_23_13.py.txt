@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "exaokaka posposição (no- -ki) com referência a alguém/algo. Nikare iraeta exaokaha. Foi assim que falou sobre eles.",
+    "startpage" : 23,
+    "pos_on_page" : 13,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "exaokaka",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "posposição",
+                "start" : 9,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 32,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 32,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "com referência a algo",
+                "start" : 32,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "com referência a alguém",
+                "start" : 32,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "exaokaka",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "posposição (no- -ki)",
+                "start" : 9,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Nikare iraeta exaokaha.",
+                "start" : 64,
+                "end" : 87
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 87,
+                "end" : 87
+            },
+    ]
+})

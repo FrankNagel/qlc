@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "axotyatya2 v. t. (n-) pintar côr avermelhada. Axotyatita imiti. Tingia o pano de vermelho.",
+    "startpage" : 10,
+    "pos_on_page" : 3,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "axotyatya",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t.",
+                "start" : 11,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 22,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 22,
+                "end" : 45
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pintar côr avermelhada",
+                "start" : 22,
+                "end" : 45
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "axotyatya2",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t. (n-)",
+                "start" : 11,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Axotyatita imiti.",
+                "start" : 47,
+                "end" : 64
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 47,
+                "end" : 47
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 64,
+                "end" : 64
+            },
+    ]
+})

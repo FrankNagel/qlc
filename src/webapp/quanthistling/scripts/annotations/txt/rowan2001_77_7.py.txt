@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "xala pron. interrog. quem? Hoka xiso atyo xala xaokita natyo? Quem vocês pensam que eu sou?",
+    "startpage" : 77,
+    "pos_on_page" : 7,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xala",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pron. interrog.",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 91
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quem?",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "xala",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pron. interrog.",
+                "start" : 5,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Hoka xiso atyo xala xaokita natyo?",
+                "start" : 27,
+                "end" : 61
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 61,
+                "end" : 61
+            },
+    ]
+})

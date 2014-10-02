@@ -1,0 +1,260 @@
+
+manual_entries.append({
+    "fullentry" : "tyama2 v. int. sarar (lesão). Wairati moka hakano hiye hoka tyameheta. Tratou o braço com remédio e a lesão sarou. tyamehare v. descritivo estar sarado de doença de pele. Hiyane hisoa onexa hoka hityamehareheta. Vai entrar no rio e a pele ficará boa. tyamexe s. ferida fechada. Exose tyamexe. A ferida no olho sarou.",
+    "startpage" : 71,
+    "pos_on_page" : 14,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyama",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. int.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sarar",
+                "start" : 15,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tyama",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. int.",
+                "start" : 7,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Wairati moka hakano hiye hoka tyameheta.",
+                "start" : 31,
+                "end" : 71
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tyamehare",
+                "start" : 119,
+                "end" : 128
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. descritivo",
+                "start" : 129,
+                "end" : 142
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Hiyane hisoa onexa hoka hityamehareheta.",
+                "start" : 176,
+                "end" : 216
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tyamexe",
+                "start" : 257,
+                "end" : 264
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 265,
+                "end" : 267
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Exose tyamexe.",
+                "start" : 284,
+                "end" : 298
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 30,
+                "end" : 30
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 31,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 71,
+                "end" : 71
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 119,
+                "end" : 119
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 128,
+                "end" : 128
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 175,
+                "end" : 175
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 176,
+                "end" : 176
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 216,
+                "end" : 216
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 256,
+                "end" : 256
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 257,
+                "end" : 257
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 264,
+                "end" : 264
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 283,
+                "end" : 283
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 284,
+                "end" : 284
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 284,
+                "end" : 284
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 298,
+                "end" : 298
+            },
+    ]
+})

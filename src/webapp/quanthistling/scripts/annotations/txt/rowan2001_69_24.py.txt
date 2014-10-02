@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "tohase s. pão (quantia). Winali 5 tohase nakairati. Temos 5 pães.",
+    "startpage" : 69,
+    "pos_on_page" : 24,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tohase",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 10,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "pão",
+                "start" : 10,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tohase",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 7,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Winali 5 tohase nakairati.",
+                "start" : 26,
+                "end" : 52
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 25,
+                "end" : 25
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 26,
+                "end" : 26
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 52,
+                "end" : 52
+            },
+    ]
+})

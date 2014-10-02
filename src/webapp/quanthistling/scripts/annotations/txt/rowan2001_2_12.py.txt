@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "ahinityaliye (m.), -lo (f.) s. (n-) gabador, ostentador. Hatyo haliti ahinityaliye. Este homen se gaba muito.",
+    "startpage" : 2,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ahinityalo",
+                "start" : 0,
+                "end" : 22
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ahinityaliye",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "m.",
+                "start" : 13,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 19,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "f.",
+                "start" : 23,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 28,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ahinityaliye",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "(m.),",
+                "start" : 13,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-lo",
+                "start" : 19,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s. (n-)",
+                "start" : 28,
+                "end" : 35
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Hatyo haliti ahinityaliye.",
+                "start" : 57,
+                "end" : 83
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 27,
+                "end" : 27
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 56,
+                "end" : 56
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 57,
+                "end" : 57
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 83,
+                "end" : 83
+            },
+    ]
+})

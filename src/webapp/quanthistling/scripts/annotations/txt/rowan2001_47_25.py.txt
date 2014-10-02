@@ -1,0 +1,197 @@
+
+manual_entries.append({
+    "fullentry" : "kaxotaware s. 1. veado campeiro (macho). Kaxotaware kalore aisaha. Mataram um campeiro grande. 2. Animal com chifres. Ohiroli tehitiya kaxotaware. A vaca também tem chifres. (Veja exotawa chifre.)",
+    "startpage" : 47,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kaxotaware",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 17,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 17,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "veado campeiro",
+                "start" : 17,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 98,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 98,
+                "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "animal com chifres",
+                "start" : 98,
+                "end" : 116
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "kaxotaware",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 11,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Kaxotaware kalore aisaha.",
+                "start" : 41,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Ohiroli tehitiya kaxotaware.",
+                "start" : 118,
+                "end" : 146
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "exotawa",
+                "start" : 181,
+                "end" : 188
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 40,
+                "end" : 40
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 41,
+                "end" : 41
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 66,
+                "end" : 66
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 94,
+                "end" : 94
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 95,
+                "end" : 95
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 117,
+                "end" : 117
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 118,
+                "end" : 118
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 146,
+                "end" : 146
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 148,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 149,
+                "end" : 149
+            },
+    ]
+})

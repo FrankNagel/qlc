@@ -1,0 +1,120 @@
+
+manual_entries.append({
+    "fullentry" : "ehalalakoane s. parte rasgada/objeto rasgado. Toka inima hoka exahehare ehalalakoane moka. Pegou a roupa e rasgou-a, para que a parte rasgada ficasse maior. (Veja halalaka rasgar.)",
+    "startpage" : 11,
+    "pos_on_page" : 9,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ehalalakoane",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 16,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 16,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "parte rasgada",
+                "start" : 16,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "objeto rasgado",
+                "start" : 30,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ehalalakoane",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 13,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Toka inima hoka exahehare ehalalakoane moka.",
+                "start" : 46,
+                "end" : 90
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "halalaka",
+                "start" : 163,
+                "end" : 171
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 12,
+                "end" : 12
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 46,
+                "end" : 46
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 90,
+                "end" : 90
+            },
+    ]
+})

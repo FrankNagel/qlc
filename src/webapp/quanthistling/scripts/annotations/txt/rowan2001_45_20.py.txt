@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "katawanexe s. (no- -iyi) o que/quem matou. Mokoti atyo maisa katawanexe. O coró não matou ninguém.",
+    "startpage" : 45,
+    "pos_on_page" : 20,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "katawanexe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 11,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "o quem matou",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "o que matou",
+                "start" : 25,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "katawanexe",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s. (no- -iyi)",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Mokoti atyo maisa katawanexe.",
+                "start" : 43,
+                "end" : 72
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 10,
+                "end" : 10
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 42,
+                "end" : 42
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 43,
+                "end" : 43
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 72,
+                "end" : 72
+            },
+    ]
+})

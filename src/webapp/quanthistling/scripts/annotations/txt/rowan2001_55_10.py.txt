@@ -1,0 +1,92 @@
+
+manual_entries.append({
+    "fullentry" : "mama s. minha mãe; (Veja inityo a mãe dele.) Vocativo ama.",
+    "startpage" : 55,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mama",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "minha mãe",
+                "start" : 8,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 20,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 20,
+                "end" : 44
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mama",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "inityo",
+                "start" : 26,
+                "end" : 32
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ama",
+                "start" : 56,
+                "end" : 59
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

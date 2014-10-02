@@ -1,0 +1,183 @@
+
+manual_entries.append({
+    "fullentry" : "-nase1 sufixo classe de animais, objetos: veado, onça, arma de fogo, etc. Xotyare hinamanase xakaha. Mataram dois veados campeiros.",
+    "startpage" : 61,
+    "pos_on_page" : 21,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "-nase",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "sufixo",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "classe de animais",
+                "start" : 14,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 33,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 33,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "veado",
+                "start" : 42,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 49,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 49,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "onça",
+                "start" : 49,
+                "end" : 54
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "arma de fogo",
+                "start" : 56,
+                "end" : 68
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 70,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 70,
+                "end" : 73
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "-nase",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "sufixo",
+                "start" : 7,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xotyare hinamanase xakaha.",
+                "start" : 75,
+                "end" : 101
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 74,
+                "end" : 74
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 75,
+                "end" : 75
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 101,
+                "end" : 101
+            },
+    ]
+})

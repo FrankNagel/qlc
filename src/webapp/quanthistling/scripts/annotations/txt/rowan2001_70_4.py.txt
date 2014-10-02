@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "tolokoawi, tolokoawihare v. int. reflexivo. (no-) esconder-se. Notolokoawihare naoka. Quero me esconder de todos.",
+    "startpage" : 70,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tolokoawi",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tolokoawihare",
+                "start" : 11,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. int. reflexivo.",
+                "start" : 25,
+                "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 50,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 50,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esconder-se",
+                "start" : 50,
+                "end" : 61
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tolokoawi, tolokoawihare",
+                "start" : 0,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. int. reflexivo. (no-)",
+                "start" : 25,
+                "end" : 49
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Notolokoawihare naoka.",
+                "start" : 63,
+                "end" : 85
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 24,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 62,
+                "end" : 62
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 63,
+                "end" : 63
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 85,
+                "end" : 85
+            },
+    ]
+})

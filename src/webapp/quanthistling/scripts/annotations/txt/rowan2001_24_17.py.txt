@@ -1,0 +1,106 @@
+
+manual_entries.append({
+    "fullentry" : "exoa2 v. int. (n-) sentir melhor de doença. Notyako kawe, maisa exoare nohiye. Minha barriga doia e não melhorava.",
+    "startpage" : 24,
+    "pos_on_page" : 17,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "exoa",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. int.",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 19,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 19,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sentir melhor de doença",
+                "start" : 19,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "exoa2",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. int. (n-)",
+                "start" : 6,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Notyako kawe, maisa exoare nohiye.",
+                "start" : 45,
+                "end" : 79
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 44,
+                "end" : 44
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 45,
+                "end" : 45
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 79,
+                "end" : 79
+            },
+    ]
+})

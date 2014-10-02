@@ -1,0 +1,99 @@
+
+manual_entries.append({
+    "fullentry" : "xaxa s. 1as irmã mais velha; (Veja ixirone irmã mais velha dele/dela.) Vocativo axa.",
+    "startpage" : 78,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "xaxa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 8,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 8,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "as irmã mais velha",
+                "start" : 9,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 30,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 30,
+                "end" : 70
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "xaxa",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "s.",
+                "start" : 5,
+                "end" : 7
+            },
+            {
+                "type" : "formatting",
+                "value" : "underline",
+                "string" : "a",
+                "start" : 9,
+                "end" : 10
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ixirone",
+                "start" : 36,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "axa.",
+                "start" : 82,
+                "end" : 86
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

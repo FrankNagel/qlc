@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "aliyo adv. interrog. onde? para onde? Aliyo xane? Para onde foi?",
+    "startpage" : 6,
+    "pos_on_page" : 4,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "aliyo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "adv. interrog.",
+                "start" : 6,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 63
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "onde?",
+                "start" : 21,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "para onde?",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Aliyo xane?",
+                "start" : 38,
+                "end" : 49
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Para onde foi?",
+                "start" : 50,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "aliyo",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "adv. interrog.",
+                "start" : 6,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Aliyo xane?",
+                "start" : 38,
+                "end" : 49
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 5,
+                "end" : 5
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 37,
+                "end" : 37
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 38,
+                "end" : 38
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 49,
+                "end" : 49
+            },
+    ]
+})
