@@ -1920,4 +1920,16 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/cav'
     },
+    {
+        'name' : u'German, Standard',
+        'langcode': u'deu',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/deu'
+    },
+    {
+        'name' : u'Jupua',
+        'langcode': u'jupu1235',
+        'description' : u'',
+        'url' : u''
+    },
 ]

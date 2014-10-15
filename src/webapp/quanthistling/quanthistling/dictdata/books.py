@@ -1703,6 +1703,44 @@ list = [
         ]
             
     },
+    {
+        'title' : u'Die Sprache der Jupúa',
+        'author' : u'n/a',
+        'year' : 1964,
+        'bibtex_key' : u'hankejupua1964',
+        'pages' : 67,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 61,
+                'endpage' : 65,
+                'src_language_name' : u'German, Standard',
+                'tgt_language_name' : u'Jupua',
+                'src_language_bookname' : u'N/A',
+                'tgt_language_bookname' : u'Jupúa',
+                'file' : 'tucanoan/hankejupua1964_dictdata_61_65.xml',
+                'component' : 'Tucanoan'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 60,
+                'endpage' : 61,
+                'title': u'Start pages',
+                'file' : 'tucanoan/hankejupua1964_nondictdata_60_61.htm',
+                'component' : 'Tucanoan'
+            },
+            {
+                'startpage' : 66,
+                'endpage' : 67,
+                'title': u'End pages',
+                'file' : 'tucanoan/hankejupua1964_nondictdata_66_67.htm',
+                'component' : 'Tucanoan'
+            },
+        ]
+    },
     ################################################### Guaicuruan
 
     {
