@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "puxar/arrastar",
+    "startpage" : 4,
+    "pos_on_page" : 29,
+    "language_bookname" : "Portuguese",
+    "concept" : "PUXAR_ARRASTAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "puxar",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "arrastar",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

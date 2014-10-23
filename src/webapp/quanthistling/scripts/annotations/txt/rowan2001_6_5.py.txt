@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 9
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 25,
                 "end" : 106
             },
@@ -49,28 +49,28 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "quando?",
+                "string" : "quando",
                 "start" : 25,
                 "end" : 32
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "como?",
+                "string" : "como",
                 "start" : 33,
                 "end" : 38
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Aliyeheko xamani kaokehena womana?",
+                "string" : "Aliyeheko xamani kaokehena womana",
                 "start" : 39,
                 "end" : 73
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "Como e quando chegará para nós?",
+                "string" : "Como e quando chegará para nós",
                 "start" : 74,
                 "end" : 107
             },

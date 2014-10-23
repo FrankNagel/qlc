@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 6
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 10,
                 "end" : 20
             },
@@ -49,9 +49,30 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
+                "string" : "mosca esp. que morde",
+                "start" : 10,
+                "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
                 "string" : "mosca",
                 "start" : 10,
                 "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Jiwalo koni wisaonita",
+                "start" : 34,
+                "end" : 56
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ficamos em lugar com muitas moscas",
+                "start" : 57,
+                "end" : 92
             },
             {
                 "type" : "formatting",

@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "nanĩʔ-hejn",
+    "startpage" : 4,
+    "pos_on_page" : 35,
+    "language_bookname" : "Mamaindé",
+    "concept" : "QUANDO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nanĩʔhejn",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mamaindé",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "wmd",
+                "start" : 0,
+                "end" : 11
+            },
+    ]
+})

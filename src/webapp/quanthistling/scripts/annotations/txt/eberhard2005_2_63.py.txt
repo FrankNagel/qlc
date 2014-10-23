@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "hunt/kill",
+    "startpage" : 2,
+    "pos_on_page" : 63,
+    "language_bookname" : "English",
+    "concept" : "CAÇAR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "hunt",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "kill",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "English",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "eng",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

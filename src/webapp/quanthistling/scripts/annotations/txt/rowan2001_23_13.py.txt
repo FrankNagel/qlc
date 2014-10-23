@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 8
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 32,
                 "end" : 62
             },
@@ -49,16 +49,30 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
+                "string" : "com referência a alguém",
+                "start" : 32,
+                "end" : 57
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
                 "string" : "com referência a algo",
                 "start" : 32,
                 "end" : 62
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "com referência a alguém",
-                "start" : 32,
-                "end" : 57
+                "value" : "example-src",
+                "string" : "Nikare iraeta exaokaha",
+                "start" : 64,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Foi assim que falou sobre eles",
+                "start" : 88,
+                "end" : 119
             },
             {
                 "type" : "formatting",

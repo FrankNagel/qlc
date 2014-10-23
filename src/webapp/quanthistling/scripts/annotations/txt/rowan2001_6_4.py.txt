@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 5
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 21,
                 "end" : 63
             },
@@ -49,28 +49,28 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "onde?",
+                "string" : "onde",
                 "start" : 21,
                 "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "para onde?",
+                "string" : "para onde",
                 "start" : 27,
                 "end" : 37
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Aliyo xane?",
+                "string" : "Aliyo xane",
                 "start" : 38,
                 "end" : 49
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "Para onde foi?",
+                "string" : "Para onde foi",
                 "start" : 50,
                 "end" : 64
             },

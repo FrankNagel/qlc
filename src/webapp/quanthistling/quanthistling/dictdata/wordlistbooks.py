@@ -2335,21 +2335,21 @@ list = [
                 'startpage' : 2,
                 'endpage' : 5,
                 'language_name' : u'Mamaindé',
-                'language_bookname' : u'Mamaindé',
+                'language_bookname' : u'Mamaindé',
                 'component' : 'Nambiquaran'
             },
             {
                 'startpage' : 2,
                 'endpage' : 5,
                 'language_name' : u'Latundê',
-                'language_bookname' : u'Latundé',
+                'language_bookname' : u'Latundé',
                 'component' : 'Nambiquaran'
             },
             {
                 'startpage' : 2,
                 'endpage' : 5,
                 'language_name' : u'Mamaindé',
-                'language_bookname' : u'Negaroté',
+                'language_bookname' : u'Negaroté',
                 'component' : 'Nambiquaran'
             },
         ],

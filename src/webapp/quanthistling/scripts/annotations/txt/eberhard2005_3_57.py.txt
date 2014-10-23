@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ʔa̰wʔ-ti",
+    "startpage" : 3,
+    "pos_on_page" : 57,
+    "language_bookname" : "Mamaindé",
+    "concept" : "FLECHA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ʔa̰wʔti",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mamaindé",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "wmd",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

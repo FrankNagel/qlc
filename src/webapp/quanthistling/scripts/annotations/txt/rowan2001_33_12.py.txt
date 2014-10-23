@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 7
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 29
             },
@@ -49,14 +49,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "casca",
+                "string" : "casca de mandioca, etc",
                 "start" : 11,
-                "end" : 16
+                "end" : 36
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 31,
                 "end" : 34
             },
@@ -73,6 +73,20 @@ manual_entries.append({
                 "string" : "corpo",
                 "start" : 38,
                 "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Hamilihe Kamaitiye waiyahena",
+                "start" : 45,
+                "end" : 74
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Kamaitiye viu o seu próprio corpo",
+                "start" : 75,
+                "end" : 110
             },
             {
                 "type" : "formatting",

@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 10
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 25,
                 "end" : 41
             },
@@ -49,16 +49,30 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "o quem matou",
+                "string" : "o que matou",
                 "start" : 25,
                 "end" : 41
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "o que matou",
+                "string" : "o quem matou",
                 "start" : 25,
                 "end" : 41
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Mokoti atyo maisa katawanexe",
+                "start" : 43,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "O coró não matou ninguém",
+                "start" : 73,
+                "end" : 101
             },
             {
                 "type" : "formatting",

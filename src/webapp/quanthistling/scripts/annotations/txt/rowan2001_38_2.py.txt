@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 4
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 16,
                 "end" : 32
             },
@@ -49,21 +49,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "isto mesmo!",
+                "string" : "isto mesmo",
                 "start" : 16,
                 "end" : 27
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Iyó, nohoe! Ehekore hiraita.",
+                "string" : "Iyó, nohoe Ehekore hiraita",
                 "start" : 28,
                 "end" : 57
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 34,
                 "end" : 56
             },
@@ -77,7 +77,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "Isto mesmo, cunhado! Falou o que é certo.",
+                "string" : "Isto mesmo, cunhado Falou o que é certo",
                 "start" : 58,
                 "end" : 100
             },

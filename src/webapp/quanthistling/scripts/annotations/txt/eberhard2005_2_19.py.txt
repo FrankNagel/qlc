@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "nũnʔ-ta",
+    "startpage" : 2,
+    "pos_on_page" : 19,
+    "language_bookname" : "Mamaindé",
+    "concept" : "ANTA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nũnʔta",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mamaindé",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "wmd",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

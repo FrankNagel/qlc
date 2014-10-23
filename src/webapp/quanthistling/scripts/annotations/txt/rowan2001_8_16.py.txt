@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 3
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 35
             },
@@ -49,28 +49,28 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "não faça isso",
-                "start" : 15,
-                "end" : 35
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
                 "string" : "não faça isto",
                 "start" : 15,
                 "end" : 30
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "não faça isso",
+                "start" : 15,
+                "end" : 35
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "example-src",
-                "string" : "Awa atyo iniyalahare hamohena natyo.",
+                "string" : "Awa atyo iniyalahare hamohena natyo",
                 "start" : 37,
                 "end" : 73
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "example-tgt",
-                "string" : "Não me trate mal.",
+                "string" : "Não me trate mal",
                 "start" : 74,
                 "end" : 92
             },

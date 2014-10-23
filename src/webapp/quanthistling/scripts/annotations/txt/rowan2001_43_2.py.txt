@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 8
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 12,
                 "end" : 28
             },
@@ -52,6 +52,20 @@ manual_entries.append({
                 "string" : "carregada",
                 "start" : 12,
                 "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Kakorexe korenase tyaona ene",
+                "start" : 30,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "As armas estavam carregadas",
+                "start" : 60,
+                "end" : 88
             },
             {
                 "type" : "formatting",

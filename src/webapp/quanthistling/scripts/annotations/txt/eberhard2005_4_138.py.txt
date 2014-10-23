@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "índio/gente",
+    "startpage" : 4,
+    "pos_on_page" : 138,
+    "language_bookname" : "Portuguese",
+    "concept" : "ÍNDIO_GENTE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "índio",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "gente",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

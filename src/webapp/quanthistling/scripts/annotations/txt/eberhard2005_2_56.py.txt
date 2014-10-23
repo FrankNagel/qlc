@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "na-kanĩn",
+    "startpage" : 2,
+    "pos_on_page" : 56,
+    "language_bookname" : "Mamaindé",
+    "concept" : "CABEÇA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nakanĩn",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mamaindé",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "wmd",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

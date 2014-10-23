@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 7
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 18
             },
@@ -56,7 +56,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 20,
                 "end" : 39
             },
@@ -80,6 +80,20 @@ manual_entries.append({
                 "string" : "nessa maneira",
                 "start" : 26,
                 "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Maisa xoana xowaka exakere wiyaiyehenere",
+                "start" : 41,
+                "end" : 82
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Em tempo nenhum vimos coisas assim",
+                "start" : 83,
+                "end" : 118
             },
             {
                 "type" : "formatting",

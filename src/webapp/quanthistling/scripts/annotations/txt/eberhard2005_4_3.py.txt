@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "ta̰hna-kanĩn",
+    "startpage" : 4,
+    "pos_on_page" : 3,
+    "language_bookname" : "Mamaindé",
+    "concept" : "PEDRA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "ta̰hnakanĩn",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Mamaindé",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "wmd",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

@@ -2,28 +2,28 @@
   font-family: CharisSIL;
   font-style: normal ;
   font-weight: normal ;
-  src: url('http://www.cidles.eu/quanthistling/fonts/charissilr.ttf') ;
+  src: url('http://www.quanthistling.info/data/fonts/charissilr.ttf') ;
 }
 
 @font-face {
   font-family: CharisSIL;
   font-style: oblique ;
   font-weight: normal ;
-  src: url('http://www.cidles.eu/quanthistling/fonts/charissili.ttf') ;
+  src: url('http://www.quanthistling.info/data/fonts/charissili.ttf') ;
 }
 
 @font-face {
   font-family: CharisSIL;
   font-style: normal ;
   font-weight: bold ;
-  src: url('http://www.cidles.eu/quanthistling/fonts/charissilb.ttf') ;
+  src: url('http://www.quanthistling.info/data/fonts/charissilb.ttf') ;
 }
 
 @font-face {
   font-family: CharisSIL;
   font-style: oblique ;
   font-weight: bold ;
-  src: url('http://www.cidles.eu/quanthistling/fonts/charissilbi.ttf') ;
+  src: url('http://www.quanthistling.info/data/fonts/charissilbi.ttf') ;
 }
 
 * {

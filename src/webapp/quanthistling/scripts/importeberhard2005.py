@@ -25,9 +25,9 @@ re_page = re.compile(u"\[Seite (\d+)\]$")
 map_tabs = {
     u"Portuguese": 0,
     u"English": 1,
-    u"Mamaindé": 2,
-    u"Latundé": 3,
-    u"Negaroté": 4,
+    u"Mamaindé": 2,
+    u"Latundé": 3,
+    u"Negaroté": 4,
 }
 
 def insert_counterpart(entry, start, end, data):

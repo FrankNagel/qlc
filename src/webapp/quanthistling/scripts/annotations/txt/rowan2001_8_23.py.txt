@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 12
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 24,
                 "end" : 44
             },
@@ -59,6 +59,20 @@ manual_entries.append({
                 "string" : "amontoar bem",
                 "start" : 32,
                 "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Kala mowisati xamoka xawaiyetahisa",
+                "start" : 46,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Coloquem a lenha e arrumem bem",
+                "start" : 82,
+                "end" : 113
             },
             {
                 "type" : "formatting",

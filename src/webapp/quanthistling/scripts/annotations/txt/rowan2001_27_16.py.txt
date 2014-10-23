@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 7
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 13,
                 "end" : 40
             },
@@ -49,16 +49,30 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
+                "string" : "dentro de um quarto",
+                "start" : 13,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
                 "string" : "dentro de um espaço",
                 "start" : 13,
                 "end" : 40
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "dentro de um quarto",
-                "start" : 13,
-                "end" : 32
+                "value" : "example-src",
+                "string" : "Waxolahatya iyakahare harenae halyako tyaonita",
+                "start" : 42,
+                "end" : 89
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Os jabutis e os jacarés estavam dentro de uma só área",
+                "start" : 90,
+                "end" : 147
             },
             {
                 "type" : "formatting",

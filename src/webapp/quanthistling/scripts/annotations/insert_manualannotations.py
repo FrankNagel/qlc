@@ -34,7 +34,7 @@ def main(argv):
 
     for book in quanthistling.dictdata.books.list:
         #if book["bibtex_key"] != 'fastmowitz2008':
-        #    continue
+        #continue
         if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
             print "skipping", book["bibtex_key"]
             continue
@@ -76,6 +76,9 @@ def main(argv):
         Session.commit()
 
     for book in quanthistling.dictdata.wordlistbooks.list:
+        #if book["bibtex_key"] != 'eberhard2005':
+        #    continue
+
         #print book["bibtex_key"]
         if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
             print "skipping", book["bibtex_key"]
@@ -112,7 +115,6 @@ def main(argv):
             min_similarity_ratio = 0.70
             
         for e in manual_entries:
-            #print e["language_bookname"].encode("utf-8")
             wordlistdata = model.meta.Session.query(model.Wordlistdata).join(
                 (model.Book, model.Wordlistdata.book_id==model.Book.id),
                 (model.LanguageBookname, model.Wordlistdata.language_bookname_id==model.LanguageBookname.id)
