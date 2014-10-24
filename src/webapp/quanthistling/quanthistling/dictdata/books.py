@@ -2731,6 +2731,20 @@ list = [
             },
         ],
         'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start pages',
+                'file' : 'other/harms1993_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 80,
+                'endpage' : 86,
+                'title': u'Spanish Tranlsation',
+                'file' : 'other/harms1993_nondictdata_80_86.htm',
+                'component' : 'Other'
+            },
         ]
     },
     {
