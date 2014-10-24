@@ -22,6 +22,24 @@ from paste.deploy import appconfig
 
 import functions
 
+def annotate_head_in_brackets(entry, head_start, head_end, heads):
+    index = entry.fullentry.find('(', 0, head_end)
+    if index == -1:
+        return head_end
+    regex = re.compile(' \([^(]+\)')
+    for match in regex.finditer(entry.fullentry, head_start, head_end):
+        if '.' in match.group():
+            continue
+        head_start = match.start()+2
+        if entry.fullentry[head_start] == '-':
+            entry.append_annotation(head_start, head_start+1,
+                                    u'boundary', u'dictinterpretation', u"morpheme boundary")
+            head_start += 1
+        head = functions.insert_head(entry, head_start, match.end()-1)
+        if head is not None:
+            heads.append(head)
+    return index
+
 def annotate_everything(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value in ['head', "iso-639-3", "doculect", 'translation', 'boundary' ]]
@@ -49,7 +67,8 @@ def annotate_everything(entry):
         else:
             head_end = boundary_index
 
-    head = functions.insert_head(entry, head_start, head_end)
+    first_head_end = annotate_head_in_brackets(entry, head_start, head_end, heads)
+    head = functions.insert_head(entry, head_start, first_head_end)
     heads.append(head)
 
     #annotate translation
