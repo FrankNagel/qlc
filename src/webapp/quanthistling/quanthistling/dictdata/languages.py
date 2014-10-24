@@ -1932,4 +1932,10 @@ list = [
         'description' : u'',
         'url' : u''
     },
+    {
+        'name' : u'Cofán',
+        'langcode': u'con',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/con'
+    },
 ]

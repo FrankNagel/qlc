@@ -2733,6 +2733,44 @@ list = [
         'nondictdata' : [
         ]
     },
+    {
+        'title' : u'VOCABULARIO COFAN',
+        'author' : u'Borman, M. B.',
+        'year' : 1976,
+        'bibtex_key' : u'borman1976',
+        'pages' : 122,
+        'columns' : 2,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 73,
+                'src_language_name' : u'Cofán',
+                'tgt_language_name' : u'Spanish',
+                'src_language_bookname' : u'Cofán',
+                'tgt_language_bookname' : u'Castellano',
+                'file' : 'other/borman1976_dictdata_1_73.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start Pages',
+                'file' : 'other/borman1976_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+            {
+                'startpage' : 74,
+                'endpage' : 122,
+                'title': u'Castellano - Cofán',
+                'file' : 'other/borman1976_nondictdata_74_122.htm',
+                'component' : 'Other'
+            },
+        ]
+    },
 
 ##################################### Arawak
 
