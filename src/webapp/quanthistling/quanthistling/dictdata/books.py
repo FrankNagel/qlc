@@ -2785,6 +2785,37 @@ list = [
             },
         ]
     },
+    {
+        'title' : u'Palabras y Frases Útiles Castellano – Huaorani',
+        'author' : u'Peeke, Catherine',
+        'year' : 2009,
+        'bibtex_key' : u'peeke2009',
+        'pages' : 18,
+        'columns' : 1,
+        'is_ready' : False,
+        'type' : 'dictionary',
+        'dictdata' : [
+            {
+                'startpage' : 1,
+                'endpage' : 18,
+                'src_language_name' : u'Spanish',
+                'tgt_language_name' : u'Waorani',
+                'src_language_bookname' : u'Castellano',
+                'tgt_language_bookname' : u'Huaorani',
+                'file' : 'other/peeke2009_dictdata_1_18.xml',
+                'component' : 'Other'
+            },
+        ],
+        'nondictdata' : [
+            {
+                'startpage' : 0,
+                'endpage' : 0,
+                'title': u'Start Pages',
+                'file' : 'other/peeke2009_nondictdata_0_0.htm',
+                'component' : 'Other'
+            },
+        ]
+    },
 
 ##################################### Arawak
 

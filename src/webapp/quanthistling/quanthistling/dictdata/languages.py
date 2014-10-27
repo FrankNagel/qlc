@@ -1938,4 +1938,10 @@ list = [
         'description' : u'',
         'url' : u'http://www.ethnologue.com/language/con'
     },
+    {
+        'name' : u'Waorani',
+        'langcode': u'auc',
+        'description' : u'',
+        'url' : u'http://www.ethnologue.com/language/auc'
+    },
 ]
