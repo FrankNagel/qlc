@@ -4,19 +4,39 @@ import re
 from operator import attrgetter
 import unicodedata
 
-def split_entry_at(entry, regex, start, end):
+def split_entry_at(entry, regex, start, end, skip_first=False):
     local_start = start
     local_end   = end
+    in_brackets = get_in_brackets_func(entry)
     for match in re.finditer(regex, entry.fullentry[start:end]):
-        # Are we in bracket?
-        in_bracket = False
-        for match_bracket in re.finditer("\([^)]*\)", entry.fullentry[start:end]):
-            if match_bracket.start(0) < match.start(0) and match_bracket.end(0) > match.end(0):
-                in_bracket = True
-        if not in_bracket:
-            local_end = start + match.start(0)
+        if in_brackets(start + match.start(), start + match.end()):
+            continue
+        local_end = start + match.start(0)
+        if not ( skip_first and local_start == start and local_end != end):
             yield (local_start, local_end)
-            local_start = start + match.end(0)
+        local_start = start + match.end(0)
+
+def find_brackets(entry, opening_bracket = '(', closing_bracket = ')'):
+    result = []
+    opening_index = 0
+    open_count = 0
+    for index, c in enumerate(entry.fullentry):
+        if c == opening_bracket:
+            if open_count == 0:
+                opening_index = index
+            open_count += 1
+        elif c == closing_bracket:
+            if open_count == 1:
+                result.append((opening_index, index+1))
+            open_count = max(0, open_count-1) #recover from too many ')'
+    if open_count > 0: # missing ')' at the end
+        result.append((opening_index, index+1))
+    return result
+
+def get_in_brackets_func(entry, brackets=None):
+    if brackets is None:
+        brackets = find_brackets(entry)
+    return lambda x, y: next((b for b in brackets if b[0] < x and y < b[1]-1), None)
 
 def normalize_stroke(string_src):
     string_new = ""
@@ -346,9 +366,3 @@ def insert_pos(entry, s, e, string = None):
         return insert_annotation(entry, start, end, u"pos", string_new.lower())
     else:
         return None
-
-def find_brackets(entry):
-    result = []
-    for match in re.finditer('\([^\)]*\)', entry.fullentry):
-        result.append( (match.start(), match.end()) )
-    return lambda x: bool( [1 for y in result if y[0] < x and  x < y[1]-1] )
