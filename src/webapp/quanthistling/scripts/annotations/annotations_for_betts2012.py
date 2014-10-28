@@ -93,15 +93,19 @@ def annotate_translations(entry):
     if italic != -1:
         translation_end = italic[0] - 1
 
-    bold = functions.get_first_bold_in_range(entry, translation_start, translation_end)
-    if bold != -1:
-        translation_end = bold[0] - 1
+    for numbered_start, numbered_end in functions.split_entry_at(entry, r'[0-9]\) |$',
+                                                                 translation_start, translation_end):
+        bold = functions.get_first_bold_in_range(entry, numbered_start, numbered_end)
+        if bold != -1:
+            numbered_end = bold[0] - 1
 
-    match_number = re.match(" ?\d\) ?", entry.fullentry[translation_start:translation_end])
-    if match_number:
-        translation_start += len(match_number.group(0))
+        #search for start of examples and end translation there
+        ex_match = re.compile(",\s*(e\.\s*g\.|i\.\s*e\.)").search(entry.fullentry, numbered_start, numbered_end)
+        if ex_match:
+            numbered_end = ex_match.start()
 
-    functions.insert_translation(entry, translation_start, translation_end)
+        for start, end in functions.split_entry_at(entry, r'[;,] |$', numbered_start, numbered_end):
+            functions.insert_translation(entry, start, end)
  
 def main(argv):
 
