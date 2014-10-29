@@ -22,6 +22,26 @@ from paste.deploy import appconfig
 
 import functions
 
+def insert_head(entry, head_start, head_end, heads):
+    head_start, head_end, head = functions.remove_parts(entry, head_start, head_end)
+    head = head.strip()
+    if not head:
+        return
+    if head[0] == '-': # split heads like '-ali(ta), -ali(tege)' or '-aalegena -aalegenali'
+         index = head.find(' -')
+         if index != -1 and head[1] == head[index+2]:
+             for h_start, h_end in functions.split_entry_at(entry, '[,;]? (?=-)|$', head_start, head_end):
+                 h_start, h_end, head = functions.remove_parts(entry, h_start, h_end)
+                 head = head.strip('- ')
+                 if head:
+                    functions.insert_head(entry, h_start, h_end, head)
+                    heads.append(head)
+             return
+    head = head.strip('- ')
+    if head:
+        functions.insert_head(entry, head_start, head_end, head)
+        heads.append(head)
+        
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
@@ -39,17 +59,11 @@ def annotate_head(entry):
         start = 0
         for t in tabs_in_head:
             end = t[0]
-            head = functions.insert_head(entry, start, end)
-            heads.append(head)
+            head = insert_head(entry, start, end, heads)
             start = t[1]
-        head = functions.insert_head(entry, start, head_end)
-        if head:
-            heads.append(head)
-        else:
-            functions.print_error_in_entry(entry, "tab in wrong position")
+        head = insert_head(entry, start, head_end, heads)
     else:
-        head = functions.insert_head(entry, 0, head_end)
-        heads.append(head)
+        head = insert_head(entry, 0, head_end, heads)
 
     return heads
 
