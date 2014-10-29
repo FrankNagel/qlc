@@ -22,9 +22,38 @@ from paste.deploy import appconfig
 
 import functions
 
+dialects = dict(
+    E = 'emoa masa',
+    I = 'ide masa',
+    R = 'roea masa',
+    S = 'sʉroa masa',
+    T = 'taboti jejea masa',
+    Y = 'yiba masa',
+)
+
+def insert_head(entry, start, end, heads):
+    match = re.compile('\(([A-Z, ]+)\)').search(entry.fullentry, start, end)
+    if match:
+        end = match.start()
+        snip = match.group(1)
+        snip_start = match.start(1)
+        ids = [a.strip() for a in match.group(1).split(',')]
+        for id in ids:
+            if dialects.has_key(id):
+                id_index = match.start(1) + snip.find(id)
+                entry.append_annotation(id_index, id_index+1,
+                                        u'dialectidentification', u'dictinterpretation', dialects[id])
+            else:
+                functions.print_error_in_entry(entry, 'Unknown dialect Identifier: ' + id)
+                
+    head = functions.insert_head(entry, start, end)
+    if head:
+        heads.append(head)
+    
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=="iso-639-3" or a.value=="doculect"]
+    annotations = [ a for a in entry.annotations if a.value in
+                    ['head', 'pos', 'translation', 'iso-639-3', 'doculect', 'dialectidentification']]
     for a in annotations:
         Session.delete(a)
 
@@ -36,45 +65,15 @@ def annotate_everything(entry):
     heads = []
     head_start = 0
     head_end = functions.get_last_bold_pos_at_start(entry)
-    head_tmp = entry.fullentry[:head_end]
-    match = re.match(u'(\w+.*?)\d+', head_tmp)
-    
-    # remove numbers at end of head
-    if match:
-        #print match.group(1)
-        head_tmp = match.group(1)
-        head_end = head_end - 2
-        print functions.print_error_in_entry(entry)
 
-    com_heads = []
-    for com in re.finditer(r'(,)', entry.fullentry):
-        com_heads.append(com.start())
-    
-    comma_heads = [ a for a in com_heads if a < head_end ] 
-    
-    if comma_heads:
-        for i in range(len(comma_heads)):
-            if i == 0:
-                h_s = 0
-                h_e = comma_heads[i]
-                h1 = functions.insert_head(entry, h_s, h_e)
-                
-                h2_s = comma_heads[0] + 1
-                if i + 1 < len(comma_heads):
-                    h2_e = comma_heads[i+1]
-                    h2 = functions.insert_head(entry, h2_s, h2_e)
-                else:
-                    h2 = functions.insert_head(entry, h2_s, head_end)
-            else:
-                h_s = comma_heads[i] + 1
-                if i + 1 < len(comma_heads):
-                    h_e = comma_heads[i+1]
-                    head = functions.insert_head(entry, h_s, h_e)
-                else:
-                    head = functions.insert_head(entry, h_s, head_end)
-    else:
-        functions.insert_head(entry, head_start, head_end)
-    
+    # remove numbers at end of head
+    match = re.compile(u'\d+\s*$').search(entry.fullentry, head_start, head_end)
+    if match:
+        head_end = match.start()
+
+    for start, end in functions.split_entry_at(entry, ',|$', head_start, head_end):
+        insert_head(entry, start, end, heads)
+
     # pos
    
        
@@ -152,7 +151,7 @@ def annotate_everything(entry):
             else:
                 functions.insert_translation(entry, t_start, t_end)
     else:
-        print 'Error in bold ranges ', functions.print_error_in_entry(entry)
+        functions.print_error_in_entry(entry, 'Error in bold ranges')
         
     return heads
  
