@@ -35,11 +35,16 @@ def annotate_head(entry):
     if len(newlines) > 0:
         head_end = functions.get_last_bold_pos_at_start(entry)
 
-        head = functions.insert_head(entry, 0, head_end)
-        if head is None:
-            functions.print_error_in_entry(entry, "head is None")
-        else:
-            heads.append(head)
+        for h_start, h_end in functions.split_entry_at(entry, ',|$', 0, head_end):
+            for i in ( index for index in xrange(h_start, h_end) if entry.fullentry[index] == '-' ):
+                entry.append_annotation(i, i+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+            h_start, h_end, head = functions.remove_parts(entry, h_start, h_end)
+            if not head.strip():
+                functions.print_error_in_entry(entry, "head is None")
+            else:
+                head = head.replace('-', '')
+                head = functions.insert_head(entry, h_start, h_end, head)
+                heads.append(head)
 
     return heads
 
