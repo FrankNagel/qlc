@@ -22,11 +22,13 @@ from paste.deploy import appconfig
 
 import functions
 
-def insert_head(entry, head_start, head_end):
+def insert_head(entry, head_start, head_end, heads):
     match_star = re.search("\*\s*$", entry.fullentry[head_start:head_end])
     if match_star:
         head_end = head_start + match_star.start()
-    functions.insert_head(entry, head_start, head_end)
+    head = functions.insert_head(entry, head_start, head_end)
+    if head:
+        heads.append(head)
 
 def insert_translation(entry, start, end, lang_iso = None, lang_doculect = None):
     match_slash = re.search("(^| )([^ /]*)/([^ /]*)(?=$| )", entry.fullentry[start:end])
@@ -67,25 +69,25 @@ def annotate_everything(entry):
             for i in range(len(c_list)):
                 if i == 0:
                     head_end = c_list[i]
-                    insert_head(entry, h_start, head_end)
+                    insert_head(entry, h_start, head_end, heads)
                 
                     head2_start = c_list[0] + 2
                     if i + 1 < len(c_list):
                         head2_end = c_list[i+1]
-                        insert_head(entry, head2_start, head2_end)
+                        insert_head(entry, head2_start, head2_end, heads)
                     else:
-                        insert_head(entry, head2_start, h_end)
+                        insert_head(entry, head2_start, h_end, heads)
                         c_list = []
                 else:
                     head_start = c_list[i] + 2
                     if i + 1 < len(c_list):
                         head_end = c_list[i+1]
-                        insert_head(entry, head_start, head_end)
+                        insert_head(entry, head_start, head_end, heads)
                     else:
-                        insert_head(entry, head_start, h_end)
+                        insert_head(entry, head_start, h_end, heads)
                         c_list = []
         else:
-            insert_head(entry, h_start, h_end)
+            insert_head(entry, h_start, h_end, heads)
         
         # translations
         
