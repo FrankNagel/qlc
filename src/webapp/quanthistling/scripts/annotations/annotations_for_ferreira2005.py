@@ -22,57 +22,39 @@ from paste.deploy import appconfig
 
 import functions
 
-def annotate_everything(entry):
-    # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or a.value=='pos' or a.value=='translation' or a.value=='doculect' or a.value=='iso-639-3']
-    for a in annotations:
-        Session.delete(a)
-
-    tab_annotations = [ a for a in entry.annotations if a.value=='tab' ]
-    newline_annotations = [ a for a in entry.annotations if a.value=='newline' ]
-  
-    #translation_end = len(entry.fullentry)
-
+def annotate_head(entry):
     heads = []
     head_start = 0
     head_end = functions.get_last_bold_pos_at_start(entry)
 
-    com_heads = []
-    for com in re.finditer(r'(,|;)', entry.fullentry):
-        com_heads.append(com.start())
-    
-    comma_heads = [ a for a in com_heads if a < head_end ] 
-    
-    if comma_heads:
-        for i in range(len(comma_heads)):
-            if i == 0:
-                h_s = 0
-                h_e = comma_heads[i]
-                h1 = functions.insert_head(entry, h_s, h_e)
-                heads.append(h1)
-                
-                h2_s = comma_heads[0] + 2
-                if i + 1 < len(comma_heads):
-                    h2_e = comma_heads[i+1]
-                    h2 = functions.insert_head(entry, h2_s, h2_e)
-                    heads.append(h2)
-                else:
-                    h2 = functions.insert_head(entry, h2_s, head_end)
-                    heads.append(h2)
-            else:
-                h_s = comma_heads[i] + 2
-                if i + 1 < len(comma_heads):
-                    h_e = comma_heads[i+1]
-                    head = functions.insert_head(entry, h_s, h_e)
-                    heads.append(head)
+    for h_start, h_end in functions.split_entry_at(entry, r'[,;]|$', head_start, head_end):
+        for index in xrange(h_start, h_end):
+            if entry.fullentry[index] == '-':
+                entry.append_annotation(index, index+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+        h_start, h_end, head = functions.remove_parts(entry, h_start, h_end)
+        while h_end > h_start and (head[-1].isdigit() or head[-1] == '-'):
+            h_end -= 1
+            head = head[:-1]
+        while h_start < h_end and head[0] == '-':
+            h_start += 1
+            head = head[1:]
+        head = functions.insert_head(entry, h_start, h_end, head)
+        if head:
+            heads.append(head)
 
-                else:
-                    head = functions.insert_head(entry, h_s, head_end)
-                    heads.append(head)
-    else:
-        head = functions.insert_head(entry, head_start, head_end)
-        heads.append(head)
+    return heads
+
+        
+def annotate_everything(entry):
+    # delete head annotations
+    annotations = [ a for a in entry.annotations if a.value in
+                    ['head', 'pos', 'translation', 'doculect', 'iso-639-3', 'boundary']]
+    for a in annotations:
+        Session.delete(a)
+
     
+    heads = annotate_head(entry)
+        
     # pos
     ir = functions.get_first_italic_range(entry)
     try:
