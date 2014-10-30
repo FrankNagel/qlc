@@ -40,6 +40,12 @@ def _split_translations(entry, s, e):
             functions.insert_translation(entry, start, end)
             start = s + match_comma.end(0)
 
+def insert_head(entry, start, end, heads):
+    start, end, string = functions.remove_parts(entry, start, end)
+    string = string.replace('-', '')
+    head = functions.insert_head(entry, start, end, string)
+    if head:
+        heads.append(head)
 
 def annotate_everything(entry):
     # delete head annotations
@@ -57,18 +63,23 @@ def annotate_everything(entry):
 
     if len(tabs) > 0:
         #head annotation
-        head_end = tabs[0][0]
-        head = functions.insert_head(entry, 0, head_end)
-        heads.append(head)
+        trans_start = head_end = tabs[0][0]
+
+        match = re.compile(r' \(([^)]*)\)').search(entry.fullentry, 0, head_end)
+        if match:
+            head_end = match.start()
+            if match.group(1).strip() not in ['prefixo', 'sufixo', 'infixo'] and ':' not in match.group(1):
+                insert_head(entry, match.start(1), match.end(1), heads)
+        insert_head(entry, 0, head_end, heads)
 
         #translation annotation
-        newlines = functions.get_list_ranges_for_annotation(entry, 'newline', head_end)
+        newlines = functions.get_list_ranges_for_annotation(entry, 'newline', trans_start)
         if len(newlines) > 0:
             trans_end = newlines[0][0]
         else:
             trans_end = len(entry.fullentry)
 
-        _split_translations(entry, head_end, trans_end)
+        _split_translations(entry, trans_start, trans_end)
     return heads
 
 
