@@ -92,21 +92,13 @@ def annotate_pos_and_translations(entry):
         return
 
     for start, end in translations:
-        if re.search(r"\d\.", entry.fullentry[start:end]):
-            for match_number in re.finditer(r'(?<=\d\.)(.*?)(?:\d\.|$)', entry.fullentry[start:end]):
-                translation_start = start + match_number.start(1)
-                for match_comma in re.finditer("(?:, ?|$)", entry.fullentry[translation_start:start + match_number.end(1)]):
-                    translation_end = start + match_number.start(1) + match_comma.start(0)
+        for num_start, num_end in functions.split_entry_at(entry, r'\d\. |$', start, end):
+            for translation_start, translation_end in functions.split_entry_at(entry, r'[,;] |$', num_start, num_end):
+                translation = entry.fullentry[translation_start:translation_end].strip()
+                if translation and translation[0] != '-':
                     functions.insert_translation(entry, translation_start, translation_end)
-                    translation_start = start + match_number.start(1) + match_comma.end(0)
 
-        else:
-            translation_start = start
-            for match_comma in re.finditer("(?:, ?|$)", entry.fullentry[start:end]):
-                translation_end = start + match_comma.start(0)
-                functions.insert_translation(entry, translation_start, translation_end)
-                translation_start = start + match_comma.end(0)
- 
+
 def main(argv):
 
     bibtex_key = u"captain2005"
