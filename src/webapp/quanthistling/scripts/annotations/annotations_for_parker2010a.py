@@ -111,6 +111,11 @@ def main(argv):
         startletters = set()
     
         for e in entries:
+            #one time data conversion
+            if e.fullentry.find('s@') != -1 or e.fullentry.find('c@') != -1:
+                e.fullentry = e.fullentry.replace(u's@', u's\u0308').replace(u'c@', u'c\u0308')
+                functions.print_error_in_entry(e, 'Replacing s@ and c@.')
+                
             heads = annotate_head(e)
             if not e.is_subentry:
                 for h in heads:
