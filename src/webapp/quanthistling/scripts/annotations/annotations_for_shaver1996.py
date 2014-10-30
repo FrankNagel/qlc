@@ -24,7 +24,7 @@ import functions
 
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
+    head_annotations = [ a for a in entry.annotations if a.value in ['head', "iso-639-3", "doculect", 'boundary']]
     for a in head_annotations:
         Session.delete(a)
         
@@ -33,16 +33,20 @@ def annotate_head(entry):
     heads = []
     
     head_end = functions.get_last_bold_pos_at_start(entry)
-    head_all = entry.fullentry[:head_end]
-    head_all = head_all.rstrip()
-    
-    head_start = 0
-    for match in re.finditer("(?:/|$)", head_all):
-        head_end = match.start(0)
-        h = functions.insert_head(entry, head_start, head_end)
-        heads.append(h)
-        head_start = match.end(0)
 
+    for start, end in functions.split_entry_at(entry, '[/,]|$', 0, head_end):
+        start, end, head = functions.remove_parts(entry, start, end)
+        if head[0] == '-':
+            entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+            head = head[1:]
+            start = start + 1
+        if head[-1] == '-':
+            entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
+            head = head[:-1]
+            end = end-1
+        head = functions.insert_head(entry, start, end, head)
+        if head:
+            heads.append(head)
     return heads
 
 
@@ -52,7 +56,7 @@ def annotate_pos(entry):
     for a in pos_annotations:
         Session.delete(a)
 
-    head_end = functions.get_head_end(entry)
+    head_end = functions.get_last_bold_pos_at_start(entry)
     italic = functions.get_first_italic_in_range(entry, 0, len(entry.fullentry))
     if italic != -1 and (italic[0]-2) < head_end:
         entry.append_annotation(italic[0], italic[1], u'pos', u'dictinterpretation')
@@ -64,7 +68,7 @@ def annotate_translations(entry):
     for a in trans_annotations:
         Session.delete(a)
 
-    translation_start = functions.get_pos_or_head_end(entry)
+    translation_start = max(functions.get_pos_or_head_end(entry),functions.get_last_bold_pos_at_start(entry)) 
 
     if re.match(" ?\(vea ", entry.fullentry[translation_start:]):
         return
