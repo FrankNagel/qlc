@@ -39,11 +39,16 @@ def insert_translation(entry, start, end):
         match_lang = re.search("\([ONW].?\) *$", entry.fullentry[start:end])
         if match_lang:
             end = end - len(match_lang.group(0))
+        cf_start = entry.fullentry.find('[cf.', start, end)
+        if cf_start != -1:
+            end = cf_start
+        start, end, translation = functions.remove_parts(entry, start, end)
+        translation = translation.translate(dict((ord(c),None) for c in u'()-?_'))
         if lang:
-            functions.insert_translation(entry, start, end, lang_iso = lang[0], lang_doculect = lang[1])
+            functions.insert_translation(entry, start, end, translation, lang_iso = lang[0], lang_doculect = lang[1])
         else:
-            functions.print_error_in_entry(entry, "could not find language")            
-            functions.insert_translation(entry, start, end)
+            functions.print_error_in_entry(entry, "could not find language")
+            functions.insert_translation(entry, start, end, translation)
     
 
 def annotate_everything(entry):
