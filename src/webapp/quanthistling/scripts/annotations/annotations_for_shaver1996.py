@@ -61,6 +61,23 @@ def annotate_pos(entry):
     if italic != -1 and (italic[0]-2) < head_end:
         entry.append_annotation(italic[0], italic[1], u'pos', u'dictinterpretation')
 
+def insert_translation(entry, start, end):
+    start, end, translation = functions.remove_parts(entry, start, end)
+    to_delete = dict((ord(c),None) for c in u'!?¿¡\u2014')
+    translation = translation.translate(to_delete)
+    functions.insert_translation(entry, start, end, translation)
+
+def get_first_point(entry, start, end, in_brackets):
+    search_start = start
+    while True:
+        pos = entry.fullentry.find('.', search_start, end)
+        if pos == -1:
+            pos = end
+            break
+        if not in_brackets(pos, pos+1):
+            break
+        search_start = pos + 1
+    return pos
 
 def annotate_translations(entry):
     # delete translation annotations
@@ -73,22 +90,20 @@ def annotate_translations(entry):
     if re.match(" ?\(vea ", entry.fullentry[translation_start:]):
         return
 
+    in_bracket = functions.get_in_brackets_func(entry)
+
     if re.search("\d\. ", entry.fullentry[translation_start:]):
         for match_number in re.finditer("\d\. ", entry.fullentry[translation_start:]):
             start = translation_start + match_number.end(0)
             match_translation = re.match("([^\.]*)\.", entry.fullentry[start:])
-            end = len(entry.fullentry)
-            if match_translation:
-                end = start + match_translation.end(1)
-            for s, e in functions.split_entry_at(entry, r"(?:[;,] |$)", start, end):
-                functions.insert_translation(entry, s, e)
+            end = get_first_point(entry, start, len(entry.fullentry), in_bracket)
+                        for s, e in functions.split_entry_at(entry, r"(?:[;,] |/|$)", start, end):
+                insert_translation(entry, s, e)
     else:
         match_translation = re.match("([^\.]*)\.", entry.fullentry[translation_start:])
-        end = len(entry.fullentry)
-        if match_translation:
-            end = translation_start + match_translation.end(1)
-        for s, e in functions.split_entry_at(entry, r"(?:[;,] |$)", translation_start, end):
-            functions.insert_translation(entry, s, e)
+        end = get_first_point(entry, translation_start, len(entry.fullentry), in_bracket)
+        for s, e in functions.split_entry_at(entry, r"(?:[;,] |/|$)", translation_start, end):
+            insert_translation(entry, s, e)
 
  
 def main(argv):
