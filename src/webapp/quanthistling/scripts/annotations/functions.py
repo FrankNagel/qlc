@@ -4,15 +4,16 @@ import re
 from operator import attrgetter
 import unicodedata
 
-def split_entry_at(entry, regex, start, end, skip_first=False):
+def split_entry_at(entry, regex, start, end, skip_first=False, in_brackets=None):
     local_start = start
     local_end   = end
-    in_brackets = get_in_brackets_func(entry)
+    if in_brackets is None:
+        in_brackets = get_in_brackets_func(entry)
     for match in re.finditer(regex, entry.fullentry[start:end]):
         if in_brackets(start + match.start(), start + match.end()):
             continue
         local_end = start + match.start(0)
-        if not ( skip_first and local_start == start and local_end != end):
+        if not ( skip_first and local_start == start and local_end != end ):
             yield (local_start, local_end)
         local_start = start + match.end(0)
 
@@ -36,7 +37,24 @@ def find_brackets(entry, opening_bracket = '(', closing_bracket = ')'):
 def get_in_brackets_func(entry, brackets=None):
     if brackets is None:
         brackets = find_brackets(entry)
-    return lambda x, y: next((b for b in brackets if b[0] < x and y < b[1]-1), None)
+    return lambda x, y: next((b for b in brackets if b[0] < x and y < b[1]), None)
+
+def find_first_point(entry, start, end, in_brackets=None):
+    return find_first_character(entry, '.', start, end, in_brackets)
+
+def find_first_character(entry, character, start, end, in_brackets=None):
+    if in_brackets is None:
+        in_brackets = get_in_brackets_func(entry)
+    search_start = start
+    while True:
+        pos = entry.fullentry.find(character, search_start, end)
+        if pos == -1:
+            pos = end
+            break
+        if not in_brackets(pos, pos+1):
+            break
+        search_start = pos + 1
+    return pos
 
 def normalize_stroke(string_src):
     string_new = ""
