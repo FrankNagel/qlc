@@ -38,23 +38,26 @@ def _get_dash_position(entry):
 
 def annotate_everything(entry):
     # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value=='head' or
-                                                    a.value=='translation' or
-                                                    a.value=='pos'
-                                                    or a.value=='doculect' or
-                                                    a.value=='iso-639-3']
+    annotations = [ a for a in entry.annotations if a.value in
+                    ['head', 'translation', 'pos', 'doculect', 'iso-639-3', 'crossreference']]
     for a in annotations:
         Session.delete(a)
 
     heads = []
 
-
     head_end = _get_dash_position(entry)
     tabs = functions.get_list_ranges_for_annotation(entry, 'tab', head_end)
     if head_end == -1:
-        if len(tabs) == 0:
-            functions.print_error_in_entry(entry, 'No tabs found. Cannot annotate.')
-            return []
+        if len(tabs) == 0:  #try crossref
+            match = re.match(r'(.*) V. (.*)', entry.fullentry)
+            if match:
+                head = functions.insert_head(entry, match.start(1), match.end(1))
+                if head:
+                    heads.append(head)
+                entry.append_annotation(match.start(2), match.end(2), u'crossreference', u'dictinterpretation')
+            else:
+                functions.print_error_in_entry(entry, 'No tabs found. Cannot annotate.')
+            return heads
         head_end = tabs[0][0]
 
     start = 0
@@ -65,7 +68,6 @@ def annotate_everything(entry):
         heads.append(head)
 
     #annotate POS
-
     if len(tabs) == 0:
         functions.print_error_in_entry(entry, 'No tabs after dash. No POS detection possible')
         trans_start = head_end + 1
@@ -74,12 +76,12 @@ def annotate_everything(entry):
         trans_start = tabs[0][1]
 
     #annotate translation
-    part_start = trans_start
-    for match_semi_colon in re.finditer("(?:[,;] ?|$)", entry.fullentry[trans_start:]):
-        part_end = trans_start + match_semi_colon.start(0)
-        functions.insert_translation(entry, part_start, part_end)
-        part_start = trans_start + match_semi_colon.end(0)
-
+    for t_start, t_end in functions.split_entry_at(entry, r'[,;:]\s+|$', trans_start, len(entry.fullentry)):
+        if entry.fullentry[t_start:t_start+3].lower() == 'v. ':
+            entry.append_annotation(t_start+3, t_end, u'crossreference', u'dictinterpretation')
+        else:
+            functions.insert_translation(entry, t_start, t_end)
+        
     return heads
 
 def main(argv):
