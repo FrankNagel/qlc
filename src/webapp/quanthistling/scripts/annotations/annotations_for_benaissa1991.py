@@ -53,25 +53,31 @@ def annotate_pos(entry):
 
 def annotate_translation(entry):
     # delete translations
-    trans = [a for a in entry.annotations if a.value == 'translation']
+    trans = [a for a in entry.annotations if a.value in ['translation', 'crossreference']]
     for t in trans:
         Session.delete(t)
 
     trans_start = functions.get_pos_or_head_end(entry)
 
-    if re.search(r'\d\. ', entry.fullentry[trans_start:]):
-        for match in re.finditer(r"(?<=\d\. )(.*?)(?:\d\. |$)",
-                                 entry.fullentry[trans_start:]):
-
-            start = trans_start + match.start(1)
-            end = trans_start + match.end(1)
-            process_translation(entry, start, end)
-    else:
-        process_translation(entry, trans_start, len(entry.fullentry))
+    for t_start, t_end in functions.split_entry_at(entry, r'\d. |$', trans_start, len(entry.fullentry), True):
+        process_translation(entry, t_start, t_end)
 
 
 def process_translation(entry, start, end):
+    in_bracket = functions.get_in_brackets_func(entry)
+    crossref = re.compile('\([vV]..ase (.+)\)\s*$')
+    end = functions.find_first_point(entry, start, end, in_bracket)
+    for t_start, t_end in functions.split_entry_at(entry, r', |$', start, end):
+        match = crossref.search(entry.fullentry, t_start, t_end)
+        if match:
+            for cr_start, cr_end in functions.split_entry_at(entry, r',|$', match.start(1), match.end(1),
+                                                             in_brackets=lambda x,y: False):
+                entry.append_annotation(cr_start, cr_end, u'crossreference', u'dictinterpretation')
+            t_end = match.start()
+        functions.insert_translation(entry, t_start, t_end)
 
+    return
+####
     trans_ended = False
     s1 = start
     period = -1
