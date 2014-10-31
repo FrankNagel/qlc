@@ -28,34 +28,37 @@ def annotate_everything(entry):
     for a in head_annotations:
         Session.delete(a)
         
-    # Delete this code and insert your code
     heads = []
 
     sorted_annotations = [ a for a in entry.annotations if a.value=='tab']
-
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
 
     if len(sorted_annotations) < 1:
         functions.print_error_in_entry(entry, "No tabs found. Assuming head only.")
-        head_end = len(entry.fullentry) -1
-        trans_start = len(entry.fullentry) -1
+        head_end = len(entry.fullentry)
+        trans_start = len(entry.fullentry)
     else:
         head_end = sorted_annotations[0].start
         trans_start = sorted_annotations[0].end
 
-    head = functions.insert_head(entry, 0, head_end)
-    heads.append(head)
-    translation = entry.fullentry[trans_start:].strip()
-    quotation_start = translation.find('"')
-    if quotation_start != -1:
-        translation = translation[:quotation_start].strip()
-    if len(translation) > 0:
-        functions.insert_translation(entry, trans_start, len(entry.fullentry))
+    #heads
+    for h_start, h_end in functions.split_entry_at(entry, r',|$', 0, head_end):
+        head = functions.insert_head(entry, h_start, h_end)
+        if head:
+            heads.append(head)
 
-#    for s, e in functions.split_entry_at(entry, r"(?:[;] |$)", sorted_annotations[1].end, len(entry.fullentry)):
-#       functions.insert_translation(entry, s, e)
+    #translations
+    quotation_start = entry.fullentry.find('"', trans_start)
+    if quotation_start != -1:
+        trans_end = quotation_start
+    else:
+        trans_end = len(entry.fullentry)
+
+    for t_start, t_end in functions.split_entry_at(entry, r',|/| - |$', trans_start, trans_end):
+        functions.insert_translation(entry, t_start, t_end)
     
     return heads
+
 
 def main(argv):
 
