@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 10
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 17,
                 "end" : 39
             },
@@ -55,8 +55,22 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Kaxotaware kalore aisaha",
+                "start" : 41,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Mataram um campeiro grande",
+                "start" : 67,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 98,
                 "end" : 116
             },
@@ -73,6 +87,20 @@ manual_entries.append({
                 "string" : "animal com chifres",
                 "start" : 98,
                 "end" : 116
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Ohiroli tehitiya kaxotaware",
+                "start" : 118,
+                "end" : 145
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "A vaca também tem chifres",
+                "start" : 147,
+                "end" : 173
             },
             {
                 "type" : "formatting",

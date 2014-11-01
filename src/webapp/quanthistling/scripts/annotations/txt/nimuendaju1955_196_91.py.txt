@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "senta-se!",
+    "startpage" : 196,
+    "pos_on_page" : 91,
+    "language_bookname" : "Portuguese",
+    "concept" : "SENTA_SE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "senta-se",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 9
+            },
+    ]
+})

@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 11
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 32
             },
@@ -52,6 +52,20 @@ manual_entries.append({
                 "string" : "bobo",
                 "start" : 15,
                 "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Xoana hoka nikare hisaona, maotikoniti",
+                "start" : 34,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Por que você fez isto, bobo",
+                "start" : 74,
+                "end" : 103
             },
             {
                 "type" : "formatting",

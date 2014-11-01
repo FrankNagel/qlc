@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 13
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 28,
                 "end" : 36
             },
@@ -52,6 +52,20 @@ manual_entries.append({
                 "string" : "casar-se",
                 "start" : 28,
                 "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Irae enexe kakoa hoka hatyaoseta tyaonakakoaha",
+                "start" : 38,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Falou com o pai e depois se casaram",
+                "start" : 86,
+                "end" : 121
             },
             {
                 "type" : "formatting",

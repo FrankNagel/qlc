@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "caba grande, preta",
+    "startpage" : 184,
+    "pos_on_page" : 35,
+    "language_bookname" : "Portuguese",
+    "concept" : "CABA_GRANDE_PRETA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "caba grande",
+                "start" : 0,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "preta",
+                "start" : 13,
+                "end" : 18
+            },
+    ]
+})

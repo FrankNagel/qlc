@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 8
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 23,
                 "end" : 40
             },
@@ -49,21 +49,21 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "reclamar",
+                "string" : "reclamar quase chorando",
                 "start" : 23,
-                "end" : 31
+                "end" : 56
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "lamentar",
+                "string" : "lamentar quase chorando",
                 "start" : 32,
-                "end" : 40
+                "end" : 56
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 42,
                 "end" : 56
             },
@@ -76,10 +76,17 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "quase chorando",
-                "start" : 42,
-                "end" : 56
+                "value" : "example-src",
+                "string" : "Kalikini tiyahareta haxamaikoharene",
+                "start" : 58,
+                "end" : 93
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Hoje está chorando de tristeza",
+                "start" : 95,
+                "end" : 126
             },
             {
                 "type" : "formatting",

@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 5
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 22,
                 "end" : 53
             },
@@ -49,9 +49,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "o que?",
+                "string" : "o que",
                 "start" : 22,
                 "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Xoare exe",
+                "start" : 29,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "O que é isto",
+                "start" : 40,
+                "end" : 54
             },
             {
                 "type" : "formatting",

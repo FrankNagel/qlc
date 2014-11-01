@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "deixa elle ir!",
+    "startpage" : 186,
+    "pos_on_page" : 55,
+    "language_bookname" : "Portuguese",
+    "concept" : "DEIXA_ELLE_IR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "deixa elle ir",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 14
+            },
+    ]
+})

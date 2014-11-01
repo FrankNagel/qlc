@@ -7,7 +7,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kirahare",
                 "start" : 0,
                 "end" : 8
             },
@@ -17,13 +24,6 @@ manual_entries.append({
                 "string" : "kirahalo",
                 "start" : 0,
                 "end" : 21
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "kirahare",
-                "start" : 0,
-                "end" : 8
             },
             {
                 "type" : "dictinterpretation",
@@ -56,7 +56,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 50,
                 "end" : 65
             },
@@ -70,21 +70,35 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "estar cansada",
-                "start" : 50,
-                "end" : 65
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
                 "string" : "estar cansado",
                 "start" : 50,
                 "end" : 63
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar cansada",
+                "start" : 50,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Seko tona hoka kirahare",
+                "start" : 67,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Andou longe e ficou cansado",
+                "start" : 92,
+                "end" : 119
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 124,
                 "end" : 127
             },
@@ -105,13 +119,6 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "adj",
-                "start" : 124,
-                "end" : 127
-            },
-            {
-                "type" : "dictinterpretation",
-                "value" : "translation",
                 "string" : "ser velho",
                 "start" : 129,
                 "end" : 138
@@ -122,6 +129,20 @@ manual_entries.append({
                 "string" : "gasto",
                 "start" : 140,
                 "end" : 145
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Imiti atyo kirahare",
+                "start" : 147,
+                "end" : 166
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "A roupa é velha",
+                "start" : 168,
+                "end" : 184
             },
             {
                 "type" : "formatting",

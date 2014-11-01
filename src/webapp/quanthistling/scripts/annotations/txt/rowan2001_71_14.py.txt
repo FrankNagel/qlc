@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 5
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 15,
                 "end" : 29
             },
@@ -49,9 +49,100 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
+                "string" : "sarar lesão",
+                "start" : 15,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
                 "string" : "sarar",
                 "start" : 15,
                 "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wairati moka hakano hiye hoka tyameheta",
+                "start" : 31,
+                "end" : 70
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Tratou o braço com remédio e a lesão sarou",
+                "start" : 72,
+                "end" : 117
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyamehare",
+                "start" : 119,
+                "end" : 128
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. descritivo",
+                "start" : 129,
+                "end" : 142
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "estar sarado de doença de pele",
+                "start" : 143,
+                "end" : 174
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Hiyane hisoa onexa hoka hityamehareheta",
+                "start" : 176,
+                "end" : 215
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Vai entrar no rio e a pele ficará boa",
+                "start" : 217,
+                "end" : 255
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tyamexe",
+                "start" : 257,
+                "end" : 264
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "s.",
+                "start" : 265,
+                "end" : 267
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "ferida fechada",
+                "start" : 268,
+                "end" : 282
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Exose tyamexe",
+                "start" : 284,
+                "end" : 297
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "A ferida no olho sarou",
+                "start" : 299,
+                "end" : 321
             },
             {
                 "type" : "formatting",

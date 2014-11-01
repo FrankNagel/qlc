@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 4
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 11,
                 "end" : 39
             },
@@ -63,7 +63,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 41,
                 "end" : 44
             },
@@ -80,6 +80,34 @@ manual_entries.append({
                 "string" : "nos",
                 "start" : 41,
                 "end" : 44
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Haxikahena wiso hoka wiyane",
+                "start" : 46,
+                "end" : 73
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Mandenos, então iremos mesmo",
+                "start" : 75,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wiso atyo ewakaneharenai",
+                "start" : 106,
+                "end" : 130
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nós somos servos dele",
+                "start" : 132,
+                "end" : 154
             },
             {
                 "type" : "formatting",

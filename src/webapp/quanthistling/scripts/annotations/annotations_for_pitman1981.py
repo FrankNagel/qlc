@@ -1,6 +1,4 @@
 # -*- coding: utf8 -*-
-from scipy.weave.base_spec import arg_spec_list
-
 import sys, os
 sys.path.append(os.path.abspath('.'))
 
@@ -18,7 +16,7 @@ from paste.deploy import appconfig
 import functions
 
 
-pos_regex = r'\(.*?\)'
+pos_regex = r'(?:\(.*?\)| - )'
 ord_regex = r'\d\. '
 chars_to_exclude = [u' ', u'-', u'–', u')']
 
@@ -48,14 +46,23 @@ def _split_pos(entry, start, end):
 def _head_pos_in_range(entry, start, end):
     pos = re.search(pos_regex, entry.fullentry[start:end])
     head_start = _adjust_start(entry, start)
+    head_end = end
+    heads = []
 
-    if pos is not None:
-        head = functions.insert_head(entry, head_start, pos.start(0))
+    if pos is not None and pos.group(0) != " - ":
+        head_end = pos.start(0)
+        #head = functions.insert_head(entry, head_start, pos.start(0))
         entry.append_annotation(pos.start(0) + 1, pos.end(0) - 1, u'pos', u'dictinterpretation')
-    else:
-        head = functions.insert_head(entry, head_start, end)
+    #else:
+        #head = functions.insert_head(entry, head_start, end)
 
-    return head
+    for s, e in functions.split_entry_at(entry, r"(?:, |$)", head_start, head_end):
+        head_string = entry.fullentry[s:e]
+        head_string = re.sub("[¹²1-9-]", "", head_string)
+        head = functions.insert_head(entry, s, e, head_string)
+        heads.append(head)
+
+    return heads
 
 
 def _find_bracketed_at_range_start(entry, start, start_threshold):
@@ -78,44 +85,75 @@ def _split_translations(entry, start, end):
     part_start = start
     trans_end = end
 
-    trans_ended = False
-    s = 0
-    # find the end of the translation
-    while not trans_ended:
-        period = entry.fullentry[start:end].find('.', s)
-        for b in re.finditer(r'\(.*\)', entry.fullentry[start:end]):
-            if b.start(0) < period < b.end(0):
-                trans_ended = False
-                s += period
-                break
-            else:
-                trans_end = start + period
-                trans_ended = True
-        else:
-            if period != -1:
-                trans_end = start + period
-            trans_ended = True
+    for match_period in re.finditer("\.", entry.fullentry[start:end]):
+
+        is_in_bracket = False
+        for bracket in re.finditer("\([^)]*\)", entry.fullentry[start:end]):
+            if bracket.start(0) < match_period.start(0) and bracket.end(0) > match_period.start(0)+2:
+                is_in_bracket = True
+
+        if not is_in_bracket:
+            period = match_period.start(0)
+            if len(entry.fullentry) > (start+period+1) and entry.fullentry[start+period+1] == ")":
+                period += 2
+            trans_end = start + period
+            break
+
+
+    # trans_ended = False
+    # s = 0
+    # # find the end of the translation
+    # while not trans_ended:
+    #     period = entry.fullentry[start:end].find('.', s)
+    #     for b in re.finditer(r'\(.*\)', entry.fullentry[start:end]):
+    #         if b.start(0) < period < b.end(0)-2:
+    #             trans_ended = False
+    #             s += period
+    #             print(period)
+    #             break
+    #         else:
+    #             trans_end = start + period
+    #             trans_ended = True
+    #             print(period)
+    #     else:
+    #         if period != -1:
+    #             if entry.fullentry[start+period+1] == ")":
+    #                 period += 2
+    #             trans_end = start + period
+    #         trans_ended = True
 
     # split the translations
-    for match_semi_colon in re.finditer("(?:[,;] ?|$)",
-                                        entry.fullentry[start:trans_end]):
-        e = match_semi_colon.start(0)
-        s = match_semi_colon.end(0)
+    for match_semi_colon in re.finditer("(?:[,;] ?|$)", entry.fullentry[start:trans_end]):
 
-        for b in re.finditer(r'\(.*\)', entry.fullentry[start:trans_end]):
-            if b.start(0) <= match_semi_colon.end(0) <= b.end(0):
-                e = b.end(0)
-                break
+        is_in_bracket = False
+        for bracket in re.finditer("\([^)]*\)", entry.fullentry[start:trans_end]):
+            if bracket.start(0) < match_semi_colon.start(0) and bracket.end(0) > match_semi_colon.start(0):
+                is_in_bracket = True
 
-        part_end = start + e
+        if not is_in_bracket:
 
-        part_start = _adjust_start(entry, part_start)
+            e = match_semi_colon.start(0)
+            s = match_semi_colon.end(0)
 
-        functions.insert_translation(entry, part_start, part_end)
-        if s > e:
-            part_start = start + s
-        else:
-            part_start = start + e
+        # for b in re.finditer(r'\(.*\)', entry.fullentry[start:trans_end]):
+        #     if b.start(0) <= match_semi_colon.end(0) <= b.end(0):
+        #         e = b.end(0)
+        #         print(e)
+        #         break
+
+            part_end = start + e
+
+            part_start = _adjust_start(entry, part_start)
+
+            trans_string = entry.fullentry[part_start:part_end]
+            trans_string = re.sub("[?¿¡!]", "", trans_string)
+
+            functions.insert_translation(entry, part_start, part_end, trans_string)
+
+            if s > e:
+                part_start = start + s
+            else:
+                part_start = start + e
 
 
 def annotate_everything(entry):
@@ -133,9 +171,10 @@ def annotate_everything(entry):
     ordinal = re.search(ord_regex, entry.fullentry)
     pos = re.search(pos_regex, entry.fullentry)
 
+    heads_new = []
     if ordinal is not None:
         head_end = ordinal.start(0) - 1
-        head = _head_pos_in_range(entry, 0, head_end)
+        heads_new = _head_pos_in_range(entry, 0, head_end)
         for o in re.finditer(r'(?<=\d\. )(.*?)(?:\d\. |$)', entry.fullentry):
             trans_start = o.start(1)
             end = o.end(1)
@@ -147,19 +186,18 @@ def annotate_everything(entry):
             trans_start = _adjust_start(entry, trans_start)
             _split_translations(entry, trans_start, end)
     elif pos is not None:
-        head = _head_pos_in_range(entry, 0, pos.end(0))
+        heads_new = _head_pos_in_range(entry, 0, pos.end(0))
         trans_start = _adjust_start(entry, pos.end(0))
         _split_translations(entry, trans_start, len(entry.fullentry))
     else:
         hifen = entry.fullentry.find('-')
         if hifen != -1:
-            head = _head_pos_in_range(entry, 0, hifen - 1)
+            heads_new = _head_pos_in_range(entry, 0, hifen - 1)
             _split_translations(entry, hifen + 1, len(entry.fullentry))
         else:
             functions.print_error_in_entry(entry, 'Could not annotate. ')
 
-    if head is not None:
-        heads.append(head)
+    heads.extend(heads_new)
 
     return heads
 
@@ -187,7 +225,7 @@ def main(argv):
     for dictdata in dictdatas:
 
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
-        # entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=108,pos_on_page=1).all()
+        #entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=211,pos_on_page=13).all()
         # entries.extend(Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=12,pos_on_page=8).all())
 
         startletters = set()

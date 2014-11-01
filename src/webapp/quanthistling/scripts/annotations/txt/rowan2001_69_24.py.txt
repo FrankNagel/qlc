@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 6
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 10,
                 "end" : 24
             },
@@ -52,6 +52,20 @@ manual_entries.append({
                 "string" : "pão",
                 "start" : 10,
                 "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Winali 5 tohase nakairati",
+                "start" : 26,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Temos 5 pães",
+                "start" : 53,
+                "end" : 66
             },
             {
                 "type" : "formatting",

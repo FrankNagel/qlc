@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "nao venha!",
+    "startpage" : 186,
+    "pos_on_page" : 63,
+    "language_bookname" : "Portuguese",
+    "concept" : "NAO_VENHA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "nao venha",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 10
+            },
+    ]
+})

@@ -1,0 +1,232 @@
+
+manual_entries.append({
+    "fullentry" : "talatyoa v. t. (na-) esconder-se. Xaiyakoti kakoa talatyoa hoka nolokoa enomana. Escondeu-se atrás do escudo e avançou para o animal. katalatyoaka v. t. passivo escondido de vista. Xaiyakoti kakoa katalatyoaka hoka kanolokoaka enomana. Escondido pelo escudo, pode avançar para o bicho.",
+    "startpage" : 67,
+    "pos_on_page" : 6,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "talatyoa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "pab",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t.",
+                "start" : 9,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 21,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 21,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esconder-se",
+                "start" : 21,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Xaiyakoti kakoa talatyoa hoka nolokoa enomana",
+                "start" : 34,
+                "end" : 79
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Escondeu-se atrás do escudo e avançou para o animal",
+                "start" : 81,
+                "end" : 134
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "katalatyoaka",
+                "start" : 136,
+                "end" : 148
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. t. passivo",
+                "start" : 149,
+                "end" : 162
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "escondido de vista",
+                "start" : 163,
+                "end" : 181
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Xaiyakoti kakoa katalatyoaka hoka kanolokoaka enomana",
+                "start" : 183,
+                "end" : 236
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Escondido pelo escudo, pode avançar para o bicho",
+                "start" : 238,
+                "end" : 287
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "talatyoa",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t. (na-)",
+                "start" : 9,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xaiyakoti kakoa talatyoa hoka nolokoa enomana.",
+                "start" : 34,
+                "end" : 80
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "katalatyoaka",
+                "start" : 136,
+                "end" : 148
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. t. passivo",
+                "start" : 149,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Xaiyakoti kakoa katalatyoaka hoka kanolokoaka enomana.",
+                "start" : 183,
+                "end" : 237
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 33,
+                "end" : 33
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 34,
+                "end" : 34
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 80,
+                "end" : 80
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 135,
+                "end" : 135
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 136,
+                "end" : 136
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 148,
+                "end" : 148
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 182,
+                "end" : 182
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 183,
+                "end" : 183
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 183,
+                "end" : 183
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 237,
+                "end" : 237
+            },
+    ]
+})

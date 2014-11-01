@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 11
             },
@@ -34,8 +34,22 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sem permissão",
+                "start" : 15,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "sem aprovação",
+                "start" : 15,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 21,
                 "end" : 43
             },
@@ -59,6 +73,20 @@ manual_entries.append({
                 "string" : "permissão",
                 "start" : 33,
                 "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Hatyaiya kotehalase maisa ixoita waikoa Enore maxaokareneta",
+                "start" : 45,
+                "end" : 104
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nem um passarinho cai no chão sem a permissão de Deus",
+                "start" : 106,
+                "end" : 161
             },
             {
                 "type" : "formatting",

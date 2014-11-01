@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 6
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 10,
                 "end" : 35
             },
@@ -52,6 +52,20 @@ manual_entries.append({
                 "string" : "flauta",
                 "start" : 10,
                 "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Walalose, tyairo, xeratyalo kakoa maxaloharehitaha",
+                "start" : 37,
+                "end" : 87
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Festejaram usando as flautas: walalose, tyairo e xeratyalo",
+                "start" : 89,
+                "end" : 147
             },
             {
                 "type" : "formatting",

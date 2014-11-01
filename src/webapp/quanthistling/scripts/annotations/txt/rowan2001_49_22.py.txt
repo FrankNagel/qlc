@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 16
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 33,
                 "end" : 40
             },
@@ -56,7 +56,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 42,
                 "end" : 64
             },
@@ -77,7 +77,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 66,
                 "end" : 76
             },
@@ -98,7 +98,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 78,
                 "end" : 92
             },
@@ -118,10 +118,17 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "translation",
-                "string" : "clube de praia",
-                "start" : 78,
-                "end" : 92
+                "value" : "example-src",
+                "string" : "Nali kanowa koahaxatyakalati anere tehitiya kahare",
+                "start" : 94,
+                "end" : 144
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Havia bastante barquinhos do balneário",
+                "start" : 146,
+                "end" : 185
             },
             {
                 "type" : "formatting",

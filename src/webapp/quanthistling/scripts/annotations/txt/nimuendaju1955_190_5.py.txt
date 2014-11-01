@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "linguagem, voz",
+    "startpage" : 190,
+    "pos_on_page" : 5,
+    "language_bookname" : "Portuguese",
+    "concept" : "LINGUAGEM_VOZ",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "linguagem",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "voz",
+                "start" : 11,
+                "end" : 14
+            },
+    ]
+})

@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "bocca, labio",
+    "startpage" : 186,
+    "pos_on_page" : 109,
+    "language_bookname" : "Portuguese",
+    "concept" : "BOCCA_LABIO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "bocca",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "labio",
+                "start" : 7,
+                "end" : 12
+            },
+    ]
+})

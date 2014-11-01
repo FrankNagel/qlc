@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "dê-lhe!",
+    "startpage" : 192,
+    "pos_on_page" : 135,
+    "language_bookname" : "Portuguese",
+    "concept" : "DÊ_LHE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "dê-lhe",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

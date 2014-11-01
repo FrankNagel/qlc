@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 11
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 24,
                 "end" : 33
             },
@@ -52,6 +52,20 @@ manual_entries.append({
                 "string" : "rir-se de",
                 "start" : 24,
                 "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Wahalakoahare koexahalisa wiso",
+                "start" : 35,
+                "end" : 65
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Nosso inimigo riu-se de nós",
+                "start" : 67,
+                "end" : 95
             },
             {
                 "type" : "formatting",

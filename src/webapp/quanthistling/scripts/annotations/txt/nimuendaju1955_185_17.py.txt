@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "mand.",
+    "startpage" : 185,
+    "pos_on_page" : 17,
+    "language_bookname" : "Portuguese",
+    "concept" : "MAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mandioca",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

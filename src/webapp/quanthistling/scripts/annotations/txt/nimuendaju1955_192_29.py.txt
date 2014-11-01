@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "deixa que elle coma!",
+    "startpage" : 192,
+    "pos_on_page" : 29,
+    "language_bookname" : "Portuguese",
+    "concept" : "DEIXA_QUE_ELLE_COMA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "deixa que elle coma",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 20
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 20
+            },
+    ]
+})

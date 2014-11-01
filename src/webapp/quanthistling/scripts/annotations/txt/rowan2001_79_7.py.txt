@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 5
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 18,
                 "end" : 122
             },
@@ -49,16 +49,44 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "Por que?",
+                "string" : "Por que ",
                 "start" : 18,
                 "end" : 26
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "translation",
-                "string" : "O que?",
+                "string" : "O que",
                 "start" : 27,
                 "end" : 33
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Xoanala hoka nikare iraeta",
+                "start" : 34,
+                "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Por que ele fala assim",
+                "start" : 62,
+                "end" : 85
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Xoana hisaonita",
+                "start" : 86,
+                "end" : 102
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Como está passando",
+                "start" : 103,
+                "end" : 123
             },
             {
                 "type" : "formatting",

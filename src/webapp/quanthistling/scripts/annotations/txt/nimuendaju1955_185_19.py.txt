@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "raiz de mand.",
+    "startpage" : 185,
+    "pos_on_page" : 19,
+    "language_bookname" : "Portuguese",
+    "concept" : "RAIZ_DE_MAND",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "raiz de mandioca",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

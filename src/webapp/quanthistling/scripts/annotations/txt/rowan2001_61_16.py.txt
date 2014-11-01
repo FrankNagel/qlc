@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 19
             },
@@ -42,7 +42,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 36,
                 "end" : 44
             },
@@ -63,7 +63,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 46,
                 "end" : 59
             },
@@ -83,8 +83,22 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Maisa nakairati isare enomana",
+                "start" : 61,
+                "end" : 90
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Não deu alimento para ele",
+                "start" : 92,
+                "end" : 118
+            },
+            {
+                "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 123,
                 "end" : 147
             },
@@ -101,6 +115,20 @@ manual_entries.append({
                 "string" : "o que planta-se na roça",
                 "start" : 123,
                 "end" : 147
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Fitya aokowita hanakaira masenekoa",
+                "start" : 149,
+                "end" : 183
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Quer plantar plantas na roça para ter comida",
+                "start" : 185,
+                "end" : 230
             },
             {
                 "type" : "formatting",

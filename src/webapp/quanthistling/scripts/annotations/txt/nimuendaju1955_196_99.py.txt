@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "beba!",
+    "startpage" : 196,
+    "pos_on_page" : 99,
+    "language_bookname" : "Portuguese",
+    "concept" : "BEBA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "beba",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 5
+            },
+    ]
+})

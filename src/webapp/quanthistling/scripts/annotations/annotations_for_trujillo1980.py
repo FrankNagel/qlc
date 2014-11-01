@@ -35,17 +35,28 @@ def annotate_everything(entry):
     sorted_annotations = sorted(sorted_annotations, key=attrgetter('start'))
 
     if len(sorted_annotations) < 1:
-        functions.print_error_in_entry(entry, "number of tabs is lower 1")
+        functions.print_error_in_entry(entry, "number of tabs is lower than 1")
         return heads
 
-    head_end = sorted_annotations[0].start
+    first_tab = sorted_annotations[0]
+    if first_tab.start == 0:
+        if len(sorted_annotations) < 2:
+            functions.print_error_in_entry(entry, "number of tabs is lower than 2 but first tab is at start")
+            return heads
+        first_tab = sorted_annotations[1]
+
+    head_end = first_tab.start
     for s, e in functions.split_entry_at(entry, r"(?:, |$)", 0, head_end):
-        head = functions.insert_head(entry, s, e)
+        head_string = entry.fullentry[s:e]
+        head_string = re.sub("-", "", head_string)
+        head = functions.insert_head(entry, s, e, head_string)
         heads.append(head)
 
     trans_end = len(entry.fullentry)
-    for s, e in functions.split_entry_at(entry, r"(?:, |$)", sorted_annotations[0].end, trans_end):
-        functions.insert_translation(entry, s, e)
+    for s, e in functions.split_entry_at(entry, r"(?:[,;] |$)", first_tab.end, trans_end):
+        trans_string = entry.fullentry[s:e]
+        trans_string = re.sub("[?¿¡!]", "", trans_string)
+        functions.insert_translation(entry, s, e, trans_string)
     
     return heads
 

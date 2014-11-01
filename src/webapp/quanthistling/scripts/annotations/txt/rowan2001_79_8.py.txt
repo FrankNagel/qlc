@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 5
             },
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 18,
                 "end" : 25
             },
@@ -56,7 +56,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 27,
                 "end" : 44
             },
@@ -73,6 +73,34 @@ manual_entries.append({
                 "string" : "nunca",
                 "start" : 27,
                 "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Maisa xoana xowaka exakere wiyaiyehenere",
+                "start" : 46,
+                "end" : 86
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Em tempo algum vimos coisas assim",
+                "start" : 88,
+                "end" : 121
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Maisaiya xala xoana mokita natyo",
+                "start" : 123,
+                "end" : 155
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Ninguém pode fazer algo comigo",
+                "start" : 157,
+                "end" : 188
             },
             {
                 "type" : "formatting",

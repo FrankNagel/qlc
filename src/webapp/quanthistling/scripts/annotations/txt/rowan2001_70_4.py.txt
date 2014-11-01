@@ -7,7 +7,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
                 "start" : 0,
                 "end" : 24
             },
@@ -42,7 +42,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 50,
                 "end" : 61
             },
@@ -59,6 +59,20 @@ manual_entries.append({
                 "string" : "esconder-se",
                 "start" : 50,
                 "end" : 61
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Notolokoawihare naoka",
+                "start" : 63,
+                "end" : 84
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Quero me esconder de todos",
+                "start" : 86,
+                "end" : 112
             },
             {
                 "type" : "formatting",

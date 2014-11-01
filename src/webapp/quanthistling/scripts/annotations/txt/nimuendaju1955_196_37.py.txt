@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "alto, comprido",
+    "startpage" : 196,
+    "pos_on_page" : 37,
+    "language_bookname" : "Portuguese",
+    "concept" : "ALTO_COMPRIDO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "alto",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "comprido",
+                "start" : 6,
+                "end" : 14
+            },
+    ]
+})

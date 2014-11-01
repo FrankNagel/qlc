@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "leva! traga!",
+    "startpage" : 192,
+    "pos_on_page" : 111,
+    "language_bookname" : "Portuguese",
+    "concept" : "LEVA_TRAGA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "leva",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "traga",
+                "start" : 6,
+                "end" : 12
+            },
+    ]
+})

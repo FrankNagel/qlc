@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "balaio, redondo",
+    "startpage" : 181,
+    "pos_on_page" : 137,
+    "language_bookname" : "Portuguese",
+    "concept" : "BALAIO_REDONDO",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "balaio",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "redondo",
+                "start" : 8,
+                "end" : 15
+            },
+    ]
+})

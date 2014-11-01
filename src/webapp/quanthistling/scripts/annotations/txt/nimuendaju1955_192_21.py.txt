@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "vamos comer!",
+    "startpage" : 192,
+    "pos_on_page" : 21,
+    "language_bookname" : "Portuguese",
+    "concept" : "VAMOS_COMER",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "vamos comer",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

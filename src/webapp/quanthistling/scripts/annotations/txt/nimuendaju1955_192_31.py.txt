@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "deixa que elle vá!",
+    "startpage" : 192,
+    "pos_on_page" : 31,
+    "language_bookname" : "Portuguese",
+    "concept" : "DEIXA_QUE_ELLE_VÁ",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "deixa que elle vá",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 19
+            },
+    ]
+})

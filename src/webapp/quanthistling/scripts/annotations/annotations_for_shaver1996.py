@@ -97,7 +97,7 @@ def annotate_translations(entry):
             start = translation_start + match_number.end(0)
             match_translation = re.match("([^\.]*)\.", entry.fullentry[start:])
             end = get_first_point(entry, start, len(entry.fullentry), in_bracket)
-                        for s, e in functions.split_entry_at(entry, r"(?:[;,] |/|$)", start, end):
+            for s, e in functions.split_entry_at(entry, r"(?:[;,] |/|$)", start, end):
                 insert_translation(entry, s, e)
     else:
         match_translation = re.match("([^\.]*)\.", entry.fullentry[translation_start:])

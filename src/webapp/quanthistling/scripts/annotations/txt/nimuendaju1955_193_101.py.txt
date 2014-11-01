@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "Venus matut.",
+    "startpage" : 193,
+    "pos_on_page" : 101,
+    "language_bookname" : "Portuguese",
+    "concept" : "VENUS_MATUT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "Venus matutino",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 12
+            },
+    ]
+})

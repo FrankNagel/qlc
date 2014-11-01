@@ -7,7 +7,14 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Paresí",
+                "string" : "Paresí",
+                "start" : 0,
+                "end" : 10
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kirakahare",
                 "start" : 0,
                 "end" : 10
             },
@@ -20,13 +27,6 @@ manual_entries.append({
             },
             {
                 "type" : "dictinterpretation",
-                "value" : "head",
-                "string" : "kirakahare",
-                "start" : 0,
-                "end" : 10
-            },
-            {
-                "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "pab",
                 "start" : 0,
@@ -35,7 +35,7 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Português",
+                "string" : "Português",
                 "start" : 10,
                 "end" : 14
             },
@@ -73,6 +73,20 @@ manual_entries.append({
                 "string" : "agir com maldade",
                 "start" : 56,
                 "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-src",
+                "string" : "Nokirakihare ekakoa, ihorehena natyo hoka",
+                "start" : 74,
+                "end" : 115
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "example-tgt",
+                "string" : "Vou agir mal, se brigar comigo",
+                "start" : 117,
+                "end" : 147
             },
             {
                 "type" : "formatting",
