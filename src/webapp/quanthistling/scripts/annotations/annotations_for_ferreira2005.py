@@ -22,12 +22,12 @@ from paste.deploy import appconfig
 
 import functions
 
-def annotate_head(entry):
+def annotate_head(entry, in_brackets):
     heads = []
     head_start = 0
     head_end = functions.get_last_bold_pos_at_start(entry)
 
-    for h_start, h_end in functions.split_entry_at(entry, r'[,;]|$', head_start, head_end):
+    for h_start, h_end in functions.split_entry_at(entry, r'[,;]|$', head_start, head_end, False, in_brackets):
         for index in xrange(h_start, h_end):
             if entry.fullentry[index] == '-':
                 entry.append_annotation(index, index+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
@@ -46,174 +46,32 @@ def annotate_head(entry):
 
         
 def annotate_everything(entry):
-    # delete head annotations
-    annotations = [ a for a in entry.annotations if a.value in
-                    ['head', 'pos', 'translation', 'doculect', 'iso-639-3', 'boundary']]
-    for a in annotations:
-        Session.delete(a)
+    in_brackets = functions.get_in_brackets_func(entry)
 
+    #heads
+    heads = annotate_head(entry, in_brackets)
     
-    heads = annotate_head(entry)
-        
     # pos
     ir = functions.get_first_italic_range(entry)
-    try:
-        p_start = ir[0]
-        p_end = ir[1]
-        pos_tmp = entry.fullentry[p_start:p_end]
-    
-        spaces = []
-        for s in re.finditer(u' ', entry.fullentry):
-            spaces.append(s.start())
-        
-        pos_spaces = []
-        if spaces:
-            pos_spaces = [a for a in spaces if a > p_start and a < p_end]
-        
-        
-        
-        if pos_spaces:
-            for i in range(len(pos_spaces)):
-                if i == 0:
-                    p_s = p_start
-                    p_e = pos_spaces[i]
-                    p1 = functions.insert_pos(entry, p_s, p_e)
-                    
-                    p2_s = pos_spaces[0] + 1
-                    if i + 1 < len(pos_spaces):
-                        p2_e = pos_spaces[i+1]
-                        p2 = functions.insert_pos(entry, p2_s, p2_e)
-                    else:
-                        p2 = functions.insert_pos(entry, p2_s, p_end)
-                else:
-                    p_s = pos_spaces[i] + 1
-                    if i + 1 < len(pos_spaces):
-                        p_e = pos_spaces[i+1]
-                        head = functions.insert_head(entry, p_s, p_e)
-                        heads.append(head)
-                    else:
-                        head = functions.insert_head(entry, p_s, p_end)
-                        heads.append(head)
-        else:
+    if ir != -1:
+        for p_start, p_end in functions.split_entry_at(entry, ' |$', *ir, in_brackets=in_brackets):
             functions.insert_pos(entry, p_start, p_end)
-            
-        
-        # translations
-        #t_start = p_end + 1
-        #t_end = len(entry.fullentry)
-        
-        num_list = []
-        for n in re.finditer(u' \d\.', entry.fullentry):
-            num_list.append(n.end())
-        
-        num_list_bpe = []
-        if num_list:
-            num_list_bpe = [a for a in num_list if a > p_end]
-            
-        dot_list = []
-        for d in re.finditer(u'\.', entry.fullentry):
-            #print d.start()
-            dot_list.append(d.start())
-        
-        if dot_list:
-            dot_list_bpe = [a for a in dot_list if a > p_end]
-        else:
-            print 'Error in dot_list, ', functions.print_error_in_entry(entry)
-        
-        if dot_list_bpe:
-            trans_end = dot_list_bpe[0]
-        else:
-            trans_end = len(entry.fullentry)
-        
-        comma_list = []
-        for com in re.finditer(r'(,|;)', entry.fullentry):
-            comma_list.append(com.start())
-        
-        comma_list_bpe = []
-        if comma_list:
-            comma_list_bpe = [a for a in comma_list if a > p_end and a < trans_end]
-        
-        num_dot_list = []
-        if num_list_bpe:
-            for v in num_list_bpe:
-                if v - 1 in dot_list_bpe:
-                    try:
-                        num_dot_list.append(dot_list[dot_list.index(v - 1) + 1])
-                    except:
-                        print functions.print_error_in_entry(entry)
-        
-        num_comma_list = []
-        
-        if len(num_list_bpe) != len(num_dot_list):
-            print 'number of numbers and dots unequal, ', functions.print_error_in_entry(entry)
-            
-        try:    
-            if num_list_bpe:
-                for i in range(len(num_list_bpe)):
-                    start = num_list_bpe[i]
-                    end = num_dot_list[i]
-                    num_comma_list = [ a for a in comma_list if a < end and a > start]
-                    if num_comma_list:
-                        for j in range(len(num_comma_list)):
-                            if j == 0:
-                                trans_s = start
-                                trans_e = num_comma_list[j]
-                                functions.insert_translation(entry, trans_s, trans_e)
-                                
-                                trans2_s = num_comma_list[0] + 2
-                                if j + 1 < len(num_comma_list):
-                                    trans2_e = num_comma_list[j+1]
-                                    functions.insert_translation(entry, trans2_s, trans2_e)
-                                else:
-                                    functions.insert_translation(entry, trans2_s, num_dot_list[i])
-                                
-                            else:
-                                trans_s = num_comma_list[j] + 2
-                                if j + 1 < len(num_comma_list):
-                                    trans_e = num_comma_list[j+1]
-                                    functions.insert_translation(entry, trans_s, trans_e)
-                                else:
-                                    functions.insert_translation(entry, trans_s, num_dot_list[i])
-                    else:
-                        trans_s = num_list_bpe[i] + 1
-                        try:
-                            trans_e = num_dot_list[i]
-                            functions.insert_translation(entry, trans_s, trans_e)
-                        except:
-                            print functions.print_error_in_entry(entry)
-                        
-            
-            elif comma_list_bpe and not num_list_bpe:
-                for i in range(len(comma_list_bpe)):
-                    if i == 0:
-                        trans_s = p_end + 1
-                        trans_e = comma_list_bpe[i]
-                        functions.insert_translation(entry, trans_s, trans_e)
-                        
-                        trans2_s = comma_list_bpe[0] + 2
-                        if i + 1 < len(comma_list_bpe):
-                            trans2_e = comma_list_bpe[i+1]
-                            functions.insert_translation(entry, trans2_s, trans2_e)
-                        else:
-                            functions.insert_translation(entry, trans2_s, trans_end)
-                    else:
-                        trans_s = comma_list_bpe[i] + 2
-                        if i + 1 < len(comma_list_bpe):
-                            trans_e = comma_list_bpe[i+1]
-                            functions.insert_translation(entry, trans_s, trans_e)
-                        else:
-                            functions.insert_translation(entry, trans_s, trans_end)
-            else:
-                try:
-                    translation = entry.fullentry[p_end + 1:trans_end]
-                    functions.insert_translation(entry, p_end + 1, trans_end, translation)   
-                except:
-                    print 'cannot insert translation, ', functions.print_error_in_entry(entry) 
-        except:
-            print 'cannot annotate, ', functions.print_error_in_entry(entry)
-    except:
-        print 'no POS, ', functions.print_error_in_entry(entry)
-        
+
+    rest_start = functions.get_pos_or_head_end(entry) +1 #.at end of pos
+    rest_end = len(entry.fullentry)
+    for num_start, num_end in functions.split_entry_at(entry, r'\d\.|$', rest_start, rest_end, False, in_brackets):
+        first_point = functions.find_first_point(entry, num_start, num_end, in_brackets)
+        first_bold = functions.get_first_bold_start_in_range(entry, num_start, num_end)
+        if first_bold == -1:
+            first_bold = first_point
+        trans_end = min(first_point, first_bold)
+        for t_start, t_end in functions.split_entry_at(entry, r'[,;]|$', num_start, trans_end, False, in_brackets):
+            while t_start < t_end and entry.fullentry[t_start] in u' "¿¡':
+                t_start += 1
+            while t_end > t_start and entry.fullentry[t_end-1] in ' "?!.':
+                t_end -= 1
+            translation = entry.fullentry[t_start:t_end].translate(dict((ord(k),None) for k in u'¿¡?!'))
+            functions.insert_translation(entry, t_start, t_end, translation)
     return heads
  
  
@@ -232,6 +90,13 @@ def main(argv):
     
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
+
+    cmd = """\
+        delete from annotation
+        using book tb, entry te
+        where tb.bibtex_key = :bibtex_key and tb.id = te.book_id and te.id = entry_id
+             and annotationtype_id = (select id from annotationtype where type = 'dictinterpretation')"""
+    Session.execute(cmd, dict(bibtex_key=bibtex_key))
 
     dictdatas = Session.query(model.Dictdata).join(
         (model.Book, model.Dictdata.book_id==model.Book.id)
