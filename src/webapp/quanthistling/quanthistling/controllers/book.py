@@ -241,6 +241,7 @@ class BookController(BaseController):
             pagenr_minus_one = int(pagenr)-1
             c.entries = model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=True).filter(and_(model.Entry.startpage==pagenr_minus_one, model.Entry.endpage==int(pagenr))).all()
             c.entries = c.entries + model.meta.Session.query(model.Entry).filter_by(book_id=c.book.id,is_subentry=False).filter("startpage<=:pagenr and endpage>=:pagenr").params(pagenr=int(pagenr)).all()
+            c.entries.sort(key=attrgetter('startpage', 'pos_on_page'))
             return render('/derived/book/page_with_layout.html')
         else:
             abort(404)
