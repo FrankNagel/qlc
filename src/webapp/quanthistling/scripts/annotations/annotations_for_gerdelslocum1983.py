@@ -32,29 +32,15 @@ def annotate_head(entry):
 
     head_end = functions.get_last_bold_pos_at_start(entry)
 
-    part_start = 0
-    for separate_head in re.finditer("(?:[,] ?|$)", entry.fullentry[:head_end]):
-        part_end = separate_head.start(0)
-        #adjust the start of head
-        match = re.search(r'[^\W*\-].*[^\W]', entry.fullentry[part_start:part_end])
-        if match:
-            part_start += match.start(0)
-            part_end = part_start + len(match.group(0))
-        # ignore_this = ['(', '-']
-        # offset = 0
-        # if entry.fullentry[part_start:part_end].startswith('-'):
-        #     part_start += 1
-        # # for c in entry.fullentry[part_start:part_end]:
-        # #     if c in ignore_this:
-        # #         offset += 1
-        # #     else:
-        # #         break
-        # # part_start += offset
-        head = functions.insert_head(entry, part_start, part_end)
+    for h_start, h_end in functions.split_entry_at(entry, r', |\(|$', 0, head_end):
+        while h_end > 0 and entry.fullentry[h_end-1] in u')- ':
+            h_end -= 1
+        while h_start < h_end and entry.fullentry[h_start] in u'- ':
+            h_start += 1
+        head = functions.insert_head(entry, h_start, h_end)
         if head is not None:
             heads.append(head)
-        part_start = separate_head.end(0)
-        
+
     return heads
 
 
@@ -73,34 +59,31 @@ def annotate_pos(entry):
 
 
 def annotate_translation(entry):
-    trans_annotations = [a for a in entry.annotations
-                         if a.value == 'translation']
-
+    trans_annotations = [a for a in entry.annotations if a.value == 'translation']
     for a in trans_annotations:
         Session.delete(a)
 
-    trans_start = functions.get_pos_or_head_end(entry)
-    if entry.fullentry[trans_start:].startswith(')'):
-        trans_start += 1
+    trans_start = max(functions.get_pos_or_head_end(entry) + 1, #skip ')' at end of POS
+                      functions.get_first_bold_in_range(entry, 0, len(entry.fullentry))[1])
 
     newlines = functions.get_list_ranges_for_annotation(entry, 'newline')
-    if len(newlines) == 0:
-        functions.insert_translation(entry, trans_start, len(entry.fullentry))
+    in_brackets = functions.get_in_brackets_func(entry)
+    if len(newlines) == 0 or entry.fullentry[trans_start:newlines[0][0]].strip() != '':
+        if len(newlines) == 0:
+            trans_end = len(entry.fullentry)
+        else:
+            trans_end = newlines[0][0]
+        for t_start, t_end in functions.split_entry_at(entry, r', |$', trans_start, trans_end, in_brackets=in_brackets):
+            functions.insert_translation(entry, t_start, t_end)
     else:
+        newlines.pop(0)
         for i, n in enumerate(newlines):
-            period = entry.fullentry.find('.', trans_start, n[0])
-            if period == -1:
-                trans_end = n[0]
-            else:
-                trans_end = trans_start + period
-            if i == 0:
-                functions.insert_translation(entry, trans_start, trans_end)
-            else:
-                digit = re.search('\d ', entry.fullentry[trans_start:n[0]])
-                if digit is not None:
-                    trans_start += digit.end(0)
-                    functions.insert_translation(entry, trans_start, trans_end)
-
+            trans_end = n[0]
+            digit = re.compile('\d ').search(entry.fullentry, trans_start, trans_end)
+            if digit is not None:
+                trans_start = digit.end()
+                for t_start, t_end in functions.split_entry_at(entry, r', |$', trans_start, trans_end, in_brackets):
+                    functions.insert_translation(entry, t_start, t_end)
             trans_start = n[1]
 
 
