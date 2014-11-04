@@ -30,18 +30,24 @@ def annotate_head(entry):
     for a in head_annotations:
         Session.delete(a)
         
-    # Delete this code and insert your code
     head = None
     heads = []
-    
+
+    in_brackets = functions.get_in_brackets_func(entry)
     bolds = functions.get_list_bold_ranges(entry)
     bolds += functions.get_list_italic_ranges(entry)
 
     for b in bolds:
+        if in_brackets(*b):
+            continue
         start = b[0]
-        for match_comma in re.finditer("(?:[,;] ?|$)", entry.fullentry[b[0]:b[1]]):
+        for match_comma in re.finditer("(?:[,;:] ?|$)", entry.fullentry[b[0]:b[1]]):
             end = b[0] + match_comma.start(0)
-            head = functions.insert_head(entry, start, end)
+            start, end, translation = functions.remove_parts(entry, start, end)
+            if translation.startswith(u'e\u0301l/ella'):
+                start += 4
+                translation = translation[4:]
+            head = functions.insert_head(entry, start, end, translation)
             heads.append(head)
             start = b[0] + match_comma.end(0)
 
@@ -54,7 +60,8 @@ def annotate_translations(entry):
     for a in trans_annotations:
         Session.delete(a)
 
-    heads = functions.get_list_bold_ranges(entry)
+    in_brackets = functions.get_in_brackets_func(entry)
+    heads = [x for x in functions.get_list_bold_ranges(entry) if not in_brackets(*x)]
     heads += functions.get_list_italic_ranges(entry)
 
     heads = sorted(heads, key=itemgetter(1))
@@ -68,12 +75,11 @@ def annotate_translations(entry):
         else:
             translation_end = len(entry.fullentry)
 
-        if translation_end > 0 and (translation_end - translation_start) > 1:
-            start = translation_start
-            for match_comma in re.finditer("(?:[,;] ?|$)", entry.fullentry[translation_start:translation_end]):
-                end = translation_start + match_comma.start(0)
-                functions.insert_translation(entry, start, end)
-                start = translation_start + match_comma.end(0)
+        if not (translation_end > 0 and (translation_end - translation_start) > 1):
+            continue
+
+        for t_start, t_end in functions.split_entry_at(entry, r',|;|$', translation_start, translation_end):
+            functions.insert_translation(entry, t_start, t_end)
 
 
 def main(argv):
