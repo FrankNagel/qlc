@@ -69,16 +69,16 @@ def annotate_head(entry):
     return heads
 
 def _add_translation_until_bold(entry, s, e):
-    bold = functions.get_first_bold_start_in_range(entry, s, e)
-    if bold != -1:
-        e = bold
-
-    start = s
-    for match_comma in re.finditer("(?:, ?|$)", entry.fullentry[s:e]):
-        end = s + match_comma.start(0)
-        functions.insert_translation(entry, start, end)
-        start = s + match_comma.end(0)
-
+    bold_ranges = functions.get_list_ranges_for_annotation(entry, 'bold', s)
+    in_brackets = functions.get_in_brackets_func(entry)
+    for bold in bold_ranges:
+        if not in_brackets(*bold):
+            e = min(e, bold[0])
+            break
+    for t_start, t_end in functions.split_entry_at(entry, ',|$', s, e):
+        t_start, t_end, trans = functions.remove_parts(entry, t_start, t_end)
+        trans = trans.translate(dict( (ord(c), None) for c in u'?!¿¡'))
+        functions.insert_translation(entry, t_start, t_end, trans)
 
 def annotate_translations(entry):
     # delete translation annotations
@@ -86,7 +86,7 @@ def annotate_translations(entry):
     for a in trans_annotations:
         Session.delete(a)
 
-    translation_start = functions.get_head_end(entry)
+    translation_start = functions.get_pos_or_head_end(entry)
     
     # remove brackets at start
     match = re.match(" ?\([^)]*\) ?", entry.fullentry[translation_start:])
@@ -95,9 +95,9 @@ def annotate_translations(entry):
         match = re.match(" ?\([^)]*\) ?", entry.fullentry[translation_start:])
 
     # remove italics at start
-    italic = functions.get_first_italic_in_range(entry, translation_start, len(entry.fullentry))
-    if italic != -1 and italic[0]-1 <= translation_start:
-        translation_start = italic[1]
+    italic = functions.get_list_ranges_for_annotation(entry, 'italic', translation_start)
+    if italic and italic[0][0]-1 <= translation_start:
+        translation_start = italic[0][1]
 
     # remove brackets at start
     match = re.match(" ?\([^)]*\) ?", entry.fullentry[translation_start:])
@@ -105,11 +105,9 @@ def annotate_translations(entry):
         translation_start += len(match.group(0))
         match = re.match(" ?\([^)]*\) ?", entry.fullentry[translation_start:])
 
-    if re.search("\d\) ", entry.fullentry[translation_start:]):
-        for match_translation in re.finditer("(?<=\d\))(.*?)(?=\d\)|$)", entry.fullentry[translation_start:]):
-            _add_translation_until_bold(entry, translation_start + match_translation.start(1), translation_start + match_translation.end(0))
-    else:
-        _add_translation_until_bold(entry, translation_start, len(entry.fullentry))
+    for trans_start, trans_end in functions.split_entry_at(entry, r'\d\)|$', translation_start, len(entry.fullentry),
+                                                           True):
+        _add_translation_until_bold(entry, trans_start, trans_end)
 
  
 def main(argv):
