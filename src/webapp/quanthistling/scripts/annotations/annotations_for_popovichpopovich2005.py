@@ -23,7 +23,8 @@ from paste.deploy import appconfig
 import functions
 
 chars_to_exclude = [u' ', u'-', u'–', u')']
-
+exclude_mapping = {ord('-'): None}
+trans_exclude = dict((ord(c),None) for c in u'[]')
 
 def _adjust_start(entry, start):
     chars_to_skip = 0
@@ -49,9 +50,11 @@ def annotate_everything(entry):
     
     head_end = functions.get_last_bold_pos_at_start(entry)
     head_start = _adjust_start(entry, 0)
-
-    head = functions.insert_head(entry, head_start, head_end)
-    heads.append(head)
+    head_start, head_end, head = functions.remove_parts(entry, head_start, head_end)
+    head = head.translate(exclude_mapping)
+    head = functions.insert_head(entry, head_start, head_end, head)
+    if head:
+        heads.append(head)
 
     newlines = functions.get_list_ranges_for_annotation(entry, 'newline')
     if len(newlines) > 0:
@@ -65,27 +68,12 @@ def annotate_everything(entry):
     else:
         trans_start = head_end
 
-    part_start = trans_start
-    for match_semi_colon in re.finditer("(?:[,] ?|$)",
-                                        entry.fullentry[trans_start:entry_end]):
-        e = match_semi_colon.start(0)
-        s = match_semi_colon.end(0)
 
-        for b in re.finditer(r'\(.*\)', entry.fullentry[trans_start:entry_end]):
-            if b.start(0) <= match_semi_colon.end(0) <= b.end(0):
-                e = b.end(0)
-                break
-
-        part_end = trans_start + e
-
-        part_start = _adjust_start(entry, part_start)
-
-        functions.insert_translation(entry, part_start, part_end)
-        if s > e:
-            part_start = trans_start + s
-        else:
-            part_start = trans_start + e
-
+    for p_start, p_end in functions.split_entry_at(entry, r',|/|$', trans_start, entry_end):
+        p_start = _adjust_start(entry, p_start)
+        p_start, p_end, translation = functions.remove_parts(entry, p_start, p_end)
+        translation = translation.translate(trans_exclude)
+        functions.insert_translation(entry, p_start, p_end, translation)
     return heads
 
 
