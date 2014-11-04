@@ -23,8 +23,7 @@ def annotate_everything(entry):
                         a.value == 'translation']
     for a in head_annotations:
         Session.delete(a)
-        
-    # Delete this code and insert your code
+
     head = None
     heads = []
     
@@ -32,21 +31,24 @@ def annotate_everything(entry):
     chars_to_skip = [u'†', u'—', ' ']
     offset = 0
     for c in reversed(entry.fullentry[:head_end]):
-        if c in chars_to_skip:
+        if c in chars_to_skip or c.isdigit():
             offset += 1
         else:
             break
 
     head_end -= offset
-    head = functions.insert_head(entry, 0, head_end)
+    head_start, head_end, head = functions.remove_parts(entry, 0, head_end)
+    head = head.replace('-', '')
+    head = functions.insert_head(entry, head_start, head_end, head)
 
     heads.append(head)
-
-    italics = functions.get_list_ranges_for_annotation(entry, 'italic', head_end,
-                                                       len(entry.fullentry))
+    translation_end = functions.find_first(entry, ';', head_end, len(entry.fullentry), lambda x,y: False) +1
+    italics = functions.get_list_ranges_for_annotation(entry, 'italic', head_end, translation_end)
     for i in italics:
-        functions.insert_translation(entry, i[0], i[1])
-
+        if entry.fullentry[i[1]-1] == ';':
+            i[1] -= 1
+        for t_start, t_end in functions.split_entry_at(entry, ',|$', i[0], i[1]):
+            functions.insert_translation(entry, t_start, t_end)
     return heads
 
 
