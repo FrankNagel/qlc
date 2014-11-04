@@ -61,10 +61,12 @@ def annotate_translations(entry):
         translation_start += len(match_capitals.group(0))
 
     start = translation_start
-    for match_comma in re.finditer("(?:[,;] ?|$)", entry.fullentry[translation_start:translation_end]):
-        end = translation_start + match_comma.start(0)
-        functions.insert_translation(entry, start, end)
-        start = translation_start + match_comma.end(0)
+    for t_start, t_end in functions.split_entry_at(entry, r'[,;] |/|$', translation_start, translation_end):
+        t_start, t_end, translation = functions.remove_parts(entry, t_start, t_end)
+        match = re.match(r'\(vr-[it]\.( irr\.)?\)|\(vt\.\)', translation)
+        if match:
+            translation = translation[len(match.group()):]
+        functions.insert_translation(entry, t_start, t_end, translation)
 
  
 def main(argv):
