@@ -32,11 +32,18 @@ def annotate_head(entry):
     # Delete this code and insert your code
     head = None
     heads = []
-    
-    head_end = functions.get_last_bold_pos_at_start(entry)
+
+    bold = functions.get_list_bold_ranges(entry)
+    if not bold:
+        functions.print_error_in_entry(entry, "Found no bold part at the beginning.")
+        return heads
+    head_end = bold[0][1]
 
     for (s, e) in functions.split_entry_at(entry, r"(?:, |$)", 0, head_end):
-        head = functions.insert_head(entry, s, e)
+        s,e, head = functions.remove_parts(entry, s,e)
+        while head and (head[-1].isdigit() or head[-1] == '!'):
+            head = head[:-1]
+        head = functions.insert_head(entry, s, e, head)
         if head is None:
             functions.print_error_in_entry(entry, "head is None")
         else:
@@ -51,22 +58,21 @@ def annotate_pos(entry):
         Session.delete(a)
 
     head_end = functions.get_head_end(entry)
-    italic = functions.get_first_italic_in_range(entry, 0, head_end+10)
+    italic = functions.get_first_italic_in_range(entry, head_end, head_end+10)
     if italic != -1 and entry.fullentry[italic[0]:italic[1]].strip() != "Vea":
         entry.append_annotation(italic[0], italic[1], u'pos', u'dictinterpretation')
     
 def _insert_translation_1(entry, start, end):
-    translation_end = entry.fullentry.find('.', start)
-
-    if translation_end == -1:
-        translation_end = end
+    translation_end = functions.find_first_point(entry, start, end)
 
     tr = entry.fullentry[start:translation_end].strip()
     if tr.startswith("Vea") or tr.startswith("plural"):
         return
 
-    for (s, e) in functions.split_entry_at(entry, r"(?:[,;] |$)", start, translation_end):
-        functions.insert_translation(entry, s, e)
+    for (s, e) in functions.split_entry_at(entry, ur"! ¡|[,;] |$", start, translation_end):
+        s, e, translation = functions.remove_parts(entry, s, e)
+        translation = translation.translate(dict((ord(c), None) for c in u'!?¿¡'))
+        functions.insert_translation(entry, s, e, translation)
 
 def annotate_translations(entry):
     # delete translation annotations
@@ -74,17 +80,17 @@ def annotate_translations(entry):
     for a in trans_annotations:
         Session.delete(a)
 
-    translation_start = functions.get_pos_or_head_end(entry)
+    translation_start = max(functions.get_pos_or_head_end(entry),
+                            functions.get_last_bold_pos_at_start(entry))
+    
     match_period = re.match(" ?\.", entry.fullentry[translation_start:])
     if match_period:
         translation_start += len(match_period.group(0))
 
-    if re.search("\d\. ", entry.fullentry[translation_start:]):
-        for match in re.finditer(r"(?<=\d\. )(.*?)(?:\d\. |$)", entry.fullentry[translation_start:]):
-            _insert_translation_1(entry, translation_start+match.start(1), translation_start+match.end(1))
-    else:
-        _insert_translation_1(entry, translation_start, len(entry.fullentry))
-
+    for num_start, num_end in functions.split_entry_at(entry, r'\d\. |$', translation_start,
+                                                       len(entry.fullentry), True):
+        _insert_translation_1(entry, num_start, num_end)
+        
  
 def main(argv):
 
@@ -114,6 +120,13 @@ def main(argv):
         startletters = set()
     
         for e in entries:
+            #skip subentries which start with '||'
+            if e.is_subentry and (e.fullentry.startswith('||') or e.fullentry.startswith(' ||')):
+                for a in e.annotations:
+                    if a.annotationtype.type == 'dictinterpretation':
+                        Session.delete(a)
+                continue
+            
             heads = annotate_head(e)
             if not e.is_subentry:
                 for h in heads:
