@@ -40,18 +40,18 @@ def get_in_brackets_func(entry, brackets=None):
     return lambda x, y: next((b for b in brackets if b[0] < x and y < b[1]), None)
 
 def find_first_point(entry, start, end, in_brackets=None):
-    return find_first_character(entry, '.', start, end, in_brackets)
+    return find_first(entry, '.', start, end, in_brackets)
 
-def find_first_character(entry, character, start, end, in_brackets=None):
+def find_first(entry, substring, start, end, in_brackets=None):
     if in_brackets is None:
         in_brackets = get_in_brackets_func(entry)
     search_start = start
     while True:
-        pos = entry.fullentry.find(character, search_start, end)
+        pos = entry.fullentry.find(substring, search_start, end)
         if pos == -1:
             pos = end
             break
-        if not in_brackets(pos, pos+1):
+        if not in_brackets(pos, pos+len(substring)):
             break
         search_start = pos + 1
     return pos
@@ -112,7 +112,7 @@ def get_dict_bold_ranges(entry):
 
 def get_list_ranges_for_annotation(entry, annotation_value, start=0, end=-1):
     if end == -1:
-        end = len(entry.fullentry) - 1
+        end = len(entry.fullentry)
 
     sorted_annotations = [ [a.start, a.end]
         for a in sorted(entry.annotations, key=attrgetter('start'))
