@@ -30,6 +30,8 @@ def _split_translations(entry, s, e):
     for match_comma in re.finditer("(?:, ?|$)", entry.fullentry[s:e]):
         end = s + match_comma.start(0)
         if end < bracket_start or end == e:
+            while start<end and entry.fullentry[start] in ' -':
+                start += 1
             functions.insert_translation(entry, start, end)
             start = s + match_comma.end(0)
 
@@ -47,17 +49,13 @@ def annotate_head(entry):
 
     head_end = functions.get_last_bold_pos_at_start(entry)
     head_start = 0
-    offset = 0
-    ignore_this = [u'-']
-    for c in entry.fullentry[:head_end]:
-        if c in ignore_this:
-            offset += 1
-        else:
-            break
-    head_start += offset
-    head = functions.insert_head(entry, head_start, head_end)
 
-    heads.append(head)
+    for h_start, h_end in functions.split_entry_at(entry, r',|$', head_start, head_end):
+        h_start, h_end, head = functions.remove_parts(entry, h_start, h_end)
+        head = head.replace('-', '')
+        head = functions.insert_head(entry, h_start, h_end, head)
+        if head:
+            heads.append(head)
 
     return heads
 
