@@ -292,6 +292,31 @@ def insert_annotation(entry, s, e, annotation, string = None):
     entry.append_annotation(s, e, annotation, u"dictinterpretation", string)
     return string
 
+def lstrip(entry, s, e, chars=None):
+    if chars is None:
+        do_strip = lambda x: x.isspace()
+    else:
+        do_strip = lambda x: x in chars
+    while s < e and do_strip(entry.fullentry[s]):
+        s += 1
+    return s
+
+def rstrip(entry, s, e, chars=None):
+    if chars is None:
+        do_strip = lambda x: x.isspace()
+    else:
+        do_strip = lambda x: x in chars
+    while e > s and do_strip(entry.fullentry[e-1]):
+        e -= 1
+    return e
+
+def strip(entry, s, e, lchars=None, rchars=None):
+    if rchars is None:
+        rchars = lchars
+    s = lstrip(entry, s, e, lchars)
+    e = rstrip(entry, s, e, rchars)
+    return s, e
+    
 def remove_parts(entry, s, e):
     start = s
     end = e
