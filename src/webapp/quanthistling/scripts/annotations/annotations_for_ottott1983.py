@@ -20,49 +20,12 @@ from paste.deploy import appconfig
 import functions
 
 
-pos_regex = r'\(\w*?\)'
-
-
-def _entry_end(entry):
-    brackets = [[a.start(0), a.end(0)] for a in re.finditer(r'\(.*?\)', entry.fullentry)]
-
-    entry_ended = False
-    start = 0
-
-    newlines = [a for a in entry.annotations if a.value == 'newline']
-    if len(newlines) > 0:
-        entry_end = newlines[0].start
-        entry_ended = True
-    else:
-        entry_end = len(entry.fullentry)
-    while not entry_ended:
-        period = entry.fullentry.find(u'.', start)
-        if period != -1:
-            if len(brackets) == 0:
-                entry_end = period
-                entry_ended = True
-            for b in brackets:
-                if b[0] <= period < b[1]:
-                    entry_ended = False
-                    start = b[1]
-                    break
-                else:
-                    entry_end = period
-                    entry_ended = True
-        else:
-            entry_end = len(entry.fullentry)
-            entry_ended = True
-
-    return entry_end
-
-
-def _get_multiple_heads(entry, end):
-    start = 0
-    for match_pos in re.finditer(pos_regex, entry.fullentry[:end]):
-        if match_pos.end(0) == end:
-            pass
-
-
+page_pattern = re.compile('\[Seite\s+\d+\]')
+def clean_out_pagebreaks(string):
+    match = page_pattern.match(string)
+    if match:
+        return string[:match.start()] + string[match.end():]
+    return string
 
 def annotate_head_and_pos(entry):
     # delete head annotations
@@ -71,42 +34,37 @@ def annotate_head_and_pos(entry):
                            a.value == 'doculect' or a.value == 'pos']
     for a in head_annotations:
         Session.delete(a)
-    # Delete this code and insert your code
-    head = None
+
     heads = []
 
-    entry_end = _entry_end(entry)
+    head_start = 0
+    while True: #possible several '<head> (<pos>)' seperated by ','
+        head_end = functions.find_first(entry, '(', head_start, len(entry.fullentry), lambda x,y: False)
+        if head_end == len(entry.fullentry):
+            head_end = functions.find_first(entry, ' V. ', 0, len(entry.fullentry))
+            if head_end == len(entry.fullentry):
+                return heads # early return if i can't parse a head
+            have_pos = False
+        else:
+            have_pos = True
 
-    if re.search(r'\(.*\)', entry.fullentry[:entry_end]) is None:
-        return []
-
-    splitted_heads = [a for a in
-                      functions.split_entry_at(entry, pos_regex, 0, entry_end)
-                      if entry.fullentry[a[0]:a[1]].find(';') == -1]
-
-    for h in splitted_heads:
-        start = h[0]
-        for match_comma in re.finditer('(?:[,] ?|$)', entry.fullentry[h[0]:h[1]]):
-            end = h[0] + match_comma.start(0)
-            hd = entry.fullentry[start:end]
-            if len(hd) > 0:
-                chars_to_exclude = [u' ', u'-', u'–']
-                chars_to_skip = 0
-                for c in hd:
-                    if c in chars_to_exclude:
-                        chars_to_skip += 1
-                    else:
-                        break
-                start += chars_to_skip
-            head = functions.insert_head(entry, start, end)
-            if head is not None:
+        for h_start, h_end in functions.split_entry_at(entry, r',|$', head_start, head_end):
+            h_start = functions.lstrip(entry, h_start, h_end, u' -–')
+            head = functions.insert_head(entry, h_start, h_end)
+            if head:
                 heads.append(head)
-            start = h[0] + match_comma.end(0)
 
-    for match_pos in re.finditer(pos_regex, entry.fullentry[:entry_end]):
-        if match_pos.end(0) != entry_end:
-            entry.append_annotation(match_pos.start(0) + 1, match_pos.end(0) - 1,
-                                u'pos', u'dictinterpretation')
+        if have_pos:
+            pos_end = functions.find_first(entry, ')', head_end, len(entry.fullentry), lambda x,y: False)
+            entry.append_annotation(head_end+1, pos_end, u'pos', u'dictinterpretation')
+        else:
+            break
+        #another head?
+        if pos_end + 1 < len(entry.fullentry) and \
+          re.compile(u',|\s*[-–]').match(entry.fullentry, pos_end + 1):
+            head_start = pos_end + 2
+        else:
+            break
 
     return heads
 
@@ -122,34 +80,36 @@ def annotate_translations(entry):
     trans_start = functions.get_pos_or_head_end(entry)
     if entry.fullentry[trans_start:].startswith(')'):
         trans_start = trans_start + 1
-    newlines = functions.get_list_ranges_for_annotation(entry, 'newline')
-    if len(newlines) > 0:
-        trans_end = newlines[0][0]
-    else:
-        trans_end = _entry_end(entry)
 
-    part_start = trans_start
-    for match_semi_colon in re.finditer("(?:[,;] ?|$)",
-                                        entry.fullentry[trans_start:trans_end]):
-        e = match_semi_colon.start(0)
-        s = match_semi_colon.end(0)
-        for q in re.finditer(r'".*" ', entry.fullentry[trans_start:trans_end]):
-            if q.start(0) <= match_semi_colon.end(0) <= q.end(0):
-                e = q.end(0)
-                break
+    #crossrefs
+    crossref_match = re.compile('\s*V\. ').match(entry.fullentry, trans_start)
+    if crossref_match:
+        return trans_start
 
-        for b in re.finditer(r'\(.*\)', entry.fullentry[trans_start:trans_end]):
-            if b.start(0) <= match_semi_colon.end(0) <= b.end(0):
-                e = b.end(0)
-                break
+    in_brackets = functions.get_in_brackets_func(entry)
+    trans_end = min(functions.find_first_point(entry, trans_start, len(entry.fullentry), in_brackets),
+                    functions.find_first(entry, u' V. ', trans_start, len(entry.fullentry), in_brackets))
 
-        part_end = trans_start + e
+    for t_start, t_end in functions.split_entry_at(entry, r'[,;]|$', trans_start, trans_end, False, in_brackets):
+        t_start, t_end, translation = functions.remove_parts(entry, t_start, t_end)
+        translation = clean_out_pagebreaks(translation)
+        functions.insert_translation(entry, t_start, t_end, translation)
+    return trans_end
 
-        functions.insert_translation(entry, part_start, part_end)
-        if s > e:
-            part_start = trans_start + s
-        else:
-            part_start = trans_start + e
+def annotate_crossref(entry, start):
+    crossref_match = re.compile('\.?\s+V\. ').match(entry.fullentry, start)
+    if not crossref_match:
+        return
+    start = crossref_match.end()
+    in_brackets = functions.get_in_brackets_func(entry)
+    end = functions.find_first_point(entry, start, len(entry.fullentry), in_brackets)
+    for c_start, c_end in functions.split_entry_at(entry, r'[,;]|$', start, end, False, in_brackets):
+        c_start = functions.lstrip(entry, c_start, c_end, u' -–')
+        c_start, c_end, crossref = functions.remove_parts(entry, c_start, c_end)
+        if crossref.startswith('Apuntes Gramaticales'):
+            return
+        crossref = clean_out_pagebreaks(crossref)
+        entry.append_annotation(c_start, c_end, u'crossreference', u'dictinterpretation', crossref)
 
 
 def main(argv):
@@ -181,14 +141,14 @@ def main(argv):
     
         for e in entries:
             try:
-                #print "current page: %i, pos_on_page: %i" % (e.startpage, e.pos_on_page)
                 heads = annotate_head_and_pos(e)
                 if not e.is_subentry:
                     for h in heads:
                         if len(h) > 0:
                             startletters.add(h[0].lower())
-                # annotate_pos(e)
-                annotate_translations(e)
+                if heads:
+                    trans_end = annotate_translations(e)
+                    annotate_crossref(e, trans_end)
             except TypeError:
                 print "   error on startpage: %i, pos_on_page: %i" % (e.startpage, e.pos_on_page)
                 raise
