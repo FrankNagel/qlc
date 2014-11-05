@@ -17,18 +17,6 @@ from paste.deploy import appconfig
 
 import functions
 
-chars_to_exclude = [u' ', u'-', u'–', u')', u'"']
-
-
-def _adjust_start(entry, start):
-    chars_to_skip = 0
-    for c in entry.fullentry[start:]:
-        if c in chars_to_exclude:
-            chars_to_skip += 1
-        else:
-            break
-    return start + chars_to_skip
-
 
 def annotate_head(entry):
     # delete head annotations
@@ -45,48 +33,41 @@ def annotate_head(entry):
     head_start = first_bold[0]
     head_end = first_bold[1]
     start = head_start
-    for match_comma in re.finditer('(?:; ?|$)', entry.fullentry[
-                                                 head_start:head_end]):
+    for match_comma in re.finditer('[,;] ?|$', entry.fullentry[head_start:head_end]):
         end = head_start + match_comma.start(0)
-        start = _adjust_start(entry, start)
-        head = functions.insert_head(entry, start, end)
+        start = functions.lstrip(entry, start, end, u' -–)"')
+        end = functions.rstrip(entry, start, end, ' :-')
+        head = entry.fullentry[start:end].replace('-', '')
+        head = functions.insert_head(entry, start, end, head)
         start = head_start + match_comma.end(0)
-        heads.append(head)
+        if head:
+            heads.append(head)
     
     return heads
 
 
 def _split_translations(entry, s, e):
-    #get brackets
-    match_brackets = re.search(r'\(.*\)$', entry.fullentry[s:e])
-    if match_brackets is not None:
-        bracket_start = s + match_brackets.start(0)
-    else:
-        bracket_start = e
-
-    start = s
-    for match_ord in re.finditer('(?:\d\) ?|$)', entry.fullentry[
-                                                 s:bracket_start]):
-        end = s + match_ord.start(0)
-        if end <= bracket_start or end == e:
-            functions.insert_translation(entry, start, end)
-            start = s + match_ord.end(0)
-
+    in_brackets = functions.get_in_brackets_func(entry)
+    for num_start, num_end in functions.split_entry_at(entry, r'\d\)|$', s, e, True, in_brackets):
+        for t_start, t_end in functions.split_entry_at(entry, r',|:|$', num_start, num_end, False, in_brackets):
+#            t_end = functions.rstrip(entry, t_start, t_end, ' :')
+            t_start, t_end = functions.strip(entry, t_start, t_end, u' ¡¿"', ' .!?"')
+            translation = entry.fullentry[t_start:t_end].replace('"', '')
+            functions.insert_translation(entry, t_start, t_end, translation)
 
 def annotate_translations(entry):
     # delete translation annotations
-    trans_annotations = [a for a in entry.annotations if a.value ==
-                         'translation']
+    trans_annotations = [a for a in entry.annotations if a.value == 'translation']
     for a in trans_annotations:
         Session.delete(a)
 
-    trans_start = functions.get_head_end(entry)
+    trans_start = max(functions.get_head_end(entry),
+                      functions.get_first_bold_in_range(entry, 0, len(entry.fullentry))[1])
     trans_end = len(entry.fullentry)
     italic = functions.get_list_ranges_for_annotation(entry, 'italic',
                                                       trans_start, trans_end)
     if len(italic) > 0:
         trans_end = italic[-1][0]
-
     _split_translations(entry, trans_start, trans_end)
 
  
