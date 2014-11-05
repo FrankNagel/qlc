@@ -24,19 +24,26 @@ import functions
 
 def annotate_head(entry):
     # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
+    head_annotations = [ a for a in entry.annotations if a.value in ['head', "iso-639-3", "doculect", 'boundary']]
     for a in head_annotations:
         Session.delete(a)
         
     # Delete this code and insert your code
     head = None
     heads = []
-    
-    head_end = functions.get_last_bold_pos_at_start(entry)
-    head_all = entry.fullentry[:head_end]
 
-    head = functions.insert_head(entry, 0, head_end)
-    heads.append(head)
+    head_start = 0
+    head_end = functions.get_last_bold_pos_at_start(entry)
+    for i in xrange(0, head_end):
+        if entry.fullentry[i] == '-':
+            entry.append_annotation(i, i+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
+    while head_start < head_end and entry.fullentry[head_start] in ' -':
+        head_start += 1
+    while head_end > head_start and entry.fullentry[head_end-1] in ' -':
+        head_end -= 1
+    head = functions.insert_head(entry, head_start, head_end)
+    if head:
+        heads.append(head)
 
     return heads
 
