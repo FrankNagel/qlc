@@ -22,6 +22,8 @@ from paste.deploy import appconfig
 
 import functions
 
+superscripts = u'\u2070\u2071\u00B2\u00B3\u2074\u2075\u2076\u2077\u2078\u2079'
+superscripts_tp = dict((ord(str(i)), superscripts[i]) for i in xrange(len(superscripts)))
 
 def annotate_head(entry):
     # delete head annotations
@@ -39,7 +41,8 @@ def annotate_head(entry):
 
     #ignoring hyphens, if any
     head_all = head_all.replace('-', '')
-
+    head_all = head_all.translate(superscripts_tp)
+    
     head = functions.insert_head(entry, 0, head_end, head_all)        
     heads.append(head)
 
@@ -71,7 +74,8 @@ def annotate_translations(entry):
     if translation_end == -1:
         translation_end = len(entry.fullentry)
 
-    functions.insert_translation(entry, translation_start, translation_end)
+    for t_start, t_end in functions.split_entry_at(entry, r',|;|$', translation_start, translation_end):
+        functions.insert_translation(entry, t_start, t_end)
  
 def main(argv):
 
