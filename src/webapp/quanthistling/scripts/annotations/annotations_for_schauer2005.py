@@ -22,24 +22,35 @@ from paste.deploy import appconfig
 
 import functions
 
+
+bracket_pattern = re.compile('[,\d]?\s*(esp|port)?\s*\([^)]*\)')
+
 def annotate_head(entry):
     # delete head annotations
     head_annotations = [a for a in entry.annotations if a.value == 'head' or
                         a.value == 'iso-639-3' or a.value == 'doculect']
     for a in head_annotations:
         Session.delete(a)
-        
-    # Delete this code and insert your code
-    head = None
+
+    in_brackets = functions.get_in_brackets_func(entry)
     heads = []
 
-    head_end = functions.get_last_bold_pos_at_start(entry)
-    start = 0
-    if entry.fullentry[start:head_end].startswith('-'):
-        start += 1
-    head = functions.insert_head(entry, start, head_end)
-    heads.append(head)
-    
+    head_start = 0
+    smallcaps = functions.get_list_ranges_for_annotation(entry, 'smallcaps')
+    trans_end = functions.find_first_point(entry, 0, len(entry.fullentry), in_brackets)
+    italics = [i for i in functions.get_list_italic_ranges(entry) if not in_brackets(*i) and i[0]<trans_end]
+    if italics:
+        head_end = italics[0][0]
+    else:
+        head_end = functions.get_last_bold_pos_at_start(entry)
+
+    for h_start, h_end in functions.split_entry_at(entry, ',|$', head_start, head_end):
+        h_end = functions.find_first(entry, '(', h_start, h_end, in_brackets)
+        h_end = next((s[0] for s in smallcaps if s[0]>h_start and s[0] < h_end), h_end)
+        h_start, h_end = functions.strip(entry, h_start, h_end, u' -¡¿?!0123456789')
+        head = functions.insert_head(entry, h_start, h_end)
+        if head:
+            heads.append(head)
     return heads
 
 
@@ -48,9 +59,17 @@ def annotate_pos(entry):
     for p in pos:
         Session.delete(p)
 
-    head_end = functions.get_head_end(entry)
-    italic = functions.get_first_italic_in_range(entry, head_end, head_end + 10)
-    if italic != -1:
+    head_end = max(functions.get_head_end(entry),
+                   functions.get_last_bold_pos_at_start(entry))
+    #ignore a bracket pair
+    match = bracket_pattern.match(entry.fullentry, head_end)
+    if match:
+        head_end = match.end()
+
+    trans_end = functions.find_first_point(entry, 0, len(entry.fullentry))
+    italics = [i for i in functions.get_list_italic_ranges(entry, head_end) if i[0] < trans_end]
+    if italics and italics[0][0] < head_end+11:
+        italic = italics[0]
         entry.append_annotation(italic[0], italic[1], u'pos', u'dictinterpretation')
 
 
@@ -60,48 +79,17 @@ def annotate_translation(entry):
     for t in trans:
         Session.delete(t)
 
-    trans_start = functions.get_pos_or_head_end(entry)
-
-    if re.search(r'\d ', entry.fullentry[trans_start:]):
-        for match in re.finditer(r"(?<=\d )(.*?)(?:\d |$)",
-                                 entry.fullentry[trans_start:]):
-
-            start = trans_start + match.start(1)
-            end = trans_start + match.end(1)
-            process_translation(entry, start, end)
-    else:
-        process_translation(entry, trans_start, len(entry.fullentry))
-
-
-def process_translation(entry, start, end):
-    trans_ended = False
-    s1 = start
-    period = -1
-    while not trans_ended:
-        period = entry.fullentry.find('.', s1)
-        if period != -1:
-            for bracket in re.finditer(r'\(.*\)', entry.fullentry[s1:]):
-                if bracket.start(0) <= period <= bracket.end(0):
-                    trans_ended = False
-                else:
-                    trans_ended = True
-            else:
-                trans_ended = True
-
-            s1 = start + period
-        else:
-            trans_ended = True
-
-    s = start
-    if period != -1:
-        trans_end = period
-    else:
-        trans_end = end
-    for match in re.finditer(r"(?:[,] |$)", entry.fullentry[s:trans_end]):
-        e = start + match.start(0)
-        functions.insert_translation(entry, s, e)
-        s = start + match.end(0)
-
+    trans_start = max(functions.get_pos_or_head_end(entry),
+                      functions.get_last_bold_pos_at_start(entry))
+    in_brackets = functions.get_in_brackets_func(entry)
+    for num_start, num_end in functions.split_entry_at(entry, r'\d |$', trans_start, len(entry.fullentry), True,
+                                                       in_brackets):
+        num_end = functions.find_first_point(entry, num_start, num_end, in_brackets)
+        for t_start, t_end in functions.split_entry_at(entry, r'[,:] |$', num_start, num_end, False, in_brackets):
+            t_start, t_end, _ = functions.remove_parts(entry, t_start, t_end)
+            t_end = functions.rstrip(entry, t_start, t_end, '0123456789')
+            functions.insert_translation(entry, t_start, t_end)
+    
  
 def main(argv):
 
