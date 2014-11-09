@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "(a criança diz)",
+    "startpage" : 189,
+    "pos_on_page" : 153,
+    "language_bookname" : "Portuguese",
+    "concept" : "A_CRIANÇA_DIZ",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "a criança diz",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

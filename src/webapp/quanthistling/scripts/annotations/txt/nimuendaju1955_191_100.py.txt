@@ -1,51 +1,58 @@
 
 manual_entries.append({
-    "fullentry" : "pulseira, liga do",
-    "startpage" : 189,
-    "pos_on_page" : 43,
-    "language_bookname" : "Portuguese",
-    "concept" : "PULSEIRA_LIGA_DO",
+    "fullentry" : "kuradan, patútŭ",
+    "startpage" : 191,
+    "pos_on_page" : 100,
+    "language_bookname" : "Wapičána",
+    "concept" : "BANANA_DA_TERRA",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "pulseira",
+                "string" : "kuradan",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Wapičána",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "wap",
                 "start" : 0,
-                "end" : 8
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "liga do",
-                "start" : 10,
+                "string" : "patútŭ",
+                "start" : 9,
                 "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 10,
+                "string" : "Wapičána",
+                "start" : 9,
                 "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 10,
+                "string" : "wap",
+                "start" : 9,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "kuradan, patútŭ",
+                "start" : 0,
                 "end" : 17
             },
     ]

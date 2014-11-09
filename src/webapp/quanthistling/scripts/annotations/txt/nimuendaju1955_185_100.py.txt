@@ -1,51 +1,58 @@
 
 manual_entries.append({
-    "fullentry" : "nariz, narinas",
-    "startpage" : 186,
-    "pos_on_page" : 117,
-    "language_bookname" : "Portuguese",
-    "concept" : "NARIZ_NARINAS",
+    "fullentry" : "ará, akarié˛",
+    "startpage" : 185,
+    "pos_on_page" : 100,
+    "language_bookname" : "Makuší",
+    "concept" : "TIMBÓ",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nariz",
+                "string" : "ará",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Makuší",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "mbc",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "narinas",
-                "start" : 7,
+                "string" : "akarié˛",
+                "start" : 6,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 7,
+                "string" : "Makuší",
+                "start" : 6,
                 "end" : 14
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 7,
+                "string" : "mbc",
+                "start" : 6,
+                "end" : 14
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ará, akarié˛",
+                "start" : 0,
                 "end" : 14
             },
     ]

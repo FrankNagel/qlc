@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "linguagem, voz",
-    "startpage" : 190,
-    "pos_on_page" : 5,
-    "language_bookname" : "Portuguese",
-    "concept" : "LINGUAGEM_VOZ",
+    "fullentry" : "opurįrú, kandurįrú",
+    "startpage" : 193,
+    "pos_on_page" : 94,
+    "language_bookname" : "Ipurinã&#39;",
+    "concept" : "ORION",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "linguagem",
+                "string" : "opurįrú",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Ipurinã&#39;",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "apu",
                 "start" : 0,
                 "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "voz",
+                "string" : "kandurįrú",
                 "start" : 11,
-                "end" : 14
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Ipurinã&#39;",
                 "start" : 11,
-                "end" : 14
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "apu",
                 "start" : 11,
-                "end" : 14
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "opurįrú, kandurįrú",
+                "start" : 0,
+                "end" : 22
             },
     ]
 })

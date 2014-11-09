@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "me dê!",
+    "startpage" : 196,
+    "pos_on_page" : 67,
+    "language_bookname" : "Portuguese",
+    "concept" : "ME_DÊ",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "me dê",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 7
+            },
+    ]
+})

@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "pulseira, liga do",
+    "fullentry" : "ũ-radáu, radawí˛i",
     "startpage" : 189,
-    "pos_on_page" : 43,
-    "language_bookname" : "Portuguese",
-    "concept" : "PULSEIRA_LIGA_DO",
+    "pos_on_page" : 26,
+    "language_bookname" : "Wapičána",
+    "concept" : "CORDÃO_DA_CIN_TURA",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "pulseira",
+                "string" : "ũ-radáu",
                 "start" : 0,
-                "end" : 8
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Wapičána",
                 "start" : 0,
-                "end" : 8
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "wap",
                 "start" : 0,
-                "end" : 8
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "liga do",
-                "start" : 10,
-                "end" : 17
+                "string" : "radawí˛i",
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 10,
-                "end" : 17
+                "string" : "Wapičána",
+                "start" : 11,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 10,
-                "end" : 17
+                "string" : "wap",
+                "start" : 11,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ũ-radáu, radawí˛i",
+                "start" : 0,
+                "end" : 20
             },
     ]
 })

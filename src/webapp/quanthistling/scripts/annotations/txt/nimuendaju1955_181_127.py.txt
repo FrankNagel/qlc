@@ -1,52 +1,52 @@
 
 manual_entries.append({
-    "fullentry" : "nariz, narinas",
-    "startpage" : 186,
-    "pos_on_page" : 117,
+    "fullentry" : "rede, puçá",
+    "startpage" : 181,
+    "pos_on_page" : 127,
     "language_bookname" : "Portuguese",
-    "concept" : "NARIZ_NARINAS",
+    "concept" : "REDE_PUÇÁ",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nariz",
+                "string" : "rede",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
                 "start" : 0,
-                "end" : 5
+                "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "narinas",
-                "start" : 7,
-                "end" : 14
+                "string" : "puçá",
+                "start" : 6,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
-                "start" : 7,
-                "end" : 14
+                "start" : 6,
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
-                "start" : 7,
-                "end" : 14
+                "start" : 6,
+                "end" : 12
             },
     ]
 })

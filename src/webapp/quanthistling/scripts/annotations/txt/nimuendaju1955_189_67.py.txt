@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "tio pat. e mat.",
+    "startpage" : 189,
+    "pos_on_page" : 67,
+    "language_bookname" : "Portuguese",
+    "concept" : "TIO_PAT_E_MAT",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tio paterno e materno",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 15
+            },
+    ]
+})

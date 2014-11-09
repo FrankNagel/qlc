@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "fuso: a roda",
+    "fullentry" : "ũ-sarám, saramái",
     "startpage" : 188,
-    "pos_on_page" : 9,
-    "language_bookname" : "Portuguese",
-    "concept" : "FUSO_A_RODA",
+    "pos_on_page" : 160,
+    "language_bookname" : "Wapičána",
+    "concept" : "RÊDE",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "fuso",
+                "string" : "ũ-sarám",
                 "start" : 0,
-                "end" : 4
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Wapičána",
                 "start" : 0,
-                "end" : 4
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "wap",
                 "start" : 0,
-                "end" : 4
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "a roda",
-                "start" : 6,
-                "end" : 12
+                "string" : "saramái",
+                "start" : 11,
+                "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 6,
-                "end" : 12
+                "string" : "Wapičána",
+                "start" : 11,
+                "end" : 19
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 6,
-                "end" : 12
+                "string" : "wap",
+                "start" : 11,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ũ-sarám, saramái",
+                "start" : 0,
+                "end" : 19
             },
     ]
 })

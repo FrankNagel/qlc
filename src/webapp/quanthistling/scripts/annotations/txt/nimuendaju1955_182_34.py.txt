@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "nariz, narinas",
-    "startpage" : 186,
-    "pos_on_page" : 117,
-    "language_bookname" : "Portuguese",
-    "concept" : "NARIZ_NARINAS",
+    "fullentry" : "u-mũ̥, ũré",
+    "startpage" : 182,
+    "pos_on_page" : 34,
+    "language_bookname" : "Makuší",
+    "concept" : "FILHO",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nariz",
+                "string" : "u-mũ̥",
                 "start" : 0,
-                "end" : 5
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Makuší",
                 "start" : 0,
-                "end" : 5
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "mbc",
                 "start" : 0,
-                "end" : 5
+                "end" : 6
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "narinas",
-                "start" : 7,
-                "end" : 14
+                "string" : "ũré",
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 7,
-                "end" : 14
+                "string" : "Makuší",
+                "start" : 8,
+                "end" : 13
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 7,
-                "end" : 14
+                "string" : "mbc",
+                "start" : 8,
+                "end" : 13
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "u-mũ̥, ũré",
+                "start" : 0,
+                "end" : 13
             },
     ]
 })

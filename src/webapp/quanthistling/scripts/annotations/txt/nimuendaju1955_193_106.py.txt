@@ -1,51 +1,58 @@
 
 manual_entries.append({
-    "fullentry" : "pulseira, liga do",
-    "startpage" : 189,
-    "pos_on_page" : 43,
-    "language_bookname" : "Portuguese",
-    "concept" : "PULSEIRA_LIGA_DO",
+    "fullentry" : "aúnawá, wunawá",
+    "startpage" : 193,
+    "pos_on_page" : 106,
+    "language_bookname" : "Ipurinã&#39;",
+    "concept" : "PLEIADE",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "pulseira",
+                "string" : "aúnawá",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Ipurinã&#39;",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "apu",
                 "start" : 0,
                 "end" : 8
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "liga do",
+                "string" : "wunawá",
                 "start" : 10,
                 "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Ipurinã&#39;",
                 "start" : 10,
                 "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "apu",
                 "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aúnawá, wunawá",
+                "start" : 0,
                 "end" : 17
             },
     ]

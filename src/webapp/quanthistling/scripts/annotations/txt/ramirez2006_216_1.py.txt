@@ -1,0 +1,246 @@
+
+manual_entries.append({
+    "fullentry" : "yú [empréstimo do tukano] ♦ 1. yú v. tr. esperar: àn yúh! esperame! yu ë̀’! espera ainda! b’òtan àn ni̵g yúh! vocês, esperam-me na roça! mèt ti̵h yet yúúy ele está esperando a cutia. am wi̵d ham të́ë́t mah ti̵h yúúh ele esperou que você chegasse. ◊ v. dep. (fazer algo) na espera: yã̀’, kayak-tìg sĩg’ yúh! mamãe, planta maniva na minha espera! sos yúh! capine na minha espera!",
+    "startpage" : 216,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yú",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. tr.",
+                "start" : 37,
+                "end" : 43
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 44,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 44,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esperar",
+                "start" : 44,
+                "end" : 51
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "àn yúh",
+                "start" : 53,
+                "end" : 62
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "esperame",
+                "start" : 63,
+                "end" : 72
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "yu ë̀’",
+                "start" : 73,
+                "end" : 81
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "espera ainda",
+                "start" : 82,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. dep.",
+                "start" : 269,
+                "end" : 276
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 277,
+                "end" : 299
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 277,
+                "end" : 299
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "fazer algo na espera",
+                "start" : 277,
+                "end" : 299
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yú",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1. yú",
+                "start" : 30,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 37,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "àn yúh!",
+                "start" : 53,
+                "end" : 62
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "esperame!",
+                "start" : 63,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yu ë̀’!",
+                "start" : 73,
+                "end" : 81
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "espera ainda!",
+                "start" : 82,
+                "end" : 95
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "b’òtan àn ni̵g yúh!",
+                "start" : 96,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vocês, esperam-me na roça!",
+                "start" : 119,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mèt ti̵h yet yúúy",
+                "start" : 148,
+                "end" : 168
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ele está esperando a cutia.",
+                "start" : 169,
+                "end" : 197
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "am wi̵d ham të́ë́t mah ti̵h yúúh",
+                "start" : 198,
+                "end" : 234
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ele esperou que você chegasse.",
+                "start" : 235,
+                "end" : 266
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. dep.",
+                "start" : 269,
+                "end" : 276
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yã̀’, kayak-tìg sĩg’ yúh!",
+                "start" : 301,
+                "end" : 330
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mamãe, planta maniva na minha espera!",
+                "start" : 331,
+                "end" : 369
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sos yúh!",
+                "start" : 370,
+                "end" : 379
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "capine na minha espera!",
+                "start" : 380,
+                "end" : 403
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 3,
+                "end" : 3
+            },
+    ]
+})

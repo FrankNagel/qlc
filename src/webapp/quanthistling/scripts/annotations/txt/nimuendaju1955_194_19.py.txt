@@ -1,15 +1,15 @@
 
 manual_entries.append({
-    "fullentry" : "nariz, narinas",
-    "startpage" : 186,
-    "pos_on_page" : 117,
+    "fullentry" : "filho, criança",
+    "startpage" : 194,
+    "pos_on_page" : 19,
     "language_bookname" : "Portuguese",
-    "concept" : "NARIZ_NARINAS",
+    "concept" : "FILHO_CRIANÇA",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nariz",
+                "string" : "filho",
                 "start" : 0,
                 "end" : 5
             },
@@ -30,23 +30,23 @@ manual_entries.append({
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "narinas",
+                "string" : "criança",
                 "start" : 7,
-                "end" : 14
+                "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
                 "start" : 7,
-                "end" : 14
+                "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
                 "start" : 7,
-                "end" : 14
+                "end" : 15
             },
     ]
 })

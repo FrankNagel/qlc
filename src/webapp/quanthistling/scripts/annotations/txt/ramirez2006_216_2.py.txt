@@ -1,0 +1,162 @@
+
+manual_entries.append({
+    "fullentry" : "♦ 2. mah yú, mayú v. tr. acompanhar: ti̵hán mah yúh! acompanha-o! ◊ v. dep. estar ocupado a (fazer algo): nút, i̵n tẽh tëg hṍ’ d’ähàn i̵d mah yúúy aqui, nosso filho está ocupado a conversar com os «brancos». i̵n s’om mì̵’, nút pem mah yúh! enquanto nós tomamos banho, espere-nos sentado aqui! bi̵’ mah yúup ĩh empregado. Yùán hõ̀p käk mah yúup ĩh, ã́hã́h eu sou pescador de João.",
+    "startpage" : 216,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mah yú",
+                "start" : 5,
+                "end" : 12
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 5,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "mayú",
+                "start" : 14,
+                "end" : 19
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. tr.",
+                "start" : 20,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "acompanhar",
+                "start" : 27,
+                "end" : 37
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2. mah yú, mayú",
+                "start" : 2,
+                "end" : 19
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 20,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ti̵hán mah yúh!",
+                "start" : 39,
+                "end" : 56
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "acompanha-o!",
+                "start" : 57,
+                "end" : 69
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. dep.",
+                "start" : 72,
+                "end" : 79
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "nút, i̵n tẽh tëg hṍ’ d’ähàn i̵d mah yúúy",
+                "start" : 110,
+                "end" : 159
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aqui, nosso filho está ocupado a conversar com os «brancos».",
+                "start" : 160,
+                "end" : 221
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "i̵n s’om mì̵’, nút pem mah yúh!",
+                "start" : 222,
+                "end" : 256
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "enquanto nós tomamos banho, espere-nos sentado aqui!",
+                "start" : 257,
+                "end" : 310
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bi̵’ mah yúup ĩh",
+                "start" : 311,
+                "end" : 329
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "empregado.",
+                "start" : 330,
+                "end" : 340
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "Yùán hõ̀p käk mah yúup ĩh, ã́hã́h",
+                "start" : 341,
+                "end" : 382
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "eu sou pescador de João.",
+                "start" : 383,
+                "end" : 408
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "nariz, narinas",
+    "fullentry" : "ũ-dákụ, daku̥&#39;i",
     "startpage" : 186,
-    "pos_on_page" : 117,
-    "language_bookname" : "Portuguese",
-    "concept" : "NARIZ_NARINAS",
+    "pos_on_page" : 6,
+    "language_bookname" : "Wapičána",
+    "concept" : "BOCCA_LABIO",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nariz",
+                "string" : "ũ-dákụ",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Wapičána",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "wap",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "narinas",
-                "start" : 7,
-                "end" : 14
+                "string" : "daku̥&#39;i",
+                "start" : 11,
+                "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 7,
-                "end" : 14
+                "string" : "Wapičána",
+                "start" : 11,
+                "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 7,
-                "end" : 14
+                "string" : "wap",
+                "start" : 11,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ũ-dákụ, daku̥&#39;i",
+                "start" : 0,
+                "end" : 18
             },
     ]
 })

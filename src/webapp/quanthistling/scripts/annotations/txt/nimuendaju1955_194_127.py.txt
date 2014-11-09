@@ -1,0 +1,31 @@
+
+manual_entries.append({
+    "fullentry" : "veneno da fl.",
+    "startpage" : 194,
+    "pos_on_page" : 127,
+    "language_bookname" : "Portuguese",
+    "concept" : "VENENO_DA_FL",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "veneno da flecha",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "por",
+                "start" : 0,
+                "end" : 13
+            },
+    ]
+})

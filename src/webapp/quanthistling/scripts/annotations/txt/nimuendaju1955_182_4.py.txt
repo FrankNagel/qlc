@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "yũ; papá (diz a criança)",
+    "startpage" : 182,
+    "pos_on_page" : 4,
+    "language_bookname" : "Makuší",
+    "concept" : "PAE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "yũ",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 0,
+                "end" : 3
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "papá ",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "Makuší",
+                "start" : 5,
+                "end" : 27
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "yũ; papá (diz a criança)",
+                "start" : 0,
+                "end" : 27
+            },
+    ]
+})

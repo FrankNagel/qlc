@@ -1,0 +1,80 @@
+
+manual_entries.append({
+    "fullentry" : "worayó, atorọró, areketõ",
+    "startpage" : 182,
+    "pos_on_page" : 136,
+    "language_bookname" : "Makuší",
+    "concept" : "HOMEM",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "worayó",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "atorọró",
+                "start" : 9,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 9,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 9,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "areketõ",
+                "start" : 20,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 20,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 20,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "worayó, atorọró, areketõ",
+                "start" : 0,
+                "end" : 28
+            },
+    ]
+})

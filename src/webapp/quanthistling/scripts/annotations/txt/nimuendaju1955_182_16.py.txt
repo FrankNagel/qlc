@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "wanę̄&#39;; mamá (diz a criança)",
+    "startpage" : 182,
+    "pos_on_page" : 16,
+    "language_bookname" : "Makuší",
+    "concept" : "MÃE",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "wanę̄&#39;",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mamá ",
+                "start" : 9,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 9,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 9,
+                "end" : 31
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wanę̄&#39;; mamá (diz a criança)",
+                "start" : 0,
+                "end" : 31
+            },
+    ]
+})

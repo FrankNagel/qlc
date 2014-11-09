@@ -1,0 +1,59 @@
+
+manual_entries.append({
+    "fullentry" : "tuku̥&#39;i, muruwá",
+    "startpage" : 182,
+    "pos_on_page" : 106,
+    "language_bookname" : "Makuší",
+    "concept" : "CANTIGAS_DE_DANÇA_C_TABOCA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "tuku̥&#39;i",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "muruwá",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Makuší",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "mbc",
+                "start" : 9,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tuku̥&#39;i, muruwá",
+                "start" : 0,
+                "end" : 16
+            },
+    ]
+})

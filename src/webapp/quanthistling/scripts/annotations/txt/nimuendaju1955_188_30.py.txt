@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "fuso: a roda",
+    "fullentry" : "ũ-saí˛̆run, sáitu",
     "startpage" : 188,
-    "pos_on_page" : 9,
-    "language_bookname" : "Portuguese",
-    "concept" : "FUSO_A_RODA",
+    "pos_on_page" : 30,
+    "language_bookname" : "Wapičána",
+    "concept" : "TARAFA",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "fuso",
+                "string" : "ũ-saí˛̆run",
                 "start" : 0,
-                "end" : 4
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Wapičána",
                 "start" : 0,
-                "end" : 4
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "wap",
                 "start" : 0,
-                "end" : 4
+                "end" : 12
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "a roda",
-                "start" : 6,
-                "end" : 12
+                "string" : "sáitu",
+                "start" : 14,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 6,
-                "end" : 12
+                "string" : "Wapičána",
+                "start" : 14,
+                "end" : 20
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 6,
-                "end" : 12
+                "string" : "wap",
+                "start" : 14,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ũ-saí˛̆run, sáitu",
+                "start" : 0,
+                "end" : 20
             },
     ]
 })

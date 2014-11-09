@@ -1,52 +1,73 @@
 
 manual_entries.append({
-    "fullentry" : "caba grande, preta",
-    "startpage" : 184,
-    "pos_on_page" : 35,
+    "fullentry" : "chapéu, cangatara, diadema",
+    "startpage" : 189,
+    "pos_on_page" : 51,
     "language_bookname" : "Portuguese",
-    "concept" : "CABA_GRANDE_PRETA",
+    "concept" : "CHAPÉU_CANGATARA_DIADEMA",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "caba grande",
+                "string" : "chapéu",
                 "start" : 0,
-                "end" : 11
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
                 "start" : 0,
-                "end" : 11
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
                 "start" : 0,
-                "end" : 11
+                "end" : 7
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "preta",
-                "start" : 13,
+                "string" : "cangatara",
+                "start" : 9,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
-                "start" : 13,
+                "start" : 9,
                 "end" : 18
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
-                "start" : 13,
+                "start" : 9,
                 "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "diadema",
+                "start" : 20,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Portuguese",
+                "start" : 20,
+                "end" : 27
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 20,
+                "end" : 27
             },
     ]
 })

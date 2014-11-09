@@ -1,52 +1,66 @@
 
 manual_entries.append({
-    "fullentry" : "alto, comprido",
-    "startpage" : 196,
-    "pos_on_page" : 37,
-    "language_bookname" : "Portuguese",
-    "concept" : "ALTO_COMPRIDO",
+    "fullentry" : "wuri, wurišaṅ (pl.)",
+    "startpage" : 182,
+    "pos_on_page" : 78,
+    "language_bookname" : "Makuší",
+    "concept" : "MULHER",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "alto",
+                "string" : "wuri",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Makuší",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "mbc",
                 "start" : 0,
                 "end" : 4
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "comprido",
+                "string" : "wurišaṅ",
                 "start" : 6,
-                "end" : 14
+                "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Makuší",
                 "start" : 6,
-                "end" : 14
+                "end" : 15
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "mbc",
                 "start" : 6,
-                "end" : 14
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "pl.",
+                "start" : 16,
+                "end" : 21
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "wuri, wurišaṅ",
+                "start" : 0,
+                "end" : 16
             },
     ]
 })

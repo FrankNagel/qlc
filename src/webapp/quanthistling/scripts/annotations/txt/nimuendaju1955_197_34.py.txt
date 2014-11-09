@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "mun@(ũ)",
+    "startpage" : 197,
+    "pos_on_page" : 34,
+    "language_bookname" : "Kapišanã&#39;",
+    "concept" : "ROÇA",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "mun@ũ",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Kapišanã&#39;",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "kxo",
+                "start" : 0,
+                "end" : 15
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mun@(ũ)",
+                "start" : 0,
+                "end" : 8
+            },
+    ]
+})

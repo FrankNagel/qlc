@@ -1,0 +1,38 @@
+
+manual_entries.append({
+    "fullentry" : "eĩwí˛r (tįrnálenau)",
+    "startpage" : 189,
+    "pos_on_page" : 30,
+    "language_bookname" : "Wapičána",
+    "concept" : "IRMÃO_MAIOR",
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "counterpart",
+                "string" : "eĩwí˛r tįrnálenau",
+                "start" : 0,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Wapičána",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso639-3",
+                "string" : "wap",
+                "start" : 0,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "eĩwí˛r (tįrnálenau)",
+                "start" : 0,
+                "end" : 23
+            },
+    ]
+})

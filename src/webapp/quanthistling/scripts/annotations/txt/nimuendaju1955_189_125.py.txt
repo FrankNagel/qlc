@@ -1,52 +1,52 @@
 
 manual_entries.append({
-    "fullentry" : "nariz, narinas",
-    "startpage" : 186,
-    "pos_on_page" : 117,
+    "fullentry" : "Christão, Branco",
+    "startpage" : 189,
+    "pos_on_page" : 125,
     "language_bookname" : "Portuguese",
-    "concept" : "NARIZ_NARINAS",
+    "concept" : "CHRISTÃO_BRANCO",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "nariz",
+                "string" : "Christão",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "narinas",
-                "start" : 7,
-                "end" : 14
+                "string" : "Branco",
+                "start" : 11,
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
                 "string" : "Portuguese",
-                "start" : 7,
-                "end" : 14
+                "start" : 11,
+                "end" : 17
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
                 "string" : "por",
-                "start" : 7,
-                "end" : 14
+                "start" : 11,
+                "end" : 17
             },
     ]
 })

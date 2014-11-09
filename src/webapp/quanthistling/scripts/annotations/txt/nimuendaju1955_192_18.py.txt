@@ -1,52 +1,59 @@
 
 manual_entries.append({
-    "fullentry" : "leva! traga!",
+    "fullentry" : "pį atu̥p, pị at@ápa",
     "startpage" : 192,
-    "pos_on_page" : 111,
-    "language_bookname" : "Portuguese",
-    "concept" : "LEVA_TRAGA",
+    "pos_on_page" : 18,
+    "language_bookname" : "Wapičána",
+    "concept" : "COMA",
     "annotations" : [
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "leva",
+                "string" : "pį atu̥p",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
+                "string" : "Wapičána",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
+                "string" : "wap",
                 "start" : 0,
-                "end" : 5
+                "end" : 9
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "counterpart",
-                "string" : "traga",
-                "start" : 6,
-                "end" : 12
+                "string" : "pị at@ápa",
+                "start" : 11,
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "doculect",
-                "string" : "Portuguese",
-                "start" : 6,
-                "end" : 12
+                "string" : "Wapičána",
+                "start" : 11,
+                "end" : 22
             },
             {
                 "type" : "dictinterpretation",
                 "value" : "iso-639-3",
-                "string" : "por",
-                "start" : 6,
-                "end" : 12
+                "string" : "wap",
+                "start" : 11,
+                "end" : 22
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "pį atu̥p, pị at@ápa",
+                "start" : 0,
+                "end" : 22
             },
     ]
 })
