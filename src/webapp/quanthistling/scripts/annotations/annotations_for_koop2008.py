@@ -52,11 +52,17 @@ def annotate_head(entry):
     # Delete this code and insert your code
     head = None
     heads = []
-    
-    head_end = functions.get_last_bold_pos_at_start(entry)
-    
-    head = _insert_head(entry, 0, head_end)
-    heads.append(head)
+    newlines = functions.get_list_ranges_for_annotation(entry, 'newline')
+    if newlines:
+        line_end = newlines[0][0]
+    else:
+        line_end = len(entry.fullentry)
+    bold = [b for b in functions.get_list_bold_ranges(entry) if b[1] <= line_end]
+
+    for b in bold:
+        head = _insert_head(entry, *b)
+        if head:
+            heads.append(head)
 
     return heads
 
@@ -65,6 +71,10 @@ def _insert_translation_1(entry, start, end):
     match_bracket = re.match(r" ?\([^)]*\) ?", entry.fullentry[start:end])
     if match_bracket:
         start += match_bracket.end(0)
+
+    prefix = re.compile('\s*[^\W\d_]*\. ').match(entry.fullentry, start, end)
+    if prefix and prefix.group().lower().strip() in ['anat.', 'bot.', 'med.']:
+        start = prefix.end()
 
     match = re.search(r"[\.!\?] \([^)]*\)$", entry.fullentry[start:end])
     if match:
