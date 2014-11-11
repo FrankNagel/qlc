@@ -74,7 +74,11 @@ def annotate_translation(entry):
     if len(newlines) > 0:
         trans_end = newlines[0][0]
 
-    functions.insert_translation(entry, trans_start, trans_end)
+    brackets = functions.find_brackets(entry)
+    brackets.extend(functions.find_brackets(entry, '[', ']'))
+    brackets.sort()
+    for t_start, t_end in functions.split_entry_at(entry, '[;,] |$', trans_start, trans_end, False, brackets):
+        functions.insert_translation(entry, t_start, t_end)
 
 
 def main(argv):
