@@ -20,16 +20,22 @@ import functions
 
 def _split_translations(entry, s, e):
     #ignoring brackets at the end of the translation
-    trans = entry.fullentry[s:]
-    bracket_at_end = re.search(r'\(.*\)$', trans)
-    if bracket_at_end:
-        e = s + bracket_at_end.start(0)
+    trans = entry.fullentry[s:e]
+    at_end = re.search(r' V\. |\(.*\)$', trans)
+    if at_end:
+        e = s + at_end.start(0)
 
-    start = s
-    for match_comma in re.finditer(r'(?:; ?|$)', entry.fullentry[s:e]):
-        end = s + match_comma.start(0)
-        functions.insert_translation(entry, start, end)
-        start = s + match_comma.end(0)
+    for t_start, t_end in functions.split_entry_at(entry, '[,;?] |$', s, e):
+#        t_start, t_end, _ = functions.remove_parts(entry, t_start, t_end)
+#        t_start, t_end = functions.strip(entry, t_start, t_end, u'
+        
+        functions.insert_translation(entry, t_start, t_end)
+
+    ## start = s
+    ## for match_comma in re.finditer(r'(?:; ?|$)', entry.fullentry[s:e]):
+    ##     end = s + match_comma.start(0)
+    ##     functions.insert_translation(entry, start, end)
+    ##     start = s + match_comma.end(0)
 
 
 def annotate_head(entry):
