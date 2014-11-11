@@ -23,90 +23,102 @@ from paste.deploy import appconfig
 import functions
 
 def insert_head(entry, start, end):
-    str_head = entry.fullentry[start:end]
-    if str_head.startswith(" "):
-        start += 1
-    if str_head.endswith(" "):
+    start, end = functions.strip(entry, start, end)
+    while start < end and entry.fullentry[end-1].isdigit():
         end -= 1
 
-    str_head = entry.fullentry[start:end]
-    if str_head.startswith("-"):
+    if entry.fullentry[start] == "-":
         entry.append_annotation(start, start+1, u'boundary', u'dictinterpretation', u"morpheme boundary")
         start += 1
-    if str_head.endswith("-"):
+    if entry.fullentry[end-1] == "-":
         entry.append_annotation(end-1, end, u'boundary', u'dictinterpretation', u"morpheme boundary")
         end -= 1
 
     return functions.insert_head(entry, start, end)
 
 
-def annotate_head(entry):
-    # delete head annotations
-    head_annotations = [ a for a in entry.annotations if a.value=='head' or a.value=="iso-639-3" or a.value=="doculect"]
-    for a in head_annotations:
-        Session.delete(a)
-        
-    # Delete this code and insert your code
+def annotate_head(entry, start, end):
     head = None
     heads = []
     
-    head_end = functions.get_last_bold_pos_at_start(entry)
-    
-    head = insert_head(entry, 0, head_end) 
-    heads.append(head)
+    bold = functions.get_first_bold_in_range(entry, start, end)
+    if bold != -1 and bold[0] - 2 < start:
+        head = insert_head(entry, *bold)
+        if head:
+            heads.append(head)
+        head_end = bold[1]
+    else:
+        head_end = start
+    return heads, head_end
 
+
+def annotate_pos(entry, start, end):
+    while True:
+        italic = functions.get_first_italic_in_range(entry, start, end)
+        if italic != -1 and italic[0] - 2 < start:
+            for p_start, p_end in functions.split_entry_at(entry, '/|$', italic[0], italic[1], False,
+                                                           lambda x,y: False):
+                p_start, p_end = functions.strip(entry, p_start, p_end, ' ', '. ')
+                if p_start < p_end:
+                    entry.append_annotation(p_start, p_end, u'pos', u'dictinterpretation',
+                                            entry.fullentry[p_start:p_end])
+            start = skip_brackets(entry, italic[1], end)
+        else:
+            break
+    return start
+
+def annotate_translations(entry, start, end):
+    start = skip_brackets(entry, start, end)
+    match_last_pos = re.compile("/[^.]*\.").match(entry.fullentry, start, end)
+    if match_last_pos:
+        start = match_last_pos.end(0)
+    
+    brackets = functions.find_brackets(entry, '[', ']')
+    brackets.extend(functions.find_brackets(entry, '(', ')'))
+    brackets.sort()
+    in_brackets = functions.get_in_brackets_func(entry, brackets)
+    for num_start, num_end in functions.split_entry_at(entry, '\d\. |$', start, end, True, in_brackets):
+        num_end = re.compile('[.:] |$').search(entry.fullentry, num_start, num_end).start()
+        for t_start, t_end in functions.split_entry_at(entry, '[,;!?][ (]|$', num_start, num_end, False, in_brackets):
+            functions.insert_translation(entry, t_start, t_end)
+
+def skip_brackets(entry, start, end):
+    efe = entry.fullentry
+    brackets = functions.find_brackets(entry)
+    while start < end:
+        while efe[start].isspace():
+            start += 1
+        if efe[start] != '(' or start == end:
+            break
+        try:
+            start = next(b[1] for b in brackets if b[0] == start)
+            if start < end and efe[start] == '.':
+                start += 1
+        except StopIteration:
+            print brackets, start
+            functions.print_error_in_entry(entry, "Problem finding matching brackets.")
+            return end
+    return start
+
+def annotate_first_line(entry, start, end):
+    head_annotations = [ a for a in entry.annotations if a.value in
+                         ['head', "iso-639-3", "doculect", 'boundary', 'pos', 'translation']]
+    for a in head_annotations:
+        Session.delete(a)
+
+    heads, start = annotate_head(entry, start, end)
+    start = annotate_pos(entry, start, end)
+    annotate_translations(entry, start, end)
     return heads
 
+def annotate_secondary_line(entry, start, end):
+    start = skip_brackets(entry, start, end)
+    heads, start = annotate_head(entry, start, end)
+    start = annotate_pos(entry, start, end)
+    annotate_translations(entry, start, end)
+    return heads
 
-def annotate_pos(entry):
-    # delete translation annotations
-    pos_annotations = [ a for a in entry.annotations if a.value=='pos']
-    for a in pos_annotations:
-        Session.delete(a)
-
-    head_end = functions.get_head_end(entry)
-    italic = functions.get_first_italic_in_range(entry, 0, len(entry.fullentry))
-    if italic != -1 and (italic[0]-2) < head_end:
-        pos = entry.fullentry[italic[0]:italic[1]]
-        pos = re.sub("\. ?$", "", pos)
-        entry.append_annotation(italic[0], italic[1], u'pos', u'dictinterpretation', pos)
-
-
-def annotate_translations(entry):
-    # delete translation annotations
-    trans_annotations = [ a for a in entry.annotations if a.value=='translation']
-    for a in trans_annotations:
-        Session.delete(a)
-
-    translation_start = functions.get_pos_or_head_end(entry)
-    match_bracket = re.match("\.? ?\([^)]*\)\.? ?", entry.fullentry[translation_start:])
-    if match_bracket:
-        translation_start += match_bracket.end(0)
-
-    if translation_start >= len(entry.fullentry):
-        return
-
-    if re.search("\d\. ", entry.fullentry[translation_start:]):
-        for match_number in re.finditer("\d\. ", entry.fullentry[translation_start:]):
-            start = translation_start + match_number.end(0)
-            match_translation = re.match("([^\.:]*)[\.:]", entry.fullentry[start:])
-            end = len(entry.fullentry)
-            if match_translation:
-                end = start + match_translation.end(1)
-            for s, e in functions.split_entry_at(entry, r"(?:[;,] |$)", start, end):
-                translation = entry.fullentry[s:e]
-                functions.insert_translation(entry, s, e, translation.lower())
-    else:
-        match_translation = re.match("([^\.:]*)[\.:]", entry.fullentry[translation_start:])
-        end = len(entry.fullentry)
-        if match_translation:
-            end = translation_start + match_translation.end(1)
-        for s, e in functions.split_entry_at(entry, r"(?:[;,] |$)", translation_start, end):
-            translation = entry.fullentry[s:e]
-            functions.insert_translation(entry, s, e, translation.lower())
- 
 def main(argv):
-
     bibtex_key = u"dooley2006"
     
     if len(argv) < 2:
@@ -133,13 +145,23 @@ def main(argv):
         startletters = set()
     
         for e in entries:
-            heads = annotate_head(e)
+            #split on newline, but ignore newline at pagebreak
+            pagebreaks = [b[0] for b in functions.get_list_ranges_for_annotation(e, 'pagebreak')]
+            newlines = [n[0] for n in functions.get_list_ranges_for_annotation(e, 'newline')
+                        if not [ b for b in pagebreaks if abs(n[0] - b) < 3 ]]
+            lines = []
+            n = last = 0
+            for n in newlines:
+                lines.append((last, n))
+                last = n
+            lines.append((n, len(e.fullentry)))
+            heads = annotate_first_line(e, *lines.pop(0))
+            for l in lines:
+                heads.extend(annotate_secondary_line(e, *l))
             if not e.is_subentry:
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            annotate_pos(e)
-            annotate_translations(e)
         
         dictdata.startletters = unicode(repr(sorted(list(startletters))))
 
