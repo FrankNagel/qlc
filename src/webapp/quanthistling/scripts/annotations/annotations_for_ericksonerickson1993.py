@@ -52,32 +52,27 @@ def annotate_translations(entry):
 
     bolds = functions.get_list_ranges_for_annotation(entry, 'bold',
                                                      start=head_end)
+    iso_doculect = dict(Esp=('spa', u'Español'), Port=('por', 'Português'))
     if len(bolds) < 2:
         functions.print_error_in_entry(entry, 'less than two translations')
     elif len(bolds) > 2:
         functions.print_error_in_entry(entry, 'more than two translations.'
                                               ' Only "Esp." and "Port." were annotated')
-    else:
-        for i, bold in enumerate(bolds):
-            trans_start = bold[1]
-            try:
-                trans_end = bolds[i + 1][0]
-            except IndexError:
-                trans_end = len(entry.fullentry)
+    for i, bold in enumerate(bolds):
+        trans_start = bold[1]
+        try:
+            trans_end = bolds[i + 1][0]
+        except IndexError:
+            trans_end = len(entry.fullentry)
 
-            bold_face = entry.fullentry[bold[0]:bold[1]]
-
-            if re.match(r'\s*Esp\.', bold_face):
-                functions.insert_translation(entry, trans_start, trans_end,
-                                             lang_iso='spa',
-                                             lang_doculect='Español')
-            elif re.match(r'\s*Port\.', bold_face):
-                functions.insert_translation(entry, trans_start, trans_end,
-                                             lang_iso='por',
-                                             lang_doculect='Português')
-            else:
-                functions.print_error_in_entry(entry, 'unknown translation')
-            trans_start = bold[1]
+        bold_face = entry.fullentry[bold[0]:bold[1]]
+        match = re.match(r'\s*(Esp|Port)\.', bold_face)
+        if match:
+            for t_start, t_end in functions.split_entry_at(entry, r';|$', trans_start, trans_end):
+                functions.insert_translation(entry, t_start, t_end, None, *iso_doculect[match.group(1)])
+        else:
+            functions.print_error_in_entry(entry, 'unknown translation')
+        trans_start = bold[1]
 
 
 def main(argv):
