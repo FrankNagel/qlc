@@ -26,9 +26,10 @@ def annotate_head(entry):
     head_end = functions.get_last_bold_pos_at_start(entry)
     head_start = functions.lstrip(entry, 0, head_end, '-')
 
-    head = functions.insert_head(entry, head_start, head_end)
-    if head:
-        heads.append(head)
+    for h_start, h_end in functions.split_entry_at(entry, r', |$', head_start, head_end):
+        head = functions.insert_head(entry, h_start, h_end)
+        if head:
+            heads.append(head)
     match = garbage.match(entry.fullentry, head_end)
     if match:
         head_end = match.end()
