@@ -4,138 +4,116 @@ import sys, os
 sys.path.append(os.path.abspath('.'))
 
 import re
+import collections
 
 # Pylons model init sequence
 import pylons.test
+from paste.deploy import appconfig
 
 from quanthistling.config.environment import load_environment
 from quanthistling.model.meta import Session, metadata
 from quanthistling import model
-
-from paste.deploy import appconfig
-
 import functions
 
 
-def _handle_translation(entry, s, e):
-    #ignoring brackets at the end of the translation
-    trans = entry.fullentry[s:e]
-    bracket_at_end = re.search(r'\(.*\)\s*$', trans)
-    if bracket_at_end:
-        e = s + bracket_at_end.start(0)
-
-    functions.insert_translation(entry, s, e)
-
+#sometimes the head is followed by someting in round or square brackets
+#sometimes also in front of translations before pos
+garbage = re.compile(r'\s*(\[[^]]*\]|\([^)]*\))\s*')
 
 def annotate_head(entry):
-    # delete head annotations
-    head_annotations = [a for a in entry.annotations if a.value == 'head' or
-                         a.value == 'iso-639-3' or a.value == 'doculect']
-    for a in head_annotations:
-        Session.delete(a)
-
-    head = None
     heads = []
-    
-    head_end = functions.get_last_bold_pos_at_start(entry)
 
-    head_start = 0
-    offset = 0
-    ignore_this = [u'-']
-    for c in entry.fullentry[:head_end]:
-        if c in ignore_this:
-            offset += 1
-        else:
-            break
-    head_start += offset
+    head_end = functions.get_last_bold_pos_at_start(entry)
+    head_start = functions.lstrip(entry, 0, head_end, '-')
 
     head = functions.insert_head(entry, head_start, head_end)
-
-    heads.append(head)
-
-    return heads
-
-
-def annotate_pos(entry):
-    # delete pos annotations
-    trans_annotations = [a for a in entry.annotations if a.value == 'pos']
-    for a in trans_annotations:
-        Session.delete(a)
-
-    italics = functions.get_list_italic_ranges(entry)
-    for italic in italics:
-        italic_string = entry.fullentry[italic[0]:italic[1]]
-        if re.match(r'\w+\.', italic_string) and italic_string != 'ej.':
-            entry.append_annotation(italic[0], italic[1], u'pos',
-                                u'dictinterpretation')
+    if head:
+        heads.append(head)
+    match = garbage.match(entry.fullentry, head_end)
+    if match:
+        head_end = match.end()
+    return heads, head_end
 
 
-def annotate_translations(entry):
-    # delete translation annotations
-    trans_annotations = [a for a in entry.annotations if a.value == 'translation']
-    for a in trans_annotations:
-        Session.delete(a)
+def annotate_pos(entry, start, end):
+    italics = [i for i in functions.get_list_italic_ranges(entry) if i[0] >= start and i[1] <= end]
+    if not italics or italics[0][0] - start > 1:
+        return start
+    italics = italics[0]
+    if entry.fullentry[italics[0]:italics[1]].strip() == 'ej.':
+        return end
+    entry.append_annotation(italics[0], italics[1], u'pos', u'dictinterpretation')
+    return italics[1]
 
-    poses = functions.get_list_ranges_for_annotation(entry, 'pos')
+def relevant_newlines(entry):
+    """Ignore newlines followed by two tabs, which indicates a continued line
+    """
+    newlines = [n[0] for n in functions.get_list_ranges_for_annotation(entry, 'newline')]
+    tabs = [n.start for n in entry.annotations if n.value == 'tab']
+    counter = collections.Counter(tabs)
+    return [n for n in newlines if counter[n+1] == 1]
 
-    for i, pos in enumerate(poses):
-        trans_start = pos[1]
-        try:
-            trans_end = poses[i+1][0]
-        except IndexError:
-            trans_end = len(entry.fullentry)
+def annotate_translations(entry, start, end):
+    newlines = relevant_newlines(entry)
+    brackets = [n[0] for n in functions.find_brackets(entry) if n[0] >= start and n[0] <= end]
+    for num_start, num_end in functions.split_entry_at(entry, r'\d\. |$', start, end):
+        #skip parts in round brackets
+        match = garbage.match(entry.fullentry, num_start, num_end)
+        if match:
+            num_start = match.end()
+        #sometimes there is a pos after the number
+        num_start = annotate_pos(entry, num_start, num_end)
+        num_end = next((n for n in newlines if n > num_start and n < num_end), num_end)
+        num_end = next((n for n in brackets if n > num_start and n < num_end), num_end)
+        for t_start, t_end in functions.split_entry_at(entry, r';|$', num_start, num_end):
+            functions.insert_translation(entry, t_start, t_end)
 
-        if re.search("\d\. ", entry.fullentry[trans_start:trans_end]):
-            for match in re.finditer("(?<=\d\.)(.*?)(?=\d\.|ej\.|$)", entry.fullentry[trans_start:trans_end]):
-                start = trans_start + match.start(1)
-                end = trans_start + match.end(0)
-                _handle_translation(entry, start, end)
-        else:
-            example = entry.fullentry[trans_start:trans_end].find('ej.')
-            if example != -1:
-                trans_end = trans_start + example
-            _handle_translation(entry, trans_start, trans_end)
+
+def delete_dictinterpretation(entry):
+    for a in entry.annotations:
+        if a.annotationtype.type == 'dictinterpretation':
+            Session.delete(a)
 
 
 def main(argv):
-
     bibtex_key = u'headland1997'
-    
+
     if len(argv) < 2:
         print 'call: annotations_for%s.py ini_file' % bibtex_key
         exit(1)
 
-    ini_file = argv[1]    
+    ini_file = argv[1]
     conf = appconfig('config:' + ini_file, relative_to='.')
     if not pylons.test.pylonsapp:
         load_environment(conf.global_conf, conf.local_conf)
-    
+
     # Create the tables if they don't already exist
     metadata.create_all(bind=Session.bind)
 
-    dictdatas = Session.query(model.Dictdata).join(
-        (model.Book, model.Dictdata.book_id==model.Book.id)
-        ).filter(model.Book.bibtex_key==bibtex_key).all()
+    dictdatas = Session.query(model.Dictdata)\
+      .join(model.Book, model.Dictdata.book_id == model.Book.id)\
+      .filter(model.Book.bibtex_key == bibtex_key).all()
+
 
     for dictdata in dictdatas:
-
         entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id).all()
         # entries = Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=216,pos_on_page=16).all()
         # entries.extend(Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=62,pos_on_page=7).all())
         # entries.extend(Session.query(model.Entry).filter_by(dictdata_id=dictdata.id,startpage=61,pos_on_page=1).all())
 
         startletters = set()
-    
+
         for e in entries:
-            heads = annotate_head(e)
+            delete_dictinterpretation(e)
+            heads, start = annotate_head(e)
+            start = annotate_pos(e, start, len(e.fullentry))
+            annotate_translations(e, start, len(e.fullentry))
             if not e.is_subentry:
                 for h in heads:
                     if len(h) > 0:
                         startletters.add(h[0].lower())
-            annotate_pos(e)
-            annotate_translations(e)
-        
-        dictdata.startletters = unicode(repr(sorted(list(startletters))))
+
+        dictdata.startletters = unicode(repr(sorted(startletters)))
 
         Session.commit()
 
