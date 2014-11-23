@@ -1,0 +1,512 @@
+
+manual_entries.append({
+    "fullentry" : "1hĩ̵́p? interrogativo seletivo («qual»): hĩ̵́p moy? qual casa? hĩ̵́p du moyót ã́h du të́g? qual casa de comércio vou comprar? hĩ̵́p ãyàn ã́h ton të́g? com qual mulher vou casar? hĩ̵́p ĩh yúu’? qual homem é? hĩ̵’ d’ä́h wi̵d néne’? quais pessoas chegaram? hĩ̵́wàn ám túku’? qual (coisa) queres? hĩ̵’ ni̵hí̵t? com quê? hĩ̵́t sö́’ ám ham të́g? aonde você vai? hĩ̵’ ní? de que tamanho é? hĩ̵’ ni yú? de que tamanho era? hĩ̵́’ ní mòy yú? de que tamanho é a casa? ◊ hi̵n’ì̵h? quê?: hi̵n’ì̵h ám túku’? que você quer? hi̵n’ì̵h ám bí̵’í̵? que você está fazendo? hi̵n’ì̵h ám bi̵’ ë̀’? que você estava fazendo? ◊ hĩ̵́...ní̵h?, hĩ̵p yí̵’...ní̵h? como?: hĩ̵́ bi̵’ ní̵hí̵y ám? como você fez? hĩ̵́ b’ay ni̵h të́g í̵n? como vamos voltar? hĩ̵́ bahad ní̵hí̵y tí̵h? como se parece? hĩ̵’ ní̵hí̵y tí̵h? como ele está? ◊ hĩ̵́ këy ní̵hi̵p qualquer tipo: hĩ̵́ këy ní̵hi̵p hõpán ám méhe’? que tipo de peixe você matou? hĩ̵́ këy ní̵hi̵p ĩhán ã́h kë́yë́t ã́h meh të́ë́t vou matar qualquer pessoa que eu vir. ◊ hĩ̵́t? onde?: hĩ̵́t ám bí̵’i̵’? onde você trabalha? hĩ̵kán ám háma’? aonde você vai? hĩ̵́t ám néne’? donde você vem? ◊ hĩ̵p m’é? quando?: hĩ̵p m’é ám ham të́g? quando você vai? hĩ̵p m’é ám pë’ë̀’? quando você estava doente? ◊ hĩ̵́’ àp? quantos?: hĩ̵́’ àp hõp kä̀k ám túku’? quantos anzóis você quer? hĩ̵́’ àp d’äh háma’? quantos foram? hĩ̵́’ àp mèy? quantas vezes? V. yö́’.",
+    "startpage" : 79,
+    "pos_on_page" : 8,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hĩ̵́p",
+                "start" : 1,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 9,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 9,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "interrogativo seletivo («qual»)",
+                "start" : 9,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1hĩ̵́p?",
+                "start" : 0,
+                "end" : 8
+            },
+            {
+                "type" : "formatting",
+                "value" : "superscript",
+                "string" : "1",
+                "start" : 0,
+                "end" : 1
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́p moy?",
+                "start" : 42,
+                "end" : 53
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "qual casa?",
+                "start" : 54,
+                "end" : 64
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́p du moyót ã́h du të́g?",
+                "start" : 65,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "qual casa de comércio vou comprar?",
+                "start" : 97,
+                "end" : 132
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́p ãyàn ã́h ton të́g?",
+                "start" : 133,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "com qual mulher vou casar?",
+                "start" : 163,
+                "end" : 189
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́p ĩh yúu’?",
+                "start" : 190,
+                "end" : 207
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "qual homem é?",
+                "start" : 208,
+                "end" : 222
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵’ d’ä́h wi̵d néne’?",
+                "start" : 223,
+                "end" : 248
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quais pessoas chegaram?",
+                "start" : 249,
+                "end" : 272
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́wàn ám túku’?",
+                "start" : 273,
+                "end" : 294
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "qual (coisa) queres?",
+                "start" : 295,
+                "end" : 315
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵’ ni̵hí̵t?",
+                "start" : 316,
+                "end" : 331
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "com quê?",
+                "start" : 332,
+                "end" : 341
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́t sö́’ ám ham të́g?",
+                "start" : 342,
+                "end" : 369
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aonde você vai?",
+                "start" : 370,
+                "end" : 386
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵’ ní?",
+                "start" : 387,
+                "end" : 397
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "de que tamanho é?",
+                "start" : 398,
+                "end" : 416
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵’ ni yú?",
+                "start" : 417,
+                "end" : 430
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "de que tamanho era?",
+                "start" : 431,
+                "end" : 450
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́’ ní mòy yú?",
+                "start" : 451,
+                "end" : 471
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "de que tamanho é a casa?",
+                "start" : 472,
+                "end" : 497
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hi̵n’ì̵h?",
+                "start" : 500,
+                "end" : 510
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hi̵n’ì̵h ám túku’?",
+                "start" : 518,
+                "end" : 539
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "que você quer?",
+                "start" : 540,
+                "end" : 555
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hi̵n’ì̵h ám bí̵’í̵?",
+                "start" : 556,
+                "end" : 579
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "que você está fazendo?",
+                "start" : 580,
+                "end" : 604
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hi̵n’ì̵h ám bi̵’ ë̀’?",
+                "start" : 605,
+                "end" : 629
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "que você estava fazendo?",
+                "start" : 630,
+                "end" : 655
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́...ní̵h?, hĩ̵p yí̵’...ní̵h?",
+                "start" : 658,
+                "end" : 694
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́ bi̵’ ní̵hí̵y ám?",
+                "start" : 702,
+                "end" : 727
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "como você fez?",
+                "start" : 728,
+                "end" : 743
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́ b’ay ni̵h të́g í̵n?",
+                "start" : 744,
+                "end" : 771
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "como vamos voltar?",
+                "start" : 772,
+                "end" : 790
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́ bahad ní̵hí̵y tí̵h?",
+                "start" : 791,
+                "end" : 819
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "como se parece?",
+                "start" : 820,
+                "end" : 835
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵’ ní̵hí̵y tí̵h?",
+                "start" : 836,
+                "end" : 858
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "como ele está?",
+                "start" : 859,
+                "end" : 874
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́ këy ní̵hi̵p",
+                "start" : 877,
+                "end" : 896
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́ këy ní̵hi̵p hõpán ám méhe’?",
+                "start" : 912,
+                "end" : 951
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "que tipo de peixe você matou?",
+                "start" : 952,
+                "end" : 982
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́ këy ní̵hi̵p ĩhán ã́h kë́yë́t ã́h meh të́ë́t",
+                "start" : 983,
+                "end" : 1042
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vou matar qualquer pessoa que eu vir.",
+                "start" : 1043,
+                "end" : 1080
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́t?",
+                "start" : 1083,
+                "end" : 1090
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́t ám bí̵’i̵’?",
+                "start" : 1098,
+                "end" : 1118
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "onde você trabalha?",
+                "start" : 1119,
+                "end" : 1139
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵kán ám háma’?",
+                "start" : 1140,
+                "end" : 1160
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "aonde você vai?",
+                "start" : 1161,
+                "end" : 1177
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́t ám néne’?",
+                "start" : 1178,
+                "end" : 1196
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "donde você vem?",
+                "start" : 1197,
+                "end" : 1213
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵p m’é?",
+                "start" : 1216,
+                "end" : 1227
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵p m’é ám ham të́g?",
+                "start" : 1237,
+                "end" : 1262
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quando você vai?",
+                "start" : 1263,
+                "end" : 1280
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵p m’é ám pë’ë̀’?",
+                "start" : 1281,
+                "end" : 1305
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quando você estava doente?",
+                "start" : 1306,
+                "end" : 1333
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́’ àp?",
+                "start" : 1336,
+                "end" : 1347
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́’ àp hõp kä̀k ám túku’?",
+                "start" : 1358,
+                "end" : 1391
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quantos anzóis você quer?",
+                "start" : 1392,
+                "end" : 1419
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́’ àp d’äh háma’?",
+                "start" : 1420,
+                "end" : 1444
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quantos foram?",
+                "start" : 1445,
+                "end" : 1459
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hĩ̵́’ àp mèy?",
+                "start" : 1460,
+                "end" : 1476
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quantas vezes? V.",
+                "start" : 1477,
+                "end" : 1494
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yö́’.",
+                "start" : 1495,
+                "end" : 1501
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 8,
+                "end" : 8
+            },
+    ]
+})

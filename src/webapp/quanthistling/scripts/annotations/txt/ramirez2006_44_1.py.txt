@@ -1,0 +1,134 @@
+
+manual_entries.append({
+    "fullentry" : "♦ 3. bab’ nì, hibab’ nì quatro (só com seres contáveis): bab’ nì d’äh quatro pessoas. bab’ nì ãy d’äh quatro mulheres. bab’ nì tõh quatro porcos. bab’ nì moy quatro casas. V. ayùp.",
+    "startpage" : 44,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "bab’ nì",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 5,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hibab’ nì ",
+                "start" : 15,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 26,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 26,
+                "end" : 59
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quatro (só com seres contáveis)",
+                "start" : 26,
+                "end" : 59
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3. bab’ nì, hibab’ nì",
+                "start" : 2,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bab’ nì d’äh",
+                "start" : 61,
+                "end" : 75
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quatro pessoas.",
+                "start" : 76,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bab’ nì ãy d’äh",
+                "start" : 92,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quatro mulheres.",
+                "start" : 111,
+                "end" : 127
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bab’ nì tõh",
+                "start" : 128,
+                "end" : 141
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quatro porcos.",
+                "start" : 142,
+                "end" : 156
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "bab’ nì moy",
+                "start" : 157,
+                "end" : 169
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quatro casas. V.",
+                "start" : 170,
+                "end" : 186
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ayùp.",
+                "start" : 187,
+                "end" : 193
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

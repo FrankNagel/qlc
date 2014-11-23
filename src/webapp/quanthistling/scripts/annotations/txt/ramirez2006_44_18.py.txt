@@ -1,0 +1,113 @@
+
+manual_entries.append({
+    "fullentry" : "♦ 4. Hib’áh-Tẽ̀h (d’äh) mit. os primeiros humanos que surgiram das casas de transformação; o povo hup.",
+    "startpage" : 44,
+    "pos_on_page" : 18,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Hib’áh-Tẽ̀h",
+                "start" : 5,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 5,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 7,
+                "end" : 8
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "d’äh",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "mit.",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 32,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 32,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "os primeiros humanos que surgiram das casas de transformação",
+                "start" : 32,
+                "end" : 94
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 96,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 96,
+                "end" : 106
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "o povo hup",
+                "start" : 96,
+                "end" : 106
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "4. Hib’áh-Tẽ̀h (d’äh)",
+                "start" : 2,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "mit.",
+                "start" : 27,
+                "end" : 31
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

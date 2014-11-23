@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "Schwiegervater džádzy4)",
+    "startpage" : 61,
+    "pos_on_page" : 22,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "German",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "schwiegervater",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "deu",
+                "start" : 0,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Jupúa",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jupu1235",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "džádzy",
+                "start" : 15,
+                "end" : 25
+            },
+            {
+                "type" : "formatting",
+                "value" : "superscript",
+                "string" : "4",
+                "start" : 23,
+                "end" : 24
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 14,
+                "end" : 14
+            },
+    ]
+})

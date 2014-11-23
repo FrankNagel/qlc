@@ -1,0 +1,295 @@
+
+manual_entries.append({
+    "fullentry" : "d’ö́’ 1. d’ö́’ v. tr. tirar: yùd d’ö́’! tira a roupa! dë̀h d’ö’ áy! vai tirar água! ◊ d’ö́’ v. tr. tirar (fazendo algo): tí̵h pàç höp d’ö́’ö́y ele tira pedra mergulhando. sarakà’ m’í̵’án soh d’ö́’ö́y a galinha tira bicando a minhoca. wä’ d’ö́’! grava na tua cabeça! ◊ d’ö’ w’ö́b v. tr. tirar e colocar em cima: pi̵hí̵t máj nút d’ö’ wö́b! coloca aqui o aturá de bananas! ◊ d’ö’ súd v. tr. tirar e colocar dentro: máját kùku ãh d’ö’ súdúh eu coloquei o coco no aturá. ◊ d’ö’ kë́y v. tr. pegar e olhar, tirar fotografia: d’ö’ kë́y! tira fotografia! d’ö’ kë̀y tëg fotografia.",
+    "startpage" : 63,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "d’ö́’",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 16
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "v. tr.",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 24,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 24,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "tirar",
+                "start" : 24,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö́’",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1. d’ö́’",
+                "start" : 7,
+                "end" : 16
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 17,
+                "end" : 23
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yùd d’ö́’!",
+                "start" : 31,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tira a roupa!",
+                "start" : 44,
+                "end" : 57
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dë̀h d’ö’ áy!",
+                "start" : 58,
+                "end" : 74
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "vai tirar água!",
+                "start" : 75,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö́’",
+                "start" : 94,
+                "end" : 100
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 101,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "tí̵h pàç höp d’ö́’ö́y",
+                "start" : 130,
+                "end" : 157
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "ele tira pe",
+                "start" : 158,
+                "end" : 169
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "dra mergulhando.",
+                "start" : 169,
+                "end" : 185
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sarakà’ m’í̵’án soh d’ö́’ö́y",
+                "start" : 186,
+                "end" : 219
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "a galinha tira bicando a minhoca.",
+                "start" : 220,
+                "end" : 253
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "wä’ d’ö́’!",
+                "start" : 254,
+                "end" : 266
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "grava na tua cabeça!",
+                "start" : 267,
+                "end" : 288
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö’ w’ö́b",
+                "start" : 291,
+                "end" : 303
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 304,
+                "end" : 310
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pi̵hí̵t máj nút d’ö’ wö́b!",
+                "start" : 336,
+                "end" : 367
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "coloca aqui o aturá de bananas!",
+                "start" : 368,
+                "end" : 400
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö’ súd",
+                "start" : 403,
+                "end" : 413
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 414,
+                "end" : 420
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "máját kùku ãh d’ö’ súdúh",
+                "start" : 445,
+                "end" : 476
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "eu coloquei o coco no aturá.",
+                "start" : 477,
+                "end" : 506
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö’ kë́y",
+                "start" : 509,
+                "end" : 520
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "v. tr.",
+                "start" : 521,
+                "end" : 527
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö’ kë́y!",
+                "start" : 561,
+                "end" : 573
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tira fotografia!",
+                "start" : 574,
+                "end" : 590
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "d’ö’ kë̀y tëg",
+                "start" : 591,
+                "end" : 607
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "fotografia.",
+                "start" : 608,
+                "end" : 619
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "hyphen",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "newline",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "pagebreak",
+                "string" : "",
+                "start" : 169,
+                "end" : 169
+            },
+    ]
+})

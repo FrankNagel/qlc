@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "♦ 2. sĩh náw, sĩh häw náw cheiroso: s’ó sĩh náw a flor está cheirosa.",
+    "startpage" : 160,
+    "pos_on_page" : 2,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sĩh náw",
+                "start" : 5,
+                "end" : 14
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 5,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "sĩh häw náw",
+                "start" : 16,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 31,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 31,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "cheiroso",
+                "start" : 31,
+                "end" : 39
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2. sĩh náw, sĩh häw náw",
+                "start" : 2,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "s’ó sĩh náw",
+                "start" : 41,
+                "end" : 55
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "a flor está cheirosa.",
+                "start" : 56,
+                "end" : 78
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

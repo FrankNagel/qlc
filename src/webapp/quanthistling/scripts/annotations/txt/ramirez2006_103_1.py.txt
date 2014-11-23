@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "b’ók d’ö’ yö́’, hũyã́w hiki̵t súd! tira a panela, corta e coloca dentro um por um os pedaços de paca!",
+    "startpage" : 103,
+    "pos_on_page" : 1,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 0,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "b’ók d’ö’ yö́’",
+                "start" : 0,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 40
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hũyã́w hiki̵t súd",
+                "start" : 19,
+                "end" : 39
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "tira a panela, corta e coloca dentro um por um os pedaços de paca!",
+                "start" : 41,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "b’ók d’ö’ yö́’, hũyã́w hiki̵t súd!",
+                "start" : 0,
+                "end" : 40
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "tira a panela, corta e coloca dentro um por um os pedaços de paca!",
+                "start" : 41,
+                "end" : 108
+            },
+    ]
+})

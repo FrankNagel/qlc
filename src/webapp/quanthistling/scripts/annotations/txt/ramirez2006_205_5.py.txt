@@ -1,0 +1,267 @@
+
+manual_entries.append({
+    "fullentry" : "ya’ám ♦ 1. ya’ám n. ind. onça (termo genérico para os mamíferos da família dos felídeos). ◊ ya’am-pö̀g n. ind. onça-pintada (Panthera onca). ◊ ya’am-s’á n. ind. onça-preta. ◊ ya’am-dö̀ n. ind. onça-vermelha (Puma concolor). ◊ ya’am-hí̵’ n. ind. maracajá-açu (Leopardus pardalis). ◊ ya’am-tẽ́h n. ind. certo tipo de maracajá ou gato silvestre (Leopardus sp.). ◊ mèt-ya’ám n. ind. certo tipo de gato silvestre (provavelmente, Herpailurus yaguarondi). ◊ waj’-ya’ám n. ind. certo tipo de onça. ◊ pi̵hí̵t-k’et-ya’ám n. ind. certo tipo de onça grande. ◊ ëy-wed-ya’ám n. ind. certo tipo de onça. ◊ ya’ám-sõ̀h-dëh n. ind. “inverno da onça” (enchente no começo do inverno).",
+    "startpage" : 205,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ya’ám",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 12,
+                "end" : 18
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n. ind.",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 27,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 27,
+                "end" : 95
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "onça",
+                "start" : 27,
+                "end" : 32
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "termo genérico para os mamíferos da família dos felídeos",
+                "start" : 33,
+                "end" : 96
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’ám",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "1. ya’ám",
+                "start" : 9,
+                "end" : 18
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 19,
+                "end" : 26
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’am-pö̀g",
+                "start" : 99,
+                "end" : 110
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 111,
+                "end" : 118
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Panthera onca",
+                "start" : 134,
+                "end" : 147
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’am-s’á",
+                "start" : 152,
+                "end" : 162
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 163,
+                "end" : 170
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’am-dö̀",
+                "start" : 186,
+                "end" : 196
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 197,
+                "end" : 204
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Puma concolor",
+                "start" : 221,
+                "end" : 234
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’am-hí̵’",
+                "start" : 239,
+                "end" : 250
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 251,
+                "end" : 258
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Leopardus pardalis",
+                "start" : 275,
+                "end" : 293
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’am-tẽ́h",
+                "start" : 298,
+                "end" : 309
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 310,
+                "end" : 317
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Leopardus sp.",
+                "start" : 361,
+                "end" : 374
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "mèt-ya’ám",
+                "start" : 379,
+                "end" : 390
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 391,
+                "end" : 398
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "Herpailurus yaguarondi",
+                "start" : 444,
+                "end" : 466
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "waj’-ya’ám",
+                "start" : 471,
+                "end" : 482
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 483,
+                "end" : 490
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pi̵hí̵t-k’et-ya’ám",
+                "start" : 514,
+                "end" : 534
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 535,
+                "end" : 542
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ëy-wed-ya’ám",
+                "start" : 573,
+                "end" : 587
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 588,
+                "end" : 595
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ya’ám-sõ̀h-dëh",
+                "start" : 619,
+                "end" : 636
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 637,
+                "end" : 644
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

@@ -1,0 +1,127 @@
+
+manual_entries.append({
+    "fullentry" : "♦ 3. dëh-mí, dëmí, nimí n. ind. curso d’água: dëh-mi pö̀g rio grande. dëh-mi tẽ́h riacho, igarapé.",
+    "startpage" : 59,
+    "pos_on_page" : 12,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 4,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dëh-mí",
+                "start" : 5,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 5,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "dëmí",
+                "start" : 15,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "nimí",
+                "start" : 23,
+                "end" : 28
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n. ind.",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 37,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 37,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "curso d’água",
+                "start" : 37,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "3. dëh-mí, dëmí, nimí",
+                "start" : 2,
+                "end" : 28
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 29,
+                "end" : 36
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dëh-mi pö̀g",
+                "start" : 52,
+                "end" : 65
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "rio grande.",
+                "start" : 66,
+                "end" : 77
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "dëh-mi tẽ́h",
+                "start" : 78,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "riacho, igarapé.",
+                "start" : 92,
+                "end" : 109
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

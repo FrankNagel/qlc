@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "tōten džeibóratahá9)",
+    "startpage" : 65,
+    "pos_on_page" : 62,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "German",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tōten",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "deu",
+                "start" : 0,
+                "end" : 6
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Jupúa",
+                "start" : 7,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jupu1235",
+                "start" : 7,
+                "end" : 24
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "džeibóratahá",
+                "start" : 7,
+                "end" : 24
+            },
+            {
+                "type" : "formatting",
+                "value" : "superscript",
+                "string" : "9",
+                "start" : 22,
+                "end" : 23
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 6,
+                "end" : 6
+            },
+    ]
+})

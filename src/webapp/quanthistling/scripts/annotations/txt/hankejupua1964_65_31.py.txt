@@ -1,0 +1,64 @@
+
+manual_entries.append({
+    "fullentry" : "hinaufsteigen džemyhatahá9)",
+    "startpage" : 65,
+    "pos_on_page" : 31,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "German",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "hinaufsteigen",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "deu",
+                "start" : 0,
+                "end" : 13
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Jupúa",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jupu1235",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "džemyhatahá",
+                "start" : 14,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "superscript",
+                "string" : "9",
+                "start" : 27,
+                "end" : 28
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 13,
+                "end" : 13
+            },
+    ]
+})

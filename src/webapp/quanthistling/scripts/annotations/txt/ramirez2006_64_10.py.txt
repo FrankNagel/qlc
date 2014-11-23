@@ -1,0 +1,85 @@
+
+manual_entries.append({
+    "fullentry" : "♦ 2. Dög-M’èh-Tẽ̀h (d’äh) certo clã hup da Santo Atanásio («Descendentes da cobra dög-m’èh»).",
+    "startpage" : 64,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 4,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "Dög-M’èh-Tẽ̀h",
+                "start" : 5,
+                "end" : 21
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 5,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "boundary",
+                "string" : "morpheme boundary",
+                "start" : 10,
+                "end" : 11
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "d’äh",
+                "start" : 22,
+                "end" : 29
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 30,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 30,
+                "end" : 100
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "certo clã hup da santo atanásio («descendentes da cobra dög-m’èh»)",
+                "start" : 30,
+                "end" : 100
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "2. Dög-M’èh-Tẽ̀h (d’äh)",
+                "start" : 2,
+                "end" : 29
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 0,
+                "end" : 0
+            },
+    ]
+})

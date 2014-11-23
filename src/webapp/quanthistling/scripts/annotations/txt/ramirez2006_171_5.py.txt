@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "(su)k’èt n. ind. folha, palma: buhúh k’et folha de cucura. yuhúm k’et folha de abacateiro. pi̵hí̵t k’et folha de bananeira. s’àk k’et palma de buritizeiro. sìp k’et folha de biribá. hõ̀p hisú’ k’et folha que se põe em cima do peixe quando se moqueia. hí̵’ k’et folha de papel.",
+    "startpage" : 171,
+    "pos_on_page" : 5,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "suk’èt",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "k’èt",
+                "start" : 4,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "pos",
+                "string" : "n. ind.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "folha",
+                "start" : 18,
+                "end" : 23
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "palma",
+                "start" : 25,
+                "end" : 30
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "(su)k’èt",
+                "start" : 0,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "n. ind.",
+                "start" : 10,
+                "end" : 17
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "buhúh k’et",
+                "start" : 32,
+                "end" : 43
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "folha de cucura.",
+                "start" : 44,
+                "end" : 60
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "yuhúm k’et",
+                "start" : 61,
+                "end" : 72
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "folha de abacateiro.",
+                "start" : 73,
+                "end" : 93
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "pi̵hí̵t k’et",
+                "start" : 94,
+                "end" : 107
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "folha de bananeira.",
+                "start" : 108,
+                "end" : 127
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "s’àk k’et",
+                "start" : 128,
+                "end" : 138
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "palma de buritizeiro.",
+                "start" : 139,
+                "end" : 160
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "sìp k’et",
+                "start" : 161,
+                "end" : 170
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "folha de biribá.",
+                "start" : 171,
+                "end" : 188
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hõ̀p hisú’ k’et",
+                "start" : 189,
+                "end" : 206
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "folha que se põe em cima do peixe quando se moqueia.",
+                "start" : 207,
+                "end" : 260
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "hí̵’ k’et",
+                "start" : 261,
+                "end" : 271
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "folha de papel.",
+                "start" : 272,
+                "end" : 287
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 9,
+                "end" : 9
+            },
+    ]
+})

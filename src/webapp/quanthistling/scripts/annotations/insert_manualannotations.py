@@ -33,8 +33,6 @@ def main(argv):
     metadata.create_all(bind=Session.bind)
 
     for book in quanthistling.dictdata.books.list:
-        #if book["bibtex_key"] != 'fastmowitz2008':
-        #continue
         if len(argv) > 2 and book["bibtex_key"] not in argv[2:]:
             print "skipping", book["bibtex_key"]
             continue
@@ -76,7 +74,7 @@ def main(argv):
         Session.commit()
 
     for book in quanthistling.dictdata.wordlistbooks.list:
-        #if book["bibtex_key"] != 'eberhard2005':
+        #if book["bibtex_key"] != 'nimuendaju1955':
         #    continue
 
         #print book["bibtex_key"]

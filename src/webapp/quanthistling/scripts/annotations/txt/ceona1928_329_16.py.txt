@@ -1,0 +1,71 @@
+
+manual_entries.append({
+    "fullentry" : "Kanco... Barbasco de corteza de arbol. – Tuhuco... Lo mismo.",
+    "startpage" : 329,
+    "pos_on_page" : 16,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ceona",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kanco",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "snn",
+                "start" : 0,
+                "end" : 5
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 9,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 9,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "barbasco de corteza de árbol",
+                "start" : 9,
+                "end" : 37
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ceona",
+                "start" : 41,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "tuhuco",
+                "start" : 41,
+                "end" : 47
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "snn",
+                "start" : 41,
+                "end" : 47
+            },
+    ]
+})

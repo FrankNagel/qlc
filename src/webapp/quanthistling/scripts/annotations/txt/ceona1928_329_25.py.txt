@@ -1,0 +1,57 @@
+
+manual_entries.append({
+    "fullentry" : "Kantiyo... Flor de la caña brava q.e sirve de fle...",
+    "startpage" : 329,
+    "pos_on_page" : 25,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Ceona",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "kantiyo",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "snn",
+                "start" : 0,
+                "end" : 7
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Castellano",
+                "start" : 11,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "spa",
+                "start" : 11,
+                "end" : 50
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "flor de la caña brava q.e sirve de flecha",
+                "start" : 11,
+                "end" : 50
+            },
+            {
+                "type" : "formatting",
+                "value" : "superscript",
+                "string" : "e",
+                "start" : 36,
+                "end" : 37
+            },
+    ]
+})

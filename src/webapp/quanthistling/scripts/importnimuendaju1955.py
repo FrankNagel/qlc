@@ -107,7 +107,6 @@ def main(argv):
 
                 lang = unicodedata.normalize("NFD", data["language_bookname"])
 
-
                 if re_page.match(l):
                     match_page = re_page.match(l)
                     page = int(match_page.group(1))
@@ -148,7 +147,7 @@ def main(argv):
                                     pos_on_page + parts_index)
                         pos_on_page += len(parts)
 
-        print(u"  DONE language {0}.".format(lang))
+        print("  DONE language {0}.".format(lang.encode("utf-8")))
         # store concepts
         if data["language_name"] == u"Portuguese":
             for concept_id, _ in counterparts.items():

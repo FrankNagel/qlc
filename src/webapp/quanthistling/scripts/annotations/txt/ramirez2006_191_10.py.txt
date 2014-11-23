@@ -1,0 +1,204 @@
+
+manual_entries.append({
+    "fullentry" : "ùy? quem?: ùy yú? quem é? ùy yúáh? quem era aquele? ùyút? com quem? ùy nì̵h nup? de quem é isto? ùyán ám nó’o’? para quem você deu? ùyán d’ähä́t ní̵g s’om áya’? com quais pessoas vocês foram tomar banho? ùyút ã́h ham tég? com quem irei? ùy s’ë́kë’? quem roubou? ùy s’ëk ë̀’? quem estava roubando? ùy hõ̀p wéde’ kéyéy ám? você viu quem comeu o peixe?",
+    "startpage" : 191,
+    "pos_on_page" : 10,
+    "annotations" : [
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Hup",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "head",
+                "string" : "ùy",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "jup",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "doculect",
+                "string" : "Português",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "iso-639-3",
+                "string" : "por",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "dictinterpretation",
+                "value" : "translation",
+                "string" : "quem",
+                "start" : 5,
+                "end" : 9
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy?",
+                "start" : 0,
+                "end" : 4
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy yú?",
+                "start" : 12,
+                "end" : 20
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quem é?",
+                "start" : 21,
+                "end" : 29
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy yúáh?",
+                "start" : 30,
+                "end" : 41
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quem era aquele?",
+                "start" : 42,
+                "end" : 58
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùyút?",
+                "start" : 59,
+                "end" : 66
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "com quem?",
+                "start" : 67,
+                "end" : 76
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy nì̵h nup?",
+                "start" : 77,
+                "end" : 91
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "de quem é isto?",
+                "start" : 92,
+                "end" : 108
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùyán ám nó’o’?",
+                "start" : 109,
+                "end" : 127
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "para quem você deu?",
+                "start" : 128,
+                "end" : 148
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùyán d’ähä́t ní̵g s’om áya’?",
+                "start" : 149,
+                "end" : 183
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "com quais pessoas vocês foram tomar banho?",
+                "start" : 184,
+                "end" : 227
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùyút ã́h ham tég?",
+                "start" : 228,
+                "end" : 249
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "com quem irei?",
+                "start" : 250,
+                "end" : 264
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy s’ë́kë’?",
+                "start" : 265,
+                "end" : 279
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quem roubou?",
+                "start" : 280,
+                "end" : 292
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy s’ëk ë̀’?",
+                "start" : 293,
+                "end" : 308
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "quem estava roubando?",
+                "start" : 309,
+                "end" : 330
+            },
+            {
+                "type" : "formatting",
+                "value" : "bold",
+                "string" : "ùy hõ̀p wéde’ kéyéy ám?",
+                "start" : 331,
+                "end" : 360
+            },
+            {
+                "type" : "formatting",
+                "value" : "italic",
+                "string" : "você viu quem comeu o peixe?",
+                "start" : 361,
+                "end" : 390
+            },
+            {
+                "type" : "pagelayout",
+                "value" : "tab",
+                "string" : "",
+                "start" : 4,
+                "end" : 4
+            },
+    ]
+})

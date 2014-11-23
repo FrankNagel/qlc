@@ -92,13 +92,13 @@ def insert_wordlistdata_to_db(Session, data, book):
         wordlistdata.language_iso = language_iso
 
     if data['language_bookname'] != "":
-        language_bookname = Session.query(model.LanguageBookname).filter_by(name=data['language_bookname']).first()
+        lang_bookname = data['language_bookname']
+        lang_bookname = normalize_stroke(lang_bookname)
+        lang_bookname = unicodedata.normalize("NFD", lang_bookname)
+        language_bookname = Session.query(model.LanguageBookname).filter_by(name=lang_bookname).first()
         if language_bookname == None:
-            lang_bookname = data['language_bookname']
-            lang_bookname = normalize_stroke(lang_bookname)
-            lang_bookname = unicodedata.normalize("NFD", lang_bookname)
+            language_bookname = insert_language_bookname_to_db(Session, lang_bookname)
 
-            language_bookname = insert_language_bookname_to_db(Session, data['language_bookname'])
         wordlistdata.language_bookname = language_bookname
     
     Session.add(wordlistdata)
